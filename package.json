@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js",
+    "update": "node src/update.mjs"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

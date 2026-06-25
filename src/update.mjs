@@ -7,6 +7,12 @@ import Groq from "groq-sdk";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { Mistral } from "@mistralai/mistralai";
 import fs from "fs";
+import {
+  LABEL_SYSTEM,
+  DISCUSSION_SYSTEM,
+  EXPLAIN_SYSTEM,
+  EXPLAIN_FALLBACK_SYSTEM,
+} from "./prompt.js";
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY) : null;
@@ -291,7 +297,7 @@ async function generateLabel(title, articleText, commentTexts) {
   const a = articleText ? `Article:\n${articleText.slice(0, 3000)}\n\n` : "";
   const c = commentTexts.length ? `Comments:\n${formatComments(commentTexts).slice(0, 3000)}` : "";
   return await llmCall(
-    "Write one line that says what's interesting here. No markdown, no formatting. No 'I', 'we', 'you', 'this post', 'this article', 'this blog', 'discover', 'fascinating', 'incredible'. No framing. Just state the substance directly. Like: 'Oracle uses file locking to test if a file is the same, so writes can race.'",
+    LABEL_SYSTEM,
     `Title: ${title}\n\n${a}${c}`
   );
 }
@@ -299,7 +305,7 @@ async function generateLabel(title, articleText, commentTexts) {
 async function generateDiscussion(title, commentTexts) {
   if (!commentTexts.length) return "No comments.";
   return await llmCall(
-    "Report what commenters actually said. Just their takes, disagreements, and insights — no introduction, no framing, no 'commenters discuss'. Start directly with the substance. No markdown, no bullet points.",
+    DISCUSSION_SYSTEM,
     `Title: ${title}\n\nComments:\n${formatComments(commentTexts).slice(0, 3000)}`
   );
 }
@@ -307,14 +313,14 @@ async function generateDiscussion(title, commentTexts) {
 async function generateExplain(title, articleText, commentTexts) {
   if (articleText && articleText.length > 100) {
     return await llmCall(
-      "Explain what this is about — the core idea and why it matters. Just state it plainly like a person would. No 'this article', 'this post', 'the author'. No markdown, no bullet points. Short and direct.",
+      EXPLAIN_SYSTEM,
       `Title: ${title}\n\nArticle:\n${articleText.slice(0, 3000)}`
     );
   }
   const c = commentTexts?.length
     ? "\n\nComments:\n" + formatComments(commentTexts).slice(0, 2000) : "";
   return await llmCall(
-    "Based on the title and what people are saying, explain what the deal is. State the idea directly. No 'this article', 'this post'. No markdown, no bullet points.",
+    EXPLAIN_FALLBACK_SYSTEM,
     `Title: ${title}${c}`
   );
 }

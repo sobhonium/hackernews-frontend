@@ -41,8 +41,8 @@ echo 'MISTRAL_API_KEY=your_key' >> .env
 echo 'OPENROUTER_API_KEY=your_key' >> .env
 
 npm install
-node update.mjs
-node server.js
+node src/update.mjs
+node src/server.js
 ```
 
 Open http://localhost:3000 in a browser.
@@ -59,11 +59,13 @@ The workflow runs automatically every 10 minutes. Trigger manually from Actions 
 ## Project structure
 
 ```
-├── index.html           Entry point
+├── index.html           Entry point (root for GH Pages)
 ├── styles.css           Magazine-style CSS
 ├── hackernews.js        Frontend rendering logic
-├── update.mjs           Data pipeline (HN → LLM → images → SQLite → JSON)
-├── server.js            Local dev server on port 3000
+├── src/
+│   ├── update.mjs       Data pipeline (HN → LLM → images → SQLite → JSON)
+│   ├── prompt.js        LLM system prompts
+│   └── server.js        Local dev server on port 3000
 ├── data.json            Generated story data (committed)
 ├── images/              Generated AI images (committed)
 ├── bg.jpg               Page background
