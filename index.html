@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News Magazine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="logo">
+                <span class="logo-mark">Y</span>
+                <span class="logo-text">Hacker<span class="logo-highlight">News</span></span>
+            </div>
+            <nav>
+                <span class="nav-badge">top</span>
+                <span class="nav-count" id="story-count">top 20</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="loading">
+            <div class="spinner"></div>
+            <p class="loading-text">Curating top stories...</p>
+            <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+        </div>
+
+        <div id="error" class="error-message" hidden>
+            <h2>Something went wrong</h2>
+            <p id="error-msg"></p>
+            <button onclick="location.reload()">Try Again</button>
+        </div>
+
+        <section id="featured-section" hidden></section>
+        <section id="magazine-grid" hidden></section>
+    </main>
+
+    <footer>
+        <p>Curated from <a href="https://news.ycombinator.com" target="_blank">Hacker News</a></p>
+    </footer>
+
+    <script src="hackernews.js"></script>
+</body>
+</html>
