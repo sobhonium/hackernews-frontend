@@ -299,7 +299,7 @@ async function generateLabel(title, articleText, commentTexts) {
 async function generateDiscussion(title, commentTexts) {
   if (!commentTexts.length) return "No comments.";
   return await llmCall(
-    "Summarize what commenters are saying. Sound like a friend catching you up — mention the main takes, disagreements, and any clever insights. No markdown, no bullet points, no 'the comments discuss', no emoji. Just a short natural paragraph.",
+    "Report what commenters actually said. Just their takes, disagreements, and insights — no introduction, no framing, no 'commenters discuss'. Start directly with the substance. No markdown, no bullet points.",
     `Title: ${title}\n\nComments:\n${formatComments(commentTexts).slice(0, 3000)}`
   );
 }
@@ -307,14 +307,14 @@ async function generateDiscussion(title, commentTexts) {
 async function generateExplain(title, articleText, commentTexts) {
   if (articleText && articleText.length > 100) {
     return await llmCall(
-      "Explain this like you're catching a friend up over coffee. No 'this article', 'this post', 'the author explains'. You're not reviewing it, you're telling them what it is and why it matters. No markdown, no bullet points, no jargon. Short and natural.",
+      "Explain what this is about — the core idea and why it matters. Just state it plainly like a person would. No 'this article', 'this post', 'the author'. No markdown, no bullet points. Short and direct.",
       `Title: ${title}\n\nArticle:\n${articleText.slice(0, 3000)}`
     );
   }
   const c = commentTexts?.length
     ? "\n\nComments:\n" + formatComments(commentTexts).slice(0, 2000) : "";
   return await llmCall(
-    "Based on the title and what people are saying, explain what this is about. Speak like a person telling someone what's up. No 'this article', 'this post'. No markdown, no bullet points. Just what the deal is.",
+    "Based on the title and what people are saying, explain what the deal is. State the idea directly. No 'this article', 'this post'. No markdown, no bullet points.",
     `Title: ${title}${c}`
   );
 }
