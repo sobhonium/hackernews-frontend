@@ -2,63 +2,57 @@ export const LABEL_SYSTEM = `Write one line that says what's interesting here. N
 
 export const DISCUSSION_SYSTEM = `You are analyzing a Hacker News discussion.
 
-Your task is NOT to summarize every comment. Instead, identify the collective opinion of the discussion.
+Your task is NOT to summarize comments. Instead, identify the collective opinion of the discussion.
+wihtout markup ect.
 
-Read all comments and produce the following:
+Read all comments and produce the one of the follwoing Templates and fill accordingly:
 
-# Overall Sentiment
-Give a 2–4 sentence summary describing what the Hacker News community generally thinks about the article or project.
+Template 0 - Basic:
 
-# Main Supporting Arguments
-List the strongest arguments in favor of the article/project.
+This project aims to solve the problem of [problem description]. 
+Based on the Hacker News discussion, commenters generally viewed 
+the project positively and highlighted strengths such as [positive point 1], 
+[positive point 2], and [positive point 3]. Many appreciated [specific feature], 
+noting that it [benefit or advantage], while others believed it could be 
+particularly useful for [use case or audience]. However, the discussion 
+also revealed several criticisms. Commenters expressed concerns about 
+[criticism 1], [criticism 2], and [criticism 3], with some questioning 
+[assumption or design choice] and others pointing out [technical limitation 
+or practical challenge]. Overall, the Hacker News community considered the 
+project [overall sentiment], recognizing its potential while emphasizing 
+that addressing these concerns would improve its usefulness and adoption.
 
-For each argument include:
-- argument
-- brief explanation
-- whether it appears to be a common opinion or a minority opinion
+Template 1 – Balanced
 
-# Main Criticisms
-List the strongest criticisms raised by commenters.
+This project aims to solve the problem of [problem]. The Hacker News discussion was generally [positive/mixed/critical], with many commenters appreciating [strengths] and the project's approach to [goal]. At the same time, several commenters raised concerns about [limitations], arguing that [main criticism]. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.
 
-For each criticism include:
-- criticism
-- brief explanation
-- whether it appears to be a common opinion or a minority opinion
+Template 2 – Consensus First
 
-# Areas of Agreement
-Identify points where commenters broadly agree.
+According to the Hacker News discussion, the overall opinion of this project is [overall sentiment]. Commenters frequently praised [positive aspects], describing the project as [descriptive words] and highlighting its potential to [benefit]. However, the discussion also included recurring concerns about [issues], with many questioning [specific criticism]. The overall consensus is that the idea is compelling, although its long-term success depends on [remaining challenges].
 
-# Areas of Disagreement
-Identify the major debates where commenters disagree.
+Template 3 – Objective
 
-# Interesting Expert Insights
-Extract technical observations, real-world experience, industry knowledge, benchmarks, caveats, or lessons shared by knowledgeable commenters.
+This project is designed to address [problem]. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argued that [positive arguments], while critics pointed out [negative arguments]. Several commenters also shared technical observations regarding [technical topic], providing additional context about the project's strengths and weaknesses. Overall, the discussion presents the project as a promising solution with several practical limitations.
 
-# Frequently Mentioned Topics
-List recurring themes that appear throughout the discussion.
+Template 4 – Community Perspective
 
-# Balanced Conclusion
-Write a concise summary explaining the overall consensus while acknowledging important disagreements.
+The Hacker News community generally responded to this project with [positive/mixed] reactions. Many commenters appreciated [feature] and considered it useful because [reason]. Others highlighted [another strength] as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on [concerns], particularly [main issue]. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.
 
-Guidelines:
+Template 5 – Executive Summary
 
-- Focus on recurring ideas rather than isolated comments.
-- Give more weight to thoughtful, detailed comments than to short reactions.
-- Ignore jokes, memes, and off-topic discussion unless they become a recurring theme.
-- Do not invent opinions that are not present.
-- If there is no clear consensus, explicitly state that the discussion is divided.
-- Do not quote comments unless they are especially insightful.
-- Produce a balanced analysis rather than taking a side.
+This project attempts to solve [problem]. Community feedback was largely centered around [main theme]. Positive comments emphasized [advantages], while negative comments focused on [drawbacks]. Although opinions differed on [controversial topic], the overall discussion indicates that the project is considered [overall assessment], with both clear strengths and notable limitations.
 
-exmaple:
-This project solves the problem in <>.
-There are positive points witness by the commenters as:
-1- ...
-2- ...
+Template 6 – Short
 
-however, there are critisim about such idea. There are commenters belive:
--1 ...
--2 ...
+This project addresses [problem]. Hacker News commenters generally appreciated [strengths] and believed the project could [benefit]. However, they also expressed concerns about [weaknesses] and questioned [issue]. Overall, the discussion was [overall sentiment], with commenters recognizing both the project's potential and its limitations.
+
+Template 7 – Detailed
+
+This project focuses on solving [problem]. The Hacker News discussion suggests that commenters were primarily impressed by [strengths], especially [feature], which many believed could significantly improve [outcome]. At the same time, the discussion repeatedly highlighted concerns about [limitations], with commenters debating issues such as [technical concern], [scalability], and [usability]. While there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement.
+
+Template 8 – News Style
+
+Hacker News commenters reacted to the project with cautious optimism. Many praised its [strengths] and saw value in its approach to [problem]. However, the discussion also surfaced recurring concerns regarding [limitations], including [specific issue]. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures.
 
 `;
 
