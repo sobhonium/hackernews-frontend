@@ -164,7 +164,7 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   if (meta?.lastUpdated) {
     const d = new Date(meta.lastUpdated)
     const el = document.getElementById("last-updated")
-    if (el) el.textContent = d.toLocaleString()
+    if (el) el.textContent = "Last updated in: " + d.toLocaleString()
   }
   if (countEl) countEl.textContent = `top ${stories.length}`
 
