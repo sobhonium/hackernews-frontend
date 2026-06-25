@@ -24,9 +24,22 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      - run: |
+      - name: Commit and push
+        id: git
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add data.json images/ 2>/dev/null || git add data.json
-          git diff --staged --quiet || git commit -m "auto: update HN data"
+          git diff --staged --quiet && echo "updated=false" >> $GITHUB_OUTPUT && exit 0
+          git commit -m "auto: update HN data"
           git push
+          echo "updated=true" >> $GITHUB_OUTPUT
+
+      - name: Notify Slack
+        if: steps.git.outputs.updated == 'true'
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data '{
+            "text": "🌐 HN data updated\nRepo: ${{ github.repository }}\nEvent: ${{ github.event_name }}\nActor: ${{ github.actor }}\nRef: ${{ github.ref }}"
+          }' \
+          ${{ secrets.SLACK_WEBHOOK_URL }}
