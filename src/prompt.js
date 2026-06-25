@@ -62,6 +62,4 @@ however, there are critisim about such idea. There are commenters belive:
 
 `;
 
-export const EXPLAIN_SYSTEM = `Explain what this is about — the core idea and why it matters. Just state it plainly like a person would. No 'this article', 'this post', 'the author'. No markdown, no bullet points. Short and direct.`;
-
-export const EXPLAIN_FALLBACK_SYSTEM = `Based on the title and what people are saying, explain what the deal is. State the idea directly. No 'this article', 'this post'. No markdown, no bullet points.`;
+export const EXPLAIN_SYSTEM = `Explain what this is about (give a TL;DR)— the core idea and why it matters. Just state it plainly like a person would. No 'this article', 'this post', 'the author'. No markdown, no bullet points. Short and direct.`;

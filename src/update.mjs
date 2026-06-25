@@ -11,7 +11,6 @@ import {
   LABEL_SYSTEM,
   DISCUSSION_SYSTEM,
   EXPLAIN_SYSTEM,
-  EXPLAIN_FALLBACK_SYSTEM,
 } from "./prompt.js";
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
@@ -317,12 +316,7 @@ async function generateExplain(title, articleText, commentTexts) {
       `Title: ${title}\n\nArticle:\n${articleText.slice(0, 3000)}`
     );
   }
-  const c = commentTexts?.length
-    ? "\n\nComments:\n" + formatComments(commentTexts).slice(0, 2000) : "";
-  return await llmCall(
-    EXPLAIN_FALLBACK_SYSTEM,
-    `Title: ${title}${c}`
-  );
+  return null;
 }
 
 // ── Main ──
