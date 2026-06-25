@@ -13,7 +13,8 @@ const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GE
 const mistral = process.env.MISTRAL_API_KEY ? new Mistral({ apiKey: process.env.MISTRAL_API_KEY }) : null;
 const DB_PATH = "HN_data.db";
 const JSON_PATH = "data.json";
-const TOP_N = 20;
+const MAX_STORIES = 30;
+const FETCH_N = 15;
 const MAX_COMMENTS = 20;
 
 // ── SQLite helpers (callback → promise) ──
@@ -339,14 +340,29 @@ async function main() {
     groq_explain TEXT
   )`);
 
+  // Load existing queue from data.json
+  let queue = [];
+  try {
+    const existing = JSON.parse(fs.readFileSync(JSON_PATH, "utf-8"));
+    queue = (existing.stories || existing).filter(s => s && s.id);
+  } catch { queue = []; }
+  const existingIds = new Set(queue.map(s => s.id));
+  console.log(`Loaded ${queue.length} existing stories.`);
+
   console.log("Fetching story IDs...");
   const ids = await fetch(
     "https://hacker-news.firebaseio.com/v0/topstories.json"
   ).then((r) => r.json());
 
-  const selected = ids.slice(0, TOP_N);
+  const selected = ids.slice(0, FETCH_N);
 
   for (const id of selected) {
+    // Skip if already in queue
+    if (existingIds.has(id)) {
+      console.log(`[${id}] Already in queue, skipping fetch.`);
+      continue;
+    }
+
     console.log(`\n[${id}] Fetching story...`);
     const res = await fetch(
       `https://hacker-news.firebaseio.com/v0/item/${id}.json`
@@ -354,61 +370,36 @@ async function main() {
     const story = await res.json();
     if (!story) { console.log(`  Skipping (no data)`); continue; }
 
-    // Check if Groq fields already exist
-    const existing = await dbGet(db,
-      `SELECT og_image, groq_label, groq_discussion, groq_explain FROM HN_topstories WHERE id = ?`,
-      [id]
-    );
-
-    const skipGroq = existing?.groq_label && existing?.groq_discussion && existing?.groq_explain;
-    const existingOg = existing?.og_image;
-
     let ogImage = null;
     let articleText = "";
     let commentTexts = [];
     let label, discussion, explain;
 
-    if (skipGroq) {
-      console.log(`  Already complete, skipping Groq.`);
-      // Still fetch OG image if current one is just a mshots fallback
-      if (existingOg && !existingOg.includes("mshots")) {
-        ogImage = existingOg;
-      }
-    }
+    // Fetch OG image
+    console.log(`  Fetching OG image...`);
+    ogImage = story.url ? await fetchOgImage(story.url) : null;
 
-    if (!ogImage) {
-      // Fetch OG image
-      console.log(`  Fetching OG image...`);
-      ogImage = story.url ? await fetchOgImage(story.url) : null;
-    }
+    // Fetch article text + comments in parallel
+    console.log(`  Fetching article + comments...`);
+    [articleText, commentTexts] = await Promise.all([
+      story.url ? fetchArticleText(story.url) : Promise.resolve(""),
+      fetchComments(story.kids),
+    ]);
 
-    if (!skipGroq) {
-      // Fetch article text + comments in parallel
-      console.log(`  Fetching article + comments...`);
-      [articleText, commentTexts] = await Promise.all([
-        story.url ? fetchArticleText(story.url) : Promise.resolve(""),
-        fetchComments(story.kids),
-      ]);
+    // Generate LLM fields
+    console.log(`  Generating label...`);
+    label = await generateLabel(story.title, articleText, commentTexts);
 
-      // Generate LLM fields (tries Groq → Gemini → Mistral → OpenRouter)
-      console.log(`  Generating label...`);
-      label = await generateLabel(story.title, articleText, commentTexts);
+    console.log(`  Generating discussion...`);
+    discussion = await generateDiscussion(story.title, commentTexts);
 
-      console.log(`  Generating discussion...`);
-      discussion = await generateDiscussion(story.title, commentTexts);
-
-      console.log(`  Generating explain...`);
-      explain = await generateExplain(story.title, articleText, commentTexts);
-    }
+    console.log(`  Generating explain...`);
+    explain = await generateExplain(story.title, articleText, commentTexts);
 
     // Generate AI image if no OG image found
     let finalImage = ogImage;
     if (!finalImage) {
       console.log(`  No OG image, generating AI image...`);
-      // Fetch article text if we skipped it earlier
-      if (skipGroq && !articleText) {
-        articleText = story.url ? await fetchArticleText(story.url) : "";
-      }
       finalImage = await generateImage(story.id, story.title, articleText);
       if (!finalImage) {
         finalImage = story.url
@@ -426,21 +417,37 @@ async function main() {
         story.id, story.by, story.descendants,
         JSON.stringify(story.kids || []), story.score, story.time,
         story.title, story.type, story.url, finalImage,
-        label ?? existing?.groq_label, discussion ?? existing?.groq_discussion, explain ?? existing?.groq_explain,
+        label, discussion, explain,
       ]
     );
+
+    // Add to queue
+    queue.push({
+      id: story.id, author: story.by, descendants: story.descendants,
+      kids: JSON.stringify(story.kids || []), score: story.score, time: story.time,
+      title: story.title, type: story.type, url: story.url, og_image: finalImage,
+      groq_label: label, groq_discussion: discussion, groq_explain: explain,
+    });
+    existingIds.add(story.id);
     console.log(`  ✓ Saved`);
   }
 
+  // Trim queue to latest MAX_STORIES by time
+  queue.sort((a, b) => (b.time || 0) - (a.time || 0));
+  queue = queue.slice(0, MAX_STORIES);
+
+  // Sync SQLite to match queue (delete old stories)
+  const keepIds = queue.map(s => s.id);
+  await dbRun(db, `DELETE FROM HN_topstories WHERE id NOT IN (${keepIds.join(",")})`);
+
   // Export to JSON
   console.log(`\nExporting to ${JSON_PATH}...`);
-  const rows = await dbAll(db, `SELECT * FROM HN_topstories ORDER BY score DESC`);
   const payload = {
     _meta: { lastUpdated: new Date().toISOString() },
-    stories: rows,
+    stories: queue,
   };
   fs.writeFileSync(JSON_PATH, JSON.stringify(payload, null, 2));
-  console.log(`Exported ${rows.length} stories.`);
+  console.log(`Exported ${queue.length} stories.`);
 
   db.close();
   console.log("Done.");
