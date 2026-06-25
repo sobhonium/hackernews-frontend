@@ -1,0 +1,5 @@
+.env — your API keys stay local
+node_modules/
+rubish/
+HN_data.db — raw SQLite, not needed on GitHub
+bg.png, bg-*.png — leftover experiment artifacts
