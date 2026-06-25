@@ -133,11 +133,13 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   const grid = $("magazine-grid")
   const countEl = $("story-count")
 
-  let stories
+  let stories, meta
   try {
     const res = await fetch("data.json")
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    stories = await res.json()
+    const json = await res.json()
+    stories = json.stories || json
+    meta = json._meta
   } catch (err) {
     if (loadingEl) loadingEl.hidden = true
     if (errorEl) {
@@ -157,6 +159,13 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   }
 
   if (loadingEl) loadingEl.hidden = true
+
+  /* ── Last Updated ── */
+  if (meta?.lastUpdated) {
+    const d = new Date(meta.lastUpdated)
+    const el = document.getElementById("last-updated")
+    if (el) el.textContent = d.toLocaleString()
+  }
   if (countEl) countEl.textContent = `top ${stories.length}`
 
   const discussIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`

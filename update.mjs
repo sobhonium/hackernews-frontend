@@ -435,7 +435,11 @@ async function main() {
   // Export to JSON
   console.log(`\nExporting to ${JSON_PATH}...`);
   const rows = await dbAll(db, `SELECT * FROM HN_topstories ORDER BY score DESC`);
-  fs.writeFileSync(JSON_PATH, JSON.stringify(rows, null, 2));
+  const payload = {
+    _meta: { lastUpdated: new Date().toISOString() },
+    stories: rows,
+  };
+  fs.writeFileSync(JSON_PATH, JSON.stringify(payload, null, 2));
   console.log(`Exported ${rows.length} stories.`);
 
   db.close();
