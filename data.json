@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-27T12:13:02.891Z"
+    "lastUpdated": "2026-06-27T13:49:46.349Z"
   },
   "stories": [
+    {
+      "id": 48697768,
+      "author": "speckx",
+      "descendants": 1,
+      "kids": "[48697945,48697772]",
+      "score": 23,
+      "time": 1782564196,
+      "title": "Streaming services' obnoxiously loud ads become illegal on July 1 in California",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2026/06/streaming-services-obnoxiously-loud-ads-become-illegal-on-july-1-in-california/",
+      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/GettyImages-1987915833-1152x648.jpg",
+      "groq_label": "The new California law prohibits streaming services from playing extremely loud ads, which are a common complaint among viewers.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis proposed change aims to solve the problem of obnoxiously loud ads on streaming services. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as using premium services. Many appreciated \nthe existence of ad-free options, noting that it allows consumers to [maintain control over their experience], while others believed it could be \nparticularly useful for those who value [peace and quiet]. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about \nhow people would afford premium services, implying a potential [accessibility issue]. Overall, the Hacker News community considered the \nchange as having  potential benefits for those choosing to use premium services, while emphasizing \nthat affordability should be considered as a factor for those opting for free options with ads.",
+      "groq_explain": "Starting July 1 in California, streaming services are required to make their ads less loud than the actual shows they're playing, in an effort to reduce complaints from viewers about overly loud commercials. This new law aims to address a common issue that's been bothering people, but the industry is expressing opposition, claiming it's not as simple as just turning down the volume."
+    },
+    {
+      "id": 48697560,
+      "author": "tosh",
+      "descendants": 25,
+      "kids": "[48697961,48698033,48698223,48698168,48698103,48698189,48698144,48697684,48698235]",
+      "score": 77,
+      "time": 1782562227,
+      "title": "OpenRA",
+      "type": "story",
+      "url": "https://www.openra.net/",
+      "og_image": "https://www.openra.net/images/social.jpg?t=2026-04-30-18-11",
+      "groq_label": "OpenRA balances the original game by adding features that make it enjoyable and fun to play.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of OpenRA is extremely positive. Commenters frequently praised its excellent balance, numerous features, and enjoyable gameplay. Many users have been playing the game for months, and it has become their go-to choice for a quick and fun RTS experience with friends. The community also appreciates the AI, smooth interface, and ability to easily join or create a server. The overall consensus is that OpenRA is a well-designed and engaging game that is well worth checking out.",
+      "groq_explain": null
+    },
     {
       "id": 48697504,
       "author": "zane_heng",
@@ -15,6 +45,21 @@
       "og_image": "https://bookface-images.s3.amazonaws.com/logos/49e34209296e6ac5b43b19dbb237c6beaeccbb78.png?1781189978",
       "groq_label": "Nox Metals uses machine learning to detect defects in metal manufacturing, ensuring high-quality products.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48697335,
+      "author": "cemdervis",
+      "descendants": 42,
+      "kids": "[48697884,48698271,48698121,48698036,48698125,48697947,48698024,48698216,48697983,48698123,48698091,48697996,48697988,48697960,48698060,48697940,48697991,48697814,48698087]",
+      "score": 78,
+      "time": 1782559930,
+      "title": "If you can't hold it, you don't own it",
+      "type": "story",
+      "url": "https://dervis.de/physical/",
+      "og_image": "https://dervis.de/res/img/cd.jpg",
+      "groq_label": "Amazon changed book formatting without user consent, including switching editions, when a purchase was transferred to a new device.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project discusses the idea that ownership of digital media is uncertain because of licensing agreements and potential loss of access due to contract changes. The Hacker News discussion was generally balanced, with many commenters appreciating the article's point about the risks of digital purchases and the importance of weighing the pros and cons of different ownership models. Some commenters argued that owning physical media is barely better than digital, as it can take up space and degrade over time. Others highlighted the limitations of physical media, citing issues such as the need to bind game disks to an account to play, and the possibility of outdated versions being buggy. However, the discussion also included criticisms regarding the article's focus on the negative aspects of digital ownership, with some commenters arguing that there are benefits to purchasing digital media, such as the ability to easily back up and transfer it. Overall, the discussion suggests that the community sees both the potential risks and benefits of digital ownership, and believes that the issue is complex and in need of further consideration.",
       "groq_explain": null
     },
     {
@@ -168,6 +213,21 @@
       "groq_explain": null
     },
     {
+      "id": 48675290,
+      "author": "akkartik",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 17,
+      "time": 1782402857,
+      "title": "Cultures of Making and Relating",
+      "type": "story",
+      "url": "https://blog.khinsen.net/posts/2026/06/25/cultures.html",
+      "og_image": "images/48675290.png",
+      "groq_label": "Cultures of making and relating often blur the lines between artisan craftsmanship and technology-driven innovation.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
       "id": 48670103,
       "author": "tomcam",
       "descendants": 10,
@@ -210,6 +270,21 @@
       "og_image": "images/48665671.png",
       "groq_label": "Jest mocks can lead to bad code due to a lack of type safety and overwriting of importing mechanisms.",
       "groq_discussion": "Discussion type:  – Balanced:\n\nThis Jest/Vitest interactive course aims to solve the problem of educating developers about unit testing using Jest and Vitest. The Hacker News discussion was generally critical of Jest, with many commenters expressing concerns about its mocks allowing developers to write bad code and limiting their ability to migrate to a native Node test runner. They suggested using proper mocks with TypeScript Mockito. However, some commenters praised Vitest as a brilliant software, although they noted that its vscode extension is buggy. The discussion also included a differing opinion on the usefulness of unit testing for front-end development, with one commenter arguing that it's borderline useless and expensive to maintain, while others might argue that it has value. Overall, the discussion suggests that the community sees promise in the course as a resource for learning about Jest and Vitest, but believes there are important challenges that still need to be addressed, such as the limitations of Jest and the flakiness of unit testing.",
+      "groq_explain": null
+    },
+    {
+      "id": 48645510,
+      "author": "MrCroxx",
+      "descendants": 2,
+      "kids": "[48698288,48698222,48645511]",
+      "score": 6,
+      "time": 1782224900,
+      "title": "Task Failed Successfully: Saturating NIC and Disk Bandwidth",
+      "type": "story",
+      "url": "https://blog.mrcroxx.com/posts/task-failed-successfully-saturating-nic-and-disk-bandwidth/",
+      "og_image": "https://blog.mrcroxx.com/images/og-image.webp",
+      "groq_label": "dTLB misses from scanning large buffers backed by small pages caused performance issues.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is generally neutral to positive. Commenters frequently praised the author's approach to debugging and identifying performance issues in their code. However, the discussion also included recurring concerns about the complexity and thoroughness of the initial analysis, with some suggesting that a more standard top-down approach could have revealed the issue more quickly. The overall consensus is that the project represents a successful example of performance debugging and optimizing, although the community may question the author's methods in reaching their conclusion.",
       "groq_explain": null
     },
     {
