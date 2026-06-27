@@ -1,8 +1,82 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-27T13:49:46.349Z"
+    "lastUpdated": "2026-06-27T17:17:39.205Z"
   },
   "stories": [
+    {
+      "id": 48699842,
+      "author": "awalias",
+      "kids": "[]",
+      "score": 1,
+      "time": 1782579615,
+      "title": "Supabase (YC S20) Is Hiring for Multigres",
+      "type": "job",
+      "url": "https://jobs.ashbyhq.com/supabase/2e718684-4f75-4a99-8d6b-3b6bd44e4228",
+      "og_image": "https://app.ashbyhq.com/api/images/org-theme-logo/7e5b88a8-0d79-4402-9ab8-3b8efa158966/524a0a49-dcc6-42e9-88a4-07178ef53946/0f376189-8354-41c1-83e5-05c6ab93a9c0.png",
+      "groq_label": "Supabase uses its own database as a data source for its multi-gres testing.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48698684,
+      "author": "HotGarbage",
+      "descendants": 86,
+      "kids": "[48699568,48699026,48699412,48699833,48699716,48699171,48698983,48699739,48699398,48698953,48699235,48699463,48698957,48699092,48699645,48699476,48699350,48699578,48699162]",
+      "score": 234,
+      "time": 1782571085,
+      "title": "Zuckerberg's Increasingly Bizarre War on Whistleblowers",
+      "type": "story",
+      "url": "https://pluralistic.net/2026/06/27/zuckerstreisand-2/",
+      "og_image": "https://i0.wp.com/craphound.com/images/27Jun2026.jpg?w=840&ssl=1",
+      "groq_label": "Meta's attempt to silence Wynn-Williams, who wrote a book critical of the company, involves demanding $111m and enforcing eternal auctorial silence.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Zuckerberg's actions is overwhelmingly negative. Commenters frequently criticized his behavior as malicious, describing him as disgusting and scumbag-like. They highlighted his pettiness and unwillingness to be challenged, even in private, as evidence of his character issues. Many also expressed concern about his abuse of power and manipulation of the system, such as denying access to the legal system. The consensus is that Zuckerberg's actions are a classic example of an individual with power and influence using it to silence critics and whistleblowers, and that the broader community is likely to view him and his company with increasing suspicion and disdain. However, the discussion also touched on possible motivations behind his actions, such as a genuine fear of potential revelations or a need to maintain his ego and status.",
+      "groq_explain": "Mark Zuckerberg is trying to silence whistleblowers, including the author of a book, by demanding a substantial sum of money and agreeing to never speak out against him again."
+    },
+    {
+      "id": 48698617,
+      "author": "binyu",
+      "descendants": 76,
+      "kids": "[48699400,48699673,48699267,48699549,48699726,48699543,48699749,48699272,48699823,48699349,48699214,48699199,48699691,48699775,48699581,48699711,48699397,48699444,48699679,48699665]",
+      "score": 186,
+      "time": 1782570660,
+      "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+      "type": "story",
+      "url": "https://github.com/bikini/exploitarium",
+      "og_image": "https://opengraph.githubassets.com/d0c22afc420c71293fb0d30764b70d0a2351a91f76f935d9c175ed0cf436beda/bikini/exploitarium",
+      "groq_label": "GitHub user is sharing a consolidated archive of their publicly disclosed exploits and vulnerability research, covering a wide range of software including Ghidra, 7Zip, Firefox, and more, which they claim were found through undisclosed means.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis anonymous GitHub account mass-dropping undisclosed 0-days aims to address [problem of disclosed vulnerabilities lacking timely updates]. The Hacker News discussion was generally critical, with many commenters expressing skepticism about the quality and significance of the vulnerabilities listed. Some commenters found the exploits \"pretty unimpressive\" and \"simple bugs,\" while others appreciated the documentation and complexity of some of the vulnerabilities. At the same time, several commenters raised concerns about the overuse of the term \"0-day\" and the lack of clarity regarding the source and validity of the exploits. Overall, the discussion suggests that the community sees potential value in the project but believes there are important challenges that still need to be addressed, such as the need for proper reporting and handling of vulnerabilities.",
+      "groq_explain": "This is about an anonymous person on GitHub who has been secretly creating and sharing proof-of-concept code for various vulnerabilities in software, allowing hackers to exploit them. The person is now making all of this information publicly available, potentially creating a risk for software users."
+    },
+    {
+      "id": 48698559,
+      "author": "Versipelle",
+      "descendants": 17,
+      "kids": "[48699862,48698560,48698892,48699058,48699579,48699182,48699730]",
+      "score": 54,
+      "time": 1782570220,
+      "title": "Post-Mythos Cybersecurity: Keep calm and carry on",
+      "type": "story",
+      "url": "https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/",
+      "og_image": "https://cephalosec.com/content/images/size/w1200/2026/06/cephalosec-8-trans-1.png",
+      "groq_label": "The Trump administration's decision to choose which organizations get access to AI models like Mythos establishes an asymmetry where given organizations gain offense power against others.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis article \"Post-Mythos Cybersecurity: Keep calm and carry on\" is a follow-up commentary on the Mythos model release and its implications for cybersecurity. The Hacker News discussion suggests that commenters were primarily impressed by the author's insight into the Mythos story, especially their critique of the fear-mongering surrounding the model's vulnerabilities. Many believed that the article helps put things into perspective, highlighting the scale of the effort to identify the BSD vulnerability. The discussion repeatedly highlighted concerns about the commercialization of AI security models, with commenters expressing skepticism towards the vendors' solutions and questioning the real motivations behind the US government's control over the Mythos model. The discussion also focused on the timing of Anthropic's filings and announcements, suggesting a conspiracy where the US government is choosing which organizations get access to AI models, thereby creating an asymmetry where some organizations can exploit vulnerabilities while others are left vulnerable. While there was no unanimous agreement on every aspect, the overall impression was that the article introduces an interesting critique of the AI security landscape that would benefit from a more nuanced discussion of the implications.",
+      "groq_explain": null
+    },
+    {
+      "id": 48698151,
+      "author": "tosh",
+      "descendants": 24,
+      "kids": "[48699127,48699005,48698965,48699829,48699250,48699376,48699180]",
+      "score": 94,
+      "time": 1782567140,
+      "title": "Suspicious Discontinuities",
+      "type": "story",
+      "url": "https://danluu.com/discontinuities/",
+      "og_image": "https://danluu.com/images/discontinuities/pell-2008.jpg",
+      "groq_label": "Discontinuities are often used in systems to create complex, non-linear outcomes.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article, titled \"Suspicious Discontinuities,\" addresses the problem of how certain discontinuities in statistics can be misleading. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of discontinuities and the importance of considering them in analysis. At the same time, several commenters raised concerns about the article's data and conclusions, with one commenter specifically pointing out that the UK tax system has similar discontinuities that create high marginal tax rates. Others questioned the article's examples, including the marathon example, and suggested that the issue of discontinuities is not unique to the article's focus. Overall, the discussion suggests that the community sees value in the article's idea but believes there are important challenges that still need to be addressed, such as validating the data and considering alternative explanations.",
+      "groq_explain": null
+    },
     {
       "id": 48697768,
       "author": "speckx",
@@ -17,6 +91,21 @@
       "groq_label": "The new California law prohibits streaming services from playing extremely loud ads, which are a common complaint among viewers.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis proposed change aims to solve the problem of obnoxiously loud ads on streaming services. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as using premium services. Many appreciated \nthe existence of ad-free options, noting that it allows consumers to [maintain control over their experience], while others believed it could be \nparticularly useful for those who value [peace and quiet]. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about \nhow people would afford premium services, implying a potential [accessibility issue]. Overall, the Hacker News community considered the \nchange as having  potential benefits for those choosing to use premium services, while emphasizing \nthat affordability should be considered as a factor for those opting for free options with ads.",
       "groq_explain": "Starting July 1 in California, streaming services are required to make their ads less loud than the actual shows they're playing, in an effort to reduce complaints from viewers about overly loud commercials. This new law aims to address a common issue that's been bothering people, but the industry is expressing opposition, claiming it's not as simple as just turning down the volume."
+    },
+    {
+      "id": 48697746,
+      "author": "rwmj",
+      "descendants": 52,
+      "kids": "[48699844,48698969,48699261,48698650,48698506,48699324,48699693,48698419,48699298,48698758]",
+      "score": 70,
+      "time": 1782564059,
+      "title": "How Many Elementary Particles Are There, Really?",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/how-many-elementary-particles-are-there-really-20260615/",
+      "og_image": "https://www.quantamagazine.org/wp-content/uploads/2026/06/Qualia-ElementaryParticles-crKristinaArmitage-Social.jpg",
+      "groq_label": "The number of elementary particles in the Standard Model is disputed due to differing interpretations of the theory, but the most commonly cited total is between 18 and 24 when including their corresponding antiparticles.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to discuss the number of elementary particles in the Standard Model of physics. The Hacker News discussion was generally mixed, with some commenters appreciating the complexity of the issue and others simplistically offering humorous answers like \"42.\" Many others noted that the concept of \"elementary\" particles is subjective and that different physicists may arrive at different numbers. Some commenters emphasized the mathematical distinction between particles like W and Z bosons, and gluons, the latter of which can have a continuous property of color. Others questioned the nature of particles altogether, suggesting that everything might be a wave. Overall, the discussion suggests that the community sees the issue as a complex one that requires a nuanced understanding of the underlying physics.",
+      "groq_explain": null
     },
     {
       "id": 48697560,
@@ -183,6 +272,21 @@
       "groq_explain": null
     },
     {
+      "id": 48688438,
+      "author": "LorenDB",
+      "descendants": 1,
+      "kids": "[48699801]",
+      "score": 25,
+      "time": 1782490806,
+      "title": "One man, two kernels, and a lot of RISC-V",
+      "type": "story",
+      "url": "https://www.theregister.com/software/2026/06/26/one-man-two-kernels-and-a-lot-of-risc-v/5262858",
+      "og_image": "https://image.theregister.com/5262971.jpg?imageId=5262971&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683",
+      "groq_label": "Yuri Zaporozhets implemented his RISC-V-based GateMate Personal Computer on an FPGA board, with its own OS, and has also developed a RISC-V-based mainframe called System/359, on the same board.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis QSOE project aims to solve the problem of operating system complexity. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the dual-kernel architecture and the use of RISC-V. Many appreciated the approach's potential for increased security, noting that it could be particularly useful for high-risk applications. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's complexity, scalability, and the potential for overhead, with some questioning the design choice of a dual-kernel architecture and others pointing out technical limitations such as the need for further testing and refinement. Overall, the Hacker News community considered the project promising, recognizing its potential for improved security and flexibility while emphasizing that addressing these concerns would improve its usability and adoption.",
+      "groq_explain": "A software engineer named Yuri Zaporozhets is working on various free and open-source projects related to RISC-V technology, an alternative to traditional computer chip architectures. He's building a personal computer, a miniature mainframe, and rewriting an operating system, among other projects. What matters is that his work showcases innovative uses of RISC-V technology and could potentially inspire others to work with the platform."
+    },
+    {
       "id": 48682243,
       "author": "snikolaev",
       "descendants": 1,
@@ -271,6 +375,36 @@
       "groq_label": "Jest mocks can lead to bad code due to a lack of type safety and overwriting of importing mechanisms.",
       "groq_discussion": "Discussion type:  – Balanced:\n\nThis Jest/Vitest interactive course aims to solve the problem of educating developers about unit testing using Jest and Vitest. The Hacker News discussion was generally critical of Jest, with many commenters expressing concerns about its mocks allowing developers to write bad code and limiting their ability to migrate to a native Node test runner. They suggested using proper mocks with TypeScript Mockito. However, some commenters praised Vitest as a brilliant software, although they noted that its vscode extension is buggy. The discussion also included a differing opinion on the usefulness of unit testing for front-end development, with one commenter arguing that it's borderline useless and expensive to maintain, while others might argue that it has value. Overall, the discussion suggests that the community sees promise in the course as a resource for learning about Jest and Vitest, but believes there are important challenges that still need to be addressed, such as the limitations of Jest and the flakiness of unit testing.",
       "groq_explain": null
+    },
+    {
+      "id": 48664063,
+      "author": "bushwart",
+      "descendants": 11,
+      "kids": "[48664989,48699712,48699874,48699443,48699919]",
+      "score": 43,
+      "time": 1782326532,
+      "title": "Reducing tick density along recreational trails in Ottawa, Canada",
+      "type": "story",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877959X26000476",
+      "og_image": "images/48664063.png",
+      "groq_label": "Deltamethrin-treated woodchips reduced blacklegged tick density by 99% in comparison to untreated controls.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to reduce tick density along recreational trails in Ottawa, Canada. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the use of deltamethrin-treated woodchips that significantly reduced tick density. Many appreciated the consideration of potential environmental concerns by avoiding areas near waterbodies, noting that it is a responsible approach. However, the discussion also revealed several criticisms. Commenters expressed concerns about the effectiveness of untreated woodchip borders, which only achieved a 48% reduction in tick density. Overall, the Hacker News community considered the project promising, recognizing its potential to control tick populations, but emphasizing that further study is needed to improve its effectiveness.",
+      "groq_explain": null
+    },
+    {
+      "id": 48650794,
+      "author": "EndXA",
+      "descendants": 62,
+      "kids": "[48699131,48699893,48699610,48699128,48699165,48699820,48699089,48699789,48699393,48699699,48699233,48699168,48699088,48699387,48699057,48699282]",
+      "score": 94,
+      "time": 1782246079,
+      "title": "Underarm Bowling Incident of 1981",
+      "type": "story",
+      "url": "https://en.wikipedia.org/wiki/Underarm_bowling_incident_of_1981",
+      "og_image": "https://upload.wikimedia.org/wikipedia/en/9/90/1981Underarm.jpg",
+      "groq_label": "The Australian cricket team used unconventional and widely seen as unsportsmanlike tactics, underarm bowling to prevent a six, in a 1981 match against New Zealand.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis cricket incident refers to the 1981 Underarm Bowling Incident where Australia bowled underarm to deny New Zealand a chance at winning a match. Hacker News commenters generally reacted with amusement and shared comparisons to other sports, with many noting the incident's notoriety and how it became a symbol of unsportsmanlike behavior.",
+      "groq_explain": "The 1981 underarm bowling incident in Australia involved the captain, Greg Chappell, instructing his brother, Trevor, to deliberately bowl the final ball of a cricket match underarm to prevent New Zealand from tying the match, which was against the spirit of fair play."
     },
     {
       "id": 48645510,
