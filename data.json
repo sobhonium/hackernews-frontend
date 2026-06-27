@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-27T17:17:39.205Z"
+    "lastUpdated": "2026-06-27T21:09:25.763Z"
   },
   "stories": [
+    {
+      "id": 48701512,
+      "author": "kageroumado",
+      "descendants": 4,
+      "kids": "[48701760,48701661,48701682]",
+      "score": 11,
+      "time": 1782592493,
+      "title": "Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work",
+      "type": "story",
+      "url": "https://github.com/kageroumado/adrafinil",
+      "og_image": "https://opengraph.githubassets.com/9feb6aeada55957c257cbe16a837892eb447f5e2c91ec5068b29c1558b31c4d9/kageroumado/adrafinil",
+      "groq_label": "Adrafinil prevents a Mac from sleeping with its lid closed only while AI agents are working, then lets it sleep normally when the work is done.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Adrafinil product addresses the problem of keeping a Mac awake during tasks. Hacker News commenters generally welcomed the idea and appreciated its simplicity. However, they also expressed concerns about potential issues such as the Mac becoming irritable, and noted a practical limitation that laptops can overheat when closed in a confined space like a backpack. Overall, the discussion was generally positive, with commenters seeing the potential in the product despite some caveats.",
+      "groq_explain": "Adrafinil is a Mac app that keeps your computer awake only when an AI coding agent is working, even if the lid is closed. It's designed to be a more efficient alternative to other wake utilities that keep your computer running all the time, and it has features like thermal protection to prevent overheating and auto-acquisition when you're working with certain agents."
+    },
+    {
+      "id": 48701342,
+      "author": "spenvo",
+      "descendants": 16,
+      "kids": "[48701750,48701719,48701754,48701747,48701590,48701537,48701571,48701570]",
+      "score": 38,
+      "time": 1782591392,
+      "title": "A Farmer Arrested for Going 5 Seconds over His Time Limit at Data Center Meeting",
+      "type": "story",
+      "url": "https://www.gadgetreview.com/arrest-him-the-moment-police-handcuffed-a-farmer-for-going-5-seconds-over-his-time-limit-at-data-center-meeting",
+      "og_image": "https://www.gadgetreview.com/wp-content/uploads/5fede032-177f-4664-97ad-ee4ef30cdc65.jpg",
+      "groq_label": "A farmer's confrontation at a data center meeting escalated to him being arrested and removed from the premises after refusing repeated requests to leave during a chaotic public order situation.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is one of outrage and criticism towards the authorities involved. Commenters frequently praised the community's spirit of resistance and highlighted the importance of standing up against what they perceive as overreach and authoritarian behavior. However, the discussion also included recurring concerns about the lack of information and the need for a better source to understand the actual events at play and the context surrounding the arrest. \n\nThe overall consensus is that the government's handling of the situation is questionable, and that the actions of the authorities are being seen as heavy-handed and unacceptable.",
+      "groq_explain": null
+    },
+    {
+      "id": 48700834,
+      "author": "arm32",
+      "descendants": 42,
+      "kids": "[48701757,48701765,48701162,48701168,48701158,48701157,48701558,48701438,48701527,48701554,48701186,48701113,48505679,48701743]",
+      "score": 80,
+      "time": 1782587389,
+      "title": "IP Crawl: Living atlas of open webcams discovered on the public internet",
+      "type": "story",
+      "url": "https://ipcrawl.com/",
+      "og_image": "images/48700834.png",
+      "groq_label": "Someone exposed nearly 4,000 unsecured webcams, including private bedrooms and home security cameras, on a publicly accessible website.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project, IP Crawl, aims to expose live webcams discovered on the public internet, essentially creating a living atlas of private spaces. Based on the Hacker News discussion, commenters generally viewed the project as disturbing and invasive, highlighting strengths in its ability to expose unusual and shocking examples of internet-accessible private spaces. Many appreciated the website's functionality, noting that it allowed users to see personal snapshots of people's lives without them knowing. However, others believed the project went too far and was an invasion of privacy. Some questioned the legality of the website and suggested that sharing static pictures instead of live feeds would be a more respectful approach. Overall, the Hacker News community considered the project problematic, with many highlighting the need for greater privacy and ethical considerations.",
+      "groq_explain": null
+    },
+    {
+      "id": 48699928,
+      "author": "eustoria",
+      "descendants": 44,
+      "kids": "[48701755,48700923,48701603,48700620,48700881,48700980,48701577,48700966,48700615,48701156,48700931,48701316,48701623,48701042,48700735,48700563,48700591]",
+      "score": 86,
+      "time": 1782580280,
+      "title": "Turn your site into a place people can bump into each other",
+      "type": "story",
+      "url": "https://cauenapier.com/blog/townsquare_release/",
+      "og_image": "images/48699928.png",
+      "groq_label": "Comment sections on web pages can allow people to interact randomly with each other.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to bring back the sense of a communal online space where people can interact with each other in real-time. Based on the Hacker News discussion, commenters generally viewed \nthe project positively, appreciating the idea of reviving a small, shared feeling from the early web. Many found it delightful to experience the feeling of encountering real people behind the screens. Positive points include the small feeling of community and the fact that there are no accounts or permanent profiles.\n\nHowever, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of clear functionality and the inability to read comments quickly. Overall, the Hacker News community considered the project a positive step, recognizing its potential to bring back a unique aspect of the early internet, although some improvements are needed to make it more user-friendly.",
+      "groq_explain": null
+    },
     {
       "id": 48699842,
       "author": "awalias",
@@ -389,51 +449,6 @@
       "og_image": "images/48664063.png",
       "groq_label": "Deltamethrin-treated woodchips reduced blacklegged tick density by 99% in comparison to untreated controls.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to reduce tick density along recreational trails in Ottawa, Canada. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the use of deltamethrin-treated woodchips that significantly reduced tick density. Many appreciated the consideration of potential environmental concerns by avoiding areas near waterbodies, noting that it is a responsible approach. However, the discussion also revealed several criticisms. Commenters expressed concerns about the effectiveness of untreated woodchip borders, which only achieved a 48% reduction in tick density. Overall, the Hacker News community considered the project promising, recognizing its potential to control tick populations, but emphasizing that further study is needed to improve its effectiveness.",
-      "groq_explain": null
-    },
-    {
-      "id": 48650794,
-      "author": "EndXA",
-      "descendants": 62,
-      "kids": "[48699131,48699893,48699610,48699128,48699165,48699820,48699089,48699789,48699393,48699699,48699233,48699168,48699088,48699387,48699057,48699282]",
-      "score": 94,
-      "time": 1782246079,
-      "title": "Underarm Bowling Incident of 1981",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Underarm_bowling_incident_of_1981",
-      "og_image": "https://upload.wikimedia.org/wikipedia/en/9/90/1981Underarm.jpg",
-      "groq_label": "The Australian cricket team used unconventional and widely seen as unsportsmanlike tactics, underarm bowling to prevent a six, in a 1981 match against New Zealand.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis cricket incident refers to the 1981 Underarm Bowling Incident where Australia bowled underarm to deny New Zealand a chance at winning a match. Hacker News commenters generally reacted with amusement and shared comparisons to other sports, with many noting the incident's notoriety and how it became a symbol of unsportsmanlike behavior.",
-      "groq_explain": "The 1981 underarm bowling incident in Australia involved the captain, Greg Chappell, instructing his brother, Trevor, to deliberately bowl the final ball of a cricket match underarm to prevent New Zealand from tying the match, which was against the spirit of fair play."
-    },
-    {
-      "id": 48645510,
-      "author": "MrCroxx",
-      "descendants": 2,
-      "kids": "[48698288,48698222,48645511]",
-      "score": 6,
-      "time": 1782224900,
-      "title": "Task Failed Successfully: Saturating NIC and Disk Bandwidth",
-      "type": "story",
-      "url": "https://blog.mrcroxx.com/posts/task-failed-successfully-saturating-nic-and-disk-bandwidth/",
-      "og_image": "https://blog.mrcroxx.com/images/og-image.webp",
-      "groq_label": "dTLB misses from scanning large buffers backed by small pages caused performance issues.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is generally neutral to positive. Commenters frequently praised the author's approach to debugging and identifying performance issues in their code. However, the discussion also included recurring concerns about the complexity and thoroughness of the initial analysis, with some suggesting that a more standard top-down approach could have revealed the issue more quickly. The overall consensus is that the project represents a successful example of performance debugging and optimizing, although the community may question the author's methods in reaching their conclusion.",
-      "groq_explain": null
-    },
-    {
-      "id": 48642510,
-      "author": "justincormack",
-      "descendants": 188,
-      "kids": "[48688930,48688812,48692827,48689259,48688814,48690127,48691464,48689377,48688792,48688878,48696150,48688765,48691111,48693321,48690397,48688934,48690683,48690436,48688589,48690344,48690308,48689299,48692397,48689924,48688791,48692426,48688835,48692248,48688613,48693684,48688458,48688779,48697010,48690325,48690337,48689136]",
-      "score": 341,
-      "time": 1782207575,
-      "title": "MicroVMs: Run isolated sandboxes with full lifecycle control",
-      "type": "story",
-      "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
-      "og_image": "https://d2908q01vomqb2.cloudfront.net/da4b9237bacccdf19c0760cab7aec4a8359010b0/2026/06/22/AdobeStock_44802230-1260x630.jpeg",
-      "groq_label": "Amazon's MicroVMs are designed to run isolated sandboxes with full lifecycle control, similar to managed firecracker VMs with containers.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of MicroVMs is that they have potential but are not yet fully satisfactory. Commenters frequently praised the idea of isolated sandboxes with full lifecycle control, describing it as a necessary solution for security and isolation needs. However, the discussion also included recurring concerns about the limitations of existing sandbox providers, the need for more features, and the competition from existing solutions like Fargate. The overall consensus is that the idea is promising, but its long-term success depends on addressing these concerns and demonstrating clear benefits over existing solutions. \n\nHowever, a more specific opinion comes through that the product is overpriced, and that a lot of these services don't provide much value.",
       "groq_explain": null
     }
   ]
