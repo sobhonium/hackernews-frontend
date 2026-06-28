@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-28T04:10:10.961Z"
+    "lastUpdated": "2026-06-28T07:59:24.478Z"
   },
   "stories": [
+    {
+      "id": 48704454,
+      "author": "ludicrousdispla",
+      "descendants": 1,
+      "kids": "[48705207]",
+      "score": 20,
+      "time": 1782622112,
+      "title": "Bashblog – a single bash script to create blogs",
+      "type": "story",
+      "url": "https://github.com/cfenollosa/bashblog",
+      "og_image": "https://opengraph.githubassets.com/6f8ac6a2dd4601c8ae95e948416453a77296377cebeb2fce4d660077e0815a50/cfenollosa/bashblog",
+      "groq_label": "Bashblog uses sed and rsync to automate the process of writing, compiling, and storing blog posts in a single bash file.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Bashblog script aims to solve the problem of creating blogs from a command line interface. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as simplicity. Many appreciated the fact that it is a single bash script, noting that it provides an elegant and straightforward solution, while others believed it could be particularly useful for developers or tech-savvy users. However, the discussion also revealed a limited number of comments. There is little criticism or questioning of the project's approach or limitations. Overall, the Hacker News community considered the project positive, recognizing its potential as a unique and easy-to-use tool.",
+      "groq_explain": null
+    },
+    {
+      "id": 48704373,
+      "author": "handfuloflight",
+      "descendants": 8,
+      "kids": "[48705143,48705250,48704672,48705071,48705059,48705219,48704878,48704890]",
+      "score": 45,
+      "time": 1782621078,
+      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+      "type": "story",
+      "url": "https://github.com/itsthelore/wayfinder-router",
+      "og_image": "https://repository-images.githubusercontent.com/1271892689/88c43e02-cd49-45ba-9926-2f82880b57a0",
+      "groq_label": "Deterministic routing of queries between local and hosted LLM can be achieved with Wayfinder Router.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Wayfinder Router addresses routing of queries between local and hosted LLMs. Hacker News commenters generally appreciated its potential, especially its explicit support for local/cloud routing. However, they also expressed the need for additional features, such as command prefix support, with one commenter suggesting a comparative approach with multiple LLMs. Overall, the discussion was cautiously optimistic, with commenters recognizing the project's potential but also identifying limitations.",
+      "groq_explain": "Wayfinder Router is a system that determines where to send queries, such as text prompts, by analyzing the structure and wording of the query. It does this quickly and offline, without calling any other models or needing an API key. This allows for more efficient use of computational resources and can help save money on processing difficult or complex requests."
+    },
     {
       "id": 48703968,
       "author": "speckx",
@@ -420,36 +450,6 @@
       "groq_label": "A force's work depends on the path traveled, not the initial and final positions alone, which is why kinetic energy depends on the square of speed rather than a linear relationship.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion aims to explain why kinetic energy increases quadratically, not linearly, with speed. The Hacker News discussion was generally mixed, with many commenters appreciating the intuitive explanations provided by some commenters but also expressing frustration with the lack of a clear, concise answer to the question. At the same time, several commenters raised concerns about the reliance on complex mathematical concepts, such as Noether's theorem and Lagrangian mechanics, to explain the concept. Overall, the discussion suggests that the community sees promise in the attempt to provide a deeper understanding of the relationship between kinetic energy and speed but believes that there are important challenges that still need to be addressed, particularly in making the explanation more accessible to a wider audience.",
       "groq_explain": null
-    },
-    {
-      "id": 48689028,
-      "author": "minimaxir",
-      "descendants": 648,
-      "kids": "[48690510,48689959,48689193,48692734,48689256,48696432,48691353,48689338,48691244,48690399,48690497,48690077,48689874,48697149,48689806,48690722,48696397,48689498,48689107,48689480,48689541,48689226,48689402,48690813,48694700,48696232,48689183,48691041,48693522,48696827,48693377,48690861,48689104,48692383,48695212,48695589,48689140,48690472,48689131,48694505,48689111,48695699,48690678,48689653,48692941,48689857,48695183,48689152,48694597,48693237,48689968,48689563,48695707,48694422,48692024,48696460,48689141,48689941,48690262,48689529,48690810,48689281,48689844,48689384,48689227,48689408,48689816,48689660,48689114,48692124,48692195,48690215,48689293,48690220,48689116,48692334,48690150,48690485,48691238,48691231,48690009,48689080,48689061,48689225,48694508,48691592,48689474,48689386,48690767,48694506,48689572,48694985,48690713,48691601,48692264,48689584,48689323,48692842,48690254,48696173,48695168,48694283,48694516,48689742,48690387,48689473,48697026,48690665,48690512,48689594,48689123,48690451,48690619,48689510,48690649,48689222,48689713,48690837,48690747,48695909]",
-      "score": 1028,
-      "time": 1782493615,
-      "title": "Previewing GPT‑5.6 Sol: a next-generation model",
-      "type": "story",
-      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill",
-      "groq_label": "Cerebras' 750 tokens/s on a frontier model is going to be extremely interesting.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about GPT‑5.6 Sol aims to showcase advancements in next-generation AI models. The Hacker News discussion was generally mixed, with many commenters appreciating the model's speed (750 tokens per second) and potential for real-world applications. At the same time, several commenters raised concerns about pricing strategies, model consistency, and evaluation challenges, arguing that the \"cheating rate\" in evaluations and the discontinuation of previous models like GPT-5 mini create uncertainty. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around transparency, cost, and reliability—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48688438,
-      "author": "LorenDB",
-      "descendants": 1,
-      "kids": "[48699801]",
-      "score": 25,
-      "time": 1782490806,
-      "title": "One man, two kernels, and a lot of RISC-V",
-      "type": "story",
-      "url": "https://www.theregister.com/software/2026/06/26/one-man-two-kernels-and-a-lot-of-risc-v/5262858",
-      "og_image": "https://image.theregister.com/5262971.jpg?imageId=5262971&x=0&y=28.33&cropw=100&croph=71.67&panox=0&panoy=28.33&panow=100&panoh=71.67&width=1200&height=683",
-      "groq_label": "Yuri Zaporozhets implemented his RISC-V-based GateMate Personal Computer on an FPGA board, with its own OS, and has also developed a RISC-V-based mainframe called System/359, on the same board.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis QSOE project aims to solve the problem of operating system complexity. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the dual-kernel architecture and the use of RISC-V. Many appreciated the approach's potential for increased security, noting that it could be particularly useful for high-risk applications. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's complexity, scalability, and the potential for overhead, with some questioning the design choice of a dual-kernel architecture and others pointing out technical limitations such as the need for further testing and refinement. Overall, the Hacker News community considered the project promising, recognizing its potential for improved security and flexibility while emphasizing that addressing these concerns would improve its usability and adoption.",
-      "groq_explain": "A software engineer named Yuri Zaporozhets is working on various free and open-source projects related to RISC-V technology, an alternative to traditional computer chip architectures. He's building a personal computer, a miniature mainframe, and rewriting an operating system, among other projects. What matters is that his work showcases innovative uses of RISC-V technology and could potentially inspire others to work with the platform."
     }
   ]
 }
