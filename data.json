@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-28T07:59:24.478Z"
+    "lastUpdated": "2026-06-28T10:33:55.422Z"
   },
   "stories": [
     {
@@ -107,6 +107,21 @@
       "groq_label": "The AMD Strix Halo cluster uses RDMA over Converged Ethernet to achieve latency as low as 5µs, enabling high-speed distributed vLLM inference.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the AMD Strix Halo RDMA Cluster Setup Guide is overwhelmingly positive. Commenters frequently praised the system's capabilities, highlighting its speed and memory bandwidth as particularly valuable for applications such as local AI and homelab setups. Many expressed excitement about Antirez's work on DS4 and kyuz0's contributions to making the system more practical and usable. The overall consensus is that the setup is a compelling solution for those looking to accelerate their local computing and AI workloads, although further speed improvements are needed to reach the desired level of performance.",
       "groq_explain": "This is about setting up a two-node high-performance cluster using AMD Strix Halo hardware for tasks like running large machine learning models in real-time, specifically for tasks that require a lot of computational power and fast data exchange between nodes."
+    },
+    {
+      "id": 48702848,
+      "author": "saisrirampur",
+      "descendants": 5,
+      "kids": "[48705105,48705822,48704242,48705467]",
+      "score": 76,
+      "time": 1782603178,
+      "title": "WAL-RUS: a Rust Rewrite of WAL-G for PostgreSQL Backups",
+      "type": "story",
+      "url": "https://clickhouse.com/blog/walrus-postgres-backups-in-rust",
+      "og_image": "https://clickhouse.com/_next/image?url=%2Fuploads%2FWAL_RUS_Blog_Banner_00f644032a.jpg&w=1200&h=630&q=75",
+      "groq_label": "WAL-RUS, a Rust rewrite of WAL-G for PostgreSQL backups, reportedly uses only 1.5x the CPU and more RAM than the Go version due to its native performance capabilities.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis WAL-RUS project aims to rewrite WAL-G for PostgreSQL backups in Rust. The Hacker News discussion was generally mixed, with many commenters appreciating the project's goal of improving performance and ease of use in PostgreSQL backups. At the same time, several commenters raised concerns about the need for benchmarks, specifically mentioning the importance of testing with a mix of long open transactions and short ones, as it can have a significant impact on performance. Overall, the discussion suggests that the community sees potential in the project but believes there are important challenges that still need to be addressed in order to fully evaluate its effectiveness.",
+      "groq_explain": null
     },
     {
       "id": 48702273,
@@ -435,21 +450,6 @@
       "groq_label": "US removes export controls on Anthropic's powerful Claude Mythos 5 AI model, allowing more than 100 US organizations to access it.",
       "groq_discussion": "Discussion type: – Executive Summary:\n\nThis policy change allows Anthropic to release its Mythos AI to over 100 \"trusted\" US organizations, including many Fortune 500 companies. Hacker News commenters expressed alarm about the implications of giving a select few access to cutting-edge AI technology while the general public is left out. Many worried that this unfair advantage could lead to a trade war and that other governments may respond by banning or tariffs US products and services. Others criticized the government's decision-making process, noting that it appears to favor well-connected companies. The overall discussion suggests that the community views this policy change as a concerning trend that could stifle innovation and create economic instability.",
       "groq_explain": "The US government has allowed a powerful AI model called Mythos 5 to be released to over 100 trusted organizations in the US, after initially blocking it due to concerns that it could be misused for malicious purposes."
-    },
-    {
-      "id": 48692946,
-      "author": "ProxyTracer",
-      "descendants": 124,
-      "kids": "[48694740,48693722,48697232,48695749,48695059,48694321,48694351,48696803,48694460,48695546,48696509,48696472,48696236,48695267,48696744,48695742,48695492,48695389,48694840,48695144,48696188,48695317,48695844,48695023,48696896,48696310,48693839,48694405,48693895,48694067,48694920,48693952,48694174,48696182,48696191,48694373,48693965]",
-      "score": 265,
-      "time": 1782513809,
-      "title": "Why does kinetic energy increase quadratically, not linearly, with speed? (2011)",
-      "type": "story",
-      "url": "https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed",
-      "og_image": "https://physics.stackexchange.com/Content/Sites/physics/Img/apple-touch-icon@2.png?v=f58801408228",
-      "groq_label": "A force's work depends on the path traveled, not the initial and final positions alone, which is why kinetic energy depends on the square of speed rather than a linear relationship.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion aims to explain why kinetic energy increases quadratically, not linearly, with speed. The Hacker News discussion was generally mixed, with many commenters appreciating the intuitive explanations provided by some commenters but also expressing frustration with the lack of a clear, concise answer to the question. At the same time, several commenters raised concerns about the reliance on complex mathematical concepts, such as Noether's theorem and Lagrangian mechanics, to explain the concept. Overall, the discussion suggests that the community sees promise in the attempt to provide a deeper understanding of the relationship between kinetic energy and speed but believes that there are important challenges that still need to be addressed, particularly in making the explanation more accessible to a wider audience.",
-      "groq_explain": null
     }
   ]
 }
