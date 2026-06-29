@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-28T21:08:17.579Z"
+    "lastUpdated": "2026-06-29T04:15:58.927Z"
   },
   "stories": [
+    {
+      "id": 48714529,
+      "author": "arkhiver",
+      "descendants": 9,
+      "kids": "[48714704,48714628,48714699,48714696,48714676,48714701,48714661,48714668]",
+      "score": 63,
+      "time": 1782704527,
+      "title": "Age verification is just a precursor to automated attribution of speech",
+      "type": "story",
+      "url": "https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026",
+      "og_image": "images/48714529.png",
+      "groq_label": "The implementation of age verification online will likely normalize and expand the use of AI-powered speech attribution mechanisms to punish and fine individuals for their online statements.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion is that age verification is a precursor to more severe restrictions on speech and freedom. Commenters frequently praised systems thinking and the importance of considering the long-term consequences of such measures. However, the discussion also included recurring concerns about the slippery slope effect, with many warning that governments would use age verification as a means to control and attribute speech, leading to further erosions of civil liberties. The overall consensus is that the idea of age verification is a threat to freedom of speech, and that its long-term success depends on the vigilance of citizens in holding governments accountable for their actions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48713051,
+      "author": "Curiositry",
+      "descendants": 20,
+      "kids": "[48714147,48713695,48714166,48713645,48713813,48713795,48714342,48713787]",
+      "score": 37,
+      "time": 1782690658,
+      "title": "Better Images of AI",
+      "type": "story",
+      "url": "https://betterimagesofai.org/",
+      "og_image": "https://betterimagesofai.org/BIOAI-preview-MG.jpg",
+      "groq_label": "Perceptions of AI are often shaped by misleading images that don't accurately reflect its capabilities or applications.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis collection of images, dubbed \"Better Images of AI,\" aims to solve the problem of the public's negative perception of artificial intelligence. \nBased on the Hacker News discussion, commenters generally viewed \nthe project negatively and highlighted criticisms such as the images reinforcing public mistrust, being overly simplistic, and not accurately depicting the complexity of AI. Many felt that the project would not be effective in addressing the public's concerns about AI, noting that it relies on overly optimistic and misleading representations. Others believed it could be particularly useful for educating people about AI in a more nuanced way, but that its potential would be limited by its superficial approach. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the project's naivety and lack of recognition of the deeper issues surrounding AI. Overall, the Hacker News community considered the project  overly simplistic and not addressing the core issues regarding AI.",
+      "groq_explain": null
+    },
+    {
+      "id": 48712762,
+      "author": "aendruk",
+      "descendants": 38,
+      "kids": "[48713323,48713254,48713281,48713384,48713291,48714686,48713927,48714032,48713255,48713359,48713401,48713279,48713293,48713342,48713320,48713251,48713300]",
+      "score": 33,
+      "time": 1782688337,
+      "title": "On cigarettes",
+      "type": "story",
+      "url": "https://funnelfiasco.com/blog/2026/06/28/on-cigarettes/",
+      "og_image": "https://i0.wp.com/funnelfiasco.com/blog/wp-content/uploads/2017/03/Funnel_Fiasco_Color.png?fit=1162%2C318&ssl=1",
+      "groq_label": "Cigarettes form a connection between strangers through shared experiences, such as needing a lighter or offering a spare cigarette, which has a prosocial effect and fosters temporary camaraderie.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article on cigarettes aims to capture the complexities and emotional connections people have with smoking. Based on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as its ability to evoke nostalgia and explore the psychological aspects of smoking. Many appreciated the article's thought-provoking approach to discussing smoking beyond its health impacts. Notably, commenters noted that smoking has influenced their social behaviors and created emotional anchors in their lives. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of focus on smoking's health effects, with some questioning the significance of these impacts. Overall, the Hacker News community considered the article interesting and engaging, recognizing its potential while emphasizing that a more comprehensive discussion of smoking's effects would be beneficial.\n\nOr alternatively: Discussion type: – Balanced:\n\nThis article on cigarettes aims to explore the emotional connections people have with smoking. The Hacker News discussion was generally mixed, with many commenters appreciating the article's thought-provoking approach to discussing smoking beyond its health impacts. However, several commenters raised concerns about the lack of focus on smoking's health effects and instead, focused on its social and emotional aspects.\n\nOr alternatively: Discussion type: – Short:\n\nThis article on cigarettes discusses the psychological aspects of smoking. Hacker News commenters generally appreciated the article's thought-provoking approach and believed it shed new light on the emotional connections people have with smoking. However, they also expressed concerns about the lack of focus on smoking's health effects and questioned the significance of these impacts. Overall, the discussion was balanced, with commenters recognizing both the article's potential and its limitations.",
+      "groq_explain": "Cigarettes may be bad for people and the environment, but they have a way of bringing strangers together through shared experiences and a sense of community, showing that there's still some value in them despite their negative effects."
+    },
+    {
+      "id": 48712420,
+      "author": "babelfish",
+      "descendants": 12,
+      "kids": "[48713840,48713481,48712681,48712643,48714275,48713778,48712608]",
+      "score": 64,
+      "time": 1782685924,
+      "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2401.07013",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "The paper Knowledge Distillation of Black-Box Large Language Models (2024) highlights the potential of pre-training compact models to improve learning.",
+      "groq_discussion": "Discussion type: – Basic\n\nThis research paper on Knowledge Distillation of Black-Box Large Language Models (2024) aims to solve the problem of large language model training costs and limitations. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the potential to improve efficiency. Many appreciated the approach's focus on pre-training compact models, noting that it could improve the quality of knowledge distilled from large models. However, the discussion also revealed several criticisms. Commenters expressed concerns about the paper's relevance to recent events, noting that the publication of the paper could have been avoided if the authors had waited for more context. Others questioned the paper's usefulness, given the ongoing development of alternative AI solutions, like Chinese models. Overall, the Hacker News community considered the paper to have some technical merit, while also acknowledging the need for a more nuanced discussion about the AI landscape.",
+      "groq_explain": null
+    },
     {
       "id": 48710778,
       "author": "vforno",
@@ -137,6 +197,21 @@
       "groq_label": "The Lemote Yeeloong laptop has a Chinese MIPS64 derivative processor, which was developed as part of China's effort to secure independence from foreign technology and invest in domestic electronics research.",
       "groq_discussion": "No comments.",
       "groq_explain": "The article is about the author's experience using a Chinese laptop with a rare MIPS64 processor, called the Lemote Yeeloong, to run the OpenBSD operating system in a truly free and custom configuration. The author is documenting their journey learning OpenBSD on an unusual platform and why they chose this particular laptop to work with."
+    },
+    {
+      "id": 48708991,
+      "author": "geox",
+      "descendants": 431,
+      "kids": "[48712010,48712708,48711612,48712814,48711958,48710256,48713557,48714460,48712671,48709654,48710740,48714531,48714488,48713161,48712803,48712818,48714009,48714120,48712210,48713979,48713441,48712841,48713047,48713600,48713700,48713772,48712131,48712783,48712683,48710656,48712626,48712612,48712999,48713396,48712898,48712313,48710369,48713690,48713271,48713265,48712652,48712198,48712892,48710976,48710816,48709425,48709436,48712431]",
+      "score": 320,
+      "time": 1782664872,
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "type": "story",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "og_image": "https://imagenes.elpais.com/resizer/v2/J6ITLVPHQNHI3BHNR3FPIX5URE.jpg?auth=29cc39cd3e10fbe5a5266dd40100f1d61e4fe145ccd2e4ab13b6a6bd0b67f1dd&width=1200",
+      "groq_label": "Professors and experts propose in-person, handwritten exams and various alternative assessment methods to prevent AI cheating, while also questioning the purpose and relevance of traditional grading in the modern era.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe Hacker News discussion on universities and AI cheating is generally mixed, with several commenters appreciating the need for change and others raising concerns about the practicality of new approaches. On one hand, commenters praised the idea of in-person exams and adjusted curriculum design to prevent AI cheating, with some suggesting new approaches to teaching and assessment. However, others highlighted the difficulties of implementing such changes, including the tediousness and cost of invigilating exams, as well as the limited value of university degrees in the age of AI. The discussion revealed several limitations to using law school-style essay exams, and some questioned the purpose of grading and exams altogether. Overall, the community sees challenges in adapting to the AI era, with no clear consensus on the best solution.",
+      "groq_explain": null
     },
     {
       "id": 48708941,
@@ -377,81 +452,6 @@
       "groq_label": "Stack traces repeat from Rtl­Lookup­Function­Entry to Ki­User­Exception­Dispatch because an exception occurred while kernel mode tried to handle another exception originated in a DLL that was not properly unloaded from memory.",
       "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this in-depth analysis by Raymond Chen is overwhelmingly positive. Commenters frequently praised Chen's detective work and his ability to uncover a complex bug, describing the post as \"humbled\" and \"doggedly determined.\" However, the discussion also included recurring concerns about the challenges of getting Microsoft support to acknowledge and address Windows bugs. The overall consensus is that Chen's work is exemplary and a testament to the importance of diligent debugging, although his team's initial lack of attention to the issue raises broader issues about Microsoft's support policies.",
       "groq_explain": "There was a problem with a Windows program that kept crashing. The program was trying to free some memory, but something went wrong and it started crashing over and over again until it ran out of space to even crash. It looked like a DLL called shell32 was involved in the crash, but in reality, it was a problem with how the program was handling an exception."
-    },
-    {
-      "id": 48704454,
-      "author": "ludicrousdispla",
-      "descendants": 1,
-      "kids": "[48705207]",
-      "score": 20,
-      "time": 1782622112,
-      "title": "Bashblog – a single bash script to create blogs",
-      "type": "story",
-      "url": "https://github.com/cfenollosa/bashblog",
-      "og_image": "https://opengraph.githubassets.com/6f8ac6a2dd4601c8ae95e948416453a77296377cebeb2fce4d660077e0815a50/cfenollosa/bashblog",
-      "groq_label": "Bashblog uses sed and rsync to automate the process of writing, compiling, and storing blog posts in a single bash file.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Bashblog script aims to solve the problem of creating blogs from a command line interface. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as simplicity. Many appreciated the fact that it is a single bash script, noting that it provides an elegant and straightforward solution, while others believed it could be particularly useful for developers or tech-savvy users. However, the discussion also revealed a limited number of comments. There is little criticism or questioning of the project's approach or limitations. Overall, the Hacker News community considered the project positive, recognizing its potential as a unique and easy-to-use tool.",
-      "groq_explain": null
-    },
-    {
-      "id": 48704373,
-      "author": "handfuloflight",
-      "descendants": 8,
-      "kids": "[48705143,48705250,48704672,48705071,48705059,48705219,48704878,48704890]",
-      "score": 45,
-      "time": 1782621078,
-      "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
-      "type": "story",
-      "url": "https://github.com/itsthelore/wayfinder-router",
-      "og_image": "https://repository-images.githubusercontent.com/1271892689/88c43e02-cd49-45ba-9926-2f82880b57a0",
-      "groq_label": "Deterministic routing of queries between local and hosted LLM can be achieved with Wayfinder Router.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Wayfinder Router addresses routing of queries between local and hosted LLMs. Hacker News commenters generally appreciated its potential, especially its explicit support for local/cloud routing. However, they also expressed the need for additional features, such as command prefix support, with one commenter suggesting a comparative approach with multiple LLMs. Overall, the discussion was cautiously optimistic, with commenters recognizing the project's potential but also identifying limitations.",
-      "groq_explain": "Wayfinder Router is a system that determines where to send queries, such as text prompts, by analyzing the structure and wording of the query. It does this quickly and offline, without calling any other models or needing an API key. This allows for more efficient use of computational resources and can help save money on processing difficult or complex requests."
-    },
-    {
-      "id": 48703968,
-      "author": "speckx",
-      "descendants": 4,
-      "kids": "[48704152,48704156,48704222,48704205]",
-      "score": 28,
-      "time": 1782616153,
-      "title": "Ford hired AI and sacked humans. It backfired badly",
-      "type": "story",
-      "url": "https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html",
-      "og_image": "https://static.the-independent.com/s3fs-public/thumbnails/image/2020/07/22/12/ford-uk-factory.jpg?width=1200&height=800&crop=1200:800",
-      "groq_label": "Ford attempted to replace human workers with AI but faced negative consequences.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project/blog post aims to share a cautionary tale about Ford's decision to hire AI and sack humans. Based on the Hacker News discussion, commenters generally viewed the move as a mistake and highlighted strengths such as emphasizing the importance of understanding AI as a tool, not a solution. Many appreciated the author's nuanced view on AI, noting that speed should not be prioritized over quality. However, the discussion also revealed several criticisms. Commenters expressed concerns about the industry's unrealistic expectations around AI and the potential consequences of sacrificing quality for speed. Overall, the Hacker News community considered the article a timely reminder of the importance of balancing technology with human judgment and expertise.\n\nor\n\nDiscussion type: – Short:\n\nThis article addresses the negative consequences of Ford's decision to replace humans with AI. Hacker News commenters generally agreed that the move was misguided, emphasizing that AI should be used as a tool, not a solution. They expressed concerns about the industry's priorities and the potential harm caused by prioritizing speed over quality. Overall, the discussion was negative, with commenters warning against similar decisions in the future.",
-      "groq_explain": null
-    },
-    {
-      "id": 48703759,
-      "author": "reaperducer",
-      "descendants": 11,
-      "kids": "[48704213,48703967,48704212,48704157,48703948,48704012,48704007,48703994,48704164,48704031,48704159]",
-      "score": 65,
-      "time": 1782613388,
-      "title": "Marfa Public Radio Puts You to Sleep",
-      "type": "story",
-      "url": "https://www.marfapublicradio.org/podcast/marfa-public-radio-puts-you-to-sleep",
-      "og_image": "https://npr.brightspotcdn.com/dims4/default/c3f0a81/2147483647/strip/true/crop/3000x1575+0+40/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F56%2F79316759410d8ce45efb655b32b3%2Fmpr-sleep-v2-logo-1.jpg",
-      "groq_label": "A radio station created a podcast that reads out boring documents in an attempt to lull listeners to sleep as part of their membership drive.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis sleep podcast aims to solve the problem of falling asleep by reading boring documents, thus inducing a drowsy state. Based on the Hacker News discussion, commenters generally viewed the idea as positive, praising it as \"a great idea\" and \"brilliant.\" They appreciated the concept of using mundane voices to help listeners fall asleep, and some found it effective, with one commenter reporting they fell asleep during the discussion itself. However, commenters also suggested alternative solutions for falling asleep, such as visualization apps (fastsleep.app) and other audio content like nonsensical monologues or background music with human voices. The discussion also highlighted potential criticisms, such as the need for monotonic voices and personal preferences for human voice rhythms. Overall, the Hacker News community considered the project an interesting contribution with potential, while acknowledging that individual results may vary.",
-      "groq_explain": "Marfa Public Radio is releasing a podcast that reads out boring documents about running a radio station, trying to put listeners to sleep."
-    },
-    {
-      "id": 48703613,
-      "author": "mraniki",
-      "descendants": 29,
-      "kids": "[48704102,48704013,48704199,48703662,48704154,48704136,48704056,48703914,48703874,48703633,48703654]",
-      "score": 50,
-      "time": 1782611721,
-      "title": "Feds Killed Polestar and Spared Volvo. That Should Terrify You",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/feds-killed-polestar-and-spared-volvo-that-should-terrify-you",
-      "og_image": "https://www.thedrive.com/wp-content/uploads/2026/06/Original-3197-681584-1-5-e1782406718657.jpg?w=1200",
-      "groq_label": "Polestar cars contain more advanced electronics and surveillance capabilities compared to Volvo models.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article argues that the feds favored Volvo over Polestar. Hacker News commenters generally questioned this favoritism and pointed out possible reasons, including differing product lines and levels of electronic surveillance. However, opinions on the issue varied, and not everyone found it terrifying.",
-      "groq_explain": null
     }
   ]
 }
