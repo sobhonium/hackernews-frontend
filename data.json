@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-29T04:15:58.927Z"
+    "lastUpdated": "2026-06-29T09:14:03.475Z"
   },
   "stories": [
+    {
+      "id": 48716009,
+      "author": "felixdoerp",
+      "descendants": 7,
+      "kids": "[48716448,48716127]",
+      "score": 20,
+      "time": 1782718568,
+      "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?",
+      "type": "story",
+      "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!t8wj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F907313ec-d17d-4e62-bd79-17e374d6767e_1672x940.png",
+      "groq_label": "Electricity demand from behind-the-meter datacenters could exceed total annual US grid capacity by 2028.",
+      "groq_discussion": "Discussion type: – Basic:\nThis research paper aims to solve the problem of scaling behind-the-meter datacenters in the US by 2028. \nBased on the Hacker News discussion, commenters generally viewed the project negatively and highlighted concerns such as its potential impact on the environment, labeling it an \"ecological disaster\". The discussion did not focus on specific strengths or benefits of the project. Overall, the Hacker News community considered the project with a strongly negative sentiment, emphasizing the potential environmental consequences.",
+      "groq_explain": null
+    },
+    {
+      "id": 48714802,
+      "author": "mzehrer",
+      "descendants": 21,
+      "kids": "[48716245,48715941,48715442,48715366,48715653,48715581]",
+      "score": 58,
+      "time": 1782707266,
+      "title": "Herdr: Agent multiplexer that lives in your terminal",
+      "type": "story",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "og_image": "https://opengraph.githubassets.com/360eb316ea5eb1350938df77ba845d0195190cc4ddedf169741c2e12eb42cced/ogulcancelik/herdr",
+      "groq_label": "Herdr uses a separate process for each agent to isolate their environment and improve security.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis terminal multiplexer, Herdr, aims to simplify the management of multiple agents in a single terminal session. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its flexibility, with some even developing similar projects, like beehive. Many appreciated the ability to run Herdr remotely, noting that it allows for more flexibility and control over different agents. However, the discussion also revealed several criticisms. Commenters expressed concerns about compatibility issues, such as working with other terminal multiplexers like tmux, and the need to remap keys for seamless use with other tools like vim. They also questioned the added value of running the agents directly in one's terminal compared to other solutions like conductor.build. Overall, the Hacker News community considered Herdr a promising solution with some technical limitations, recognizing its potential while emphasizing the need for further development and optimization.",
+      "groq_explain": null
+    },
     {
       "id": 48714529,
       "author": "arkhiver",
@@ -16,6 +46,21 @@
       "og_image": "images/48714529.png",
       "groq_label": "The implementation of age verification online will likely normalize and expand the use of AI-powered speech attribution mechanisms to punish and fine individuals for their online statements.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion is that age verification is a precursor to more severe restrictions on speech and freedom. Commenters frequently praised systems thinking and the importance of considering the long-term consequences of such measures. However, the discussion also included recurring concerns about the slippery slope effect, with many warning that governments would use age verification as a means to control and attribute speech, leading to further erosions of civil liberties. The overall consensus is that the idea of age verification is a threat to freedom of speech, and that its long-term success depends on the vigilance of citizens in holding governments accountable for their actions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48713832,
+      "author": "sambellll",
+      "descendants": 132,
+      "kids": "[48715029,48714996,48715092,48715422,48716221,48716579,48715284,48716651,48715271,48716191,48715778,48715822,48715955,48716236,48715101,48714993,48716458,48715924,48715902,48715796,48715801,48716080,48715098,48716610,48715610,48715034,48716363,48715931,48715233,48715908,48716218,48716185,48715106,48716022,48715966,48715957,48715235,48714975,48715300,48715432,48715100,48715898,48716497]",
+      "score": 386,
+      "time": 1782697480,
+      "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+      "type": "story",
+      "url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!S-dx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbab22a57-acb5-4fe4-929f-132059bcb466_1800x900.png",
+      "groq_label": "HackerRank's open-sourced hiring agent's scoring system for resumes is prone to high variability due to its reliance on a small LLM model.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the HackerRank open-sourced ATS is negative. Commenters frequently criticized the system, describing it as unreliable and potentially discriminatory due to its use of LLMs. Many noted that the system's scoring is not deterministic, resulting in varying scores for the same resume. Recurring concerns focused on the system's limitations, including its reliance on a tiny 4B model, and the fact that it may be optimizing for a system no one actually uses. The overall consensus is that the idea of an AI-powered ATS is intriguing, but its current implementation and design choices are questionable.",
       "groq_explain": null
     },
     {
@@ -274,6 +319,21 @@
       "groq_explain": null
     },
     {
+      "id": 48708644,
+      "author": "supermatou",
+      "descendants": 2,
+      "kids": "[48716430]",
+      "score": 67,
+      "time": 1782663050,
+      "title": "Dissecting Apple's Sparse Image Format (ASIF)",
+      "type": "story",
+      "url": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/",
+      "og_image": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/figure1.png",
+      "groq_label": "Sparse images store only allocated blocks of data, allowing for efficient compression and reduction of disk usage, whereas compressed formats like Qcow2 store entire images, potentially wasting space on unallocated blocks.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Apple's Sparse Image Format (ASIF) is that it is unclear how effective or necessary it is compared to other formats like Qcow2. Commenters frequently questioned its benefits and saw it as a solution looking for a problem, with one commenter pointing out that copying an app out of a .dmg could be faster and more efficient through alternative means, such as changing pointers to data on disk. However, the discussion also included recurring concerns about the efficiency and utility of ASIF, with many questioning its value-added over other existing solutions like Qcow2. The overall consensus is that the idea of ASIF is dubious.",
+      "groq_explain": null
+    },
+    {
       "id": 48708182,
       "author": "pompomsheep",
       "descendants": 12,
@@ -392,66 +452,6 @@
       "groq_label": "Polish computers in the communist era often used American keyboards and imported fonts, leading to the Ś character being represented by a keycap marked 'S' due to a shared physical layout.",
       "groq_discussion": "No comments.",
       "groq_explain": "The article is about a keyboard bug in writing the letter Ś in Polish on the Medium website, a writing platform. The bug was caused by a combination of factors that span decades, including the Polish alphabet's use of the English/Latin alphabet with diacritics, the limited availability of computers and commercial keyboard preparation in 1980s Poland, the adaptation of computers from Western Europe to Polish language, and finally, the layout of Polish keyboards which omitted certain letters and punctuation marks."
-    },
-    {
-      "id": 48706796,
-      "author": "Rochus",
-      "descendants": 4,
-      "kids": "[48707119,48706817]",
-      "score": 8,
-      "time": 1782650505,
-      "title": "The MUMPS 76 Primer – anniversary edition",
-      "type": "story",
-      "url": "https://github.com/rochus-keller/MUMPS/blob/main/docs/MUMPS_Primer.adoc",
-      "og_image": "https://opengraph.githubassets.com/071a2f2f349924311e4d9b276b9f886858cb0c36e0d3a97d7ce33ea9bb6aba84/rochus-keller/MUMPS",
-      "groq_label": "MUMPS 76 has been implemented as an open-source project.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of The MUMPS 76 Primer - anniversary edition, and the celebration project, is overwhelmingly positive. Commenters frequently praised the project's effort to commemorate the 50th anniversary of MUMPS and its innovative approach to integrating programming language and database. Many highlighted the language's unique feature of acting as an early NoSQL database and expressed interest in the project's potential to revive interest in MUMPS. However, the discussion also included recurring concerns about the language's limited documentation and maintenance, as well as its relative obscurity in modern programming communities. The overall consensus is that the idea is compelling, although its long-term adoption depends on the project's ability to address these concerns and make MUMPS more accessible to modern developers.",
-      "groq_explain": null
-    },
-    {
-      "id": 48706714,
-      "author": "pikseladam",
-      "descendants": 24,
-      "kids": "[48706893,48707230,48707195,48707069,48707226,48707118,48706943,48707224,48706917,48707023,48706865,48707105,48706715,48706930]",
-      "score": 41,
-      "time": 1782649653,
-      "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
-      "type": "story",
-      "url": "https://github.com/openai/codex/issues/2847",
-      "og_image": "https://opengraph.githubassets.com/eb6eaf7d4028ea024171759a9f016eafa52d89840c3d40660be2d1d74b98731a/openai/codex/issues/2847",
-      "groq_label": "Direct access to sensitive files is still a known issue with OpenAI Codex.",
-      "groq_discussion": "Discussion type: –  Basic:\n\nThis issue aims to solve the problem of excluding sensitive files from being accessed by the OpenAI Codex. \nBased on the Hacker News discussion, commenters generally viewed the proposal for a blocklist as inadequate and instead highlighted the importance of not allowing agents direct access to sensitive data. Many appreciated the suggestion of using a container or unmounting sensitive files as a solution, while others believed that a clean VM with controlled access would provide better security. However, the discussion also revealed several criticisms, with some questioning the effectiveness of proposed solutions and others pointing out the potential for users to circumvent these measures. Overall, the Hacker News community considered the issue a valid concern and emphasized the need for users to take responsibility for securing their sensitive data.",
-      "groq_explain": null
-    },
-    {
-      "id": 48706560,
-      "author": "bilsbie",
-      "descendants": 50,
-      "kids": "[48707098,48707243,48707246,48707217,48707189,48707022,48706923,48706744,48706999,48707093]",
-      "score": 79,
-      "time": 1782647776,
-      "title": "Kids act would require age checks to get online",
-      "type": "story",
-      "url": "https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online",
-      "og_image": "https://www.eff.org/files/banner_library/ageverificationbanner-3.png",
-      "groq_label": "The proposed \"Kids Act\" would require age verification checks for online services similar to those already in place for alcohol and nicotine products.",
-      "groq_discussion": "Discussion type: - Balanced:\n\nThe proposed Kids Act, which requires age checks to get online, received a largely divided reaction from the Hacker News community. Some commenters saw this as a reasonable aim to ensure that online services implement age verification checks for content that children shouldn't be accessing. They pointed out that similar measures are in place for age-restricted products like alcohol and nicotine. Others criticized the proposal, arguing that it would be an overreach of government control and would lead to biometric surveillance. Some even suggested that the real intention behind this proposal is to control the population. However, others offered more practical solutions, such as implementing age verification in the browser, which would require minimal changes to the existing infrastructure. Overall, the discussion suggests that the community sees both the potential benefits and limitations of the proposal, with opinions remaining mixed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48705910,
-      "author": "ibobev",
-      "descendants": 20,
-      "kids": "[48706778,48706713,48707117,48706834,48706693]",
-      "score": 47,
-      "time": 1782640438,
-      "title": "DLL that was not present in memory despite not being formally unloaded",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260625-00/?p=112467",
-      "og_image": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
-      "groq_label": "Stack traces repeat from Rtl­Lookup­Function­Entry to Ki­User­Exception­Dispatch because an exception occurred while kernel mode tried to handle another exception originated in a DLL that was not properly unloaded from memory.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this in-depth analysis by Raymond Chen is overwhelmingly positive. Commenters frequently praised Chen's detective work and his ability to uncover a complex bug, describing the post as \"humbled\" and \"doggedly determined.\" However, the discussion also included recurring concerns about the challenges of getting Microsoft support to acknowledge and address Windows bugs. The overall consensus is that Chen's work is exemplary and a testament to the importance of diligent debugging, although his team's initial lack of attention to the issue raises broader issues about Microsoft's support policies.",
-      "groq_explain": "There was a problem with a Windows program that kept crashing. The program was trying to free some memory, but something went wrong and it started crashing over and over again until it ran out of space to even crash. It looked like a DLL called shell32 was involved in the crash, but in reality, it was a problem with how the program was handling an exception."
     }
   ]
 }
