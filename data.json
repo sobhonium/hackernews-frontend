@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-30T03:58:42.842Z"
+    "lastUpdated": "2026-06-30T07:58:29.006Z"
   },
   "stories": [
+    {
+      "id": 48728740,
+      "author": "tomwas54",
+      "descendants": 31,
+      "kids": "[48729700,48728890,48728874,48729076,48728812,48729622]",
+      "score": 80,
+      "time": 1782796622,
+      "title": "US Supreme Court Just Blew Up EU-US Data Transfers",
+      "type": "story",
+      "url": "https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers",
+      "og_image": "https://noyb.eu/sites/default/files/styles/facebook/public/2026-05/header_EU-US-Data-Transfers_0.jpg?h=c9a3a702&itok=ih1PTPh3",
+      "groq_label": "The US Supreme Court's ruling has the potential to severely limit the ability of EU companies to transfer data to the US, making it difficult for them to do business with US entities.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis US-EU data transfer deal aimed to solve the problem of allowing European companies to transfer data to the US while complying with EU privacy laws. \nBased on the Hacker News discussion, commenters generally viewed \nthe current situation as having a negative impact on businesses that operate with the US, with many believing that the trend could lead to the US losing allies and business partners. Many appreciated the efforts of individuals like Schrems, who have been pushing for stronger privacy laws and have successfully influenced European courts, while others believed it could be particularly useful for companies to operate within EU privacy regulations. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the lack of trust in US-based entities and their potential to abuse European data, with some questioning the feasibility of a deal that can prevent access to US government agencies. Others pointed to the limitations of relying on the EU Commission to regulate data transfers, considering it a flawed system. Overall, the Hacker News community considered the situation as a complex issue, recognizing the need for change while emphasizing that addressing these concerns would improve the overall relationship between the US and EU in terms of data handling and transfer.",
+      "groq_explain": null
+    },
+    {
+      "id": 48728729,
+      "author": "radq",
+      "descendants": 18,
+      "kids": "[48728929,48728944,48728936,48729461]",
+      "score": 99,
+      "time": 1782796475,
+      "title": "Popping the GPU Bubble",
+      "type": "story",
+      "url": "https://moondream.ai/blog/popping-the-gpu-bubble",
+      "og_image": "https://moondream.ai/images/blog/popping-the-gpu-bubble/cover.jpg",
+      "groq_label": "Moondream Engineering uses pipelining to overlap CPU work and GPU computations in its AI inference engine, eliminating a problem known as GPU bubbles where the GPU sits idle waiting for the CPU to commit results.",
+      "groq_discussion": "Discussion type: Detailed:\n\nThis article, titled \"Popping the GPU Bubble,\" aims to solve the problem of inefficiency in GPU utilization. The Hacker News discussion was largely favorable, with many commenters appreciating the article's contribution to sharing specialized knowledge within the LLM training and inference space. Commenters praised the article's approach to shedding light on the \"GPU bubble\" phenomenon, noting the importance of making this knowledge accessible to a broader audience. However, one commenter pointed out that the term \"GPU bubble\" might be misinterpreted, as it's commonly associated with financial speculation rather than computational latency. The discussion also included a comparison of the article with a recent related paper, \"Speculative Pipeline Decoding,\" and a humorous comment about the article's fictional company name, Moondream. Overall, the discussion suggests that the community found the article valuable and worthy of attention, with potential for further refinement in its approach and terminology.",
+      "groq_explain": "Moondream Engineering is optimizing AI model inference on GPUs to make it run faster by solving a problem called a GPU bubble. This bubble happens when the CPU and GPU work isn't perfectly in sync, causing the GPU to sit idle while the CPU finishes its tasks."
+    },
+    {
+      "id": 48728599,
+      "author": "signa11",
+      "descendants": 6,
+      "kids": "[48729296,48728767,48729285]",
+      "score": 26,
+      "time": 1782795072,
+      "title": "The end of the AArch64 desktop experiment",
+      "type": "story",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+      "og_image": "https://marcin.juszkiewicz.com.pl/files/images/hrw-192.jpg",
+      "groq_label": "AArch64 desktop performance is bottlenecked by single-threaded performance, outweighing multi-core capabilities.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post/research/product] discusses the end of the AArch64 desktop experiment. \nBased on the Hacker News discussion, commenters generally viewed \nthe experiment as challenging due to [low single-core performance], which hindered the effective utilization of multiple cores. Many appreciated the comparison with the Apple M Series, noting its strength in single-thread performance where it's needed. However, the discussion also revealed several criticisms. Commenters questioned the feasibility of using the ThinkPad T14 ARM Snapdragon as a daily Linux/BSD driver, and some expressed skepticism about the future adoption of Desktop Linux. Overall, the Hacker News community considered the experiment [challenging], highlighting its technical limitations but also acknowledging the ongoing efforts towards improvement.",
+      "groq_explain": null
+    },
     {
       "id": 48727323,
       "author": "ozymandiax",
@@ -229,6 +274,21 @@
       "groq_explain": null
     },
     {
+      "id": 48720186,
+      "author": "HardwareLust",
+      "descendants": 11,
+      "kids": "[48729155,48729408,48728987,48728713,48720187]",
+      "score": 86,
+      "time": 1782745299,
+      "title": "Linux for the Sega MegaDrive",
+      "type": "story",
+      "url": "https://github.com/LinuxMD/linuxmd",
+      "og_image": "https://opengraph.githubassets.com/ce18333d1589cb67e90cf7db0eb36e076a59a7c160c69c985fd57821349f3107/LinuxMD/linuxmd",
+      "groq_label": "Linux was ported to run on the Sega MegaDrive, utilizing the Everdrive cart's 4MB of RAM to overcome its limited 64KB of onboard RAM.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project of running Linux on a Sega MegaDrive aims to solve the problem of portability of Linux on legacy hardware. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its use of the Everdrive cart, which enables the use of the 4MB of RAM. Many appreciated the fact that it runs Linux, highlighting its potential to breathe new life into the old console. Others believed it could be particularly useful for retro gaming enthusiasts and developers, allowing them to experiment with new ideas on classic hardware. However, the discussion also revealed several criticisms, with some questioning the practical challenges of using a MegaDrive for running Linux. Overall, the Hacker News community considered the project exciting and ambitious, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
+    {
       "id": 48720179,
       "author": "Kikobeats",
       "descendants": 3,
@@ -391,66 +451,6 @@
       "og_image": "https://nixos.org/blog/announcements/2026/nixos-2605/index.webp",
       "groq_label": "NixOS allows restoring previous system configurations to prevent driver updates from causing issues.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of NixOS 26.05 is extremely positive. Commenters frequently praised its user-friendliness and the ability to manage drivers and configurations with ease, particularly reducing the stress of updating drivers or configurations. Many highlighted NixOS's flexibility and reliability, with some mentioning that it has reduced their headaches with devices, allowing them to easily revert to previous configurations if needed. Additionally, the project's ability to create a VM from a NixOS config for local testing of server updates and deployments was seen as a major underappreciated feature.\n\nHowever, the overall consensus is that NixOS 26.05 is a valuable and user-friendly operating system, although its long-term success depends on continued refinement and expansion of its features.",
-      "groq_explain": null
-    },
-    {
-      "id": 48717287,
-      "author": "rbanffy",
-      "descendants": 27,
-      "kids": "[48718289,48718292,48718444,48718294,48718482]",
-      "score": 104,
-      "time": 1782728425,
-      "title": "Sandia National Labs SA3000 8085 CPU",
-      "type": "story",
-      "url": "https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/",
-      "og_image": "https://www.cpushack.com/wp-content/uploads/2026/06/761-7618457_sandia-national-laboratories-sandia-national-laboratory-logo.png",
-      "groq_label": "50,000 ICs would be far too many for a single space probe.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Sandia National Labs SA3000 8085 CPU aims to provide a radiation-hardened solution for high-radiation environments. The Hacker News discussion was generally appreciative of the CPU's capabilities, with many commenters highlighting its ability to withstand significant radiation levels with minimal performance loss. Some praised the inclusion of features such as n-on-n+ epitaxial substrate, extensive guard rings, and hardened oxides. However, the discussion also included criticisms, particularly regarding the technical specifications, with one commenter pointing out an error in the scientific notation and another questioning the need for thousands of CPUs on a single space probe. The overall impression is that the community sees promise in the CPU's design but believes there are important engineering challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48716902,
-      "author": "taubek",
-      "descendants": 92,
-      "kids": "[48717443,48717634,48717100,48717209,48717806,48718536,48717775,48717164,48718244,48719161,48717683,48717953,48718182,48719175,48719112,48717999,48717372,48717405,48717263,48718883,48718692,48718935,48717339,48717175,48719138,48718513,48717646,48718812,48717907,48718447,48717368]",
-      "score": 629,
-      "time": 1782725288,
-      "title": "Pollen tried to remove my article and Google is assisting with it",
-      "type": "story",
-      "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-      "og_image": "https://storage.ghost.io/c/39/f8/39f85cc7-8637-40fc-a57c-f45754453717/content/images/2026/06/Screenshot-2022-09-19-at-19.32.45.png",
-      "groq_label": "Pollen's DMCA notice was potentially fraudulent and Google assisted in its removal, highlighting issues with current copyright laws and the lack of accountability for false takedown requests.",
-      "groq_discussion": "Discussion type:  Basic:\n\nThis article aims to expose an attempt by a company, Pollen, to remove an existing article through fraudulent means using a DMCA claim. Based on the Hacker News discussion, commenters generally viewed the situation as absurd and highlighted strengths such as the \"Streisand effect,\" which brought more attention to the article and its topic. Many appreciated the irony and humor displayed in the discussion, noting that it showed the obvious fakeness of the request and the failure of attempts to silence the article. The commenters also believed that the incident demonstrated the importance of transparency and accountability in online moderation, especially from private entities like Google. However, the discussion also revealed criticisms about the DMCA notice system, with some commenting that it is too lenient and requires more robust verification to prevent misusage. Others argued that Google should adopt a more active role in moderating content and implementing penalties for frivolous requests. Overall, the Hacker News community considered the attempt to remove the article as an egregious example of censorship, recognizing its potential to spark awareness about related issues.",
-      "groq_explain": null
-    },
-    {
-      "id": 48716009,
-      "author": "felixdoerp",
-      "descendants": 7,
-      "kids": "[48716448,48716127]",
-      "score": 20,
-      "time": 1782718568,
-      "title": "US Grid Constraints: Towards 40GW+ of Behind-the-Meter Datacenter by 2028?",
-      "type": "story",
-      "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!t8wj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F907313ec-d17d-4e62-bd79-17e374d6767e_1672x940.png",
-      "groq_label": "Electricity demand from behind-the-meter datacenters could exceed total annual US grid capacity by 2028.",
-      "groq_discussion": "Discussion type: – Basic:\nThis research paper aims to solve the problem of scaling behind-the-meter datacenters in the US by 2028. \nBased on the Hacker News discussion, commenters generally viewed the project negatively and highlighted concerns such as its potential impact on the environment, labeling it an \"ecological disaster\". The discussion did not focus on specific strengths or benefits of the project. Overall, the Hacker News community considered the project with a strongly negative sentiment, emphasizing the potential environmental consequences.",
-      "groq_explain": null
-    },
-    {
-      "id": 48714802,
-      "author": "mzehrer",
-      "descendants": 21,
-      "kids": "[48716245,48715941,48715442,48715366,48715653,48715581]",
-      "score": 58,
-      "time": 1782707266,
-      "title": "Herdr: Agent multiplexer that lives in your terminal",
-      "type": "story",
-      "url": "https://github.com/ogulcancelik/herdr",
-      "og_image": "https://opengraph.githubassets.com/360eb316ea5eb1350938df77ba845d0195190cc4ddedf169741c2e12eb42cced/ogulcancelik/herdr",
-      "groq_label": "Herdr uses a separate process for each agent to isolate their environment and improve security.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis terminal multiplexer, Herdr, aims to simplify the management of multiple agents in a single terminal session. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its flexibility, with some even developing similar projects, like beehive. Many appreciated the ability to run Herdr remotely, noting that it allows for more flexibility and control over different agents. However, the discussion also revealed several criticisms. Commenters expressed concerns about compatibility issues, such as working with other terminal multiplexers like tmux, and the need to remap keys for seamless use with other tools like vim. They also questioned the added value of running the agents directly in one's terminal compared to other solutions like conductor.build. Overall, the Hacker News community considered Herdr a promising solution with some technical limitations, recognizing its potential while emphasizing the need for further development and optimization.",
       "groq_explain": null
     }
   ]
