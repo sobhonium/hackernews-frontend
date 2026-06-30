@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-30T18:03:29.876Z"
+    "lastUpdated": "2026-06-30T21:43:09.125Z"
   },
   "stories": [
+    {
+      "id": 48739466,
+      "author": "alok-g",
+      "descendants": 1,
+      "kids": "[48739513]",
+      "score": 3,
+      "time": 1782854953,
+      "title": "Meta's brain-scanning system reads sentences non-invasively, code open source",
+      "type": "story",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "og_image": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/731147471_987177500749005_1892166673921917145_n.gif?_nc_cat=101&ccb=1-7&_nc_sid=e280be&_nc_ohc=kt4rIA7tiyMQ7kNvwGvRPn9&_nc_oc=Adr-27vDWrBKXXvwUSsUsSDMcMZngccGmMqmPCuirn8gDkJGAraFN--J4PbLxu5mse8&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=VRoZxYZkOkufWAdEVds_Pg&_nc_ss=7c180&oh=00_AQC0pPYX1SqSBQVycf8pMBnQqpNDsnPKQWhqbe0sNp2rPg&oe=6A5E8CAD",
+      "groq_label": "The accuracy of Meta's non-invasive brain-scanning system, Brain2Qwerty v2, improves to 78% word accuracy in the best participant, which is significantly higher than the 8% word accuracy of other non-invasive methods.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Meta's brain-scanning system is cautiously optimistic. Commenters frequently praised its potential for being non-invasively and open-sourced, but there are some remaining concerns that need to be addressed. The primary issue is that current Magnetoencephalography devices are not only expensive but also large. The overall consensus is that the idea is promising, but its long-term success depends on making the technology more affordable and portable.",
+      "groq_explain": "Meta's developed a non-invasive brain-scanning system using artificial intelligence to decode brain activity into text. It doesn't require surgery and they're releasing the code and data they used to create it, which could help millions of people communicate who've lost that ability due to brain damage."
+    },
+    {
+      "id": 48738985,
+      "author": "peterdemin",
+      "descendants": 14,
+      "kids": "[48739428,48739104,48739341,48739311,48739191,48739404,48739478,48739431,48739251,48739211,48739202]",
+      "score": 60,
+      "time": 1782852516,
+      "title": "I ported Kubernetes to the browser",
+      "type": "story",
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "og_image": "https://ngrok.com/blog-assets/images/2026-06-26-i-ported-kubernetes-to-the-browser/og.jpg",
+      "groq_label": "Kubernetes has been ported to the browser and can be run with a few lines of HTML and JavaScript code.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project of porting Kubernetes to the browser aims to make Kubernetes more accessible and interactive. The Hacker News discussion was generally positive, with many commenters appreciating the idea and its potential uses for educational purposes, such as architectural education. However, the discussion also brought up recurring concerns about the limitations of this approach and the potential for complexity. Some commenters questioned whether this project is just a novelty or whether it can truly replace traditional Kubernetes, while others saw it as a stepping stone towards more advanced verification and testing processes. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48736605,
+      "author": "marinesebastian",
+      "descendants": 368,
+      "kids": "[48736821,48739571,48736833,48737967,48736781,48736907,48736727,48737851,48736807,48738490,48736817,48736861,48736657,48736756,48739405,48738286,48736832,48737482,48736787,48736865,48738578,48736703,48736675,48737429,48739297,48736674,48739215,48739581,48736721,48738311,48737660,48737010,48736726,48737634,48737604,48737698,48738363,48737080,48738918,48738231,48737618,48737586,48737086,48737193,48736851,48736788,48737077,48737119,48737707,48737611,48737480,48737001,48737108,48736997,48738964,48738158,48738891,48738849,48738159,48736634,48737915,48736802,48737043,48736914,48737718,48738177,48737421,48737180,48737091,48737499,48736790,48736666,48736898,48736775,48737152,48738195,48738549,48736810,48737596,48737035,48736862]",
+      "score": 693,
+      "time": 1782842392,
+      "title": "Claude Sonnet 5",
+      "type": "story",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "og_image": "https://cdn.sanity.io/images/4zrzovbb/website/458ea645ef6b729f6847cba16932716e6b547f2f-2880x1620.png",
+      "groq_label": "Sonnet 5 is less capable than other models for tasks like cybersecurity and vulnerability discovery.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis article, Claude Sonnet 5, aims to solve the problem of improving AI model performance. The Hacker News discussion was generally mixed, with many commenters appreciating the updated tokenizer and agent capabilities of the new model. However, several commenters raised concerns about the pricing and limitations of Sonnet 5, arguing that it is often less capable than Opus models and may not be cost-effective. Commenters also debated the model's performance on cybersecurity tasks and questioned the marketing strategy behind highlighting its limitations. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 48736137,
       "author": "GL26",
@@ -406,51 +451,6 @@
       "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Flongcat.chat%2Fblog%2Flongcat-2.0%2F?w=800",
       "groq_label": "LongCat-2.0 training and deployment use large-scale clusters of tens of thousands of AI ASIC superpods, which may be based on Huawei Ascend 910C chips.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Large-Scale MoE model LongCat-2.0 addresses the problem of advanced AI model capabilities. The Hacker News discussion was generally mixed, with many commenters appreciating the model's sheer scale and the efforts made to deploy it on large-scale clusters of AI ASIC superpods. However, several commenters raised concerns about the limitations of the supporting software community and the use of possibly Huawei Ascend 910C chips. The discussion also touched on the model's performance, with some questioning whether it is a fine-tuned or post-trained version of another model, such as DeepSeek V4-Pro. Overall, the discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed, particularly in terms of compatibility and transparency.",
-      "groq_explain": null
-    },
-    {
-      "id": 48726102,
-      "author": "jnord",
-      "descendants": 92,
-      "kids": "[48726854,48726664,48726647,48726810,48726949,48727535,48727010,48727024,48726666,48726456]",
-      "score": 163,
-      "time": 1782771660,
-      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
-      "type": "story",
-      "url": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
-      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Screenshot-2026-06-29-at-4.36.13-PM-1152x648.png",
-      "groq_label": "South Korea's $1 trillion investment combines efforts to address memory chip shortages and higher prices with development of humanoid robots, but some experts question the latter's value and practicality.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis article/project aims to solve the problem of creating a strong, diversified, and high-tech economy in South Korea. The Hacker News discussion suggests that commenters were primarily concerned about the combination of memory chip production and humanoid robots as a single investment initiative. Many appreciated the potential of increasing memory chip production to meet global demand, seeing it as a necessary and solid investment in an essential commodity. However, others questioned the value of investing such a large sum in humanoid robots, with some highlighting concerns about their uncertain value and potential technical limitations.\n\nAdditionally, the discussion highlighted broader themes, including the strategic importance of South Korea's investment and the contrast with other countries, such as Germany, which is said to have \"missed the semi manufacturing train\" due to factors like expertise and supporting supply chains. Some commenters also pointed out potential motivations behind the investment, including demographic challenges and the need for robots in the future.\n\nWhile many commenters praised the potential of this investment in boosting the economy and quality of life for South Korean citizens, others were skeptical, warning that the massive investment could simply lead to a glut in the market when the current cycle collapses. Recurring concerns and debates covered topics such as the technical superiority of other physical form factors, the uncertain returns on humanoid robots, and the strategic importance of this investment in a rapidly changing global tech landscape.",
-      "groq_explain": "South Korea is committing $1 trillion to various megaprojects to boost its global memory chip supply, build new AI data centers, and develop humanoid robots. This investment aims to position South Korea as a leader in artificial intelligence and secure key components for AI growth."
-    },
-    {
-      "id": 48726073,
-      "author": "wglb",
-      "descendants": 32,
-      "kids": "[48726820,48726598,48726078,48728189,48726735,48727026,48727052,48726665,48726653,48728015,48726864,48726937]",
-      "score": 79,
-      "time": 1782771506,
-      "title": "Scientists find molecular-level evidence for two structures in liquid water",
-      "type": "story",
-      "url": "https://phys.org/news/2026-06-scientists-molecular-evidence-liquid.html",
-      "og_image": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-find-molecu-1.jpg",
-      "groq_label": "Liquid water exists as a mixture of two distinct structures at the molecular level.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the study on molecular-level evidence for two structures in liquid water is highly positive. Commenters frequently praised the study's significance, describing the discovery as \"amazing\" and highlighting its potential to lead to new technologies. Many appreciated the study's approach to using a neural network and praised the publication of the research in Nature Physics. However, the discussion also included recurring concerns and questions about the study's methodology and assumptions. The overall consensus is that the idea is compelling, although its long-term success depends on further experimental validation and refinement of the models used in the study.",
-      "groq_explain": null
-    },
-    {
-      "id": 48724230,
-      "author": "HumanCCF",
-      "descendants": 73,
-      "kids": "[48725613,48724993,48725603,48725211,48724776,48724869,48724715,48724353,48724984,48724666,48725205,48725225,48725015,48725065,48725052,48724989,48725087,48725421,48724765,48725017,48724748,48725193,48724772,48724694,48724818,48724775,48724701]",
-      "score": 83,
-      "time": 1782762568,
-      "title": ".self: A new top-level domain designed to support self-hosting",
-      "type": "story",
-      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
-      "og_image": "https://hccf.onmy.cloud/wp-content/uploads/2026/03/HCCF_Logo_new_snug_square_transparent-3.png",
-      "groq_label": ".intentionally offering a single global identity solution through .self could lead to centralized control over online identity verification.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis .self top-level domain aims to support self-hosting. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its potential to promote self-hosted services and private online identities. At the same time, several commenters raised concerns about the feasibility, costs, and potential issues with implementation, such as domain squatting, regulation, and governance. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, including questions about revenue models, domain management, and the definition of \"self-hosted\" and \"ethical technology.\"",
       "groq_explain": null
     }
   ]
