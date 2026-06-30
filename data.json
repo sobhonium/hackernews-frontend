@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-06-30T07:58:29.006Z"
+    "lastUpdated": "2026-06-30T11:17:56.217Z"
   },
   "stories": [
+    {
+      "id": 48730904,
+      "author": "pseudolus",
+      "descendants": 1,
+      "kids": "[48730993]",
+      "score": 18,
+      "time": 1782817330,
+      "title": "Sony erases digital content from libraries; reminded we don't own what we buy",
+      "type": "story",
+      "url": "https://arstechnica.com/gadgets/2026/06/sony-erases-digital-content-from-libraries-were-reminded-we-dont-own-what-we-buy/",
+      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/abomb8-1152x648.jpg",
+      "groq_label": "Sony removing digital content from customer-owned libraries without refund highlights the lack of permanent ownership of digital purchases and reliance on platforms that can unilaterally change terms.",
+      "groq_discussion": "Discussion type:  – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Sony's decision to erase digital content from libraries is overwhelmingly negative. Commenters frequently expressed outrage and frustration, describing the move as a reminder that customers do not truly own their purchased digital content. Many felt betrayed by the lack of transparency and refunds for affected users. The overall consensus is that Sony's actions are seen as egregious, and the company's disregard for customer ownership and data is a major concern.",
+      "groq_explain": null
+    },
+    {
+      "id": 48730729,
+      "author": "donohoe",
+      "descendants": 9,
+      "kids": "[48730958,48730943,48731015,48730773,48730941]",
+      "score": 31,
+      "time": 1782815783,
+      "title": "European digital ID wallets are a gift to Google and Apple",
+      "type": "story",
+      "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/",
+      "og_image": "https://cms.waag.org/sites/waag/files/styles/1200x630/public/2026-06/scherm-afbeelding_2026-06-23_om_10.31.35.png",
+      "groq_label": "Regulations creating standards for European digital ID wallets are favoring Apple and Google at the expense of smaller players.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project] aims to solve the problem of creating a European digital ID system. The Hacker News discussion was generally critical, with many commenters arguing that the project creates a monopolistic situation for Google and Apple. Commenters pointed out that regulations often result in unintended consequences, where smaller players are at a disadvantage. Additionally, the project's reliance on two US companies contradicts the recent emphasis on European digital sovereignty. However, some users mentioned alternative options, such as CoinPay's DID, which is open-source and anonymous. Overall, the discussion suggests that the community sees the project as problematic due to the potential creation of a duopoly and the lack of a third alternative.",
+      "groq_explain": null
+    },
+    {
+      "id": 48730694,
+      "author": "bookofjoe",
+      "descendants": 1,
+      "kids": "[48730955]",
+      "score": 9,
+      "time": 1782815462,
+      "title": "Exercise intensity influences body composition in healthy older adults",
+      "type": "story",
+      "url": "https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext",
+      "og_image": "images/48730694.png",
+      "groq_label": "Exercise intensity affects body fat percentage differently in different older adult populations.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis study aimed to investigate the relationship between exercise intensity and body composition in healthy older adults. Based on the Hacker News discussion, commenters generally viewed the study as unnecessary and somewhat intuitive. Many appreciated the common sense behind the study's findings, noting that increased exercise intensity is likely to lead to better health outcomes. However, this sentiment was often expressed with a hint of sarcasm, as some commenters questioned the need for a study to affirm the benefits of exercise on the general population. Overall, the Hacker News community considered the study as a somewhat obvious, yet reassuring, confirmation of the positive effects of physical activity.",
+      "groq_explain": null
+    },
+    {
+      "id": 48730246,
+      "author": "clarionbell",
+      "descendants": 5,
+      "kids": "[48730969,48730369,48730637,48730990]",
+      "score": 25,
+      "time": 1782810921,
+      "title": "Antares Achieves Criticality of Mark-0 Reactor",
+      "type": "story",
+      "url": "https://antaresindustries.com/updates/antares-achieves-criticality",
+      "og_image": "https://framerusercontent.com/assets/joWFqD7ebQaUT1ODdUV7ojqTons.jpg",
+      "groq_label": "Antares uses TRISO fuel to achieve criticality in its Mark-0 reactor at Idaho National Laboratory.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] -  Achieving Criticality of Mark-0 Reactor -  aims to solve the problem of developing a new nuclear reactor design. The Hacker News discussion was generally balanced, with many commenters appreciating the engineering achievement and the reactor's capabilities, such as using TRISO fuel and having a pebble bed design, which they saw as efficient and reliable. At the same time, several commenters raised concerns about the project's goal to power US military installations, with some questioning the suitability of microreactors for this purpose and expressing reservations about the marketing strategy, as the Chinese have successfully adopted a similar technology. Overall, the discussion suggests that the community sees the project's engineering achievements but has serious doubts about its marketing and practical applications.",
+      "groq_explain": "A private company called Antares has successfully achieved a critical step in developing a new kind of nuclear reactor called the Mark-0. This is a big deal because it's the first time a privately developed reactor has reached this point in more than 40 years, and it shows potential for new and more efficient ways to generate nuclear energy."
+    },
     {
       "id": 48728740,
       "author": "tomwas54",
@@ -391,66 +451,6 @@
       "og_image": "https://pbs.twimg.com/media/HL6oQbca4AAwK_D.jpg",
       "groq_label": "Users' photos are being used in ads for Meta Glasses without their explicit consent, based on their agreement to let Facebook use their personal content in commercials.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article about Instagram incorporating users' photos in ads for Meta Glasses suggests that the community has both positive and negative reactions. On one hand, some commenters view it as not entirely surprising given Meta's past practices, such as using user photos to promote Meta AI. Others point out that users' photos can be used in advertising through the terms of service. However, many commenters express their concerns about the privacy implications, considering it \"counter-productive and creepy.\" Some also draw comparisons between Meta's practices and those of tobacco and slot machine companies, highlighting the lack of user consent. While some commenters seem less bothered by this practice, others see it as a sign of larger issues with user surveillance and exploitation. Overall, the discussion reveals a mix of criticism and skepticism towards Meta's use of user photos in advertising.",
-      "groq_explain": null
-    },
-    {
-      "id": 48718995,
-      "author": "LorenDB",
-      "descendants": 11,
-      "kids": "[48719993,48720217,48720142,48719266,48719609]",
-      "score": 60,
-      "time": 1782739399,
-      "title": "Building Principia for Windows XP",
-      "type": "story",
-      "url": "https://voxelmanip.se/2026/06/28/building-principia-for-windows-xp/",
-      "og_image": "https://voxelmanip.se/media/building-principia-for-windows-xp/cover.webp",
-      "groq_label": "Principia supports Windows XP without needing a dedicated physics engine, unlike many modern games that require complex physics calculations.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project, \"Building Principia for Windows XP\", aims to solve the problem of keeping the Principia physics game compatible with the outdated Windows XP operating system. The Hacker News discussion was generally optimistic, with many commenters appreciating the effort of the developers in maintaining support for an old OS. Several commenters praised the project's strengths, including its ability to access a large existing software catalog and its option to run directly in the browser. However, others raised concerns about the practical limitations of supporting an outdated OS, and the need for users to install specific tools, like Legacy Update, to resolve post-install issues. Overall, the discussion suggests that the community sees potential in the project but notes the challenges associated with supporting an old OS.",
-      "groq_explain": null
-    },
-    {
-      "id": 48718863,
-      "author": "mezark",
-      "descendants": 4,
-      "kids": "[48720748,48719378,48719527]",
-      "score": 70,
-      "time": 1782738668,
-      "title": "What happens when you run a CUDA kernel?",
-      "type": "story",
-      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
-      "og_image": "https://fergusfinn.com/_astro/cover.jG4AhdiB.jpg",
-      "groq_label": "Nvidia compiles CUDA kernels into machine code that is then executed directly by the GPU or is run through the GPU driver's runtime compiler to generate machine code.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis blog post explores what happens when a CUDA kernel is run. The Hacker News discussion was generally positive, with many commenters appreciating the detailed explanation and praising the author for their thoroughness. However, some commenters raised concerns about the post's approach and its limitations. One commenter noted that the post focuses on the user-space \"voodoo\" and doesn't reveal everything that's going on under the hood. This commenter suggested that using the driver API could provide better visibility into the CUDA runtime. Overall, the discussion suggests that there is value in the blog post, but some readers would like to see more nuance and technical detail.",
-      "groq_explain": null
-    },
-    {
-      "id": 48718840,
-      "author": "hn8726",
-      "descendants": 205,
-      "kids": "[48719238,48719360,48719491,48719663,48719302,48719293,48720731,48719231,48719385,48719565,48719525,48719232,48719806,48719654,48719692,48719999,48719592,48719801,48719909,48719783,48720321,48719674,48719205,48719587,48719189,48719324,48719273,48719239,48719257,48719227,48720176,48719865,48719349,48719268,48719190,48719588,48719391]",
-      "score": 176,
-      "time": 1782738543,
-      "title": "Tidal AI Policy",
-      "type": "story",
-      "url": "https://tidal.com/ai-policy",
-      "og_image": "images/48718840.png",
-      "groq_label": "Tidal is implementing a clear policy on AI-generated music by accepting it, but requiring a higher standard of content integrity and labeling it as such to prevent copyright infringement and exploitation.",
-      "groq_discussion": "Discussion type: - Balanced:\n\nThis Tidal AI policy aims to address the issue of AI-generated music. The Hacker News discussion was generally positive, with many commenters appreciating the clarification on AI-generated music and Tidal's commitment to maintaining content integrity. At the same time, several commenters raised concerns about the definition of AI-generated music and argued that it would be beneficial to have more transparency and labeling in AI-powered content.",
-      "groq_explain": null
-    },
-    {
-      "id": 48718753,
-      "author": "lostmsu",
-      "descendants": 1,
-      "kids": "[48720833]",
-      "score": 22,
-      "time": 1782738111,
-      "title": "NixOS 26.05",
-      "type": "story",
-      "url": "https://nixos.org/blog/announcements/2026/nixos-2605/",
-      "og_image": "https://nixos.org/blog/announcements/2026/nixos-2605/index.webp",
-      "groq_label": "NixOS allows restoring previous system configurations to prevent driver updates from causing issues.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of NixOS 26.05 is extremely positive. Commenters frequently praised its user-friendliness and the ability to manage drivers and configurations with ease, particularly reducing the stress of updating drivers or configurations. Many highlighted NixOS's flexibility and reliability, with some mentioning that it has reduced their headaches with devices, allowing them to easily revert to previous configurations if needed. Additionally, the project's ability to create a VM from a NixOS config for local testing of server updates and deployments was seen as a major underappreciated feature.\n\nHowever, the overall consensus is that NixOS 26.05 is a valuable and user-friendly operating system, although its long-term success depends on continued refinement and expansion of its features.",
       "groq_explain": null
     }
   ]
