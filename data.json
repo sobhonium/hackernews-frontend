@@ -1,8 +1,51 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-01T08:34:59.349Z"
+    "lastUpdated": "2026-07-01T11:43:15.581Z"
   },
   "stories": [
+    {
+      "id": 48744518,
+      "author": "pantalaimon",
+      "descendants": 21,
+      "kids": "[48744760,48744641,48744843,48744768,48744781,48744649]",
+      "score": 143,
+      "time": 1782900424,
+      "title": "Asahi Linux 7.1 Progress Report",
+      "type": "story",
+      "url": "https://asahilinux.org/2026/06/progress-report-7-1/",
+      "og_image": "https://asahilinux.org/img/AsahiLinux_logomark_256px.png",
+      "groq_label": "Asahi Linux developers are successfully creating a Linux distribution for Apple Silicon Macs without upstream support, allowing for RPM-based systems to potentially rival Debian-based ones.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Asahi Linux 7.1 Progress Report aims to bring Linux to Apple's M1 and M2 chips. The Hacker News discussion was generally positive and encouraging, with many commenters appreciating the project's progress and the enthusiasm of its team. Commenters praised the project for working on the AVD driver and expressed admiration for the developers' efforts. However, the discussion also included concerns about the project's long-term viability, with some wondering about its potential integration with upstream projects or its dependence on Fedora.",
+      "groq_explain": null
+    },
+    {
+      "id": 48744213,
+      "author": "garriguv",
+      "kids": "[]",
+      "score": 1,
+      "time": 1782897523,
+      "title": "Dexter (YC F24) Is Hiring a Founding Engineer in Berlin",
+      "type": "job",
+      "og_image": null,
+      "groq_label": "Dexter is using a custom GraphQL schema to handle user permissions and data access.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48743655,
+      "author": "mushstory",
+      "descendants": 3,
+      "kids": "[48744278]",
+      "score": 13,
+      "time": 1782893560,
+      "title": "Register Korea's First PC 'SE-8001' as a National Important Material",
+      "type": "story",
+      "url": "https://www.dongascience.com/en/news/30374",
+      "og_image": "https://image.dongascience.com/Photo/2019/08/15649787250472.png",
+      "groq_label": "The SE-8001 was actually a clone of the Commodore PET 4016.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis [article/project/blog post/research/product] is about Registering Korea's First PC, the 'SE-8001', as a National Important Material. The discussion reflects a balanced mix of information and analysis. Commenters provided context and technical insights, noting that the SE-8001 was a modification of a foreign personal computer, specifically mentioning the Commodore PET. The discussion aims to educate and clarify the project's significance rather than promoting a particular opinion or stance. Overall, the discussion presents the project as a historical and potentially important artifact of Korea's technological development.",
+      "groq_explain": "South Korea is considering recognizing one of its first personal computers as a national important material, likely due to its historical significance and potential contribution to the country's tech industry."
+    },
     {
       "id": 48743472,
       "author": "pjmlp",
@@ -406,51 +449,6 @@
       "og_image": "https://www.gutenberg.org/cache/epub/24518/pg24518.cover.medium.jpg",
       "groq_label": "The historical patterns of irrationality and crowd behavior, such as investing in unexplained ventures, remain relevant in contemporary times.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post/research/product] aims to analyze the concept of mass delusions and bubbles in society. Based on the Hacker News discussion, commenters generally viewed the book [Memoirs of Extraordinary Popular Delusions and the Madness of Crowds] positively and highlighted strengths such as its thought-provoking examples of how people can be misled in their financial decisions, including the South Sea Bubble. Many appreciated the book's ability to showcase the irrational behavior of crowds, noting that it challenges readers to question their own perceptions and trust in reality. However, the discussion also revealed several criticisms. Commenters expressed concerns about the relevance of the book to modern-day investment decisions, particularly with the current AI stock market activity. Overall, the Hacker News community considered the book [overall sentiment], recognizing its historical significance while emphasizing that its lessons remain relevant today.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730904,
-      "author": "pseudolus",
-      "descendants": 1,
-      "kids": "[48730993]",
-      "score": 18,
-      "time": 1782817330,
-      "title": "Sony erases digital content from libraries; reminded we don't own what we buy",
-      "type": "story",
-      "url": "https://arstechnica.com/gadgets/2026/06/sony-erases-digital-content-from-libraries-were-reminded-we-dont-own-what-we-buy/",
-      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2020/06/abomb8-1152x648.jpg",
-      "groq_label": "Sony removing digital content from customer-owned libraries without refund highlights the lack of permanent ownership of digital purchases and reliance on platforms that can unilaterally change terms.",
-      "groq_discussion": "Discussion type:  – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Sony's decision to erase digital content from libraries is overwhelmingly negative. Commenters frequently expressed outrage and frustration, describing the move as a reminder that customers do not truly own their purchased digital content. Many felt betrayed by the lack of transparency and refunds for affected users. The overall consensus is that Sony's actions are seen as egregious, and the company's disregard for customer ownership and data is a major concern.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730818,
-      "author": "fagnerbrack",
-      "descendants": 57,
-      "kids": "[48732733,48732267,48732002,48731781,48732145,48731100,48732132,48732060,48732095,48731842,48732323,48731629,48732863,48731782,48731877,48731425,48731845,48731247,48732523,48731947,48732698]",
-      "score": 76,
-      "time": 1782816503,
-      "title": "Parse, Don't Validate – In a Language That Doesn't Want You To",
-      "type": "story",
-      "url": "https://cekrem.github.io/posts/parse-dont-validate-typescript/",
-      "og_image": "https://cekrem.github.io/images/banner.jpg",
-      "groq_label": "Type systems can be too flexible and lack explicit error handling, but parsing can provide stronger guarantees and more explicit error messages than validation.",
-      "groq_discussion": "Discussion type:  – Balanced:\n\nThis article proposing the \"Parse, Don't Validate\" approach to error handling in TypeScript, particularly through the use of branded types and zod, was met with a mix of reactions from the Hacker News community. While some commenters, such as those who found zod to be the most ergonomic way to express type-safe ideas in TypeScript, praised the approach as a viable solution to the common issue of implicit errors in functions, others were more skeptical, citing concerns about the complexity and friction it may add to the ecosystem. One commenter noted that most existing code relies on exceptions for error handling, and that polymorphic return types could potentially hinder JavaScript engine performance. The discussion also touched on a more philosophical debate about the role of TypeScript and whether it should be used as a validation framework instead of simply parsing. Overall, the community seems to see potential in this approach but also recognizes that it has its limitations and drawbacks.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730729,
-      "author": "donohoe",
-      "descendants": 9,
-      "kids": "[48730958,48730943,48731015,48730773,48730941]",
-      "score": 31,
-      "time": 1782815783,
-      "title": "European digital ID wallets are a gift to Google and Apple",
-      "type": "story",
-      "url": "https://waag.org/en/article/european-digital-id-wallets-are-gift-google-and-apple/",
-      "og_image": "https://cms.waag.org/sites/waag/files/styles/1200x630/public/2026-06/scherm-afbeelding_2026-06-23_om_10.31.35.png",
-      "groq_label": "Regulations creating standards for European digital ID wallets are favoring Apple and Google at the expense of smaller players.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project] aims to solve the problem of creating a European digital ID system. The Hacker News discussion was generally critical, with many commenters arguing that the project creates a monopolistic situation for Google and Apple. Commenters pointed out that regulations often result in unintended consequences, where smaller players are at a disadvantage. Additionally, the project's reliance on two US companies contradicts the recent emphasis on European digital sovereignty. However, some users mentioned alternative options, such as CoinPay's DID, which is open-source and anonymous. Overall, the discussion suggests that the community sees the project as problematic due to the potential creation of a duopoly and the lack of a third alternative.",
       "groq_explain": null
     }
   ]
