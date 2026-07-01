@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-01T04:13:06.919Z"
+    "lastUpdated": "2026-07-01T08:34:59.349Z"
   },
   "stories": [
+    {
+      "id": 48743472,
+      "author": "pjmlp",
+      "descendants": 9,
+      "kids": "[48743798,48743720,48743751,48743799,48743712]",
+      "score": 26,
+      "time": 1782891802,
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "type": "story",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "og_image": "https://cdn.mos.cms.futurecdn.net/9fe6i3bvMxcRA6sb2TJAS-1600-80.jpg",
+      "groq_label": "Godot's ban on AI-authored code contributions may not prevent its use due to the potential for submitters to add stylistic markers to bypass the policy.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis announcement by Godot aiming to improve the review process for contributions. The Hacker News discussion was generally negative, with some commenters appreciating the policy's intentions but also criticizing its approach. Many appreciated the efforts to address concerns about AI-authored code contributions, particularly the frustration caused by verbose text. Some questioned the decision's effectiveness, arguing it may not prevent the use of AI in coding and others pointed out potential issues with enforcing this policy.",
+      "groq_explain": null
+    },
+    {
+      "id": 48742514,
+      "author": "at2005",
+      "descendants": 2,
+      "kids": "[48742936]",
+      "score": 30,
+      "time": 1782882802,
+      "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+      "type": "story",
+      "url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+      "og_image": "https://ayushtambde.com/matrix-orthogonalization/algorithm.png",
+      "groq_label": "Matrix orthogonalization in recurrent models helps prevent feature collisions by generating orthogonal vectors which in turn improves the memory efficiency.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to solve the problem of memory efficiency in recurrent models. The Hacker News discussion was generally mixed, with some commenters appreciating the parallels drawn between matrix orthogonalization and other digital transmission technologies, such as orthogonal frequency-division multiplexing. However, the discussion also showed a lack of detailed analysis or technical insights into the specific application of matrix orthogonalization in recurrent models. Overall, the discussion suggests that the community finds the idea interesting but requires more information to fully appreciate its potential.",
+      "groq_explain": null
+    },
+    {
+      "id": 48742483,
+      "author": "dsr12",
+      "descendants": 37,
+      "kids": "[48743434,48743796,48742518,48742900,48742978,48743738,48742598,48743554,48743585,48743305]",
+      "score": 91,
+      "time": 1782882570,
+      "title": "The first early human eggs from stem cells",
+      "type": "story",
+      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
+      "og_image": "https://framerusercontent.com/images/PfCSS8URInnpMrqsd5bQlDQBac.png",
+      "groq_label": "Stem cells used to create human eggs may not be suitable for reproduction due to accumulated mitochondrial damage.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to solve the problem of creating human eggs from stem cells. The Hacker News discussion was generally mixed, with many commenters appreciating the potential implications of this research. At the same time, several commenters raised concerns about the potential long-term impacts of this technology, including mitochondrial damage, unintended consequences of genetic manipulation, and the ethics of creating more life. Others questioned whether this is the right approach to addressing population growth.",
+      "groq_explain": null
+    },
+    {
+      "id": 48741748,
+      "author": "subset",
+      "descendants": 27,
+      "kids": "[48743696,48742815,48743127,48742980,48743372,48743165]",
+      "score": 87,
+      "time": 1782874296,
+      "title": "ArXiv's Next Chapter",
+      "type": "story",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
+      "og_image": "https://blog.arxiv.org/files/2021/02/arxiv-logo-1.png",
+      "groq_label": "ArXiv may shift away from its open access and community-driven model if it declares independence and relies on alternative funding sources.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis arXiv initiative aims to solve the problem of accessing high-quality scientific research. The Hacker News discussion was generally mixed, with many commenters appreciating its Open Access approach and the ability to post papers without peer review. At the same time, several commenters raised concerns about the quality of some submissions, arguing that many are just blog posts in disguise without proper review. Some also worried about the potential for arXiv to become a non-profit organization like OpenAI, suggesting that it may undermine its original mission.",
+      "groq_explain": null
+    },
     {
       "id": 48741654,
       "author": "lobbly",
@@ -392,66 +452,6 @@
       "groq_label": "Regulations creating standards for European digital ID wallets are favoring Apple and Google at the expense of smaller players.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project] aims to solve the problem of creating a European digital ID system. The Hacker News discussion was generally critical, with many commenters arguing that the project creates a monopolistic situation for Google and Apple. Commenters pointed out that regulations often result in unintended consequences, where smaller players are at a disadvantage. Additionally, the project's reliance on two US companies contradicts the recent emphasis on European digital sovereignty. However, some users mentioned alternative options, such as CoinPay's DID, which is open-source and anonymous. Overall, the discussion suggests that the community sees the project as problematic due to the potential creation of a duopoly and the lack of a third alternative.",
       "groq_explain": null
-    },
-    {
-      "id": 48730713,
-      "author": "Tiberium",
-      "descendants": 5,
-      "kids": "[48733028,48733114,48732617]",
-      "score": 44,
-      "time": 1782815665,
-      "title": "Zluda 6 release (run unmodified CUDA applications on non-Nvidia GPUs)",
-      "type": "story",
-      "url": "https://vosen.github.io/ZLUDA/blog/zluda-update-q1q2-2026/",
-      "og_image": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
-      "groq_label": "Zluda 6 release allows running unmodified CUDA applications on non-Nvidia GPUs with added features like text rendering due to a shift in focus towards entertainment.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Zluda 6 release aims to run unmodified CUDA applications on non-Nvidia GPUs. \nBased on the Hacker News discussion, commenters generally viewed the project positively. \nOne person appreciated the shift in focus to more personal and entertaining features, \nconsidering it a unique approach. Many also appreciated the pun added to the announcement. \nOne commenter even found the meaning of the name \"Zluda\" interesting and noted its relation to the word for \"mirage\" or \"illusion.\" \nHowever, others were more interested in the technical aspects, inquiring about the project's potential use in large language models and how it compares to Vulkan. \nOverall, the discussion revealed both enthusiasm and curiosity about the project's possibilities, \nwhile also highlighting the need for more technical information and comparisons.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730694,
-      "author": "bookofjoe",
-      "descendants": 1,
-      "kids": "[48730955]",
-      "score": 9,
-      "time": 1782815462,
-      "title": "Exercise intensity influences body composition in healthy older adults",
-      "type": "story",
-      "url": "https://www.maturitas.org/article/S0378-5122(25)00571-7/fulltext",
-      "og_image": "images/48730694.png",
-      "groq_label": "Exercise intensity affects body fat percentage differently in different older adult populations.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis study aimed to investigate the relationship between exercise intensity and body composition in healthy older adults. Based on the Hacker News discussion, commenters generally viewed the study as unnecessary and somewhat intuitive. Many appreciated the common sense behind the study's findings, noting that increased exercise intensity is likely to lead to better health outcomes. However, this sentiment was often expressed with a hint of sarcasm, as some commenters questioned the need for a study to affirm the benefits of exercise on the general population. Overall, the Hacker News community considered the study as a somewhat obvious, yet reassuring, confirmation of the positive effects of physical activity.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730608,
-      "author": "robtherobber",
-      "descendants": 168,
-      "kids": "[48731545,48732967,48732299,48732765,48732550,48732452,48732023,48732880,48731579,48731550,48732682,48732401,48731650,48732661,48732815,48731791,48732952,48731932,48732303,48732256,48732220,48732167,48731307,48731531,48732468]",
-      "score": 445,
-      "time": 1782814515,
-      "title": "The US ambassador had Belgian police stop our reporting",
-      "type": "story",
-      "url": "https://europeancorrespondent.com/en/r/the-us-ambassador-had-belgian-police-stop-our-reporting",
-      "og_image": "https://images.europeancorrespondent.com/attRp54hjyayl13fH/public",
-      "groq_label": "US Ambassador attempted to have Belgian police stop journalists reporting on a sensitive event because of a question asked during a closed session.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article reports on the US ambassador having Belgian police stop a reporting team from asking a question to a former US official visiting Belgium. The Hacker News discussion was generally negative towards the US ambassador's actions, with many commenters expressing outrage over the interference with journalists and the suppression of free speech. Some commenters argued that the US ambassador's actions were justified, citing concerns about security, while others noted that the incident demonstrated a worrying trend of authoritarianism in the US. The discussion suggests that the community sees this as a serious issue that highlights the need for protecting free speech and the press, while also emphasizing the importance of diplomacy and respect for host countries.",
-      "groq_explain": null
-    },
-    {
-      "id": 48730246,
-      "author": "clarionbell",
-      "descendants": 5,
-      "kids": "[48730969,48730369,48730637,48730990]",
-      "score": 25,
-      "time": 1782810921,
-      "title": "Antares Achieves Criticality of Mark-0 Reactor",
-      "type": "story",
-      "url": "https://antaresindustries.com/updates/antares-achieves-criticality",
-      "og_image": "https://framerusercontent.com/assets/joWFqD7ebQaUT1ODdUV7ojqTons.jpg",
-      "groq_label": "Antares uses TRISO fuel to achieve criticality in its Mark-0 reactor at Idaho National Laboratory.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] -  Achieving Criticality of Mark-0 Reactor -  aims to solve the problem of developing a new nuclear reactor design. The Hacker News discussion was generally balanced, with many commenters appreciating the engineering achievement and the reactor's capabilities, such as using TRISO fuel and having a pebble bed design, which they saw as efficient and reliable. At the same time, several commenters raised concerns about the project's goal to power US military installations, with some questioning the suitability of microreactors for this purpose and expressing reservations about the marketing strategy, as the Chinese have successfully adopted a similar technology. Overall, the discussion suggests that the community sees the project's engineering achievements but has serious doubts about its marketing and practical applications.",
-      "groq_explain": "A private company called Antares has successfully achieved a critical step in developing a new kind of nuclear reactor called the Mark-0. This is a big deal because it's the first time a privately developed reactor has reached this point in more than 40 years, and it shows potential for new and more efficient ways to generate nuclear energy."
     }
   ]
 }
