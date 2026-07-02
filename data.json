@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-02T07:37:20.383Z"
+    "lastUpdated": "2026-07-02T10:45:56.855Z"
   },
   "stories": [
+    {
+      "id": 48758309,
+      "author": "boshomi",
+      "descendants": 79,
+      "kids": "[48758775,48758689,48759125,48759200,48758933,48758753,48758834,48759042,48758679,48758715,48758653,48758902,48759168,48758915,48759090,48758690,48759005]",
+      "score": 94,
+      "time": 1782981253,
+      "title": "Google loses fight over record $4.7B EU antitrust fine",
+      "type": "story",
+      "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
+      "og_image": "https://image.cnbcfm.com/api/v1/image/108329754-1782978643176-gettyimages-458933277-000019668000_XXXLarge.jpeg?v=1782978650&w=1920&h=1080",
+      "groq_label": "The EU's top court upheld a record $4.67 billion fine against Google over its alleged anti-competitive practices, despite the company being much wealthier and having had eight years to change its ways.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Google's $4.7B EU antitrust fine is largely positive. Commenters frequently praised the EU for holding Google accountable for anti-competitive practices and argued that the fine was insufficient, even suggesting that it should be much higher given Google's massive revenue. Many commenters believed that Google's behavior has become worse over time and that the fine was overdue, citing the company's influence in multiple sectors. The overall consensus is that the fine is a step in the right direction, but that more needs to be done to break up Google's monopoly and hold the company accountable for its actions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48758048,
+      "author": "varjag",
+      "descendants": 7,
+      "kids": "[48758683,48759047,48758875,48758680]",
+      "score": 57,
+      "time": 1782979275,
+      "title": "The Fall of the Theorem Economy",
+      "type": "story",
+      "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!PjDj!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23fb6d1a-c174-487f-8619-f57247788a4c_869x475.jpeg",
+      "groq_label": "The Mathlib theorem prover and the growing field of formal verification are accelerating a shift towards more efficient and transparent mathematical proofs, potentially replacing traditional theorem economy with a new model based on machine-generated evidence.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"The Fall of the Theorem Economy\" is overwhelmingly positive. Commenters frequently praised its thoughtfulness, reason, and depth of domain expertise, describing it as \"incredibly thoughtful\" and \"well-reasoned\". However, one comment expressed skepticism towards the panic surrounding mathematics in the context of AI, labeling it as a precursor to a potential \"math panic\". The overall consensus is that the article presents a compelling idea, although its implications depend on the potential advancements in AI and the emergence of new forms of mathematics.",
+      "groq_explain": null
+    },
     {
       "id": 48756840,
       "author": "handfuloflight",
@@ -418,36 +448,6 @@
       "og_image": "https://hydrogenaudio.org/themes/default/images/topic/normal_post.png",
       "groq_label": "The new AAC encoder in FFmpeg 9.1 may improve quality over the previous one after being optimized and possibly surpassing the quality requirements of Apple's Core Audio encoder.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis new AAC encoder in FFmpeg 9.1 aims to solve the problem of poor quality AAC output from previous versions. The Hacker News discussion was generally positive, with many commenters appreciating the effort to improve FFmpeg's AAC encoder and its potential to replace or surpass existing solutions like the Apple Core Audio encoder. However, the discussion also revealed concerns about the encoder's performance compared to other codecs, specifically Opus, which some commenters believe performs significantly better even at lower bitrates. Furthermore, the discussion touched on the limitations of the current encoder, such as its optimization for 48Khz audio, and the need for future refinements to address various technical concerns. Overall, the discussion suggests that the community sees promise in the new AAC encoder but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48746914,
-      "author": "soheilpro",
-      "descendants": 59,
-      "kids": "[48750817,48750283,48749283,48749629,48749511,48747836,48749558,48748669,48750180,48749828,48749296,48750093,48750599,48749926,48750376,48749274,48749393,48750543,48750146,48747789,48749760,48747791,48749299,48749738,48749007,48749610,48748470,48749877]",
-      "score": 126,
-      "time": 1782914353,
-      "title": "Monetization Gateway",
-      "type": "story",
-      "url": "https://blog.cloudflare.com/monetization-gateway/",
-      "og_image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/7wA6Z3Df13eeHZkxM3Fokt/088b64cd947100b70bd0e49c845fc984/Announcing_the_Monetization_Gateway-_charge_for_any_resource_behind_Cloudflare_via_x402-OG.png",
-      "groq_label": "The Monetization Gateway technology may create complexities in invoicing and taxation for recurring, tiny payments.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis new protocol, x402, aims to embed payments directly into web interactions, enabling AI agents, APIs, and apps to transact value seamlessly. Hacker News commenters reacted with mixed sentiment. Some praised Cloudflare's potential to make micropayments a reality, while others expressed concerns about the growing trend of Cloudflare becoming an internet gatekeeper. Critics also pointed to the potential uphill battle of adoption, especially for per-request micropayments, and the need for a more user-friendly approach.",
-      "groq_explain": null
-    },
-    {
-      "id": 48746842,
-      "author": "cf100clunk",
-      "descendants": 3,
-      "kids": "[48747670,48747402]",
-      "score": 26,
-      "time": 1782914065,
-      "title": "Your Kids' School Bus Is About to Become a Roaming Surveillance Vehicle",
-      "type": "story",
-      "url": "https://www.thedrive.com/news/your-kids-school-bus-is-about-to-become-a-roaming-surveillance-vehicle",
-      "og_image": "https://www.thedrive.com/wp-content/uploads/2025/08/feat-getty.jpg?quality=85&w=1200",
-      "groq_label": "Bus Patrol is equipping school buses with AI-powered cameras that can recognize and track individual students without their consent.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article reveals a plan by Bus Patro to outfit kids' school buses with surveillance technology. Based on the Hacker News discussion, commenters generally viewed the plan negatively and highlighted several criticisms. Many appreciated the mention of Bus Patrol's problematic history, noting that they are \"felons and in prison\", while others questioned the need for tracking school buses, pointing out that cities could be designed to be more walkable and bikeable. However, the main concerns focused on the implications of surveillance on children. Overall, the Hacker News community considered the plan critically, emphasizing the importance of prioritizing children's privacy and autonomy.",
       "groq_explain": null
     }
   ]
