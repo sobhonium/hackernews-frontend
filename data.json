@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-02T03:54:34.682Z"
+    "lastUpdated": "2026-07-02T07:37:20.383Z"
   },
   "stories": [
+    {
+      "id": 48756840,
+      "author": "handfuloflight",
+      "descendants": 14,
+      "kids": "[48757326,48757486,48757676,48757240,48757264,48757761]",
+      "score": 28,
+      "time": 1782969574,
+      "title": "CursorBench 3.1",
+      "type": "story",
+      "url": "https://cursor.com/evals",
+      "og_image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/og/cb-07-01.png",
+      "groq_label": "CursorBench finds Composer 2.5 comparable to the expensive Opus 4.8 max and GPT-5.5 models, but at a substantially lower cost.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] – CursorBench 3.1 – aims to solve the problem of evaluating and comparing the performance of various AI models. The Hacker News discussion was generally mixed, with many commenters appreciating the project's approach to benchmarking AI models at different price points and acknowledging its strengths. At the same time, several commenters raised concerns about the credibility of the benchmark results, arguing that Cursor 2.5 is not as effective as GPT-5.5 xhigh or Opus 4.8 max, particularly in certain tasks and on the DeepSWE benchmark. Overall, the discussion suggests that the community sees some value in the project, but believes there are important challenges that still need to be addressed, such as the accuracy and reliability of the benchmark results.",
+      "groq_explain": null
+    },
+    {
+      "id": 48756602,
+      "author": "unliftedq",
+      "descendants": 17,
+      "kids": "[48757099,48757469,48757384,48757300,48757222,48757284,48756603,48756912,48757234]",
+      "score": 69,
+      "time": 1782966761,
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "type": "story",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "og_image": "https://github.blog/wp-content/uploads/2026/06/613814616-4d64d5a2-d26c-4377-9ce6-a444b1b30840.png",
+      "groq_label": "GitHub's Kimi K2.7 code is now available in GitHub Copilot, potentially offering a cost-effective alternative to the major language models.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GitHub Copilot's availability of Kimi K2.7 Code is largely positive. Commenters praised the introduction of an alternative to the \"big dogs\" that enterprises can use, citing its performance and trusted provider status. Many appreciated the lower costs compared to other models, with some expressing excitement about the prospects of future model updates, such as glm5.2. However, the discussion also included recurring concerns about GitHub Copilot's pricing and reputation, with some commenters questioning the value of the offering and comparing it unfavorably to competitors like Fireworks AI. Despite these criticisms, the overall consensus is that the idea of using Kimi K2.7 Code is compelling, and its long-term success will depend on how GitHub Copilot addresses the remaining concerns, such as the lack of support for custom models and the exact location of inference running.",
+      "groq_explain": null
+    },
     {
       "id": 48756038,
       "author": "ccheshirecat",
@@ -16,6 +46,21 @@
       "og_image": "https://meow.style/og-image.webp",
       "groq_label": "Meow is presented as the 4th JavaScript runtime and toolchain.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this \"Meow\" project is negative. Commenters frequently brought up criticisms, describing it as potentially confusing due to its \"cat\"-themed name and comparing unfavorably to another existing project (\"bun\"). However, the discussion also included recurring concerns about its current state (e.g., the linked repository might not be public). The overall consensus is that the idea is not compelling, and it may not have a clear advantage over existing solutions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48755965,
+      "author": "drewfax",
+      "descendants": 56,
+      "kids": "[48757453,48757561,48757540,48757664,48757709,48757388,48757504,48756680,48757793,48757544,48757530,48756444,48757370,48756598,48757621,48757569,48756287,48756296,48756327]",
+      "score": 163,
+      "time": 1782961215,
+      "title": "A new Android malware from Google",
+      "type": "story",
+      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+      "og_image": "https://f-droid.org/assets/fdroid-logo_bfHl7nsLHOUQxzdU8-rGIhn4bAgl6z7k2mA3fWoCyT4=.png",
+      "groq_label": "Google is increasingly restricting user control over Android devices, effectively making it the sole authority for app installation and management, and some are proposing an alternative Linux-based OS to counter Google's dominance.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Google's new Android malware is overwhelmingly negative. Commenters frequently expressed frustration and anger, describing Google's actions as \"shameful\" and \"under the guise of security\". Many praised the benefits of openness and choice, such as the ability to install apps without Google's approval. However, the discussion also included recurring concerns about Google's dominance, with some commenters suggesting that it is contrary to many large companies' interests. The overall consensus is that Google's actions are a threat to user freedom and autonomy, and that the company's behavior needs to be resisted.",
       "groq_explain": null
     },
     {
@@ -228,6 +273,21 @@
       "groq_explain": null
     },
     {
+      "id": 48750989,
+      "author": "ryanmerket",
+      "descendants": 212,
+      "kids": "[48751761,48757633,48757807,48757376,48752612,48757047,48753435,48756500,48753857,48752045,48751793,48756904,48756883,48756857,48756931,48757314,48755897,48757759,48755768,48754843,48756065,48755881,48757059,48754070,48753737,48756153,48754139,48756540,48757060,48755453,48753719,48753525,48755114,48751967,48754041,48756513,48754546,48751862,48751982,48754701,48755633,48752522,48751831,48753863,48754609,48752344,48752558,48752568,48755266,48751813,48751869,48752427,48755813,48752186,48751889,48751788,48753817,48752457]",
+      "score": 150,
+      "time": 1782929538,
+      "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries",
+      "type": "story",
+      "url": "https://www.weaverobotics.com/isaac-1",
+      "og_image": "https://weaverobotics.com/og-isaac-1.jpg",
+      "groq_label": "The Weave Robotics Isaac 1 home robot may use teleoperation assistance data to train a more general-purpose AI controller.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Weave Robotics Isaac 1 home robot is generally negative. Commenters frequently criticized its limitations, such as the lack of dexterity, inability to perform tasks independently, and potential privacy concerns. Many raised concerns about the need for teleoperation assistance, which they felt negated the purpose of an autonomous robot. The discussion also highlighted practical limitations, such as the robot's inability to navigate stairs or start and transfer loads between machines. While some commenters found the idea of the robot promising, the overall consensus is that the idea is still in its infancy and faces significant technical hurdles.",
+      "groq_explain": null
+    },
+    {
       "id": 48750710,
       "author": "atan2",
       "descendants": 68,
@@ -388,64 +448,6 @@
       "og_image": "https://www.thedrive.com/wp-content/uploads/2025/08/feat-getty.jpg?quality=85&w=1200",
       "groq_label": "Bus Patrol is equipping school buses with AI-powered cameras that can recognize and track individual students without their consent.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article reveals a plan by Bus Patro to outfit kids' school buses with surveillance technology. Based on the Hacker News discussion, commenters generally viewed the plan negatively and highlighted several criticisms. Many appreciated the mention of Bus Patrol's problematic history, noting that they are \"felons and in prison\", while others questioned the need for tracking school buses, pointing out that cities could be designed to be more walkable and bikeable. However, the main concerns focused on the implications of surveillance on children. Overall, the Hacker News community considered the plan critically, emphasizing the importance of prioritizing children's privacy and autonomy.",
-      "groq_explain": null
-    },
-    {
-      "id": 48746752,
-      "author": "gergelycsegzi",
-      "descendants": 2,
-      "kids": "[48746974]",
-      "score": 12,
-      "time": 1782913724,
-      "title": "Launch HN: Parsewise (YC P25) – Reason Across Documents with an API",
-      "type": "story",
-      "og_image": "images/48746752.png",
-      "groq_label": "Parsewise API lacks a link to their website within the post description.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Parsewise API aims to solve the problem of efficiently reasoning across different documents. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as including a link to the website, which demonstrates professionalism and encourages users to explore the service. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns that the announcement feels somewhat incomplete without additional context. Overall, the Hacker News community considered the \nproject promising, recognizing its potential while emphasizing \nthat addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 48746445,
-      "author": "backlit4034",
-      "descendants": 181,
-      "kids": "[48746587,48746919,48747132,48747631,48746899,48747569,48746708,48747524,48747602,48747592,48746667,48747340,48747557,48747554,48746800,48747562,48747634,48747388,48746807,48747520,48746697,48747297,48747489,48746979,48747291,48747024,48746794,48747169,48747251,48747101,48747357,48747445,48747404,48747097,48747497,48747168,48747212,48746643,48747299,48747150,48747416,48747375,48747284,48747034,48747055,48747465,48747226,48747048,48747303,48746589,48747280,48747476,48747246,48747600,48747001,48746741,48746993,48746997,48746549,48746850,48747066,48746925,48747321,48746959,48747398,48746873,48746936,48747188,48747386,48746977,48747026,48746844,48747527,48746774,48746636,48746762,48747432,48746703,48747112,48747050,48747006,48746755,48746651,48746990,48746734,48746969,48747250,48747164,48747344,48747495,48747076,48746610,48746989,48747418,48747130,48746588,48746945,48746613,48746585,48746625]",
-      "score": 238,
-      "time": 1782912569,
-      "title": "Why I Stopped Arguing with People",
-      "type": "story",
-      "url": "https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html",
-      "og_image": "images/48746445.png",
-      "groq_label": "People's convictions often stem from their sense of self, making arguments challenging to win and potentially counterproductive.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to solve the problem of unnecessary arguing. The Hacker News discussion was generally mixed, with many commenters appreciating the author's self-reflective approach and highlighting the importance of considering the possibility that they might be wrong. At the same time, several commenters raised concerns about the author's overly simplistic portrayal of arguments and debates, arguing that not all conversations can be reduced to a simple \"win\" or \"lose\" scenario. Overall, the discussion suggests that the community recognizes the value of reflection and constructive dialogue but also believes that the author's approach oversimplifies the complexity of human communication.",
-      "groq_explain": "This person used to enjoy arguing for technical correctness, but they realized that it was pointless and hurtful most of the time because they were attacking people's egos, not their ideas. They came to understand that being correct isn't always a good thing, and that arguing can create a loser, just to prove a point."
-    },
-    {
-      "id": 48746331,
-      "author": "luigipederzani",
-      "kids": "[]",
-      "score": 1,
-      "time": 1782912144,
-      "title": "Manufact (YC S25) Is Hiring a Developer Advocate in SF",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/manufact/jobs/4cyWd6S-developer-advocate-partnerships-devrel",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/82493096f003f1a5800031161c10f95f365688b2.png?1770087728",
-      "groq_label": "Manufact, a logistics and supply chain management platform, is actively seeking a Developer Advocate to be based in San Francisco.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48746076,
-      "author": "StefanBatory",
-      "descendants": 16,
-      "kids": "[48749993,48749822,48750523,48749006,48749965,48750690,48746398,48749317,48749806]",
-      "score": 129,
-      "time": 1782911056,
-      "title": "Internal Combustion Engine",
-      "type": "story",
-      "url": "https://ciechanow.ski/internal-combustion-engine/",
-      "og_image": "https://ciechanow.ski/images/og/ice.jpg",
-      "groq_label": "Circa 1990s dual overhead cam engine lacks modern emissions control hardware, leading to different performance characteristics.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about the internal combustion engine aims to explain its components and mechanics. The Hacker News discussion was generally mixed, with many commenters appreciating the beautiful and informative diagrams and animations. At the same time, several commenters raised concerns about the inaccuracies in the article, such as referring to fuel explosions and the need for a controlled burn. Additionally, some commenters pointed out the importance of emissions control hardware, which the article does not account for. The overall discussion suggests that the community sees potential in the article but believes it still needs to be improved in terms of accuracy.",
       "groq_explain": null
     }
   ]
