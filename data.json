@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-03T03:36:24.956Z"
+    "lastUpdated": "2026-07-03T07:25:44.775Z"
   },
   "stories": [
+    {
+      "id": 48770647,
+      "author": "talonx",
+      "descendants": 248,
+      "kids": "[48771384,48770796,48770734,48771462,48771714,48771688,48771284,48771004,48771816,48770959,48770716,48771660,48770782,48770799,48771357,48771247,48770879,48771608,48771194,48771170,48770764,48771327,48771642,48771337,48770770,48771649,48770747,48771285,48771232,48770785,48771038,48770993,48771493,48770934,48771057,48771423,48771026,48771283,48770954,48770760,48770698,48771529,48770810,48771096,48770904,48771623,48770975,48770739,48771559,48770711,48770798,48771088]",
+      "score": 408,
+      "time": 1783052177,
+      "title": "The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't",
+      "type": "story",
+      "url": "https://stefan.schueller.net/posts/the-free-market-lie/",
+      "og_image": "https://stefan.schueller.net/posts/the-free-market-lie/title-image.png",
+      "groq_label": "Switzerland's highly regulated telecom sector with strong oversight and government-backed infrastructure projects enables hyper-competition, world-leading speeds, and consumer choice, whereas the United States' deregulated market leads to stagnation, monopolies, and inferior internet.",
+      "groq_discussion": "Discussion type: Detailed:\n\nThis article titled \"The Free Market Lie: Why Switzerland Has 25 Gbit Internet and America Doesn't\" aims to solve the problem of the discrepancy in internet speeds between Switzerland and the United States. The Hacker News discussion was primarily impressed by the fact that Switzerland has made significant strides in rolling out fast internet, with 25G speeds available in some locations. Many commenters appreciated the points about infrastructure investment and public incentives, with some highlighting the Swiss model as a success story. However, the discussion also repeatedly highlighted concerns about the article's oversimplification of the issue, including the fact that 25G internet isn't available everywhere in Switzerland and that the US is significantly larger than Switzerland, making it harder to implement widespread broadband. Commenters debated issues such as the importance of infrastructure investment, the role of public incentives, and the impact of regulation on the telecom industry. While there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement.",
+      "groq_explain": "The article explains why Switzerland has much faster and more affordable internet speeds than the United States and Germany, despite the US being a strong advocate of free markets."
+    },
+    {
+      "id": 48770477,
+      "author": "snikolaev",
+      "descendants": 3,
+      "kids": "[48771684,48771636,48771356]",
+      "score": 28,
+      "time": 1783050587,
+      "title": "14× faster embeddings: how we rebuilt the ONNX path in Manticore",
+      "type": "story",
+      "url": "https://manticoresearch.com/blog/onnx-embeddings-speedup/",
+      "og_image": "https://manticoresearch.com/images/blog/onnx-embeddings-speedup.png",
+      "groq_label": "Manticore's new ONNX path can run Hugging Face models 14 times faster than the previous SentenceTransformers/Candle path on average hardware.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article aims to solve the problem of slow embeddings processing. The Hacker News discussion was generally mixed, with some commenters appreciating the use of ONNX for speeding up embeddings on the Manticore path. At the same time, several commenters raised concerns about the limitations of CPUs in achieving massive parallelism and suggested looking into CPU-specific AI optimizations such as using AVX512_BF16 instructions. Another discussion thread highlighted the need for a replacement for all-MiniLM-L12-v2 that can create more robust embeddings with the same compute, and mentioned Q4 quantization as a possible solution.",
+      "groq_explain": "People have been asking for better speed on a database feature that automatically turns text into a mathematical vector, so the developers rebuilt how it runs a certain type of model, called ONNX. This new way of doing things is way faster, about 14 times faster overall, and it now comes with the database as a default option, which will help make it faster for people to search through large amounts of data."
+    },
+    {
+      "id": 48769639,
+      "author": "coloneltcb",
+      "descendants": 3,
+      "kids": "[48771946,48771923,48771888,48771732]",
+      "score": 58,
+      "time": 1783042631,
+      "title": "The Safari MCP server for web developers",
+      "type": "story",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+      "og_image": "https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg",
+      "groq_label": "The Safari MCP server integrates model and content predictors for Safari web navigation, leveraging Bidi technology.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the Safari MCP server for web developers with a mix of interest and caution. Many commenters appreciated the potential of the project, noting that it offers a crossover of dev tools and Large Language Models (LLMs). However, the discussion also revealed a few points of contention. Some commenters questioned whether the project supports Private Relay, which could be a useful feature for developers. Others expressed skepticism about the project's focus, citing the lack of parity in Safari's driver surface compared to other browsers. The overall tone of the discussion suggests that the community is cautiously optimistic about the project's potential, but also acknowledges that it still needs to address some technical limitations.",
+      "groq_explain": null
+    },
     {
       "id": 48769397,
       "author": "sprawl_",
@@ -405,51 +450,6 @@
       "og_image": "https://www.niemanlab.org/images/the-editorial-alabama-newspapers-700x414.png",
       "groq_label": "Comments about AI-generated content criticize its negative impact on journalism and societal benefits.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article on AI-generated fake news is highly critical. Commenters frequently highlighted the issue's gravity and expressed concerns about its impact on real news. They also appreciated the author's unique approach to exposing the problem, particularly in creating an article that itself appears to be AI-generated, mimicking the style of a local news outlet. However, the discussion also included recurring criticisms about the proliferation of AI fake news and its societal implications, including the challenges of building a coherent pro-AI argument and the potential for AI-generated content to be used as a propaganda tool. The overall consensus is that the issue of AI fake news is a significant concern that needs to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48760289,
-      "author": "mritzmann",
-      "descendants": 197,
-      "kids": "[48761593,48760894,48760755,48761281,48761140,48761108,48760874,48761683,48761837,48761809,48761125,48760591,48761513,48760687,48760750,48760658,48760904,48760680,48761237,48761479,48761245,48760699,48761444,48760645,48761774,48760822,48760697,48760587,48760866,48760552,48761627,48760569,48761349,48760809,48761169,48760795,48760984,48761434,48760896,48760969,48760588,48760643,48760538,48760665,48760726,48760895,48761064]",
-      "score": 251,
-      "time": 1782994653,
-      "title": "This blog is written in en-GB",
-      "type": "story",
-      "url": "https://shkspr.mobi/blog/2026/07/this-blog-is-written-in-en-gb/",
-      "og_image": "https://shkspr.mobi/blog/wp-content/uploads/2026/03/english-traditional-simplified.jpg",
-      "groq_label": "Locales such as en-GB specify regional settings like date format, week start, paper size, measurement units, and time format, which can vary significantly across cultures.",
-      "groq_discussion": "Discussion type: –  Balanced:\n\nThis blog post is written in the en-GB locale. The Hacker News discussion was generally positive with many commenters appreciating the use of this locale, which they found more familiar than the en-US one. They praised its features such as the dd-mm-yyyy date format, Monday as the start of the week, and default paper size as A4. Commenters also highlighted the importance of cultural and linguistic diversity in languages and the value of retaining regional accents and spellings. However, some commenters raised concerns about the issue of language and cultural differences, and questioned whether the blog's decision could be seen as a form of \"social defiance\". The discussion suggests that the community sees the point of the blog post but believes there are important cultural and social implications that need to be considered. Overall, the discussion was mixed, with commenters presenting a range of perspectives on the topic.",
-      "groq_explain": null
-    },
-    {
-      "id": 48760201,
-      "author": "tcp_handshaker",
-      "descendants": 6,
-      "kids": "[48761019]",
-      "score": 29,
-      "time": 1782994224,
-      "title": "Is One Layer Enough? A Single Transformer Layer Matches Full-Parameter RL Train",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2607.01232",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "A single transformer layer can sufficiently impose a function to regulate the output by operating on the entire input manifold.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the idea that a single transformer layer can match a full-parameter RL (Reinforcement Learning) train is positive. Commenters frequently praised the insight that transformers are essentially autoencoders on steroids, and how this reveals that a single layer could impose a function to regulate the output of an autoencoder. Many found this idea compelling and described it as \"pretty obvious\" and a straightforward application of the nature of autoencoders. The overall consensus is that this concept introduces an interesting and insightful idea that highlights the potential of a single transformer layer.",
-      "groq_explain": null
-    },
-    {
-      "id": 48759870,
-      "author": "ColinWright",
-      "descendants": 22,
-      "kids": "[48761588,48761888,48761461,48761892,48761575,48761456,48761824,48761545,48761571,48761640,48761422,48761555,48761576,48761316,48761424,48761512,48761567]",
-      "score": 33,
-      "time": 1782992487,
-      "title": "Many people misunderstand the purpose of code review",
-      "type": "story",
-      "url": "https://mathstodon.xyz/@mjd/115096720350507897",
-      "og_image": "https://media.mathstodon.xyz/site_uploads/files/000/000/002/@1x/c2d0c9932cd25b26.png",
-      "groq_label": "Code review primarily facilitates knowledge transfer and trust among team members, enabling a collective understanding of the codebase and preventing potential paradigm rot.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to clarify the purpose of code review. The Hacker News discussion was generally mixed, with many commenters appreciating the multifaceted nature of code review, particularly in regards to knowledge transfer, trust, and team ownership of code. At the same time, several commenters raised concerns about the common tendency for code review to be seen as a gatekeeper for code quality, pointing out that this approach is often lazy and focuses on minor issues rather than the bigger picture. Others emphasized the importance of asynchronous pull requests and noted that the literature on code review is not as conclusive as some might claim. The discussion ultimately suggests that the community sees code review as a valuable quality practice, but one that requires a nuanced understanding of its purposes.",
       "groq_explain": null
     }
   ]
