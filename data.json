@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-03T07:25:44.775Z"
+    "lastUpdated": "2026-07-03T10:41:45.123Z"
   },
   "stories": [
+    {
+      "id": 48772573,
+      "author": "indy",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 14,
+      "time": 1783068647,
+      "title": "Wordgard: The new in-browser rich-text editor from the creator of ProseMirror",
+      "type": "story",
+      "url": "https://wordgard.net/",
+      "og_image": "http://wordgard.net/style/logo.svg",
+      "groq_label": "Wordgard shares some architecture with ProseMirror.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48772443,
+      "author": "nsoonhui",
+      "descendants": 43,
+      "kids": "[48773267,48773045,48772925,48773159,48772554,48772764,48772935,48772995]",
+      "score": 85,
+      "time": 1783067497,
+      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
+      "type": "story",
+      "url": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
+      "og_image": "https://www.reuters.com/resizer/v2/CCCMOCRYHBNVZL7OMPM75HZ6OA.jpg?auth=57652c025064911171dbace9603f770a3d2369447f2ba1e92bcc6efde79268e8&height=1005&width=1920&quality=80&smart=true",
+      "groq_label": "Alibaba may prohibit the use of Claude Code in the workplace due to alleged backdoor risks.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of potential backdoor risks with proprietary tools like Claude Code in the workplace. The Hacker News discussion was generally critical, with some commenters praising the alleged risks and the caution being taken by enterprises. However, others raised concerns and criticized the situation, pointing out that China may be able to develop new models despite US companies stopping public publishing. The main criticism revolves around the perceived backdoor risks and the potential for companies like Alibaba to use distillation attacks. Overall, the discussion suggests that the community sees risks and challenges in the project and is calling for more transparency and caution.",
+      "groq_explain": null
+    },
+    {
+      "id": 48772388,
+      "author": "weli",
+      "descendants": 26,
+      "kids": "[48773300,48773338,48773156,48773141,48773165,48773275,48773387,48773222,48773261,48773319,48773256,48772958,48773242,48773186,48772473,48773205,48773231,48773196,48773187]",
+      "score": 107,
+      "time": 1783067012,
+      "title": "Half-Baked Product",
+      "type": "story",
+      "url": "https://weli.dev/blog/half-baked-product/",
+      "og_image": "https://weli.dev/images/social_card_bg_hu_2720064dc817e53c.webp",
+      "groq_label": "Overly optimistic founders can overlook significant engineering challenges when pitching their startups to investors.",
+      "groq_discussion": "Discussion type: – Basic:\n\nHalf-Baked Product, the humorous anecdote about a startup revolutionizing dishwashers, received overwhelmingly positive responses from the Hacker News community. Commenters praised the story for its entertaining and relatable portrayal of startup pitfalls, highlighting strengths such as its well-developed characters and honest representation of the challenges faced by startup founders. Many appreciated the humor and insight offered, noting that it pointed out the importance of careful planning and the potential for short-term thinking to hinder success. The discussion revealed criticisms regarding the storytelling, particularly the missed opportunity to include a more nuanced product failure. However, overall, the community considered the story a compelling and valuable contribution to the discussion of startup experiences.",
+      "groq_explain": "A young founder wants to start an oven business without actually knowing how to bake, but with deep knowledge of the market. He convinces a brilliant engineer with oven-building experience to join him by offering a stake in the company and creative freedom. However, their first prototype doesn't work very well and the initial customers give mixed reviews. Despite this, the founder is able to convince investors to give them more money to scale and improve their product, based on incomplete and unrealistic promises."
+    },
     {
       "id": 48770647,
       "author": "talonx",
@@ -364,6 +409,21 @@
       "groq_explain": null
     },
     {
+      "id": 48761944,
+      "author": "hashier",
+      "descendants": 217,
+      "kids": "[48772796,48772072,48771573,48769354,48773346,48767905,48768388,48772805,48771565,48772625,48765123,48771175,48773373,48773132,48768314,48772745,48766711,48771929,48767576,48771879,48771220,48771221,48771140,48768657,48766165,48768961,48773339,48772054,48771532,48768155,48769217,48766147]",
+      "score": 436,
+      "time": 1783001606,
+      "title": "Immich 3.0",
+      "type": "story",
+      "url": "https://github.com/immich-app/immich/discussions/29439",
+      "og_image": "https://opengraph.githubassets.com/fcdd9e3577fc898f6410b4ad79a5c5d1991d4f2f76aa3b6edc0caffe88ff65aa/immich-app/immich/discussions/29439",
+      "groq_label": "Tailscale and VPNs make self-hosted options like Immich almost drop-in replacements for Google Photos and Apple Photos.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Immich 3.0 aims to solve the problem of providing a user-friendly and secure alternative to traditional cloud photo storage services. Based on the Hacker News discussion, commenters generally viewed Immich positively and highlighted strengths such as ease of use, with many appreciating that it's a viable replacement for services like Google Photos. Others saw potential in its self-hosting capabilities, allowing for greater control over one's data. Commenters also appreciated the automated backup and encryption setup, noting the reliability of SSL encryption and full-disk encryption. However, the discussion also revealed several criticisms, including the lack of end-to-end encryption, which some users felt was a non-issue due to the secure nature of the setup. The Hacker News community considered Immich to be a promising solution with some limitations that need to be addressed, such as further refining the setup process for self-hosting and considering end-to-end encryption for added security. Overall, the community is enthusiastic about Immich but highlights areas for improvement to increase its effectiveness.",
+      "groq_explain": null
+    },
+    {
       "id": 48761536,
       "author": "mushstory",
       "descendants": 105,
@@ -391,65 +451,6 @@
       "og_image": "https://www.zerofs.net/assets/og-card.jpg",
       "groq_label": "ZeroFS relies on S3 for data storage which can be expensive and impractical for large volume data.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis log-structured filesystem (ZeroFS) aims to solve the problem of improving data storage in S3. \nBased on the Hacker News discussion, commenters generally viewed \nthe project skeptically, highlighting a concern about entrusting data storage to a \"vibe-coded\" filesystem, suggesting a lack of trust in the project's design. However, one commenter was appreciative of the explicit mention of the project's test suites running in public CI. Overall, the Hacker News community considered the project  with a sense of distrust, recognizing potential limitations and emphasizing the need for more robustness in data storage.",
-      "groq_explain": null
-    },
-    {
-      "id": 48761229,
-      "author": "toomuchtodo",
-      "descendants": 95,
-      "kids": "[48764946,48764903,48763172,48763855,48763478,48764525,48763643,48763651,48761249,48763375,48763724,48763531,48761977,48763664,48764509,48763258]",
-      "score": 228,
-      "time": 1782998725,
-      "title": "The Egg Bandits Made a Thousand Times the Fine They Just Paid for Price Fixing",
-      "type": "story",
-      "url": "https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!HFL-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fefc1c7aa-99f7-4451-ab13-ae8e50fcafaf_968x570.png",
-      "groq_label": "Egg prices were artificially inflated through a price fixing operation by egg producers.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project/report exposes how a price-fixing operation in the egg industry artificially inflated prices to a much greater extent than previously acknowledged. Hacker News commenters generally expressed anger, concern, and frustration, noting the widespread implications of such price manipulation. They highlighted the need for increased competition and regulation to prevent such occurrences, including calls to strengthen the FTC and impose harsher penalties for corporate crimes.",
-      "groq_explain": null
-    },
-    {
-      "id": 48761118,
-      "author": "FigurativeVoid",
-      "descendants": 22,
-      "kids": "[48764095,48764060,48763752,48763718,48763000,48764173,48764633,48763725,48764054,48763968,48763154,48763720,48763498]",
-      "score": 151,
-      "time": 1782998362,
-      "title": "How to ask for help from people who don't know you",
-      "type": "story",
-      "url": "https://pradyuprasad.com/writings/how-to-ask-for-help/",
-      "og_image": "https://pradyuprasad.com/card.png",
-      "groq_label": "Help-seekers should demonstrate they're doing their best to solve problems before asking others for help, by showing effort, initiative, and often producing their own work.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis guide on how to ask for help from people who don't know you aims to provide advice on formulating effective requests. The Hacker News discussion was generally positive, with many commenters appreciating the post's \"excellently written\" and \"salient\" approach to the topic. At the same time, several commenters raised concerns about the emphasis on \"showing proof of work\" being too obvious, suggesting that it's not enough to just demonstrate effort. Some commenters also argued that the advice was too focused on the \"how\" of asking for help, with one commenter highlighting the need for advice on \"giving help\" rather than just receiving it. Overall, the discussion suggests that the community considers the guide a useful starting point, but believes it needs to be refined to address more nuanced aspects of asking for help.",
-      "groq_explain": "You need to learn how to ask people for help effectively, especially when you don't know them. This skill is not just about charisma or luck, it's about understanding the person you're asking and showing them that you're worth their time. The key is to put yourself in their shoes and make your request clear and meaningful, by showing proof of your work, establishing a personal connection or credibility, and explaining the context in a way that resonates with them."
-    },
-    {
-      "id": 48761068,
-      "author": "augustschen",
-      "kids": "[]",
-      "score": 1,
-      "time": 1782998097,
-      "title": "Hazel (YC W24) Is Hiring for Our Largest Government Contract",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/hazel-2/jobs/3epPWgu-full-stack-engineer-ts-sci",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/4eee6e19647ab5f3be3cda18b2a87d90ea956332.png?1705544917",
-      "groq_label": "Hazel has partnered with the US government to deploy its data analytics platform at an unprecedented scale to modernize a critical government agency's operations and services.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48760598,
-      "author": "thm",
-      "descendants": 16,
-      "kids": "[48761344,48761700,48761463,48761511,48761254,48761619,48761750,48761539,48761147,48761658,48761394,48761429,48761783,48761669,48761004,48761040]",
-      "score": 78,
-      "time": 1782996036,
-      "title": "AI fake news complaining about how AI fake news is the death of real news",
-      "type": "story",
-      "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
-      "og_image": "https://www.niemanlab.org/images/the-editorial-alabama-newspapers-700x414.png",
-      "groq_label": "Comments about AI-generated content criticize its negative impact on journalism and societal benefits.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article on AI-generated fake news is highly critical. Commenters frequently highlighted the issue's gravity and expressed concerns about its impact on real news. They also appreciated the author's unique approach to exposing the problem, particularly in creating an article that itself appears to be AI-generated, mimicking the style of a local news outlet. However, the discussion also included recurring criticisms about the proliferation of AI fake news and its societal implications, including the challenges of building a coherent pro-AI argument and the potential for AI-generated content to be used as a propaganda tool. The overall consensus is that the issue of AI fake news is a significant concern that needs to be addressed.",
       "groq_explain": null
     }
   ]
