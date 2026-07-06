@@ -1,8 +1,66 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-06T16:05:40.121Z"
+    "lastUpdated": "2026-07-06T18:21:56.862Z"
   },
   "stories": [
+    {
+      "id": 48806976,
+      "author": "david-venegas",
+      "kids": "[]",
+      "score": 1,
+      "time": 1783355584,
+      "title": "Stealth robotics startup (YC S26) is hiring principal engineers (Palo Alto)",
+      "type": "job",
+      "og_image": "images/48806976.png",
+      "groq_label": "The startup has undisclosed advanced robotic capabilities and seeks high-level software experts to drive project development.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48806575,
+      "author": "snyy",
+      "descendants": 6,
+      "kids": "[48808158,48807685,48807715,48808220,48808250,48806576]",
+      "score": 34,
+      "time": 1783353867,
+      "title": "Show HN: Pulpie – Models for Cleaning the Web",
+      "type": "story",
+      "url": "https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/",
+      "og_image": "https://usefeyn.com/blog/pulpie/pulpie-cover.png",
+      "groq_label": "Pulpie's models rely on a single forward pass over 8k chunks to achieve a 20x speedup and significantly lower cost.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Pulpie project aims to solve the problem of web content extraction. The Hacker News discussion was generally positive, with many commenters appreciating the project's aesthetic and thanking the developers for their effort. At the same time, several commenters raised concerns about specific issues, such as user experience problems with certain browsers and themes. One comment also questioned the 'Quality vs Cost of Web Content Extraction' chart, suggesting that zero cost at the origin might be more logical. Overall, the discussion suggests that the community sees potential in the project but believes there are important details that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48806410,
+      "author": "Jimmc414",
+      "descendants": 1,
+      "kids": "[48808019]",
+      "score": 48,
+      "time": 1783353204,
+      "title": "Kani: A Model Checker for Rust",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2607.01504",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "Kani checks safety properties of Rust code through a compiler plugin that inserts model checking calls.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, Kani, is a model checker designed for the Rust programming language. The Hacker News discussion was generally mixed, with many commenters appreciating the project's strengths, such as its ability to improve software reliability and the paper that the project is based on, highlighting its potential to advance the field of formal verification. At the same time, several commenters raised concerns about limitations, arguing that the project might be too complex for some users and that its adoption would depend on the existing tooling ecosystem. The discussion suggests that the community sees promise in Kani's approach, but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48806296,
+      "author": "surprisetalk",
+      "descendants": 22,
+      "kids": "[48807859,48808203,48808304,48807983,48808289,48808287,48808166,48808138,48808114]",
+      "score": 29,
+      "time": 1783352711,
+      "title": "The AI Superforecasters Are Here",
+      "type": "story",
+      "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!unI_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08546702-36cb-41d6-8047-6927a0e7c737_1024x1024.webp",
+      "groq_label": "AI superforecasters are being developed to be good at predicting the future, with some already reportedly beating human forecasters on platforms like prediction markets.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article, \"The AI Superforecasters Are Here\", aims to describe the emergence of AI-based forecasting models. The Hacker News discussion was generally critical, with many commenters questioning the value and practicality of these models. Some praised the potential of AI in forecasting, but many others expressed concerns about the industry being driven by \"very dirty people\" and highlighted the potential risks of relying on complex AI models. They also argued that the models may not live up to their promises, citing the example that if the AI forecasters were truly good, they wouldn't be starting startups to sell them. The discussion suggests that the community sees potential issues with the industry, including the limitations of AI models and the potential for exploitation. Overall, the discussion was mixed, with both appreciation for the potential of AI and criticism of the industry's ethics and practicality.",
+      "groq_explain": "AI superforecasters are artificial intelligence systems that are being developed to predict the future, particularly in areas like finance and healthcare. They're basically super powerful predictive tools that use various programs and techniques to analyze data and come up with accurate forecasts. What's impressive about them is that some of these AI superforecasters are already making huge profits on prediction markets, beating the stock market, and even outperforming human experts in their predictions. It's a pretty significant development that's changing the game in the world of forecasting."
+    },
     {
       "id": 48806151,
       "author": "citelao",
@@ -32,6 +90,21 @@
       "groq_label": "The writing contest specifies exactly 1,000 words per entry.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis 1k Words writing contest aims to stimulate creative writing. Based on the Hacker News discussion, commenters generally viewed the contest positively and highlighted it as an opportunity for writers to express themselves. Many appreciated the chance to engage in a writing assignment, noting that it would allow them to use their skills and creativity. Others believed the contest could be particularly useful for encouraging writers to produce high-quality content. However, the discussion also revealed several criticisms. Commenters expressed concerns about the strict word limit, questioning whether it could stifle creativity and whether the number was arbitrary. Overall, the Hacker News community considered the contest as a chance for writers to showcase their skills, recognizing its potential while emphasizing the need for clarity on the word limit.",
       "groq_explain": "A writing contest where people have to write exactly 1,000 words about a given picture, with no specific guidelines except that it has to be connected to the photo, and the winner gets $1,000."
+    },
+    {
+      "id": 48805965,
+      "author": "LorenDB",
+      "descendants": 10,
+      "kids": "[48808299,48808303,48807912,48808339,48808386]",
+      "score": 32,
+      "time": 1783351414,
+      "title": "CS2 Fog Of War: Server-sided anti-wallhack occlusion culling for CS2 servers",
+      "type": "story",
+      "url": "https://github.com/karola3vax/CS2FOW",
+      "og_image": "https://repository-images.githubusercontent.com/1289734986/67850766-4b8c-42ec-a0ba-1ca35ee824f5",
+      "groq_label": "CS2 Fog Of War system uses server-sided anti-wallhack occlusion culling based on static baked map geometry and client-predicted player movement.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis project, CS2 Fog Of War, aims to solve the problem of wallhacking in CS2 servers. The Hacker News discussion reveals several positive impressions of the project, including that it has been proven effective in the past, having been implemented in other versions of CS:GO. Commenters appreciated the approach of using movement and ping to predict enemy reveal and intentionally leaking a small corner to avoid late pop-in. Some praised the system's ability to keep revealed enemies visible briefly, noting it is a good solution for \"peekers\".\n\nHowever, the discussion also highlighted several limitations and technical concerns, such as increased latency and visual jitter due to interpolation, particularly around corners. Some pointed out that this system still results in enemies being revealed ~200ms ahead, which can make a significant difference in the game. Others questioned its effectiveness in addressing the main pop-in issue, noting that it is the victim (not the peeker) who gets the worst pop-in effect. Additionally, commenters raised concerns about the system's inability to mitigate audible cues, which can give cheaters an unfair advantage. Overall, the discussion suggests that the project has promise but still has room for improvement, and addressing these limitations would further enhance its usefulness and adoption.",
+      "groq_explain": null
     },
     {
       "id": 48805652,
@@ -92,6 +165,21 @@
       "groq_label": "Google's actions in firing Timnit Gebru are still disputed, with some arguing it was a firing and others a resignation.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project focuses on clarifying the concept of \"stochastic parrots,\" a term used to describe Large Language Models (LLMs). The Hacker News discussion was generally balanced, with commenters appreciating the effort to set the record straight while raising concerns that the concept might be muddying the discussion on what this technology really is. Several commenters argued that LLMs appear to be probabilistic token generators, but others pointed out that this does not necessarily mean they are not intelligent or capable of cognition. The discussion also highlighted concerns about labeling this technology as \"artificial\" and suggested instead that the output of the models should be accepted for what it is. Overall, the discussion suggests that the community sees the value in clarifying the concept, but also believes that it's a complex issue that requires further exploration.",
       "groq_explain": null
+    },
+    {
+      "id": 48804993,
+      "author": "dijksterhuis",
+      "descendants": 132,
+      "kids": "[48806237,48805958,48805869,48805841,48806119,48805765,48807716,48808338,48806414,48805725,48808346,48805481,48806373,48806663,48807027,48806433,48806578,48806927,48806185,48806033,48807647,48805810,48808103,48807000,48806850,48805008,48805216,48807829,48806827,48806529,48808411,48808080,48806074,48806174]",
+      "score": 178,
+      "time": 1783347503,
+      "title": "Resetting Xbox",
+      "type": "story",
+      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+      "og_image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/05/Bootup_Wire-9c068aa206c9a72d2b1f.png",
+      "groq_label": "Xbox is undergoing a major restructuring that includes laying off 3,200 employees, reducing teams and studios, and adopting a more focused content portfolio as part of an effort to improve its profit margins.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Microsoft's decision to reset its Xbox business is largely negative. Commenters frequently criticized the idea as a \"total mess\" and saw it as a response to the company's own management decisions. Many argued that the issue is not profit margin, but rather the way Microsoft has structured its gaming division. Commenters frequently praised the new CEO's candidness about the role of corporate management in the decision, but the overall consensus is that the idea is flawed and will likely lead to negative consequences for the industry and its workers.",
+      "groq_explain": "Microsoft is restructuring the Xbox team by cutting around 3,200 jobs, including 1,600 positions immediately, and separating or selling four studios to new management. The goal is to revamp the Xbox business, which is not currently profitable, and focus on more successful projects."
     },
     {
       "id": 48804297,
@@ -362,96 +450,6 @@
       "groq_label": "Homegames uses live multiplayer sessions which involve multiple requests, causing too many requests errors.",
       "groq_discussion": "Discussion type: – Short:\n\nThis open-source game platform, known as Homegames, addresses the problem of creating and hosting browser-based games. Hacker News commenters generally appreciated the concept and its potential, with some attempting to play the games and expressing interest in the platform's capabilities. However, they also expressed concerns about technical issues, such as session errors and disconnections. Overall, the discussion was generally positive and encouraging, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": "A guy has spent the last 8 years building an open-source game platform that allows people to play, create, and share games right in their browser without needing an account. He's making the code and everything else available for free so that anyone can use, modify, and even host it themselves."
-    },
-    {
-      "id": 48798061,
-      "author": "lexandstuff",
-      "descendants": 100,
-      "kids": "[48800383,48800294,48798877,48798201,48798483,48798612,48799799,48798419,48798219,48799990,48798602,48798614]",
-      "score": 129,
-      "time": 1783286449,
-      "title": "Completing a computer science degree on Coursera",
-      "type": "story",
-      "url": "https://notesbylex.com/completing-a-computer-science-degree-on-coursera",
-      "og_image": "https://notesbylex.com/_media/bachelors-after-hours/uni-assessment-results.png",
-      "groq_label": "Online CS degrees can often be seen as having less value by employers compared to traditional on-campus degrees due to the perceived lack of hands-on experience and social interaction.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses completing a computer science degree on Coursera. The Hacker News discussion was generally mixed, with some commenters appreciating the flexibility and cost-effectiveness of online degrees, while others expressed concerns about the perceived value of such credentials. At least one commenter, who recently completed their degree on Coursera, mentioned that they were able to progress in their career despite not having a traditional degree. Others noted that group projects are a common complaint in online courses, while one commenter who has a Master's degree in CS emphasized that universities provide valuable credentials, even if on-the-job learning is becoming more prevalent. However, other commenters mentioned cheating and cost-cutting exercises as potential drawbacks of online learning. The discussion suggests that employers' perceptions of Coursera degrees may vary, and individuals considering this path should research how their potential employers view such credentials.",
-      "groq_explain": null
-    },
-    {
-      "id": 48797916,
-      "author": "bouh",
-      "descendants": 124,
-      "kids": "[48798157,48799950,48799048,48798194,48798280,48798488,48798295,48798590,48798238,48798175,48798225,48798587,48799642,48799030,48798202,48799218,48799268,48798955,48798495,48798645,48798282,48798732,48800278,48798491,48798381,48798346,48798230,48798231,48798725,48798372,48799283,48798999]",
-      "score": 527,
-      "time": 1783285386,
-      "title": "OpenPrinter",
-      "type": "story",
-      "url": "https://www.opentools.studio/",
-      "og_image": "https://www.opentools.studio/web/image/1096-6c03f418/Open-printer_2_black-prints.webp",
-      "groq_label": "OpenPrinter is a supposedly open-source project that claims to be a highly customizable, affordable inkjet printer, but it lacks a working prototype and its licensing, under Creative Commons BY-NC-SA 4.0, does not allow commercial use.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis open-source printer project, OpenPrinter, aims to solve the problem of limited access to affordable, high-quality printing solutions. The Hacker News discussion was generally mixed, with many commenters appreciating the project's approach to addressing a specific market (those who don't need the latest technology) and its open-source nature. At the same time, several commenters raised concerns about the project's complexity, highlighting the challenges of creating a functional inkjet printer, which one commenter noted requires a significant amount of engineering expertise and resources. Others pointed out potential drawbacks, such as reliability issues with inkjet printers, particularly those with removable heads, and the absence of demonstrations of a working prototype. The discussion also touched on issues like the Creative Commons license, the distinction between open-source and open, and potential commercial use. Overall, the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48797015,
-      "author": "chistev",
-      "descendants": 21,
-      "kids": "[48797894,48797693,48797811,48797591,48797762,48797867,48797448,48797302,48797647]",
-      "score": 72,
-      "time": 1783278518,
-      "title": "Small Penis Rule",
-      "type": "story",
-      "url": "https://en.wikipedia.org/wiki/Small_penis_rule",
-      "og_image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Semi-protection-shackle.svg/20px-Semi-protection-shackle.svg.png",
-      "groq_label": "A man received $412 million in compensation after suing a medical professional over allegedly unnecessary injections that left him with a significantly diminished penis size and erectile dysfunction.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/Product aims to discuss the concept of the \"Small Penis Rule.\" The Hacker News discussion was generally mixed, with many commenters appreciating the nuance of the argument and the idea that words can take on different meanings depending on the context. At the same time, several commenters raised concerns about the potential for manipulation of language and the courts, arguing that it could create loopholes in the law. Others questioned the relevance of the \"Small Penis Rule\" in real-world court cases. Overall, the discussion suggests that the community sees the potential for linguistic nuance but also believes there are important challenges that still need to be addressed, such as the potential for abuse of the law.",
-      "groq_explain": null
-    },
-    {
-      "id": 48796817,
-      "author": "jonahbard",
-      "descendants": 42,
-      "kids": "[48797697,48797581,48797250,48797723,48797558,48797879,48797191,48797322,48797166,48797029,48797208,48797130,48797073,48797421,48797292]",
-      "score": 74,
-      "time": 1783277263,
-      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
-      "type": "story",
-      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
-      "og_image": "images/48796817.png",
-      "groq_label": "The effect size mentioned in the study is likely amplified by novelty and selection bias, with only a fraction of the students showing full engagement and the study design not accounting for randomized controls.",
-      "groq_discussion": "Discussion type: –  Basic:\n\nThis study examines the effectiveness of a new AI tutor, Phosphor, in a Dartmouth course. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its large effect size, with an improvement of 0.71-1.30 standard deviations. Many appreciated the use of LLMs to grade formative questions against rubric criteria, noting that it makes it feasible to do so at scale. However, the discussion also revealed several criticisms. Commenters expressed concerns about selection bias, self-selection, and the lack of randomized controls. They questioned the novelty of the results and pointed out that the study didn't compare the results to a control group with and without AI. Overall, the Hacker News community considered the project to have promising results, but emphasized that the limitations need to be addressed to validate the findings.\n\nThis is a more in detail template, I would suggest discussion type: – Detailed:\n\nThis  [article/project/blog post/research/product] focuses on solving the problem of improving student outcomes with AI tutor. The Hacker News discussion suggests that commenters were primarily impressed by the size of the effect size, which many believed could significantly improve student learning outcomes. At the same time, the discussion repeatedly highlighted concerns about selection bias, self-selection, and the lack of randomized controls, with commenters debating issues such as how the novelty of the results may have affected the outcome and the need for a control group to compare with and without AI. While there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement to ensure the results are valid and can be widely applicable.\n\nAnother discussion could be: – Balanced:\n\nThis [article/project/blog post/research/product] aimed to improve student outcomes with AI tutor. The Hacker News discussion was generally balanced, with some commenters appreciating the large effect size and the use of LLMs to grade formative questions against rubric criteria. However, several commenters raised concerns about selection bias, self-selection, and the lack of randomized controls. They also questioned the novelty of the results and pointed out that the study didn't compare the results to a control group. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48796792,
-      "author": "forthwall",
-      "descendants": 17,
-      "kids": "[48797437,48797455,48797507,48797487,48797194,48797016]",
-      "score": 28,
-      "time": 1783277167,
-      "title": "You need a webring",
-      "type": "story",
-      "url": "https://shub.club/writings/2026/july/you-need-a-webring/",
-      "og_image": "https://shub.club/img/me-today-small-25w.jpeg",
-      "groq_label": "Users find webrings more attractive than simple lists or Wander links because they provide a sense of community by forming a closed loop of links that can be easily traversed.",
-      "groq_discussion": "Discussion type: Basic:\n\nThis web-ring project aims to solve the problem of discovering and exploring web content. Based on the Hacker News discussion, commenters generally viewed \nthe project positively. Many appreciated the idea of a web-ring as a way to connect users with similar interests and passions, and highlighted its potential to keep the web more human. They noted that it allows users to share stories, art, and other creative content, and enables a sense of community and connection among like-minded individuals. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of the ring concept, with some questioning the need for a circular navigation system and others suggesting that a simple list of links would be more effective. Overall, the Hacker News community considered the project as a promising idea with potential benefits for human-centered web content.",
-      "groq_explain": null
-    },
-    {
-      "id": 48796552,
-      "author": "croes",
-      "descendants": 14,
-      "kids": "[48796780,48797744,48797273,48797290,48797827,48797669]",
-      "score": 119,
-      "time": 1783275720,
-      "title": "The future of Flipper Zero development",
-      "type": "story",
-      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
-      "og_image": "https://blog.flipper.net/content/images/size/w1200/2026/07/Flipper-Zero-Development.jpg",
-      "groq_label": "Flipper Zero's community and firmware development may continue with external support and community contributions due to allocated resources.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the future of Flipper Zero development. The Hacker News discussion was generally mixed, with some commenters praising the tool and the community they've built, while others expressed criticism towards the company's handling of the project. On one hand, many appreciated the utility and versatility of the Flipper Zero, often comparing it to a computer Swiss Army knife. On the other hand, some commenters felt that the company's policies, such as purging pentesting tools and banning discussion of alternative firmwares, were restrictive and stifled the community's potential. Overall, the discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
     }
   ]
 }
