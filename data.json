@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-06T03:54:56.388Z"
+    "lastUpdated": "2026-07-06T08:26:05.289Z"
   },
   "stories": [
+    {
+      "id": 48801493,
+      "author": "kiyanwang",
+      "descendants": 25,
+      "kids": "[48801830,48801994,48801940,48802011,48801937,48801952,48801958,48802017,48801932,48801969,48801876,48802006,48801871,48801975]",
+      "score": 38,
+      "time": 1783321525,
+      "title": "When AI Costs More Than the Engineer",
+      "type": "story",
+      "url": "https://tomtunguz.com/ai-spend-breakeven-2029/",
+      "og_image": "https://res.cloudinary.com/dzawgnnlr/image/upload/q_auto/f_auto/w_auto/v1782758517/odtjqwtlphmuix5rxxi1.png",
+      "groq_label": "The cost of implementing models from companies like Anthropic can be as high as 40% of a senior engineer's salary at the top 1% of companies, but still significantly lower than the costs reported by companies that develop their own models in-house.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of accurately estimating the costs of AI in businesses. The Hacker News discussion was generally critical, with many commenters appreciating the effort to provide a comparison but arguing that the methodology is flawed. At the same time, several commenters raised concerns about the unrealistic expectations and lack of understanding about the complexities of AI development and usage. The discussion highlights the need for a more nuanced approach to assessing AI costs, taking into account factors like scalability, usage, and employee productivity. Overall, the community sees promise in the article's idea but believes there are important challenges that still need to be addressed, particularly the difficulty of accurately measuring AI expenses and the need for more detailed explanations.",
+      "groq_explain": null
+    },
+    {
+      "id": 48801488,
+      "author": "OsamaAtwi",
+      "descendants": 4,
+      "kids": "[48801856,48801537]",
+      "score": 9,
+      "time": 1783321473,
+      "title": "Generate parametric, manufacturable 3D models in seconds",
+      "type": "story",
+      "url": "https://kyrall.com/",
+      "og_image": "https://kyrall.com/assets/new-logos/full-logo-white.svg",
+      "groq_label": "Design automation software leverages AI to instantly create customized 3D models for manufacturing based on parametric inputs.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project aims to solve the problem of generating 3D models rapidly and manufacturing them with ease. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its rapid model generation capability and ease of manufacturing. Many appreciated the ease of use, noting that it enables users to produce high-quality models in a short period. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the quality of the generated models and questioned the robustness of the manufacturing process. Overall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 48799929,
       "author": "dabluck",
@@ -422,36 +452,6 @@
       "groq_label": "A user made an AI-driven game where a digital creature is raised and fed destruction to ultimately bring about an apocalypse.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Apocketlypse game aims to solve the problem of managing a post-apocalyptic world. Based on the Hacker News discussion, commenters generally viewed the game positively and highlighted its strengths such as its unique concept and visual style. Many appreciated the \"destroy humanity\" aspect, noting that it reminded them of a popular game. Others believed it could be particularly useful for gamers looking for a new challenging experience. However, the discussion also revealed several criticisms. Commenters expressed concerns about their desire for more game features and complexity. Overall, the Hacker News community considered the game positive, recognizing its potential while emphasizing that adding more features would improve its usefulness and adoption.",
       "groq_explain": "This is about a person's creative project where they made a digital creature called APOCKETLYPSE that can be raised and eventually unleashes an apocalypse, destroying the world. They drew inspiration from old Digimon games and wanted to flip the traditional tamagotchi concept where the digital creature dies, to one where it kills everyone else instead."
-    },
-    {
-      "id": 48792203,
-      "author": "enz",
-      "descendants": 26,
-      "kids": "[48792763,48792786,48792843,48792835,48792796,48792591,48792770,48792830,48792566,48792712,48792554,48792715,48792596,48792708]",
-      "score": 25,
-      "time": 1783238489,
-      "title": "Web-based cryptography is always snake oil",
-      "type": "story",
-      "url": "https://www.devever.net/~hl/webcrypto",
-      "og_image": "images/48792203.png",
-      "groq_label": "All web-based cryptography, including supposedly end-to-end encryption, is inherently insecure due to its distribution model, where the same entity controls both the server and the client-side code.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article argues that web-based cryptography is inherently insecure due to the risk of backdoors and trust issues with entities providing the encryption software. The Hacker News discussion was generally mixed, with some commenters agreeing that the definition and criteria proposed by the author highlight a significant concern, while others found the argument to be too restrictive and infeasible for various use cases, including Tor. At the same time, several commenters raised valid points about the limitations of end-to-end encryption (E2EE), including the fact that even E2EE systems can be compromised if the entity providing the encryption software goes rogue. Overall, the discussion suggests that the community sees some merit in the author's argument, but also recognizes that it is not without challenges and limitations, and that a nuanced approach is required to assess the security of web-based cryptography solutions.",
-      "groq_explain": "This is about why web-based encryption, often claimed as \"end-to-end,\" is actually not secure. It's because the same company that offers the encrypted service is also distributing the code that's supposed to protect the user, and that code can be tampered with by the server operator."
-    },
-    {
-      "id": 48792195,
-      "author": "nezhar",
-      "descendants": 15,
-      "kids": "[48794013,48794099,48794005,48793753,48794172,48793790]",
-      "score": 37,
-      "time": 1783238388,
-      "title": "Knowledge Should Not Be Gated",
-      "type": "story",
-      "url": "https://www.formaly.io/blog/knowledge-should-not-be-gated",
-      "og_image": "https://www.formaly.io/knowledge-should-not-be-gated.png",
-      "groq_label": "Gated knowledge in software development is contrary to the traditional purpose of open source and libraries.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of making knowledge freely available is strongly positive. Commenters frequently agreed that knowledge should not be gated, emphasizing that this was never the purpose of open-source libraries or software development kits (SDKs). They highlighted the importance of pooling knowledge and making it easily accessible to others. Several commenters expressed nostalgia for the early days of hacking, when the motto \"information wants to be free\" was a rallying cry. However, the discussion also included recurring concerns about data privacy and potential consequences of making private data available to large corporations through SaaS LLMs. The overall consensus is that the idea of making knowledge freely available is compelling, but it's essential to consider the potential risks and implications of such an approach. \n\nNote: Only 7 comments, the opinion might change as more comments get posted.",
-      "groq_explain": null
     }
   ]
 }
