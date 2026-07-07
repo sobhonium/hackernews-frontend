@@ -1,8 +1,22 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-07T03:43:59.528Z"
+    "lastUpdated": "2026-07-07T07:43:18.751Z"
   },
   "stories": [
+    {
+      "id": 48814509,
+      "author": "AnhTho_FR",
+      "kids": "[]",
+      "score": 1,
+      "time": 1783407627,
+      "title": "Lago (YC S21) Is Hiring for Our GTM Team",
+      "type": "job",
+      "url": "https://jobs.ashbyhq.com/lago",
+      "og_image": "https://app.ashbyhq.com/api/images/org-theme-logo/d5945c07-8825-4d2b-99dc-4c709dc53e32/64b802d8-a9c6-4c8b-8767-0c75d32c378b/b2613bdc-9fa7-4418-bdae-c2a7962702b6.png",
+      "groq_label": "Lago is looking for experienced professionals to join their Go-to-Market team at a Y Combinator S21 startup.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 48812156,
       "author": "bilsbie",
@@ -434,21 +448,6 @@
       "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fdernocua.github.io%2Fnotes%2Faluminum-foil.html?w=800",
       "groq_label": "Aluminum foil has potential applications in 3D printing as a thin metal sheet that can be folded into arbitrary shapes.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this discussion of Aluminum Foil with positive reactions. Many commentators appreciated the diversity of uses and benefits of aluminum foil, mentioning its non-toxicity, food safety, and various applications in crafting, DIY projects, and even astronomical purposes. Some also highlighted the potential for innovation, such as stiffening the foil using aqueous chemicals or using it as a cheap and abundant material in space-based bootstrapping scenarios. \n\nHowever, one commenter questioned the comparison to photovoltaic cells, pointing out the apparent misunderstanding of the cost comparison.",
-      "groq_explain": null
-    },
-    {
-      "id": 48804193,
-      "author": "akyuu",
-      "descendants": 92,
-      "kids": "[48805181,48804330,48805389,48804803,48804804,48805140,48805282,48804567,48804389,48804214,48805014,48805254]",
-      "score": 144,
-      "time": 1783343896,
-      "title": "Nintendo announces new product revisions in Europe with replaceable batteries",
-      "type": "story",
-      "url": "https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html",
-      "og_image": "https://www.nintendo.com/eu/media/images/hardware_2/nintendo_switch_18/specifications/16x9_NSwitch2_0101_Pagebanner_image1280w.jpg",
-      "groq_label": "Nintendo Switch products with user-replaceable batteries only differ functionally from current models when users replace the batteries.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Nintendo's new product revisions with replaceable batteries is positive. Commenters frequently praised the regulation-driven change, describing it as \"essential\" and appreciating the move towards more sustainable and repairable products. Many saw this as a direct result of the EU's regulatory efforts and expressed gratitude for this push. The overall consensus is that this change is a step in the right direction, and the community applauds the decision.",
       "groq_explain": null
     }
   ]
