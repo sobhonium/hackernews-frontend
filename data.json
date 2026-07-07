@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-07T07:43:18.751Z"
+    "lastUpdated": "2026-07-07T11:11:58.884Z"
   },
   "stories": [
+    {
+      "id": 48815196,
+      "author": "ifh-hn",
+      "descendants": 33,
+      "kids": "[48815684,48816068,48815572,48816032,48815875,48815681,48815539,48815846,48815315,48815654]",
+      "score": 90,
+      "time": 1783414443,
+      "title": "Microsoft Can Track Users via a Windows Device ID",
+      "type": "story",
+      "url": "https://www.pcmag.com/news/a-hackers-arrest-reveals-microsoft-can-track-users-via-a-windows-device",
+      "og_image": "https://i.pcmag.com/imagery/articles/02VZVE6JO9dXqKyKowYhZzj-1.fit_lim.size_1200x630.v1783350873.jpg",
+      "groq_label": "Microsoft uses a unique device ID for Windows installations and correlates it with website domains users visit, regardless of the browser.",
+      "groq_discussion": "Discussion type: – Basic:\n\nMicrosoft's ability to track users via a Windows device ID raises concerns about user privacy. Based on the Hacker News discussion, commenters generally viewed this development negatively and highlighted several criticisms. Many appreciated the fact that Linux users are not affected by this issue, with some expressing their preference for Linux-based products. Others criticized Microsoft's corporate culture, suggesting that it has not changed since the late 90's. Commenters also expressed concerns about the potential implications of Microsoft tracking users' online activities, with some speculating that this data could be shared with governments. However, the discussion also revealed that the article provided limited evidence of the actual capabilities of Microsoft, with one commenter pointing out that the article failed to mention what data is shared with whom. Overall, the Hacker News community considered this development a threat to user privacy, emphasizing the need for transparency and accountability from Microsoft.",
+      "groq_explain": null
+    },
+    {
+      "id": 48814952,
+      "author": "whimbyte",
+      "descendants": 6,
+      "kids": "[48816126,48815979,48816063]",
+      "score": 12,
+      "time": 1783411932,
+      "title": "Show HN: Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+      "type": "story",
+      "url": "https://whimfiles.com",
+      "og_image": "https://whimfiles.com/og-image.png",
+      "groq_label": "The new Mac file manager uses a native, lightweight approach with no indexing, resulting in a faster and more efficient file management experience.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Mac file manager is overwhelmingly positive. Commenters frequently praised its speed and functionality, describing it as fast and capable. Many highlighted the tool's native Mac feel, which is a departure from the Electron-based interface of other file managers. The overall consensus is that the idea is compelling, although its long-term success may depend on factors such as indexing and data staleness.",
+      "groq_explain": null
+    },
     {
       "id": 48814509,
       "author": "AnhTho_FR",
@@ -418,36 +448,6 @@
       "og_image": "https://spectrum.ieee.org/media-library/q-a-emily-bender-on-stochastic-parrots-5-years-later.jpg?id=67050137&width=1200&height=600&coordinates=0%2C16%2C0%2C234",
       "groq_label": "Google's actions in firing Timnit Gebru are still disputed, with some arguing it was a firing and others a resignation.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project focuses on clarifying the concept of \"stochastic parrots,\" a term used to describe Large Language Models (LLMs). The Hacker News discussion was generally balanced, with commenters appreciating the effort to set the record straight while raising concerns that the concept might be muddying the discussion on what this technology really is. Several commenters argued that LLMs appear to be probabilistic token generators, but others pointed out that this does not necessarily mean they are not intelligent or capable of cognition. The discussion also highlighted concerns about labeling this technology as \"artificial\" and suggested instead that the output of the models should be accepted for what it is. Overall, the discussion suggests that the community sees the value in clarifying the concept, but also believes that it's a complex issue that requires further exploration.",
-      "groq_explain": null
-    },
-    {
-      "id": 48804993,
-      "author": "dijksterhuis",
-      "descendants": 132,
-      "kids": "[48806237,48805958,48805869,48805841,48806119,48805765,48807716,48808338,48806414,48805725,48808346,48805481,48806373,48806663,48807027,48806433,48806578,48806927,48806185,48806033,48807647,48805810,48808103,48807000,48806850,48805008,48805216,48807829,48806827,48806529,48808411,48808080,48806074,48806174]",
-      "score": 178,
-      "time": 1783347503,
-      "title": "Resetting Xbox",
-      "type": "story",
-      "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
-      "og_image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/05/Bootup_Wire-9c068aa206c9a72d2b1f.png",
-      "groq_label": "Xbox is undergoing a major restructuring that includes laying off 3,200 employees, reducing teams and studios, and adopting a more focused content portfolio as part of an effort to improve its profit margins.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Microsoft's decision to reset its Xbox business is largely negative. Commenters frequently criticized the idea as a \"total mess\" and saw it as a response to the company's own management decisions. Many argued that the issue is not profit margin, but rather the way Microsoft has structured its gaming division. Commenters frequently praised the new CEO's candidness about the role of corporate management in the decision, but the overall consensus is that the idea is flawed and will likely lead to negative consequences for the industry and its workers.",
-      "groq_explain": "Microsoft is restructuring the Xbox team by cutting around 3,200 jobs, including 1,600 positions immediately, and separating or selling four studios to new management. The goal is to revamp the Xbox business, which is not currently profitable, and focus on more successful projects."
-    },
-    {
-      "id": 48804297,
-      "author": "firephox",
-      "descendants": 31,
-      "kids": "[48805485,48806208,48806308,48805836,48805790,48805219,48805955,48804990,48805015,48806043,48806138,48806266,48805497,48804791,48805143,48804946]",
-      "score": 89,
-      "time": 1783344537,
-      "title": "Aluminum foil (2021)",
-      "type": "story",
-      "url": "https://dernocua.github.io/notes/aluminum-foil.html",
-      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fdernocua.github.io%2Fnotes%2Faluminum-foil.html?w=800",
-      "groq_label": "Aluminum foil has potential applications in 3D printing as a thin metal sheet that can be folded into arbitrary shapes.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this discussion of Aluminum Foil with positive reactions. Many commentators appreciated the diversity of uses and benefits of aluminum foil, mentioning its non-toxicity, food safety, and various applications in crafting, DIY projects, and even astronomical purposes. Some also highlighted the potential for innovation, such as stiffening the foil using aqueous chemicals or using it as a cheap and abundant material in space-based bootstrapping scenarios. \n\nHowever, one commenter questioned the comparison to photovoltaic cells, pointing out the apparent misunderstanding of the cost comparison.",
       "groq_explain": null
     }
   ]
