@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-08T10:24:06.904Z"
+    "lastUpdated": "2026-07-08T14:23:18.619Z"
   },
   "stories": [
+    {
+      "id": 48831785,
+      "author": "randycupertino",
+      "descendants": 33,
+      "kids": "[48832159,48832269,48832322,48832078,48832004,48832032,48832091,48832003,48832026,48831989,48832115,48832244,48832052]",
+      "score": 60,
+      "time": 1783517759,
+      "title": "US Food and Drug Administration rejects petition to set PFAS limits in food",
+      "type": "story",
+      "url": "https://www.theguardian.com/us-news/2026/jul/08/us-food-and-drug-administration-rejects-petition-to-set-pfas-limits-in-food",
+      "og_image": "https://i.guim.co.uk/img/media/2518abf49f6ed84a215491519f17fd6b85e003d0/407_0_4725_3783/master/4725.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3c262d2fd22dd5bf6b64d3feb831ce8d",
+      "groq_label": "PFAS limits in food are not rejected by FDA, but are being considered alongside existing action levels.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about the FDA's rejection of a petition to set PFAS limits in food received mixed reactions from the Hacker News community. The discussion was generally critical of the article's framing, with some commenters accusing the publication of manipulation. On the other hand, the FDA's announcement to set \"action levels\" instead of tolerances was seen as insufficient by many, who argued that this approach would not effectively protect public health. The topic of PFAS regulation was also discussed, with some commenters pointing out that the EPA has already set a maximum contaminant level and that PFAS contamination continues to be a significant problem despite regulatory efforts. The discussion suggests that while there are valid concerns about PFAS, the community also acknowledges the challenges and limitations in achieving effective regulation.",
+      "groq_explain": null
+    },
+    {
+      "id": 48831499,
+      "author": "breitling",
+      "descendants": 46,
+      "kids": "[48831949,48831720,48832226,48831597,48832077,48831910,48831834,48831677,48831902,48831791,48832130,48831723,48831708]",
+      "score": 39,
+      "time": 1783516213,
+      "title": "Tiny data centre used to heat public swimming pool",
+      "type": "story",
+      "url": "https://www.bbc.com/news/technology-64939558",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/E319/production/_128973185_gettyimages-1081724146.jpg",
+      "groq_label": "Excess heat from data centers is sometimes used for district heating, which can reduce energy bills for nearby facilities such as public swimming pools.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of finding alternative uses for data center waste heat. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and the potential benefits of reducing energy costs for the public swimming pool. The discussion was also critical, with commenters questioning the effectiveness of this specific implementation and the feasibility of replicating it at smaller scales. Some raised the point that this technology has been used for decades in certain parts of the world. However, the overall discussion suggests that the community sees promise in the idea, but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48830565,
+      "author": "soheilpro",
+      "descendants": 84,
+      "kids": "[48832295,48830751,48831377,48830730,48830948,48830809,48831784,48830880,48831110,48832080]",
+      "score": 131,
+      "time": 1783510256,
+      "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
+      "type": "story",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
+      "og_image": "https://www.apple.com/newsroom/images/default/apple-logo-og.jpg?202607081000",
+      "groq_label": "Apple is partnering with Broadcom to produce billions more US chips.\n\nThe commenters raise several points, including:\n\n- The phrase \"increase spend\" being grammatically awkward and suggesting instead \"Apple partners with Broadcom to produce billions more US chips\" for a more natural flow.\n- Concerns over the type of chips being produced by Broadcom for Apple, as mentioned in the comment about FBAR technology and its relation to radio frequency spectrum, which seems to be a separate issue from Apple's plans to increase investment in the US.\n- The potential for the US trade policies to contribute to a reduction in dollars leaving the country through imports, though this point is subjective and may have differing opinions.\n- The usage of \"increase spend\" versus other forms of the word \"spend\" to convey meaning.\n- Suggestions that a significant portion of the investment could be going towards producing chips for products still using non-Apple designed processors, such as older iPads and Apple watches.\n- The relatively small number of jobs and large investment, which seem incongruous.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis deal between Apple and Broadcom aims to produce billions more U.S. chips. The Hacker News discussion was generally mixed, with many commenters appreciating the potential job creation and investment in the U.S. supply chain. At the same time, several commenters raised concerns about the limited scope of the deal, noting that the chips being produced are not high-end ARM chips. Others questioned the phrasing used in the announcement, suggesting that \"increase spend\" is grammatically incorrect. Additionally, some commenters pointed out that the deal may be more about providing chips for Apple's existing product lineup, rather than transitioning all products to their in-house C chip. Overall, the discussion suggests that the community views the deal as a small step in the right direction, but believes that more significant changes are needed to truly create a competitive U.S. supply chain.",
+      "groq_explain": null
+    },
     {
       "id": 48829312,
       "author": "speerer",
@@ -16,6 +61,21 @@
       "og_image": "https://tris.sherliker.net/assets/feathers/small/blue-jay-small.png",
       "groq_label": "Uniqlo printed an obfuscated bash script on some of its t-shirts, showcasing the challenges of OCR and the potential implications of hiding functional code in seemingly innocuous designs.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis hidden bash script on a Uniqlo t-shirt aims to solve the problem of readability. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as creativity and cleverness. Many appreciated the use of base64 encoding, noting that it added an extra layer of challenge to decoding the script. While some believed the script could be particularly useful for testing the limits of OCR and vision models, others questioned the assumption that the script would work as-is, pointing out the need for manual post-processing. However, the discussion also revealed several criticisms. Commenters expressed concerns about the difficulty of OCRing the image and the potential for errors. Overall, the Hacker News community considered the project impressive, recognizing its creativity while emphasizing the importance of careful testing and consideration.",
+      "groq_explain": null
+    },
+    {
+      "id": 48829242,
+      "author": "rzk",
+      "descendants": 9,
+      "kids": "[48830978,48830477,48830586,48832258,48830820,48829265]",
+      "score": 64,
+      "time": 1783499846,
+      "title": "Geosql: A Claude/Codex skill for geospatial data",
+      "type": "story",
+      "url": "https://github.com/dekart-xyz/geosql",
+      "og_image": "https://opengraph.githubassets.com/3e2d469b25d80f2955669031d5dc5731a2ad5283f9966ca396415f607927e3f3/dekart-xyz/geosql",
+      "groq_label": "Readme clarity and business value for Geosql are unclear due to contradictory figures and lack of explanation of analytical uses.",
+      "groq_discussion": "Discussion type: – Critical:\n\nThis Geosql: A Claude/Codex skill for geospatial data aims to improve geospatial tasks with the use of a map in the loop. The Hacker News discussion shows skepticism about the project. Commenters expressed concerns about the project's effectiveness, with some questioning the reported 100% success rate versus an 8% task success rate. Additionally, there are practical questions about the project's real-world applications and how it generates business value. Furthermore, some users are frustrated with the frequency of markdowns posted on Hacker News, viewing them as redundant or unnecessary. Overall, the Hacker News community is generally critical of the project, highlighting its limitations and questioning its usefulness.",
       "groq_explain": null
     },
     {
@@ -391,66 +451,6 @@
       "og_image": "https://pgdog.dev/assets/images/logo2_wide.png?v=bb9c0ef3de",
       "groq_label": "Connection poolers reuse connections between clients, causing connection state to leak from one client to another.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Postgres connection pooler aims to solve the problem of connection state leakage. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as addressing a long-standing issue in typical Postgres setups. Many appreciated the fact that the connection pooler reuses connections in a secure manner, preventing connection state leakage, while noting that this is a common problem in industry-standard configurations. Others believed it could be particularly useful for preventing issues related to client-side caching. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential impact on performance and questioned why another connection pooler was needed when established solutions already exist. Overall, the Hacker News community considered the project  positively.",
-      "groq_explain": null
-    },
-    {
-      "id": 48819244,
-      "author": "bauc",
-      "descendants": 268,
-      "kids": "[48819640,48819606,48819593,48819884,48820256,48821062,48819790,48821164,48819574,48820065,48820285,48820415,48820237,48820158,48819743,48820128,48819505,48820714,48820255,48820692,48819854,48819506,48819879,48819558,48820293,48819424,48819731,48819698,48820284,48819442,48820436,48820218,48820060,48819953,48819757,48819594,48819684,48820457,48821108,48820006,48820046,48820745,48821157,48819455,48819663,48819648,48819662]",
-      "score": 271,
-      "time": 1783438400,
-      "title": "Microsoft fire idTech team at Id software",
-      "type": "story",
-      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software/",
-      "og_image": "https://gamefromscratch.com/wp-content/uploads/2026/07/RIPIdTechBLUM1080.jpg",
-      "groq_label": "Microsoft laid off the IdTech team at Id software.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis announcement about Microsoft laying off the IDTech team at Id software was discussed on Hacker News. The discussion was generally mixed, with some commenters expressing negative reactions and others viewing the situation in a more positive light. Many praised the unique technical and design culture of Id software and worried that Microsoft's approach to homogenizing them into a content-creation blob would result in the loss of these special qualities. On the other hand, some commenters appreciated the potential benefits that this could bring to the gaming industry, such as the talent from the laid-off engineers feeding into more indie games. The discussion also highlighted concerns about Microsoft's corporate leadership and their approach to fixing problems.",
-      "groq_explain": null
-    },
-    {
-      "id": 48819008,
-      "author": "miroljub",
-      "descendants": 128,
-      "kids": "[48819151,48819106,48820661,48819613,48819336,48820292,48820992,48819366,48820830,48819435,48820903,48819361,48820728,48820767,48820622,48819680,48819604,48821026,48819924,48819358,48819728,48819860,48819727,48820586,48819530,48819298,48820542,48820693,48820756,48819335,48820133]",
-      "score": 293,
-      "time": 1783437375,
-      "title": "Chat Control passed first round in EU Parliament",
-      "type": "story",
-      "url": "https://www.heise.de/en/news/Showdown-in-Strasbourg-The-unexpected-return-of-Chat-Control-1-0-11356680.html",
-      "og_image": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/5/1/1/2/7/6/7/shutterstock_2248568015-21aebc31fb107116.jpg",
-      "groq_label": "The EU Parliament's Chat Control law passed its first round despite a low turnout due to an upcoming summer break, making it difficult to gather enough votes to reject or amend it.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the proposed Chat Control law is strongly negative. Commenters frequently expressed concerns about the law's potential for abuse, its bypassing of democratic procedures, and the potential for copycat regulations by other countries. Many were critical of the law's promoters and the EU parliament's actions, with some comparing them to \"pushing unpopular laws until they pass\" and others suggesting that it's a form of \"democracy.\" The general sentiment is one of fear and alarm about the law's potential impact and the perceived erosion of democratic values.",
-      "groq_explain": null
-    },
-    {
-      "id": 48818963,
-      "author": "plurby",
-      "descendants": 66,
-      "kids": "[48821087,48820526,48820894,48821232,48821304,48821284,48820624,48820792,48820864,48820935,48819809,48820386,48819354]",
-      "score": 113,
-      "time": 1783437181,
-      "title": "Amazon without the knockoffs",
-      "type": "story",
-      "url": "https://knockoff.shopping/",
-      "og_image": "https://knockoff.shopping/og.png",
-      "groq_label": "AmazonBrandFilter uses a list of known Amazon brands to filter out knockoffs and cheaper alternatives.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Chrome extension, \"Amazon without the knockoffs,\" aims to filter out suspected counterfeit products from Amazon's listings. The Hacker News discussion was generally mixed, with some commenters appreciating the idea and others raising concerns about its practicality and value. Those who praised it noted that it could help consumers avoid purchasing counterfeit products and promote authentic brands. However, critics argued that the extension might stigmatize generic or low-cost products, making it harder for new brands to gain recognition and succeed in the market. Some commenters also pointed out that the problem of counterfeiting is often caused by manufacturers mixing inventory or the complexity of global supply chains. Overall, the discussion suggests that the community sees promise in the extension but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48818544,
-      "author": "benbreen",
-      "descendants": 96,
-      "kids": "[48819226,48818913,48821320,48819312,48819196,48818752,48819786,48819688,48819227,48819277,48819614,48819003,48819170,48819254,48820243,48818761,48819532,48819702,48818827,48819337,48818789,48818669,48819095,48818927]",
-      "score": 69,
-      "time": 1783435316,
-      "title": "The revenge of the philosophy majors",
-      "type": "story",
-      "url": "https://www.nytimes.com/2026/07/05/business/philosophy-majors-ai-jobs.html",
-      "og_image": "images/48818544.png",
-      "groq_label": "The job market for philosophers with A.I. training is seeing more demand than supply, according to prominent philosopher David Chalmers, partly due to a perception that A.I. aligns well with philosophical skills.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article discusses the potential career paths for philosophy majors, particularly in the area of AI. The Hacker News discussion is generally mixed, with some commenters seeing promise in the idea that AI training is in high demand and that philosophy degrees can be valuable in this area. David Chalmers, a prominent philosopher, observes that there is a high demand for philosophers with AI training, encouraging students to pursue this path. However, many commenters are skeptical, pointing out that there are only a handful of philosophers employed by AI labs worldwide compared to the thousands of software engineers and other technical professionals. Some also argue that the article is overly enthusiastic, with one commentator saying it is \"high on vibes, low on metrics.\" Additionally, commenters note the importance of pairing a philosophy degree with more employable skills, such as computer science. The overall discussion suggests that the community sees some potential in this idea but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
