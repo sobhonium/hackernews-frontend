@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-08T06:33:21.917Z"
+    "lastUpdated": "2026-07-08T10:24:06.904Z"
   },
   "stories": [
+    {
+      "id": 48829312,
+      "author": "speerer",
+      "descendants": 24,
+      "kids": "[48829917,48829568,48829971,48829847,48830047,48829911,48830025,48830006,48829763,48830022,48829647,48829994,48829600]",
+      "score": 112,
+      "time": 1783500366,
+      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+      "type": "story",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "og_image": "https://tris.sherliker.net/assets/feathers/small/blue-jay-small.png",
+      "groq_label": "Uniqlo printed an obfuscated bash script on some of its t-shirts, showcasing the challenges of OCR and the potential implications of hiding functional code in seemingly innocuous designs.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis hidden bash script on a Uniqlo t-shirt aims to solve the problem of readability. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as creativity and cleverness. Many appreciated the use of base64 encoding, noting that it added an extra layer of challenge to decoding the script. While some believed the script could be particularly useful for testing the limits of OCR and vision models, others questioned the assumption that the script would work as-is, pointing out the need for manual post-processing. However, the discussion also revealed several criticisms. Commenters expressed concerns about the difficulty of OCRing the image and the potential for errors. Overall, the Hacker News community considered the project impressive, recognizing its creativity while emphasizing the importance of careful testing and consideration.",
+      "groq_explain": null
+    },
+    {
+      "id": 48827858,
+      "author": "ColinEberhardt",
+      "descendants": 75,
+      "kids": "[48829126,48828904,48829108,48828615,48828624,48828706,48829085,48828367,48829714,48829981,48829675,48829681,48829398,48829517,48828126,48828799,48828869,48829696,48828863,48828380,48829156,48828845,48828740,48829740,48829852,48828962,48828894]",
+      "score": 196,
+      "time": 1783488335,
+      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "type": "story",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "og_image": "https://noma.security/wp-content/uploads/Screenshot-2026-06-29-at-14.16.35.png",
+      "groq_label": "Researchers exploited GitHub's AI agent by leaking private repository information after gaining access to it.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research, GitLost, aims to solve the problem of demonstrating a vulnerability in GitHub's AI Agent. The Hacker News discussion was generally mixed, with many commenters appreciating the project's effort to expose the potential weakness in the AI Agent's design and the researchers' approach to demonstrating the attack. However, several commenters raised concerns about the nature of the vulnerability, arguing that it was not a unique issue and that giving an AI Agent access to private data and allowing it to be interacted with by others was always going to result in potential data leakage. Others pointed out that the researchers effectively exploited their own privileges to gain unauthorized access to private data, and that this was not a fault of GitHub's. The discussion suggests that the community sees some value in the project's warning about the dangers of LLMs but believes there are important caveats that need to be considered when assessing the vulnerability.",
+      "groq_explain": null
+    },
     {
       "id": 48827402,
       "author": "jfrbfbreudh",
@@ -61,6 +91,21 @@
       "og_image": "images/48826703.png",
       "groq_label": "The Economist's methodology appears flawed as the question asked led to a questionable answer.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to analyze The Economist's accuracy. Based on the Hacker News discussion, commenters generally viewed the situation positively, seeing it as a rare instance of self-awareness and criticism of their own journalistic process, particularly noting that they \"asked the wrong question and used the wrong tool to get a questionable answer.\" Many appreciated The Economist's willingness to address and admit to their own mistakes and errors in their research. Others believed it could be particularly useful for highlighting the importance of rigor and critical thinking in journalism. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential for such errors to be missed or downplayed more often, and questioned The Economist's accountability and transparency in the face of criticism. Overall, the Hacker News community considered the incident a rare example of a news organization's self-critical approach to journalism, noting its positive implications for the industry's accountability.",
+      "groq_explain": null
+    },
+    {
+      "id": 48826329,
+      "author": "pentagrama",
+      "descendants": 56,
+      "kids": "[48827498,48828598,48829325,48829783,48829247,48828787,48829401,48828390,48828117,48827513,48827743,48828865,48827855,48827236,48828698,48828414,48828760]",
+      "score": 95,
+      "time": 1783474059,
+      "title": "LineageOS Statistics",
+      "type": "story",
+      "url": "https://stats.lineageos.org",
+      "og_image": "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20xmlns:dc='http://purl.org/dc/elements/1.1/'%20xmlns:cc='http://creativecommons.org/ns%23'%20xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23'%20xmlns:svg='http://www.w3.org/2000/svg'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd'%20xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape'%20viewBox='0%200%2039.934929%2016.189163'%20version='1.1'%20id='svg4'%20sodipodi:docname='navbar-logo.svg'%20width='39.934929'%20height='16.189163'%20inkscape:version='1.0.1%20(3bc2e813f5",
+      "groq_label": "The majority of LineageOS installs are unofficial builds, with 74% of all installs not coming from the official LineageOS releases.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of LineageOS statistics is largely negative. Commenters frequently criticized the project's dwindling numbers and criticized its unofficial builds. They described the project as \"sad\" and \"depressing\" and highlighted concerns that there may be a shift in user preferences towards factory ROMs or a new standard. Many commenters noted the low percentage of installs that receive security updates and the high percentage of outdated versions. Recurring concerns about the Waydroid installs and the dominance of unofficial builds were also raised. The overall consensus is that the project is struggling, although some commenters suggested potential solutions such as releasing official GSIs.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "images/48818544.png",
       "groq_label": "The job market for philosophers with A.I. training is seeing more demand than supply, according to prominent philosopher David Chalmers, partly due to a perception that A.I. aligns well with philosophical skills.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis article discusses the potential career paths for philosophy majors, particularly in the area of AI. The Hacker News discussion is generally mixed, with some commenters seeing promise in the idea that AI training is in high demand and that philosophy degrees can be valuable in this area. David Chalmers, a prominent philosopher, observes that there is a high demand for philosophers with AI training, encouraging students to pursue this path. However, many commenters are skeptical, pointing out that there are only a handful of philosophers employed by AI labs worldwide compared to the thousands of software engineers and other technical professionals. Some also argue that the article is overly enthusiastic, with one commentator saying it is \"high on vibes, low on metrics.\" Additionally, commenters note the importance of pairing a philosophy degree with more employable skills, such as computer science. The overall discussion suggests that the community sees some potential in this idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48818311,
-      "author": "gasull",
-      "descendants": 3,
-      "kids": "[48821291,48821194]",
-      "score": 51,
-      "time": 1783434195,
-      "title": "Chat Control 1.0 and 2.0 Explained",
-      "type": "story",
-      "url": "https://fightchatcontrol.eu/chat-control-overview",
-      "og_image": "https://fightchatcontrol.eu/data/logo.webp",
-      "groq_label": "The Chat Control 1.0 temporary derogation allowed but did not require providers to scan private messages for child sexual abuse material under the ePrivacy Directive, implying that without it, such scanning might not be allowed.",
-      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the Chat Control 1.0 and 2.0 legislation with a focus on clarifying its current status and implications. Many discussed the temporary derogation from the EU's ePrivacy Directive that allowed (but did not require) private message scanning for child sexual abuse material, inquiring if this derogation is still active. Additionally, news surfaced about Chat Control clearing its first round in the EU Parliament, sparking further discussion about its potential adoption and impact.",
-      "groq_explain": null
-    },
-    {
-      "id": 48817017,
-      "author": "pax",
-      "descendants": 98,
-      "kids": "[48817761,48817889,48817798,48818033,48818040,48818116,48818236,48817438,48817701,48818066,48817606,48817375,48817185,48817293,48817632,48817596,48817213,48818299,48817610,48817381,48817427,48817297]",
-      "score": 119,
-      "time": 1783428640,
-      "title": "Dua Lipa opens library for banned and censored books in Portugal",
-      "type": "story",
-      "url": "https://www.euronews.com/culture/2026/06/29/dua-lipa-opens-library-for-banned-and-censored-books-in-portugal",
-      "og_image": "https://images.euronews.com/articles/stories/09/81/69/78/1200x675_cmsv2_9fa73d72-e028-565f-a3e0-5c2a4145bb5a-9816978.jpg",
-      "groq_label": "Dua Lipa opens Manifesto Library in Portugal, a space featuring banned and censored books from around the world.",
-      "groq_discussion": "Discussion type: Balanced:\n\nThis article/project aims to solve the problem of censorship and restricted access to books. The Hacker News discussion was generally mixed, with many commenters appreciating Dua Lipa's initiative to create a library for banned and censored books. However, the discussion also raised concerns about the practicality of such an endeavor, considering that Portugal does not ban books, and the potential for the library to be seen as a marketing event for tourists and tech enthusiasts. Some commenters questioned the relevance of the project, pointing out that censorship is not exclusive to foreign theocracies and that some books are banned in various institutions in America.",
-      "groq_explain": null
-    },
-    {
-      "id": 48816959,
-      "author": "speckx",
-      "descendants": 153,
-      "kids": "[48817236,48818525,48818425,48818498,48817281,48818538,48817886,48817115,48817905,48818391,48817489,48817821,48817240,48818487,48817623,48817167,48817386,48817337,48818064,48817075,48817450,48818458,48817189,48817477,48818016,48817267,48817826,48817158,48817484,48817533,48817447,48817227,48817591,48817259,48817365,48817870,48817513,48817207,48817543,48817291,48817221,48817299,48817232,48817186,48817164,48817757,48817150,48818218,48817206,48817205,48817376,48817174,48817190,48817765,48817413,48817372,48817545,48817071,48817939,48817165,48817398,48817546,48817403,48817399]",
-      "score": 203,
-      "time": 1783428314,
-      "title": "98% Isn't Much",
-      "type": "story",
-      "url": "https://whynothugo.nl/journal/2026/07/03/98-isnt-very-much/",
-      "og_image": "images/48816959.png",
-      "groq_label": "Browser market share collected through Google Analytics may significantly underestimate users of browsers with prevalent use of privacy extensions.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article emphasizes the challenge of supporting edge cases, specifically users in older browsers. The Hacker News discussion was generally appreciative of the author's analysis, praising its nuance and encouraging a \"it depends\" approach. At the same time, several commenters raised concerns about the limitations of percentages and the importance of considering real-world implications. They argued that percentages can be misleading and that odds-notation might provide a more accurate representation of success rates. Additionally, commenters discussed potential business cases and tradeoffs involving engineering complexity and user experience. Overall, the discussion suggests that the community sees value in the article's insights but also recognizes the need for a more holistic perspective.",
       "groq_explain": null
     }
   ]
