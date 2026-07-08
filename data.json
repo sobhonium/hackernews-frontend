@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-08T02:58:25.522Z"
+    "lastUpdated": "2026-07-08T06:33:21.917Z"
   },
   "stories": [
+    {
+      "id": 48827402,
+      "author": "jfrbfbreudh",
+      "descendants": 39,
+      "kids": "[48827811,48827908,48827843,48827955,48828053,48827790,48827933,48827978,48827948,48828039,48828244]",
+      "score": 110,
+      "time": 1783483933,
+      "title": "GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday",
+      "type": "story",
+      "url": "https://twitter.com/OpenAI/status/2074704958419792299",
+      "og_image": "https://pbs.twimg.com/media/HMrU7U7bwAEO8yf.jpg",
+      "groq_label": "OpenAI's GPT-5.6 model is said to have fewer flaws compared to its predecessor.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [GPT-5.6 Sol] aims to solve the problem of improving upon its predecessors in natural language processing. The Hacker News discussion was generally appreciative of GPT-5.6 Sol's capabilities, particularly its improved efficiency, reliability, and affordability compared to Claude models. Many commenters praised its strengths in handling various tasks and workflows such as OpenClaw and Hermes Agent, as well as its knowledge in iOS dev. However, the discussion also highlighted concerns about GPT-5.6 Sol being similar to its predecessor GPT-5.5 and potentially not offering significant enough advancements. Some commenters also expressed skepticism about its ability to match the performance of other strong models, such as Claude, particularly in certain use cases and tasks like interface design. Overall, the discussion suggests that the community is cautiously optimistic about GPT-5.6 Sol, recognizing its potential but also emphasizing the importance of further refinement.",
+      "groq_explain": null
+    },
+    {
+      "id": 48827325,
+      "author": "4diii",
+      "descendants": 53,
+      "kids": "[48827630,48828225,48827852,48827619,48827529,48828153,48828169,48828052,48827708,48827727,48827485,48828141,48827660,48827901,48827653,48827665]",
+      "score": 104,
+      "time": 1783483175,
+      "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+      "type": "story",
+      "url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+      "og_image": "https://neil.computer/content/images/2024/08/CleanShot-2024-08-23-at-23.09.01@2x.png",
+      "groq_label": "The NAS uses a combination of Nix as the system, ZFS for RAID, and Docker Compose for services.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis guide aims to build a minimalist NAS without the traditional vendors. The discussion was generally positive, with many commenters appreciating the low-cost and flexible approach to building a NAS. Notably, the use of Jonsbo N6 cases with SATA backplanes and drive bays, WD Elements Desktop helium drives, and the shucking of drives was praised for its cost-effectiveness. Additionally, the usefulness of cockpit for managing the NAS and VPS was highlighted.\n\nAt the same time, several commenters raised concerns about the power consumption and heat generation of traditional NAS vendors, suggesting that alternatives like the N100 processor could be low-power and fanless options. The use of ZFS was also mentioned as a potential advantage, allowing for improved data integrity and performance. However, some commenters questioned the need for such a solution, suggesting that established products like Synology or TrueNAS are more reliable and offer comprehensive support. \n\nThe overall discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed, such as data loss and the need for offsite backups, suggesting the importance of proper maintenance and redundancy.",
+      "groq_explain": null
+    },
+    {
+      "id": 48827092,
+      "author": "whiteblossom",
+      "descendants": 6,
+      "kids": "[48827526,48827641]",
+      "score": 29,
+      "time": 1783480951,
+      "title": "Copy That Floppy – Cambridge guide for preserving data from fragile floppy disks",
+      "type": "story",
+      "url": "https://www.digipres.org/the-floppy-guide/",
+      "og_image": "https://www.digipres.org/the-floppy-guide/build/Floppy_Disk_Guide_51-79ea83c9dfced75a9a9a03fdeff76a35.jpg",
+      "groq_label": "Cambridge University researchers used floppy disk drive and a copy command to image fragile floppy disks.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis guide, titled \"Copy That Floppy\" aims to solve the problem of preserving data from fragile floppy disks. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its practical approach, \nproviding a step-by-step guide for data preservation. Many appreciated the \nfocus on preserving aging physical media, noting that it's an often-overlooked \naspect of digital preservation. However, the discussion also revealed several \ncriticisms. Commenters requested more information on the source of the title, \n\"Copy That Floppy!\", and suggested adding more context to the title to make \nit more descriptive. Overall, the Hacker News community considered the \nguide a useful resource, recognizing its potential to help preserve valuable \ndata while emphasizing the need for further refinement.",
+      "groq_explain": null
+    },
     {
       "id": 48826703,
       "author": "nreece",
@@ -406,51 +451,6 @@
       "og_image": "images/48816959.png",
       "groq_label": "Browser market share collected through Google Analytics may significantly underestimate users of browsers with prevalent use of privacy extensions.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article emphasizes the challenge of supporting edge cases, specifically users in older browsers. The Hacker News discussion was generally appreciative of the author's analysis, praising its nuance and encouraging a \"it depends\" approach. At the same time, several commenters raised concerns about the limitations of percentages and the importance of considering real-world implications. They argued that percentages can be misleading and that odds-notation might provide a more accurate representation of success rates. Additionally, commenters discussed potential business cases and tradeoffs involving engineering complexity and user experience. Overall, the discussion suggests that the community sees value in the article's insights but also recognizes the need for a more holistic perspective.",
-      "groq_explain": null
-    },
-    {
-      "id": 48816956,
-      "author": "surprisetalk",
-      "descendants": 49,
-      "kids": "[48818445,48818401,48817626,48817900,48818533,48818419,48818371,48818212,48817688,48817476,48817628,48817723,48817958,48817712,48817445,48817522,48817697,48817620,48818421]",
-      "score": 138,
-      "time": 1783428306,
-      "title": "A better way to tie your gym shorts. (Or any drawstring) [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=3R0Lp86GEBk",
-      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
-      "groq_label": "Drawstrings can be tied with a Lapp Knot.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis video and accompanying guide aim to introduce a new method of tying drawstrings, specifically designed to tie your gym shorts or similar clothing more efficiently. The Hacker News discussion is generally mixed, with many appreciating the creativity and the potential benefits of the Lapp Knot, such as being easy to learn and use on slippery strings. However, not all commenters were as satisfied with the method, as some reported difficulties and the need to learn and remember additional steps, making it more complicated than needed. While a few users appreciated the simplicity of alternative methods, others suggested utilizing cord locks, which can provide additional features like adjustable string length. The overall discussion suggests that the community sees promise in the project but believes there are challenges and practical limitations that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48816883,
-      "author": "kls0e",
-      "descendants": 38,
-      "kids": "[48817317,48818108,48817362,48818288,48818265,48817863,48817432,48817948,48817334,48818255,48817748,48817945,48817588,48817575,48818327,48818385]",
-      "score": 173,
-      "time": 1783427915,
-      "title": "StreetComplete: Fixing OpenStreetMap, one tiny quest at a time",
-      "type": "story",
-      "url": "https://streetcomplete.app/",
-      "og_image": "https://streetcomplete.app/res/favicon.svg",
-      "groq_label": "OpenStreetMap contributors use StreetComplete, a mobile app with a beginner-friendly UI, to make small corrections and additions to map data in their vicinity.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of StreetComplete is very positive. Commenters frequently praised the app's user-friendly interface, gamification, and simplicity to use, describing it as \"very well built,\" \"super simple,\" and \"fantastic.\" Many highlighted its potential to contribute to OpenStreetMap, with several contributors sharing their experiences of making multiple contributions and expressing enthusiasm for the app's approach. However, the discussion also included recurring concerns about limitations, such as the inability to add complex features and the lack of support for voice input while using the app on a bicycle. Despite these criticisms, the overall consensus is that StreetComplete is a compelling idea that would benefit from further refinement and expansion, particularly to include a web app version and more complex features.",
-      "groq_explain": null
-    },
-    {
-      "id": 48816612,
-      "author": "adulion",
-      "descendants": 90,
-      "kids": "[48817197,48818486,48817019,48818507,48817072,48817342,48816859,48816946,48816961,48818506,48817333,48816911,48818376,48817410,48816915,48817462,48817014,48816904,48817085,48816969,48816954,48816953,48816997,48817042,48817436,48817146,48816872,48817574]",
-      "score": 129,
-      "time": 1783426105,
-      "title": "Europe's company websites are mostly served by US vendors",
-      "type": "story",
-      "url": "https://ciphercue.com/blog/european-web-hosting-vendor-share-2026",
-      "og_image": "https://ciphercue.com/img/og-card.png",
-      "groq_label": "European websites are often served by US vendors' infrastructure but may have data centers in the EU operating under EU law.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [study/article] attempts to determine the percentage of European company websites served by US vendors. The Hacker News discussion highlights that the study's conclusion may be too simplistic, as European companies may use US vendors while still adhering to EU law and regulations. Commenters also emphasized that the EU has its own growing tech capabilities, alternatives to US vendors, and dependencies in areas such as mobile infrastructure. However, the discussion also notes that using European alternatives may not always be feasible or comparable to US products, citing examples like Stripe and cloud computing vendors. While some commenters challenged the study's methodology and estimates, others provided additional context and nuances, suggesting that the issue is more complex than the study's claims. The overall discussion suggests that the matter is more nuanced, and that the relationship between Europe and tech is multifaceted.",
       "groq_explain": null
     }
   ]
