@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-09T03:37:33.014Z"
+    "lastUpdated": "2026-07-09T07:42:18.026Z"
   },
   "stories": [
+    {
+      "id": 48841963,
+      "author": "OBrien_1107",
+      "kids": "[]",
+      "score": 1,
+      "time": 1783580443,
+      "title": "CollectWise (YC F24) Is Hiring",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/a5be02a3378f664e1f80f2a84997514d00f9fc1f.png?1731452013",
+      "groq_label": "A Founding Account Executive at CollectWise, a Y Combinator-backed startup that uses AI to automate debt collection, is needed to reach $10 million in annualized revenue within the next year having previously been handled by the company's founder.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "This is about a job opening at a company called CollectWise, which is a startup backed by Y Combinator. They're looking for a salesperson to help them scale their business and reach $10 million in revenue within the next year by automating debt collection using AI."
+    },
+    {
+      "id": 48841676,
+      "author": "SweetSoftPillow",
+      "descendants": 15,
+      "kids": "[48842167,48842217,48842227,48842203,48842162]",
+      "score": 21,
+      "time": 1783577899,
+      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "type": "story",
+      "url": "https://github.com/malisper/pgrust",
+      "og_image": "https://opengraph.githubassets.com/99dc7537347a2b20b1b41651b8ba6ed6bf667b10494d90feb001b7da1b12a86d/malisper/pgrust",
+      "groq_label": "A Postgres rewrite in Rust is now passing 100% of the Postgres regression tests.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis Postgres rewritten in Rust attempts to solve the problem of having a modern and memory-safe database. The Hacker News discussion is generally mixed, with many commenters appreciating the efforts to rewrite Postgres in Rust but also expressing concerns about its approach. Some praised the inclusion of Rust as a memory-safe language and its potential to improve reliability, while others questioned the choice of license (AGPL) and the reliability of the rewritten database solely based on test passes. A few commenters noted the importance of a robust production record in establishing reliability, contrasting with the reliance on test passes for this project. The discussion suggests that the HN community sees promise in the idea, but believes there are important challenges that still need to be addressed, particularly around extensions and long-term sustainability.",
+      "groq_explain": "A team of developers is working on rewriting the popular open-source database Postgres in the Rust programming language. They've made significant progress and are now running over 46,000 regression tests that match the expected output of the original Postgres. The goal is to make it easier to modify and improve the underlying database, with the aim of adding new features and capabilities."
+    },
+    {
+      "id": 48841259,
+      "author": "Jedd",
+      "descendants": 23,
+      "kids": "[48841910,48841416,48841376,48841518,48841456]",
+      "score": 73,
+      "time": 1783574085,
+      "title": "Spider venom kills varroa mites without harming honeybees",
+      "type": "story",
+      "url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
+      "og_image": "images/48841259.png",
+      "groq_label": "Spider venom has shown potential in targeting varroa mites without harming honeybees, which could lead to more environmentally friendly bee parasite control methods.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded positively to the discovery using spider venom to kill varroa mites, with some excitement and optimism about its potential to improve bee health. The comment that stood out the most, however, was a discussion about the broader implications of beekeeping and the reliance on non-native honeybees for pollination in North America. While the initial reaction was cautious and some wondered about the potential impact on honey quality, others emphasized the long-standing challenges of keeping mites in check and the current necessity of the practice. The overall tone was hopeful, but also acknowledged the complexities of bee health and the need to rethink beekeeping practices.",
+      "groq_explain": null
+    },
     {
       "id": 48839984,
       "author": "sosodev",
@@ -76,6 +120,21 @@
       "og_image": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off/opengraph-image-yqks0s?3313ef8f7f360358",
       "groq_label": "The post showcases a comparison between three AI models, but the tests are subjectively simplistic, ignore the complexities of AI variance, and seem to be written by the models themselves, which calls into question the accuracy and scientific merit of the results.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is that it has a good idea but a poor execution. Commenters frequently criticized the comparison methods and results, describing the analysis as \"completely subjective\" and \"unscientific\". Many highlighted their dissatisfaction with the simplistic problem space and the uneven retry process. However, the discussion also included some positive comments, with a few users sharing their own experiences with other AI models.",
+      "groq_explain": null
+    },
+    {
+      "id": 48837696,
+      "author": "tanelpoder",
+      "descendants": 22,
+      "kids": "[48841037,48841379,48840840,48840701,48839334,48841011,48840814,48840823]",
+      "score": 62,
+      "time": 1783546209,
+      "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+      "type": "story",
+      "url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "og_image": "https://www.databricks.com/sites/default/files/2026-07/pareto-cropped-1.png",
+      "groq_label": "Multiple models, including open source ones, are now competitive at the top tier in the Databricks multi-million line codebase benchmarks.",
+      "groq_discussion": "Discussion type:  - Detailed:\n\nThis research aims to benchmark coding agents on Databricks' multi-million line codebase. The Hacker News discussion suggests that commenters were primarily impressed by the increasing adoption of coding agents, with some notable observations and insights. Many believed that the improved efficacy of Pi is due to automatic aggregation of context from sessions, creating a virtuous loop. Some questioned whether users of Pi are more senior and proficient in prompting, which could be a contributing factor to their higher pass rate. Others observed similar behavior between models, noting that cheaper models tend to consume more tokens and time to complete tasks. There were also discussions about the impact of programming languages on cost-per-task, with some suggesting that dynamic languages may be more efficient due to their verbosity. The overall discussion emphasizes the progress made in open-source coding agents, particularly GLM 5.2, and the importance of harnesses in improving cost-performance. However, some commenters pointed out the complexity and size of the Databricks orchestration layer compared to the underlying core products.",
       "groq_explain": null
     },
     {
@@ -391,66 +450,6 @@
       "og_image": "https://www.apple.com/newsroom/images/default/apple-logo-og.jpg?202607081000",
       "groq_label": "Apple is partnering with Broadcom to produce billions more US chips.\n\nThe commenters raise several points, including:\n\n- The phrase \"increase spend\" being grammatically awkward and suggesting instead \"Apple partners with Broadcom to produce billions more US chips\" for a more natural flow.\n- Concerns over the type of chips being produced by Broadcom for Apple, as mentioned in the comment about FBAR technology and its relation to radio frequency spectrum, which seems to be a separate issue from Apple's plans to increase investment in the US.\n- The potential for the US trade policies to contribute to a reduction in dollars leaving the country through imports, though this point is subjective and may have differing opinions.\n- The usage of \"increase spend\" versus other forms of the word \"spend\" to convey meaning.\n- Suggestions that a significant portion of the investment could be going towards producing chips for products still using non-Apple designed processors, such as older iPads and Apple watches.\n- The relatively small number of jobs and large investment, which seem incongruous.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis deal between Apple and Broadcom aims to produce billions more U.S. chips. The Hacker News discussion was generally mixed, with many commenters appreciating the potential job creation and investment in the U.S. supply chain. At the same time, several commenters raised concerns about the limited scope of the deal, noting that the chips being produced are not high-end ARM chips. Others questioned the phrasing used in the announcement, suggesting that \"increase spend\" is grammatically incorrect. Additionally, some commenters pointed out that the deal may be more about providing chips for Apple's existing product lineup, rather than transitioning all products to their in-house C chip. Overall, the discussion suggests that the community views the deal as a small step in the right direction, but believes that more significant changes are needed to truly create a competitive U.S. supply chain.",
-      "groq_explain": null
-    },
-    {
-      "id": 48829797,
-      "author": "beefburger",
-      "descendants": 13,
-      "kids": "[48829798,48839878,48840079,48839875,48839974,48840141,48839774,48840206,48840020,48839837]",
-      "score": 49,
-      "time": 1783503860,
-      "title": "Unicode's transliteration rules are Turing-complete",
-      "type": "story",
-      "url": "https://seriot.ch/computation/uts35/",
-      "og_image": "https://seriot.ch/computation/uts35/uts35.png",
-      "groq_label": "UCalendar is a Unicode-based implementation of calendrical calculations and can compute.",
-      "groq_discussion": "Discussion type:  -  Detailed:\n\nThis article discussing Unicode's transliteration rules reveals that they are Turing-complete. The Hacker News discussion suggests that commenters were primarily impressed by the implications of this discovery, especially its potential for accidental computation. At the same time, the discussion repeatedly highlighted concerns about potential security issues, such as the ability to cause computations in the browser, and the limitations of the transliteration rules. Commenters debated issues such as the potential for non-termination and the practical applications of this discovery. While there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that could have significant implications and would benefit from further exploration.",
-      "groq_explain": null
-    },
-    {
-      "id": 48829312,
-      "author": "speerer",
-      "descendants": 24,
-      "kids": "[48829917,48829568,48829971,48829847,48830047,48829911,48830025,48830006,48829763,48830022,48829647,48829994,48829600]",
-      "score": 112,
-      "time": 1783500366,
-      "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
-      "type": "story",
-      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-      "og_image": "https://tris.sherliker.net/assets/feathers/small/blue-jay-small.png",
-      "groq_label": "Uniqlo printed an obfuscated bash script on some of its t-shirts, showcasing the challenges of OCR and the potential implications of hiding functional code in seemingly innocuous designs.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis hidden bash script on a Uniqlo t-shirt aims to solve the problem of readability. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as creativity and cleverness. Many appreciated the use of base64 encoding, noting that it added an extra layer of challenge to decoding the script. While some believed the script could be particularly useful for testing the limits of OCR and vision models, others questioned the assumption that the script would work as-is, pointing out the need for manual post-processing. However, the discussion also revealed several criticisms. Commenters expressed concerns about the difficulty of OCRing the image and the potential for errors. Overall, the Hacker News community considered the project impressive, recognizing its creativity while emphasizing the importance of careful testing and consideration.",
-      "groq_explain": null
-    },
-    {
-      "id": 48829242,
-      "author": "rzk",
-      "descendants": 9,
-      "kids": "[48830978,48830477,48830586,48832258,48830820,48829265]",
-      "score": 64,
-      "time": 1783499846,
-      "title": "Geosql: A Claude/Codex skill for geospatial data",
-      "type": "story",
-      "url": "https://github.com/dekart-xyz/geosql",
-      "og_image": "https://opengraph.githubassets.com/3e2d469b25d80f2955669031d5dc5731a2ad5283f9966ca396415f607927e3f3/dekart-xyz/geosql",
-      "groq_label": "Readme clarity and business value for Geosql are unclear due to contradictory figures and lack of explanation of analytical uses.",
-      "groq_discussion": "Discussion type: – Critical:\n\nThis Geosql: A Claude/Codex skill for geospatial data aims to improve geospatial tasks with the use of a map in the loop. The Hacker News discussion shows skepticism about the project. Commenters expressed concerns about the project's effectiveness, with some questioning the reported 100% success rate versus an 8% task success rate. Additionally, there are practical questions about the project's real-world applications and how it generates business value. Furthermore, some users are frustrated with the frequency of markdowns posted on Hacker News, viewing them as redundant or unnecessary. Overall, the Hacker News community is generally critical of the project, highlighting its limitations and questioning its usefulness.",
-      "groq_explain": null
-    },
-    {
-      "id": 48827858,
-      "author": "ColinEberhardt",
-      "descendants": 75,
-      "kids": "[48829126,48828904,48829108,48828615,48828624,48828706,48829085,48828367,48829714,48829981,48829675,48829681,48829398,48829517,48828126,48828799,48828869,48829696,48828863,48828380,48829156,48828845,48828740,48829740,48829852,48828962,48828894]",
-      "score": 196,
-      "time": 1783488335,
-      "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "type": "story",
-      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "og_image": "https://noma.security/wp-content/uploads/Screenshot-2026-06-29-at-14.16.35.png",
-      "groq_label": "Researchers exploited GitHub's AI agent by leaking private repository information after gaining access to it.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research, GitLost, aims to solve the problem of demonstrating a vulnerability in GitHub's AI Agent. The Hacker News discussion was generally mixed, with many commenters appreciating the project's effort to expose the potential weakness in the AI Agent's design and the researchers' approach to demonstrating the attack. However, several commenters raised concerns about the nature of the vulnerability, arguing that it was not a unique issue and that giving an AI Agent access to private data and allowing it to be interacted with by others was always going to result in potential data leakage. Others pointed out that the researchers effectively exploited their own privileges to gain unauthorized access to private data, and that this was not a fault of GitHub's. The discussion suggests that the community sees some value in the project's warning about the dangers of LLMs but believes there are important caveats that need to be considered when assessing the vulnerability.",
       "groq_explain": null
     }
   ]
