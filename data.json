@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-09T18:02:30.483Z"
+    "lastUpdated": "2026-07-09T21:29:33.176Z"
   },
   "stories": [
+    {
+      "id": 48850414,
+      "author": "adamkurkiewicz",
+      "descendants": 82,
+      "kids": "[48851406,48851351,48850937,48851092,48850699,48851880,48851018,48851524,48851928,48851113,48851298,48851141,48851933,48851671,48852092,48851024,48850922,48852043]",
+      "score": 136,
+      "time": 1783621781,
+      "title": "GLM 5.2 is nearly as accurate as a human book keeper",
+      "type": "story",
+      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
+      "og_image": "https://toot-books.pages.dev/assets/icon-512.png",
+      "groq_label": "The accuracy of a GLM 5.2 model is comparable to that of a human bookkeeper in a narrowly defined tax preparation task due to its ability to learn from user notes and other contextual information.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses a benchmark comparing the accuracy of an LLM-backed system and a human bookkeeper. The Hacker News discussion is generally mixed, with several commenters appreciating the project's approach to automating bookkeeping and praising its potential to improve accuracy. However, others raised concerns about the limitations and risks associated with relying on an LLM for financial tasks. Specifically, they highlighted issues related to fine print and circumstances that may not be inferred from the provided input data, the potential for tax fraud liability, and the lack of transparency and accountability from the project's founders. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, particularly regarding accountability and risk management.",
+      "groq_explain": null
+    },
     {
       "id": 48849066,
       "author": "logickkk1",
@@ -138,6 +153,21 @@
       "groq_explain": null
     },
     {
+      "id": 48846842,
+      "author": "royapakzad",
+      "descendants": 11,
+      "kids": "[48851857,48852058,48852330,48852284,48851743]",
+      "score": 28,
+      "time": 1783608601,
+      "title": "Why the Next Era of AI Is About Infrastructure, Not Just Models",
+      "type": "story",
+      "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+      "og_image": "https://storage.ghost.io/c/68/76/6876f0af-8955-4de4-a637-a5e7cc399136/content/images/size/w1200/2026/07/mozilla-founder-perspective-on-llm-infrastructure-blog-5.jpg",
+      "groq_label": "Mozilla is utilizing its branding to explore and potentially profit from emerging AI technologies.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article/project aims to solve the problem of focusing on infrastructure in AI development. The Hacker News discussion was generally mixed, with some commenters appreciating the author's perspective on the growing importance of infrastructure in AI and the commodity nature of models. They noted the need for more enterprise-friendly patterns like LLM gateways. However, the discussion also included criticisms about the article's tone and language, as well as concerns about the Mozilla brand's involvement in AI. Some questioned the organization's motive and the potential risks of jumping into the AI market too hastily. Overall, the discussion suggests that the community sees promise in the idea of shifting AI focus towards infrastructure but believes there are important challenges and controversies that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
       "id": 48846510,
       "author": "ezekg",
       "descendants": 10,
@@ -240,6 +270,21 @@
       "og_image": "https://opengraph.githubassets.com/7e9f0560831dff9c972c530de50bcc4fecc6e10d545b2ddefdeaad2ae05687d3/ronak-create/FableCut",
       "groq_label": "Browser video editor FableCut uses a JSON+SSE interface for agent interaction and is entirely frontend.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project, FableCut, is a browser video editor that AI agents can drive with zero dependencies. Hacker News commenters generally appreciated its concept and effectiveness, with many praising its use of JSON project files and modular templating. However, some raised concerns about limitations, such as the need for improved audio and video analysis and integration with other tools. Overall, the discussion was positive, with commenters recognizing the project's potential and suggesting areas for improvement.",
+      "groq_explain": null
+    },
+    {
+      "id": 48845209,
+      "author": "silcoon",
+      "descendants": 63,
+      "kids": "[48849015,48850010,48847531,48848239,48847675,48849476,48848533,48848159,48849902]",
+      "score": 65,
+      "time": 1783602364,
+      "title": "A road to Lisp: Why Lisp",
+      "type": "story",
+      "url": "https://scotto.me/blog/2026-07-09-why-lisp/",
+      "og_image": "https://scotto.me/og/2026-07-09-why-lisp.png",
+      "groq_label": "Lisp's reliance on macros as a primary mechanism for extending its syntax and behavior can lead to a steep learning curve and make it inaccessible to programmers who value more traditional programming approaches.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of learning Lisp is generally positive, with many people appreciating its powerful features, such as macros and its interactive environment. However, there is also a recognition of its steep learning curve, with some commenters admitting they don't fully understand macros.\n\nCommenters frequently praised Lisp's extensibility, interactive environment, and REPL, describing it as a \"powerful\" and \"unique\" language. Many highlighted its potential for iterative work with LLMs and saw value in its approach to programming.\n\nHowever, the discussion also included recurring concerns about the lack of criticisms and critiques of Lisp, with commenters expressing a desire for more balanced and level-headed evaluations of the language. Several commenters also shared technical observations regarding Lisp's limitations, such as its handling of syntax highlighting and the potential challenges of hot-reloading.\n\nThe overall consensus is that Lisp is a compelling language, although its long-term success depends on its ability to address these concerns and provide more support for its unique features.",
       "groq_explain": null
     },
     {
@@ -346,6 +391,21 @@
       "groq_explain": null
     },
     {
+      "id": 48842459,
+      "author": "vforno",
+      "descendants": 21,
+      "kids": "[48852349,48852425,48852325,48852449,48852189,48852402,48852363,48852314,48852234]",
+      "score": 80,
+      "time": 1783584304,
+      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
+      "type": "story",
+      "url": "https://github.com/JustVugg/colibri",
+      "og_image": "https://opengraph.githubassets.com/338be9b5724ee75f017cf52f400bd839153c1ef8dfd62b46cfe5a63727f0527a/JustVugg/colibri",
+      "groq_label": "Using a GLM 5.2 model successfully on a slow computer despite being impractical due to the model's size indicates potential for the development of locally hosted, albeit slow, LLMs for long-duration tasks.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the project is positive. Commenters frequently praised the hacker spirit and the idea of taking a massive FOSS model release and running it on an average machine. However, the discussion also included recurring concerns about the practicality and usability of the project, with many questioning its speed and potential issues with SSD lifespan. The overall consensus is that the idea is compelling, although its practicality and usability depend on addressing these concerns, potentially by using higher-end hardware or optimizing the model for performance.",
+      "groq_explain": null
+    },
+    {
       "id": 48841963,
       "author": "OBrien_1107",
       "kids": "[]",
@@ -387,66 +447,6 @@
       "og_image": "images/48841385.png",
       "groq_label": "Atari was unable to compete with Donkey Kong's arcade success due to licensing issues and the eventual loss of exclusive rights to the character.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis \"How Donkey Kong Toppled Atari\" article aims to highlight the impact of the game Donkey Kong on the Atari company. \nBased on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as unexpected trivia \nabout the origins of both Mario and Donkey Kong games. Many appreciated \nthe historical context provided, noting that it shed new light on the \ngame's influence. While others believed it could be particularly useful for \ngamers interested in the early history of video games. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the \narticle title, pointing out that it was contrary to Hacker News guidelines \nabout \"How...\" title. Overall, the Hacker News community considered the \narticle informative and interesting, recognizing its potential while \nacknowledging its flaws.",
-      "groq_explain": null
-    },
-    {
-      "id": 48841259,
-      "author": "Jedd",
-      "descendants": 23,
-      "kids": "[48841910,48841416,48841376,48841518,48841456]",
-      "score": 73,
-      "time": 1783574085,
-      "title": "Spider venom kills varroa mites without harming honeybees",
-      "type": "story",
-      "url": "https://connectsci.au/news/news-parent/9703/Spider-venom-kills-varroa-mites-without-harming",
-      "og_image": "images/48841259.png",
-      "groq_label": "Spider venom has shown potential in targeting varroa mites without harming honeybees, which could lead to more environmentally friendly bee parasite control methods.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded positively to the discovery using spider venom to kill varroa mites, with some excitement and optimism about its potential to improve bee health. The comment that stood out the most, however, was a discussion about the broader implications of beekeeping and the reliance on non-native honeybees for pollination in North America. While the initial reaction was cautious and some wondered about the potential impact on honey quality, others emphasized the long-standing challenges of keeping mites in check and the current necessity of the practice. The overall tone was hopeful, but also acknowledged the complexities of bee health and the need to rethink beekeeping practices.",
-      "groq_explain": null
-    },
-    {
-      "id": 48839984,
-      "author": "sosodev",
-      "descendants": 88,
-      "kids": "[48840162,48840077,48840215,48840080,48840503,48840499,48840117,48840636,48840549,48840438,48840133,48840328,48840110,48840120,48840400,48840458,48840273,48840190,48840157,48840258,48840426,48840345,48840530,48840174,48840055,48840663,48840526,48840263,48840631]",
-      "score": 132,
-      "time": 1783562188,
-      "title": "I Think I Have LLM Burnout",
-      "type": "story",
-      "url": "https://www.alecscollon.com/blog/llm-burnout/",
-      "og_image": "images/48839984.png",
-      "groq_label": "People are experiencing burnout from constantly interacting with LLMs due to repetition, annoyance with uniform writing styles and predictable mistakes, and frustration from multi-tasking and excessive exposure to LLM-generated content.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis discussion revolves around the idea of \"LLM burnout\" – a phenomenon where developers feel overwhelmed and exhausted due to the pressure and expectations generated by Large Language Models (LLMs). The author of the post believes they have LLM burnout, citing the inability to keep up with the constant stream of tasks and the loss of interest in programming due to the shift in problems from complex and interesting to mundane and repetitive.\n\nThe commenters largely agree that LLM-related burnout is a legitimate issue, with several people sharing their own experiences. They mention the pressures of constantly having to adapt to new tasks and models, the feeling of being overwhelmed by the sheer volume of work, and the frustration of dealing with poorly optimized and downgraded models.\n\nThe discussion highlights several key points that contribute to LLM burnout. Firstly, the commenters note that the constant stream of tasks and requests can be exhausting, with some people feeling like they're constantly switching between multiple tasks without being able to focus deeply on any one thing. Secondly, the models themselves can be a source of burnout, particularly when they produce low-quality or unhelpful outputs that require a lot of work to correct. Finally, the discussion touches on the issue of model optimization and downgrading, where companies prioritize reducing computational costs over maintaining the model's quality and usability.\n\nSeveral commenters share their own strategies for dealing with LLM burnout, such as setting up personal style guides to eliminate repetitive and annoying traits, generating exhaustive unit tests to validate the model's outputs, and choosing not to use the model for certain tasks altogether.\n\nOverall, the discussion presents a nuanced view of LLM burnout, highlighting both the benefits and drawbacks of using these models in development and the need for more careful management and optimization to prevent burnout.",
-      "groq_explain": "This article is about a person who spends a lot of time using large language models (LLMs) for their work, and they're experiencing burnout because of the repetitive and sometimes frustrating nature of LLM-generated content. They're not mad at the technology itself, but the constant exposure to the similar writing styles, mistakes, and annoying features is wearing them down."
-    },
-    {
-      "id": 48839397,
-      "author": "lcvw",
-      "descendants": 19,
-      "kids": "[48839592,48839730,48839501,48840403]",
-      "score": 38,
-      "time": 1783557153,
-      "title": "Remote Attestation",
-      "type": "story",
-      "url": "https://www.liamcvw.com/p/remote-attestation",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!A0EF!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ab9008a-68c9-4f18-8615-2d1d4462dbcd_1536x1024.png",
-      "groq_label": "Trusted Boot provides the foundation for remote attestation by cryptographically verifying a device's initial state, including immutable filesystems and EDR presence, at boot time.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis remote attestation concept is designed to solve the problem of verifying the authenticity and security of devices, especially in scenarios such as confidential computing and immutable filesystems. The Hacker News discussion was generally cautious, with some commenters appreciating the potential of remote attestation to provide a secure foundation for other security primitives. At the same time, several commenters raised concerns about the limitations and vulnerabilities of this approach, particularly the reliance on Trusted Platform Module (TPM) security. They argued that even if a TPM stays secure, exploits could still compromise the system's integrity. The discussion suggests that the community sees promise in remote attestation but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48839355,
-      "author": "ethanlipson",
-      "descendants": 9,
-      "kids": "[48840625,48839723,48839923,48840005,48840045,48839800]",
-      "score": 38,
-      "time": 1783556877,
-      "title": "MIRA: Multiplayer Interactive World Models Trained on Rocket League",
-      "type": "story",
-      "url": "https://mira-wm.com/",
-      "og_image": "images/48839355.png",
-      "groq_label": "A 5 billion parameter neural network generated the entire gameplay of Rocket League from inputs, without a graphics or physics engine, using 10k hours of gameplay data.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of MIRA: Multiplayer Interactive World Models Trained on Rocket League is extremely positive. Commenters frequently praised the model's impressive capabilities and its ability to generate realistic gameplay experiences without graphics or physics engines. However, the discussion also included recurring concerns about the model's potential bias towards predictable outcomes and its occasionally frustrating lag-like experience. The overall consensus is that the idea is compelling, although its performance depends on improving the model's responsiveness and attention to user inputs.",
       "groq_explain": null
     }
   ]
