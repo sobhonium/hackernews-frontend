@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-09T07:42:18.026Z"
+    "lastUpdated": "2026-07-09T11:10:38.948Z"
   },
   "stories": [
+    {
+      "id": 48843352,
+      "author": "kristoff_it",
+      "descendants": 14,
+      "kids": "[48843894,48843950,48843928,48843829,48843935,48843870,48843925,48843863]",
+      "score": 70,
+      "time": 1783590448,
+      "title": "My Thoughts on the Bun Rust Rewrite",
+      "type": "story",
+      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+      "og_image": "https://andrewkelley.me/img/redis-screenshot-light.png",
+      "groq_label": "Rewrites often focus on showcasing a language's capabilities over maintaining existing code quality.",
+      "groq_discussion": "Discussion type: – Balancing\n\nThis blog post shares author Andrew's thoughts on the Bun Rust Rewrite. The Hacker News discussion was generally mixed, with many commenters appreciating Andrew's insights into the project's code quality and the role of the author, Jarred, in the development process. At the same time, several commenters raised concerns about the post's tone, arguing that it feels overly personal and critical of Jarred, rather than providing constructive feedback. Overall, the discussion suggests that the community sees promise in Andrew's analysis but believes there are important challenges that still need to be addressed, such as the need for more balanced criticism and a clearer focus on the project's technical merits.",
+      "groq_explain": null
+    },
+    {
+      "id": 48842611,
+      "author": "Gedxx",
+      "descendants": 99,
+      "kids": "[48843102,48843173,48842959,48843689,48843759,48843394,48843596,48843309,48843225,48843502,48843386,48843051,48843424,48843205,48843351,48842994,48843783,48843232,48843327,48843586,48843278,48842960,48843192,48843091,48843036,48843318,48843449,48843164,48843112,48843419,48843447,48843535,48843143,48843485,48842962,48842975,48842969]",
+      "score": 149,
+      "time": 1783585372,
+      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+      "type": "story",
+      "url": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
+      "og_image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2025/07/concept-of-computer-programming-or-developing-software-laptop-computer-with-code-on-screen-heart-message-cog-home-user-cloud-and-lock-icons.jpg?w=1600&h=900&fit=crop",
+      "groq_label": "Developers who claim to be ditching GitHub for alternatives like Codeberg and self-hosted platforms often list very few or no examples of actual, significant repositories making the move.",
+      "groq_discussion": "Discussion type: – Detailed:\nThis article focuses on developers ditching GitHub for Codeberg and self-hosting alternatives. The Hacker News discussion suggests that commenters were primarily concerned about the reliability and trust issues with GitHub, particularly after experiences with wrongful bans and poor treatment of contributors. At the same time, the discussion highlighted the strengths of self-hosting alternatives, such as Gitea, Forgejo, and GitLab, which offer more control and flexibility over repository management and workflow. While some commenters expressed concerns about technical difficulties and scalability, others emphasized the importance of avoiding Microsoft, the parent company of GitHub. The discussion also touched on the topic of alternative version control systems, with some commenters expressing a desire for more competition and innovation in the field. The overall impression is that the majority of commenters agree that GitHub's flaws and Microsoft's influence are driving developers to explore alternative platforms.",
+      "groq_explain": null
+    },
     {
       "id": 48841963,
       "author": "OBrien_1107",
@@ -31,6 +61,21 @@
       "groq_label": "A Postgres rewrite in Rust is now passing 100% of the Postgres regression tests.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis Postgres rewritten in Rust attempts to solve the problem of having a modern and memory-safe database. The Hacker News discussion is generally mixed, with many commenters appreciating the efforts to rewrite Postgres in Rust but also expressing concerns about its approach. Some praised the inclusion of Rust as a memory-safe language and its potential to improve reliability, while others questioned the choice of license (AGPL) and the reliability of the rewritten database solely based on test passes. A few commenters noted the importance of a robust production record in establishing reliability, contrasting with the reliance on test passes for this project. The discussion suggests that the HN community sees promise in the idea, but believes there are important challenges that still need to be addressed, particularly around extensions and long-term sustainability.",
       "groq_explain": "A team of developers is working on rewriting the popular open-source database Postgres in the Rust programming language. They've made significant progress and are now running over 46,000 regression tests that match the expected output of the original Postgres. The goal is to make it easier to modify and improve the underlying database, with the aim of adding new features and capabilities."
+    },
+    {
+      "id": 48841385,
+      "author": "giuliomagnifico",
+      "descendants": 9,
+      "kids": "[48843134,48842871]",
+      "score": 31,
+      "time": 1783575284,
+      "title": "How Donkey Kong Toppled Atari",
+      "type": "story",
+      "url": "https://dfarq.homeip.net/how-donkey-kong-toppled-atari/",
+      "og_image": "images/48841385.png",
+      "groq_label": "Atari was unable to compete with Donkey Kong's arcade success due to licensing issues and the eventual loss of exclusive rights to the character.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis \"How Donkey Kong Toppled Atari\" article aims to highlight the impact of the game Donkey Kong on the Atari company. \nBased on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as unexpected trivia \nabout the origins of both Mario and Donkey Kong games. Many appreciated \nthe historical context provided, noting that it shed new light on the \ngame's influence. While others believed it could be particularly useful for \ngamers interested in the early history of video games. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the \narticle title, pointing out that it was contrary to Hacker News guidelines \nabout \"How...\" title. Overall, the Hacker News community considered the \narticle informative and interesting, recognizing its potential while \nacknowledging its flaws.",
+      "groq_explain": null
     },
     {
       "id": 48841259,
@@ -405,51 +450,6 @@
       "og_image": "https://shkspr.mobi/blog/wp-content/uploads/2017/08/WordPress-Logo-Square.png",
       "groq_label": "A UI design issue affecting left-handed users occurred due to placing interactive elements like buttons near natural thumb resting spots on screens, causing accidental clicks.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the discussion of the bug affecting left-handed users with a lighthearted and humorous tone, with many commenters making jokes about the distinction between left- and right-handed individuals. A few commenters shared personal experiences where their handedness affects their interactions with certain mobile apps, highlighting the impact of design on different user groups.",
-      "groq_explain": null
-    },
-    {
-      "id": 48831565,
-      "author": "bobnamob",
-      "descendants": 23,
-      "kids": "[48832555,48834499,48834368,48832537,48832588,48833711,48833534,48833861,48832858]",
-      "score": 136,
-      "time": 1783516683,
-      "title": "Cloudflare Meerkat - Globally distributed consensus",
-      "type": "story",
-      "url": "https://blog.cloudflare.com/meerkat-introduction/",
-      "og_image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2m5WlLqGfABaWQdblYreVc/de77b9f9137d10c9dc2d6e71c6d8ee09/Introducing_Meerkat-_an_experiment_in_global_consensus-OG.png",
-      "groq_label": "Meerkat uses a globally distributed consensus design with multiple proposals that can make progress simultaneously, reducing the need for expensive round trips.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis Cloudflare Meerkat globally distributed consensus article aims to solve the problem of distributed consensus in a decentralized system. The Hacker News discussion was generally mixed, with some commenters appreciating the unique approach and potential benefits of Meerkat, such as its leaderless design and ability to improve on Raft in certain scenarios, like handling bad networks. At the same time, several commenters raised concerns about the project's complexity, the potential cost of many round trips in median deployments, and its suitability for certain use cases, such as databases. Some commenters also questioned the decision to introduce Meerkat when a similar algorithm, QuePaxa, received less attention.",
-      "groq_explain": null
-    },
-    {
-      "id": 48831499,
-      "author": "breitling",
-      "descendants": 46,
-      "kids": "[48831949,48831720,48832226,48831597,48832077,48831910,48831834,48831677,48831902,48831791,48832130,48831723,48831708]",
-      "score": 39,
-      "time": 1783516213,
-      "title": "Tiny data centre used to heat public swimming pool",
-      "type": "story",
-      "url": "https://www.bbc.com/news/technology-64939558",
-      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/E319/production/_128973185_gettyimages-1081724146.jpg",
-      "groq_label": "Excess heat from data centers is sometimes used for district heating, which can reduce energy bills for nearby facilities such as public swimming pools.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of finding alternative uses for data center waste heat. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and the potential benefits of reducing energy costs for the public swimming pool. The discussion was also critical, with commenters questioning the effectiveness of this specific implementation and the feasibility of replicating it at smaller scales. Some raised the point that this technology has been used for decades in certain parts of the world. However, the overall discussion suggests that the community sees promise in the idea, but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48830565,
-      "author": "soheilpro",
-      "descendants": 84,
-      "kids": "[48832295,48830751,48831377,48830730,48830948,48830809,48831784,48830880,48831110,48832080]",
-      "score": 131,
-      "time": 1783510256,
-      "title": "Apple to increase spend with Broadcom to produce billions more U.S. chips",
-      "type": "story",
-      "url": "https://www.apple.com/newsroom/2026/07/apple-to-increase-spend-with-broadcom-to-produce-billions-more-us-chips/",
-      "og_image": "https://www.apple.com/newsroom/images/default/apple-logo-og.jpg?202607081000",
-      "groq_label": "Apple is partnering with Broadcom to produce billions more US chips.\n\nThe commenters raise several points, including:\n\n- The phrase \"increase spend\" being grammatically awkward and suggesting instead \"Apple partners with Broadcom to produce billions more US chips\" for a more natural flow.\n- Concerns over the type of chips being produced by Broadcom for Apple, as mentioned in the comment about FBAR technology and its relation to radio frequency spectrum, which seems to be a separate issue from Apple's plans to increase investment in the US.\n- The potential for the US trade policies to contribute to a reduction in dollars leaving the country through imports, though this point is subjective and may have differing opinions.\n- The usage of \"increase spend\" versus other forms of the word \"spend\" to convey meaning.\n- Suggestions that a significant portion of the investment could be going towards producing chips for products still using non-Apple designed processors, such as older iPads and Apple watches.\n- The relatively small number of jobs and large investment, which seem incongruous.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis deal between Apple and Broadcom aims to produce billions more U.S. chips. The Hacker News discussion was generally mixed, with many commenters appreciating the potential job creation and investment in the U.S. supply chain. At the same time, several commenters raised concerns about the limited scope of the deal, noting that the chips being produced are not high-end ARM chips. Others questioned the phrasing used in the announcement, suggesting that \"increase spend\" is grammatically incorrect. Additionally, some commenters pointed out that the deal may be more about providing chips for Apple's existing product lineup, rather than transitioning all products to their in-house C chip. Overall, the discussion suggests that the community views the deal as a small step in the right direction, but believes that more significant changes are needed to truly create a competitive U.S. supply chain.",
       "groq_explain": null
     }
   ]
