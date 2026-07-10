@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-10T07:41:01.308Z"
+    "lastUpdated": "2026-07-10T11:00:24.594Z"
   },
   "stories": [
+    {
+      "id": 48857230,
+      "author": "kickingvegas",
+      "descendants": 1,
+      "kids": "[48858168,48857989]",
+      "score": 29,
+      "time": 1783671670,
+      "title": "In Emacs, Everything Looks Like a Service",
+      "type": "story",
+      "url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+      "og_image": "http://yummymelon.com/devnull/images/opengraph-default.jpg",
+      "groq_label": "Emacs exposes its entire functionality as services through its Emacs Lisp interface, allowing users to build custom clients on top of it.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Emacs project aims to solve the problem of flexibility and customization. Hacker News commenters generally had a positive reaction, with many appreciating the flexibility Emacs offers, especially with the org mode. However, the discussion was brief, and there were no major concerns or criticisms raised. Overall, the discussion was positive, with commenters recognizing the potential of Emacs and its flexibility.",
+      "groq_explain": "Emacs is an application that can be used to run and interact with other applications, much like an operating system. It can access system services and run external programs, making it possible for users to accomplish many tasks without leaving the Emacs environment, essentially treating everything as a service."
+    },
+    {
+      "id": 48856904,
+      "author": "smusamashah",
+      "descendants": 68,
+      "kids": "[48857699,48857236,48857335,48857480,48857501,48857567,48857222,48857640,48857519,48857748,48857627,48858159,48857980,48857394,48857511,48858091,48857364,48857622,48857272,48857329,48857294,48857376,48857477,48857290,48857271]",
+      "score": 70,
+      "time": 1783669151,
+      "title": "AI-generated videos to maximally drive a target brain region",
+      "type": "story",
+      "url": "https://nevo-project.epfl.ch/",
+      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fnevo-project.epfl.ch%2F?w=800",
+      "groq_label": "Brain regions can be maximally driven using AI-generated videos that are optimized through genetic programming.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis AI-generated video project aims to maximally drive a target brain region. The Hacker News discussion was generally mixed, with some commenters viewing the technology as a potential tool for researchers to gain a better understanding of brain function, while others raised concerns about its potential for misuse, particularly in creating \"supernormal stimuli\" that could lead to negative outcomes. Many praised the idea's potential for studying the brain, but others questioned the ethics of the project and its implications for human behavior. Some also noted that the technology could be used for therapeutic purposes, such as relaxing the brain after a long workday, but others warned that it could lead to an increased reliance on manipulation rather than self-regulation. Overall, the discussion suggests that the community is interested in the project, but also wants to see it developed with caution and in consideration of its potential consequences.",
+      "groq_explain": null
+    },
     {
       "id": 48854681,
       "author": "ianrahman",
@@ -418,36 +448,6 @@
       "og_image": "https://www.patrick-breyer.de/wp-content/uploads/2023/07/logo_regular_vertical.png",
       "groq_label": "The EU Parliament voted to extend Chat Control 1.0 under an urgency procedure, allowing US tech companies to scan private messages without a warrant or prior suspicion.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the EU Parliament's approval of Chat Control 1.0 is strongly negative. Commenters frequently criticized the move, describing it as an infringement on individual privacy and an abuse of EU power. Many highlighted concerns about the law allowing US tech companies to scan private messages without a warrant or prior suspicion, and noted that this is an extension of similar legislation in other countries. The discussion also touched on the broader implications of this decision, with some commentators drawing parallels to historical instances of government overreach, such as the British law that inspired the 4th Amendment of the US Constitution. The overall consensus is that the EU Parliament's actions are perceived as a threat to personal freedoms, and that the community strongly disapproves of this decision.",
-      "groq_explain": null
-    },
-    {
-      "id": 48843438,
-      "author": "theanonymousone",
-      "descendants": 98,
-      "kids": "[48845165,48844478,48844220,48845168,48847136,48844455,48847371,48844984,48846926,48845628,48846700,48847269,48844983,48846988,48845203,48844784,48844623,48844738,48844560,48846826,48844427,48844654,48845760,48844963,48845543,48844464,48844612]",
-      "score": 255,
-      "time": 1783591353,
-      "title": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies aged 75",
-      "type": "story",
-      "url": "https://www.bbc.com/news/articles/cg5pd9z2487o",
-      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/34b8/live/e78d6300-7b7c-11f1-9510-1546718f668b.png",
-      "groq_label": "Bonnie Tyler had a long and varied career before her 1983 hit Total Eclipse of the Heart with a first charting single in 1976.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Bonnie Tyler and her work is one of appreciation and admiration. Commenters frequently praised her iconic song \"Total Eclipse of the Heart\", remembering singing it and sharing fond memories of the song. Many also appreciated Bonnie's professionalism, talent, and ability to win over her critics. However, the discussion also included recurring concerns and sadness about her passing and the end of an era of classic music, as well as reflection on the legacy of her collaborators, such as Jim Steinman and Meat Loaf. The overall consensus is that Bonnie Tyler was a talented artist who made a lasting impact on music fans.",
-      "groq_explain": "Bonnie Tyler, a well-known singer from Wales, has passed away at the age of 75. She is famous for her hit song 'Total Eclipse of the Heart.'"
-    },
-    {
-      "id": 48843352,
-      "author": "kristoff_it",
-      "descendants": 14,
-      "kids": "[48843894,48843950,48843928,48843829,48843935,48843870,48843925,48843863]",
-      "score": 70,
-      "time": 1783590448,
-      "title": "My Thoughts on the Bun Rust Rewrite",
-      "type": "story",
-      "url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
-      "og_image": "https://andrewkelley.me/img/redis-screenshot-light.png",
-      "groq_label": "Rewrites often focus on showcasing a language's capabilities over maintaining existing code quality.",
-      "groq_discussion": "Discussion type: – Balancing\n\nThis blog post shares author Andrew's thoughts on the Bun Rust Rewrite. The Hacker News discussion was generally mixed, with many commenters appreciating Andrew's insights into the project's code quality and the role of the author, Jarred, in the development process. At the same time, several commenters raised concerns about the post's tone, arguing that it feels overly personal and critical of Jarred, rather than providing constructive feedback. Overall, the discussion suggests that the community sees promise in Andrew's analysis but believes there are important challenges that still need to be addressed, such as the need for more balanced criticism and a clearer focus on the project's technical merits.",
       "groq_explain": null
     }
   ]
