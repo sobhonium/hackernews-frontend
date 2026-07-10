@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-10T03:38:02.357Z"
+    "lastUpdated": "2026-07-10T07:41:01.308Z"
   },
   "stories": [
     {
@@ -47,6 +47,21 @@
       "groq_label": "Meta's core values of focus and prioritization erode quickly as a company grows and resources become more plentiful.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Boz's standpoint on focus is overwhelmingly negative. Commenters frequently criticized Boz's lack of self-awareness, citing his work at Meta and Facebook as examples of how he failed to stay focused on the company's core competencies. Many described Boz as one of the \"worst people doing anything anywhere,\" and expressed disappointment with the harm caused by Meta's products, such as its effect on teen mental health and its data farming practices. The discussion suggests that Boz's essay on focus is hypocritical, given his own track record and the company's failures.",
       "groq_explain": "The author is talking about focus. They're saying that when you have a lot of resources and time, you can get distracted by a lot of things and lose sight of what's really important. They remember working at a startup where they were very focused, but as the company grew and got more money, they started to get bogged down in smaller things that, individually, seemed okay but collectively made it hard to stay on track."
+    },
+    {
+      "id": 48854247,
+      "author": "hbcondo714",
+      "descendants": 67,
+      "kids": "[48856718,48855730,48856293,48856667,48855691,48856794,48855653,48855558,48856129,48856194]",
+      "score": 108,
+      "time": 1783642828,
+      "title": "Study: \"Mommy, do you love your phone more than me?\"",
+      "type": "story",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
+      "og_image": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
+      "groq_label": "The study found adolescents who reported their caregivers were frequently distracted by devices were more likely to experience anxiety, insecurity, and feelings of neglect.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis study, \"Mommy, do you love your phone more than me?\", aims to solve the problem of how smartphones and device use affect parent-child relationships. The Hacker News discussion was generally divided, with many commenters appreciating the study's focus on this issue and its potential to raise awareness about the impact of device use on families. At the same time, several commenters raised concerns about the study's methodology and its reliance on self-reporting, arguing that it does not provide conclusive evidence of a causal link between device use and damaged relationships. The study's potential to spark important conversations about the role of technology in family life was acknowledged, but its limitations were also highlighted. As a whole, the discussion suggests that the community sees promise in the study's approach but believes there are important challenges, such as designing robust experiments and avoiding correlation-causation errors, that still need to be addressed.",
+      "groq_explain": null
     },
     {
       "id": 48850414,
@@ -433,21 +448,6 @@
       "og_image": "https://andrewkelley.me/img/redis-screenshot-light.png",
       "groq_label": "Rewrites often focus on showcasing a language's capabilities over maintaining existing code quality.",
       "groq_discussion": "Discussion type: – Balancing\n\nThis blog post shares author Andrew's thoughts on the Bun Rust Rewrite. The Hacker News discussion was generally mixed, with many commenters appreciating Andrew's insights into the project's code quality and the role of the author, Jarred, in the development process. At the same time, several commenters raised concerns about the post's tone, arguing that it feels overly personal and critical of Jarred, rather than providing constructive feedback. Overall, the discussion suggests that the community sees promise in Andrew's analysis but believes there are important challenges that still need to be addressed, such as the need for more balanced criticism and a clearer focus on the project's technical merits.",
-      "groq_explain": null
-    },
-    {
-      "id": 48842611,
-      "author": "Gedxx",
-      "descendants": 99,
-      "kids": "[48843102,48843173,48842959,48843689,48843759,48843394,48843596,48843309,48843225,48843502,48843386,48843051,48843424,48843205,48843351,48842994,48843783,48843232,48843327,48843586,48843278,48842960,48843192,48843091,48843036,48843318,48843449,48843164,48843112,48843419,48843447,48843535,48843143,48843485,48842962,48842975,48842969]",
-      "score": 149,
-      "time": 1783585372,
-      "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
-      "type": "story",
-      "url": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
-      "og_image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2025/07/concept-of-computer-programming-or-developing-software-laptop-computer-with-code-on-screen-heart-message-cog-home-user-cloud-and-lock-icons.jpg?w=1600&h=900&fit=crop",
-      "groq_label": "Developers who claim to be ditching GitHub for alternatives like Codeberg and self-hosted platforms often list very few or no examples of actual, significant repositories making the move.",
-      "groq_discussion": "Discussion type: – Detailed:\nThis article focuses on developers ditching GitHub for Codeberg and self-hosting alternatives. The Hacker News discussion suggests that commenters were primarily concerned about the reliability and trust issues with GitHub, particularly after experiences with wrongful bans and poor treatment of contributors. At the same time, the discussion highlighted the strengths of self-hosting alternatives, such as Gitea, Forgejo, and GitLab, which offer more control and flexibility over repository management and workflow. While some commenters expressed concerns about technical difficulties and scalability, others emphasized the importance of avoiding Microsoft, the parent company of GitHub. The discussion also touched on the topic of alternative version control systems, with some commenters expressing a desire for more competition and innovation in the field. The overall impression is that the majority of commenters agree that GitHub's flaws and Microsoft's influence are driving developers to explore alternative platforms.",
       "groq_explain": null
     }
   ]
