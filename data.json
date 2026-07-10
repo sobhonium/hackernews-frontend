@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-09T21:29:33.176Z"
+    "lastUpdated": "2026-07-10T03:38:02.357Z"
   },
   "stories": [
+    {
+      "id": 48854681,
+      "author": "ianrahman",
+      "descendants": 8,
+      "kids": "[48854969,48855037,48855063,48855007]",
+      "score": 17,
+      "time": 1783646923,
+      "title": "Build your own vulnerability harness",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
+      "og_image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4M8kRFgWf6LZikg68pKgEE/45752991a0e0885af6b0e7587ab6a099/BLOG-3344_OG.png",
+      "groq_label": "The process of using frontier models to find vulnerabilities in code can become a costly, token-intensive process if not optimized, requiring careful consideration of context management and specific features such as cached and batch tokens.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis build-it-yourself vulnerability harness project aims to solve the problem of costly and complex vulnerability scanning. Based on the Hacker News discussion, commenters generally viewed this approach positively and highlighted strengths such as its potential for cost-effectiveness. Many appreciated the ability to explicitly program around specific features to optimize cost, noting that this could yield a 10:1 or 2:1 cost advantage. Others believed this approach could be particularly useful for large-scale vulnerability scanning jobs. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of the harnesses and the need for multiple models, agents, and pipelines, which they felt could be overwhelming and non-deterministic. Overall, the Hacker News community considered this approach as an interesting and potentially cost-effective solution, recognizing its potential while emphasizing that its implementation could be challenging due to its complexity.",
+      "groq_explain": null
+    },
+    {
+      "id": 48854638,
+      "author": "wglb",
+      "descendants": 27,
+      "kids": "[48855468,48854952,48854836,48855373,48855267,48854823,48854791]",
+      "score": 21,
+      "time": 1783646416,
+      "title": "Star Just Ate a Planet, and It's Not Done Yet",
+      "type": "story",
+      "url": "https://www.nytimes.com/2026/07/09/science/space/planetary-engulfment-hungry-star.html",
+      "og_image": "images/48854638.png",
+      "groq_label": "A white dwarf star in a binary system recently consumed a nearby planet.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis astronomy news article reports on a star eating a planet. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and appreciated its interesting nature, with some describing it as 'really interesting to read.' Many took the opportunity \nto reflect on the universe and the grand scheme, appreciating its ability to put their daily concerns into perspective. However, the discussion \nalso included several criticisms. Commenters questioned the significance of the event, with some comparing it to a trivial occurrence like a house \n'eating' a baseball. Others made humorous comments and memes, such as referencing a TV show. Overall, the Hacker News community considered \nthe article an interesting contribution, but noted its lack of significance in the grand scheme of the universe.\n\nor \n\nDiscussion type: – Short:\n\nThis astronomy news article reports on a star eating a planet. Hacker News commenters generally saw it as an interesting, if trivial, occurrence \nwith some finding it a reminder to appreciate life's small joys. However, their perspectives were mixed, with others questioning its cosmic \nsignificance, making humorous comments, and suggesting actions to prevent such events in the future, or even comparing the event to a minor \noccurrence like a house 'eating' a baseball.",
+      "groq_explain": null
+    },
+    {
+      "id": 48854363,
+      "author": "iacguy",
+      "descendants": 32,
+      "kids": "[48855172,48854971,48854977,48855336,48855430,48855147,48854857,48855399,48855245,48855123,48855229,48855183,48854898,48855182,48854937,48855292,48855097]",
+      "score": 62,
+      "time": 1783644033,
+      "title": "Focus",
+      "type": "story",
+      "url": "https://boz.com/articles/focus",
+      "og_image": "https://boz.com/focus.png",
+      "groq_label": "Meta's core values of focus and prioritization erode quickly as a company grows and resources become more plentiful.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Boz's standpoint on focus is overwhelmingly negative. Commenters frequently criticized Boz's lack of self-awareness, citing his work at Meta and Facebook as examples of how he failed to stay focused on the company's core competencies. Many described Boz as one of the \"worst people doing anything anywhere,\" and expressed disappointment with the harm caused by Meta's products, such as its effect on teen mental health and its data farming practices. The discussion suggests that Boz's essay on focus is hypocritical, given his own track record and the company's failures.",
+      "groq_explain": "The author is talking about focus. They're saying that when you have a lot of resources and time, you can get distracted by a lot of things and lose sight of what's really important. They remember working at a startup where they were very focused, but as the company grew and got more money, they started to get bogged down in smaller things that, individually, seemed okay but collectively made it hard to stay on track."
+    },
     {
       "id": 48850414,
       "author": "adamkurkiewicz",
@@ -16,6 +61,21 @@
       "og_image": "https://toot-books.pages.dev/assets/icon-512.png",
       "groq_label": "The accuracy of a GLM 5.2 model is comparable to that of a human bookkeeper in a narrowly defined tax preparation task due to its ability to learn from user notes and other contextual information.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses a benchmark comparing the accuracy of an LLM-backed system and a human bookkeeper. The Hacker News discussion is generally mixed, with several commenters appreciating the project's approach to automating bookkeeping and praising its potential to improve accuracy. However, others raised concerns about the limitations and risks associated with relying on an LLM for financial tasks. Specifically, they highlighted issues related to fine print and circumstances that may not be inferred from the provided input data, the potential for tax fraud liability, and the lack of transparency and accountability from the project's founders. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, particularly regarding accountability and risk management.",
+      "groq_explain": null
+    },
+    {
+      "id": 48849292,
+      "author": "veqq",
+      "descendants": 59,
+      "kids": "[48853248,48853803,48853545,48854938,48853868,48853295,48854854,48855107,48853717]",
+      "score": 151,
+      "time": 1783617436,
+      "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+      "type": "story",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "og_image": "https://alexalejandre.com/logo100.webp",
+      "groq_label": "Developers often discuss Zig in the context of Rust due to concerns about various aspects of the Rust language itself.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the interview with Mitchell Hashimoto about Ghostty and Zig is largely positive. Commenters frequently praised Mitchell's thoughtfulness and pragmatic approach to programming, describing him as caring and motivating. Many appreciated his focus on Ghostty and the importance of maintaining cross-platform support. However, the discussion also included recurring concerns about the discussion of Rust, with some commenters feeling that it dominates the conversation and others questioning its relevance. The overall consensus is that the interview is interesting and showcases Mitchell's passion for programming, although its long-term success depends on the reader's perspective on Rust and its role in the programming community.",
       "groq_explain": null
     },
     {
@@ -388,65 +448,6 @@
       "og_image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2025/07/concept-of-computer-programming-or-developing-software-laptop-computer-with-code-on-screen-heart-message-cog-home-user-cloud-and-lock-icons.jpg?w=1600&h=900&fit=crop",
       "groq_label": "Developers who claim to be ditching GitHub for alternatives like Codeberg and self-hosted platforms often list very few or no examples of actual, significant repositories making the move.",
       "groq_discussion": "Discussion type: – Detailed:\nThis article focuses on developers ditching GitHub for Codeberg and self-hosting alternatives. The Hacker News discussion suggests that commenters were primarily concerned about the reliability and trust issues with GitHub, particularly after experiences with wrongful bans and poor treatment of contributors. At the same time, the discussion highlighted the strengths of self-hosting alternatives, such as Gitea, Forgejo, and GitLab, which offer more control and flexibility over repository management and workflow. While some commenters expressed concerns about technical difficulties and scalability, others emphasized the importance of avoiding Microsoft, the parent company of GitHub. The discussion also touched on the topic of alternative version control systems, with some commenters expressing a desire for more competition and innovation in the field. The overall impression is that the majority of commenters agree that GitHub's flaws and Microsoft's influence are driving developers to explore alternative platforms.",
-      "groq_explain": null
-    },
-    {
-      "id": 48842459,
-      "author": "vforno",
-      "descendants": 21,
-      "kids": "[48852349,48852425,48852325,48852449,48852189,48852402,48852363,48852314,48852234]",
-      "score": 80,
-      "time": 1783584304,
-      "title": "Show HN: Getting GLM 5.2 running on my slow computer",
-      "type": "story",
-      "url": "https://github.com/JustVugg/colibri",
-      "og_image": "https://opengraph.githubassets.com/338be9b5724ee75f017cf52f400bd839153c1ef8dfd62b46cfe5a63727f0527a/JustVugg/colibri",
-      "groq_label": "Using a GLM 5.2 model successfully on a slow computer despite being impractical due to the model's size indicates potential for the development of locally hosted, albeit slow, LLMs for long-duration tasks.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the project is positive. Commenters frequently praised the hacker spirit and the idea of taking a massive FOSS model release and running it on an average machine. However, the discussion also included recurring concerns about the practicality and usability of the project, with many questioning its speed and potential issues with SSD lifespan. The overall consensus is that the idea is compelling, although its practicality and usability depend on addressing these concerns, potentially by using higher-end hardware or optimizing the model for performance.",
-      "groq_explain": null
-    },
-    {
-      "id": 48841963,
-      "author": "OBrien_1107",
-      "kids": "[]",
-      "score": 1,
-      "time": 1783580443,
-      "title": "CollectWise (YC F24) Is Hiring",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/collectwise/jobs/P646Yw6-founding-account-executive",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/a5be02a3378f664e1f80f2a84997514d00f9fc1f.png?1731452013",
-      "groq_label": "A Founding Account Executive at CollectWise, a Y Combinator-backed startup that uses AI to automate debt collection, is needed to reach $10 million in annualized revenue within the next year having previously been handled by the company's founder.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "This is about a job opening at a company called CollectWise, which is a startup backed by Y Combinator. They're looking for a salesperson to help them scale their business and reach $10 million in revenue within the next year by automating debt collection using AI."
-    },
-    {
-      "id": 48841676,
-      "author": "SweetSoftPillow",
-      "descendants": 15,
-      "kids": "[48842167,48842217,48842227,48842203,48842162]",
-      "score": 21,
-      "time": 1783577899,
-      "title": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "type": "story",
-      "url": "https://github.com/malisper/pgrust",
-      "og_image": "https://opengraph.githubassets.com/99dc7537347a2b20b1b41651b8ba6ed6bf667b10494d90feb001b7da1b12a86d/malisper/pgrust",
-      "groq_label": "A Postgres rewrite in Rust is now passing 100% of the Postgres regression tests.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis Postgres rewritten in Rust attempts to solve the problem of having a modern and memory-safe database. The Hacker News discussion is generally mixed, with many commenters appreciating the efforts to rewrite Postgres in Rust but also expressing concerns about its approach. Some praised the inclusion of Rust as a memory-safe language and its potential to improve reliability, while others questioned the choice of license (AGPL) and the reliability of the rewritten database solely based on test passes. A few commenters noted the importance of a robust production record in establishing reliability, contrasting with the reliance on test passes for this project. The discussion suggests that the HN community sees promise in the idea, but believes there are important challenges that still need to be addressed, particularly around extensions and long-term sustainability.",
-      "groq_explain": "A team of developers is working on rewriting the popular open-source database Postgres in the Rust programming language. They've made significant progress and are now running over 46,000 regression tests that match the expected output of the original Postgres. The goal is to make it easier to modify and improve the underlying database, with the aim of adding new features and capabilities."
-    },
-    {
-      "id": 48841385,
-      "author": "giuliomagnifico",
-      "descendants": 9,
-      "kids": "[48843134,48842871]",
-      "score": 31,
-      "time": 1783575284,
-      "title": "How Donkey Kong Toppled Atari",
-      "type": "story",
-      "url": "https://dfarq.homeip.net/how-donkey-kong-toppled-atari/",
-      "og_image": "images/48841385.png",
-      "groq_label": "Atari was unable to compete with Donkey Kong's arcade success due to licensing issues and the eventual loss of exclusive rights to the character.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis \"How Donkey Kong Toppled Atari\" article aims to highlight the impact of the game Donkey Kong on the Atari company. \nBased on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as unexpected trivia \nabout the origins of both Mario and Donkey Kong games. Many appreciated \nthe historical context provided, noting that it shed new light on the \ngame's influence. While others believed it could be particularly useful for \ngamers interested in the early history of video games. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the \narticle title, pointing out that it was contrary to Hacker News guidelines \nabout \"How...\" title. Overall, the Hacker News community considered the \narticle informative and interesting, recognizing its potential while \nacknowledging its flaws.",
       "groq_explain": null
     }
   ]
