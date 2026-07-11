@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-11T09:42:32.833Z"
+    "lastUpdated": "2026-07-11T13:27:47.357Z"
   },
   "stories": [
+    {
+      "id": 48871470,
+      "author": "faza",
+      "descendants": 21,
+      "kids": "[48871812,48871813,48871820,48871611,48871601,48871748,48871650,48871548]",
+      "score": 49,
+      "time": 1783773040,
+      "title": "Networking and the Internet, from First Principles",
+      "type": "story",
+      "url": "https://fazamhd.com/mental-models/networking/",
+      "og_image": "https://fazamhd.com/og/mental-models/networking.png",
+      "groq_label": "The first commercial order for the Digital PDP-1 computer was made by ITT for its torn-tape messaging operation.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Networking and the Internet, from First Principles\" is generally positive. Commenters frequently praised the article for its pleasant animations, readable text, and clear content. Many appreciated the historical context of the telegraph and the thoughtful discussion about bandwidth vs. latency. However, the discussion also included recurring criticisms, such as the article being too long and poorly formatted, with too much repetitive AI-generated material, and overuse of the phrase \"from first principles.\"",
+      "groq_explain": null
+    },
+    {
+      "id": 48871367,
+      "author": "reaperducer",
+      "descendants": 5,
+      "kids": "[48871782,48871596]",
+      "score": 12,
+      "time": 1783771954,
+      "title": "FCC Approves Test of Space Mirror to Light Night Sky Despite Outcry",
+      "type": "story",
+      "url": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html",
+      "og_image": "images/48871367.png",
+      "groq_label": "The FCC approved a space-based optical system intended to illuminate the night sky as part of a communications and navigation test.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the FCC's approval of a space mirror to light the night sky is negative. Commenters frequently expressed criticism, describing the project as problematic and highlighting its potential impact on astronomy and space exploration. The discussion included recurring concerns about the environmental and practical challenges of such a project. The overall consensus is that the idea is misguided and its execution could be detrimental, although a few commenters questioned whether the project was actually being considered seriously or was just a publicity stunt.",
+      "groq_explain": null
+    },
+    {
+      "id": 48870799,
+      "author": "chrka",
+      "descendants": 4,
+      "kids": "[48871737,48871834,48871796]",
+      "score": 37,
+      "time": 1783767010,
+      "title": "Your code is fast – if you're lucky",
+      "type": "story",
+      "url": "https://tiki.li/blog/lucky_code.html",
+      "og_image": "images/48870799.png",
+      "groq_label": "Compilers like Clang can optimize loops into fast, branch-free instructions based on specific programming style, but this is inherently fragile and susceptible to variations in notation leading to performance differences.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/code optimization topic] aims to solve the problem of optimizing code performance. Based on the Hacker News discussion, commenters generally viewed the situation positively and highlighted the importance of deep understanding in low-level optimization as a unique skill. Many appreciated the nuance of the issue, noting that the difference in performance comes down to internal compiler patterns, and one commenter felt that it resembled innate talent. However, the discussion also revealed several criticisms. Commenters expressed concerns about the fragility of the optimization and questioned whether it could be a compiler bug. Overall, the Hacker News community considered the issue complex, recognizing the unique skill required for low-level optimization while emphasizing the need for further exploration and investigation.",
+      "groq_explain": "The core idea is that modern compilers can optimize code and make it faster, but only if the code is written in a specific way. This can lead to inconsistencies where the same code is fast for some people but slow for others, depending on their compiler."
+    },
     {
       "id": 48868996,
       "author": "mvdtnz",
@@ -405,51 +450,6 @@
       "og_image": "images/48858121.png",
       "groq_label": "User interface features should be minimal by design to avoid introducing unnecessary friction.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article on \"Good Tools Are Invisible\" aims to solve the problem of designing user-friendly tools that enhance productivity. The Hacker News discussion was generally positive, with many commenters appreciating the author's emphasis on making tools intuitive and streamlined. At the same time, several commenters raised concerns about the concept of an \"invisible\" interface, arguing that certain features or complexity may be necessary for specific tasks, and that proficiency in a tool can be achieved with practice, making the term \"invisible\" less relevant. The discussion highlights the importance of balancing simplicity with functionality, and that what makes a tool invisible may vary depending on the user's experience and familiarity with it.",
-      "groq_explain": null
-    },
-    {
-      "id": 48857230,
-      "author": "kickingvegas",
-      "descendants": 1,
-      "kids": "[48858168,48857989]",
-      "score": 29,
-      "time": 1783671670,
-      "title": "In Emacs, Everything Looks Like a Service",
-      "type": "story",
-      "url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
-      "og_image": "http://yummymelon.com/devnull/images/opengraph-default.jpg",
-      "groq_label": "Emacs exposes its entire functionality as services through its Emacs Lisp interface, allowing users to build custom clients on top of it.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Emacs project aims to solve the problem of flexibility and customization. Hacker News commenters generally had a positive reaction, with many appreciating the flexibility Emacs offers, especially with the org mode. However, the discussion was brief, and there were no major concerns or criticisms raised. Overall, the discussion was positive, with commenters recognizing the potential of Emacs and its flexibility.",
-      "groq_explain": "Emacs is an application that can be used to run and interact with other applications, much like an operating system. It can access system services and run external programs, making it possible for users to accomplish many tasks without leaving the Emacs environment, essentially treating everything as a service."
-    },
-    {
-      "id": 48856904,
-      "author": "smusamashah",
-      "descendants": 68,
-      "kids": "[48857699,48857236,48857335,48857480,48857501,48857567,48857222,48857640,48857519,48857748,48857627,48858159,48857980,48857394,48857511,48858091,48857364,48857622,48857272,48857329,48857294,48857376,48857477,48857290,48857271]",
-      "score": 70,
-      "time": 1783669151,
-      "title": "AI-generated videos to maximally drive a target brain region",
-      "type": "story",
-      "url": "https://nevo-project.epfl.ch/",
-      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fnevo-project.epfl.ch%2F?w=800",
-      "groq_label": "Brain regions can be maximally driven using AI-generated videos that are optimized through genetic programming.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis AI-generated video project aims to maximally drive a target brain region. The Hacker News discussion was generally mixed, with some commenters viewing the technology as a potential tool for researchers to gain a better understanding of brain function, while others raised concerns about its potential for misuse, particularly in creating \"supernormal stimuli\" that could lead to negative outcomes. Many praised the idea's potential for studying the brain, but others questioned the ethics of the project and its implications for human behavior. Some also noted that the technology could be used for therapeutic purposes, such as relaxing the brain after a long workday, but others warned that it could lead to an increased reliance on manipulation rather than self-regulation. Overall, the discussion suggests that the community is interested in the project, but also wants to see it developed with caution and in consideration of its potential consequences.",
-      "groq_explain": null
-    },
-    {
-      "id": 48854681,
-      "author": "ianrahman",
-      "descendants": 8,
-      "kids": "[48854969,48855037,48855063,48855007]",
-      "score": 17,
-      "time": 1783646923,
-      "title": "Build your own vulnerability harness",
-      "type": "story",
-      "url": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
-      "og_image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4M8kRFgWf6LZikg68pKgEE/45752991a0e0885af6b0e7587ab6a099/BLOG-3344_OG.png",
-      "groq_label": "The process of using frontier models to find vulnerabilities in code can become a costly, token-intensive process if not optimized, requiring careful consideration of context management and specific features such as cached and batch tokens.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis build-it-yourself vulnerability harness project aims to solve the problem of costly and complex vulnerability scanning. Based on the Hacker News discussion, commenters generally viewed this approach positively and highlighted strengths such as its potential for cost-effectiveness. Many appreciated the ability to explicitly program around specific features to optimize cost, noting that this could yield a 10:1 or 2:1 cost advantage. Others believed this approach could be particularly useful for large-scale vulnerability scanning jobs. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of the harnesses and the need for multiple models, agents, and pipelines, which they felt could be overwhelming and non-deterministic. Overall, the Hacker News community considered this approach as an interesting and potentially cost-effective solution, recognizing its potential while emphasizing that its implementation could be challenging due to its complexity.",
       "groq_explain": null
     }
   ]
