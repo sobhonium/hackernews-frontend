@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-11T06:18:12.817Z"
+    "lastUpdated": "2026-07-11T09:42:32.833Z"
   },
   "stories": [
+    {
+      "id": 48868996,
+      "author": "mvdtnz",
+      "descendants": 29,
+      "kids": "[48869398,48870251,48870253,48869582,48869473,48869457,48870232,48869606,48869464,48869618,48869987,48869546,48869394,48869533,48870109]",
+      "score": 96,
+      "time": 1783747181,
+      "title": "The vintage beauty of Soviet control rooms (2018)",
+      "type": "story",
+      "url": "https://designyoutrust.com/2018/01/vintage-beauty-soviet-control-rooms/",
+      "og_image": "https://designyoutrust.com/wp-content/uploads/2018/01/1-17.jpg",
+      "groq_label": "These control rooms are not uniquely Soviet, they are a style from before computers that emphasizes system status and causal reasoning through physical representations.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article featuring Soviet control rooms is overwhelmingly positive. Commenters frequently praised the design and aesthetic of these control rooms, describing them as \"amazing\", \"gorgeous\", and \"beautiful\". They also appreciated the functionality and usability of these control rooms, with some commenters noting that they were superior in some respects to modern software system observability. However, the discussion also included recurring concerns about the advertising method used in the article, with some commenters finding it \"one of the worst\" they had ever seen. Nonetheless, the overall consensus is that the beauty and design of Soviet control rooms is compelling, and sparks interesting discussions about the evolution of control room UX and the value of aesthetic design.",
+      "groq_explain": null
+    },
     {
       "id": 48866134,
       "author": "hhs",
@@ -435,21 +450,6 @@
       "og_image": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/4M8kRFgWf6LZikg68pKgEE/45752991a0e0885af6b0e7587ab6a099/BLOG-3344_OG.png",
       "groq_label": "The process of using frontier models to find vulnerabilities in code can become a costly, token-intensive process if not optimized, requiring careful consideration of context management and specific features such as cached and batch tokens.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis build-it-yourself vulnerability harness project aims to solve the problem of costly and complex vulnerability scanning. Based on the Hacker News discussion, commenters generally viewed this approach positively and highlighted strengths such as its potential for cost-effectiveness. Many appreciated the ability to explicitly program around specific features to optimize cost, noting that this could yield a 10:1 or 2:1 cost advantage. Others believed this approach could be particularly useful for large-scale vulnerability scanning jobs. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of the harnesses and the need for multiple models, agents, and pipelines, which they felt could be overwhelming and non-deterministic. Overall, the Hacker News community considered this approach as an interesting and potentially cost-effective solution, recognizing its potential while emphasizing that its implementation could be challenging due to its complexity.",
-      "groq_explain": null
-    },
-    {
-      "id": 48854638,
-      "author": "wglb",
-      "descendants": 27,
-      "kids": "[48855468,48854952,48854836,48855373,48855267,48854823,48854791]",
-      "score": 21,
-      "time": 1783646416,
-      "title": "Star Just Ate a Planet, and It's Not Done Yet",
-      "type": "story",
-      "url": "https://www.nytimes.com/2026/07/09/science/space/planetary-engulfment-hungry-star.html",
-      "og_image": "images/48854638.png",
-      "groq_label": "A white dwarf star in a binary system recently consumed a nearby planet.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis astronomy news article reports on a star eating a planet. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and appreciated its interesting nature, with some describing it as 'really interesting to read.' Many took the opportunity \nto reflect on the universe and the grand scheme, appreciating its ability to put their daily concerns into perspective. However, the discussion \nalso included several criticisms. Commenters questioned the significance of the event, with some comparing it to a trivial occurrence like a house \n'eating' a baseball. Others made humorous comments and memes, such as referencing a TV show. Overall, the Hacker News community considered \nthe article an interesting contribution, but noted its lack of significance in the grand scheme of the universe.\n\nor \n\nDiscussion type: – Short:\n\nThis astronomy news article reports on a star eating a planet. Hacker News commenters generally saw it as an interesting, if trivial, occurrence \nwith some finding it a reminder to appreciate life's small joys. However, their perspectives were mixed, with others questioning its cosmic \nsignificance, making humorous comments, and suggesting actions to prevent such events in the future, or even comparing the event to a minor \noccurrence like a house 'eating' a baseball.",
       "groq_explain": null
     }
   ]
