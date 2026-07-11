@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-10T21:11:47.325Z"
+    "lastUpdated": "2026-07-11T02:53:42.177Z"
   },
   "stories": [
+    {
+      "id": 48866134,
+      "author": "hhs",
+      "descendants": 42,
+      "kids": "[48866215,48866710,48868172,48866309,48866467]",
+      "score": 119,
+      "time": 1783722644,
+      "title": "Einstein's relativity rules chemical bonds in heavy elements, new research shows",
+      "type": "story",
+      "url": "https://www.brown.edu/news/2026-07-09/chemical-bonds-relativity",
+      "og_image": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-07/chemistry-stock.jpg?h=1d4b4ebd&itok=Iv8YhdkV",
+      "groq_label": "For heavy elements, the rules of Einstein's theory of relativity change the structure of triple chemical bonds, blurring the lines between sigma and pi bonds.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research on Einstein's theory of relativity in heavy elements aims to solve the problem of understanding the behavior of electrons in complex atomic systems. The Hacker News discussion was generally positive and appreciative of the research's emphasis on relativity and how it affects electron orbits in heavy elements. Many commenters acknowledged that this idea is not new, citing the example of gold's color being influenced by relativistic effects. Supporters praised the research for providing further evidence for Dirac's equations and incorporating special relativity into quantum physics. However, some commented that this is not surprising, given the existing understanding of relativity's influence on atomic behavior. Overall, the discussion suggests that the community sees the value in this research but does not consider it revolutionary.",
+      "groq_explain": "Scientists have found that Einstein's theory of relativity affects the way atoms bond together in certain heavy elements, challenging the classic understanding of chemical bonds. This is significant because it shows that the rules we learn about chemistry don't apply universally, and there's more complexity to the way atoms interact than previously thought."
+    },
+    {
+      "id": 48865019,
+      "author": "stock_toaster",
+      "descendants": 295,
+      "kids": "[48865294,48866488,48866293,48866216,48867276,48866551,48868124,48867883,48866548,48867290,48866987,48867043,48868095,48868148,48867848,48865942,48866352,48865406,48865453,48867613,48866402,48867489,48866563,48867157,48866583,48866371,48866581,48866784,48865482,48867012,48866789,48866161,48866137,48867462,48865372,48865390,48867221,48865964,48866977,48866420,48867332,48867262,48865641,48865766,48867545,48865937]",
+      "score": 618,
+      "time": 1783716429,
+      "title": "Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "type": "story",
+      "url": "https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/",
+      "og_image": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "groq_label": "OpenAI instructs departing employees not to inform Apple of their new job, and some allegedly email themselves confidential information before leaving, which is then used by OpenAI to approach Apple suppliers with confidential hardware information.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Apple's suit against OpenAI is that it seems like an open and shut case, with many commenters expressing that OpenAI's behavior appears to be damning. Commenters frequently praised Apple's chances of winning the lawsuit and highlighted concerns about OpenAI's recruitment practices, such as instructing new hires to avoid scrutiny and using confidential Apple information to approach suppliers. The consensus is that OpenAI's actions are suspicious and that the company has no clear defense against Apple's allegations.",
+      "groq_explain": null
+    },
     {
       "id": 48864507,
       "author": "NickDob",
@@ -106,6 +136,21 @@
       "og_image": "https://waratlas.org/og-card.png",
       "groq_label": "User estimates of Russo-Ukrainian war casualties are highly disputed with most estimates suggesting higher Russian casualties.",
       "groq_discussion": "Discussion type: Balanced\n\nThis War Atlas focuses on providing an interactive cartography of every named war in human history. The Hacker News discussion was generally mixed, with many commenters appreciating the effort and visuals, while also expressing concerns about inaccuracies, graphics choices, and technical limitations. At the same time, the discussion repeatedly highlighted the project's strengths, such as its unique visualization approach and thorough page about sourcing. However, some commenters were critical of the estimates provided, questioning their validity, while others pointed out technical issues with the project's performance. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48863064,
+      "author": "CrankyBear",
+      "descendants": 288,
+      "kids": "[48868194,48863244,48867610,48868178,48866790,48868162,48866794,48867117,48867381,48868042,48868133,48867026,48863364,48863566,48867378,48863442,48866804,48867023,48863296,48867699,48863541,48866525,48866385,48867136,48863200,48863188,48863327,48863289,48867655,48866418,48866444,48866661,48868104]",
+      "score": 89,
+      "time": 1783705867,
+      "title": "SpaceX wants to launch 100k more Starlink satellites for 100x the bandwidth",
+      "type": "story",
+      "url": "https://www.zdnet.com/home-and-office/networking/spacex-wants-to-launch-100000-more-starlink-satellites/",
+      "og_image": "https://www.zdnet.com/a/img/resize/2d7049a36d241cdf177935c0c0df5f03a2d52bf7/2026/07/10/f550fe8f-37ce-4eb1-b39c-c1e306d05a74/gettyimages-2280481321.jpg?auto=webp&fit=crop&height=675&width=1200",
+      "groq_label": "Kessler syndrome refers to an uncontrolled chain reaction of space debris collisions.",
+      "groq_discussion": "Discussion type:  Short\n\nThis article/project by SpaceX aims to launch 100k more Starlink satellites for 100x the bandwidth. Hacker News commenters generally appreciated the potential increased bandwidth and convenience offered by the project, which could allow for truly global coverage and enable people to stream their favorite shows even in remote areas. However, the discussion also expressed concerns about the issue of satellite collisions and the Kessler syndrome, which could make it difficult to scan, calculate, and control trajectories of millions of orbiting satellites. Overall, the discussion was cautiously optimistic.",
       "groq_explain": null
     },
     {
@@ -405,51 +450,6 @@
       "og_image": "images/48854638.png",
       "groq_label": "A white dwarf star in a binary system recently consumed a nearby planet.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis astronomy news article reports on a star eating a planet. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and appreciated its interesting nature, with some describing it as 'really interesting to read.' Many took the opportunity \nto reflect on the universe and the grand scheme, appreciating its ability to put their daily concerns into perspective. However, the discussion \nalso included several criticisms. Commenters questioned the significance of the event, with some comparing it to a trivial occurrence like a house \n'eating' a baseball. Others made humorous comments and memes, such as referencing a TV show. Overall, the Hacker News community considered \nthe article an interesting contribution, but noted its lack of significance in the grand scheme of the universe.\n\nor \n\nDiscussion type: – Short:\n\nThis astronomy news article reports on a star eating a planet. Hacker News commenters generally saw it as an interesting, if trivial, occurrence \nwith some finding it a reminder to appreciate life's small joys. However, their perspectives were mixed, with others questioning its cosmic \nsignificance, making humorous comments, and suggesting actions to prevent such events in the future, or even comparing the event to a minor \noccurrence like a house 'eating' a baseball.",
-      "groq_explain": null
-    },
-    {
-      "id": 48854363,
-      "author": "iacguy",
-      "descendants": 32,
-      "kids": "[48855172,48854971,48854977,48855336,48855430,48855147,48854857,48855399,48855245,48855123,48855229,48855183,48854898,48855182,48854937,48855292,48855097]",
-      "score": 62,
-      "time": 1783644033,
-      "title": "Focus",
-      "type": "story",
-      "url": "https://boz.com/articles/focus",
-      "og_image": "https://boz.com/focus.png",
-      "groq_label": "Meta's core values of focus and prioritization erode quickly as a company grows and resources become more plentiful.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Boz's standpoint on focus is overwhelmingly negative. Commenters frequently criticized Boz's lack of self-awareness, citing his work at Meta and Facebook as examples of how he failed to stay focused on the company's core competencies. Many described Boz as one of the \"worst people doing anything anywhere,\" and expressed disappointment with the harm caused by Meta's products, such as its effect on teen mental health and its data farming practices. The discussion suggests that Boz's essay on focus is hypocritical, given his own track record and the company's failures.",
-      "groq_explain": "The author is talking about focus. They're saying that when you have a lot of resources and time, you can get distracted by a lot of things and lose sight of what's really important. They remember working at a startup where they were very focused, but as the company grew and got more money, they started to get bogged down in smaller things that, individually, seemed okay but collectively made it hard to stay on track."
-    },
-    {
-      "id": 48854247,
-      "author": "hbcondo714",
-      "descendants": 67,
-      "kids": "[48856718,48855730,48856293,48856667,48855691,48856794,48855653,48855558,48856129,48856194]",
-      "score": 108,
-      "time": 1783642828,
-      "title": "Study: \"Mommy, do you love your phone more than me?\"",
-      "type": "story",
-      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full",
-      "og_image": "https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/0F39389F-DE2D-4BF1-AFE71BA9B6F25024/918D96DB-F484-4EC1-8FBF9AB5F74B20F4/WebsiteWebP_XL-FPSYG_Main%20Visual_Green_Website.webp",
-      "groq_label": "The study found adolescents who reported their caregivers were frequently distracted by devices were more likely to experience anxiety, insecurity, and feelings of neglect.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis study, \"Mommy, do you love your phone more than me?\", aims to solve the problem of how smartphones and device use affect parent-child relationships. The Hacker News discussion was generally divided, with many commenters appreciating the study's focus on this issue and its potential to raise awareness about the impact of device use on families. At the same time, several commenters raised concerns about the study's methodology and its reliance on self-reporting, arguing that it does not provide conclusive evidence of a causal link between device use and damaged relationships. The study's potential to spark important conversations about the role of technology in family life was acknowledged, but its limitations were also highlighted. As a whole, the discussion suggests that the community sees promise in the study's approach but believes there are important challenges, such as designing robust experiments and avoiding correlation-causation errors, that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48851476,
-      "author": "jacobgraf",
-      "descendants": 10,
-      "kids": "[48863015,48862850,48853249,48862979,48862729,48852103]",
-      "score": 23,
-      "time": 1783626577,
-      "title": "Show HN: Reviving my 2001 college band with AI",
-      "type": "story",
-      "url": "https://www.fadingmaize.com",
-      "og_image": "https://www.fadingmaize.com/images/fading-maize-og.jpg",
-      "groq_label": "The band used AI to process their original 2001 recordings by feeding them into ChatGPT or similar, likely adjusting settings to optimize sound and possibly adding instruments or layers to the original tracks.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project, Reviving my 2001 college band with AI, aims to revive a musical project by applying AI technologies. \nThe Hacker News discussion was generally mixed, with many commenters appreciating the idea and the nostalgia-inducing video from 2004. Some commenters, like one who shared a similar experience with using AI in their own music, found the approach interesting and comparable to traditional tools like arranger keyboards or Band-in-a-Box. Others, however, expressed a more negative sentiment, describing it as \"sad.\" Additionally, suggestions for improving the project included processing the original recordings using AI to create a more convincing revival. Overall, the discussion suggests that the community sees both potential and limitations in the project's approach.",
       "groq_explain": null
     }
   ]
