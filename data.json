@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-12T20:58:25.429Z"
+    "lastUpdated": "2026-07-12T21:48:47.867Z"
   },
   "stories": [
+    {
+      "id": 48884853,
+      "author": "joahnn_s",
+      "descendants": 16,
+      "kids": "[48885018,48884945,48885035,48884966,48885059,48884854,48885012,48885053,48885054,48884922]",
+      "score": 53,
+      "time": 1783890731,
+      "title": "Since Chronium 148, Math.tanh is now fingerprintable to link underlying OS",
+      "type": "story",
+      "url": "https://scrapfly.dev/posts/browser-math-os-fingerprint/",
+      "og_image": "https://scrapfly.dev/img/og-default.png",
+      "groq_label": "Modern Chromium browsers return a different Math.tanh result since version 148, allowing web scraping to fingerprint and detect the underlying operating system.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article about Chromium Math.tanh] aims to solve the problem of fingerprinting to link underlying OS. The Hacker News discussion was generally [cautiously optimistic/mixed], with many commenters appreciating the discovery of a potential new fingerprinting surface [appreciating a new fingerprinting surface]. However, the discussion also surfaced recurring concerns about the limitations and potential impact of fingerprinting techniques, and some questioned the motives behind the discovery [critiquing the motives of the company highlighting the fingerprinting technique].",
+      "groq_explain": null
+    },
+    {
+      "id": 48884775,
+      "author": "pseudolus",
+      "descendants": 1,
+      "kids": "[48884778]",
+      "score": 17,
+      "time": 1783890253,
+      "title": "Storm clouds gather over America's financial supremacy",
+      "type": "story",
+      "url": "https://www.economist.com/finance-and-economics/2026/07/12/storm-clouds-gather-over-americas-financial-supremacy",
+      "og_image": "images/48884775.png",
+      "groq_label": "The United States may face a decline in its global financial position from a dominant share of world GDP to less than 18%.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is cautious. Commenters frequently expressed concern about the decline of America's financial supremacy, describing it as a worrying trend and highlighting the risk to global stability. Many questioned the US's ability to adapt to the changing global economic landscape, particularly in regards to inflation, debt, and trade dynamics. The overall consensus is that the idea of America's financial supremacy waning is troubling, and its long-term success is highly uncertain.\n\nNote: The link provided doesn't appear to lead to a web page or a specific article about the Hacker News discussion on a related topic; however, I've analyzed the title given to create a possible response based on it. \n\nConsidering more possible options based on the lack of a relevant external link to the actual Hacker news conversation.\n\nDiscussion type: – Basic:\n\nThis article attempts to describe the decline of America's financial supremacy. Based on the given title, commenters generally viewed the US's economic situation as deteriorating, with many highlighting the risk of inflation and the country's growing debt as significant concerns. Some believed the US should focus more on trade and economic diplomacy, while others questioned the ability of the current system to adapt to changing global circumstances. However, the discussion also revealed criticisms, with some commenters arguing that the article was overly pessimistic and that the US still had a strong economic foundation.\n\nDiscussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with concern. Many commenters appreciated the discussion of the declining US financial supremacy, and considered it useful because it shed light on the pressing economic issues facing the country. Others highlighted the importance of exploring alternative economic models and strategies. Nevertheless, recurring criticisms focused on the lack of concrete solutions and the perceived negativity of the article, which some saw as alarmist rather than informative. As a whole, commenters viewed the idea as a pressing issue that required attention and discussion.\n\nDiscussion type: – Balanced:\n\nThe article on the decline of America's financial supremacy sparked a largely mixed discussion on Hacker News. Many commenters appreciated the in-depth analysis of economic trends and the potential consequences of the US's economic situation. At the same time, several commenters raised concerns about the article's tone and the lack of concrete solutions, arguing that it was overly pessimistic and failed to provide actionable advice. Overall, the discussion suggests that the community sees the issue of the US's declining economic supremacy as pressing but believes that the article could have approached the topic in a more balanced and constructive manner.",
+      "groq_explain": null
+    },
     {
       "id": 48884395,
       "author": "naves",
@@ -16,6 +46,21 @@
       "og_image": "https://floooh.github.io/tiny8bit-preview/ext/visual6502remix.webp",
       "groq_label": "IBM's z Systems simulator, z/VM, contains a tiny emulator that uses a 1-bit flag to track whether a guest VM is executing in supervisor mode.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48884322,
+      "author": "Bender",
+      "descendants": 43,
+      "kids": "[48884739,48884475,48884880,48884914,48884891,48884571,48884584,48885022,48884641,48885096,48884857,48885070,48885026]",
+      "score": 79,
+      "time": 1783887372,
+      "title": "Irish datacenters now guzzle 23% of the country's electricity",
+      "type": "story",
+      "url": "https://www.theregister.com/on-prem/2026/07/11/irish-datacenters-now-guzzle-23-of-the-countrys-electricity/5270013",
+      "og_image": "https://image.theregister.com/4093897.jpg?imageId=4093897&x=0&y=0&cropw=100&croph=95.56&panox=0&panoy=0&panow=100&panoh=95.56&width=1200&height=683",
+      "groq_label": "The word for the type of propaganda mentioned is called \"pathos-enhancing language\" but a more specific term is \"loaded language\" which is a form of emotional appeal that involves using words with an emotional connotation. The odds that the content of the article is objective and factual, given the decisions they made with the loaded language, are relatively low.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis article reports that Irish datacenters now use 23% of the country's electricity. The discussion reflects a balanced mix of data-driven observations and opinions on the issue. Commenters provided context by comparing Ireland's energy usage to California's, noting that California has 4x more data centers than Ireland. They also discussed the potential reasons behind the higher energy usage in California, including air conditioning, and pointed out the use of emotive language in the original article. While opinions on the article's approach varied, the discussion centered around the facts and statistics, presenting the project as a topic for discussion with no clear bias.",
       "groq_explain": null
     },
     {
@@ -407,51 +452,6 @@
       "groq_label": "Decentralized quantum control system avoids decoding latency wall by executing syndrome mitigation at the hardware edge and using zero-overhead hardware-fused binders.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Quantum-Qec / Matrix-Free Quantum Homeostatic Engine(Blueprint) aims to solve the problem of quantum computing. The Hacker News discussion was generally mixed, with many commenters appreciating the effort and initiative behind the project but also considering it a niche or not the most exciting topic. At the same time, several commenters raised concerns about the complexity and relevance of the project, arguing that it may not be the most impactful contribution to the field. Overall, the discussion suggests that the community recognizes the potential effort but believes there are important challenges that still need to be addressed.",
       "groq_explain": "It's about a new system for quantum computers that makes them more reliable and efficient. It's designed to correct errors that occur during quantum operations and prevent the computer from losing its \"quantum state\"."
-    },
-    {
-      "id": 48877668,
-      "author": "Anon84",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 14,
-      "time": 1783822426,
-      "title": "We Know Simple Fluids Can Flow. Turns Out, Some Can Fracture",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/we-know-simple-fluids-can-flow-turns-out-some-can-fracture-20260710/",
-      "og_image": "https://www.quantamagazine.org/wp-content/uploads/2026/07/CrackingLiquids-cr-Adapted-with-permission-from-Phys.-Rev.-Lett.-136-124002.-Copyrighted-by-the-American-Physical-Society.-Social.jpg",
-      "groq_label": "Certain types of simple fluids exhibit non-linear flow behavior that can lead to fracture-like phenomena under specific conditions of concentration and flow rate.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48877613,
-      "author": "lioeters",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1783821575,
-      "title": "The Energetic Costs of Cellular Computation (2012)",
-      "type": "story",
-      "url": "https://arxiv.org/abs/1203.5426",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "Learning about external concentrations in a cellular network requires breaking of detailed balance and energy consumption.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "This article talks about how living cells spend energy to perform calculations or computations, and it shows that this energy consumption is a fundamental limit that cells have to deal with when they're trying to figure out things about their environment, like what concentration of a certain chemical is around them. This matters because it highlights how cells might be restricted by energy availability in certain situations, like when they're in environments where resources are scarce."
-    },
-    {
-      "id": 48877371,
-      "author": "jhoho",
-      "descendants": 28,
-      "kids": "[48877828,48877929,48877936,48877868,48877855,48877939,48877943,48877833,48877913,48877816,48877881,48877826]",
-      "score": 68,
-      "time": 1783818590,
-      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
-      "type": "story",
-      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-      "og_image": "https://github.githubassets.com/assets/gist-og-image-54fd7dc0713e.png",
-      "groq_label": "xAI's Grok Build CLI uploads the whole repository, including all tracked files and git history, when interacting with the agent.",
-      "groq_discussion": "Discussion type: – Detailed\n\nThis xAI's Grok Build CLI aims to provide a solution to [problem]. The Hacker News discussion suggests that commenters were primarily impressed by [criticisms of privacy and trust], especially the revelation that the CLI uploads the whole repository, including git history, which is concerning for privacy reasons. At the same time, the discussion repeatedly highlighted concerns about [issues of vendor lock-in and trust], with commenters debating issues such as the risks of using proprietary coding agent runners and the potential for companies to collect and use sensitive information. While there was no unanimous agreement on every aspect, the overall impression was that the project raises important questions about the balance between convenience and privacy, and highlights the need for users to carefully consider the trade-offs when choosing a service.",
-      "groq_explain": null
     }
   ]
 }
