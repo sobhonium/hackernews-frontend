@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-12T03:18:58.070Z"
+    "lastUpdated": "2026-07-12T06:38:22.586Z"
   },
   "stories": [
+    {
+      "id": 48878195,
+      "author": "zdw",
+      "descendants": 9,
+      "kids": "[48878320,48878838,48878884,48878662,48878823,48878604,48878572,48878284]",
+      "score": 27,
+      "time": 1783829727,
+      "title": "Why Write Code in 2026",
+      "type": "story",
+      "url": "https://softwaredoug.com/blog/2026/07/09/write-code.html",
+      "og_image": "https://softwaredoug.com/assets/media/2026/write-code/image1.png",
+      "groq_label": "Even with AI-generated code, humans get value from writing code because it lets them think directly in the execution environment, think with calibrated precision, and understand the fragility and details of their system.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article \"Why Write Code in 2026\" aims to solve the problem of whether human coders are still necessary in an AI-driven world. Based on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as the idea that AI output quality improves with more detailed prompts, and the need for human coders to be actively involved in high-judgment tasks. Many appreciated the nuanced approach to AI-generated code, noting that it can produce high-quality output with proper prompt. Others believed it could be particularly useful for core abstractions and tricky steps, where human judgment is essential. However, the discussion also revealed several criticisms. Commenters expressed concerns about relying too heavily on AI-generated code, noting that it may lack fundamental understanding and be plagued by mass and boilerplate code. Overall, the Hacker News community considered the article balanced, recognizing both the limitations of AI-generated code and its potential benefits.",
+      "groq_explain": "The idea here is about why software engineers should still write code even with AI-powered tools that can generate code, because writing code helps them think, pay attention to details, and develop a deeper understanding of the system's architecture and fragility."
+    },
+    {
+      "id": 48878126,
+      "author": "nradov",
+      "descendants": 59,
+      "kids": "[48878593,48878864,48878341,48878874,48878563,48878573,48878426,48878797,48878359,48878542,48878475,48878172,48878327,48878459,48878261,48878413,48878239]",
+      "score": 44,
+      "time": 1783828814,
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+      "type": "story",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "og_image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x1688+0+156/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F75%2Fd0%2F4375e0354399a8ee6a3268dc8cf6%2Ftanand-npr-collegeearnings-final.jpg",
+      "groq_label": "Federal financial aid for college programs is now tied to whether a graduate earns more than they would have if they didn't attend.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis federal rule, aimed at ensuring colleges leave graduates better off financially, is being met with mixed reactions. Supporters argue that it focuses on the practical benefits of higher education, making it a more economically sustainable option for students. They appreciate the proposal's emphasis on holding colleges accountable for providing return on investment for their students.\n\nHowever, critics contend that this rule has the potential to negatively impact students who prioritize education for personal development and social reasons, rather than purely economic gains. They point out that the rule could lead to a decrease in higher education enrollment, thereby reducing the country's overall level of education.\n\nSeveral commenters also raised concerns that the rule may unfairly penalize students who struggle academically by comparing them to better-performing students who might have skipped college altogether.\n\nThe discussion highlights the complexity of the issue, with both positive and negative implications. While the rule aims to increase economic efficiency in higher education, it also raises questions about the broader purpose of college and the value of education beyond financial returns.",
+      "groq_explain": null
+    },
     {
       "id": 48877672,
       "author": "PJHkorea",
@@ -421,36 +451,6 @@
       "groq_label": "The first commercial order for the Digital PDP-1 computer was made by ITT for its torn-tape messaging operation.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Networking and the Internet, from First Principles\" is generally positive. Commenters frequently praised the article for its pleasant animations, readable text, and clear content. Many appreciated the historical context of the telegraph and the thoughtful discussion about bandwidth vs. latency. However, the discussion also included recurring criticisms, such as the article being too long and poorly formatted, with too much repetitive AI-generated material, and overuse of the phrase \"from first principles.\"",
       "groq_explain": null
-    },
-    {
-      "id": 48871367,
-      "author": "reaperducer",
-      "descendants": 5,
-      "kids": "[48871782,48871596]",
-      "score": 12,
-      "time": 1783771954,
-      "title": "FCC Approves Test of Space Mirror to Light Night Sky Despite Outcry",
-      "type": "story",
-      "url": "https://www.nytimes.com/2026/07/10/climate/fcc-space-mirror.html",
-      "og_image": "images/48871367.png",
-      "groq_label": "The FCC approved a space-based optical system intended to illuminate the night sky as part of a communications and navigation test.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the FCC's approval of a space mirror to light the night sky is negative. Commenters frequently expressed criticism, describing the project as problematic and highlighting its potential impact on astronomy and space exploration. The discussion included recurring concerns about the environmental and practical challenges of such a project. The overall consensus is that the idea is misguided and its execution could be detrimental, although a few commenters questioned whether the project was actually being considered seriously or was just a publicity stunt.",
-      "groq_explain": null
-    },
-    {
-      "id": 48870799,
-      "author": "chrka",
-      "descendants": 4,
-      "kids": "[48871737,48871834,48871796]",
-      "score": 37,
-      "time": 1783767010,
-      "title": "Your code is fast – if you're lucky",
-      "type": "story",
-      "url": "https://tiki.li/blog/lucky_code.html",
-      "og_image": "images/48870799.png",
-      "groq_label": "Compilers like Clang can optimize loops into fast, branch-free instructions based on specific programming style, but this is inherently fragile and susceptible to variations in notation leading to performance differences.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/code optimization topic] aims to solve the problem of optimizing code performance. Based on the Hacker News discussion, commenters generally viewed the situation positively and highlighted the importance of deep understanding in low-level optimization as a unique skill. Many appreciated the nuance of the issue, noting that the difference in performance comes down to internal compiler patterns, and one commenter felt that it resembled innate talent. However, the discussion also revealed several criticisms. Commenters expressed concerns about the fragility of the optimization and questioned whether it could be a compiler bug. Overall, the Hacker News community considered the issue complex, recognizing the unique skill required for low-level optimization while emphasizing the need for further exploration and investigation.",
-      "groq_explain": "The core idea is that modern compilers can optimize code and make it faster, but only if the code is written in a specific way. This can lead to inconsistencies where the same code is fast for some people but slow for others, depending on their compiler."
     }
   ]
 }
