@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-13T03:22:00.126Z"
+    "lastUpdated": "2026-07-13T06:59:45.040Z"
   },
   "stories": [
+    {
+      "id": 48888193,
+      "author": "mariuz",
+      "descendants": 10,
+      "kids": "[48888840,48888528,48888496,48888342,48888706,48888431,48888825,48888826]",
+      "score": 39,
+      "time": 1783919714,
+      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
+      "type": "story",
+      "url": "https://github.com/schlae/BeavisUltrasound",
+      "og_image": "https://opengraph.githubassets.com/912b507c420913acdf12b36a54b40f7ca553da5c88524d63bb525eaf3806b69c/schlae/BeavisUltrasound",
+      "groq_label": "A replica of the original 1990s Gravis Ultrasound PnP ISA sound card is being recreated as a replica, requiring an out-of-production AMD InterWave chip, the AM78C201.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Beavis Ultrasound PnP ISA Sound Card Replica is mixed. Commenters frequently praised the original Gravis Ultrasound, citing its price to performance ratio, high-quality wavetable synthesis, and fun features like sample loading. However, concerns were raised about the replica's uncertain functionality, given that the manufacturer has not fabricated or tested the board. The overall consensus is that the idea of a replica is interesting, but its success depends on the manufacturer's ability to prove its functionality.",
+      "groq_explain": null
+    },
+    {
+      "id": 48887753,
+      "author": "mooreds",
+      "descendants": 52,
+      "kids": "[48888810,48887920,48887813,48888721,48888050,48888711,48887899,48888164,48888744,48888708,48887864,48887892,48887987,48887955,48888007]",
+      "score": 171,
+      "time": 1783915254,
+      "title": "Count Binface",
+      "type": "story",
+      "url": "https://countbinface.com",
+      "og_image": "http://static1.squarespace.com/static/5c0930130dbda38e1eebce71/t/60fae509f73890577c86c5f3/1627055369437/CountBinface_BLACK.png?format=1500w",
+      "groq_label": "Count Binface, a British comedy candidate, uses Latin conjugations to respond to serious media outlets, demonstrating a level of education and intellect beyond expected from novelty candidates.",
+      "groq_discussion": "Discussion type:  – Balanced:\n\nThis election campaign of Count Binface aims to solve the problem of the British politics system's dysfunction. The Hacker News discussion showed that many commenters appreciated Count Binface's humor and his ability to conjugate Latin. They also saw value in his challenge to the system, especially in comparison to the US political leadership. However, the discussion also highlighted concerns that despite Binface's charm, he lacks coherent policies and political experience. Some questioned the legitimacy of his candidacy and the possibility of his winning the election. Overall, the discussion suggests that the community sees Binface as a novelty candidate who might bring attention to the problems in the British politics system, but who still needs to present a serious policy platform to be taken seriously.",
+      "groq_explain": null
+    },
     {
       "id": 48886881,
       "author": "mooreds",
@@ -419,36 +449,6 @@
       "og_image": "https://odinbook.com/og_img_new.jpg",
       "groq_label": "Odin, designed with a focus on safety and performance, uses a concept called \"Ownership\" to manage memory, automatically freeing it when the variable is no longer in scope.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis understanding of the Odin programming language aims to solve the problem of clarifying the language's features and capabilities. \nBased on the Hacker News discussion, commenters generally viewed the content positively and highlighted strengths such as providing a clear overview of the language. However, the discussion also revealed the post being old, indicated by the \"[dead]\" comment. \n\nOverall, the Hacker News community considered the topic relatively outdated, recognizing its potential as an educational resource but emphasizing that it needed updating.\n\nAlternatively: I will not choose a discussion type as the discussion is too short and not informative.",
-      "groq_explain": null
-    },
-    {
-      "id": 48880406,
-      "author": "MrBruh",
-      "descendants": 17,
-      "kids": "[48881453,48881648,48881339,48881818]",
-      "score": 55,
-      "time": 1783857141,
-      "title": "Unauthenticated RCE in Motorola's MR2600 Router",
-      "type": "story",
-      "url": "https://mrbruh.com/motorola/",
-      "og_image": "https://mrbruh.com/motorola/motorola_advert.avif",
-      "groq_label": "Motorola's MR2600 Router has a serious vulnerability allowing remote code execution through an unauthenticated URL due to insecure HTTP usage.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis router's vulnerability aims to solve the problem of unauthenticated remote code execution. Based on the Hacker News discussion, commenters generally viewed the situation as concerning and criticized the vendor for not addressing the issue. Many appreciated the transparency of the vulnerability disclosure and noted that the use of the \"zoom.com\" domain, although potentially confusing, was not the main issue. However, the discussion also revealed several criticisms, with commenters expressing frustration that 42 hosts remain vulnerable due to inaction from the vendor or any subsequent owners of the router division. The community considered the situation worrying and the project a failure due to lack of responsibility taken by vendors.",
-      "groq_explain": null
-    },
-    {
-      "id": 48880384,
-      "author": "billyp-rva",
-      "descendants": 7,
-      "kids": "[48881032,48880975,48880931,48880802]",
-      "score": 43,
-      "time": 1783856978,
-      "title": "Yt-Dlp Sequence Diagrams",
-      "type": "story",
-      "url": "https://app.ilograph.com/demo.ilograph.yt-dlp/Download%2520a%2520YouTube%2520Video",
-      "og_image": "https://app.ilograph.com/img/diagram2.png",
-      "groq_label": "Aptly drawn sequence diagrams rely on descriptive notation for each involved actor and well-scoped communication flows.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to create sequence diagrams for YouTube-DLP. \nBased on the Hacker News discussion, commenters generally viewed the project negatively and highlighted criticisms such as the auto-generated sequence diagrams being almost useless, and the need for thicker arrows. Many appreciated the idea of describing architecture in a format that lends itself to visualization, noting that this could have benefits. However, others believed it was poorly executed. Overall, the Hacker News community considered the project unfavorably, recognizing its potential but criticizing its current form. \n\nNote: The criticism of the arrows being too thin was quickly dismissed as a \"nitpick\", which might suggest that the community was more focused on the substance of the issue rather than minor formatting details.",
       "groq_explain": null
     }
   ]
