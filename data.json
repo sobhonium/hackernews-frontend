@@ -1,8 +1,67 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-13T21:03:10.814Z"
+    "lastUpdated": "2026-07-13T22:05:29.802Z"
   },
   "stories": [
+    {
+      "id": 48898814,
+      "author": "maciejSz",
+      "kids": "[]",
+      "score": 1,
+      "time": 1783976460,
+      "title": "SalesPatriot (YC W25) Is Hiring Full Stack Engineers (SF)",
+      "type": "job",
+      "url": "https://jobs.ashbyhq.com/SalesPatriot/df223727-5781-433e-bc75-2aa5bf8dc8d7",
+      "og_image": "https://app.ashbyhq.com/api/images/org-theme-social/3942fb13-ca34-4efa-a774-063bbaf9fa6e/4d3808e3-f8b9-4d17-b149-7f59761e675e/8e245d4f-b623-4740-b12c-10c11a22aab7.png",
+      "groq_label": "SalesPatriot uses a sales intelligence platform integrating CRM data, LinkedIn data, and sales conversations.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48898154,
+      "author": "neogenix",
+      "descendants": 21,
+      "kids": "[48899432,48899463,48898329,48898355,48899207,48898988,48899244,48898301,48899507]",
+      "score": 30,
+      "time": 1783973594,
+      "title": "Show HN: YouTube Guitar Tab Parser",
+      "type": "story",
+      "url": "https://github.com/marcelpanse/youtube-guitar-tab-parser",
+      "og_image": "https://opengraph.githubassets.com/29c8de85652ac617c7fb86bfa12683282dbc99f12d0fb0791c26e0207f4f5542/marcelpanse/youtube-guitar-tab-parser",
+      "groq_label": "YouTube Guitar Tab Parser relies on AI for tab detection, which may have costs associated with its use.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis YouTube Guitar Tab Parser aims to solve the problem of automatically parsing guitar tabs from videos. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its potential benefits. However, several commenters raised concerns about the project's reliance on AI/Claude, which could be costly, and questioned the approach's feasibility for videos with moving tabs. Some also criticized the project for potentially stealing from working musicians by automatically transcribing tabs. On the other hand, users highlighted the project's potential usefulness and the lack of affordable alternatives for online transcription services. The overall discussion suggests that the community sees promise in the project but believes there are important challenges and ethical considerations that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48898134,
+      "author": "arto",
+      "descendants": 7,
+      "kids": "[48899427,48899515,48899455,48899280,48899371]",
+      "score": 34,
+      "time": 1783973489,
+      "title": "Linux 0.11 rewritten in idiomatic Rust, boots in QEMU",
+      "type": "story",
+      "url": "https://github.com/Poseidon-fan/linux-0.11-rs",
+      "og_image": "https://opengraph.githubassets.com/88fdc8d9dfa6ff1f9b04039cde4ada3abc5a6d7105894d6738aeee596a14810e/Poseidon-fan/linux-0.11-rs",
+      "groq_label": "The Rust implementation of the Linux 0.11 kernel achieves idiomatic abstractions, stronger types, and clearer module boundaries, resulting in a more complex and verbose implementation compared to the original C sources.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Linux 0.11 rewrite in idiomatic Rust aims to solve the problem of creating a modern, language-agnostic version of the classic Linux operating system.\nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the project's novelty and curiosity value. Many appreciated the idea of rewriting a classic system in a modern language, noting that it showcases Rust's capabilities, while others believed it could be particularly useful for educational purposes. However, the discussion also revealed several criticisms. Commenters expressed concerns about the significant increase in code complexity and volume, criticizing the Rust implementation for being \"slopware\" due to its verbosity, and questioned the necessity of the project. Overall, the Hacker News community considered the project a niche effort, recognizing its curiosity value while emphasizing that its usefulness and adoption depend on its practical applications.",
+      "groq_explain": "Someone has rewritten the original 1991 Linux kernel, version 0.11, in the modern programming language Rust. This version boots and runs on an emulated system, demonstrating a fully functional, albeit small, operating system. It matters because it showcases how a historical kernel can be reimagined using modern programming concepts and tools, highlighting the progress and advancements made in operating system design."
+    },
+    {
+      "id": 48897991,
+      "author": "bundie",
+      "descendants": 46,
+      "kids": "[48899044,48899137,48899086,48899380,48899201,48899000,48899363,48899017,48899184,48899067,48899099,48899210,48899127,48899037,48899441,48899068,48899014,48899425,48899406,48899351,48899257,48898985,48899046]",
+      "score": 162,
+      "time": 1783972903,
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "type": "story",
+      "url": "https://neow.in/cWsyMTV3",
+      "og_image": "https://cdn.neowin.com/news/images/uploaded/2026/07/1783952968_samsung-health_story.webp",
+      "groq_label": "Samsung forces users to either opt out of AI training with their personal data or risk having their sensitive health data deleted forever after they stop using their device.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe Samsung Health app's plan to delete user data if they opt out of AI training has sparked a mixed response. On one hand, many commenters have expressed frustration with Samsung's approach, which they see as an attempt to coerce users into participating in AI training. They criticize the app for requiring users to provide sensitive health data and threatening to delete it if they refuse. Some have also pointed out inconsistencies in the app's handling of user data and compared it unfavorably to Google's approach. On the other hand, a few commenters have argued that Samsung's approach is more transparent and honest about the use of user data, and that users who value their data may prefer this option.\n\nOverall, the discussion reflects a nuanced view of the issue, with no clear consensus either for or against Samsung's approach.",
+      "groq_explain": null
+    },
     {
       "id": 48897975,
       "author": "alxmrs",
@@ -165,6 +224,21 @@
       "og_image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=600&fit=crop&q=80",
       "groq_label": "Apple's new SpeechAnalyzer API may not hold the performance advantage it seems to due to its comparison only to outdated Whisper models, neglecting more recent and state-of-the-art models like Nemotron and Mistral's Voxtral.",
       "groq_discussion": "Discussion type: – Balanced:\n\nApple's new SpeechAnalyzer API aims to solve the problem of speech-to-text transcription. However, the Hacker News discussion highlights both positive reactions and criticisms. On the one hand, several commenters praised the API's performance, particularly its speed, and noted that it is usable for live transcription. Many also highlighted the potential benefits of a native GUI for macOS. On the other hand, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of openness and exclusivity of the API, as well as its limited comparison to other state-of-the-art models, such as Nemotron, Parakeet, and Voxtral. Some also questioned the relevance of benchmarking against older Whisper models, like Whisper Small, which are no longer state-of-the-art. Overall, the Hacker News community sees potential in the API but emphasizes the need for further comparison with other models and a more open approach.",
+      "groq_explain": null
+    },
+    {
+      "id": 48894630,
+      "author": "jbwinters",
+      "descendants": 5,
+      "kids": "[48899094,48899148,48899325,48894650,48896328]",
+      "score": 14,
+      "time": 1783958162,
+      "title": "Show HN: Jacquard, a programming language for AI-written, human-reviewed code",
+      "type": "story",
+      "url": "https://github.com/jbwinters/jacquard-lang",
+      "og_image": "https://opengraph.githubassets.com/3a4790191a1fb3bc727e4362574cb87b2485b8f6f82c627791898cb862615343/jbwinters/jacquard-lang",
+      "groq_label": "Jacquard relies on humans to review AI-written code, which may limit trust in its ability to create robust programming language for LLMs.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Jacquard is divided. Commenters frequently questioned the need for a language specifically designed for LLMs, suggesting that this could be more effectively addressed with operating system or library-level solutions rather than a language change. Several commenters also criticized the potential token/money burn on the project, considering it excessive. However, the concept of running AI-written code against different \"worlds\" in one place was seen as interesting. The overall consensus is that the idea is not convincing, and its long-term success depends on addressing these major concerns.",
       "groq_explain": null
     },
     {
@@ -375,80 +449,6 @@
       "og_image": "https://static.wixstatic.com/media/d3c6c2_85a4b62a65324ff587885b5dc4b8751d~mv2.jpg/v1/fill/w_1244,h_903,al_c/d3c6c2_85a4b62a65324ff587885b5dc4b8751d~mv2.jpg",
       "groq_label": "The graph shows a dramatic spike in global temperature deviations from the average, exceeding 3.5 standard deviations on multiple occasions in recent years.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is critical. Commenters frequently criticized the lack of explanation and clarity in the article, specifically regarding the interpretation of the graph and its meaning. Many felt that the article relied too heavily on visual aids without providing sufficient context or analysis. The discussion also highlighted concerns about the article's quality, such as potential plagiarism and the presence of \"AI tells.\" Despite a few mentions of notable points, including the potential implications of increased ocean temperatures, and some references to real-world examples, the overall consensus is that the article is lacking and fails to provide a clear, informative discussion on the topic.",
-      "groq_explain": null
-    },
-    {
-      "id": 48888193,
-      "author": "mariuz",
-      "descendants": 10,
-      "kids": "[48888840,48888528,48888496,48888342,48888706,48888431,48888825,48888826]",
-      "score": 39,
-      "time": 1783919714,
-      "title": "Beavis Ultrasound PnP ISA Sound Card Replica",
-      "type": "story",
-      "url": "https://github.com/schlae/BeavisUltrasound",
-      "og_image": "https://opengraph.githubassets.com/912b507c420913acdf12b36a54b40f7ca553da5c88524d63bb525eaf3806b69c/schlae/BeavisUltrasound",
-      "groq_label": "A replica of the original 1990s Gravis Ultrasound PnP ISA sound card is being recreated as a replica, requiring an out-of-production AMD InterWave chip, the AM78C201.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Beavis Ultrasound PnP ISA Sound Card Replica is mixed. Commenters frequently praised the original Gravis Ultrasound, citing its price to performance ratio, high-quality wavetable synthesis, and fun features like sample loading. However, concerns were raised about the replica's uncertain functionality, given that the manufacturer has not fabricated or tested the board. The overall consensus is that the idea of a replica is interesting, but its success depends on the manufacturer's ability to prove its functionality.",
-      "groq_explain": null
-    },
-    {
-      "id": 48887753,
-      "author": "mooreds",
-      "descendants": 52,
-      "kids": "[48888810,48887920,48887813,48888721,48888050,48888711,48887899,48888164,48888744,48888708,48887864,48887892,48887987,48887955,48888007]",
-      "score": 171,
-      "time": 1783915254,
-      "title": "Count Binface",
-      "type": "story",
-      "url": "https://countbinface.com",
-      "og_image": "http://static1.squarespace.com/static/5c0930130dbda38e1eebce71/t/60fae509f73890577c86c5f3/1627055369437/CountBinface_BLACK.png?format=1500w",
-      "groq_label": "Count Binface, a British comedy candidate, uses Latin conjugations to respond to serious media outlets, demonstrating a level of education and intellect beyond expected from novelty candidates.",
-      "groq_discussion": "Discussion type:  – Balanced:\n\nThis election campaign of Count Binface aims to solve the problem of the British politics system's dysfunction. The Hacker News discussion showed that many commenters appreciated Count Binface's humor and his ability to conjugate Latin. They also saw value in his challenge to the system, especially in comparison to the US political leadership. However, the discussion also highlighted concerns that despite Binface's charm, he lacks coherent policies and political experience. Some questioned the legitimacy of his candidacy and the possibility of his winning the election. Overall, the discussion suggests that the community sees Binface as a novelty candidate who might bring attention to the problems in the British politics system, but who still needs to present a serious policy platform to be taken seriously.",
-      "groq_explain": null
-    },
-    {
-      "id": 48886881,
-      "author": "mooreds",
-      "descendants": 7,
-      "kids": "[48887216,48887293]",
-      "score": 23,
-      "time": 1783907241,
-      "title": "Modernizing Property Tax Assessments in Allegheny County",
-      "type": "story",
-      "url": "https://www.prohousingpgh.org/blog/new-report-modernizing-property-tax-assessments-in-allegheny-county",
-      "og_image": "http://static1.squarespace.com/static/650f13d9346acc5fd50cea6c/650f2446212fbb6062df9e2e/6a4d32b169c4b737bc294a11/1783619115910/Screenshot+2026-07-07+at+3.02.08%E2%80%AFPM.png?format=1500w",
-      "groq_label": "Allegheny County considers modernizing its property tax assessment method to address potential growth issues and gentrification effects.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/research] aimed to modernize property tax assessments in Allegheny County. The Hacker News discussion was generally mixed, with many commenters recognizing the potential benefits of the proposal while also expressing concerns about its implementation. Some appreciated the idea of not raising taxes for long-term owners, seeing it as a way to promote growth and development, but others felt that the system was unfair and would stifle growth due to its regressive nature. A few commenters suggested an alternative, such as going back to a land value tax, which they believed would be more equitable and promote development. Overall, the discussion suggests that the community sees promise in the proposal but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48886741,
-      "author": "levkk",
-      "descendants": 92,
-      "kids": "[48887149,48886992,48886918,48887127,48887196,48886964,48887074,48887075,48887265,48886961,48886898,48887306,48886976,48887145,48887396,48886991,48887123,48887061,48887053,48887192,48886923,48886883,48886993,48887266,48887083]",
-      "score": 137,
-      "time": 1783905860,
-      "title": "Ask HN: Add flag for AI-generated articles",
-      "type": "story",
-      "og_image": "images/48886741.png",
-      "groq_label": "Users are divided on how to handle AI-generated articles on HN, with some thinking a flag for AI-generated content is necessary to maintain the community's preference for human-written articles.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of adding a flag for AI-generated articles is that the community is skeptical. Commenters frequently highlighted concerns about enforcing such a rule, with many questioning the practicality and effectiveness of distinguishing between AI-generated and human-written content. Some expressed concern that labeling content as AI-generated would stigmatize legitimate authors who use AI tools, while others pointed out the potential for false positives and the burden on the community to identify and label AI-generated content. The consensus is that while the issue is complex, community feedback suggests a strong preference for maintaining the status quo and focusing on other aspects of improving the site.",
-      "groq_explain": null
-    },
-    {
-      "id": 48885728,
-      "author": "tadasv",
-      "descendants": 12,
-      "kids": "[48886573,48886185,48887206,48887406,48886665,48886567]",
-      "score": 63,
-      "time": 1783897016,
-      "title": "Designing and assembling my first PCB",
-      "type": "story",
-      "url": "https://vilkeliskis.com/b/2026/0711.html",
-      "og_image": "https://vilkeliskis.com/b/2026/i/pcb_breadboard_components.jpg",
-      "groq_label": "Manufacturers like JLCPCB make high-quality, custom PCBs at relatively low costs and surprisingly quick turnaround times.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis DIY PCB guide aims to help individuals assemble their first PCB. The Hacker News discussion was generally positive, with many commenters appreciating the affordability of custom PCBs and the manufacturer options available, such as JLCPCB. However, the discussion also highlighted drawbacks, including the long shipping time, which can be problematic when prototyping. The community seems to have mixed opinions on the topic, praising the convenience of using a professional manufacturer while also acknowledging the limitations of relying on international shipping.",
       "groq_explain": null
     }
   ]
