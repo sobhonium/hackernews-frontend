@@ -1,8 +1,67 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-13T14:43:47.995Z"
+    "lastUpdated": "2026-07-13T18:00:49.414Z"
   },
   "stories": [
+    {
+      "id": 48895565,
+      "author": "levkk",
+      "kids": "[]",
+      "score": 1,
+      "time": 1783962054,
+      "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/118884b50bdcfe26eb7163da47a2a94178ea455e.png?1745006541",
+      "groq_label": "PostgreSQL and SQL Server databases are often combined in a single query execution plan.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48894752,
+      "author": "get-inscribe",
+      "descendants": 73,
+      "kids": "[48895462,48895233,48895224,48895468,48894918,48895596,48894941,48895735,48895619,48895659,48896027,48895326,48895143,48895679,48895590,48895114,48894754,48895045]",
+      "score": 145,
+      "time": 1783958768,
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "type": "story",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "og_image": "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=1200&h=600&fit=crop&q=80",
+      "groq_label": "Apple's new SpeechAnalyzer API may not hold the performance advantage it seems to due to its comparison only to outdated Whisper models, neglecting more recent and state-of-the-art models like Nemotron and Mistral's Voxtral.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nApple's new SpeechAnalyzer API aims to solve the problem of speech-to-text transcription. However, the Hacker News discussion highlights both positive reactions and criticisms. On the one hand, several commenters praised the API's performance, particularly its speed, and noted that it is usable for live transcription. Many also highlighted the potential benefits of a native GUI for macOS. On the other hand, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of openness and exclusivity of the API, as well as its limited comparison to other state-of-the-art models, such as Nemotron, Parakeet, and Voxtral. Some also questioned the relevance of benchmarking against older Whisper models, like Whisper Small, which are no longer state-of-the-art. Overall, the Hacker News community sees potential in the API but emphasizes the need for further comparison with other models and a more open approach.",
+      "groq_explain": null
+    },
+    {
+      "id": 48893947,
+      "author": "forks",
+      "descendants": 121,
+      "kids": "[48896023,48895880,48894564,48893952,48895813,48896074,48894370,48895431,48895974,48895953]",
+      "score": 200,
+      "time": 1783955510,
+      "title": "LAPD lets contract with surveillance giant Flock expire",
+      "type": "story",
+      "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
+      "og_image": "https://techcrunch.com/wp-content/uploads/2026/07/flock-camera-2259453709.jpg?resize=1200,800",
+      "groq_label": "Flock's surveillance contract with LAPD expires, but ownership and data collection continue despite the loss of official agreement, mirroring a reported pattern where removed cameras remain operational after contract terminations.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of police department surveillance transparency. The Hacker News discussion was generally mixed, with some commenters appreciating the LAPD's decision to let the contract with Flock expire, believing it to be a step forward in reducing surveillance. However, others raised concerns that Flock still owns the cameras and can continue to collect data, potentially selling it to other law enforcement agencies. At the same time, some commenters praised the idea of using surveillance cameras for law enforcement purposes, citing the potential to hold evildoers accountable. Overall, the discussion suggests that the community sees promise in both the idea of reducing surveillance and the potential benefits of using cameras for law enforcement, but believes that there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48893639,
+      "author": "ibobev",
+      "descendants": 20,
+      "kids": "[48894143,48896097,48894181,48895597,48894113,48894475,48895144,48894094]",
+      "score": 129,
+      "time": 1783954353,
+      "title": "The art and engineering of Sega CD Silpheed",
+      "type": "story",
+      "url": "https://fabiensanglard.net/silpheed/index.html",
+      "og_image": "https://fabiensanglard.net/silpheed/f384_cropped.png",
+      "groq_label": "Silpheed's video format is efficient due to the Sega CD's use of the ASIC for bitmap rotation and font rendering in an almost MPEG-like fashion, achieving near-fullscreen cutscenes with 12.5MHz m68k CPU, 16 colors, and 150 KiB/s bandwidth despite the console's slow CD-ROM access time.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article about the art and engineering of Sega CD Silpheed is largely positive. Commenters frequently praised the game's innovative approach, particularly its use of the ASIC to create a cinematic experience and its attempt to disguise itself as a polygon-based game despite the lack of 3D capabilities on the Sega CD. Many appreciated the article's insights into the game's development and the technical achievements behind it. However, the discussion also included a few dissenting voices, including a comment that the game is \"genuinely awful,\" but this was not a recurring criticism. The overall consensus is that the article and the game's innovative approach are fascinating, although some people may not enjoy the game itself.",
+      "groq_explain": "This article is about the Sega CD game Silpheed and how it managed to efficiently use the limited resources of the Sega CD hardware to create impressive full-motion video and animation. The game is notable for its use of 3D graphics and video cutscenes on a console that had limited processing power and storage capacity."
+    },
     {
       "id": 48892859,
       "author": "celrenheit",
@@ -16,6 +75,21 @@
       "og_image": "https://opengraph.githubassets.com/3de4ddc2028d13acd556031fd022ba7b6df74270bdcc02a0e441c275dfd29c86/clawkwork/clawk",
       "groq_label": "It appears that Clawk is implemented using a combination of systemd-nspawn or a similar low-level virtualization technology like Linux kernel namespaces, allowing it to create a new Linux environment without requiring root privileges. The firewall is likely implemented using tools like nftables, which can be managed without root access. The specific implementation details are not provided, but it suggests that Clawk might be using a custom setup or configuration to achieve this functionality.",
       "groq_discussion": "Discussion type: – Short:\n\nThis Clawk project aims to give coding agents a disposable Linux VM, rather than using the user's laptop. Hacker News commenters generally appreciated the idea and believed it was well-implemented, with several commenters using similar projects such as virtdev and mkosi to create virtual machines without requiring root access. However, one commenter questioned the security of using a disposable Linux VM for coding agents. Overall, the discussion was generally positive, with commenters recognizing the potential of the project and its usability in coding agent setup.",
+      "groq_explain": null
+    },
+    {
+      "id": 48892638,
+      "author": "eso_logic",
+      "descendants": 11,
+      "kids": "[48895936,48894876,48895194]",
+      "score": 47,
+      "time": 1783950522,
+      "title": "Benchmarking 15 \"E-Waste\" GPUs with Modern Workloads",
+      "type": "story",
+      "url": "https://esologic.com/benchmarking-tesla-gpus/",
+      "og_image": "images/48892638.png",
+      "groq_label": "Researchers benchmarked 15 discarded GPUs with modern AI workloads to assess their viability in the age of newer hardware.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis benchmarking project aims to solve the problem of effectively utilizing obsolete GPUs as a valuable resource, mitigating electronic waste. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the detailed comparison of various GPUs on modern workloads. Many appreciated the analysis and data provided, noting that it helps assess each GPU's performance and feasibility for various use cases, while others believed it could be particularly useful for the inference industry. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of certain GPU models, such as the bc-250, which they believe could have been valuable additions, and others questioned the choice of not using more advanced models like qwen3.6. Overall, the Hacker News community considered the project positive, recognizing its potential to help reduce electronic waste and promote the use of underutilized GPUs.",
       "groq_explain": null
     },
     {
@@ -374,81 +448,6 @@
       "og_image": "https://neocities.org/img/neocities-front-screenshot.jpg",
       "groq_label": "Neocities supports adding software for download through ZIP or tarball archives, and users can upload custom HTML to include the <blink> tag.",
       "groq_discussion": "Discussion type: Balanced\n\nThis free website hosting platform called Neocities aims to solve the problem of easy online presence for individuals. The Hacker News discussion is generally mixed, with many commenters appreciating its approach to creating a free website. They highlighted the platform's nostalgia for the early days of the internet as a positive aspect, particularly how it evokes a sense of optimism and community. However, several commenters raised concerns about potential limitations, such as the inability to add software for users to download and the need for users to register to access files (which some perceive as a \"dark pattern\"). Overall, the discussion suggests that the community sees promise in the platform but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48883415,
-      "author": "jxmorris12",
-      "descendants": 3,
-      "kids": "[48884042,48884181,48884231,48884171]",
-      "score": 21,
-      "time": 1783881675,
-      "title": "The One-Step Trap (In AI Research)",
-      "type": "story",
-      "url": "http://incompleteideas.net/IncIdeas/OneStepTrap.html",
-      "og_image": "images/48883415.png",
-      "groq_label": "Rolling out one-step predictions in time leads to poor results due to compounding and accumulating errors, making it infeasible to compute long-term predictions.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to solve the problem of the limitations in AI research, specifically the \"One-Step Trap\". The Hacker News discussion was generally [positive/mixed/critical], with several commenters appreciating the work of Sutton and Yann Lecun, and the insights they bring to the problem. At the same time, several commenters raised concerns about the specific solution proposed, such as the use of multi-step world models and diffusion models. The discussion also touched on the issue of test-time scaling in LLMs and the power of self-correction. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "Researchers often mistakenly think that AI can make accurate predictions by breaking them down into small, simple steps, but this approach doesn't work in reality, especially when the future is uncertain or the predictions need to be made far ahead. This mistake, called the \"one-step trap,\" can lead to big errors in AI predictions and is a common problem in AI research."
-    },
-    {
-      "id": 48883343,
-      "author": "therepanic",
-      "descendants": 90,
-      "kids": "[48884473,48883823,48883835,48884091,48884288,48884217,48883962,48883731,48883897,48883743,48884410,48884353,48884378,48883774,48884183,48883782,48883936,48884036,48884239,48883833,48884261,48884368,48884072,48883779,48883813]",
-      "score": 178,
-      "time": 1783881116,
-      "title": "I love LLMs, I hate hype",
-      "type": "story",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
-      "og_image": "images/48883343.png",
-      "groq_label": "LLMs are being widely used in private, home labs, but significant productivity improvements implied by advances in AI haven't yet led to widespread release of corresponding, publicly available, software tools.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis essay about LLMs (Large Language Models) aims to solve the problem of overhyping and unrealistic expectations surrounding AI's potential. Based on the Hacker News discussion, commenters generally viewed the essay positively and highlighted strengths such as its thought-provoking arguments and insightful analysis. Many appreciated the author's critique of the AI industry's marketing and the emphasis on the practical benefits of LLMs, noting that it provides a refreshing perspective on the field. Commenters also appreciated the author's discussion about the risks of over-reliance on centralized AI services and the importance of open-sourcing AI models. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential for AI to become overly commercialized and the challenges of making LLMs accessible to all, with some questioning the assumption that open-sourcing AI models is the solution to these problems. Overall, the Hacker News community considered the essay a valuable contribution to the AI discussion, recognizing its potential while emphasizing the need for a balanced approach to AI development and its deployment.",
-      "groq_explain": null
-    },
-    {
-      "id": 48883275,
-      "author": "systima",
-      "descendants": 133,
-      "kids": "[48883796,48883663,48883533,48883969,48883768,48883534,48883571,48884620,48884612,48883545,48884459,48883549,48883991,48883730,48883737,48884057,48883721,48884179,48883684,48883634,48884148,48883815,48883996,48883986,48884334,48883894,48883538,48883528,48883529,48883702,48884562,48883973,48883650,48883520]",
-      "score": 256,
-      "time": 1783880751,
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "type": "story",
-      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "og_image": "https://systima.ai/images/claude-code-vs-opencode-banner.png",
-      "groq_label": "Claude Code's system prompts send 33k tokens for context before the user's input is processed, while OpenCode's prompts send around 7k tokens.",
-      "groq_discussion": "Discussion type: Balanced:\n\nThis discussion regarding Claude Code and OpenCode centers around their token usage and system prompts. The Hacker News discussion was generally mixed, with many commenters appreciating the openness and transparency of OpenCode, which seems more efficient and cost-effective. At the same time, several commenters raised concerns about Claude Code's excessive token usage, with some even questioning the intentions behind the company's pricing strategy. Overall, the discussion suggests that the community sees potential problems with Claude Code's pricing but acknowledges the complexity of the issue and the need for further investigation.",
-      "groq_explain": null
-    },
-    {
-      "id": 48883238,
-      "author": "georgex7",
-      "descendants": 4,
-      "kids": "[48884640,48884615,48884421,48884445]",
-      "score": 34,
-      "time": 1783880535,
-      "title": "I Learned to Read Again",
-      "type": "story",
-      "url": "https://substack.magazinenongrata.com/p/how-i-learned-to-read-again",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!3AdV!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23985988-01ea-4d7b-a4f5-446c2a4f0a0b_1600x900.jpeg",
-      "groq_label": "Reading books and thinking well are deeply interconnected skills.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis blog post or social media update aims to solve the problem of declining reading habits and its impact on critical thinking. Based on the Hacker News discussion, commenters generally viewed it positively and highlighted strengths such as emphasizing the importance of reading in maintaining cognitive abilities and the connection between reading, writing, and thinking. Many also believed that reading book can be a good way to recondition one's brain after addiction to screens, and that it's essential for breaking free from excessive screen time. However, the discussion also revealed several criticisms. Commenters shared their personal struggles with screen addiction, feeling helpless in managing it, and expressing a desire for strategies to overcome this issue. Overall, the Hacker News community considered the post encouraging and thought-provoking, recognizing its potential to inspire change while acknowledging the challenges associated with breaking free from screen addiction.",
-      "groq_explain": null
-    },
-    {
-      "id": 48882956,
-      "author": "supo",
-      "descendants": 11,
-      "kids": "[48884510,48884469,48883384,48883366,48883773,48883283,48884643]",
-      "score": 52,
-      "time": 1783878427,
-      "title": "Against Usefulness",
-      "type": "story",
-      "url": "https://www.motivenotes.ai/p/against-usefulness",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!PChk!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F568f9825-5d39-466d-919c-45f7811bf475_1536x2048.jpeg",
-      "groq_label": "Some people think making computers understand user intent through digitized stylus input could revolutionize the way we interact with technology and break free from traditional keyboards and touchscreens.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article/project/blog post/research/product, which appears to be focused on a stylus and digitized drawing, aims to address the problem of improving interaction with computers. The Hacker News discussion was generally  mixed, with many commenters appreciating the idea of a more intuitive, stylus-based interface and the potential for new forms of interaction, such as integrating digital elements with physical space. At the same time, several commenters raised concerns about the practicality and feasibility of such an idea, questioning how a stylus would work on a computer and doubting the potential market for such a product. The discussion suggests that the community sees some promise in the idea but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
