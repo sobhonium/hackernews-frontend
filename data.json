@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-14T17:22:05.743Z"
+    "lastUpdated": "2026-07-14T21:05:36.396Z"
   },
   "stories": [
+    {
+      "id": 48910676,
+      "author": "Synthetic7346",
+      "descendants": 22,
+      "kids": "[48912770,48912231,48912540,48912166,48912225,48912838,48912777,48912207,48911922,48912080]",
+      "score": 86,
+      "time": 1784051915,
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "type": "story",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "og_image": "https://cdn.prod.website-files.com/673f0725df990f6c96bf18ea/6a562c4ba76323b509a1de8d_cursor-zero-hero.webp",
+      "groq_label": "The vulnerability in Cursor allows arbitrary executables to be run without prompting, which can be prevented by having a properly configured Access Control List, but only after a malicious payload is already present on the system.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis report, \"Cursor 0day: When Full Disclosure Becomes the Only Protection Left,\" aims to solve the problem of a vulnerability in Cursor that allows arbitrary executable files to run without prompting. The Hacker News discussion was generally cautious and mixed, with many commenters appreciating the severity of the issue and the need for full disclosure but also expressing skepticism about the specific example used in the report and the implementation of this feature. At the same time, several commenters raised concerns about the ease with which an attacker could exploit this vulnerability, particularly if they already have a malicious payload on the system. Overall, the discussion suggests that the community sees the importance of addressing this issue but believes that there are important challenges that still need to be addressed, such as the need for better implementation and a clearer understanding of the decision tree behind this feature.",
+      "groq_explain": null
+    },
+    {
+      "id": 48910545,
+      "author": "xenova",
+      "descendants": 61,
+      "kids": "[48912750,48912607,48911893,48912599,48911308,48912860,48911989,48912600,48911698,48912690,48911003,48911110,48912824,48911906,48911511,48911739,48911678,48912474,48912687,48911395,48911520,48911288,48912083,48911250,48912520]",
+      "score": 203,
+      "time": 1784051448,
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "type": "story",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "og_image": "https://cdn.prod.website-files.com/699604cc2b9dd89bdbda0608/6a564448065275919f2414d0_id.webp",
+      "groq_label": "The Bonsai 27B model achieves high intelligence at around 4GB due to its heavy quantization method, reportedly rivaling the performance of slightly quantized models.",
+      "groq_discussion": "Discussion type: – Basic:\n\nBonsai 27B: A 27B-Class model that runs on a phone aims to solve the problem of providing efficient and powerful AI models for devices with limited resources. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its ability to run on a phone, impressive intelligence for its size, and frugal memory usage. Many appreciated the comparison with other models and quantization techniques, \nnoting that they can retain most of the intelligence while reducing the size. While others believed it could be particularly useful in multi-agent coding workflows. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the comparison with slightly quantized MoE models and the feeling that certain techniques, like quantization, might be overhyped. Overall, the Hacker News community considered the \nproject promising, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 48909820,
       "author": "jecastillof",
@@ -121,6 +151,21 @@
       "groq_label": "A tensor typically includes both values and their geometric structure, not just a multidimensional array.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post/research/product] aims to define what a tensor represents. Based on the Hacker News discussion, commenters generally viewed the statement that a tensor is just a \"flat array of numbers, plus some metadata\" as incorrect and simplified. Many disagreed with this definition, suggesting instead that a tensor is a multidimensional array, with some arguing that the addition of metadata is an unnecessary complication. While some appreciated the attempt to explain and interpret tensors, others believed the definition was misleading and would be confusing for readers who understand tensors intuitively as multidimensional arrays. However, the discussion also highlighted the importance of clear and concise communication in introducing complex concepts like tensors. Overall, the Hacker News community considered the initial definition overly simplistic and not entirely accurate, emphasizing that tensors are fundamentally just multidimensional arrays.",
       "groq_explain": null
+    },
+    {
+      "id": 48906041,
+      "author": "andsoitis",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 18,
+      "time": 1784033429,
+      "title": "Guardian Angels: LLM Personalization for Productivity and Security",
+      "type": "story",
+      "url": "https://gwern.net/guardian-angel",
+      "og_image": "https://gwern.net/doc/ai/nn/transformer/gpt/dall-e/4o/2026-06-13-gwern-gpt55pro-claude48opus-chatgptimages20-gaplusquill-guardianangellogo.jpg",
+      "groq_label": "Creating a personalized digital twin LLM can help unify the principal and agent, solving the weak form of the principal-agent problem.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "There's a proposal to create a personalized type of artificial intelligence assistant that acts like a \"digital twin\" - one that learns and emulates the user's values, preferences, and personality. This AI assistant, called a \"Guardian Angel\", would help with productivity and security, and be a trusted ally that aligns with the user's goals. It's like having a personal assistant that knows what you want and acts accordingly."
     },
     {
       "id": 48905919,
@@ -405,51 +450,6 @@
       "og_image": "https://satellitemap.space/og-preview-v2.jpg",
       "groq_label": "Several satellites and their orbits may not be accounted for due to incomplete data, possibly leading to inaccuracies in tracking and visualisation.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Satellite Tracker aims to provide a live map of Starlink and 30,000 satellites. Based on the Hacker News discussion, commenters generally viewed \nthe project positively. Many appreciated the ability to zoom in, see the satellites move, and access their tracks. The visualization of random orbits and the option to click on satellites for more information were notable strengths. Commenters also highlighted the potential for using the site to check the accuracy of satellite trajectories. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of included satellites, the demarcations towards the poles, and the legal implications of satellite deployment. Overall, the Hacker News community considered the project interesting and useful, recognizing its potential while emphasizing that addressing these concerns would improve its usability and accuracy.",
-      "groq_explain": null
-    },
-    {
-      "id": 48901275,
-      "author": "tie-in",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 8,
-      "time": 1783993309,
-      "title": "Building Food Metadata with LLM Juries",
-      "type": "story",
-      "url": "https://careersatdoordash.com/blog/building-food-metadata-with-llm-juries-context-optimization-multimodal-ai/",
-      "og_image": "images/48901275.png",
-      "groq_label": "Meta's LLaMA is used in LLM juries to generate and match text descriptions for food items.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48901235,
-      "author": "mfiguiere",
-      "descendants": 6,
-      "kids": "[48902752,48902690,48902391,48902276]",
-      "score": 48,
-      "time": 1783992973,
-      "title": "Is x86 ready to ACE it?",
-      "type": "story",
-      "url": "https://chipsandcheese.com/p/is-x86-ready-to-ace-it",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!xAVD!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F003e8aa7-55c2-443c-81b1-555057c678a3_1330x920.png",
-      "groq_label": "The introduction of AI Compute Extensions, ACE, highlights x86's lack of competitiveness with ARM vendors' offerings, which could be worsened by Nvidia's entry into the field.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article discusses the potential of ACE (AI Compute Extensions) on x86 architecture. The Hacker News discussion was generally mixed, with some commenters appreciating the inclusion of ACE in x86 and seeing potential in the feature. However, several commenters raised concerns about the limited scope of the current feature, citing the small allocation of registers as an issue that might hinder its effectiveness. Others questioned the future prospects of x86 in terms of competing with ARM vendors, especially with the entry of Nvidia into the field. While the article is described as \"great,\" there is also curiosity about the process behind converting specs into a processor product, suggesting that the community remains skeptical about the feasibility and effectiveness of ACE on x86.",
-      "groq_explain": null
-    },
-    {
-      "id": 48901224,
-      "author": "apsec112",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1783992923,
-      "title": "The Economics of Recursive Self-Improvement [pdf]",
-      "type": "story",
-      "url": "https://elasticity.institute/rsi-paper.pdf",
-      "og_image": "images/48901224.png",
-      "groq_label": "Some algorithms use recursively applied optimization to achieve faster convergence, potentially resulting in exponential improvement with each iteration.",
-      "groq_discussion": "No comments.",
       "groq_explain": null
     }
   ]
