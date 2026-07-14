@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-14T06:16:18.226Z"
+    "lastUpdated": "2026-07-14T10:02:53.798Z"
   },
   "stories": [
+    {
+      "id": 48903715,
+      "author": "alok-g",
+      "descendants": 12,
+      "kids": "[48904271,48904268,48903785,48904130,48904215,48904225,48904370]",
+      "score": 35,
+      "time": 1784017489,
+      "title": "Alternative(s) to run CUDA on non-Nvidia hardware",
+      "type": "story",
+      "url": "https://www.hpcwire.com/2026/07/09/spectral-compute-aims-to-set-cuda-free-will-it-succeed/",
+      "og_image": "https://www.hpcwire.com/wp-content/uploads/2026/07/code_shutterstock_Banana-Images.jpg",
+      "groq_label": "Alternative projects trying to replicate CUDA functionality on non-Nvidia hardware include ROCm, MooreThread, Alibaba T-Head, and ZLUDA, although most lack long-term support.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis attempt to find alternative(s) to run CUDA on non-Nvidia hardware aims to solve the problem of hardware incompatibility. The Hacker News discussion was generally critical, with many commenters appreciating the importance of openness in the development of CUDA alternatives, but arguing that what's needed is not to reinvent the interface but to implement the existing open interfaces such as ROCm. Several commenters raised concerns about the feasibility of such alternatives, pointing out that they typically follow a predictable trajectory of initial excitement, followed by stagnation and a lack of updates. Others suggested using Vulkan for compute or SPIR-V as more viable options.",
+      "groq_explain": null
+    },
+    {
+      "id": 48903082,
+      "author": "BaudouinVH",
+      "descendants": 2,
+      "kids": "[48904132]",
+      "score": 42,
+      "time": 1784011408,
+      "title": "Indian scientists produce most detailed 3D atlas of the human brainstem",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/8230/live/dff3e310-79da-11f1-a400-b302bc872d47.jpg",
+      "groq_label": "The human brainstem is mapped with unprecedented detail by Indian scientists.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis research focuses on creating a detailed 3D atlas of the human brainstem. Hacker News commenters generally appreciated the project's goal of advancing neuroscience knowledge and its potential to aid in medical research. However, they also expressed concerns about the project's significance, with some questioning whether it represents a substantial breakthrough. Overall, the discussion was cautious, with commenters recognizing the project's potential value in the long run.",
+      "groq_explain": null
+    },
+    {
+      "id": 48902791,
+      "author": "brandon_bot",
+      "descendants": 2,
+      "kids": "[48904156,48904235]",
+      "score": 27,
+      "time": 1784008670,
+      "title": "Just Let Me Write Digits",
+      "type": "story",
+      "url": "https://gendx.dev/blog/2026/07/13/input-digits.html",
+      "og_image": "https://gendx.dev/blog/images/input-digits/screenshot-digits-fr.h6G-VpBKuN5N.webp",
+      "groq_label": "Some websites still implement custom digit input using JavaScript when native input fields support typing digits directly.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis article highlights the issues of software engineering and UI design by introducing a flawed input mechanism. The Hacker News discussion was generally critical, with many commenters expressing concerns about the unnecessary complexity of the solution, echoing the sentiment that they have seen similar mistakes in the past. At the same time, some commenters mentioned that the article might serve as a teaching example for the pitfalls of using JavaScript for UI tasks, and that it's not entirely clear-cut that this is a bad idea.",
+      "groq_explain": null
+    },
     {
       "id": 48902320,
       "author": "i2oc",
@@ -405,50 +450,6 @@
       "og_image": "https://scottwillsey.com/_astro/saw111.Cprn7ULf_ZB6aHy.webp",
       "groq_label": "LLMs like Claude Code can generate scripts to bypass Xcode by automating tasks such as archiving, signing, notarizing, and installing Mac and iOS apps directly from Linux or other platforms.",
       "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is generally positive. Commenters frequently praised the idea of building and shipping Mac and iOS apps without ever opening Xcode as a promising approach. However, the discussion also included recurring concerns about the limitations of this method, such as still needing to open Xcode to obtain certificates and accepting the Xcode EULA, and the complexity of using scripts to automate the process. The overall consensus is that the idea is compelling, particularly with the aid of AI and coding agents, and that tools like Axiom and Sweetpad CLI are helping to make this process more accessible and user-friendly.",
-      "groq_explain": null
-    },
-    {
-      "id": 48896600,
-      "author": "cakehonolulu",
-      "descendants": 4,
-      "kids": "[48896601,48897430]",
-      "score": 48,
-      "time": 1783966705,
-      "title": "Linux on the Sega 32X. Who needs hardware synchronization primitives anyway?",
-      "type": "story",
-      "url": "https://cakehonolulu.github.io/linux-on-32x/",
-      "og_image": "https://cakehonolulu.github.io/images/linux_32x/hackaday.png",
-      "groq_label": "Oracle uses file locking to test if a file is the same, but Cakehonolulu got SMP-ready Linux working on the Sega 32X without hardware synchronization primitives.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Linux on the Sega 32X is very positive. Commenters frequently praised the achievement of getting SMP-ready Linux without hardware synchronization primitives, describing it as exciting and impressive. They highlighted the potential of the project and the possibilities it opens up for the Sega 32X and other retro consoles. However, the discussion also included some questions and suggestions for further development, such as implementing I/O functionality and utilizing the serial port for terminal access or keyboard input. The overall consensus is that the idea is compelling and demonstrates the capabilities of Linux porting on retro hardware.",
-      "groq_explain": "A guy's sharing his passion for learning about the behind-the-scenes process of making outdated devices like old video game consoles and phones work with new operating systems like Linux. He's been doing this for years, and it's helped him develop useful skills for his job, but also makes him happy because it's fun and challenging."
-    },
-    {
-      "id": 48896229,
-      "author": "karencarits",
-      "descendants": 44,
-      "kids": "[48896645,48897076,48898102,48897131,48897269,48898192,48897020,48897215,48897433,48897616]",
-      "score": 71,
-      "time": 1783964989,
-      "title": "Logseq 2.0 Beta (DB version) is here",
-      "type": "story",
-      "url": "https://github.com/logseq/logseq/releases",
-      "og_image": "https://repository-images.githubusercontent.com/266231149/4a33065f-481b-4da7-bb7e-f7946055c0bc",
-      "groq_label": "Logseq 2.0 Beta introduces a database format to address technical issues, removing the option to store notes as markdown files.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Logseq 2.0 Beta (DB version) is generally negative. Commenters frequently criticized the project, describing it as a \"buggy mess\" and expressing frustration with the decision to abandon the original markdown file format and instead adopt a database-centric approach. However, a few commenters praised the project, highlighting its strengths and potential. The overall consensus is that the idea is not compelling enough to justify switching from established alternatives like Obsidian.",
-      "groq_explain": null
-    },
-    {
-      "id": 48895565,
-      "author": "levkk",
-      "kids": "[]",
-      "score": 1,
-      "time": 1783962054,
-      "title": "PgDog (YC P25) Is Hiring a Founding Software Engineer",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/pgdog/jobs/uWymUYy-founding-software-engineer",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/118884b50bdcfe26eb7163da47a2a94178ea455e.png?1745006541",
-      "groq_label": "PostgreSQL and SQL Server databases are often combined in a single query execution plan.",
-      "groq_discussion": "No comments.",
       "groq_explain": null
     }
   ]
