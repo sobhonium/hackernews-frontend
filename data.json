@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-15T06:18:54.955Z"
+    "lastUpdated": "2026-07-15T10:08:14.657Z"
   },
   "stories": [
+    {
+      "id": 48918078,
+      "author": "robtherobber",
+      "descendants": 12,
+      "kids": "[48918520,48918413,48918519,48918499,48918507,48918437,48918501]",
+      "score": 48,
+      "time": 1784105897,
+      "title": "America pays workers just 27% of what its wealth allows – the worst in the OECD",
+      "type": "story",
+      "url": "https://fortune.com/2026/07/13/us-worst-oecd-fair-pay-score/",
+      "og_image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-132939356.jpg?resize=1200,600",
+      "groq_label": "US worker compensation is significantly lower compared to what the country's wealth could potentially support due to a wide gap between GDP and actual salaries.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis article discussing America's wealth distribution and low worker compensation compared to OECD standards. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the issue is complex and cannot be solved solely by raising the minimum wage or increasing everyone's salary, as this would lead to price inflation and unemployment. Critics pointed out that the current system is unfair and that workers deserve a more dignified income. Several commenters also highlighted the importance of measuring GDP correctly and understanding that it is not the same as the country's total money supply. Overall, the discussion presents the issue as a multifaceted problem that requires careful consideration and nuanced solutions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48917055,
+      "author": "enz",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 30,
+      "time": 1784097536,
+      "title": "Who's running all those tiny RPKI servers?",
+      "type": "story",
+      "url": "https://blog.apnic.net/2026/07/15/whos-running-all-those-tiny-rpki-servers/",
+      "og_image": "https://blog.apnic.net/wp-content/uploads/2026/07/routing-ft.jpg",
+      "groq_label": "The RPKI validation cache servers are mostly hosted in data centers located in close proximity to major internet exchanges.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48916975,
+      "author": "macleginn",
+      "descendants": 141,
+      "kids": "[48917262,48917641,48918331,48917802,48918395,48917841,48917456,48917293,48917437,48917781,48917540,48917950,48918217,48917380,48917324,48918283,48917961,48917265,48917639,48917687,48917768,48917471,48917314,48917531,48917579,48917493,48917316,48917419,48918315,48917748,48918317,48917090,48917423,48917366,48917398]",
+      "score": 306,
+      "time": 1784096880,
+      "title": "I tricked Claude into leaking your deepest, darkest secrets",
+      "type": "story",
+      "url": "https://www.ayush.digital/blog/the-memory-heist",
+      "og_image": "https://ayush.digital/blog/the-memory-heist/opengraph-image",
+      "groq_label": "Users are unwittingly sharing sensitive data with AI agents due to poorly designed features and lack of transparency.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the article about tricking Claude into leaking sensitive information with a mix of reactions. Many commenters appreciated the humorous aspect of the situation, particularly the author's ability to joke about having played 4D cybersecurity chess. Others shared their own experiences with AI agents, such as running Claude Code in a VM or turning off memory on their devices. Recurring criticisms focused on the potential risks of global memory across chats being enabled, with some commenters expressing concerns about the impact on output quality. The overall discussion suggests that the community is aware of the potential vulnerabilities in AI systems but is also entertained by the absurdity of the situation.",
+      "groq_explain": null
+    },
+    {
+      "id": 48916805,
+      "author": "signa11",
+      "descendants": 45,
+      "kids": "[48917665,48917689,48918218,48917479,48918312,48917182]",
+      "score": 64,
+      "time": 1784095337,
+      "title": "RISC-V Is Inevitable: State of the Union Keynote Argues",
+      "type": "story",
+      "url": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
+      "og_image": "https://www.eetimes.com/wp-content/uploads/image_0cb3b6.jpeg?fit=2048%2C1152",
+      "groq_label": "RISC-V is gaining widespread adoption in the embedded and MCU market, driven by early adopters like Espressif, and may become the inevitable future architecture.",
+      "groq_discussion": "Discussion type: –  Balanced\n\nThis article, discussing the inevitability of RISC-V, aims to solve the problem of finding an alternative to traditional architectures like ARM and x86. The Hacker News discussion was generally positive, with many commenters appreciating RISC-V's growing presence in the embedded and MCU market, as well as its cost-effectiveness. At the same time, several commenters raised concerns about the potential fragmentation of the open-source community, as hinted at by the keynote's suggestion of a new base ISA with CHERI. Overall, the discussion suggests that the community sees promise in RISC-V but believes there are important challenges that still need to be addressed, including scaling up the architecture and competing with established players like ARM.",
+      "groq_explain": null
+    },
     {
       "id": 48915709,
       "author": "vinhnx",
@@ -390,66 +450,6 @@
       "og_image": "https://static.dw.com/image/73463979_6.jpg",
       "groq_label": "Germany's proposed restriction of its Freedom of Information Act to EU citizens has sparked concerns of reduced transparency and accountability.",
       "groq_discussion": "Discussion type: – Detailed:\n\nThis bill to restrict the German Freedom of Information Act aims to limit access to government information to German and EU citizens. The Hacker News discussion suggests that commenters were primarily concerned about the potential abuse of this restriction, citing the recent example of Romania where the government used national security as an excuse to restrict access to information about a corrupt president's travel expenses.\n\nAt the same time, the discussion also highlighted some counterarguments, with one commenter questioning the reasonableness of limiting FoI requests to only German and EU citizens. Another commenter wondered if a random US citizen should be able to ask a random German government official for data.\n\nThe overall impression was that the project, which is a restriction to the Freedom of Information Act to only allow German and EU citizens, is seen as an attempt by the conservative CDU to further reduce transparency and accountability of government officials, with potentially worrying implications.",
-      "groq_explain": null
-    },
-    {
-      "id": 48905248,
-      "author": "shintoist",
-      "descendants": 258,
-      "kids": "[48909449,48908304,48908300,48909956,48909954,48909893,48909902,48905502,48908220,48910020,48908566,48908862,48909368,48909980,48909446,48909089,48908258,48905366,48908486,48908530,48905422,48905446,48909130,48909388,48905632,48909445,48908555,48908990,48908379,48905628,48909862,48905568,48905445,48905674,48909554,48909790,48905644,48908689,48909690,48908388,48908412,48909623,48906528,48909158,48905832,48908641,48905658,48909304,48908898,48905531,48905511,48908360,48905708,48905501,48905556,48906363,48909045,48905601,48905564,48908367,48909183,48905598,48908993,48909287,48909463,48905718,48909725]",
-      "score": 160,
-      "time": 1784029562,
-      "title": "How to stop Claude from saying load-bearing",
-      "type": "story",
-      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "og_image": "https://jola.dev/images/og/posts/how-to-stop-claude-from-saying-load-bearing.png",
-      "groq_label": "Claude's tendency to use load-bearing is an example of idiosyncratic phrasing preferences that can be difficult to overcome with generic solutions.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/best practice focused on reducing the annoying phrases generated by LLMs, particularly Claude. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of adapting to Claude's preferences rather than influencing its communication style. At the same time, several commenters raised concerns about the limitations and unknown subtext associated with LLM-generated phrases. However, the discussion also included recurring comments about the importance of avoiding clichés and idioms in LLM communication, with some suggesting that prohibiting certain phrases or word choices might hinder the model's performance. Overall, the discussion suggests that the community sees promise in adapting to LLM preferences while being cautious about potential limitations and implications.",
-      "groq_explain": null
-    },
-    {
-      "id": 48905183,
-      "author": "homarp",
-      "descendants": 9,
-      "kids": "[48914613,48915264,48914530,48915006,48905330,48915087,48914190]",
-      "score": 49,
-      "time": 1784029234,
-      "title": "Mathematical texts from a Maya site in Guatemala identify an ancient astronomer",
-      "type": "story",
-      "url": "https://www.nature.com/articles/d41586-026-02170-8",
-      "og_image": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02170-8/d41586-026-02170-8_52959564.jpg",
-      "groq_label": "The ancient Maya astronomer known as \"White Chested Fox\" left behind mathematical texts that reveal his division of a 2,920-day cycle into key calendar units used by the Maya people.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of understanding the mathematical knowledge of an ancient astronomer from a Maya site in Guatemala. The Hacker News discussion is generally mixed, with many commenters appreciating the discovery and the insight it provides into the mathematical skills of the Maya people in 800AD. At the same time, several commenters raised concerns about the implications of this discovery, with some questioning the limitations of understanding the classical Maya language. Others expressed broader concerns about the impact of colonialism on the Maya culture and language. Overall, the discussion suggests that the community sees promise in this discovery but believes there are important cultural and historical contexts that should be considered.",
-      "groq_explain": null
-    },
-    {
-      "id": 48905118,
-      "author": "AdityaAnand1",
-      "descendants": 24,
-      "kids": "[48906654,48905324,48906022,48905858,48905441,48905835,48906728]",
-      "score": 51,
-      "time": 1784028799,
-      "title": "Punch Yourself in the Face with Reality",
-      "type": "story",
-      "url": "https://adi.bio/reality",
-      "og_image": "https://secure.gravatar.com/avatar/?s=96&d=mm&r=g",
-      "groq_label": "The illusion of technological convenience can be eroding meaning in work and life by creating unrealistic expectations and dependencies on tools.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the topic is that it emphasizes the importance of self-awareness and facing challenges head-on. Commenters frequently praised the idea of punching oneself in the face with reality, describing it as a call to authenticity and honesty. They highlighted concerns about the potential dangers of relying too heavily on technology and losing touch with personal meaning and purpose. The overall consensus is that true self-awareness is crucial and that one should not shy away from confronting the reality of their own limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48905091,
-      "author": "zaikunzhang",
-      "descendants": 58,
-      "kids": "[48906111,48905616,48905398,48905589,48905869,48906573,48905570,48905960,48905606,48905855,48905507]",
-      "score": 79,
-      "time": 1784028636,
-      "title": "Codex scraped the ICM website and discovered 2026 Fields Medal winner list",
-      "type": "story",
-      "url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
-      "og_image": "https://static.phemex.com/pubimg/5f24b9c7d4a63a9b37534cc0f17bac8297747a09775c6caafd6b97af02f9b372.png",
-      "groq_label": "AI models like Codex can easily expose sensitive information by simply looking for and extracting elements marked as \"hidden\" or with similar labels in the front-end code of a website.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the incident is that it was a basic mistake by the developers. Commenters frequently praised the ease with which the Codex bot was able to scrape the ICM website to discover the 2026 Fields Medal winner list, suggesting that the leak occurred because the information was simply hidden in the front-end code with a \"hidden\" tag. However, the discussion also included recurring concerns about the implications of this incident, with many questioning the idea that AI bots will have more privacy than humans due to this type of incident. The overall consensus is that the idea is alarming and that the issue highlights a weakness in web development that needs to be addressed.",
       "groq_explain": null
     }
   ]
