@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-15T17:24:39.473Z"
+    "lastUpdated": "2026-07-15T21:05:37.586Z"
   },
   "stories": [
+    {
+      "id": 48926085,
+      "author": "benswerd",
+      "descendants": 2,
+      "kids": "[48926825]",
+      "score": 15,
+      "time": 1784144573,
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "type": "story",
+      "url": "https://brainless.swerdlow.dev",
+      "og_image": "https://brainless.swerdlow.dev/opengraph-image?234ed435f7768d62",
+      "groq_label": "Shadcn registry allows for the easy addition of custom components to existing projects using a simple bash command.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis Brainless project aims to solve the problem of creating Shadcn components that resemble Claude Code, Codex, and Grok. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the use of familiar and well-known libraries like Claude Code, Codex, and Grok, and the attempt to create a uniform look and feel in Shadcn applications.\n\nMany appreciated the effort to standardize the components and believed it could be particularly useful for teams looking to adopt a consistent design across their Shadcn projects. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential limitations of using a registry, and questioned the choice of Shadcn as the underlying technology.\n\nOverall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that a more thorough justification for the choice of Shadcn and registry would improve its usefulness and adoption.",
+      "groq_explain": "It's about a development experience using a tool called Claude from Shadcn, where you can have an interactive coding session that helps you create apps and projects with minimal effort, almost feeling like not doing any brain work."
+    },
+    {
+      "id": 48926053,
+      "author": "lsferreira42",
+      "descendants": 8,
+      "kids": "[48926309,48926778,48926603,48926474,48926846,48926385,48926702]",
+      "score": 19,
+      "time": 1784144423,
+      "title": "Voxatron",
+      "type": "story",
+      "url": "https://www.lexaloffle.com/voxatron.php",
+      "og_image": "https://www.lexaloffle.com/gfx/top_pulldown.png",
+      "groq_label": "Voxatron seems to be a game engine that evolved from a single game into a platform for user-created voxel-based games.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Voxatron is positive. Commenters frequently praised its capabilities, describing it as a platform for user-created games, and highlighting its potential to enable the creation of full games with no upper limit on game size. However, the discussion also included recurring concerns about the unclear nature of what Voxatron is - a game, a console, or a collection of games - with many questioning the presentation and framing of the project on its website. The overall consensus is that Voxatron is an interesting project that could benefit from further refinement in its presentation.",
+      "groq_explain": null
+    },
+    {
+      "id": 48925888,
+      "author": "spacemarine1",
+      "descendants": 5,
+      "kids": "[48926551,48926763,48926445,48926372,48926820]",
+      "score": 47,
+      "time": 1784143679,
+      "title": "Duskers, the scary command line game, is getting a sequel",
+      "type": "story",
+      "url": "https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20",
+      "og_image": "https://substackcdn.com/image/youtube/w_728,c_limit/lr-om2trmtU",
+      "groq_label": "The game Duskers was a stressful and difficult command line game where players controlled drones to explore a desolate post-apocalyptic world.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article/project is about the sequel to the command line game Duskers. Hacker News commenters generally appreciated the first game and are excited about the sequel. However, they also expressed concerns that the game appears to be Windows-only, which may limit its accessibility. Overall, the discussion was positive, with commenters showing enthusiasm for the game's concept and encouraging the developers to port it to mac.",
+      "groq_explain": null
+    },
+    {
+      "id": 48924912,
+      "author": "vimarsh6739",
+      "descendants": 86,
+      "kids": "[48926216,48925112,48926769,48925349,48925833,48925251,48925485,48925724,48926852,48926167,48926875,48926508,48926804,48926816,48925175,48925590,48925606,48925969,48925853,48925451,48925435,48926734,48925967,48925542,48925513,48925687,48926691,48926431,48926450,48925223,48925747,48925456,48925570,48925357,48925374]",
+      "score": 323,
+      "time": 1784139165,
+      "title": "Inkling: Our Open-Weights Model",
+      "type": "story",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "og_image": "https://thinkingmachines.ai/news/introducing-inkling/images/cover-social-inkling-post.png",
+      "groq_label": "Open-weights AI models like Inkling allow for customization through fine-tuning, which makes them a viable business model for enterprise customers who want tailored models at a lower cost.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis open-weights AI model, Inkling, aims to solve the problem of creating a powerful, customizable, and open-source AI solution. The discussion on Hacker News is generally positive, with many commenters appreciating its multi-modal capabilities, including support for audio, and its ability to be fine-tuned using Tinker. Some see it as a promising start for American open research labs, while others praise its diverse features, such as instruction following and a good personality. However, the discussion also highlights some limitations, including lower performance compared to other models, such as GLM and Z.ai, and concerns about the business models for open-weight AI companies. While commentators believe the model has potential, they also stress the importance of proper evaluation and customizations for real-world applications.",
+      "groq_explain": null
+    },
     {
       "id": 48923833,
       "author": "tang8330",
@@ -30,6 +90,21 @@
       "og_image": "images/48923420.png",
       "groq_label": "Primates, a web framework, prioritizes application logic separation from shared assumptions of web development to promote cleaner, more scalable code.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of web application development. The Hacker News discussion was generally mixed, with many commenters appreciating its philosophy and goal of helping developers follow \"smart defaults\" over having to decide everything. At the same time, several commenters raised concerns about the concept of mixing up implementation details by request path, arguing that it seems antithetical to using a framework in the first place, and questioning the idea of the web-router \"owning\" the database. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48923380,
+      "author": "levmiseri",
+      "descendants": 31,
+      "kids": "[48924692,48924975,48926334,48925479,48924899,48925817,48923817,48924654,48924931,48926519,48923685,48926003,48926001,48924414,48925286]",
+      "score": 105,
+      "time": 1784133195,
+      "title": "Collection of Digital Clock Designs",
+      "type": "story",
+      "url": "https://clocks.dev",
+      "og_image": "data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M11.995%207.2332C10.5455%205.61%208.12832%205.17336%206.31215%206.65973C4.49599%208.1461%204.2403%2010.6312%205.66654%2012.3892L11.995%2018.25L18.3235%2012.3892C19.7498%2010.6312%2019.5253%208.13047%2017.6779%206.65973C15.8305%205.189%2013.4446%205.61%2011.995%207.2332Z'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e",
+      "groq_label": "Some digital clocks use unconventional display methods, like ASCII text or symbolic representations, which can sometimes be confusing, as in the binary clock that incorrectly displays the positions.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis collection of Digital Clock Designs aims to showcase various creative and innovative ways to display time on a digital interface. Based on the Hacker News discussion, commenters generally viewed the collection positively and highlighted strengths such as the diversity of designs, the use of creative ideas, and the ability to easily create unique digital clock experiences. Many appreciated the interactive aspect of the clocks, noting that it made them more engaging and fun to use. At the same time, commenters also expressed concerns about potential issues such as usability and accuracy, particularly with some designs that might require additional tweaks to work smoothly. Overall, the Hacker News community considered the collection interesting and thought-provoking, recognizing its potential to inspire creativity while emphasizing the need for further refinement to make it more practical and user-friendly.",
       "groq_explain": null
     },
     {
@@ -374,81 +449,6 @@
       "og_image": "https://blog.apnic.net/wp-content/uploads/2026/07/routing-ft.jpg",
       "groq_label": "The RPKI validation cache servers are mostly hosted in data centers located in close proximity to major internet exchanges.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48916975,
-      "author": "macleginn",
-      "descendants": 141,
-      "kids": "[48917262,48917641,48918331,48917802,48918395,48917841,48917456,48917293,48917437,48917781,48917540,48917950,48918217,48917380,48917324,48918283,48917961,48917265,48917639,48917687,48917768,48917471,48917314,48917531,48917579,48917493,48917316,48917419,48918315,48917748,48918317,48917090,48917423,48917366,48917398]",
-      "score": 306,
-      "time": 1784096880,
-      "title": "I tricked Claude into leaking your deepest, darkest secrets",
-      "type": "story",
-      "url": "https://www.ayush.digital/blog/the-memory-heist",
-      "og_image": "https://ayush.digital/blog/the-memory-heist/opengraph-image",
-      "groq_label": "Users are unwittingly sharing sensitive data with AI agents due to poorly designed features and lack of transparency.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the article about tricking Claude into leaking sensitive information with a mix of reactions. Many commenters appreciated the humorous aspect of the situation, particularly the author's ability to joke about having played 4D cybersecurity chess. Others shared their own experiences with AI agents, such as running Claude Code in a VM or turning off memory on their devices. Recurring criticisms focused on the potential risks of global memory across chats being enabled, with some commenters expressing concerns about the impact on output quality. The overall discussion suggests that the community is aware of the potential vulnerabilities in AI systems but is also entertained by the absurdity of the situation.",
-      "groq_explain": null
-    },
-    {
-      "id": 48916805,
-      "author": "signa11",
-      "descendants": 45,
-      "kids": "[48917665,48917689,48918218,48917479,48918312,48917182]",
-      "score": 64,
-      "time": 1784095337,
-      "title": "RISC-V Is Inevitable: State of the Union Keynote Argues",
-      "type": "story",
-      "url": "https://www.eetimes.com/risc-v-is-inevitable-state-of-the-union-keynote-argues/",
-      "og_image": "https://www.eetimes.com/wp-content/uploads/image_0cb3b6.jpeg?fit=2048%2C1152",
-      "groq_label": "RISC-V is gaining widespread adoption in the embedded and MCU market, driven by early adopters like Espressif, and may become the inevitable future architecture.",
-      "groq_discussion": "Discussion type: –  Balanced\n\nThis article, discussing the inevitability of RISC-V, aims to solve the problem of finding an alternative to traditional architectures like ARM and x86. The Hacker News discussion was generally positive, with many commenters appreciating RISC-V's growing presence in the embedded and MCU market, as well as its cost-effectiveness. At the same time, several commenters raised concerns about the potential fragmentation of the open-source community, as hinted at by the keynote's suggestion of a new base ISA with CHERI. Overall, the discussion suggests that the community sees promise in RISC-V but believes there are important challenges that still need to be addressed, including scaling up the architecture and competing with established players like ARM.",
-      "groq_explain": null
-    },
-    {
-      "id": 48915709,
-      "author": "vinhnx",
-      "descendants": 50,
-      "kids": "[48916194,48916298,48916495,48916297,48916737,48916777,48916096,48916582,48916075,48916092,48916725,48916049,48916431,48916392,48916085,48916036,48916418,48916399,48916175,48916575,48916557,48916460,48916160,48916522]",
-      "score": 225,
-      "time": 1784084267,
-      "title": "Jurassic Park computers in excruciating detail",
-      "type": "story",
-      "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
-      "og_image": "https://fabiensanglard.net/jurrasic_park_computers/00_11_15_Apple_Powerbook_100.webp",
-      "groq_label": "SGI and Macintosh computers from Jurassic Park were real models used in the movie, with some being actual products of the time and others being original mockups.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article's attention to detail in describing the computers from Jurassic Park is overwhelmingly positive. Commenters frequently praised the accuracy of the information and the level of detail presented, describing the project as \"excruciating\" and showing a clear understanding of the technology behind the film. However, the discussion also included some minor corrections and additional context provided by knowledgeable commenters. The overall consensus is that the article is a compelling contribution to the topic of retro computer technology, albeit with some room for further refinement and accuracy in minor details.",
-      "groq_explain": null
-    },
-    {
-      "id": 48915004,
-      "author": "jervant",
-      "descendants": 16,
-      "kids": "[48915128,48915370,48915420,48915204,48915246,48915307]",
-      "score": 42,
-      "time": 1784077706,
-      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
-      "type": "story",
-      "url": "https://tailscale.com/security-bulletins",
-      "og_image": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png",
-      "groq_label": "Tailscale's SSH feature insecurely handled arguments, allowing unauthorized root access through a malformed `username` parameter.",
-      "groq_discussion": "Discussion type:  –  Balanced:\n\nThis [security vulnerability in Tailscale SSH] aims to solve the problem of [insecure argument handling]. The Hacker News discussion was generally mixed, with some commenters appreciating the [Tailscale's security efforts, at least partially] and the project's approach to [securing the application], while others raised concerns about [the vulnerability's severity] and [the fix's effectiveness]. Overall, the discussion suggests that the community sees a need for improvement in the project but believes there are important challenges that still need to be addressed, such as ensuring the fix properly addresses the issue and providing more secure default settings.",
-      "groq_explain": null
-    },
-    {
-      "id": 48914683,
-      "author": "measurablefunc",
-      "descendants": 32,
-      "kids": "[48915585,48914989,48915616,48915594,48915462,48915446,48915159,48915225,48915558,48914976,48915552,48914887,48915486,48915142,48915002]",
-      "score": 66,
-      "time": 1784074831,
-      "title": "Data centers have hiked electricity prices on the public by $23B",
-      "type": "story",
-      "url": "https://fortune.com/2026/07/14/data-centers-23-billion-electricity-bills/",
-      "og_image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2285284906-e1783971804803.jpg?resize=1200,600",
-      "groq_label": "Data center operations have led to a $23 billion increase in electricity costs for the public, but proponents argue that these investments could be contributing to improving the grid and local economies.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of data center electricity price hikes. The Hacker News discussion was generally mixed, with some commenters appreciating that the price increase could be fine if it's being invested in better generation and aging infrastructure, while others criticized that the cost could be shared among all customers as a policy choice. Commenters also suggested that data centers should invest in renewable energy generation, which would also present an opportunity to direct AI compute towards solving clean energy generation solutions. However, one commenter raised the issue that not all data centers are for training, but rather for inference, which leads to actual electricity use. Others debated the concept that increased demand from data centers leads to higher electricity prices, and suggested that delays in allowing faster generation/hookup rollout have suppressed supply increase relative to demand increase. The overall discussion suggests that the community sees potential for addressing the issue through policy and technological innovations, but also recognizes that this is a complex problem with multiple perspectives.",
       "groq_explain": null
     }
   ]
