@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-16T17:26:39.388Z"
+    "lastUpdated": "2026-07-16T21:04:50.578Z"
   },
   "stories": [
+    {
+      "id": 48939764,
+      "author": "HoserHoser",
+      "descendants": 7,
+      "kids": "[48940213,48940155,48940040,48940010,48939765]",
+      "score": 4,
+      "time": 1784233547,
+      "title": "Timeline Scan – AI fixes the dates on your scanned photos",
+      "type": "story",
+      "url": "https://timelinescan.com/",
+      "og_image": "https://timelinescan.com/images/logo/light_1200x630.png",
+      "groq_label": "AI algorithms can estimate the date a scanned photo was taken but this method relies on clear timestamp visibility and may introduce estimated dates as EXIF metadata that are not verifiable.",
+      "groq_discussion": "Discussion type:  – Basic:\n\nThis project, Timeline Scan, aims to solve the problem of accurately dating scanned photos. \nBased on the Hacker News discussion, commenters generally viewed \nthe project as an interesting idea, but raised concerns about the potential for inaccuracies. Many appreciated the technical aspect of extracting printed timestamps and handwritten dates, noting that it could be useful. However, others questioned the feasibility of using AI to estimate photo dates based solely on the image, highlighting the risk of \"polluting the data with nonsense.\" Despite this, the discussion suggests that the project could be particularly useful for users who want to organize their archives in chronological order, such as those using Immich, Google Photos, or Apple Photos.\n\nSome commenters also pointed out the practical challenge of embedding uncertainty into EXIF metadata in a standard way and questioned the commercial viability of paying for AI-driven date estimation. Nevertheless, the overall sentiment is that the project introduces a promising idea that would benefit from further refinement and clarification on its technical and practical implications.",
+      "groq_explain": null
+    },
+    {
+      "id": 48939662,
+      "author": "minimaxir",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 10,
+      "time": 1784233095,
+      "title": "LM Studio Bionic: the AI agent for open models",
+      "type": "story",
+      "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "og_image": "https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg",
+      "groq_label": "LM Studio Bionic uses a graph neural network to manage relationships between multiple open models.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48939641,
+      "author": "tchalla",
+      "descendants": 2,
+      "kids": "[48940095,48940009,48940202]",
+      "score": 17,
+      "time": 1784232958,
+      "title": "The privacy problems hidden in your period tracker",
+      "type": "story",
+      "url": "https://www.bbc.com/future/article/20260715-how-period-trackers-share-womens-private-details",
+      "og_image": "https://ychef.files.bbci.co.uk/624x351/p0nyzvlm.jpg",
+      "groq_label": "Google Fit and Apple Health were not included in the privacy review.",
+      "groq_discussion": "Discussion type: Basic:\n\nThis article aims to solve the problem of period tracking app privacy concerns.\nBased on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as the fact that \nEuki stands out as the only reviewed app that meets Mozilla's privacy \nstandards and keeps data stored on the device. Many appreciated the \nfeature of staying completely anonymous and not needing an account. \nHowever, the discussion also revealed that Apple Health was overlooked \nand several commenters questioned the review process and the apps \nincluded. Overall, the Hacker News community considered the article \nhelpful in raising awareness about period tracker privacy concerns, \nrecognizing the good options but also emphasizing that more \nconsiderate practices should be implemented across the industry.",
+      "groq_explain": null
+    },
+    {
+      "id": 48939580,
+      "author": "theanonymousone",
+      "descendants": 8,
+      "kids": "[48940199,48940134,48940130,48940151,48940138]",
+      "score": 35,
+      "time": 1784232586,
+      "title": "Kimi K3 Intelligence, Performance and Price Analysis",
+      "type": "story",
+      "url": "https://artificialanalysis.ai/models/kimi-k3",
+      "og_image": "https://artificialanalysis.ai/models/kimi-k3/opengraph-image-oimwka?f89c1d53703bc167",
+      "groq_label": "Kimi K3's commercial availability is marked by proprietary weights that have not been publicly released yet.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the Kimi K3 Intelligence, Performance, and Price Analysis with a mix of reactions. Many commenters appreciated the analysis's attention to the model's weights and open-sourced nature, highlighting the fact that open models are now being released in a relatively short time frame. Commenters also brought up related discussion regarding the Kimi K3 going live. However, some users also expressed concerns about the proprietary nature of the K3 model and the lack of information on subscription plans, specifically asking for a comparison of plans to determine the most cost-effective option. \n\nAs a whole, the commenters viewed the analysis as an interesting contribution to the ongoing discussion about AI models, while acknowledging that there are still some unanswered questions regarding the K3's openness and pricing.",
+      "groq_explain": null
+    },
     {
       "id": 48937125,
       "author": "acesohc",
@@ -390,66 +450,6 @@
       "groq_label": "Redacted websites like REDacted and soulseek continue in operation despite the demise of music piracy platforms like What.CD.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis article, \"The lost joy of music piracy,\" reminisces about the experience of music piracy in the past, specifically citing websites like What.cd and OiNK. Commenters generally viewed the project nostalgically, highlighting strengths such as the discovery of new music, but many also believed it could be particularly useful for nostalgia about past online communities. However, the discussion also revealed several criticisms, with some questioning the ethics of music piracy and its impact on artists, and others pointing out the potential alternatives to piracy that do not involve hurting others. Overall, the Hacker News community considered the article with a mix of wistfulness and caution, recognizing both the potential for community and the need for respectful and lawful music sharing.",
       "groq_explain": "The article is about how Pigeons & Planes promotes music discovery and supporting new artists, but it does so by repeatedly stating the same message in a loop."
-    },
-    {
-      "id": 48930397,
-      "author": "AbuAssar",
-      "descendants": 12,
-      "kids": "[48931616,48932440,48932096,48931467,48931685,48932000]",
-      "score": 45,
-      "time": 1784176567,
-      "title": "Reynard: A real Firefox web browser for iOS 13 or later",
-      "type": "story",
-      "url": "https://github.com/minh-ton/reynard-browser",
-      "og_image": "https://opengraph.githubassets.com/632b8eecd140f8b5fbd20d18e4b38fddae17dfb4d9043d2559e6bbc9010f8e07/minh-ton/reynard-browser",
-      "groq_label": "Mozilla created a new iOS app called Reynard to bring a real Firefox browser engine to iOS 13 or later, complying with jurisdictional requirements despite Apple's obstacles.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Reynard iOS app aims to solve the problem of limited browser choice on iOS devices, specifically due to Apple's restrictions on third-party browser engines. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted its potential to give users more choice in their browser engine. Many appreciated the opportunity for older devices to run a modern browser engine, pointing out that the existing Safari version on those devices has vulnerabilities that are no longer patched. Others suggested it could be particularly useful for users in regions where third-party engines are allowed, like the EU. However, the discussion also revealed several criticisms. Commenters expressed concerns about the need to re-certificate each time or use a workaround like TrollStore. Overall, the Hacker News community considered the project a welcome development, acknowledging the challenges it still faces.",
-      "groq_explain": null
-    },
-    {
-      "id": 48930363,
-      "author": "cratermoon",
-      "descendants": 21,
-      "kids": "[48930820,48930798,48930840,48930870,48930960,48930955,48930934,48930874,48930710,48930791,48930932,48930376,48930769]",
-      "score": 32,
-      "time": 1784176261,
-      "title": "Stop saying that AI is just a tool and it only matters how it is used",
-      "type": "story",
-      "url": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
-      "og_image": "http://www.frank.computer/images/default.png",
-      "groq_label": "The argument that tools like AI can't be neutral ignores the impact of societal choices on tool use, making the distinction between tool design and tool application key to responsible development and deployment.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article focuses on challenging the notion that AI is just a tool and how it is used. The Hacker News discussion was generally mixed, with some commenters appreciating the author's attempt to frame AI as a complex issue with far-reaching consequences and others expressing skepticism. Several commenters argued that AI can indeed be beneficial when used responsibly and that its value is neutral, while others pointed out that the article overcomplicated the issue and seemed to lean towards a negative stance on AI. Recurring criticisms included the article's failure to provide a balanced view, its reliance on abstract concepts, and its perceived tone as too prescriptive.",
-      "groq_explain": null
-    },
-    {
-      "id": 48930149,
-      "author": "usernotfoundrn",
-      "descendants": 2,
-      "kids": "[48930543]",
-      "score": 15,
-      "time": 1784173885,
-      "title": "My Throw Decides My Aim",
-      "type": "story",
-      "url": "https://thegustafson.com/blog/my-throw-decides-my-aim",
-      "og_image": "https://thegustafson.com/blog/my-throw-decides-my-aim/opengraph-image.png?b4d57e529658c420",
-      "groq_label": "The model considers the probability of the previous word underlining dependencies between words but this is not equivalent to actually thinking through possible next words.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is mixed. Commenters frequently raised questions about the model's behavior, specifically whether it is thinking ahead to the next line or has already established its attention on the previous line. There is a recurring concern about the distinction between these two interpretations, with some questioning its importance.",
-      "groq_explain": null
-    },
-    {
-      "id": 48930136,
-      "author": "treve",
-      "descendants": 17,
-      "kids": "[48930958,48930953,48930863,48930541,48930865,48930937,48930694,48930548,48930483,48930661]",
-      "score": 58,
-      "time": 1784173723,
-      "title": "If you want to create a button from scratch, you must first create the universe",
-      "type": "story",
-      "url": "https://madcampos.dev/blog/2026/07/accessibility-from-scratch/",
-      "og_image": "https://madcampos.dev/assets/build/apple-pie.C6GE_Xvg_Z1v28Iy.png",
-      "groq_label": "A sarcastic piece criticizes over-engineering of simple buttons on the web through custom element extensions.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is that it is sarcastic. Commenters frequently interpreted the article as making humorous and exaggerated claims about the difficulty of creating a button from scratch. Many praised the creativity of the satire and highlighted its relevance to how websites operate. However, the discussion also included recurring concerns about the article's tone and the perceived usefulness of its message. The overall consensus is that the idea of creating a button from scratch may be more feasible now due to advancements in AI and frameworks, but the article's approach may not be the most effective way to convey this point.",
-      "groq_explain": null
     }
   ]
 }
