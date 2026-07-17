@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-17T06:22:43.127Z"
+    "lastUpdated": "2026-07-17T10:02:22.090Z"
   },
   "stories": [
+    {
+      "id": 48943745,
+      "author": "giuliomagnifico",
+      "descendants": 48,
+      "kids": "[48944248,48945002,48944522,48945288,48944529,48944980,48944412,48944685,48944353,48944966,48944527,48945156,48944215,48945003,48944670,48944446,48944788,48944122,48945380]",
+      "score": 90,
+      "time": 1784267470,
+      "title": "EEG shows brain can simultaneous encode two speech streams",
+      "type": "story",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
+      "og_image": "https://journals.plos.org/plosbiology/article/figure/image?size=medium&id=10.1371/journal.pbio.3003876.g001",
+      "groq_label": "EEG measurements show the brain's neural representation can encode two speech streams simultaneously, despite prior assumptions that humans have limited capacity.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis study on simultaneous speech streams shows that the brain can process two speech inputs simultaneously. Hacker News commenters generally appreciated this ability, citing their own experiences with multitasking, and highlighted its importance in everyday situations like conversations and multitasking. However, they also expressed concerns about prioritization and filtering, and questioned the limitations of processing multiple speech streams, such as having a two-way conversation with one person while listening to another. Overall, the discussion was positive and enthusiastic, considering this a promising area of research with potential implications for our understanding of attention and cognitive abilities.",
+      "groq_explain": null
+    },
     {
       "id": 48943174,
       "author": "crazysaem",
@@ -434,21 +449,6 @@
       "og_image": "https://www.spaceweather.gov/sites/default/files/styles/pad_sides_large/public/top_news/GOES19_Safe_Hold_0.jpg?itok=OT0gca0z",
       "groq_label": "Goes-19 weather satellite experienced an anomaly and transitioned into Safe Hold mode due to an internal issue.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Goes-19 weather satellite entering Safe Hold mode aims to solve the problem of ensuring continued operational functionality. Based on the Hacker News discussion, commenters generally viewed this situation somewhat negatively and highlighted concerns about safety, with many sharing a better link to check the current status of the satellite. This situation could be particularly useful for people interested in weather monitoring and forecasting. However, the discussion also revealed several technical criticisms. Commenters expressed concerns about the potential loss of vital weather data and questioned the effectiveness of the Safe Hold mode in resolving the issue. Overall, the Hacker News community considered the situation as a minor yet still problematic event, recognizing the need for swift resolution to maintain continued satellite functionality.",
-      "groq_explain": null
-    },
-    {
-      "id": 48934092,
-      "author": "ludovicianul",
-      "descendants": 9,
-      "kids": "[48934653,48934655,48934652,48934564,48934570,48934616,48934505]",
-      "score": 10,
-      "time": 1784207749,
-      "title": "Show HN: I've built a words game based on binary search",
-      "type": "story",
-      "url": "https://hilogame.cc/",
-      "og_image": "https://hilogame.cc/icon-512.png",
-      "groq_label": "The game's binary search approach doesn't appear to provide immediate feedback or sufficient guidance to users, causing frustration and confusion.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this words game based on binary search with mixed reactions. Some users had a negative experience, citing issues such as incorrect word validation and a lack of guidance. Users suggested adding features such as a practice mode, letting users play older games, and shorter words to improve gameplay. Others praised the idea and expressed interest in playing, suggesting that with some refinements, the game could be more enjoyable and engaging.",
       "groq_explain": null
     }
   ]
