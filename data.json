@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-17T21:00:37.264Z"
+    "lastUpdated": "2026-07-17T22:02:45.902Z"
   },
   "stories": [
+    {
+      "id": 48952439,
+      "author": "hmm37",
+      "descendants": 4,
+      "kids": "[48952679,48952526,48952645]",
+      "score": 27,
+      "time": 1784323373,
+      "title": "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again",
+      "type": "story",
+      "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html",
+      "og_image": "https://image.cnbcfm.com/api/v1/image/108250215-1767906239901-gettyimages-2249102626-BOEING_737_MAX.jpeg?v=1768321273&w=1920&h=1080",
+      "groq_label": "The FAA allows Boeing to self-certify its 737 MAX and 787 aircraft airworthiness, potentially reducing oversight.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis FAA decision aims to allow Boeing to sign off on the 737 MAX and 787 airworthiness certificates again. Based on the Hacker News discussion, commenters generally viewed the decision negatively and highlighted concerns about potential safety risks. Many appreciated the skepticism of the EU in questioning the decision, noting that it could prevent future accidents and emphasizing the need for stricter safety standards. Others believed it could be particularly useful for the FAA to take a more cautious approach to ensure public safety. However, the discussion also revealed several criticisms. Commenters expressed outrage and incredulity about the decision, with some questioning the FAA's oversight and others pointing out the risk of repeating past errors. Overall, the Hacker News community considered the decision alarming and called for greater scrutiny of the FAA's actions.",
+      "groq_explain": null
+    },
     {
       "id": 48951461,
       "author": "st_goliath",
@@ -46,6 +61,20 @@
       "og_image": "images/48950122.png",
       "groq_label": "SQLite recommends creating composite indexes for columns used together in WHERE clauses.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this SQLite tutorial/project is positive. Commenters frequently praised its practical tips and features such as the `.expert` mode, which helps optimize queries. Many appreciated the information on creating recommended indexes and the suggestions for improving deletion performance. However, the discussion also included recurring concerns about scalability and limitations compared to traditional databases like Postgres. The overall consensus is that the idea of exploring SQLite's potential benefits is compelling, although its long-term effectiveness may depend on adapting it for larger and more complex projects.",
+      "groq_explain": null
+    },
+    {
+      "id": 48949551,
+      "author": "nicholasjbs",
+      "descendants": 3,
+      "kids": "[48952540,48952536,48952597,48949552]",
+      "score": 82,
+      "time": 1784307447,
+      "title": "Thanks HN for 15 years of support and helping me find my life's work",
+      "type": "story",
+      "og_image": "images/48949551.png",
+      "groq_label": "The social rules of the Recurse community, referenced on www.recurse.com, helped shape the writer's professional life.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this post with positive reactions. Many commenters appreciated the personal story of the author and were grateful for their own experiences in the community. Others highlighted the connections and opportunities that the community had provided, including job opportunities and strong friendships. The overall sentiment was one of gratitude and appreciation for the community's support and resources.",
       "groq_explain": null
     },
     {
@@ -418,36 +447,6 @@
       "og_image": "https://earthquake.usgs.gov/pdl/products/urn:usgs-product:us:dyfi:us7000t13l:1784251884675/contents/us7000t13l_ciim_geo.jpg",
       "groq_label": "The US Navy conducts experiments involving controlled underwater explosions to assess the resilience and damage tolerance of warships.",
       "groq_discussion": "Discussion type: Basic:\n\nThis controlled explosion was designed to test the durability of warships. Based on the Hacker News discussion, commenters generally viewed the event matter-of-factly, considering the explosion to be a routine naval test. Many noted its purpose - to assess the strength of US warships - and saw it as a necessary operation to ensure naval readiness. However, the discussion also briefly touched on the local impact of the explosion, with some questioning whether the information could have been communicated more effectively to nearby residents. Overall, the Hacker News community considered the event a standard naval exercise, viewing it as a necessary part of the military's preparedness.",
-      "groq_explain": null
-    },
-    {
-      "id": 48942000,
-      "author": "haritha1313",
-      "descendants": 8,
-      "kids": "[48942683,48942757,48942719,48942833,48942787]",
-      "score": 23,
-      "time": 1784247669,
-      "title": "The Human-in-the-Loop Is Tired",
-      "type": "story",
-      "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
-      "og_image": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired/og.png",
-      "groq_label": "Prompters may receive monetary incentives or rewards for generating content through platforms that use large language models like Claude or by artificially driving engagement on social media.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis post argues the problem of relying too heavily on AI tools like Claude. The Hacker News discussion was generally mixed, with many commenters appreciating the post's key points and acknowledging the issue it raises, but also questioning its perspective on the situation. Some commenters agreed with the post, suggesting that they were indeed feeling tired of relying on AI. However, others offered an opposing view, sharing their positive experiences with Claude and offering alternative ways to use it effectively. The discussion suggests that the community sees the potential for AI to be overused and is open to exploring new ways to utilize its capabilities, while also acknowledging its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48941104,
-      "author": "mustaphah",
-      "descendants": 10,
-      "kids": "[48942593,48942565,48941891,48941442]",
-      "score": 62,
-      "time": 1784240842,
-      "title": "The Little Book of Reinforcement Learning",
-      "type": "story",
-      "url": "https://github.com/alxndrTL/little-book-rl/",
-      "og_image": "https://opengraph.githubassets.com/f39688647b1cd135ec2eec8d710bcc69a75b2aa57a17f4009f30b6dd17187739/alxndrTL/little-book-rl",
-      "groq_label": "Reinforcement learning models often rely on optimizing outcomes to shape responses, which contrasts with the complex and dynamic biological processes that govern operant behavior in real organisms.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis book, \"The Little Book of Reinforcement Learning\", addresses a specific topic in reinforcement learning. The Hacker News discussion suggests that commenters were primarily impressed by the book's unique perspective on the subject, incorporating insights from information theory, such as the connection between reward and the negative bits cost to an environment. Many appreciated the book's concise and accessible writing style, drawing comparisons to classic writing guides like \"The Elements of Style\". Additionally, commenters highlighted the book's potential to serve as a pre-read for more advanced resources, such as Nathan Lambert's \"Reinforcement Learning: Foundations and Applications\". However, the discussion also repeatedly highlighted concerns about the book's potential limitations, such as its neglect of reward information theory and the fact that real biological operant behavior may be more complex than trial and error learning, involving control by short or long-term outcomes. While there was no unanimous agreement on every aspect, the overall impression was that the book introduces an interesting idea that would benefit from further refinement.",
       "groq_explain": null
     }
   ]
