@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-17T17:19:36.762Z"
+    "lastUpdated": "2026-07-17T21:00:37.264Z"
   },
   "stories": [
+    {
+      "id": 48951461,
+      "author": "st_goliath",
+      "descendants": 11,
+      "kids": "[48952231,48952051,48951808,48951812,48952071,48951863,48952119,48952069]",
+      "score": 61,
+      "time": 1784317262,
+      "title": "The Zilog Z80 has turned 50",
+      "type": "story",
+      "url": "https://goliath32.com/blog/z80.html",
+      "og_image": "https://goliath32.com/img/return.gif",
+      "groq_label": "The Zilog Z80 is a 50-year-old CPU that has maintained relevance despite being \"old\" at the time many programmers first learned to code on it.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article celebrating the 50th anniversary of the Zilog Z80 CPU aims to revive nostalgia and highlight the CPU's enduring legacy. Based on the Hacker News discussion, commenters generally viewed the CPU positively and highlighted strengths such as its impact on teaching programming and its continued use in legacy systems like calculators. Many appreciated the CPU's reliability and durability, noting that it has been used by millions of people, including American schoolchildren. The discussion also showed the emotional connection many developers have with the Z80, remembering their early days of learning programming. However, the discussion also revealed several criticisms, including the fact that the Z80 stopped being manufactured last year. Overall, the Hacker News community considered the Z80's legacy positively, recognizing its significant impact on the development of computing and programming.",
+      "groq_explain": null
+    },
+    {
+      "id": 48950774,
+      "author": "lortex",
+      "descendants": 13,
+      "kids": "[48952044,48952000,48952150,48952073,48951525,48951817,48951571]",
+      "score": 21,
+      "time": 1784313453,
+      "title": "Show HN: A zoomable timeline of 4M Wikipedia events",
+      "type": "story",
+      "url": "https://app.everything.diena.co/",
+      "og_image": "https://app.everything.diena.co/diena-everything-feature-graphic.png",
+      "groq_label": "A zoomable timeline of 4 million Wikipedia events has inaccuracies in date display and UI freezing issues, particularly on Firefox and Chrome Android.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis zoomable timeline of Wikipedia events addresses problems of viewing large amounts of historical data. Hacker News commenters generally appreciated its functionality and believed the project could be useful for exploring historical events. However, they also expressed concerns about data accuracy and UI issues when zooming in, as well as compatibility problems with certain browsers. Overall, the discussion was cautious optimistic, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 48950122,
+      "author": "surprisetalk",
+      "descendants": 20,
+      "kids": "[48951282,48951162,48951912,48951497,48951714,48951921,48951878,48951920,48951562,48951261,48951526,48951230]",
+      "score": 85,
+      "time": 1784310341,
+      "title": "Learning a few things about running SQLite",
+      "type": "story",
+      "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/",
+      "og_image": "images/48950122.png",
+      "groq_label": "SQLite recommends creating composite indexes for columns used together in WHERE clauses.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this SQLite tutorial/project is positive. Commenters frequently praised its practical tips and features such as the `.expert` mode, which helps optimize queries. Many appreciated the information on creating recommended indexes and the suggestions for improving deletion performance. However, the discussion also included recurring concerns about scalability and limitations compared to traditional databases like Postgres. The overall consensus is that the idea of exploring SQLite's potential benefits is compelling, although its long-term effectiveness may depend on adapting it for larger and more complex projects.",
+      "groq_explain": null
+    },
     {
       "id": 48948693,
       "author": "ryangilbert",
@@ -403,51 +448,6 @@
       "og_image": "https://opengraph.githubassets.com/f39688647b1cd135ec2eec8d710bcc69a75b2aa57a17f4009f30b6dd17187739/alxndrTL/little-book-rl",
       "groq_label": "Reinforcement learning models often rely on optimizing outcomes to shape responses, which contrasts with the complex and dynamic biological processes that govern operant behavior in real organisms.",
       "groq_discussion": "Discussion type: – Detailed:\n\nThis book, \"The Little Book of Reinforcement Learning\", addresses a specific topic in reinforcement learning. The Hacker News discussion suggests that commenters were primarily impressed by the book's unique perspective on the subject, incorporating insights from information theory, such as the connection between reward and the negative bits cost to an environment. Many appreciated the book's concise and accessible writing style, drawing comparisons to classic writing guides like \"The Elements of Style\". Additionally, commenters highlighted the book's potential to serve as a pre-read for more advanced resources, such as Nathan Lambert's \"Reinforcement Learning: Foundations and Applications\". However, the discussion also repeatedly highlighted concerns about the book's potential limitations, such as its neglect of reward information theory and the fact that real biological operant behavior may be more complex than trial and error learning, involving control by short or long-term outcomes. While there was no unanimous agreement on every aspect, the overall impression was that the book introduces an interesting idea that would benefit from further refinement.",
-      "groq_explain": null
-    },
-    {
-      "id": 48940833,
-      "author": "gmays",
-      "descendants": 8,
-      "kids": "[48942551,48942755,48942479,48941370]",
-      "score": 53,
-      "time": 1784239200,
-      "title": "'Likweli': A new monkey species discovered in the Congo Basin",
-      "type": "story",
-      "url": "https://news.yale.edu/2026/07/15/meet-likweli-new-monkey-species-discovered-congo-basin",
-      "og_image": "https://news.yale.edu/sites/default/files/styles/opengraph_image/public/2026-07/Likweli-20260702_02-flat-3840W.jpg?h=fcf25457&itok=FlZUJBSU",
-      "groq_label": "Researchers discovered a new monkey species in the Congo Basin, which is morphologically similar to existing species but can be distinguished by DNA.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis scientific discovery aims to solve the problem of underestimating the diversity of species. Based on the Hacker News discussion, commenters generally viewed the discovery of the new monkey species as positive and highlighted strengths such as its unique characteristics being distinguishable through DNA analysis. Many appreciated the recognition of cryptic species, noting that these often-overlooked species are actually quite common. Others believed it could be particularly useful for a better understanding of species diversity in the future. However, the discussion also revealed several criticisms, including some commenters questioning the importance of the discovery and others expressing concern about the potential for local people to influence the researchers' findings. Overall, the Hacker News community considered the discovery to be a significant contribution to the field while acknowledging some practical limitations and the potential for differing opinions on its importance.",
-      "groq_explain": null
-    },
-    {
-      "id": 48939896,
-      "author": "Anon84",
-      "descendants": 3,
-      "kids": "[48940847,48941705,48942709]",
-      "score": 105,
-      "time": 1784234328,
-      "title": "Mathematics of Data Science",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2607.11938",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "High-dimensional data challenges intuition about volume and spikiness, carrying over to model fitting and optimization search space.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis \"Mathematics of Data Science\" book aims to solve the problem of providing a fundamental understanding of data science. The Hacker News discussion suggests that commenters were primarily impressed by the book's emphasis on high-dimensional concepts and their implications in data science. Many believed that this approach could significantly improve the intuition of data science practitioners and help them make better decisions. At the same time, the discussion repeatedly highlighted concerns about the importance of statistics in data science, with commenters debating the topic and emphasizing that a strong understanding of statistics is crucial for data scientists. Some even mentioned that good judgement and a sense of scope are also essential for a data scientist. The discussion implies that this book might be a valuable resource for those seeking to improve their understanding of data science, but it also underscores the importance of additional skills and knowledge in the field.",
-      "groq_explain": null
-    },
-    {
-      "id": 48939764,
-      "author": "HoserHoser",
-      "descendants": 7,
-      "kids": "[48940213,48940155,48940040,48940010,48939765]",
-      "score": 4,
-      "time": 1784233547,
-      "title": "Timeline Scan – AI fixes the dates on your scanned photos",
-      "type": "story",
-      "url": "https://timelinescan.com/",
-      "og_image": "https://timelinescan.com/images/logo/light_1200x630.png",
-      "groq_label": "AI algorithms can estimate the date a scanned photo was taken but this method relies on clear timestamp visibility and may introduce estimated dates as EXIF metadata that are not verifiable.",
-      "groq_discussion": "Discussion type:  – Basic:\n\nThis project, Timeline Scan, aims to solve the problem of accurately dating scanned photos. \nBased on the Hacker News discussion, commenters generally viewed \nthe project as an interesting idea, but raised concerns about the potential for inaccuracies. Many appreciated the technical aspect of extracting printed timestamps and handwritten dates, noting that it could be useful. However, others questioned the feasibility of using AI to estimate photo dates based solely on the image, highlighting the risk of \"polluting the data with nonsense.\" Despite this, the discussion suggests that the project could be particularly useful for users who want to organize their archives in chronological order, such as those using Immich, Google Photos, or Apple Photos.\n\nSome commenters also pointed out the practical challenge of embedding uncertainty into EXIF metadata in a standard way and questioned the commercial viability of paying for AI-driven date estimation. Nevertheless, the overall sentiment is that the project introduces a promising idea that would benefit from further refinement and clarification on its technical and practical implications.",
       "groq_explain": null
     }
   ]
