@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-17T02:54:11.652Z"
+    "lastUpdated": "2026-07-17T06:22:43.127Z"
   },
   "stories": [
+    {
+      "id": 48943174,
+      "author": "crazysaem",
+      "descendants": 1,
+      "kids": "[48943881]",
+      "score": 34,
+      "time": 1784260418,
+      "title": "Pebble Mega Update – July 2026",
+      "type": "story",
+      "url": "https://repebble.com/blog/pebble-mega-update-july-2026",
+      "og_image": "https://repebble.com/assets/pebble-mega-update-july-2026-0-cleanshot_2026-07-14_at_07.14.362x-social.jpg",
+      "groq_label": "Sequenced firmware updates ensure the Pebble Mega update process is stable and controlled.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Pebble Mega Update aims to solve the problem of bringing back the beloved Pebble Time Round experience. \nBased on the Hacker News discussion, commenters generally viewed \nthe update positively and highlighted strengths such as nostalgia for the \noriginal Pebble Time Round, specifically the 20mm with brown leather strap. Many \nappreciated reliving their favorite smartwatch experience, noting that it \nbrings back fond memories and potentially satisfies their current desire \nfor that same Pebble Time Round. However, the discussion also revealed \nseveral criticisms. Commenters expressed concerns about the \npracticality of the update, noting that many users have since moved on to \nnewer devices and may not be interested in reliving the past. Overall, \nthe Hacker News community considered the update  as a welcoming move \ntowards old Pebble fans, and while practical concerns may exist, the \nnecessity of such an update can satisfy nostalgic users.",
+      "groq_explain": null
+    },
+    {
+      "id": 48943142,
+      "author": "divbzero",
+      "descendants": 32,
+      "kids": "[48943587,48943412,48943516,48943687,48943478,48943541,48943522]",
+      "score": 66,
+      "time": 1784260106,
+      "title": "How Has Roman Concrete Lasted for Millennia? 1,900-Year-Old Latrine Offers Clues",
+      "type": "story",
+      "url": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
+      "og_image": "https://th-thumbnailer.cdn-si-edu.com/ZudUQfnkrl8Fi4cI7JTX8GvHVxo=/fit-in/1600x0/filters:focal(1024x683:1025x684)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/f8/ef/f8ef2bbf-1984-46d7-9fba-cb9324c82871/3917.jpg",
+      "groq_label": "Roman concrete's durability is attributed to its unique chemical reaction, specifically calcium-aluminum-silicate-hydrate gel formation, and the absence of steel rebar, which allows it to retain its shape and structure over time.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article about Roman concrete highlights its remarkable longevity. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the potential for modern concrete to borrow from the long-lasting properties of Roman concrete. Many appreciated the idea of carbonation contributing to the longevity of Roman concrete. Some believed it could be particularly useful for developing more durable building materials, while others questioned the economic feasibility of building structures that last for centuries. However, the discussion also revealed several criticisms. Commenters expressed concerns about the fact that modern concrete does not last as long as it should, primarily due to economic factors. Overall, the Hacker News community considered the idea of borrowing from Roman concrete positively, recognizing its potential while emphasizing that addressing economic concerns would improve its practicality and adoption. \n\n(Note: Although the discussion is centered around an article, there isn't a specific \"project\" in the traditional sense. I focused on the topic of Roman concrete and its potential application to modern building materials.)",
+      "groq_explain": null
+    },
+    {
+      "id": 48942721,
+      "author": "teleforce",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 12,
+      "time": 1784254998,
+      "title": "UIUC AI Teaching Assistant",
+      "type": "story",
+      "url": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+      "og_image": "https://opengraph.githubassets.com/8716258c7d328178c00b6dc61c817b2d909ba1b4de622ea62513cf4e8c084c38/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+      "groq_label": "A typical grading rubric for UIUC (University of Illinois at Urbana-Champaign) AI project assignments includes requirements such as source code documentation, model evaluation, dataset analysis, and code organization in addition to accuracy metrics.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48942454,
+      "author": "aussieguy1234",
+      "descendants": 45,
+      "kids": "[48943186,48943899,48943851,48943334,48943133,48943605,48943786,48942718,48943217,48943264,48943805,48943512,48943188]",
+      "score": 73,
+      "time": 1784252212,
+      "title": "GrapheneOS recommended for domestic abuse victims",
+      "type": "story",
+      "url": "https://privacypros.com.au/privacy-hub/articles/dv-safe-phone-australia/",
+      "og_image": "images/48942454.png",
+      "groq_label": "A security-focused custom Android OS, GrapheneOS, is being recommended to individuals, including domestic abuse victims, as a means of protecting their privacy and security.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project recommends GrapheneOS for Domestic abuse victims. The Hacker News discussion was generally mixed, with many commenters appreciating the potential benefits of GrapheneOS, such as increased privacy, and particularly highlighted its feature of Fingerprint with Pin 2FA. However, several commenters raised concerns about the technical complexity of GrapheneOS, questioning whether it's accessible to non-technical users, and criticizing the recommendation for victims of domestic abuse. Critics argued that domestic abuse victims should prioritize seeking support from institutions and not rely solely on technology, and others felt that the recommendation was driven by the sales of tracker-free phones. Overall, the discussion suggests that the community sees promise in GrapheneOS but believes there are important considerations that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 48942125,
       "author": "hnburnsy",
@@ -389,66 +449,6 @@
       "og_image": "https://hilogame.cc/icon-512.png",
       "groq_label": "The game's binary search approach doesn't appear to provide immediate feedback or sufficient guidance to users, causing frustration and confusion.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this words game based on binary search with mixed reactions. Some users had a negative experience, citing issues such as incorrect word validation and a lack of guidance. Users suggested adding features such as a practice mode, letting users play older games, and shorter words to improve gameplay. Others praised the idea and expressed interest in playing, suggesting that with some refinements, the game could be more enjoyable and engaging.",
-      "groq_explain": null
-    },
-    {
-      "id": 48933419,
-      "author": "nekusar",
-      "descendants": 28,
-      "kids": "[48934701,48934441,48934618,48934319,48934574,48934428,48934552,48934411,48934607,48934228,48934429]",
-      "score": 63,
-      "time": 1784204023,
-      "title": "Sony Deletes a Bunch More Movies from the Accounts of People Who 'Bought' Them",
-      "type": "story",
-      "url": "https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/",
-      "og_image": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png",
-      "groq_label": "People who were led to believe they owned digital movies through a 'Buy' button are now being prevented from accessing them due to Sony removing titles from user accounts.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Sony's actions is that it is a highly questionable practice. Commenters frequently criticized Sony for removing movies from people's accounts who had \"bought\" them, with many describing the practice as a form of \"rental\" rather than true ownership. They also highlighted the issue with the \"Buy\" button implying a permanent purchase, rather than a temporary rental. The consensus is that the practice is unacceptable and that users should have the right to own their purchased content free from removal by the distributor.",
-      "groq_explain": null
-    },
-    {
-      "id": 48933370,
-      "author": "zazuke",
-      "descendants": 1,
-      "kids": "[48934490]",
-      "score": 16,
-      "time": 1784203542,
-      "title": "The Act and the Outcome of Creation",
-      "type": "story",
-      "url": "https://www.ssp.sh/blog/on-creation/",
-      "og_image": "https://www.ssp.sh/blog/on-creation/featured-image.jpg",
-      "groq_label": "Reawakening creativity requires consistent exercise and practice, much like building any other skill, and it can manifest in various skills such as drawing or writing once the initial focus is established.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis personal essay or blog post aims to share the author's experience of reigniting their creativity in 2026 by focusing on drawing from an industrial design perspective. Based on the Hacker News discussion, commenters generally viewed the post positively and highlighted strengths such as the author's engaging writing style, inspiring personal story, and innovative approach to creativity. Many appreciated the author's honesty about the process of developing their skills and the importance of taking action towards creative pursuits. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of specificity and concrete takeaways from the post, with some questioning the applicability of the author's story to others. Others pointed out the technical limitations of the drawing process and the time-consuming nature of creating prototypes. Overall, the Hacker News community considered the post inspiring and motivational, recognizing its potential to spark creativity in readers while emphasizing the need for practical advice and actionable steps.",
-      "groq_explain": null
-    },
-    {
-      "id": 48933344,
-      "author": "1vuio0pswjnm7",
-      "descendants": 149,
-      "kids": "[48934113,48933677,48933912,48934398,48934253,48933686,48934144,48934420,48934039,48934659,48934177,48934201,48934248,48934522,48934119,48933989,48933849,48933604,48934627,48933923,48934597,48934447,48933878,48934322,48933718,48934463,48934674,48934216,48933993,48933787,48933906,48934079,48934361,48934345,48933846,48934198]",
-      "score": 206,
-      "time": 1784203331,
-      "title": "SpaceX stock erases all its gains and slides below IPO price in intraday trading",
-      "type": "story",
-      "url": "https://www.latimes.com/business/story/2026-07-16/spacex-stock-erases-gains-slides-below-ipo-price-in-intraday-trading",
-      "og_image": "https://ca-times.brightspotcdn.com/dims4/default/6a04202/2147483647/strip/true/crop/4367x2293+0+310/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe6%2F5e%2Ff0d9b82c41a7b2c7d21d1d40a35c%2F175bee518a5a4f52b3535fdc3938398b.jpg",
-      "groq_label": "Traditional IPO valuation assumptions break down for companies like SpaceX with enormous, theoretically untradable stock market value.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis SpaceX IPO aims to solve no specific problem but instead attempts to provide a valuation for the company. The Hacker News discussion is generally critical, with many commenters expressing concerns about the company's fundamentals and valuation. They argued that the company is massively overhyped, citing its high market cap and lack of profitability, and believe that the current price is not justifiable based on its financials. Some also pointed out that the company's transition from aerospace to AI in less than 6 months is not well-supported. However, a few commenters noted that the initial drop in the share price may not necessarily be a bad sign, as it could indicate that the banks accurately estimated the company's value. Overall, the discussion suggests that the community sees the IPO as overhyped but believes that the company's long-term prospects will depend on its ability to match its pro formas with its financial performance.",
-      "groq_explain": null
-    },
-    {
-      "id": 48933303,
-      "author": "onatm",
-      "descendants": 8,
-      "kids": "[48934153,48934506,48934137,48934014,48933729,48933573]",
-      "score": 44,
-      "time": 1784203089,
-      "title": "Let's Build PlanetScale from Scratch: Infrastructure",
-      "type": "story",
-      "url": "https://onatm.dev/2026/07/16/homescale-part-1/",
-      "og_image": "https://onatm.dev/assets/images/og/posts/homescale-part-1.png",
-      "groq_label": "PITR is achieved by having a read replica of the Postgres instance that's always a little behind the master, allowing for point in time recovery within a minute.",
-      "groq_discussion": "Discussion type: – Basic\n\nThis article aims to build PlanetScale from scratch, focusing on its infrastructure. \nBased on the Hacker News discussion, commenters generally viewed the idea negatively and highlighted criticisms such as lack of mentioning sharding and the importance of a bouncer/gateway/reverse proxy for zero downtime. Many appreciated the potential for discussing the F1 team's experience with PlanetScale, but felt that the project idea itself was incomplete and overly simplistic, compared to the company's actual product. However, the discussion also revealed some enthusiasm, with one commenter excited about trying out PITR in their homelab. Overall, the Hacker News community considered the idea lacking, recognizing its potential but criticizing its narrow scope and misunderstanding of PlanetScale's primary objective.",
       "groq_explain": null
     }
   ]
