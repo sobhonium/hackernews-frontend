@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-18T02:46:10.087Z"
+    "lastUpdated": "2026-07-18T06:09:17.505Z"
   },
   "stories": [
+    {
+      "id": 48954851,
+      "author": "vitaut",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 28,
+      "time": 1784344460,
+      "title": "Regressive JPEGs",
+      "type": "story",
+      "url": "https://maurycyz.com/projects/bad_jpeg/",
+      "og_image": "https://maurycyz.com/projects/bad_jpeg/cats.jpg",
+      "groq_label": "When decoding JPEGs, the decompression step that reconstructs AC coefficients is lossy, but the dequantization step that converts these coefficients to integers is reversible.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 48954175,
       "author": "ksymph",
@@ -90,6 +105,21 @@
       "og_image": "https://i0.wp.com/localnewsmatters.org/wp-content/uploads/2026/07/LNM-20260713-MATTERSKAISER-01.jpg?fit=2000%2C1333&ssl=1",
       "groq_label": "Kaiser nurses report concerns about the impact of AI tools and workplace surveillance on the quality of their work and patient care.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article addresses the concerns of Kaiser nurses who believe that AI and workplace surveillance are negatively impacting their jobs and the quality of care. Based on the Hacker News discussion, commenters generally viewed the situation as a concern, highlighting strengths such as the potential benefits of AI in healthcare, specifically medical LLM tools, and the nurses' valuable work. Many appreciated the ability of these tools to save time and provide better care, while others believed AI could be useful in monitoring patient data and improving outcomes. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential misuse of metrics and the negative impact of pressure to ration care, as well as the issue of AI being used to monitor and control nurses' behavior. Overall, the Hacker News community considered the situation worrisome, recognizing the potential benefits of AI while emphasizing the need to avoid over-reliance on metrics and surveillance.",
+      "groq_explain": null
+    },
+    {
+      "id": 48952565,
+      "author": "BadChemical",
+      "descendants": 18,
+      "kids": "[48954331,48954568,48954953,48952566]",
+      "score": 80,
+      "time": 1784324563,
+      "title": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
+      "type": "story",
+      "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md",
+      "og_image": "https://opengraph.githubassets.com/c30918f8ebd78add42f25065f7de387aef1a56256e7cb65065fdcff3a0e6d8d2/BadChemical/IoT-Vulnerability-Research-Public",
+      "groq_label": "TP-Link Kasa cameras exposed home GPS coordinates via unauthenticated UDP for six years through a vulnerability.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis report highlights a serious security flaw in TP-Link Kasa cameras, specifically their unauthenticated UDP communication, which exposed home GPS locations for six years. Based on the Hacker News discussion, commenters generally viewed the project negatively and highlighted several criticisms, such as intentional or unintentional security holes in cheap, Chinese-made IoT devices, a poor disclosure timeline, and serious vulnerabilities (e.g., CVE-2026-13230) that allowed remote attackers to deduce locations through various means. Many appreciated comments like a user expressing their frustration with the disclosure process and questioning the vendor's description of the vulnerability. Others believed that the exposure of GPS location through insecure IoT devices poses significant risks, and the community was critical of the project due to these limitations.",
       "groq_explain": null
     },
     {
@@ -418,36 +448,6 @@
       "og_image": "https://ecm.capitalone.com/WCM/tech/blog-images/open-source/tmpblog-vulnhunter-hero-072026/rdesktop.png",
       "groq_label": "Capital One created an open-source agentic AI code security tool named VulnHunter.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis VulnHunter tool aims to solve the problem of identifying vulnerabilities in AI code. Based on the Hacker News discussion, commenters generally had mixed reactions, noting that it's interesting but still in its early stages and requires further development. Many appreciated its open-source approach, but others questioned its complexity and the need for such a specialized tool. Although some believed it could be particularly useful for companies dealing with large AI codebases, the discussion also revealed several criticisms, with some questioning its effectiveness and others pointing out technical limitations. Overall, the Hacker News community considered the project cautiously, recognizing its potential but emphasizing that addressing these concerns would be necessary for its widespread adoption.\n\nHowever I think it's a more objective discussion \nDiscussion type: – Objective:\n\nThis VulnHunter tool is designed to address the problem of identifying vulnerabilities in AI code. The discussion reflects a mixed assessment. Supporters argued that it's an interesting development that could potentially be useful, while critics pointed out that it's still a prototype and requires further refinement. Several commenters also shared technical observations regarding its functionality, providing additional context about the project's strengths and weaknesses. Overall, the discussion presents the project as an intriguing solution with several practical limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48946303,
-      "author": "merksittich",
-      "descendants": 49,
-      "kids": "[48946717,48946775,48946639,48947263,48946680,48946805,48946702,48946329,48946662,48946822,48946720,48947051]",
-      "score": 86,
-      "time": 1784289759,
-      "title": "Apple targets dozens of OpenAI employees with legal letters",
-      "type": "story",
-      "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fimages.ft.com%2Fv3%2Fimage%2Fraw%2Fhttps%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Feb588ccd-457b-4974-bfab-ca7ca8563612.jpg%3Fsource%3Dnext-barrier-page%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-barrier-page",
-      "groq_label": "Apple targets current and former employees at OpenAI with document retention letters and is widely seen as an aggressive escalation of its alleged intellectual property theft case.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about Apple sending legal letters to dozens of OpenAI employees aims to solve the problem of potentially sensitive intellectual property being poached by OpenAI. The Hacker News discussion was generally mixed, with many commenters appreciating Apple's attempt to protect its interests but also raising concerns about Apple's aggressive approach. At the same time, several commenters pointed out the limitations of Apple's strategy, arguing that it may come across as \"evil\" and undermine trust in their brand. Overall, the discussion suggests that the community sees both potential value in Apple's actions and important challenges that still need to be addressed, such as Apple's ability to compete in the AI space.",
-      "groq_explain": null
-    },
-    {
-      "id": 48946010,
-      "author": "twerkmeister",
-      "descendants": 161,
-      "kids": "[48946435,48946425,48946209,48946806,48947246,48946149,48946852,48946932,48946307,48946381,48946011,48946907,48946292,48946343,48946311,48947124,48946165,48946515,48946679,48946142,48946878,48947059,48946221,48946668,48946219,48946933,48946769,48947076,48946671,48946632]",
-      "score": 296,
-      "time": 1784287800,
-      "title": "Blatant AI slop just won a 25k USD DeepMind Kaggle Grand Prize",
-      "type": "story",
-      "url": "https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423",
-      "og_image": "https://www.kaggle.com/open-graph/images/Competitions/128852",
-      "groq_label": "DeepMind's use of AI to evaluate Kaggle submissions appears to have led to a 25k USD prize being awarded to a winning entry generated with obvious slop and lacking in quality.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis article reports on a DeepMind Kaggle Grand Prize won by a project that relied heavily on AI and generated subpar results. The Hacker News discussion suggests that commenters were primarily concerned by the implications of AI being used to judge submissions, with many arguing that it has led to the downfall of fair hackathons. Commenters highlighted the issue of AI being used to generate code, prompting injection, and AI-assisted judging. \n\nCommenters frequently praised the idea that AI can excel when given objective metrics to hill-climb towards, but criticized the use of AI for judging submissions, citing concerns about the reliability and accuracy of the results. They also expressed frustration about the reliance on AI to produce slop-filled content, including papers and resumes. \n\nThe discussion repeatedly highlighted concerns about the impact of AI on research quality, with some commenters suggesting that it has led to a decrease in the quality of products and an increase in the number of people choosing the easy way out. Many also questioned the use of AI to evaluate submissions and the potential for AI to be used to manipulate results.",
       "groq_explain": null
     }
   ]
