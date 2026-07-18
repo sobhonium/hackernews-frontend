@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-18T06:09:17.505Z"
+    "lastUpdated": "2026-07-18T09:39:35.171Z"
   },
   "stories": [
+    {
+      "id": 48955042,
+      "author": "gregsadetsky",
+      "descendants": 15,
+      "kids": "[48956300,48956317,48955904,48955377,48955373]",
+      "score": 31,
+      "time": 1784346702,
+      "title": "Show HN: IKEA Complexity Index",
+      "type": "story",
+      "url": "https://ikea.greg.technology/",
+      "og_image": "images/48955042.png",
+      "groq_label": "IKEA's item numbers starting with an \"s\" indicate complex products that consist of multiple distinct child articles.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis web tool, the IKEA Complexity Index, aims to solve the problem of understanding the complexity of IKEA furniture assembly. The Hacker News discussion was generally positive, with many commenters appreciating the tool's ability to reveal the intricacies of IKEA's item numbers and the complexity of assembly. For example, one commentator found it helpful to see that certain items consist of multiple child articles, which is not immediately apparent from the item number. However, the discussion also raised some criticisms, such as the need for a column to document the disassembly process and concerns about the accuracy of the reported complexity number. Overall, the discussion suggests that the community sees value in this tool but also believes there are some important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 48954851,
       "author": "vitaut",
@@ -60,6 +75,21 @@
       "og_image": "https://bookface-images.s3.amazonaws.com/logos/6b57f1a7b6dd9a5c9660f68f80895462c94843d4.png?1668800160",
       "groq_label": "DrDroid, a company emerging from Y Combinator Winter 2023, is currently seeking to fill various positions.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48953981,
+      "author": "radeeyate",
+      "descendants": 13,
+      "kids": "[48956519,48956244,48954546,48954916,48955369,48954909]",
+      "score": 53,
+      "time": 1784335717,
+      "title": "Stenchill: 3D Printable Solder Paste Stencil Generator",
+      "type": "story",
+      "url": "https://www.stenchill.com/en/",
+      "og_image": "https://stenchill.com/og-image.png",
+      "groq_label": "Three-dimensional printable solder paste stencils can be imperfect due to low-accuracy 3D printing.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Stenchill project is positive. Commenters generally praised the idea of a 3D printable solder paste stencil generator, describing it as a game-changer for electronics manufacturing. However, some commenters also shared concerns about the accuracy of cheap 3D printers, suggesting that laser cut stencils or other methods might be more effective. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these concerns and implementing the tool in a way that minimizes wasted paste and ensures accurate results.",
       "groq_explain": null
     },
     {
@@ -418,36 +448,6 @@
       "og_image": "https://en.ubiresearchnet.com/wp-content/uploads/2026/07/multi-primary-color-display-2026-ubiresearchnet.jpg",
       "groq_label": "Adding more primary colors doesn't increase the perceivable gamut because human eyes have limited cone receptors to detect the color range, but it allows for more precise and nuanced color reproduction within that existing range by enabling more detailed and accurate color representation.",
       "groq_discussion": "Discussion type: – Short:\n\nThis multi-primary color display technology aims to improve color reproduction. Hacker News commenters generally expressed confusion about how it works and questioned its usefulness due to potential limitations, including the fact that human eyes are limited to perceiving color in three (or sometimes four) cones.",
-      "groq_explain": null
-    },
-    {
-      "id": 48946783,
-      "author": "frizlab",
-      "descendants": 5,
-      "kids": "[48947157,48947278,48947148,48947145]",
-      "score": 30,
-      "time": 1784292629,
-      "title": "Minikotlin",
-      "type": "story",
-      "url": "https://minikotlin.run",
-      "og_image": "https://minikotlin.run/assets/favicon.svg",
-      "groq_label": "Minikotlin provides an alternative to online Kotlin editors like Kotlin Playground with local compilation for testing tiny code snippets.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Minikotlin project aims to solve the problem of allowing users to test and experiment with Kotlin code in a straightforward, user-friendly manner. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its cool UI and the fact that it compiles locally on the user's device. Many appreciated the project's ability to quickly test out and run small Kotlin code snippets, noting that it can be particularly useful for rapidly trying out ideas or testing simple algorithms. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of link to the code and questioned how users would integrate the project into their development workflow. Overall, the Hacker News community considered the project positive, recognizing its potential as a useful tool for Kotlin developers while suggesting that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 48946692,
-      "author": "medina",
-      "descendants": 1,
-      "kids": "[48946693,48946989]",
-      "score": 8,
-      "time": 1784292132,
-      "title": "VulnHunter: Capital One's agentic AI code security tool",
-      "type": "story",
-      "url": "https://www.capitalone.com/tech/open-source/announcing-vulnhunter/",
-      "og_image": "https://ecm.capitalone.com/WCM/tech/blog-images/open-source/tmpblog-vulnhunter-hero-072026/rdesktop.png",
-      "groq_label": "Capital One created an open-source agentic AI code security tool named VulnHunter.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis VulnHunter tool aims to solve the problem of identifying vulnerabilities in AI code. Based on the Hacker News discussion, commenters generally had mixed reactions, noting that it's interesting but still in its early stages and requires further development. Many appreciated its open-source approach, but others questioned its complexity and the need for such a specialized tool. Although some believed it could be particularly useful for companies dealing with large AI codebases, the discussion also revealed several criticisms, with some questioning its effectiveness and others pointing out technical limitations. Overall, the Hacker News community considered the project cautiously, recognizing its potential but emphasizing that addressing these concerns would be necessary for its widespread adoption.\n\nHowever I think it's a more objective discussion \nDiscussion type: – Objective:\n\nThis VulnHunter tool is designed to address the problem of identifying vulnerabilities in AI code. The discussion reflects a mixed assessment. Supporters argued that it's an interesting development that could potentially be useful, while critics pointed out that it's still a prototype and requires further refinement. Several commenters also shared technical observations regarding its functionality, providing additional context about the project's strengths and weaknesses. Overall, the discussion presents the project as an intriguing solution with several practical limitations.",
       "groq_explain": null
     }
   ]
