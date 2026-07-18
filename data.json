@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-18T17:04:06.487Z"
+    "lastUpdated": "2026-07-18T20:55:59.293Z"
   },
   "stories": [
+    {
+      "id": 48961504,
+      "author": "hronecviktor",
+      "descendants": 11,
+      "kids": "[48962074,48962026,48961722,48961944,48961593,48962144]",
+      "score": 22,
+      "time": 1784403501,
+      "title": "Typing Speed Test, but for Developers",
+      "type": "story",
+      "url": "https://haxxorwpm.0s.is/",
+      "og_image": "images/48961504.png",
+      "groq_label": "Modeling tab completion is necessary to accurately measure terminal command typing speed.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Typing Speed Test for Developers aims to measure terminal fluency. The Hacker News discussion was generally positive, with several commenters appreciating the niche idea and its potential to track developers' muscle memory in typing terminal commands. Some commenters pointed out the need to model tab completion to accurately measure performance, while others suggested improving the UI. However, the discussion also included criticisms, such as the test's focus being too narrow, specifically targeting devops rather than all developers. Despite these limitations, the overall sentiment suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48960551,
+      "author": "andrewtorkbaker",
+      "descendants": 38,
+      "kids": "[48961926,48961045,48961091,48960597,48960942,48962057,48961782,48962136,48961781,48961328,48960687,48961853]",
+      "score": 28,
+      "time": 1784397983,
+      "title": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
+      "type": "story",
+      "url": "https://imaxxing.io/",
+      "og_image": "https://imaxxing.io/og.png",
+      "groq_label": "Many theaters are offering limited engagements of The Odyssey in 70mm IMAX due to the high upfront cost of converting their screens for this format.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis [article/project] is designed to provide alerts for good seats at 70mm IMAX showings of The Odyssey. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the project is useful for [getting tickets to popular IMAX screenings], while critics pointed out [waste of time and money]. Several commenters also shared questions and suggestions, providing additional context about the project's intentions and limitations. Overall, the discussion presents the project as a convenient tool with a niche audience, but also raises concerns about its practicality and value.",
+      "groq_explain": null
+    },
+    {
+      "id": 48960218,
+      "author": "sbochins",
+      "descendants": 150,
+      "kids": "[48961457,48961187,48961116,48962257,48961849,48961109,48961356,48961772,48962054,48962126,48961624,48961763,48962159,48961655,48961085,48961756,48961654,48961488,48960986,48961916,48962091,48961532,48961313,48961768,48961018,48961710,48961373,48961671,48961160,48961816]",
+      "score": 170,
+      "time": 1784395960,
+      "title": "The Kimi K3 Moment",
+      "type": "story",
+      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
+      "og_image": "https://stephen.bochinski.dev/assets/posts/2026-07-18-the-kimi-k3-moment.png",
+      "groq_label": "Kimi K3 is a model where distillation plays a key role in its creation and efficiency, allowing a cheaper alternative to existing large language models.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis [Kimi K3 project] aims to solve the problem of developing an alternative to mainstream AI models. The Hacker News discussion was generally mixed, with many commenters appreciating its strengths, such as offering a cheaper alternative to existing models, while others raised concerns about its limitations, including its performance, especially with tasks that require significant computational resources. Commenters pointed out that subscription usage limits can be unpredictable, making it difficult to evaluate its effectiveness. At the same time, the discussion highlighted concerns about the reliability of open-source models, as well as the privacy implications of using Kimi K3, particularly with regards to how it collects and uses user data. Overall, the discussion suggests that the community sees potential in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 48960155,
+      "author": "Ygg2",
+      "descendants": 142,
+      "kids": "[48962298,48962166,48961128,48960858,48960956,48962060,48960904,48961086,48962178,48961006,48960948,48960790,48961851,48961118,48960985,48960640,48960854,48961132,48961718,48961462,48960612,48960762,48960694,48961678,48960503,48960523,48961039,48960918,48961027,48961069,48960630]",
+      "score": 141,
+      "time": 1784395644,
+      "title": "Goodbye, and Thanks for All the Bikesheds",
+      "type": "story",
+      "url": "https://queue.acm.org/detail.cfm?id=3818307",
+      "og_image": "https://queue.acm.org/img/acmqueue_logo.gif",
+      "groq_label": "ACM editor made a bikeshed error in choosing a title phrase from Douglas Adams' book.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the shift in online dynamics and the impact of regulations on openness. The Hacker News discussion was generally mixed, with many commenters appreciating the author's attempt to analyze the current state of the internet and its future directions. However, several commenters raised concerns about the article's tone and the proposed solutions, which they believe may not be effective. The discussion also highlighted a range of opinions on the topic of anonymity online, with some users expressing support for increased regulation and others arguing that it would have negative consequences. The overall impression suggests that the community sees both promise and challenges in the proposed changes.",
+      "groq_explain": null
+    },
     {
       "id": 48959575,
       "author": "appreciatorBus",
@@ -390,66 +450,6 @@
       "og_image": "https://www.crowdsupply.com/img/7a19/ea41febb-029e-492e-bb3b-5953813c7a19_open-graph.jpg",
       "groq_label": "The device's emphasis on openness, simplicity, and focus on reading is what makes it beautiful.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Open Book Touch is that it's a promising but somewhat flawed project. Commenters frequently praised the project's open-source approach, its thoughtful design, and the honesty of the comparison matrix. However, the discussion also included recurring concerns about its small screen size, lack of physical buttons, and limited features. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these criticisms and adding features that some commenters felt were essential, such as a dictionary and flash card creation functionality.",
-      "groq_explain": null
-    },
-    {
-      "id": 48951898,
-      "author": "lalitmaganti",
-      "descendants": 3,
-      "kids": "[48954054,48953883,48953818]",
-      "score": 54,
-      "time": 1784319895,
-      "title": "Static search trees: 40x faster than binary search (2024)",
-      "type": "story",
-      "url": "https://curiouscoding.nl/posts/static-search-tree/",
-      "og_image": "https://curiouscoding.nl/ox-hugo/1-binary-search.svg",
-      "groq_label": "Static search trees using Eytzinger layout are 40x faster than binary search due to efficient caching of needed values.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post/research] aims to optimize search functionality through the adoption of static search trees. Based on the Hacker News discussion, commenters generally viewed \nthe concept positively and highlighted strengths such as the efficient caching property in the Eytzinger layout, which significantly improves the speed of binary search. Many appreciated the comparison to binary heaps, noting that this similarity enables efficient search in unbalanced trees, while others believed the concept could be particularly useful for applications that rely heavily on search. However, the discussion also revealed a criticism about binary heaps not supporting efficient search in balanced trees. Overall, the Hacker News community considered the idea promising and potentially impactful, recognizing its potential while emphasizing the need for addressing the balance issue in binary heaps.",
-      "groq_explain": null
-    },
-    {
-      "id": 48951756,
-      "author": "zdw",
-      "descendants": 4,
-      "kids": "[48959510,48958864,48959196]",
-      "score": 32,
-      "time": 1784319002,
-      "title": "Tech note: making your own V-I plots at home",
-      "type": "story",
-      "url": "https://lcamtuf.substack.com/p/tech-note-making-your-own-v-i-plots",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!mogl!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c067d6a-db6f-41fc-8c73-7b2593c66cbd_2000x1334.jpeg",
-      "groq_label": "A digital oscilloscope and a source measure unit can be used together to make a V-I plot at home.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the book \"The Secret Life of Circuits\" is largely negative. Commenters frequently criticized the book's approach, describing it as unnecessary due to the availability of modern digital tools, and expressing frustration with the author's attempt to convey \"true intuition\" without providing clear, practical guidance. The overall consensus is that the book fails to deliver on its promise of helping hobbyists and electronics enthusiasts, and instead relies on vague and unhelpful statements.",
-      "groq_explain": null
-    },
-    {
-      "id": 48951461,
-      "author": "st_goliath",
-      "descendants": 11,
-      "kids": "[48952231,48952051,48951808,48951812,48952071,48951863,48952119,48952069]",
-      "score": 61,
-      "time": 1784317262,
-      "title": "The Zilog Z80 has turned 50",
-      "type": "story",
-      "url": "https://goliath32.com/blog/z80.html",
-      "og_image": "https://goliath32.com/img/return.gif",
-      "groq_label": "The Zilog Z80 is a 50-year-old CPU that has maintained relevance despite being \"old\" at the time many programmers first learned to code on it.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article celebrating the 50th anniversary of the Zilog Z80 CPU aims to revive nostalgia and highlight the CPU's enduring legacy. Based on the Hacker News discussion, commenters generally viewed the CPU positively and highlighted strengths such as its impact on teaching programming and its continued use in legacy systems like calculators. Many appreciated the CPU's reliability and durability, noting that it has been used by millions of people, including American schoolchildren. The discussion also showed the emotional connection many developers have with the Z80, remembering their early days of learning programming. However, the discussion also revealed several criticisms, including the fact that the Z80 stopped being manufactured last year. Overall, the Hacker News community considered the Z80's legacy positively, recognizing its significant impact on the development of computing and programming.",
-      "groq_explain": null
-    },
-    {
-      "id": 48950774,
-      "author": "lortex",
-      "descendants": 13,
-      "kids": "[48952044,48952000,48952150,48952073,48951525,48951817,48951571]",
-      "score": 21,
-      "time": 1784313453,
-      "title": "Show HN: A zoomable timeline of 4M Wikipedia events",
-      "type": "story",
-      "url": "https://app.everything.diena.co/",
-      "og_image": "https://app.everything.diena.co/diena-everything-feature-graphic.png",
-      "groq_label": "A zoomable timeline of 4 million Wikipedia events has inaccuracies in date display and UI freezing issues, particularly on Firefox and Chrome Android.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis zoomable timeline of Wikipedia events addresses problems of viewing large amounts of historical data. Hacker News commenters generally appreciated its functionality and believed the project could be useful for exploring historical events. However, they also expressed concerns about data accuracy and UI issues when zooming in, as well as compatibility problems with certain browsers. Overall, the discussion was cautious optimistic, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     }
   ]
