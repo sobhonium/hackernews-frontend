@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T13:26:57.999Z"
+    "lastUpdated": "2026-07-19T17:03:57.991Z"
   },
   "stories": [
+    {
+      "id": 48968949,
+      "author": "ibobev",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 5,
+      "time": 1784474422,
+      "title": "C64 Basic Dungeon Crawler: Goblin Attack (C64 Basic Part 8)",
+      "type": "story",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part8/",
+      "og_image": "https://retrogamecoders.com/wp-content/uploads/2026/07/c64-dungeon-crawler-coding-lesson-8-commodore-basic-roguelike-programming.png",
+      "groq_label": "The player's character can now launch a goblin attack function with variable damage based on their weapon type.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48968063,
+      "author": "teleforce",
+      "descendants": 28,
+      "kids": "[48969222,48968397,48969757,48969041,48969644,48969488,48968618,48969088,48968865,48968498]",
+      "score": 51,
+      "time": 1784467769,
+      "title": "Bananas sprout in Rayleigh Garden UK after 15 years",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/cvg8edqq5g5o",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/945a/live/453b2d10-8132-11f1-b525-63787292c170.jpg",
+      "groq_label": "The Musa Basjoo banana plant species is known to tolerate freezing temperatures and is being grown successfully in the UK, allowing for rare banana sprouts in Rayleigh Garden.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis unusual phenomenon in Rayleigh Garden UK, where bananas began to sprout after 15 years, sparked a discussion on Hacker News. The discussion was generally mixed, with some commenters expressing curiosity about the opportunity to grow bananas in non-tropical climates. Many praised the resilience of banana plants, with one commenter sharing their experience growing Musa Sikkimensis and Musa Basjoo in Southern England.  Others highlighted the potential economic benefits of cultivating bananas in the UK, while others questioned the environmental impact of altering local ecosystems with non-native species. However, some commenters expressed skepticism about the practicality and sustainability of growing bananas in the UK, citing concerns about temperature fluctuations and export opportunities. Overall, the community's perspective suggests a nuanced view of the issue, highlighting both the potential benefits and challenges.",
+      "groq_explain": null
+    },
     {
       "id": 48967355,
       "author": "bkotrys",
@@ -34,6 +64,21 @@
       "groq_explain": null
     },
     {
+      "id": 48966984,
+      "author": "andros",
+      "descendants": 43,
+      "kids": "[48968882,48969770,48969769,48969623,48969189,48968315,48968978,48967148,48969159,48968162,48968352,48968270,48969472,48968582,48968341,48967895,48969745,48969727,48968235]",
+      "score": 77,
+      "time": 1784459678,
+      "title": "I joined the IndieWeb, here's what I learned",
+      "type": "story",
+      "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/",
+      "og_image": "https://img.andros.dev/yzCsfEYO8dKYjakeL7mkshKOE7o=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/jurian-kersten-nZI4q-nmzjU-unsplash.jpg",
+      "groq_label": "The IndieWeb involves a set of protocols that require significant technical expertise, leading to a disconnect between the community's claimed focus on user-centric content and the actual complexity of its systems.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about the author's experience joining the IndieWeb community highlights both the excitement and criticism surrounding this social media alternative. On one hand, many commenters praised the IndieWeb's goal of giving creators full control over their online presence, with some even suggesting that it's a promising solution for those looking to break free from social media silos. Others appreciated the community's emphasis on modern web functionality, as seen in the Qbix Platform's ability to use PHP for hosting and maintaining sites. \n\nHowever, some commenters expressed concerns about the technical complexity of the IndieWeb, with at least one developer stating that the current systems are \"completely unworkable for 90% of users.\" Others criticized the overemphasis on engineering over user experience, noting that content UX should be prioritized to make it easier for users to join and engage with the community. \n\nFurthermore, the discussion touched on the importance of archiving and preserving user-generated content, referencing the massive loss of music data during MySpace's server migration. \n\nOverall, the discussion suggests that the IndieWeb community is seen as having promise, but it still needs to address its limitations, complexity, and user experience to become more accessible and widely adopted.",
+      "groq_explain": null
+    },
+    {
       "id": 48966769,
       "author": "steinuil",
       "descendants": 11,
@@ -61,6 +106,21 @@
       "og_image": "https://chipweinberger.com/assets/20260719-hardware-is-not-so-hard/jamcorder-in-situ.png",
       "groq_label": "Several commenters find selling hardware easier than expected as most challenges involved paperwork and certification rather than building the product itself.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis project aims to develop and sell 2,500 MIDI recorders. The Hacker News discussion was generally positive, with many commenters appreciating the author's experience and insights gained from navigating the process of designing and selling a hardware product. Several commenters noted that they found the process of working with physical products challenging, but rewarding. However, the discussion also included some criticism, with one commenter arguing that the take on software being harder is misguided, and that the real challenge lies in hardware development due to tooling costs and the difficulty of creating and testing physical prototypes. Overall, the discussion suggests that the community sees the project as a promising example of hardware development, but also recognizes the challenges involved in this process.",
+      "groq_explain": null
+    },
+    {
+      "id": 48966569,
+      "author": "tosh",
+      "descendants": 298,
+      "kids": "[48968728,48966727,48966826,48968666,48967617,48968024,48967084,48967289,48967596,48969587,48966838,48966891,48967107,48967262,48968578,48968965,48967098,48967345,48969187,48966926,48966731,48967436,48967417,48967058,48966933,48966854,48966856,48966963,48966784,48969437,48967782,48967079,48966943,48967035,48967310,48969450]",
+      "score": 201,
+      "time": 1784455403,
+      "title": "Claude Code uses Bun written in Rust now",
+      "type": "story",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "og_image": "images/48966569.png",
+      "groq_label": "The rewrite of Claude Code from Bundled JavaScript to Rust uses Bun as an intermediate step written in Rust.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis article/project (Claude Code using Bun written in Rust) aims to solve the problem of improving performance in text-based interfaces. \nThe Hacker News discussion suggests that commenters were primarily divided on the strengths and weaknesses of the project. \nMany praised the move to a Rust backend as a positive step towards better performance, but others were skeptical about the choice of using a JavaScript runtime, like Bun, and questioned whether rewriting the project in a native language from the start would have been more practical and cost-effective. \nSeveral commenters noted that the project's communication and decision-making process were handled poorly, with some users pointing out that the community wasn't informed about significant changes until late in the process. \nAt the same time, the discussion repeatedly highlighted concerns about technical issues, such as crashes and poor performance, some users reported with recent versions of Claude. \nWhile there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement.",
       "groq_explain": null
     },
     {
@@ -304,6 +364,21 @@
       "groq_explain": null
     },
     {
+      "id": 48962600,
+      "author": "vimarsh6739",
+      "descendants": 2,
+      "kids": "[48969412,48969465]",
+      "score": 24,
+      "time": 1784410118,
+      "title": "UnifiedIR for Julia",
+      "type": "story",
+      "url": "https://github.com/JuliaLang/julia/pull/62334",
+      "og_image": "https://opengraph.githubassets.com/fbb3b73e1109fecca4b24a1b57c97af0c0c153f7570a3c3314ccc75aeea87ea9/JuliaLang/julia/pull/62334",
+      "groq_label": "UnifiedIR is a low-level intermediate representation for Julia that replaces existing IRs like LLVM IR and Abstract Syntax Tree (AST), allowing MLIR-style transformations.",
+      "groq_discussion": "Discussion type:  – Balanced:\n\nThis project, UnifiedIR for Julia, aims to solve the problem of improving Julia's compilation and runtime efficiency. The Hacker News discussion was generally mixed, with many commenters appreciating the project's goals and alternative IRs, while also raising questions about its approach and relevance to existing solutions like MLIR. At the same time, several commenters raised concerns about the project's potential impact, specifically whether it would lead to faster rendering in notebooks, better debugging, and fewer NVIDIA troubles. Overall, the discussion suggests that the community sees the potential for improvement, but also believes that more information is needed to fully understand the project's benefits and limitations.",
+      "groq_explain": null
+    },
+    {
       "id": 48961504,
       "author": "hronecviktor",
       "descendants": 11,
@@ -376,81 +451,6 @@
       "og_image": "https://s.turbifycdn.com/aah/paulgraham/bel-7.gif",
       "groq_label": "Moderate views have become a target of intense scrutiny within modern societal disputes.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article \"Heresy\" seems to spark a mixed reaction on Hacker News, with some commenters appreciating its points and others labeling it as redundant and \"anti-woke\" or \"anti-political correct\". Some readers believe the essay raises important questions about free speech and censorship, particularly in relation to words that are perceived as hurtful or discriminatory, while others dismiss it as unnecessary or even racist. The discussion reveals that opinions are divided regarding the article's message and its relevance to the current political climate.\n\nThe commenters mentioned the problem with a witchhunt, specifically mentioning the US and how it compares to the rest of the world with respect to the BDS movement. The discussion includes a critical view on asking \"Is it true\" without inquiring into the underlying motivations and reasoning.\n\nThe overall sentiment suggests that the Hacker News community views the discussion as thought-provoking, yet also acknowledges differing opinions and perspectives.",
-      "groq_explain": null
-    },
-    {
-      "id": 48959392,
-      "author": "ykev",
-      "descendants": 3,
-      "kids": "[48959705,48959493,48959594]",
-      "score": 31,
-      "time": 1784391128,
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "type": "story",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "og_image": "images/48959392.png",
-      "groq_label": "Claude Code's full control over the local account suggests Macs can be used as local workstations for Claude even without installing Claude Desktop, by leveraging Dispatch's SSH-spawning capabilities.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis step-by-step guide on setting up a spare Mac for Claude Code to control aims to provide a seamless integration experience. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the effectiveness of Dispatch, which can be used to control non-Mac dependent work. Many appreciated the versatility of the Dispatch tool, noting that it allows for a reversed setup where Claude can ssh-spawn sessions on a homelab. However, the discussion also revealed several criticisms. Commenters expressed a question regarding whether the alternative setup method mentioned in the guide was necessary, as some users had achieved full control over local accounts without it. Overall, the Hacker News community considered the project helpful, recognizing its potential to simplify the process while emphasizing that some users may already have suitable working configurations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48959297,
-      "author": "bookofjoe",
-      "descendants": 4,
-      "kids": "[48959664]",
-      "score": 13,
-      "time": 1784390565,
-      "title": "Our Approach to Bioresilience: Isomorphic Labs and Google DeepMind",
-      "type": "story",
-      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "og_image": "https://lh3.googleusercontent.com/ZRyQg91pjea8kXXaGSlnZIJF90-VwnKHSBxo22e2RedCvCCszsurR8W9NHw80e1V6HtWXccbU1MI27Rtjjf963rD673XgkWK7cZe_1ekfruPgdHHVEc=w1200-h630-n-nu-rw",
-      "groq_label": "Google DeepMind and Isomorphic Labs collaborate on bioresilience efforts to combat potential misuse of AI in biosecurity and develop AI models for preventing threats and responding to outbreaks.",
-      "groq_discussion": "Discussion type: - Basic:\n\nThis project aims to address the problem of bioresilience. \nBased on the Hacker News discussion, commenters generally reacted negatively and highlighted criticisms such as a desire to focus on keeping up with other companies. Many felt that Google DeepMind's performance has been disappointing, particularly considering its shareholder status. Although there were no significant appreciations or positive points for the project, the discussion also did not reveal any specific criticisms or technical limitations. Overall, the Hacker News community viewed the project somewhat negatively, expressing frustration with the perceived lack of productivity from Google DeepMind.",
-      "groq_explain": "Google DeepMind and Isomorphic Labs are working together to improve global biosecurity by using AI to prevent, detect, and respond to infectious diseases and biological threats."
-    },
-    {
-      "id": 48959143,
-      "author": "nerdypepper",
-      "descendants": 34,
-      "kids": "[48959298,48959715,48959385,48959238,48959242,48959598,48959509]",
-      "score": 70,
-      "time": 1784389444,
-      "title": "Gleam Is Now on Tangled",
-      "type": "story",
-      "url": "https://tangled.org/gleam.run/gleam",
-      "og_image": "https://tangled.org/gleam.run/gleam/opengraph",
-      "groq_label": "Tangled is a decentralized Git provider with a still-developing feature set.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis announcement about Gleam being on Tangled needs more context; the post is only accessible to those who don't need the announcement already. Commenters generally appreciate the project but have raised concerns about its first-time user experience and limitations. The main criticism points to the need for a smoother sign-up and authentication process. Some commenters see potential in Tangled as a decentralized Git provider, especially those looking to migrate from self-hosting, but believe the feature set still has a way to go.",
-      "groq_explain": null
-    },
-    {
-      "id": 48959090,
-      "author": "barry-cotter",
-      "descendants": 4,
-      "kids": "[48959726,48959884,48959757]",
-      "score": 14,
-      "time": 1784389021,
-      "title": "If You Build It, They Will Come",
-      "type": "story",
-      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!L0xO!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb128a68-b1f1-44c9-8d42-a01d689ca8c8_1554x908.png",
-      "groq_label": "Growing social isolation has turned people into free riders expecting events and services without contributing.",
-      "groq_discussion": "Discussion Type: – Community Perspective:\n\nThe Hacker News community generally responded to this discussion with a mix of reflections on their own experiences and a hint of skepticism about people's willingness to engage in communal activities. Many commenters shared their stories of either building or struggling to build and maintain local communities. Some, like the initial commenter, spoke about the potential long-term benefits of building a community despite initial setbacks, while others expressed their exhaustion with trying to get people to participate in communal activities. However, one particular commenter saw the \"problem of free riders\" as an opportunity to create a business around hosting events.",
-      "groq_explain": null
-    },
-    {
-      "id": 48959042,
-      "author": "bbg2401",
-      "descendants": 12,
-      "kids": "[48959772,48959484,48959373,48959670,48959411,48959247,48959426,48959046]",
-      "score": 35,
-      "time": 1784388724,
-      "title": "Elixir-lang.org has a new design",
-      "type": "story",
-      "url": "https://elixir-lang.org/",
-      "og_image": "https://elixir-lang.org/images/seo/og-image-elixir.png",
-      "groq_label": "Elixir-lang.org features a new design with a focus on highlighting the language's capabilities, including distributed cluster technology.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Elixir-lang.org redesign aims to improve the platform and highlight its features. The Hacker News discussion was generally positive, with many commenters appreciating the updated design and the showcase of companies using Elixir. Some praised the language's potential uses, especially its distributed cluster capability and concurrency features. However, others criticized the redesign for being too formulaic, similar to other LLM-generated language webpages. One commenter wished more funding went into improving the BEAM performance, not counting concurrency. Overall, the discussion suggests that the community sees promise in the redesign but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
