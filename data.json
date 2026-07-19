@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T20:56:14.818Z"
+    "lastUpdated": "2026-07-19T21:52:42.721Z"
   },
   "stories": [
+    {
+      "id": 48971566,
+      "author": "jandeboevrie",
+      "descendants": 7,
+      "kids": "[48971952,48971585]",
+      "score": 13,
+      "time": 1784494242,
+      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
+      "type": "story",
+      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
+      "og_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAKCAYAAAD2Fg1xAAABgElEQVQ4jb3VP0iVYRTH8c9waXBokog7OYhTXChuF3GIi4hoiJA4REQIOTgGtoWTg6ODs0SYComIXCJEMhpKtD9guUU0ujRFS0PQ8DzC24v3Pq+3S9/pnMOP8/7Ocx6el/OziRN0JXTD+I2xhK4WdeNteGmbu8IgC3jQQlfCZ0zgINHzJabwoQP+ClHGV1zGJXwRDJ/FDJZi3MBQE10dL2K8gZFOGE3REDZyyjLunKG7KAzZHfMaXjXp+QbXYlzBfrvmSuhBNaHrxQU8zdQW8RhrOe0snuB7zA/jd6p4n9HV8QMfY/4JPzGAt7meFfS18LdXEk7uemIQuJ/Lj6PZQezFWhm3cTWnXcAj3MrU5oWh5WpzGM3UurGNZy28HSa8J7mB3Uy+4u/rl+UdrsT4Jraa6F6jP5M3MP0PHguzL9zzqmC2GRNYjXF2qDzDwgbgHp53wGMhJrEunGQ9oT3CQ+GFasWBsLVvwiv5XygJz/JOAe208POrJHST+CVspBB/AFY9Q3+QJqLxAAAAAElFTkSuQmCC",
+      "groq_label": "A new Intel Itanium emulator that boots Windows was created using QEMU with ia64 emulation support.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis new Intel Itanium (IA-64) emulator aims to run Windows on the IA-64 architecture. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the fact that someone even implemented IA-64 emulation support for QEMU in a remarkable achievement. Many appreciated the effort and contribution to open-source software development, noting that it is a huge leap in enabling Windows on IA-64. However, the discussion also revealed several criticisms. Commenters expressed concerns about the emulator's performance, noting that it runs quite slowly, equivalent to 486-level performance on a Ryzen 5000 series. Overall, the Hacker News community considered the project interesting and promising, while also acknowledging the need for further optimization to improve its performance.",
+      "groq_explain": null
+    },
     {
       "id": 48971418,
       "author": "mashally",
@@ -435,21 +450,6 @@
       "og_image": "https://opengraph.githubassets.com/fbb3b73e1109fecca4b24a1b57c97af0c0c153f7570a3c3314ccc75aeea87ea9/JuliaLang/julia/pull/62334",
       "groq_label": "UnifiedIR is a low-level intermediate representation for Julia that replaces existing IRs like LLVM IR and Abstract Syntax Tree (AST), allowing MLIR-style transformations.",
       "groq_discussion": "Discussion type:  – Balanced:\n\nThis project, UnifiedIR for Julia, aims to solve the problem of improving Julia's compilation and runtime efficiency. The Hacker News discussion was generally mixed, with many commenters appreciating the project's goals and alternative IRs, while also raising questions about its approach and relevance to existing solutions like MLIR. At the same time, several commenters raised concerns about the project's potential impact, specifically whether it would lead to faster rendering in notebooks, better debugging, and fewer NVIDIA troubles. Overall, the discussion suggests that the community sees the potential for improvement, but also believes that more information is needed to fully understand the project's benefits and limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48961504,
-      "author": "hronecviktor",
-      "descendants": 11,
-      "kids": "[48962074,48962026,48961722,48961944,48961593,48962144]",
-      "score": 22,
-      "time": 1784403501,
-      "title": "Typing Speed Test, but for Developers",
-      "type": "story",
-      "url": "https://haxxorwpm.0s.is/",
-      "og_image": "images/48961504.png",
-      "groq_label": "Modeling tab completion is necessary to accurately measure terminal command typing speed.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Typing Speed Test for Developers aims to measure terminal fluency. The Hacker News discussion was generally positive, with several commenters appreciating the niche idea and its potential to track developers' muscle memory in typing terminal commands. Some commenters pointed out the need to model tab completion to accurately measure performance, while others suggested improving the UI. However, the discussion also included criticisms, such as the test's focus being too narrow, specifically targeting devops rather than all developers. Despite these limitations, the overall sentiment suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
