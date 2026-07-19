@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T03:00:53.589Z"
+    "lastUpdated": "2026-07-19T06:35:21.114Z"
   },
   "stories": [
+    {
+      "id": 48965161,
+      "author": "mfiguiere",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 5,
+      "time": 1784437628,
+      "title": "Scrying the AMD GFX1250 LLVM Tea Leaves",
+      "type": "story",
+      "url": "https://chipsandcheese.com/p/scrying-the-amd-gfx1250-llvm-tea",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!4LWP!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25da2e03-50f1-4e93-bd87-ea0c182427b4_704x690.jpeg",
+      "groq_label": "LLVM uses magic numbers and undefined behavior to hint at the existence of a custom GPU backend with AMD's GFX1250 architecture.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48964536,
+      "author": "mgh2",
+      "descendants": 33,
+      "kids": "[48964937,48965053,48964809,48965386,48964894,48964893,48965066,48965077]",
+      "score": 58,
+      "time": 1784428822,
+      "title": "FDA approves new kind of cholesterol pill",
+      "type": "story",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol",
+      "og_image": "https://www.fda.gov/themes/custom/preview/img/FDA-Social-Graphic.png",
+      "groq_label": "The FDA approval of a new oral medication for lowering cholesterol is noteworthy because it's a different type of therapy than the existing injectable PCSK9 inhibitors.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis new cholesterol pill aims to solve the problem of high cholesterol levels. \nBased on the Hacker News discussion, commenters generally viewed the pill positively and highlighted strengths such as the innovative synthesis of the molecule, as described by Derek Lowe. Many appreciated the use of proprotein convertases, noting that they can activate proteins and improve their function, while others believed the pill could be particularly useful as an oral medication, rather than an injectable. However, the discussion also revealed several criticisms. Commenters expressed concerns about the limitations of the pill compared to other existing treatments, such as PCSK9 inhibitors, and questioned the overall effectiveness of managing high cholesterol through medication. Overall, the Hacker News community considered the pill a promising innovation, but emphasized that it still has room for improvement and further study.",
+      "groq_explain": null
+    },
+    {
+      "id": 48964185,
+      "author": "subset",
+      "descendants": 55,
+      "kids": "[48964860,48964841,48964530,48965501,48964974,48965391,48964214,48964863,48964996,48964757,48965105,48965208,48965049,48964943,48964853,48965083]",
+      "score": 141,
+      "time": 1784424559,
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "type": "story",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3",
+      "og_image": "https://ludic.mataroa.blog/images/6687b89a.png",
+      "groq_label": "Blaming AI for general project failures can be unfair because it doesn't account for various failure modes, such as product market-fit issues or poor execution, and AI only enhances outcomes if used correctly in iterative development.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article suggests that AI projects are failing to meet their promises and that the overhyped expectations of AI are leading to a \"mania\" in the corporate world. The Hacker News discussion was generally critical of the article, with many commenters expressing skepticism about the author's claims and criticizing the lack of specificity about what constitutes an \"AI project.\" Some commenters even shared their own personal experiences with using AI tools, such as Claude, and argued that they were quite effective. However, other commenters agreed with the author's perspective, stating that the corporate mentality is driven by manias, and that the AI hype is just the latest example of this phenomenon. Overall, the discussion suggests that the community sees promise in the potential for AI to improve decision-making, but questions the way it is being applied and marketed.",
+      "groq_explain": null
+    },
     {
       "id": 48964015,
       "author": "xonery",
@@ -405,50 +450,6 @@
       "url": "https://maurycyz.com/projects/bad_jpeg/",
       "og_image": "https://maurycyz.com/projects/bad_jpeg/cats.jpg",
       "groq_label": "When decoding JPEGs, the decompression step that reconstructs AC coefficients is lossy, but the dequantization step that converts these coefficients to integers is reversible.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48954175,
-      "author": "ksymph",
-      "descendants": 2,
-      "kids": "[48954488]",
-      "score": 8,
-      "time": 1784337495,
-      "title": "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig",
-      "type": "story",
-      "url": "https://moonstone.sh/",
-      "og_image": "https://moonstone.sh/moon.svg",
-      "groq_label": "Lack of human oversight in documentation creation can lead to ambiguities and inaccuracies in project documentation.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Moonstone project aims to provide a modern, cross-platform Lua runtime and package manager written in Zig. \nBased on the Hacker News discussion, commenters generally viewed the project positively, highlighting the idea behind it as promising. However, some appreciated criticisms focused on the AI-written documentation, expressing a preference for human-written content. A few believed the project would be useful, particularly for its cross-platform capabilities, while others felt it needed further refinement, specifically addressing the documentation. Overall, the Hacker News community considered the project positively, recognizing its potential while emphasizing the need for improvement.\n\nHowever, given it is just two sentences, a better option might be: \n\nDiscussion type: – Short:\n\nThis Moonstone project addresses the need for a modern, cross-platform Lua runtime and package manager written in Zig. Hacker News commenters generally viewed the project positively, appreciating the idea and potential for its cross-platform capabilities, but raised some concerns about the AI-written documentation, seeing it as a point for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 48954149,
-      "author": "herbertl",
-      "descendants": 8,
-      "kids": "[48954329,48954528,48954360,48954440,48954372,48954535]",
-      "score": 15,
-      "time": 1784337133,
-      "title": "I Started a \"Dirt Notebook\"",
-      "type": "story",
-      "url": "https://pinewind.bearblog.dev/i-started-a-dirt-notebook/",
-      "og_image": "https://pinewind.bearblog.dev/static/og-image.png",
-      "groq_label": "Scribbling on the first page of a new notebook sets the tone for making imperfect and unstructured notes.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of starting a \"Dirt Notebook\" is positive. Commenters frequently praised the concept of embracing imperfection and allowing oneself to make messy notes without expectation of a perfect outcome. The idea of treating the notebook as a space to get away from screens and indulge in creative expression resonated with many. However, the discussion also included recurring concerns about the practical aspects of this approach, such as maintaining organization and dealing with the physical nature of a notebook. The overall consensus is that the idea is compelling, although its effectiveness may depend on individual preferences and needs.",
-      "groq_explain": null
-    },
-    {
-      "id": 48954074,
-      "author": "TheBengaluruGuy",
-      "kids": "[]",
-      "score": 1,
-      "time": 1784336468,
-      "title": "DrDroid (YC W23) Is Hiring",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/drdroid/jobs/w45QcNV-product-engineer-assignment-mandatory",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/6b57f1a7b6dd9a5c9660f68f80895462c94843d4.png?1668800160",
-      "groq_label": "DrDroid, a company emerging from Y Combinator Winter 2023, is currently seeking to fill various positions.",
       "groq_discussion": "No comments.",
       "groq_explain": null
     }
