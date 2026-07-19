@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T17:03:57.991Z"
+    "lastUpdated": "2026-07-19T20:56:14.818Z"
   },
   "stories": [
+    {
+      "id": 48971418,
+      "author": "mashally",
+      "descendants": 1,
+      "kids": "[48971550]",
+      "score": 30,
+      "time": 1784492758,
+      "title": "Heavy TV watching associated with smaller brain structures, study finds",
+      "type": "story",
+      "url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures/",
+      "og_image": "https://dornsife.usc.edu/news/wp-content/uploads/sites/7/2026/06/raichlen-sedentary-brain-top.jpg",
+      "groq_label": "Brain measurements were taken after years of TV watching, limiting the conclusion to correlations rather than a clear cause-and-effect relationship.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article] aims to solve the problem of understanding the relationship between heavy TV watching and brain structures. The Hacker News discussion was generally  [mixed], with many commenters appreciating the study's findings on potential health risks of heavy TV watching and the potential benefits of reduced screen time. At the same time, several commenters raised concerns about [correlation vs causation], arguing that the study may not be able to establish a direct cause-and-effect relationship between TV watching and brain structure changes. Overall, the discussion suggests that the community is aware of the study's limitations and potential flaws, but also recognizes the potential value of the research in raising awareness about the importance of a healthy lifestyle.",
+      "groq_explain": null
+    },
+    {
+      "id": 48970894,
+      "author": "sebjones",
+      "descendants": 8,
+      "kids": "[48971450,48971463,48970895]",
+      "score": 17,
+      "time": 1784488409,
+      "title": "Orion Browser by Kagi",
+      "type": "story",
+      "url": "https://orionbrowser.com/",
+      "og_image": "https://orionbrowser.com/orion-og.png",
+      "groq_label": "Orion Browser by Kagi is built on top of a WebKit core but claims to be designed ground-up, which seems like an inconsistency.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Orion Browser by Kagi aims to solve the problem of a fast and lightweight web browser. Based on the Hacker News discussion, commenters generally viewed the project with skepticism and mixed reactions. Many appreciated that it uses WebKit, which is considered a strong foundation for a browser, but noted that it may not be entirely custom-designed as claimed. Others pointed out that the Linux version's recent release might be a major update, while some were aware of earlier iOS and Mac versions. The discussion also highlighted concerns about the browser's actual daily performance, particularly on older devices like the author's M1 Macbook Air. However, this remains an open question, with no clear consensus on the browser's performance capabilities. Overall, the Hacker News community considered the project with mixed enthusiasm, acknowledging its potential but emphasizing that more information is needed to fully assess its value and effectiveness.",
+      "groq_explain": null
+    },
+    {
+      "id": 48970772,
+      "author": "rafal_opilowski",
+      "descendants": 9,
+      "kids": "[48971216,48971495,48971467,48970773,48971339]",
+      "score": 23,
+      "time": 1784487421,
+      "title": "HomeLab #1: MikroTik as a Home Router",
+      "type": "story",
+      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
+      "og_image": "https://justsomebody.dev/blog/mikrotik-home-router/og.png",
+      "groq_label": "MikroTik's combination of powerful features and complex UI is offset by its ability to be controlled by language models.",
+      "groq_discussion": "Discussion type: –  Basic\n\nThis article about using MikroTik as a home router aims to solve the problem of needing a feature-rich and reliable home router. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the fact that MikroTik is feature-rich, has a nice web UI, and the company still supports older hardware. Many appreciated MikroTik's ability to be used as a VPN solution, noting that it makes setup easier thanks to AI assistance, while others believed it could be \nparticularly useful for those looking for a router that is less dependent on US tech. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about MikroTik's UI being difficult to use for those unfamiliar with it, and questioned whether it could replace all router functions. Overall, the Hacker News community considered MikroTik to be a promising solution for home routers, recognizing its potential while emphasizing that its usability could be improved.",
+      "groq_explain": null
+    },
     {
       "id": 48968949,
       "author": "ibobev",
@@ -16,6 +61,20 @@
       "og_image": "https://retrogamecoders.com/wp-content/uploads/2026/07/c64-dungeon-crawler-coding-lesson-8-commodore-basic-roguelike-programming.png",
       "groq_label": "The player's character can now launch a goblin attack function with variable damage based on their weapon type.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 48968606,
+      "author": "section33",
+      "descendants": 74,
+      "kids": "[48970593,48971269,48971297,48968835,48971255,48971208,48970902,48970570,48970750,48971576,48971504,48970688,48971487,48971503,48971117,48971389,48968993,48970584,48970586,48971295,48970889,48971294,48971008,48970896,48971447,48971258,48970410,48971271,48969421,48971264,48970367,48970833,48970852,48971134,48971244,48970621,48970977,48970842,48970522,48970474]",
+      "score": 730,
+      "time": 1784472076,
+      "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+      "type": "story",
+      "og_image": "images/48968606.png",
+      "groq_label": "A $1,600 setup using ESP32s can replace a $120k bowling center system by leveraging modern low-cost embedded technologies.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to replace old bowling center systems with modern, low-cost ESP32s. The Hacker News discussion was generally positive, with many commenters appreciating the author's resourcefulness and innovative approach to retrofitting old systems. At the same time, several commenters raised concerns about the feasibility and scalability of the project, including the difficulty of getting old systems to work with modern technologies and the potential resistance from companies that might not see the benefits of modernization. Overall, the discussion suggests that the community sees potential in the idea but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -391,66 +450,6 @@
       "og_image": "images/48961504.png",
       "groq_label": "Modeling tab completion is necessary to accurately measure terminal command typing speed.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Typing Speed Test for Developers aims to measure terminal fluency. The Hacker News discussion was generally positive, with several commenters appreciating the niche idea and its potential to track developers' muscle memory in typing terminal commands. Some commenters pointed out the need to model tab completion to accurately measure performance, while others suggested improving the UI. However, the discussion also included criticisms, such as the test's focus being too narrow, specifically targeting devops rather than all developers. Despite these limitations, the overall sentiment suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48960551,
-      "author": "andrewtorkbaker",
-      "descendants": 38,
-      "kids": "[48961926,48961045,48961091,48960597,48960942,48962057,48961782,48962136,48961781,48961328,48960687,48961853]",
-      "score": 28,
-      "time": 1784397983,
-      "title": "Show HN: Get alerts for good seats at 70mm IMAX showings of The Odyssey",
-      "type": "story",
-      "url": "https://imaxxing.io/",
-      "og_image": "https://imaxxing.io/og.png",
-      "groq_label": "Many theaters are offering limited engagements of The Odyssey in 70mm IMAX due to the high upfront cost of converting their screens for this format.",
-      "groq_discussion": "Discussion type: – Objective:\n\nThis [article/project] is designed to provide alerts for good seats at 70mm IMAX showings of The Odyssey. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the project is useful for [getting tickets to popular IMAX screenings], while critics pointed out [waste of time and money]. Several commenters also shared questions and suggestions, providing additional context about the project's intentions and limitations. Overall, the discussion presents the project as a convenient tool with a niche audience, but also raises concerns about its practicality and value.",
-      "groq_explain": null
-    },
-    {
-      "id": 48960218,
-      "author": "sbochins",
-      "descendants": 150,
-      "kids": "[48961457,48961187,48961116,48962257,48961849,48961109,48961356,48961772,48962054,48962126,48961624,48961763,48962159,48961655,48961085,48961756,48961654,48961488,48960986,48961916,48962091,48961532,48961313,48961768,48961018,48961710,48961373,48961671,48961160,48961816]",
-      "score": 170,
-      "time": 1784395960,
-      "title": "The Kimi K3 Moment",
-      "type": "story",
-      "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
-      "og_image": "https://stephen.bochinski.dev/assets/posts/2026-07-18-the-kimi-k3-moment.png",
-      "groq_label": "Kimi K3 is a model where distillation plays a key role in its creation and efficiency, allowing a cheaper alternative to existing large language models.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis [Kimi K3 project] aims to solve the problem of developing an alternative to mainstream AI models. The Hacker News discussion was generally mixed, with many commenters appreciating its strengths, such as offering a cheaper alternative to existing models, while others raised concerns about its limitations, including its performance, especially with tasks that require significant computational resources. Commenters pointed out that subscription usage limits can be unpredictable, making it difficult to evaluate its effectiveness. At the same time, the discussion highlighted concerns about the reliability of open-source models, as well as the privacy implications of using Kimi K3, particularly with regards to how it collects and uses user data. Overall, the discussion suggests that the community sees potential in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48960155,
-      "author": "Ygg2",
-      "descendants": 142,
-      "kids": "[48962298,48962166,48961128,48960858,48960956,48962060,48960904,48961086,48962178,48961006,48960948,48960790,48961851,48961118,48960985,48960640,48960854,48961132,48961718,48961462,48960612,48960762,48960694,48961678,48960503,48960523,48961039,48960918,48961027,48961069,48960630]",
-      "score": 141,
-      "time": 1784395644,
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "type": "story",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "og_image": "https://queue.acm.org/img/acmqueue_logo.gif",
-      "groq_label": "ACM editor made a bikeshed error in choosing a title phrase from Douglas Adams' book.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the shift in online dynamics and the impact of regulations on openness. The Hacker News discussion was generally mixed, with many commenters appreciating the author's attempt to analyze the current state of the internet and its future directions. However, several commenters raised concerns about the article's tone and the proposed solutions, which they believe may not be effective. The discussion also highlighted a range of opinions on the topic of anonymity online, with some users expressing support for increased regulation and others arguing that it would have negative consequences. The overall impression suggests that the community sees both promise and challenges in the proposed changes.",
-      "groq_explain": null
-    },
-    {
-      "id": 48959575,
-      "author": "appreciatorBus",
-      "descendants": 8,
-      "kids": "[48959893,48959794,48959619,48959800,48959827,48959786,48959846]",
-      "score": 20,
-      "time": 1784392302,
-      "title": "Heresy",
-      "type": "story",
-      "url": "https://paulgraham.com/heresy.html",
-      "og_image": "https://s.turbifycdn.com/aah/paulgraham/bel-7.gif",
-      "groq_label": "Moderate views have become a target of intense scrutiny within modern societal disputes.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article \"Heresy\" seems to spark a mixed reaction on Hacker News, with some commenters appreciating its points and others labeling it as redundant and \"anti-woke\" or \"anti-political correct\". Some readers believe the essay raises important questions about free speech and censorship, particularly in relation to words that are perceived as hurtful or discriminatory, while others dismiss it as unnecessary or even racist. The discussion reveals that opinions are divided regarding the article's message and its relevance to the current political climate.\n\nThe commenters mentioned the problem with a witchhunt, specifically mentioning the US and how it compares to the rest of the world with respect to the BDS movement. The discussion includes a critical view on asking \"Is it true\" without inquiring into the underlying motivations and reasoning.\n\nThe overall sentiment suggests that the Hacker News community views the discussion as thought-provoking, yet also acknowledges differing opinions and perspectives.",
       "groq_explain": null
     }
   ]
