@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T06:35:21.114Z"
+    "lastUpdated": "2026-07-19T09:57:24.231Z"
   },
   "stories": [
+    {
+      "id": 48966120,
+      "author": "nh43215rgb",
+      "descendants": 55,
+      "kids": "[48966211,48966473,48966326,48966443,48966391,48966313,48966319,48966277,48966368,48966299,48966305,48966265,48966210]",
+      "score": 113,
+      "time": 1784450697,
+      "title": "Qwen3.8 is launching and going open-weight soon",
+      "type": "story",
+      "url": "https://twitter.com/Alibaba_Qwen/status/2078759124914098291",
+      "og_image": "https://pbs.twimg.com/media/HNk8XP_aoAAUShj.jpg",
+      "groq_label": "Alibaba is publishing a 2.4T parameter Qwen 3.8 LLM in open weights, a massive model described as being second only to Fable 5 in power and comparable to leading frontier AI models.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis announcement of Qwen3.8 and its impending open-weights release is the response of Alibaba to Moonshot AI's announcement of the 2.8T parameter open-weights LLM, Kimi K3. The Hacker News discussion was generally mixed, with many commenters appreciating the fact that Alibaba is finally releasing a large open-weights LLM but expressing skepticism about its potential impact due to past experience with Qwen models being censored and not quite reaching the pareto frontier on various metrics. The discussion highlighted the strengths of Qwen 3.8, such as its large parameter size and continuous evolution, but also raised concerns about its potential limitations, including token hunger and compatibility issues with other AI models. Overall, the discussion suggests that the community is cautiously optimistic about Qwen 3.8, but its success will largely depend on its actual performance and how it compares to other AI models, such as Fable 5 and Kimi K3.",
+      "groq_explain": null
+    },
+    {
+      "id": 48965886,
+      "author": "TZubiri",
+      "descendants": 29,
+      "kids": "[48966295,48966465,48965887,48966163,48966511,48966312]",
+      "score": 16,
+      "time": 1784448024,
+      "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
+      "type": "story",
+      "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
+      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Ftraining.perforce.com%2Flearn%2Fcourses%2F535%2Fp4-helix-core-user-basic?w=800",
+      "groq_label": "Perforce is charging a $500 fee for AI-narrated training videos despite the potentially inconsistent and unnatural voice used in them.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis $500 training video package by Perforce features AI narration. Hacker News commenters generally responded positively, with some noting that the cost is negligible compared to other enterprise expenses and that it might be a negotiable expense. Others mentioned that the AI narration quality is inconsistent and sometimes jarring, but a few commenters questioned the significance of this issue. Overall, the discussion was mildly indifferent to the pricing and narration, with commenters not seeing it as a major concern.",
+      "groq_explain": null
+    },
     {
       "id": 48965161,
       "author": "mfiguiere",
@@ -91,6 +121,21 @@
       "og_image": "https://repository-images.githubusercontent.com/1305243497/a143bb0a-1d9f-4f6a-b931-7dd4f0a87c26",
       "groq_label": "OpenAI's internal engineers heavily utilize advanced prompt engineering techniques to optimize model performance and achieve desired results.",
       "groq_discussion": "Discussion type: – Short:\n\nThis Harness Engineering addresses [problem not explicitly stated, possibly prompt engineering or optimization]. Hacker News commenters generally appreciated [the idea being the \"mother of all prompt injections\", which seems to be a positive, but no further context], and believed the project could [improve prompt engineering or optimization]. However, they also expressed concerns about the [usefulness or feasibility] of the concept and questioned [if others at OpenAI use it or if it's already known]. Overall, the discussion was [mixed or neutral, lacking in context].",
+      "groq_explain": null
+    },
+    {
+      "id": 48963465,
+      "author": "denysvitali",
+      "descendants": 132,
+      "kids": "[48966462,48963988,48963749,48963595,48963517,48963574,48966331,48963533,48966127,48963777,48964476,48963500,48965608,48963832,48965541,48965986,48964398,48963509,48965857,48963652,48963514,48963840,48963625,48965113,48963660,48964263,48964448,48963668,48963661]",
+      "score": 182,
+      "time": 1784417066,
+      "title": "Codex Resets",
+      "type": "story",
+      "url": "https://codex-resets.com/",
+      "og_image": "https://codex-resets.com/og-image.png",
+      "groq_label": "OpenAI quietly lowers the context limit after removing the 5-hour usage limit.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Codex Resets feature aims to solve the problem of managing user usage limits. The Hacker News discussion was generally positive, with many commenters appreciating the benefits of the resets and the project's approach to increasing user flexibility. At the same time, several commenters raised concerns about the potential costs of the resets to OpenAI, with some questioning how often and at what scale the resets are being done. Overall, the discussion suggests that the community sees value in the resets, but believes there are important challenges that still need to be addressed regarding their impact on OpenAI's resources.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "Qubes OS's security features are primarily based on the Linux kernel and other well-established, openly audited components.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Qubes OS Security is that it is based on convincing evidence, rather than marketing claims. Commenters frequently praised the project's reliance on publicly available information to support its security claims. However, the discussion also included recurring concerns about the potential limitations of Qubes OS, specifically regarding upstream contributions and the possibility of leveraging its architecture for uses beyond security hardening. The overall consensus is that the Qubes OS Security paper presents a promising and evidence-based approach to security, although its potential for broader applications still warrants exploration.",
-      "groq_explain": null
-    },
-    {
-      "id": 48956231,
-      "author": "Kudos",
-      "descendants": 9,
-      "kids": "[48957594,48957480,48956824,48957489,48957583,48957695]",
-      "score": 51,
-      "time": 1784363611,
-      "title": "The Computer at the Bottom of a Canal",
-      "type": "story",
-      "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
-      "og_image": "https://negroniventurestudios.com/wp-content/uploads/2026/07/01-hero-canal-labelled-master-1024x574.png",
-      "groq_label": "Capability machines were cutting-edge research in the 1970s and 1980s due to their compact, multi-processor design.",
-      "groq_discussion": "Discussion type:  – Short.\n\nThis Computer at the Bottom of a Canal project addresses retro computer architecture. Hacker News commenters generally appreciated the historical context and unique design, but they also expressed concerns about its practical limitations, notably the need for a large space due to the design and the fact that it might be too expensive to implement. Overall, the discussion was nuanced, with commenters recognizing both the project's interest and its challenges.",
-      "groq_explain": null
-    },
-    {
-      "id": 48955042,
-      "author": "gregsadetsky",
-      "descendants": 15,
-      "kids": "[48956300,48956317,48955904,48955377,48955373]",
-      "score": 31,
-      "time": 1784346702,
-      "title": "Show HN: IKEA Complexity Index",
-      "type": "story",
-      "url": "https://ikea.greg.technology/",
-      "og_image": "images/48955042.png",
-      "groq_label": "IKEA's item numbers starting with an \"s\" indicate complex products that consist of multiple distinct child articles.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis web tool, the IKEA Complexity Index, aims to solve the problem of understanding the complexity of IKEA furniture assembly. The Hacker News discussion was generally positive, with many commenters appreciating the tool's ability to reveal the intricacies of IKEA's item numbers and the complexity of assembly. For example, one commentator found it helpful to see that certain items consist of multiple child articles, which is not immediately apparent from the item number. However, the discussion also raised some criticisms, such as the need for a column to document the disassembly process and concerns about the accuracy of the reported complexity number. Overall, the discussion suggests that the community sees value in this tool but also believes there are some important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48954851,
-      "author": "vitaut",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 28,
-      "time": 1784344460,
-      "title": "Regressive JPEGs",
-      "type": "story",
-      "url": "https://maurycyz.com/projects/bad_jpeg/",
-      "og_image": "https://maurycyz.com/projects/bad_jpeg/cats.jpg",
-      "groq_label": "When decoding JPEGs, the decompression step that reconstructs AC coefficients is lossy, but the dequantization step that converts these coefficients to integers is reversible.",
-      "groq_discussion": "No comments.",
       "groq_explain": null
     }
   ]
