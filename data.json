@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-19T21:52:42.721Z"
+    "lastUpdated": "2026-07-20T03:28:32.539Z"
   },
   "stories": [
+    {
+      "id": 48971938,
+      "author": "rbanffy",
+      "descendants": 6,
+      "kids": "[48973589,48973325,48972837,48973479,48973597,48973565]",
+      "score": 42,
+      "time": 1784497332,
+      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/biggest-probabilistic-computer",
+      "og_image": "https://spectrum.ieee.org/media-library/computer-chips-spread-vertically-across-several-shelves-to-create-a-1-million-probabilistic-bit-computer.jpg?id=67500450&width=1200&height=600&coordinates=0%2C330%2C0%2C170",
+      "groq_label": "Researchers developed probabilistic computing hardware that generates answers based on inherent noise instead of precise binary inputs.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Biggest Probabilistic Computer article addresses innovative computing. Hacker News commenters generally appreciated its novelty and connection to analog computing. However, they also expressed concerns about its potential for misuse in cracking passwords or cryptocurrency keys. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 48971566,
       "author": "jandeboevrie",
@@ -435,21 +450,6 @@
       "og_image": "https://www.neatnik.net/hardcore-indieweb/og.png",
       "groq_label": "The author's concept of running a website independently for $0.01/day doesn't account for databases, forms, social media integration, or SEO, which are common features that many users require.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis article/project focused on the idea of running a website with 100% independence for only $0.01/day. The Hacker News discussion was generally mixed, with many commenters appreciating the emphasis on self-hosting and the approach to creating a static website. However, several commenters raised concerns about the limitation of static websites, arguing that they lack features such as dynamic content, databases, and feedback forms. The discussion also highlighted the cost-effectiveness of other hosting options, such as Azure's free tier and the use of NFS. Overall, the discussion suggests that the community recognizes the idea's potential but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48962600,
-      "author": "vimarsh6739",
-      "descendants": 2,
-      "kids": "[48969412,48969465]",
-      "score": 24,
-      "time": 1784410118,
-      "title": "UnifiedIR for Julia",
-      "type": "story",
-      "url": "https://github.com/JuliaLang/julia/pull/62334",
-      "og_image": "https://opengraph.githubassets.com/fbb3b73e1109fecca4b24a1b57c97af0c0c153f7570a3c3314ccc75aeea87ea9/JuliaLang/julia/pull/62334",
-      "groq_label": "UnifiedIR is a low-level intermediate representation for Julia that replaces existing IRs like LLVM IR and Abstract Syntax Tree (AST), allowing MLIR-style transformations.",
-      "groq_discussion": "Discussion type:  – Balanced:\n\nThis project, UnifiedIR for Julia, aims to solve the problem of improving Julia's compilation and runtime efficiency. The Hacker News discussion was generally mixed, with many commenters appreciating the project's goals and alternative IRs, while also raising questions about its approach and relevance to existing solutions like MLIR. At the same time, several commenters raised concerns about the project's potential impact, specifically whether it would lead to faster rendering in notebooks, better debugging, and fewer NVIDIA troubles. Overall, the discussion suggests that the community sees the potential for improvement, but also believes that more information is needed to fully understand the project's benefits and limitations.",
       "groq_explain": null
     }
   ]
