@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-20T06:53:07.951Z"
+    "lastUpdated": "2026-07-20T10:57:01.044Z"
   },
   "stories": [
+    {
+      "id": 48975665,
+      "author": "infosecau",
+      "descendants": 58,
+      "kids": "[48976285,48976150,48976273,48976844,48976467,48976143,48976792,48976335,48976471,48976144,48976202,48976399,48976445,48976236,48976164,48976300,48976225]",
+      "score": 117,
+      "time": 1784535216,
+      "title": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "type": "story",
+      "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/",
+      "og_image": "https://slcyber.io/wp-content/uploads/2026/07/Searchlight-Security-Research_Social_Dark_General.webp",
+      "groq_label": "LLMs like GPT5.6 can use $25 to search for and find zero-day vulnerabilities, which would then potentially be worth hundreds of thousands of dollars.",
+      "groq_discussion": "Discussion type: - Detailed:\n\nThis article/project/blog post/research/product aims to solve the problem of [experts can find vulnerabilities in software using AI-powered tools]. The Hacker News discussion suggests that commenters were primarily impressed by [the ability of GPT-5.6 to find a WordPress RCE with minimal input], especially [the fact that this was achieved with a relatively low cost], which many believed could significantly change [the dynamics of vulnerability discovery and exploitation]. At the same time, the discussion repeatedly highlighted concerns about [responsible disclosure and the ethics of using AI-powered tools in this context], with commenters debating issues such as [whether the person who discovered the vulnerability with the help of AI should be credited], [the potential risks of AI-assisted exploit disclosure], and [the implications for the security of software]. While there was no unanimous agreement on every aspect, the overall impression was that the project highlights an interesting idea that would benefit from further refinement regarding the use of AI in vulnerability discovery and exploitation.",
+      "groq_explain": null
+    },
     {
       "id": 48974454,
       "author": "ilreb",
@@ -435,21 +450,6 @@
       "og_image": "images/48963879.png",
       "groq_label": "The Transcribe.cpp project has a cross-platform Rust implementation with improved performance, potentially replacing Whisper and offering better support for various models and acceleration backends.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis Transcribe.cpp project aims to solve the problem of providing a better replacement for Whisper, with an improved support for multiple models and faster acceleration backends. The Hacker News discussion is generally positive, with many commenters appreciating the project's potential to revolutionize the field of speech-to-text technology and live captioning. Commenters highlighted the project's strengths, such as its user-friendly interface and Rust support, which makes it easier to integrate with cross-platform applications. Many praised the project's focus on making inference easier and more trustworthy. However, some commenters also raised concerns about the project's limitations, such as its current performance compared to frontier models, and suggested that it should be integrated into the OS or made a standard app. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48963483,
-      "author": "handfuloflight",
-      "descendants": 7,
-      "kids": "[48964233,48963784,48964285]",
-      "score": 23,
-      "time": 1784417256,
-      "title": "Harness Engineering",
-      "type": "story",
-      "url": "https://github.com/lopopolo/harness-engineering",
-      "og_image": "https://repository-images.githubusercontent.com/1305243497/a143bb0a-1d9f-4f6a-b931-7dd4f0a87c26",
-      "groq_label": "OpenAI's internal engineers heavily utilize advanced prompt engineering techniques to optimize model performance and achieve desired results.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Harness Engineering addresses [problem not explicitly stated, possibly prompt engineering or optimization]. Hacker News commenters generally appreciated [the idea being the \"mother of all prompt injections\", which seems to be a positive, but no further context], and believed the project could [improve prompt engineering or optimization]. However, they also expressed concerns about the [usefulness or feasibility] of the concept and questioned [if others at OpenAI use it or if it's already known]. Overall, the discussion was [mixed or neutral, lacking in context].",
       "groq_explain": null
     }
   ]
