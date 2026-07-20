@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-20T18:11:26.228Z"
+    "lastUpdated": "2026-07-20T21:15:39.880Z"
   },
   "stories": [
+    {
+      "id": 48983382,
+      "author": "artninja1988",
+      "descendants": 9,
+      "kids": "[48984371,48984695,48984238,48984329]",
+      "score": 59,
+      "time": 1784574217,
+      "title": "Human mathematicians are being outcounterexampled",
+      "type": "story",
+      "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/",
+      "og_image": "https://xenaproject.wordpress.com/wp-content/uploads/2020/05/cropped-twitchpfc.png?w=200",
+      "groq_label": "AI is generating counterexamples faster than human mathematicians can formalize and verify them.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of human mathematicians being out-counterexampled by artificial intelligence. The Hacker News discussion was generally mixed, with some commenters seeing it as a positive development, as it frees up human mathematicians to focus on other problems. Others, however, were more cautious, noting that AI's ability to find counterexamples also means that human mathematicians need to adapt to the changing landscape and continue to contribute valuable skills such as crafting prompts and understanding where to look.",
+      "groq_explain": "AI systems like ChatGPT are finding proofs to complex mathematical problems that humans can't or aren't checking correctly, highlighting the need for better collaboration between humans and machines to validate these proofs."
+    },
+    {
+      "id": 48982681,
+      "author": "aratahikaru5",
+      "descendants": 34,
+      "kids": "[48984710,48984004,48983733,48984399,48984604,48983874,48984658,48984320,48983839,48983614,48983559,48984500,48983779,48983613]",
+      "score": 88,
+      "time": 1784571368,
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "type": "story",
+      "url": "https://blaizzy.github.io/nativ/",
+      "og_image": "https://blaizzy.github.io/nativ/assets/screenshots/nativ-main.png",
+      "groq_label": "Nativ is an open-source, MIT-licensed app that allows running frontier AI models locally on a Mac with Apple Silicon without requiring a cloud connection or subscription.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis Nativ: Run frontier open models locally on your Mac aims to solve the problem of running large language models seamlessly on Mac devices. The Hacker News discussion was generally mixed, with many commenters appreciating the project's use of MLX support, which can provide faster inference on Apple devices. At the same time, several commenters raised concerns about the project's website and marketing, feeling that it doesn't clearly differentiate itself from existing solutions like LM Studio. Others questioned the need for running models locally and pointed out technical limitations, including overheating issues with certain Mac laptops. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "The main idea is that there's a new app called Nativ that lets you run and use artificially intelligent models directly on your Mac, without any need for cloud services or subscriptions. This is significant because it gives you full control and ownership of your AI usage, with no hidden costs or data being sold to third parties."
+    },
+    {
+      "id": 48982535,
+      "author": "jlaneve",
+      "descendants": 23,
+      "kids": "[48984835,48983731,48983389,48984162,48983663,48983775,48984615,48984864,48984707,48983947]",
+      "score": 54,
+      "time": 1784570773,
+      "title": "Agent swarms and the new model economics",
+      "type": "story",
+      "url": "https://cursor.com/blog/agent-swarm-model-economics",
+      "og_image": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/swarm-og.png",
+      "groq_label": "Agent swarms demonstrate scalability and task completion efficiency by dividing tasks into tree-like structures and utilizing multiple models with varying abilities to execute different parts of the task.",
+      "groq_discussion": "Discussion type: Basic\n\nThis [article/project/blog post] presents the concept of agent swarms and model economics. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as their enthusiasm for the experimental approach and the glimpses into the future that such projects provide. Many appreciated the demonstration of the swarm's capabilities to perform high-throughput contributions, noting that it showcases the power of their process. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential reliance on memorization rather than actual understanding, the limitations of the models being trained on existing code, and the issue of these projects only being able to make a subset of things due to their financial backing. Overall, the Hacker News community considered the project an interesting idea that has the potential to contribute to advancements in AI, but highlighted its limitations and potential drawbacks.",
+      "groq_explain": "Researchers are working on a system where many small AI agents work together to accomplish complex tasks, like building a web browser or a software program. This approach is more effective and scalable than one single AI agent, and it allows them to tackle tasks that are too difficult for a single agent to handle."
+    },
     {
       "id": 48982011,
       "author": "matesz",
@@ -405,51 +450,6 @@
       "og_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAKCAYAAAD2Fg1xAAABgElEQVQ4jb3VP0iVYRTH8c9waXBokog7OYhTXChuF3GIi4hoiJA4REQIOTgGtoWTg6ODs0SYComIXCJEMhpKtD9guUU0ujRFS0PQ8DzC24v3Pq+3S9/pnMOP8/7Ocx6el/OziRN0JXTD+I2xhK4WdeNteGmbu8IgC3jQQlfCZ0zgINHzJabwoQP+ClHGV1zGJXwRDJ/FDJZi3MBQE10dL2K8gZFOGE3REDZyyjLunKG7KAzZHfMaXjXp+QbXYlzBfrvmSuhBNaHrxQU8zdQW8RhrOe0snuB7zA/jd6p4n9HV8QMfY/4JPzGAt7meFfS18LdXEk7uemIQuJ/Lj6PZQezFWhm3cTWnXcAj3MrU5oWh5WpzGM3UurGNZy28HSa8J7mB3Uy+4u/rl+UdrsT4Jraa6F6jP5M3MP0PHguzL9zzqmC2GRNYjXF2qDzDwgbgHp53wGMhJrEunGQ9oT3CQ+GFasWBsLVvwiv5XygJz/JOAe208POrJHST+CVspBB/AFY9Q3+QJqLxAAAAAElFTkSuQmCC",
       "groq_label": "A new Intel Itanium emulator that boots Windows was created using QEMU with ia64 emulation support.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis new Intel Itanium (IA-64) emulator aims to run Windows on the IA-64 architecture. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the fact that someone even implemented IA-64 emulation support for QEMU in a remarkable achievement. Many appreciated the effort and contribution to open-source software development, noting that it is a huge leap in enabling Windows on IA-64. However, the discussion also revealed several criticisms. Commenters expressed concerns about the emulator's performance, noting that it runs quite slowly, equivalent to 486-level performance on a Ryzen 5000 series. Overall, the Hacker News community considered the project interesting and promising, while also acknowledging the need for further optimization to improve its performance.",
-      "groq_explain": null
-    },
-    {
-      "id": 48971418,
-      "author": "mashally",
-      "descendants": 1,
-      "kids": "[48971550]",
-      "score": 30,
-      "time": 1784492758,
-      "title": "Heavy TV watching associated with smaller brain structures, study finds",
-      "type": "story",
-      "url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures/",
-      "og_image": "https://dornsife.usc.edu/news/wp-content/uploads/sites/7/2026/06/raichlen-sedentary-brain-top.jpg",
-      "groq_label": "Brain measurements were taken after years of TV watching, limiting the conclusion to correlations rather than a clear cause-and-effect relationship.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article] aims to solve the problem of understanding the relationship between heavy TV watching and brain structures. The Hacker News discussion was generally  [mixed], with many commenters appreciating the study's findings on potential health risks of heavy TV watching and the potential benefits of reduced screen time. At the same time, several commenters raised concerns about [correlation vs causation], arguing that the study may not be able to establish a direct cause-and-effect relationship between TV watching and brain structure changes. Overall, the discussion suggests that the community is aware of the study's limitations and potential flaws, but also recognizes the potential value of the research in raising awareness about the importance of a healthy lifestyle.",
-      "groq_explain": null
-    },
-    {
-      "id": 48970894,
-      "author": "sebjones",
-      "descendants": 8,
-      "kids": "[48971450,48971463,48970895]",
-      "score": 17,
-      "time": 1784488409,
-      "title": "Orion Browser by Kagi",
-      "type": "story",
-      "url": "https://orionbrowser.com/",
-      "og_image": "https://orionbrowser.com/orion-og.png",
-      "groq_label": "Orion Browser by Kagi is built on top of a WebKit core but claims to be designed ground-up, which seems like an inconsistency.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Orion Browser by Kagi aims to solve the problem of a fast and lightweight web browser. Based on the Hacker News discussion, commenters generally viewed the project with skepticism and mixed reactions. Many appreciated that it uses WebKit, which is considered a strong foundation for a browser, but noted that it may not be entirely custom-designed as claimed. Others pointed out that the Linux version's recent release might be a major update, while some were aware of earlier iOS and Mac versions. The discussion also highlighted concerns about the browser's actual daily performance, particularly on older devices like the author's M1 Macbook Air. However, this remains an open question, with no clear consensus on the browser's performance capabilities. Overall, the Hacker News community considered the project with mixed enthusiasm, acknowledging its potential but emphasizing that more information is needed to fully assess its value and effectiveness.",
-      "groq_explain": null
-    },
-    {
-      "id": 48970772,
-      "author": "rafal_opilowski",
-      "descendants": 9,
-      "kids": "[48971216,48971495,48971467,48970773,48971339]",
-      "score": 23,
-      "time": 1784487421,
-      "title": "HomeLab #1: MikroTik as a Home Router",
-      "type": "story",
-      "url": "https://justsomebody.dev/blog/mikrotik-home-router",
-      "og_image": "https://justsomebody.dev/blog/mikrotik-home-router/og.png",
-      "groq_label": "MikroTik's combination of powerful features and complex UI is offset by its ability to be controlled by language models.",
-      "groq_discussion": "Discussion type: –  Basic\n\nThis article about using MikroTik as a home router aims to solve the problem of needing a feature-rich and reliable home router. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the fact that MikroTik is feature-rich, has a nice web UI, and the company still supports older hardware. Many appreciated MikroTik's ability to be used as a VPN solution, noting that it makes setup easier thanks to AI assistance, while others believed it could be \nparticularly useful for those looking for a router that is less dependent on US tech. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about MikroTik's UI being difficult to use for those unfamiliar with it, and questioned whether it could replace all router functions. Overall, the Hacker News community considered MikroTik to be a promising solution for home routers, recognizing its potential while emphasizing that its usability could be improved.",
       "groq_explain": null
     }
   ]
