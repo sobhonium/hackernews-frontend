@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-21T10:28:37.534Z"
+    "lastUpdated": "2026-07-21T14:00:05.065Z"
   },
   "stories": [
+    {
+      "id": 48991139,
+      "author": "throw0101a",
+      "descendants": 109,
+      "kids": "[48991791,48991432,48992116,48992067,48991859,48991862,48992239,48992429,48991682,48991415,48991807,48991562,48991526,48991549,48991618,48991406]",
+      "score": 109,
+      "time": 1784635394,
+      "title": "New US homeownership measure puts people first",
+      "type": "story",
+      "url": "https://www.minneapolisfed.org/article/2026/new-homeownership-measure-puts-people-first",
+      "og_image": "https://www.minneapolisfed.org/-/media/assets/articles/2026/new-homeownership-measure-puts-people-first/new-homeownership-measure-puts-people-first-key.jpg?rev=61fc78eb59024eae81d2b8b85a5084f7",
+      "groq_label": "This new US homeownership measure focuses on who lives in the property, not just who owns it, which can distort traditional homeownership rates when people share households with family members or others.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article introduces a new US homeownership measure that prioritizes people over housing units. The Hacker News discussion was generally mixed, with several commenters appreciating the new approach and the nuanced view it provides on homeownership. Some appreciated that the new measure \"puts people first\" by considering co-ownership and multi-generational living arrangements. However, others raised concerns that this measure can obscure or misrepresent the actual state of homeownership, highlighting examples where the traditional metric may provide a more accurate picture. Overall, the discussion suggests that the community sees potential in the new measure but remains cautious and critical, believing that more context and clarification are needed to fully understand its implications.",
+      "groq_explain": null
+    },
     {
       "id": 48989701,
       "author": "ilreb",
@@ -434,21 +449,6 @@
       "url": "https://yang-ai-lab.github.io/Inertia-1/",
       "og_image": "https://yang-ai-lab.github.io/Inertia-1/paper/static/images/objectives.png",
       "groq_label": "The Inertia-1 model aims to unify concepts from Newtonian mechanics, quantum mechanics, and general relativity into a single theoretical framework.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 48978350,
-      "author": "defrost",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 9,
-      "time": 1784552831,
-      "title": "We're Squandering LEDs' Potential to Save Our Night Skies",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/led-light-pollution",
-      "og_image": "https://spectrum.ieee.org/media-library/image.jpg?id=67480571&width=1200&height=600&coordinates=0%2C125%2C0%2C125",
-      "groq_label": "Most lighting manufacturers fail to implement automatic dimming or color-changing capabilities that can significantly reduce light pollution and preserve celestial visibility.",
       "groq_discussion": "No comments.",
       "groq_explain": null
     }
