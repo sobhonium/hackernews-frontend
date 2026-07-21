@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-20T21:15:39.880Z"
+    "lastUpdated": "2026-07-21T02:55:55.511Z"
   },
   "stories": [
+    {
+      "id": 48986731,
+      "author": "StatsAreFun",
+      "descendants": 12,
+      "kids": "[48987499,48987434,48987152,48986989,48987140,48987204,48987134]",
+      "score": 115,
+      "time": 1784594033,
+      "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
+      "type": "story",
+      "url": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+      "og_image": "https://assets.aclu.org/live/uploads/2026/07/flock-camera-closeup-s.jpg",
+      "groq_label": "Flock's credibility hinges on honesty, but their repeated lies to authorities and the public have eroded trust in their claims.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Flock is overwhelmingly negative. Commenters frequently criticized Flock for repeatedly lying to government bodies and the public, describing the company as untrustworthy and hypocritical. Many highlighted its lack of credibility, specifically mentioning its failure to live up to its claims of working with the ACLU. The overall consensus is that Flock has irreparably damaged its reputation, although some commenters acknowledged that this might not come as a surprise given their previous actions.",
+      "groq_explain": null
+    },
+    {
+      "id": 48986091,
+      "author": "swat535",
+      "descendants": 42,
+      "kids": "[48987123,48987410,48987424,48987348,48987317,48986661,48987018,48987483,48987069,48987415]",
+      "score": 98,
+      "time": 1784589341,
+      "title": "Jellyfin founder Andrew leaves team",
+      "type": "story",
+      "url": "https://forum.jellyfin.org/t-project-leadership-changes",
+      "og_image": "https://avatars.githubusercontent.com/u/4031396?v=4",
+      "groq_label": "Jellyfin founder Andrew leaves the team amidst a backdrop of a competing media server vendor, Plex, increasing its subscription costs to $750 for a Lifetime Plex Pass.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article about the departure of Jellyfin founder Andrew aims to inform [people about the situation] of the project. Based on the Hacker News discussion, commenters generally viewed the news positively and highlighted strengths such as the project's great features and functionality. Many appreciated the fact that Jellyfin offers an alternative to Plex and works well with their own media libraries. Others believed it could be particularly useful for those looking for a free and open-source option. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's usability issues and the need for a native app with better rendering compositing. Overall, the Hacker News community considered the news to be positive, recognizing the potential of the project and appreciating the hard work of its contributors.",
+      "groq_explain": null
+    },
+    {
+      "id": 48984270,
+      "author": "wallach-game",
+      "descendants": 56,
+      "kids": "[48985747,48987362,48985522,48986412,48985353,48987318,48987478,48986261,48986221,48986149,48986146,48986167,48986337,48985496,48984271]",
+      "score": 69,
+      "time": 1784578339,
+      "title": "I wrote an bash enumerator because I was sick of xargs",
+      "type": "story",
+      "url": "https://numerlab.org/2025/07/20/bashumerate-enumerator/",
+      "og_image": "images/48984270.png",
+      "groq_label": "The alternative bash enumerator has a similar syntax to xargs but still has multiple options and commands that can accomplish the same task in a simpler way.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis bash enumerator aims to solve the problem of needing a simple and consistent way to iterate over various data types in the command line. The Hacker News discussion suggests that commenters were primarily divided on the merits of this solution. Some commended the idea of having a single tool for enumeration, while others pointed out that existing tools, such as gnu parallel and xargs, could already accomplish similar tasks.\n\nCommenters frequently praised the potential benefits of a simple and consistent enumeration tool, including the ability to easily iterate over files, lines, ranges, or lists. However, the discussion repeatedly highlighted concerns about adding unnecessary complexity with an extra program that calls existing commands in specific ways. Some commenters questioned the design choice of using the \"--\" delimiter, which is not what everybody expects.\n\nWhile there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement, taking into account the existing capabilities of tools like gnu parallel, xargs, and find.",
+      "groq_explain": null
+    },
+    {
+      "id": 48984254,
+      "author": "akanet",
+      "descendants": 17,
+      "kids": "[48986121,48986658,48985765,48987277,48985975,48986860,48985561,48986133,48987236]",
+      "score": 87,
+      "time": 1784578244,
+      "title": "Show HN: Immersive Gaussian Splat tour of grace cathedral, San Francisco",
+      "type": "story",
+      "url": "https://vincentwoo.com/3d/grace_cathedral/",
+      "og_image": "images/48984254.png",
+      "groq_label": "Gaussian Splatting technology allows quick creation of detailed models from photographs, as demonstrated by a virtual tour of San Francisco's Grace Cathedral.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Immersive Gaussian Splat tour of Grace Cathedral focuses on solving the problem of visualizing real-world architecture in a detailed and immersive way. Hacker News commenters generally appreciated the impressive level of detail, cleanliness, and reflections in the model, as well as its potential for showcasing the beauty of stained glass. However, they also expressed concerns about the on-rails presentation style, which some found difficult to navigate. Overall, the discussion was positive, with commenters recognizing both the project's strengths and limitations.",
+      "groq_explain": null
+    },
     {
       "id": 48983382,
       "author": "artninja1988",
@@ -303,6 +363,21 @@
       "groq_explain": null
     },
     {
+      "id": 48977128,
+      "author": "mfiguiere",
+      "descendants": 210,
+      "kids": "[48985619,48985515,48985894,48987394,48979287,48985390,48987425,48985718,48987209,48986727,48987269,48985443,48986905,48987184,48987103,48986646,48987189,48986158,48987156,48986466,48987390,48987081,48986524,48985950,48986614,48985402,48986850,48986292,48985355,48985528,48985473,48987231,48985553,48987070,48987265,48985423,48986558,48986494,48985333,48987413,48986335,48986277]",
+      "score": 326,
+      "time": 1784545558,
+      "title": "Who's afraid of Chinese models?",
+      "type": "story",
+      "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/",
+      "og_image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+      "groq_label": "VCs who invested heavily in Anthropic and OpenAI are anxious due to Chinese labs releasing high-quality open models for free undercutting their premium API pricing strategy.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the topic is that the fear of Chinese models is largely driven by the financial interests of Venture Capitalists (VCs) who invested in Western AI labs. Commenters frequently praised the high performance of Chinese models, such as Claude Code and Codex, and highlighted their ability to undercut the business strategy of Western labs by releasing excellent open models for free. The discussion also emphasized the limitations of the \"moat\" strategy, suggesting that the success of Chinese labs is largely due to their access to massive datacenters and cheap solar energy, rather than a proprietary model architecture. The overall consensus is that the Western AI industry needs to adapt and innovate in order to remain competitive, possibly by promoting data sharing and collaboration, rather than trying to restrict the flow of data and ideas.",
+      "groq_explain": null
+    },
+    {
       "id": 48976846,
       "author": "apunen",
       "descendants": 62,
@@ -375,81 +450,6 @@
       "og_image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2280056139-e1784391242756.jpg?resize=1200,600",
       "groq_label": "Power companies are using eminent domain to obtain land for constructing power lines connecting remote wind farms to areas with high electricity demands.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article describes power companies using eminent domain to seize land for power lines to data centers. The Hacker News discussion was generally mixed, with some commenters defending the project and acknowledging the need for infrastructure upgrades, while others expressed strong opposition to the use of eminent domain for private industry benefits. Some argued that the project's potential benefits outweighed the concerns, particularly in the context of addressing existing technological limitations to grid expansion, as noted in comments about the necessity of ultra-high-voltage DC lines from the US wind belt to areas with real loads. However, others questioned the fairness and appropriateness of using eminent domain for private interests, highlighting the potential for abuse and unequal distribution of benefits. Overall, the discussion suggests that the community has a nuanced view of the issue, acknowledging both the need for infrastructure development and the importance of considering the implications of such projects on local communities and private property rights.",
-      "groq_explain": null
-    },
-    {
-      "id": 48973869,
-      "author": "loubbrad",
-      "descendants": 152,
-      "kids": "[48974718,48974994,48974894,48974841,48974311,48974344,48975000,48975098,48974719,48974226,48975039,48974869,48974745,48973870,48974173,48974268,48974506,48974182,48974340,48974104,48974240,48974695,48974758,48974364,48973942,48974269,48974356,48974200,48974456,48974160,48974535,48974179,48974673,48974266,48974675]",
-      "score": 269,
-      "time": 1784515876,
-      "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
-      "type": "story",
-      "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
-      "og_image": "https://xcancel.com/logo.png",
-      "groq_label": "Claude Fable produced a counterexample, specifically using a field of polynomials over C, showing that the Jacobian Conjecture does not always hold.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis [mathematical contribution] addresses the Jacobian Conjecture. Hacker News commenters generally appreciated the use of AI to produce a counterexample and believed it saved significant time and effort that would have been spent on proving the conjecture was true. However, they also expressed concerns about the lack of official publication in academic channels and the potential impact of AI on the mathematics community. Overall, the discussion was cautious and optimistic.",
-      "groq_explain": null
-    },
-    {
-      "id": 48973455,
-      "author": "Caiero",
-      "descendants": 1,
-      "kids": "[48979034,48979072]",
-      "score": 12,
-      "time": 1784511072,
-      "title": "Satan's 19th-Century Bank Note (2017)",
-      "type": "story",
-      "url": "https://www.historytoday.com/miscellanies/satans-19th-century-bank-note",
-      "og_image": "https://www.historytoday.com/sites/default/files/styles/large/public/2026-07/satans_bank_notes_19th_century_history_today_0.jpg?itok=PTli2w4P",
-      "groq_label": "The UK's new polymer bank notes feature images of notable individuals including a historical figure who was a key proponent of economic equality.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis bank note redesign [article] aims to solve the problem of outdated currency. Based on the Hacker News discussion, commenters generally viewed the project negatively and highlighted criticism for being dismissive of traditional currency. Many criticized the new design for making money seem less valuable and being overly similar to Monopoly money, noting that it devaluates the experience of handling physical cash. Others believed it could not be taken seriously and would not be well received, particularly by more traditional groups. However, the discussion also revealed few constructive suggestions. Overall, the Hacker News community considered the project [overall sentiment], emphasizing its potential drawbacks and the need for further design consideration.",
-      "groq_explain": null
-    },
-    {
-      "id": 48972970,
-      "author": "wertyk",
-      "descendants": 50,
-      "kids": "[48974648,48974540,48974606,48974945,48974091,48974567,48974155,48974721,48974450,48974040,48973911,48974568,48973935,48974262]",
-      "score": 106,
-      "time": 1784506610,
-      "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
-      "type": "story",
-      "url": "https://github.com/hgaiser/moonshine",
-      "og_image": "https://opengraph.githubassets.com/68a06e06b906cdc009789d06b3468155ba2c7a8221644685a1d6299a933f1b80/hgaiser/moonshine",
-      "groq_label": "Moonshine allows low latency streaming of PC games to any device, similar to Nvidia's Gamestream, but enables simultaneous use of the host computer.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Moonshine project aims to solve the problem of low-latency game streaming from a PC to various devices. The Hacker News discussion was generally positive, with many commenters appreciating the project's strengths, such as its ability to run each streaming session in its own isolated environment, separate from the host desktop, and its potential to create a \"host your own Stadia/Geforce Now\" solution. At the same time, several commenters raised concerns about the need for a proprietary solution (Nvidia Gamestream) before open-source alternatives like Sunshine/Moonlight, and the similarity between Moonshine and other projects like Apollo and Games on Whales/wolf, which they felt needed clarification.",
-      "groq_explain": null
-    },
-    {
-      "id": 48971938,
-      "author": "rbanffy",
-      "descendants": 6,
-      "kids": "[48973589,48973325,48972837,48973479,48973597,48973565]",
-      "score": 42,
-      "time": 1784497332,
-      "title": "Biggest Probabilistic Computer Turns Noise into Answers",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/biggest-probabilistic-computer",
-      "og_image": "https://spectrum.ieee.org/media-library/computer-chips-spread-vertically-across-several-shelves-to-create-a-1-million-probabilistic-bit-computer.jpg?id=67500450&width=1200&height=600&coordinates=0%2C330%2C0%2C170",
-      "groq_label": "Researchers developed probabilistic computing hardware that generates answers based on inherent noise instead of precise binary inputs.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Biggest Probabilistic Computer article addresses innovative computing. Hacker News commenters generally appreciated its novelty and connection to analog computing. However, they also expressed concerns about its potential for misuse in cracking passwords or cryptocurrency keys. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 48971566,
-      "author": "jandeboevrie",
-      "descendants": 7,
-      "kids": "[48971952,48971585]",
-      "score": 13,
-      "time": 1784494242,
-      "title": "A new Intel Itanium (IA-64) emulator that boots Windows",
-      "type": "story",
-      "url": "https://raymii.org/s/blog/Intel_Itanium_IA-64-Emulator_that_boots_Windows.html",
-      "og_image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAKCAYAAAD2Fg1xAAABgElEQVQ4jb3VP0iVYRTH8c9waXBokog7OYhTXChuF3GIi4hoiJA4REQIOTgGtoWTg6ODs0SYComIXCJEMhpKtD9guUU0ujRFS0PQ8DzC24v3Pq+3S9/pnMOP8/7Ocx6el/OziRN0JXTD+I2xhK4WdeNteGmbu8IgC3jQQlfCZ0zgINHzJabwoQP+ClHGV1zGJXwRDJ/FDJZi3MBQE10dL2K8gZFOGE3REDZyyjLunKG7KAzZHfMaXjXp+QbXYlzBfrvmSuhBNaHrxQU8zdQW8RhrOe0snuB7zA/jd6p4n9HV8QMfY/4JPzGAt7meFfS18LdXEk7uemIQuJ/Lj6PZQezFWhm3cTWnXcAj3MrU5oWh5WpzGM3UurGNZy28HSa8J7mB3Uy+4u/rl+UdrsT4Jraa6F6jP5M3MP0PHguzL9zzqmC2GRNYjXF2qDzDwgbgHp53wGMhJrEunGQ9oT3CQ+GFasWBsLVvwiv5XygJz/JOAe208POrJHST+CVspBB/AFY9Q3+QJqLxAAAAAElFTkSuQmCC",
-      "groq_label": "A new Intel Itanium emulator that boots Windows was created using QEMU with ia64 emulation support.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis new Intel Itanium (IA-64) emulator aims to run Windows on the IA-64 architecture. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the fact that someone even implemented IA-64 emulation support for QEMU in a remarkable achievement. Many appreciated the effort and contribution to open-source software development, noting that it is a huge leap in enabling Windows on IA-64. However, the discussion also revealed several criticisms. Commenters expressed concerns about the emulator's performance, noting that it runs quite slowly, equivalent to 486-level performance on a Ryzen 5000 series. Overall, the Hacker News community considered the project interesting and promising, while also acknowledging the need for further optimization to improve its performance.",
       "groq_explain": null
     }
   ]
