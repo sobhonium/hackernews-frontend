@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-22T02:54:24.853Z"
+    "lastUpdated": "2026-07-22T06:32:38.877Z"
   },
   "stories": [
+    {
+      "id": 49002166,
+      "author": "noteness",
+      "descendants": 3,
+      "kids": "[49002295,49002446,49002542,49002300,49002604]",
+      "score": 23,
+      "time": 1784697488,
+      "title": "Original Apollo 11 Guidance Computer source code for command and lunar modules",
+      "type": "story",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "og_image": "https://opengraph.githubassets.com/1df428005f6b8d9287b3bd8db79efe28233b3f6fb5f7da32134d9d31cf299e39/chrislgarry/Apollo-11",
+      "groq_label": "The original Apollo 11 Guidance Computer source code for the command and lunar modules is made up of assembly code, with no compiler used.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the original Apollo 11 Guidance Computer source code is overwhelmingly positive. Commenters frequently praised the historic significance of the code, describing it as an \"important piece of history\" and highlighting its potential to educate future generations about computer science and space exploration. The discussion also includes appreciation for the code being digitized and archived, with many seeing value in making this historical material available to the public. However, the overall consensus is that the idea and the code are groundbreaking and significant, with the long-term impact and continued interest in the code depending on its continued availability and educational value.",
+      "groq_explain": null
+    },
+    {
+      "id": 49001930,
+      "author": "wertyk",
+      "descendants": 3,
+      "kids": "[49002605,49002333,49002381,49002011]",
+      "score": 48,
+      "time": 1784694824,
+      "title": "Kimi K3: second only to Fable 5 on AA-Briefcase",
+      "type": "story",
+      "url": "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark",
+      "og_image": "https://cdn.sanity.io/images/6vfeftx9/articles/fbc6088bbe886e04943ac98253836dd2b66f8bfc-1254x1254.png?w=1200&auto=format",
+      "groq_label": "Kimi K3 requires nearly 2.5 times more time and results in a 2.5 times higher cost per task compared to Claude Fable 5 on AA-Briefcase.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis news article about the Kimi K3 project discusses the lack of sentiment change on the US stock-market despite significant advancements in China's State-of-the-Art (SOTA) models. The discussion reflects a balanced mix of questions and observations about the potential impact of Kimi K3 and the testing methods used. Some commenters, including the original poster, asked why there was no market reaction given the recent advancements, while others, such as the second comment, inquired about the testing harness used for Kimi K3, noting that it might have affected the results. The discussion provides no clear evidence or consensus on the project's strengths or limitations, maintaining a neutral stance.",
+      "groq_explain": "Kimi K3 is a large language model that is very good at a certain kind of task, but it's also very expensive and slow to use. It's almost as good as another model called Fable 5, but it costs a lot more and takes a lot longer to complete tasks. This could be a problem for people who want to use large language models for things like writing and design tasks."
+    },
+    {
+      "id": 49001127,
+      "author": "itherseed",
+      "descendants": 22,
+      "kids": "[49002601,49001856,49002609,49001507,49001807,49001840,49001868,49001886,49001851,49001730,49002064,49002252]",
+      "score": 71,
+      "time": 1784687550,
+      "title": "Late.sh – a command-line Clubhouse for computer people",
+      "type": "story",
+      "url": "https://late.sh/",
+      "og_image": "https://late.sh/static/og-image.png",
+      "groq_label": "Late.sh is a command-line chat application that allows users to interact with each other in real-time, featuring live streaming and integration with external services.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis late.sh – a command-line Clubhouse for computer people aims to provide a platform for computer enthusiasts. The Hacker News discussion was generally positive, with many commenters appreciating its unique approach and praising its execution, such as using real icecast and irc. Several commenters also expressed enthusiasm for its potential and creativity. At the same time, several commenters raised concerns about design and usability, citing issues with legibility and the lack of grep-ability, which could be considered a major oversight for a command-line tool. Overall, the discussion suggests that the community sees value in the idea and its implementation, but also believes that some technical and functional aspects need improvement.",
+      "groq_explain": null
+    },
+    {
+      "id": 49000864,
+      "author": "DemiGuru",
+      "descendants": 145,
+      "kids": "[49001888,49001555,49001895,49001349,49001431,49001651,49002471,49002324,49002485,49002250,49002538,49001878,49001961,49001402,49001646,49001576,49002059,49001625,49002047,49001313,49001632,49001500,49001355,49001768]",
+      "score": 188,
+      "time": 1784685151,
+      "title": "LG to ban residential proxies from smart TV apps",
+      "type": "story",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "og_image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/pac-man-brightdata.png",
+      "groq_label": "LG plans to ban residential proxies from its smart TV apps to prevent scraping and abuse.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis news article from LG about banning residential proxies from smart TV apps aims to solve the problem of [malicious SDKs and potential security breaches in smart TV apps]. The Hacker News discussion suggests that commenters were primarily concerned about the widespread presence of these quasi-malware SDKs in many apps, with about 42% of LG's platform affected. Many believed that this was a sign of negligence or incompetence, and some even questioned whether LG might face legal consequences.\n\nCommenters frequently praised the move to ban residential proxies, seeing it as a positive step in improving security and preventing the spread of scraping. Some appreciated the fact that other non-Android-based TV manufacturers might follow suit, which could have a significant impact on scraping. \n\nHowever, the discussion also highlighted concerns about the effectiveness of this move. Some pointed out that residential proxies are already banned by Google Play terms of service, and questioned LG's motivations for implementing this ban.\n\nMoreover, the discussion touched on broader concerns about the security of smart TVs and the responsibility of manufacturers in managing network connections. Many commenters emphasized the importance of treating network-enabled appliances with caution and skepticism, and advocated for reviewing products with a focus on privacy and security.\n\nOverall, the discussion suggests that the community views this move as a step in the right direction, but also recognizes that there are still significant concerns about smart TV security and the potential for malicious activity. The ban is seen as an opportunity for manufacturers to rethink their approach to security and prioritize the protection of users.",
+      "groq_explain": null
+    },
     {
       "id": 49000600,
       "author": "emerongi",
@@ -390,66 +450,6 @@
       "groq_label": "This new US homeownership measure focuses on who lives in the property, not just who owns it, which can distort traditional homeownership rates when people share households with family members or others.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article introduces a new US homeownership measure that prioritizes people over housing units. The Hacker News discussion was generally mixed, with several commenters appreciating the new approach and the nuanced view it provides on homeownership. Some appreciated that the new measure \"puts people first\" by considering co-ownership and multi-generational living arrangements. However, others raised concerns that this measure can obscure or misrepresent the actual state of homeownership, highlighting examples where the traditional metric may provide a more accurate picture. Overall, the discussion suggests that the community sees potential in the new measure but remains cautious and critical, believing that more context and clarification are needed to fully understand its implications.",
       "groq_explain": null
-    },
-    {
-      "id": 48989701,
-      "author": "ilreb",
-      "descendants": 51,
-      "kids": "[48989873,48990138,48990362,48990329,48989823,48989834,48990008,48990221,48990159,48990321,48990179,48989843,48989956,48990050,48989795,48990136,48990143,48989904]",
-      "score": 92,
-      "time": 1784623463,
-      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-      "type": "story",
-      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-      "og_image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
-      "groq_label": "The Qwen-Image-3.0 model's meta keywords contain numerous references to NSFW topics despite being marketed as a tool for online shopping and creative applications.",
-      "groq_discussion": "Discussion type:  – Balanced\n\nThis Qwen-Image-3.0 is designed to generate images with rich content, authentic details, and deep knowledge. The Hacker News discussion was generally mixed, with some commenters appreciating its features such as supporting up to 4.5k token input, generating complex layouts, and displaying foreign languages like Korean correctly. \n\nAt the same time, several commenters raised concerns about the project, including criticisms of its limitations in text rendering accuracy, the \"plasticness\" in portrait images, and the need for further refinement to produce more authentic results. Additionally, several commenters expressed concerns about the project's closed-weight approach, with no clear indication of when or if weights will be released.\n\nOverall, the discussion suggests that the community sees some potential in the project but believes there are important challenges that still need to be addressed before it can be considered a significant breakthrough.",
-      "groq_explain": null
-    },
-    {
-      "id": 48988793,
-      "author": "ingve",
-      "descendants": 29,
-      "kids": "[48989212,48990141,48990045,48989300,48989282,48988907,48989555]",
-      "score": 53,
-      "time": 1784615362,
-      "title": "Linux kernel will support $ORIGIN, sort of",
-      "type": "story",
-      "url": "https://fzakaria.com/2026/07/20/linux-kernel-will-support-origin-sort-of",
-      "og_image": "images/48988793.png",
-      "groq_label": "The Linux kernel will add support for $ORIGIN in its VFS layer.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis article/project aims to solve the problem of supporting relocatable interpreters. The Hacker News discussion is generally mixed, with some commenters appreciating the approach and believing it could be useful, while others raised concerns and expressed criticism. Many praise the decision as \"very reasonable\" and highlight the potential of the feature to make binaries more portable across Linux. However, others argue that the issue can be solved on the user-space side and express skepticism about the need for kernel changes. Some point out the potential for similar solutions to be applied to other assets, such as files in `/usr/share`. The discussion also touches on the topic of technical debt and precedent, with some arguing that the decision to add the feature is unnecessary, as it does not \"fix a Nix bug\". The overall sentiment suggests that the community sees some potential in the idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 48988158,
-      "author": "hbyel",
-      "descendants": 2,
-      "kids": "[48988753,48988677]",
-      "score": 15,
-      "time": 1784609312,
-      "title": "Show HN: Ex Situ – Open-source spatial index of displaced cultural artifacts",
-      "type": "story",
-      "url": "https://exsitu.app/map",
-      "og_image": "images/48988158.png",
-      "groq_label": "The open-source spatial index Ex Situ contains information about displaced cultural artifacts but lacks provenance descriptions for some institutions.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Ex Situ project aims to solve the problem of tracking displaced cultural artifacts. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted its coolness and usefulness. Many appreciated its potential to raise awareness about historical cultural artifacts, noting that it could provide a sense of scale and context to such historical events. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of provenance descriptions for certain institutions, particularly those related to Japanese historical cultural artifacts. Overall, the Hacker News community considered the project cool, noting its potential benefits while emphasizing the need for more comprehensive data.",
-      "groq_explain": null
-    },
-    {
-      "id": 48987863,
-      "author": "NordStreamYacht",
-      "descendants": 45,
-      "kids": "[48988083,48988146,48988179,48988323,48988279,48988772,48988493,48988729]",
-      "score": 163,
-      "time": 1784606163,
-      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
-      "type": "story",
-      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F7%2F9%2F9%2F12819974-2-eng-GB%2F04ab7b8b57e0-photo_SXM2026071800000547.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630",
-      "groq_label": "US tech giants including Meta, Oracle and others have accumulated $1.65 trillion in hidden debt through opaque AI funding mechanisms.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article, \"Five US tech giants' hidden debts soar to $1.65T on opaque AI funding,\" addresses the issue of US tech giants hiding significant debts in special purpose vehicles (SPVs) used to fund data centers. Commenters generally viewed the situation as a concern, with many pointing out that the debts are not always clear, and that it may not be the tech giants that are at risk, but rather the banks that lent the money to the SPVs. The community highlighted strengths such as the ability of sophisticated investors to see through the complex financial arrangements. However, criticisms were raised as well, with concerns regarding the risks of a potential AI bubble burst and the consequences for the US tech giants and their investors. Overall, the Hacker News community considered the article to shed light on an important issue, but also expressed skepticism and doubt about the real-world implications of the hidden debts.",
-      "groq_explain": "US tech giants like Meta and Oracle have huge secret debts of over $1 trillion, which are hidden from investors, making it harder for them to understand the companies' true financial health."
     }
   ]
 }
