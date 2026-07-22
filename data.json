@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-22T10:29:19.901Z"
+    "lastUpdated": "2026-07-22T14:06:40.359Z"
   },
   "stories": [
+    {
+      "id": 49006195,
+      "author": "speckx",
+      "descendants": 48,
+      "kids": "[49006528,49006431,49006968,49006644,49006395,49006953,49006720,49006689,49006476,49006813,49006501,49006698,49006400,49006574,49006368,49006527,49006491,49006467,49006445,49006666]",
+      "score": 75,
+      "time": 1784725699,
+      "title": "Back to Kagi",
+      "type": "story",
+      "url": "https://blog.melashri.net/micro/back-to-kagi/",
+      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fblog.melashri.net%2Fmicro%2Fback-to-kagi%2F?w=800",
+      "groq_label": "Kagi's business model of charging users a monthly fee for a search engine relies heavily on users actively searching for information, which has decreased with the rise of Large Language Models like ChatGPT.",
+      "groq_discussion": "Discussion type: Community Perspective:\n\nThe Hacker News community generally responded to the search engine Kagi with mixed reactions, ranging from strong support to financial constraints and criticism. Many commenters praised the search engine's features such as explicit AI opt-in, the ability to curate search, and customizable widgets. Some users appreciated Kagi's focus on user control and its alignment with their interests. However, others expressed concerns about the cost, with some suggesting it's too expensive and would rather see a lower-cost plan with more search queries. There were also concerns about the relevance of search engines in the age of large language models (LLMs) and the impact of this technology on Kagi's user base. Despite these criticisms, some commenters stated that Kagi's custom assistant and translation features were superior to other alternatives. Overall, the community viewed Kagi as an interesting contribution, but acknowledged that it still has room for improvement, particularly in terms of pricing and adaptation to changing user needs.",
+      "groq_explain": null
+    },
+    {
+      "id": 49005973,
+      "author": "speckx",
+      "descendants": 35,
+      "kids": "[49007014,49006870,49006879,49006312,49006638,49006940,49006906,49006860,49006993,49006812,49006499,49006842,49006772,49006724,49006893,49006647,49006841,49006872,49006628,49006403,49006550,49006122]",
+      "score": 60,
+      "time": 1784724585,
+      "title": "Businesses with ugly AI menu redesigns",
+      "type": "story",
+      "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
+      "og_image": "https://blog.fiddery.com/static/og-image.png",
+      "groq_label": "Low-effort restaurants and businesses are increasingly using low-quality AI-generated menu and signage designs as a convenient alternative to hiring human designers.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of businesses using AI-generated menu redesigns is largely negative. Commenters frequently praised the idea of human effort and creativity in traditional menu designs, describing them as unique and recognizable. However, the discussion also included recurring concerns about the lack of authenticity and the homogenization of local businesses, as well as criticism of the AI-generated designs themselves, which many found to be low-quality and lacking in human touch. The overall consensus is that the use of AI-generated menu redesigns can damage a business's credibility and reputation, and that customers tend to view them as a sign of low quality or effort.",
+      "groq_explain": "The author is upset about a Filipino restaurant they visited that redesigned their menu using AI. The author thinks it looks awkward and unappealing, and that the restaurant should have created the menu themselves rather than relying on AI. This matters because the author is worried that more small businesses are using AI to create menus and other aspects of their brand, and that it can lead to a loss of personal touch and character."
+    },
+    {
+      "id": 49005329,
+      "author": "ingve",
+      "descendants": 4,
+      "kids": "[49006947,49006845,49006283]",
+      "score": 26,
+      "time": 1784721489,
+      "title": "10 REM\"_(C2SLFF4",
+      "type": "story",
+      "url": "https://beej.us/blog/data/mystery-comment/",
+      "og_image": "https://beej.us/blog/data/mystery-comment/images/wcas.jpg",
+      "groq_label": "The Oric Atmos won a programming competition with a 1000-room dungeon crawler written in exactly 10 lines of BASIC.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this nostalgic look back at BASIC programming is overwhelmingly positive. Commenters frequently shared fond memories of creatively using BASIC with assembler and machine code, describing their experiences as \"adventures\" and highlighting the challenge and innovation required to work within limited constraints. However, the discussion also included recurring themes of curiosity and experimentation, as commenters shared their own experiences of pushing the boundaries of what was possible with BASIC on older systems like the Sinclair ZX81 and Oric Atmos. The overall consensus is that the community values the creativity and resourcefulness required to develop games and applications in the early days of computing.",
+      "groq_explain": null
+    },
+    {
+      "id": 49004663,
+      "author": "ignaloidas",
+      "descendants": 190,
+      "kids": "[49006980,49005720,49005530,49005630,49005650,49005622,49005729,49005716,49005678,49006285,49006513,49006374,49006211,49005874,49005504,49005944,49005658,49005656,49006645,49005763,49005556,49006394,49005676,49005766,49005466,49006180,49005881,49005797,49005620,49006505,49006321,49005599,49005961,49005619,49006946,49005400,49006534,49006098,49005813,49005863,49005595,49005670,49006181,49006736]",
+      "score": 415,
+      "time": 1784717344,
+      "title": "OverpAId – Fire your CEO. Hire the future",
+      "type": "story",
+      "url": "https://overpaid.lol",
+      "og_image": "images/49004663.png",
+      "groq_label": "CEOs are often hired to maintain power rather than drive productivity, but large companies can afford to pay top talent to lead, making AI a potentially viable alternative.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis satirical article, \"OverpAId – Fire your CEO. Hire the future,\" aims to solve the problem of inefficient and out-of-touch CEOs. The Hacker News discussion is generally balanced, with some commenters appreciating the humor and satire, while others raised concerns about the article's approach to replacing CEOs with AI. Some argued that AI-powered CEOs could be beneficial, citing the potential for making data-driven decisions and improving performance metrics, but others questioned whether AI can replace human leadership and creativity. The discussion also highlighted the issue of power dynamics in corporations, with some commenters suggesting that CEOs are more focused on exerting control than making rational decisions. Overall, the community sees promise in the idea of AI-powered CEOs but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49003465,
       "author": "robin_reala",
@@ -389,66 +449,6 @@
       "og_image": "https://yale-threesixty.transforms.svdcdn.com/production/Benin-Coral_IRHOB.jpg?w=1200&q=60&auto=format&fit=max&dm=1784630734&s=5aab36ee725d9087d4ce6272efc6d3ec",
       "groq_label": "A previously unknown coral reef in West Africa is thriving and holds significant biodiversity.",
       "groq_discussion": "Discussion type: Community Perspective:\n\nThe Hacker News community generally responded positively to the discovery of a thriving coral reef in West Africa. Many commenters emphasized the importance of West Africa's biodiversity and expressed enthusiasm about bringing attention to this often underrated region. The discussion also highlighted the need for local responsibility and ownership in managing and preserving the country's marine resources. Some commenters made connections between the discovery and other positive developments in the region, such as Cape Verde's World Cup success. Recurring criticisms were not present in this thread, and overall, commenters viewed the discovery as an exciting and important finding that highlights the potential of West Africa's natural resources.",
-      "groq_explain": null
-    },
-    {
-      "id": 48993488,
-      "author": "1vuio0pswjnm7",
-      "descendants": 57,
-      "kids": "[48994006,48994535,48994151,48993887,48993977,48994206,48993526,48994564]",
-      "score": 90,
-      "time": 1784647353,
-      "title": "Oracle could face $7B collateral bill for Wisconsin data centre",
-      "type": "story",
-      "url": "https://www.ft.com/content/b37030b6-bda8-4ba9-8e08-e6b88687b8f5",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fcc69e9cc-5953-4ebb-93d6-02cf89ee4321.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "groq_label": "Oracle is facing potential liabilities exceeding $7 billion associated with a data center project in Wisconsin.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article discusses Oracle's potential $7B collateral bill for its Wisconsin data centre, citing project delays and permitting issues. Based on the Hacker News discussion, commenters generally viewed the situation pessimistically, with many expressing disbelief that Oracle would be taking on such a significant project commitment if they weren't confident in its success. Commenters highlighted strengths such as Oracle's supposed plans for cloud data center expansion, but criticized the project's execution and Oracle's overall financial situation. The discussion also revealed concerns about Oracle's creditworthiness, which some believe is being negatively impacted by its struggles. However, the discussion primarily reflected skepticism and critical views about Oracle's ability to manage and complete the project successfully.",
-      "groq_explain": null
-    },
-    {
-      "id": 48993414,
-      "author": "logickkk1",
-      "descendants": 232,
-      "kids": "[48994254,48993972,48994154,48993626,48994159,48993739,48993982,48993576,48993653,48995222,48993685,48993717,48993840,48994470,48994383,48995066,48994981,48993679,48993855,48994057,48994790,48993702,48994993,48994814,48994768,48994491,48993605,48993844,48993618,48993694,48994621,48993980,48994994,48994182,48995244,48994950,48994861,48994983,48994277,48994411,48994088,48994954,48993808,48994911,48994289,48993603,48993595,48993555,48995060,48993720,48994436,48994226,48994393,48993554,48993689,48994783,48993845,48994268,48993928,48994953,48993843,48993620,48994293,48994210,48994033,48994748,48993884,48994585,48993966,48993587,48994609,48994050,48994029,48993815,48993749,48993670,48994378,48993766,48994273,48994135,48993938,48994539,48994648,48994355,48994962,48993607]",
-      "score": 307,
-      "time": 1784647036,
-      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "type": "story",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art__statement_.width-1300.jpg",
-      "groq_label": "Google's Gemini 3.6 Flash model has limited details available, but preliminary benchmarks place it solidly in the middle of the pack compared to other models.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber is that they are overpriced and disappointing. Commenters frequently criticized their high prices, with users expressing concern about being forced to upgrade to more expensive models due to previous versions being deprecated. However, the discussion also included some positive comments about the new features, such as the Pelicans for 3.6 Flash and 3.5 Flash-Lite. The overall consensus is that the Gemini models are not living up to their potential and are a poor value for money, although some see promise in the upcoming Gemini 4 and Gemini 3.5 Pro models.",
-      "groq_explain": null
-    },
-    {
-      "id": 48992870,
-      "author": "speckx",
-      "descendants": 131,
-      "kids": "[48993291,48993953,48993490,48995247,48993410,48993222,48993793,48993625,48994092,48993961,48993429,48993419,48993317,48994120]",
-      "score": 175,
-      "time": 1784644301,
-      "title": "Apple Defeats Liability for Not Scanning iCloud for CSAM",
-      "type": "story",
-      "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
-      "og_image": "https://blog.ericgoldman.org/wp-content/uploads/2026/02/IMG_2022-1024x1020.jpg",
-      "groq_label": "Apple implemented a method to scan files on-device before uploading to iCloud, making it compatible with Advanced Data Protection without compromising end-to-end encryption.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Apple not scanning iCloud for CSAM is overwhelmingly positive. Commenters frequently praised Apple's stance on privacy, describing the decision as a \"win for privacy and freedom.\" Many appreciated Apple's commitment to end-to-end encryption and noted that it would not have been possible to scan iCloud without compromising this security feature. However, the discussion also included recurring concerns about the effectiveness of Apple's alternative methods, such as NeuralHash. The overall consensus is that the decision prioritizes user privacy, although critics pointed out that Apple could still potentially access user data under certain circumstances.",
-      "groq_explain": null
-    },
-    {
-      "id": 48992323,
-      "author": "naves",
-      "descendants": 8,
-      "kids": "[48993228,48994925,48993015,48994021,48993232,48992872]",
-      "score": 101,
-      "time": 1784641715,
-      "title": "PCjs Machines",
-      "type": "story",
-      "url": "https://www.pcjs.org/",
-      "og_image": "https://www.pcjs.org/assets/img/logo-home.png",
-      "groq_label": "The PCjs Machines site hosts simulated versions of classic 1970s and 1980s computers, emulating systems such as the Kaypro 86 and IBM PC.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis PCjs Machines [project] brings classic computer and video game experiences in a browser. Hacker News commenters generally appreciated its ability to deliver nostalgic experiences, such as Oregon Trail and King's Quest, and its potential to introduce classic technology to a younger generation. However, they also expressed concerns about the breadth of the project, comparing it unfavorably to some earlier revolutionary examples of innovation. Overall, the discussion was positive, with commenters recognizing the project's potential for education and entertainment.",
       "groq_explain": null
     }
   ]
