@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-23T17:30:41.155Z"
+    "lastUpdated": "2026-07-23T21:09:24.047Z"
   },
   "stories": [
+    {
+      "id": 49026810,
+      "author": "adam_rida",
+      "descendants": 46,
+      "kids": "[49027950,49028008,49026989,49027790,49027029,49027730,49027554,49027014,49027097,49027727,49027755,49027140,49027682,49027374,49027336,49027299,49027074,49027302,49027230,49027514,49027395]",
+      "score": 101,
+      "time": 1784834761,
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "type": "story",
+      "og_image": "images/49026810.png",
+      "groq_label": "Using open-weight models can offer significant cost savings, but it heavily depends on the difficulty of the tasks and whether most of them can be routed to a cheap model.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the project \"Echo – Fable-level results at 1/3 the cost using open-weight models\" is that it has potential but is poorly presented. Commenters frequently praised the idea behind the project, describing it as promising and pointing out that combinations of multiple models may have comparable performance to Fable 5. However, the discussion also included recurring concerns about the project's website and lack of transparency, with many questioning the accuracy of the claimed results and benchmarking. The overall consensus is that the idea is compelling, although its current implementation needs refinement and more information.",
+      "groq_explain": null
+    },
+    {
+      "id": 49025984,
+      "author": "speckx",
+      "descendants": 38,
+      "kids": "[49027449,49026437,49026468,49027264,49027059,49027445,49026441,49026262]",
+      "score": 85,
+      "time": 1784831030,
+      "title": "Building on ATProto",
+      "type": "story",
+      "url": "https://lukekanies.com/writing/building-on-atproto/",
+      "og_image": "https://lukekanies.com/images/Left.png",
+      "groq_label": "ATProto's design is centered around public data, and trying to adapt it for private data may not work seamlessly.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe project, Building on ATProto, aims to solve the problem of decentralized data management. The Hacker News discussion was generally mixed, with many commenters appreciating the potential of the project while also raising concerns about its limitations. One commenter praised the idea of organized clubs and a language for building games on ATProto, highlighting its potential for mixed-game communities. However, others criticized the project for expecting enthusiasts to run nodes without compensation, similar to decentralized platforms that have failed. Some also suggested that ActivityPub could be a better answer to permissioned data. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49025831,
+      "author": "MarcoDewey",
+      "descendants": 5,
+      "kids": "[49026984,49026990,49027825]",
+      "score": 46,
+      "time": 1784830383,
+      "title": "A solid-state “atomic channel” for separating rare earth elements",
+      "type": "story",
+      "url": "https://pme.uchicago.edu/news-events/news/cleaner-route-purifying-rare-earth-elements",
+      "og_image": "https://pme.uchicago.edu/sites/default/files/2026-07/Chong_Liu_057.jpg",
+      "groq_label": "Researchers have created a solid-state \"atomic channel\" by engineering manganese oxide with gaps between layers that are a few water molecules wide, allowing it to selectively separate rare earth elements based on differences in the size of their water shells.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nThe overall opinion of the \"atomic channel\" technology is cautiously optimistic. Commenters generally praised the innovative approach to separating rare earth elements, which takes advantage of the size difference in the water shells surrounding each ion. Many acknowledged the potential value of this technology, even if it may not become the basis for industrial-scale separation plants. However, some commenters raised concerns about the technology's throughput and its practical application in an industrial process. The overall consensus is that the idea is promising, although its long-term success depends on addressing these remaining challenges.",
+      "groq_explain": null
+    },
     {
       "id": 49024691,
       "author": "nickthegreek",
@@ -16,6 +60,21 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!6bjM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e89262a-a687-40ab-8c52-f9190202cec9_1200x720.png",
       "groq_label": "The Numbers website was taken down due to data breaches, resulting in sensitive information on Hollywood stars being leaked on the dark web.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to solve the problem of highlighting the consequences of a major website's shutdown. \nBased on the Hacker News discussion, commenters generally viewed the issue positively and highlighted strengths such as bringing attention to the importance of internet preservation. Many appreciated the warning signs of the website's potential issues, noting that it serves as a cautionary tale, while others believed it could be particularly useful for sparking conversations about the resilience and security of online content. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential loss of data and the lack of contingency plans, with some questioning the website's reliance on a single data center and others pointing out the difficulties of accessing certain types of content. Overall, the Hacker News community considered the issue worrisome and emphasized the importance of learning from the experience to improve internet preparedness.",
+      "groq_explain": null
+    },
+    {
+      "id": 49024643,
+      "author": "jjfoooo4",
+      "descendants": 93,
+      "kids": "[49028060,49027260,49025872,49026642,49025818,49026647,49025634,49025475,49025901,49027378,49025388,49026616,49025710]",
+      "score": 131,
+      "time": 1784825397,
+      "title": "The arguments against open source AI are bad",
+      "type": "story",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "og_image": "https://tombedor.dev/img/social-card.jpg",
+      "groq_label": "Open source model proponents counter that allowing more people to inspect source code and audit models could actually uncover and prevent potential backdoors.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"The arguments against open source AI are bad\" is that the arguments against open source AI presented are weak and motivated by self-interest. Commenters frequently praised the idea of open source AI, highlighting its benefits and potential, while criticizing the efforts of companies like OpenAI and Anthropic that are trying to restrict access to AI technology. However, the discussion also included recurring concerns about the potential risks of open source AI, such as the possibility of malicious actors exploiting the technology for their own gain. The overall consensus is that the idea of open source AI is compelling, although its long-term success depends on addressing these concerns and ensuring that the technology is developed and used responsibly.",
       "groq_explain": null
     },
     {
@@ -228,6 +287,21 @@
       "groq_explain": null
     },
     {
+      "id": 49021597,
+      "author": "r2sk5t",
+      "descendants": 123,
+      "kids": "[49023375,49023986,49027446,49023917,49027419,49023492,49026978,49024464,49023691,49024470,49026758,49024147,49026935,49024314,49026730,49026279,49024601,49023719,49023775,49027162,49024078,49024462,49026862]",
+      "score": 128,
+      "time": 1784814696,
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "type": "story",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "og_image": "https://www.darpa.mil/sites/default/files/gallery/2026-07/program-air-venom-testing-flight-2026.jpg",
+      "groq_label": "Multiple AI agents may be able to control flight systems simultaneously.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThe article discusses the DARPA and U.S. Air Force's project to integrate AI-controlled flight systems into F-16 aircraft. Based on the Hacker News discussion, commenters generally viewed the project as raising concerns rather than positively. Many appreciated the ability to toggle between traditional human control and AI control, but noted that this would not necessarily ensure a safe and reliable environment, as human limitations could still lead to problems. Others criticized the project as a \"drone with unnecessary baggage\" and questioned the cost and practicality of converting existing aircraft to AI control. Additionally, commenters expressed concerns about the long-term implications of relying on AI-powered systems for critical tasks. However, some saw potential benefits, such as the ability to train AI pilots in simulated environments and the potential for improved performance in dogfights. Overall, the discussion revealed a mix of skepticism and alarm, with commenters emphasizing the need for caution and careful consideration of the project's implications.",
+      "groq_explain": "The U.S. military is testing the ability of artificial intelligence to control a standard F-16 fighter jet, allowing it to fly on its own with a human pilot still on board to monitor its actions. This technology could one day be used for autonomous combat missions, including teams of unmanned aircraft following human orders."
+    },
+    {
       "id": 49021006,
       "author": "1vuio0pswjnm7",
       "descendants": 96,
@@ -375,81 +449,6 @@
       "og_image": "https://codeberg.org/Codeberg/org/pulls/1254/summary-card",
       "groq_label": "Codeberg's ban on cryptocurrency projects appears to be a result of a subjective moral judgment by the community, implemented without adequate discussion or plan for impacted projects, which has damaged the service's credibility.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Codeberg project aims to address [Hosting concerns]. The Hacker News discussion was generally [mixed], with many commenters appreciating the need for [certain boundaries] and the service's right to implement policies that reflect its [goals and missions]. At the same time, several commenters raised concerns about the [ban on cryptocurrency projects], arguing that it was a [subjective moral judgement]. Others were critical of the [hasty implementation] and lack of [concrete plan for notifying impacted projects]. Overall, the discussion suggests that the community acknowledges Codeberg's right to make decisions but questions the approach and process taken to implement the ban.",
-      "groq_explain": null
-    },
-    {
-      "id": 49014007,
-      "author": "effects",
-      "descendants": 20,
-      "kids": "[49014703,49014538,49015911,49015780,49014194]",
-      "score": 84,
-      "time": 1784757334,
-      "title": "Medici family mystery may be solved after more than 400 years",
-      "type": "story",
-      "url": "https://www.cnn.com/2026/07/15/science/medici-family-mystery-dna-malaria",
-      "og_image": "https://media.cnn.com/api/v1/images/stellar/prod/medicisplit.jpg?c=16x9&q=w_800,c_fill",
-      "groq_label": "DNA testing found the cause of the Grand Duke's death was likely malaria rather than poisoning.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article attempts to solve the mystery surrounding the death of the Medici family's Grand Duke Francesco. The Hacker News discussion was generally neutral, with many commenters appreciating the use of DNA testing to gather new evidence and the insight into a previously held rival theory. At the same time, several commenters raised concerns about the limitations of the test result, pointing out that it may not entirely rule out the possibility of poisoning, and therefore, the mystery remains only partially solved. Overall, the discussion suggests that the community acknowledges the scientific contribution while also acknowledging the ongoing debate and uncertainty surrounding the Grand Duke's death.",
-      "groq_explain": null
-    },
-    {
-      "id": 49013538,
-      "author": "kickingvegas",
-      "descendants": 21,
-      "kids": "[49013946,49013997,49014540,49014431,49013989,49015445,49014701,49015297,49014876]",
-      "score": 74,
-      "time": 1784754926,
-      "title": "Malleable Computing, Emacs, and You",
-      "type": "story",
-      "url": "http://yummymelon.com/devnull/malleable-computing-emacs-and-you.html",
-      "og_image": "http://yummymelon.com/devnull/images/opengraph-default.jpg",
-      "groq_label": "Existing solutions like Magit Forge and Magit already implement some form of malleable computing and customisability for Git workflow.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the concept of \"Malleable Computing\" is overwhelmingly positive. Commenters frequently praised the idea of creating software that is flexible and customizable, with many drawing comparisons to Emacs, which allows users to modify and extend the program to suit their needs. Several commenters highlighted their own experiences in implementing similar systems, including a malleable SCM and AutoHotkey, which adds a malleable computing layer to Windows. While there were some mentions of existing solutions, such as Magit Forge, the overall consensus is that the idea of malleable computing is compelling and could potentially address issues with traditional software design. However, the discussion also touched on remaining challenges, such as the need for local/remote sync and the potential complexity of using such systems.",
-      "groq_explain": null
-    },
-    {
-      "id": 49013356,
-      "author": "Erenay09",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1784754026,
-      "title": "Safari Technology Preview 248 Released",
-      "type": "story",
-      "url": "https://webkit.org/blog/18162/release-notes-for-safari-technology-preview-248/",
-      "og_image": "https://webkit.org/wp-content/themes/webkit/images/preview-card.jpg",
-      "groq_label": "Safari Technology Preview 248 includes a fix to prevent memory leaks when using the Performance API.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49013036,
-      "author": "CITIZENDOT",
-      "descendants": 1,
-      "kids": "[49013488]",
-      "score": 19,
-      "time": 1784752424,
-      "title": "I Inspected My Take-Home Interview Project. It Was a Whole Operation",
-      "type": "story",
-      "url": "https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/",
-      "og_image": "https://citizendot.github.io/avatar.webp",
-      "groq_label": "The take-home interview project involved a complex setup with multiple components and layers of abstraction to simulate real-world application testing.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this exposé is overwhelmingly positive. Commenters frequently praised the skills and thoroughness of the individuals who created the take-home interview project, describing it as well-researched and professional. The overall consensus is that the idea is extremely impressive, and many believe it will be effective in real-world situations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49012777,
-      "author": "helonaut",
-      "descendants": 8,
-      "kids": "[49016321,49015778,49015052,49014690,49012778]",
-      "score": 80,
-      "time": 1784751361,
-      "title": "Fairphone 6 wide camera experimental Linux support",
-      "type": "story",
-      "url": "https://nondescriptpointer.com/articles/fairphone-6-wide-camera-linux/",
-      "og_image": "images/49012777.png",
-      "groq_label": "The post discusses a community-driven experimental Linux driver for the wide camera on Fairphone 6 devices.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article about experimental Linux support for the Fairphone 6's wide camera was shared on Hacker News. Hacker News commenters generally appreciated the author's efforts to implement Linux support for the camera and considered it a cool achievement. However, they also expressed some skepticism about the article's writing quality, speculating that it might be AI-assisted. Overall, the discussion was positive, with commenters praising the development and the Fairphone brand.",
       "groq_explain": null
     }
   ]
