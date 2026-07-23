@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-23T06:33:59.227Z"
+    "lastUpdated": "2026-07-23T10:28:08.197Z"
   },
   "stories": [
+    {
+      "id": 49017344,
+      "author": "Erenay09",
+      "descendants": 27,
+      "kids": "[49018190,49018160,49018003,49019288,49018012,49018652,49018629,49018547]",
+      "score": 60,
+      "time": 1784785220,
+      "title": "Cruller: Bun's Zig Runtime, Continued on Zig 0.16",
+      "type": "story",
+      "url": "https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734",
+      "og_image": "https://ziggit.dev/uploads/default/original/1X/3417db0e8abaf83a355700b91efd528025492487.png",
+      "groq_label": "The Zig runtime called Cruller is actually an extracted subset of the original Bun codebase for deployment purposes.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post/research/product/Cruller: Bun's Zig Runtime, Continued on Zig 0.16] aims to solve the problem of [extracting a subset of the original Bun codebase for deployment purposes]. Based on the Hacker News discussion, commenters generally viewed the project positively, particularly appreciating the heroic effort of sifting through the original codebase. Many saw potential in using the extracted subset as a supplement to the original Bun project, highlighting its value as a companion tool. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's legitimacy, with some accusing Andrew Kelly of \"forking an embarrassing project\" and questioning the motivation behind the fork. Others felt that the project was unnecessary and could be seen as a \"rehash\" or a \"fork without adding much value.\" Overall, the Hacker News community considered the project [somewhat positive, but with significant reservations], recognizing its potential but emphasizing that its success depends on addressing these concerns and justifying its purpose.",
+      "groq_explain": null
+    },
+    {
+      "id": 49017265,
+      "author": "giuliomagnifico",
+      "descendants": 57,
+      "kids": "[49018736,49017961,49018475,49018411,49017788,49019042,49017962,49018963,49018636,49017879,49018792,49018974,49017395,49017958,49018700]",
+      "score": 86,
+      "time": 1784784257,
+      "title": "Amiga 1000: Ten years ahead of its time",
+      "type": "story",
+      "url": "https://dfarq.homeip.net/amiga-1000-ten-years-ahead-of-its-time/",
+      "og_image": "https://i0.wp.com/dfarq.homeip.net/wp-content/uploads/2024/07/amiga-1000-social.jpg?fit=845%2C475&ssl=1",
+      "groq_label": "The Amiga 1000 achieved a level of multitasking and user interface integration between graphical and command-line environments that remains unparalleled even in modern operating systems.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Amiga 1000 is that it was a revolutionary and innovative computer ahead of its time. Commenters frequently praised its strengths, such as its vision of a malleable and personalizable desktop UI, tightly integrated GUI and command line environments, and incredibly fast performance for its era. However, the discussion also included recurring concerns about its limitations, such as loading times, limited memory, and the company's dysfunctional upper management. The overall consensus is that the Amiga 1000 introduced an interesting idea that would benefit from further refinement, but its impact on the computing world cannot be overstated.",
+      "groq_explain": null
+    },
     {
       "id": 49016099,
       "author": "soheilpro",
@@ -421,36 +451,6 @@
       "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fblog.melashri.net%2Fmicro%2Fback-to-kagi%2F?w=800",
       "groq_label": "Kagi's business model of charging users a monthly fee for a search engine relies heavily on users actively searching for information, which has decreased with the rise of Large Language Models like ChatGPT.",
       "groq_discussion": "Discussion type: Community Perspective:\n\nThe Hacker News community generally responded to the search engine Kagi with mixed reactions, ranging from strong support to financial constraints and criticism. Many commenters praised the search engine's features such as explicit AI opt-in, the ability to curate search, and customizable widgets. Some users appreciated Kagi's focus on user control and its alignment with their interests. However, others expressed concerns about the cost, with some suggesting it's too expensive and would rather see a lower-cost plan with more search queries. There were also concerns about the relevance of search engines in the age of large language models (LLMs) and the impact of this technology on Kagi's user base. Despite these criticisms, some commenters stated that Kagi's custom assistant and translation features were superior to other alternatives. Overall, the community viewed Kagi as an interesting contribution, but acknowledged that it still has room for improvement, particularly in terms of pricing and adaptation to changing user needs.",
-      "groq_explain": null
-    },
-    {
-      "id": 49005973,
-      "author": "speckx",
-      "descendants": 35,
-      "kids": "[49007014,49006870,49006879,49006312,49006638,49006940,49006906,49006860,49006993,49006812,49006499,49006842,49006772,49006724,49006893,49006647,49006841,49006872,49006628,49006403,49006550,49006122]",
-      "score": 60,
-      "time": 1784724585,
-      "title": "Businesses with ugly AI menu redesigns",
-      "type": "story",
-      "url": "https://blog.fiddery.com/businesses-with-ugly-ai-menu-redesigns/",
-      "og_image": "https://blog.fiddery.com/static/og-image.png",
-      "groq_label": "Low-effort restaurants and businesses are increasingly using low-quality AI-generated menu and signage designs as a convenient alternative to hiring human designers.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of businesses using AI-generated menu redesigns is largely negative. Commenters frequently praised the idea of human effort and creativity in traditional menu designs, describing them as unique and recognizable. However, the discussion also included recurring concerns about the lack of authenticity and the homogenization of local businesses, as well as criticism of the AI-generated designs themselves, which many found to be low-quality and lacking in human touch. The overall consensus is that the use of AI-generated menu redesigns can damage a business's credibility and reputation, and that customers tend to view them as a sign of low quality or effort.",
-      "groq_explain": "The author is upset about a Filipino restaurant they visited that redesigned their menu using AI. The author thinks it looks awkward and unappealing, and that the restaurant should have created the menu themselves rather than relying on AI. This matters because the author is worried that more small businesses are using AI to create menus and other aspects of their brand, and that it can lead to a loss of personal touch and character."
-    },
-    {
-      "id": 49005787,
-      "author": "abelanger",
-      "descendants": 69,
-      "kids": "[49008198,49008679,49010181,49008631,49008188,49009284,49008392,49008486,49008344,49008758,49008648,49008402,49008282]",
-      "score": 148,
-      "time": 1784723768,
-      "title": "The startup's Postgres survival guide",
-      "type": "story",
-      "url": "https://hatchet.run/blog/postgres-survival-guide",
-      "og_image": "https://hatchet.run/assets/og-PqKfvZWg.png",
-      "groq_label": "Some missing topics in the startup's Postgres survival guide include a thorough discussion of backup strategies and restore plans, with mentions of tools like Barman.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article, the \"Postgres survival guide\", aims to provide a comprehensive guide for working with Postgres databases. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the inclusion of many useful Postgres tips and best practices. Many appreciated the advice on query optimization and locking. \nHowever, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of attention to backup and recovery strategies, foreign key cascades, and the potential for deadlocking access patterns. Overall, the Hacker News community considered the article mostly useful but suggested additional considerations for a complete survival guide.\n\nAlternatively, given the positive tone of the discussion:\n\nDiscussion type: – Basic:\n\nThis article, the \"Postgres survival guide\", aims to provide a comprehensive guide for working with Postgres databases. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the inclusion of many useful Postgres tips and best practices. Many appreciated the advice on query optimization and locking, and some readers found the foreign key advice helpful. Others believed that the article would be particularly useful for teams managing Postgres at a startup. However, the discussion also revealed a few criticisms, including the lack of discussion on monitoring and alerting and the potential for deadlocking access patterns. Overall, the Hacker News community considered the article a valuable resource for Postgres users.",
       "groq_explain": null
     }
   ]
