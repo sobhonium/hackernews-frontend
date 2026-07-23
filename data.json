@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-23T10:28:08.197Z"
+    "lastUpdated": "2026-07-23T14:09:59.351Z"
   },
   "stories": [
+    {
+      "id": 49021783,
+      "author": "MarcoDewey",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 6,
+      "time": 1784815344,
+      "title": "Astronomers may have found the first exomoon",
+      "type": "story",
+      "url": "https://www.eso.org/public/news/eso2610/",
+      "og_image": "https://cdn.eso.org/images/screen/eso2610a.jpg",
+      "groq_label": "The observed orbital stability and periodic variations in the host star's light pattern for Kepler-1625b suggest the presence of a large exomoon orbiting the exoplanet.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49021006,
+      "author": "1vuio0pswjnm7",
+      "descendants": 96,
+      "kids": "[49021102,49021436,49021642,49021368,49021190,49021704,49021135,49021317,49021614,49021846,49021106,49021206,49021198]",
+      "score": 112,
+      "time": 1784812202,
+      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+      "type": "story",
+      "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+      "og_image": "https://www.reuters.com/resizer/v2/ULW7IVYV5JNH7IJCHQLOPMVJ2A.jpg?auth=55761f5fe829817458478735f86971cf3d147e66696e6827e57251022977c177&height=1005&width=1920&quality=80&smart=true",
+      "groq_label": "Big Tech companies are collectively spending aggressively on AI research and development with little evidence of a clear long-term payoff strategy.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nAlphabet's cash burn raises alarm for Big Tech as AI spending climbs. The Hacker News discussion was generally critical, with many commenters appreciating the point that Alphabet has a large cash reserve, but questioning the timing and scale of its AI spending. Supporters argued that Google is transforming its business with the AI investment, citing the growth of its cloud revenue and the potential benefits of AI technology. Critics, on the other hand, pointed out that AI spending is still a relatively unproven area, and that Google's emphasis on it may be excessive. Several commenters also shared concerns about the broader implications of Big Tech's collective betting on AI, suggesting that the risks could outweigh the potential benefits if things do not pan out as expected. Overall, the discussion was balanced, reflecting a mix of enthusiasm and skepticism about Alphabet's AI spending.",
+      "groq_explain": null
+    },
+    {
+      "id": 49020999,
+      "author": "technewssss",
+      "descendants": 9,
+      "kids": "[49021316]",
+      "score": 29,
+      "time": 1784812150,
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "type": "story",
+      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "og_image": "https://futurism.com/wp-content/uploads/2026/07/ai-companies-hide-debt-off-balance-sheet.jpg?w=1200",
+      "groq_label": "AI companies' massive debt may become unsustainable if advancements in large language model efficiency result in significant data center cost savings.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to expose [the staggering amount of debt among AI companies]. The Hacker News discussion was generally cautionary, with many commenters warning about [potential risks]. Some highlighted the challenges faced by AI companies due to their debt, emphasizing that their business model may not be sustainable if [LLEs efficiency gets good enough to make data centers obsolete]. This concern suggests that the community views the debt issue as a potential liability, but the article is framed in a way that invites further exploration into the business practices of AI companies.",
+      "groq_explain": null
+    },
+    {
+      "id": 49020868,
+      "author": "yogthos",
+      "descendants": 100,
+      "kids": "[49021534,49021684,49021500,49021769,49021218,49021237,49021829,49020977,49021806,49021779,49021572,49021736,49021354,49021745,49021583,49021685,49021626,49021625,49021585,49021537,49021562,49021746,49021457,49021579,49021539,49021451,49021652,49021434,49021567,49021595,49021548,49021576,49021621,49021221,49021699,49021770,49021260,49021349,49021607,49021755,49021834,49021612]",
+      "score": 128,
+      "time": 1784811603,
+      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+      "type": "story",
+      "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "og_image": "images/49020868.png",
+      "groq_label": "Technological advancements, including open-weight AI, are outpacing regulatory frameworks for the benefit of large companies like OpenAI and Anthropic.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of OpenAI and Anthropic's attempt to unite against open-weight AI risks is largely negative. Commenters frequently criticized the companies for their motivations, citing a history of prioritizing control and profit over safety and human benefit. Many viewed their actions as a ploy to protect their bottom line and maintain a monopoly. While some commenters argued that open-weight models could lead to a dystopian future, others believed that it's a necessary step for innovation and that existing regulations are already stifling competition. The consensus is that the companies' concerns are driven by self-interest and that the real issue is their failure to adapt to changing market conditions.",
+      "groq_explain": null
+    },
     {
       "id": 49017344,
       "author": "Erenay09",
@@ -76,6 +136,21 @@
       "og_image": "images/49015639.png",
       "groq_label": "The investigation into OpenAI's alleged hack of Hugging Face appears to have found no evidence of a hack, instead suggesting a misinterpretation of activity as a cyberattack.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis story aims to solve the problem of misinformation and speculative claims regarding OpenAI's alleged cyberattack against Hugging Face. \nBased on the Hacker News discussion, commenters generally viewed the story as misleading science fiction and speculated that it might be a public relations motivated story. Many appreciated the fact that the story was likely fabricated, noting that it was a confirmation of their initial suspicions with others believing it was a way to promote the company with sensational claims. However, the discussion also revealed that some people still believed that this kind of attack could be real, with others pointing out that companies could be more transparent in their actions, so such false claims wouldn't occur. Overall, the Hacker News community considered the story  a baseless speculation, recognizing its lack of substance while emphasizing that it was used for publicity.",
+      "groq_explain": null
+    },
+    {
+      "id": 49015635,
+      "author": "acmnrs",
+      "descendants": 68,
+      "kids": "[49021095,49019561,49020893,49018799,49020880,49019991,49019187,49021126,49019349,49018932,49021418,49019234,49019343,49019106,49019233,49019853,49017444]",
+      "score": 136,
+      "time": 1784769293,
+      "title": "Protecting our FLOSS commons from LLMs",
+      "type": "story",
+      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
+      "og_image": "https://design.codeberg.org/logo-kit/icon_inverted.svg",
+      "groq_label": "Codeberg updates its Terms of Service to ban projects that consist mostly of code generated by large language models like Claude and OpenAI Codex.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis blog post from Codeberg aims to protect the FLOSS commons from LLMs. The Hacker News discussion was generally mixed, with many commenters appreciating Codeberg's decision and praising their philosophy of being a home for projects that identify as anti-LLM. They highlighted strengths such as providing a clear identity for Codeberg and creating a community hub for like-minded developers. Some commenters also believed that Codeberg's decision could be seen as a strong signal of a project's quality and the values of its maintainers. However, others raised concerns about the approach, arguing that it is difficult to detect LLM usage in software development and that it may stifle innovation. They pointed out that pure democracy can lead to suppression of minority views and that Codeberg's decision may have unintended consequences. Additionally, several commenters questioned the assumption that LLMs are inherently bad or that they can easily be detected. Overall, the discussion suggests that the community sees promise in Codeberg's approach but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -376,81 +451,6 @@
       "og_image": "https://blog.jaysmito.dev/_astro/thumb.HBNrXryW.png",
       "groq_label": "Perlin Noise's derivative is not continuous around the grid lattice.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article about Perlin's Noise Algorithm aims to solve the problem of generating natural-looking random patterns. The Hacker News discussion was generally positive, with many commenters appreciating the algorithm's strengths. At the same time, several commenters raised concerns about its limitations, arguing that it has issues with lighting and normals around grid lattices. Commenters also pointed out that there are improved versions of the algorithm, such as Simplex Noise, which is not as well-known because of patent issues in the past. The overall discussion suggests that the community sees promise in Perlin's Noise Algorithm but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49007831,
-      "author": "r2sk5t",
-      "descendants": 22,
-      "kids": "[49009245,49010088,49009099,49009594,49009048,49007832,49009360,49009013]",
-      "score": 37,
-      "time": 1784732244,
-      "title": "Airbus Full Scale Foldable Wing Extensions",
-      "type": "story",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-launches-new-flight-test-programme-for-wing-of-tomorrow",
-      "og_image": "https://www.airbus.com/sites/g/files/jlcbta136/files/styles/w1200h675/public/2026-07/va_curved_final_vertical_engines.jpg?h=747f257d&itok=TgOhXQYJ",
-      "groq_label": "Airbus is testing 8.3 meter full scale wing extensions on an A321neo, but they do not fold.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article about Airbus Full Scale Foldable Wing Extensions addresses the topic of innovative wing design for airplanes. Hacker News commenters generally saw through the clickbait headline, understanding that the project primarily aims to test the aerodynamic benefits of longer, lighter, and more slender wings rather than foldable wings. While some appreciated the idea of extendable wingtips, others noted that Boeing is already exploring a similar concept with the 777X and questioned the original claim of 'full scale foldable' wings. The discussion was critical/mixed, with commenters recognizing both the potential benefits of the project and its inaccuracies.",
-      "groq_explain": "Airbus is working on testing new wing designs for more efficient single-aisle aircraft by adding foldable wing extensions to a regular plane and flying it to see how it performs. This matters because it could lead to less fuel being burned and lower emissions in flying."
-    },
-    {
-      "id": 49007626,
-      "author": "willm",
-      "descendants": 22,
-      "kids": "[49010155,49009509,49009566,49009292,49008960,49009689,49009950,49009737,49010039,49009984,49010016,49010132,49009097,49009058,49009583,49009947,49009629]",
-      "score": 30,
-      "time": 1784731408,
-      "title": "Ghost Cut – or why Cut and Paste is broken everywhere",
-      "type": "story",
-      "url": "https://ishmael.textualize.io/blog/ghost-cut/",
-      "og_image": "https://ishmael.textualize.io/assets/img/og.png",
-      "groq_label": "Atomic clipboard-less cut action can be achieved with a 'ghost cut' method, where cutting a selection temporarily inactivates it without placing its contents in the clipboard, allowing for undoing the operation without modifying the clipboard state.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the \"Ghost Cut\" concept is mixed. Commenters frequently praised the idea of separating the \"Cut\" operation into a \"Copy to clipboard\" and a \"Remove from original document\" operation, describing it as a feature that would improve usability and clarity. However, the discussion also included recurring concerns about the potential consequences and implications of such a change, particularly regarding the impact on existing muscle memory and the potential complexities of clipboard management. The overall consensus is that the idea is intriguing, although its long-term success depends on addressing these challenges and considering the trade-offs.",
-      "groq_explain": "The core idea of this is that the traditional Cut and Paste function is flawed in many text editors and word processors, causing annoying issues like being unable to undo a cut, having text reflow when you cut it, and not being able to undo the entire operation as a single step. To fix this, the person proposes an alternative called \"Ghost Cut\", which temporarily hides cut text without moving it to the clipboard, allowing you to easily undo or cancel the operation. This concept matters because it could make text editing more convenient and reliable."
-    },
-    {
-      "id": 49007610,
-      "author": "softwaredoug",
-      "descendants": 88,
-      "kids": "[49010011,49009978,49009399,49010238,49009729,49009914,49009700,49009831,49010094,49010063,49010096,49010023,49010069,49010144,49010046,49009547,49010087,49009614,49010025,49009527,49009531,49010188,49010154,49010248,49009786,49010065,49010124,49009338,49010008,49009776,49009501,49009835,49009766,49010033,49010026,49009427,49009232,49007792,49009768,49009379,49009285,49009388]",
-      "score": 52,
-      "time": 1784731328,
-      "title": "\"We have information that Moonshot distilled Fable for the development of K3\"",
-      "type": "story",
-      "url": "https://twitter.com/mkratsios47/status/2079933645888880708",
-      "og_image": "https://pbs.twimg.com/profile_images/2036415476335833088/WPlUcJxT_200x200.jpg",
-      "groq_label": "The article suggests that Moonshot AI used a sophisticated platform to distill Anthropic's Fable model for the development of its K3 model, but others question the legitimacy and impact of this alleged distillation and the motives of various parties.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to address the controversy surrounding the development of K3 by Moonshot. The Hacker News discussion was generally balanced, with many commenters expressing mixed opinions. On one hand, several commenters pointed out that distillation is not inherently illegal and that models like K3 can benefit from publicly available data. They also highlighted that other companies such as Anthropic have also engaged in similar practices without facing consequences.\n\nOthers praised Moonshot for their ability to quickly develop K3, with one commenter suggesting that this is evidence of the benefits that companies can gain from shared data and the eventual convergence of models. However, the discussion also included recurring criticisms regarding the ethics of distillation and the potential impact on the competitive advantage of companies like Anthropic.\n\nOverall, the discussion suggests that the community sees complexities in this issue, recognizing both the potential benefits of shared data and the need for companies to protect their intellectual property.",
-      "groq_explain": "Moonshot AI allegedly accessed and used competitor Anthropic's technology to develop its own AI model, K3, and also acquired advanced servers from a company in Thailand. The US government is concerned that this is unfair and may be part of a larger effort to steal American technology."
-    },
-    {
-      "id": 49007247,
-      "author": "benbreen",
-      "descendants": 79,
-      "kids": "[49014499,49015196,49015025,49014448,49014159,49014375,49014704,49016231,49014218,49014520,49015117,49015444,49015900,49014760,49014315,49015143,49015195,49015254,49014895,49014344,49014180,49014539,49014277,49016232,49014424,49008002,49014302]",
-      "score": 181,
-      "time": 1784729885,
-      "title": "Quality non-fiction books are the antithesis of AI slop",
-      "type": "story",
-      "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!EZXa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0fcdcaf-a0ad-4dd5-a383-47403c929ab7_1364x1212.png",
-      "groq_label": "Quality non-fiction books provide organized, targeted, and interestingly randomized access to knowledge, while AI-generated content often lacks such filtering and organization.",
-      "groq_discussion": "Discussion type: – Balanced: \n\nThis article focuses on the contrast between high-quality non-fiction books and AI-generated content. The Hacker News discussion was generally positive, with many commenters appreciating the site's useful book recommendations and the author's nuanced discussion of AI's role. At the same time, the discussion also surfaced recurring concerns, such as the limitations of AI-generated content, the potential for AI writing to be inferior to human writing, and the importance of considering the context and domain expertise when evaluating AI-generated output.",
-      "groq_explain": "The author is talking about how reading non-fiction books has been one of the most valuable experiences in their life. They reflect on their past job as a library shelver, where they stumbled upon interesting books that sparked their curiosity. They compare this to how people search for information now, relying on Google which often provides low-quality results compared to the carefully curated selection found in old-fashioned libraries. The author laments that the way we experience books and libraries is changing for the worse, but notes that the quality of non-fiction books themselves remains high and is even more valuable in today's digital age."
-    },
-    {
-      "id": 49006195,
-      "author": "speckx",
-      "descendants": 48,
-      "kids": "[49006528,49006431,49006968,49006644,49006395,49006953,49006720,49006689,49006476,49006813,49006501,49006698,49006400,49006574,49006368,49006527,49006491,49006467,49006445,49006666]",
-      "score": 75,
-      "time": 1784725699,
-      "title": "Back to Kagi",
-      "type": "story",
-      "url": "https://blog.melashri.net/micro/back-to-kagi/",
-      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fblog.melashri.net%2Fmicro%2Fback-to-kagi%2F?w=800",
-      "groq_label": "Kagi's business model of charging users a monthly fee for a search engine relies heavily on users actively searching for information, which has decreased with the rise of Large Language Models like ChatGPT.",
-      "groq_discussion": "Discussion type: Community Perspective:\n\nThe Hacker News community generally responded to the search engine Kagi with mixed reactions, ranging from strong support to financial constraints and criticism. Many commenters praised the search engine's features such as explicit AI opt-in, the ability to curate search, and customizable widgets. Some users appreciated Kagi's focus on user control and its alignment with their interests. However, others expressed concerns about the cost, with some suggesting it's too expensive and would rather see a lower-cost plan with more search queries. There were also concerns about the relevance of search engines in the age of large language models (LLMs) and the impact of this technology on Kagi's user base. Despite these criticisms, some commenters stated that Kagi's custom assistant and translation features were superior to other alternatives. Overall, the community viewed Kagi as an interesting contribution, but acknowledged that it still has room for improvement, particularly in terms of pricing and adaptation to changing user needs.",
       "groq_explain": null
     }
   ]
