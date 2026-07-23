@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-23T03:00:36.640Z"
+    "lastUpdated": "2026-07-23T06:33:59.227Z"
   },
   "stories": [
+    {
+      "id": 49016099,
+      "author": "soheilpro",
+      "descendants": 14,
+      "kids": "[49017278,49016300,49017319,49016528,49016797,49016813,49017315,49017461,49016802]",
+      "score": 33,
+      "time": 1784773703,
+      "title": "Restructuring GitHub's bug bounty program",
+      "type": "story",
+      "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+      "og_image": "https://github.blog/wp-content/uploads/2021/06/GitHub-Bug-Bounty.png?fit=1498%2C826",
+      "groq_label": "Limiting payouts for certain researchers may decrease the likelihood of high-priority bug submissions.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GitHub's restructuring of their bug bounty program is that it is problematic due to concerns about fairness and potential unintended consequences. Commenters frequently criticized the introduction of a VIP program with varying payouts for different researchers, arguing that it might encourage LLM spam and discourage human researchers from reporting bugs outside of the VIP program. Many used the example of rewarding high-impact, high-quality work as positive but were still skeptical about how this would be implemented and enforced. The overall consensus is that the idea behind the changes is unclear and might not have the intended effects, highlighting the need for more information and refinement in the program.",
+      "groq_explain": null
+    },
     {
       "id": 49015735,
       "author": "snorbleck",
@@ -436,21 +451,6 @@
       "og_image": "https://hatchet.run/assets/og-PqKfvZWg.png",
       "groq_label": "Some missing topics in the startup's Postgres survival guide include a thorough discussion of backup strategies and restore plans, with mentions of tools like Barman.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article, the \"Postgres survival guide\", aims to provide a comprehensive guide for working with Postgres databases. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the inclusion of many useful Postgres tips and best practices. Many appreciated the advice on query optimization and locking. \nHowever, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of attention to backup and recovery strategies, foreign key cascades, and the potential for deadlocking access patterns. Overall, the Hacker News community considered the article mostly useful but suggested additional considerations for a complete survival guide.\n\nAlternatively, given the positive tone of the discussion:\n\nDiscussion type: – Basic:\n\nThis article, the \"Postgres survival guide\", aims to provide a comprehensive guide for working with Postgres databases. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the inclusion of many useful Postgres tips and best practices. Many appreciated the advice on query optimization and locking, and some readers found the foreign key advice helpful. Others believed that the article would be particularly useful for teams managing Postgres at a startup. However, the discussion also revealed a few criticisms, including the lack of discussion on monitoring and alerting and the potential for deadlocking access patterns. Overall, the Hacker News community considered the article a valuable resource for Postgres users.",
-      "groq_explain": null
-    },
-    {
-      "id": 49005329,
-      "author": "ingve",
-      "descendants": 4,
-      "kids": "[49006947,49006845,49006283]",
-      "score": 26,
-      "time": 1784721489,
-      "title": "10 REM\"_(C2SLFF4",
-      "type": "story",
-      "url": "https://beej.us/blog/data/mystery-comment/",
-      "og_image": "https://beej.us/blog/data/mystery-comment/images/wcas.jpg",
-      "groq_label": "The Oric Atmos won a programming competition with a 1000-room dungeon crawler written in exactly 10 lines of BASIC.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this nostalgic look back at BASIC programming is overwhelmingly positive. Commenters frequently shared fond memories of creatively using BASIC with assembler and machine code, describing their experiences as \"adventures\" and highlighting the challenge and innovation required to work within limited constraints. However, the discussion also included recurring themes of curiosity and experimentation, as commenters shared their own experiences of pushing the boundaries of what was possible with BASIC on older systems like the Sinclair ZX81 and Oric Atmos. The overall consensus is that the community values the creativity and resourcefulness required to develop games and applications in the early days of computing.",
       "groq_explain": null
     }
   ]
