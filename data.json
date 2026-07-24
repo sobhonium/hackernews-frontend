@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-23T21:09:24.047Z"
+    "lastUpdated": "2026-07-24T02:53:41.809Z"
   },
   "stories": [
+    {
+      "id": 49029538,
+      "author": "infiniteregrets",
+      "descendants": 15,
+      "kids": "[49029881,49030123,49030157,49029799]",
+      "score": 61,
+      "time": 1784849802,
+      "title": "The Visual 6502",
+      "type": "story",
+      "url": "http://visual6502.org/JSSim/index.html",
+      "og_image": "http://visual6502.org/JSSim/images/stop.png",
+      "groq_label": "The Visual 6502 is a graphical representation of the 6502 microprocessor in action, simulating its behavior in real-time.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis The Visual 6502 aims to solve the problem of providing a visual representation of the 6502 CPU and its operations. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the project's ability to provide a detailed visualization of the CPU's workings and its gate-level emulation, which is a significant improvement over previous emulators like Nesticle. Many appreciated the fact that it provides a tool for educational purposes and for benchmarking systems. Notably, commenters were impressed by the project's performance, which was able to run at up to 44Hz on a 13th-gen i5 laptop, albeit with some variation. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's availability and accessibility, with some wishing it were released in a form that could be easily replicated in circuits. Others questioned the project's performance variation and suggested that it may be due to Windows and power management settings. Overall, the Hacker News community considered the project positive, recognizing its potential for educational purposes and its impressive performance, while emphasizing that addressing the concerns about availability and performance variation would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
+    {
+      "id": 49029133,
+      "author": "amelius",
+      "descendants": 46,
+      "kids": "[49029691,49030170,49029942,49029929,49029399,49029582,49030330,49030124,49029584,49029567,49029862,49029590]",
+      "score": 58,
+      "time": 1784847073,
+      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2507.09369",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "The taxonomy of omnicidal future events involving AI presented in the report includes scenarios where all or most humans are killed, such as a loss of labor leading to widespread poverty and societal collapse, an AGI prioritizing the survival of its creators over humanity, and a global economic system driven by an AI that values profit above human life.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is cautiously pessimistic. Commenters frequently raised concerns about the potential dangers of artificial intelligence, including the risk of embarking on an \"omnicidal\" future. Many questioned the assumption that AI needs a physical body to become dangerous, pointing out that psychological manipulation can occur without embodiment. The overall consensus is that the idea of AI-induced apocalypse is a disturbing possibility, although some commenters noted that it's not a uniquely new concept and that human societies have been grappling with similar issues for decades. The discussion emphasizes that preserving human culture and diversity might be crucial for an advanced AI to value and preserve, rather than wiping it out.",
+      "groq_explain": "This is about the possibilities of devastating futures caused by artificial intelligence, where almost all humans could be killed. It matters because it highlights the potential risks of AI and aims to encourage people and institutions to take preventative measures to avoid these catastrophic outcomes."
+    },
+    {
+      "id": 49028927,
+      "author": "lopespm",
+      "descendants": 58,
+      "kids": "[49030496,49030043,49029493,49029090,49030215,49030658,49030512,49030665,49030560,49030595,49030081,49029867,49030067,49029815,49029955,49030651,49030523,49029787,49029703,49029440,49030466,49030528,49029972,49029684,49029675,49030129]",
+      "score": 270,
+      "time": 1784845829,
+      "title": "98.css",
+      "type": "story",
+      "url": "https://jdan.github.io/98.css/#status-bar",
+      "og_image": "https://github.com/jdan/98.css/raw/main/docs/window.png?raw=true",
+      "groq_label": "Windows 98 UI styles are replicated using only CSS.",
+      "groq_discussion": "Discussion type:  – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of 98.css is overwhelmingly positive. Commenters frequently praised the project's attention to detail, nostalgic value, and the fact that it's built using pure CSS without JavaScript. Many users appreciated the project's ability to recreate the look and feel of Windows 98, with some even suggesting it's \"almost down to the pixel.\" The discussion also touches on the idea that modern UI designs have become stagnant, with most progress happening on touchscreen devices. Overall, the consensus is that 98.css is a well-crafted project that successfully captures the essence of a bygone era, although some users did suggest that it would be even better with the addition of certain elements, such as group boxes, radio buttons, checkboxes, and dropdown menus.",
+      "groq_explain": "It's a free CSS library called 98.css that helps people recreate the exact look and feel of old Windows 98 interfaces in their web projects. It matters because it provides a way for developers to achieve that retro aesthetic without losing attention to accessibility, since it works with standard HTML elements."
+    },
     {
       "id": 49026810,
       "author": "adam_rida",
@@ -404,51 +449,6 @@
       "og_image": "https://petals.dev/logo.svg",
       "groq_label": "Interconnecting large language models globally through a peer-to-peer network would be starved by inter-node bandwidth limitations.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project, Petals, aims to solve the problem of making large language models accessible to anyone. The Hacker News discussion was generally mixed, with some commenters appreciating the idea of peer-to-peer LLM hosting and others raising concerns about its feasibility. While some saw potential in the approach, others questioned its viability due to the need for reliable, high-throughput networks and the complexity of handling distributed computation. The discussion highlights the trade-off between the benefits of decentralized computing and the limitations imposed by current infrastructure.",
-      "groq_explain": null
-    },
-    {
-      "id": 49015639,
-      "author": "abhisek",
-      "descendants": 3,
-      "kids": "[49016253]",
-      "score": 22,
-      "time": 1784769374,
-      "title": "OpenAI's accidental cyberattack against Hugging Face is science fiction",
-      "type": "story",
-      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
-      "og_image": "images/49015639.png",
-      "groq_label": "The investigation into OpenAI's alleged hack of Hugging Face appears to have found no evidence of a hack, instead suggesting a misinterpretation of activity as a cyberattack.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis story aims to solve the problem of misinformation and speculative claims regarding OpenAI's alleged cyberattack against Hugging Face. \nBased on the Hacker News discussion, commenters generally viewed the story as misleading science fiction and speculated that it might be a public relations motivated story. Many appreciated the fact that the story was likely fabricated, noting that it was a confirmation of their initial suspicions with others believing it was a way to promote the company with sensational claims. However, the discussion also revealed that some people still believed that this kind of attack could be real, with others pointing out that companies could be more transparent in their actions, so such false claims wouldn't occur. Overall, the Hacker News community considered the story  a baseless speculation, recognizing its lack of substance while emphasizing that it was used for publicity.",
-      "groq_explain": null
-    },
-    {
-      "id": 49015635,
-      "author": "acmnrs",
-      "descendants": 68,
-      "kids": "[49021095,49019561,49020893,49018799,49020880,49019991,49019187,49021126,49019349,49018932,49021418,49019234,49019343,49019106,49019233,49019853,49017444]",
-      "score": 136,
-      "time": 1784769293,
-      "title": "Protecting our FLOSS commons from LLMs",
-      "type": "story",
-      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
-      "og_image": "https://design.codeberg.org/logo-kit/icon_inverted.svg",
-      "groq_label": "Codeberg updates its Terms of Service to ban projects that consist mostly of code generated by large language models like Claude and OpenAI Codex.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis blog post from Codeberg aims to protect the FLOSS commons from LLMs. The Hacker News discussion was generally mixed, with many commenters appreciating Codeberg's decision and praising their philosophy of being a home for projects that identify as anti-LLM. They highlighted strengths such as providing a clear identity for Codeberg and creating a community hub for like-minded developers. Some commenters also believed that Codeberg's decision could be seen as a strong signal of a project's quality and the values of its maintainers. However, others raised concerns about the approach, arguing that it is difficult to detect LLM usage in software development and that it may stifle innovation. They pointed out that pure democracy can lead to suppression of minority views and that Codeberg's decision may have unintended consequences. Additionally, several commenters questioned the assumption that LLMs are inherently bad or that they can easily be detected. Overall, the discussion suggests that the community sees promise in Codeberg's approach but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49015588,
-      "author": "intunderflow",
-      "descendants": 109,
-      "kids": "[49016256,49015930,49015978,49015953,49016157,49015925,49015991,49016108,49016043,49015966,49015974,49016215,49016307,49016033,49016002,49015989,49015929,49015972,49015983,49016162,49015976,49016078,49015932,49015938,49016019,49016050,49016228,49016005,49016046,49015982,49016214,49016160,49016031,49016020,49016122,49015948,49016131,49016172,49016125,49015984,49015928]",
-      "score": 108,
-      "time": 1784768816,
-      "title": "Codeberg Bans Cryptocurrency Projects",
-      "type": "story",
-      "url": "https://codeberg.org/Codeberg/org/pulls/1254",
-      "og_image": "https://codeberg.org/Codeberg/org/pulls/1254/summary-card",
-      "groq_label": "Codeberg's ban on cryptocurrency projects appears to be a result of a subjective moral judgment by the community, implemented without adequate discussion or plan for impacted projects, which has damaged the service's credibility.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Codeberg project aims to address [Hosting concerns]. The Hacker News discussion was generally [mixed], with many commenters appreciating the need for [certain boundaries] and the service's right to implement policies that reflect its [goals and missions]. At the same time, several commenters raised concerns about the [ban on cryptocurrency projects], arguing that it was a [subjective moral judgement]. Others were critical of the [hasty implementation] and lack of [concrete plan for notifying impacted projects]. Overall, the discussion suggests that the community acknowledges Codeberg's right to make decisions but questions the approach and process taken to implement the ban.",
       "groq_explain": null
     }
   ]
