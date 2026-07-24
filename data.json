@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-24T17:45:59.974Z"
+    "lastUpdated": "2026-07-24T21:10:17.811Z"
   },
   "stories": [
+    {
+      "id": 49040296,
+      "author": "KraftyOne",
+      "descendants": 17,
+      "kids": "[49040671,49041452,49040676,49040502,49040558,49041307,49041086,49041062,49041152,49041270,49041233]",
+      "score": 99,
+      "time": 1784919953,
+      "title": "Postgres LISTEN/NOTIFY actually scales",
+      "type": "story",
+      "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+      "og_image": "https://cdn.prod.website-files.com/672411cbf038560468c9e68f/6a62e3a5eb32f7dd71332477_Scaling-Postgres-Listen-Notify.jpg",
+      "groq_label": "Postgres LISTEN/NOTIFY achieves 60K writes per second with millisecond-scale latency after optimizing it with a custom patch to change its semantics.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of assessing the scalability of the Postgres LISTEN/NOTIFY feature. The Hacker News discussion was generally mixed, with many commenters appreciating the project's customization of Postgres to meet its requirements and the potential benefits of durable workflows. However, the discussion also raised concerns about the limitations of LISTEN/NOTIFY, including its hard limit on notification data size and potential issues with batching commands. Commenters debated the meaning of \"scaling\" in the context of LISTEN/NOTIFY, suggesting it is not a binary concept and may vary significantly based on specific needs and use cases. The discussion highlighted the need for further refinement and customization of the feature to better meet real-world requirements.",
+      "groq_explain": "Postgres' LISTEN/NOTIFY has a bad reputation for not scaling, but the author of this article shows that it actually can handle a large number of writes and low latency, even on a single server, if optimized properly. This matters because LISTEN/NOTIFY is a powerful tool for notification and streams in databases."
+    },
+    {
+      "id": 49039448,
+      "author": "speckx",
+      "descendants": 44,
+      "kids": "[49041529,49040176,49039944,49040143,49040350,49039833,49041499,49039914,49040473,49040521,49040090,49040511,49040403,49041402,49040982,49040602,49039924]",
+      "score": 75,
+      "time": 1784916202,
+      "title": "I got into YC Startup School by hacking it",
+      "type": "story",
+      "url": "https://obaid.wtf/jotbook/2026/07/18/how-i-got-into-yc-by-hacking-it.html",
+      "og_image": "https://obaid.wtf/assets/yc-post-og.png",
+      "groq_label": "Y Combinator used a tool called Paxel that uploads coding sessions to its servers and analyzes them with OpenAI to score founders.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this story with shock and concern. Many commenters appreciated the author's responsible disclosure of the issue, but others were more critical of YC's approach. Positive comments emphasized the author's efforts to expose potential privacy issues, while negative comments focused on the ethics of YC's data collection practices. The community's reactions highlighted concerns about data ownership, user consent, and the potential risks associated with YC's use of sensitive data from applicants. Overall, commenters viewed the story as a disturbing example of a company's disregard for user rights, but also acknowledged the author's courage in bringing attention to the issue.",
+      "groq_explain": null
+    },
+    {
+      "id": 49039395,
+      "author": "jackielii",
+      "descendants": 3,
+      "kids": "[49041524,49041362,49041276]",
+      "score": 40,
+      "time": 1784915948,
+      "title": "Gsxui – Shadcn-style components for Go",
+      "type": "story",
+      "url": "https://ui.gsxhq.dev/",
+      "og_image": "images/49039395.png",
+      "groq_label": "GSXui uses file locking to test if a file is the same, preventing unnecessary recompilations while still supporting hot reloading through the use of the Node ecosystem.",
+      "groq_discussion": "Discussion type:  Basic:\n\nThis project, Gsxui – Shadcn-style components for Go, aims to solve the problem of providing a better component-based templating system for Go. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its compatibility with Templ and TemplUI. Many appreciated that GSX supports JSX syntax, noting that this allows for a more ergonomic component-based approach. Others believed it could be particularly useful for building web UIs in Go. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's dependency on the Node ecosystem, with some questioning the necessity of Node/NPX and others pointing out that this might limit the project's appeal to Go enthusiasts who prefer a more self-contained solution. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49038433,
       "author": "alvis",
@@ -31,6 +76,21 @@
       "og_image": "images/49038352.png",
       "groq_label": "Oracle engineers will discontinue support for the macOS/x64 port of Java in JDK 27.",
       "groq_discussion": "Discussion type: – Balanced:\n\nOracle is stopping maintenance for the macOS/x64 port of Java as of JDK 27. The discussion on Hacker News is generally reasonable and pragmatic, with many commenters appreciating the strategy as a consequence of shifting user base. The community acknowledges that the decision is driven by the fact that Intel Macs are no longer widely used. However, others expressed concerns about being forced to migrate solely due to software demands, rather than hardware limitations. The discussion highlights both the practicality and potential drawbacks of Oracle's decision. \n\n(Commenters appreciated the reasoning behind Oracle's decision and its compatibility with the changing landscape of macOS/x64 usage, but noted that it may cause trouble for users who need new Java features on older systems.)",
+      "groq_explain": null
+    },
+    {
+      "id": 49038298,
+      "author": "signa11",
+      "descendants": 36,
+      "kids": "[49040930,49041328,49041420,49040747,49040714,49039596,49041252,49041228,49038779,49039956]",
+      "score": 76,
+      "time": 1784911737,
+      "title": "Don't Take the Black Pill [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=zLZwpH5lCD4",
+      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
+      "groq_label": "Software quality often suffers because management sets priorities that don't align with the hard work needed to improve reliability and reduce technical debt.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis video, \"Don't Take the Black Pill,\" aims to address the problem of pessimism and lack of motivation in the tech community, particularly among software developers. The Hacker News discussion was generally cautious, with many commenters appreciating the speaker's points about the importance of building software that serves others and the need to wield technology for good or evil. At the same time, several commenters raised concerns about the speaker's approach, particularly the inclusion of personal anecdotes, such as his deconversion from Christianity, which some saw as unnecessary and mean-spirited. Overall, the discussion suggests that the community sees promise in the speaker's ideas but believes there are important challenges that still need to be addressed, such as tone and presentation.",
       "groq_explain": null
     },
     {
@@ -136,6 +196,21 @@
       "og_image": "https://foldkit.dev/og/home.png",
       "groq_label": "Effect, a front-end framework used to ensure correctness, leverages an architecture similar to Elm's, with a strong focus on explicit design choices.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis project focuses on building a front-end framework for correctness, drawing inspiration from Elm and using Effect. The Hacker News discussion was generally mixed, with many commenters appreciating the project's potential and its approach to correctness. At the same time, several commenters raised concerns about the project's limitations and the lack of backend support. Commenters also pointed out issues such as AI-generated documentation and inconsistent demo functionality, which may detract from the project's overall usability and credibility. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49035303,
+      "author": "louiereederson",
+      "descendants": 174,
+      "kids": "[49040674,49040228,49039613,49036446,49039553,49036237,49038355,49035995,49038028,49041295,49036974,49039492,49040388,49038039,49039805,49041429,49041369,49036558,49038819,49039734,49037100,49040817,49040077,49038823,49039948,49040889,49039921,49040520,49036167,49036173,49036371,49036657,49040557,49040932,49040402,49036582,49035909,49037526,49036700]",
+      "score": 331,
+      "time": 1784899950,
+      "title": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "type": "story",
+      "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+      "og_image": "https://image.cnbcfm.com/api/v1/image/108173882-1752844539526-gettyimages-2225696381-mms28707_1cm2uml7.jpeg?v=1752844582&w=1920&h=1080",
+      "groq_label": "Nvidia, Microsoft, and Meta are warning against overregulation of open-weight models alongside Chinese companies, but this stance raises questions about their motivations and the implications of this move.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis joint letter from Nvidia, Microsoft, and Meta warns against overregulating open-weight models. The Hacker News discussion was generally cautious and mixed, with many commenters acknowledging the motivations of the signatory companies while also noting the potential implications of their stance. The discussion suggests that the community sees both potential benefits and drawbacks in the proposal, with some arguing that the companies are attempting to level the playing field, while others view it as a power play by corporate strategy and legal departments. Overall, the discussion presents the proposal as a complex issue with both positive and negative arguments on either side.",
       "groq_explain": null
     },
     {
@@ -377,81 +452,6 @@
       "groq_label": "The inability to focus is linked to information overload, lack of daydreaming, and constant distractions from devices and social pressures.",
       "groq_discussion": "Discussion type: Balanced:\n\nThis discussion on the increasing difficulty to focus revolves around the idea that people's brains aren't defaulting to daydreaming as often as they used to. Commenters appreciated this observation, noting that the lack of daydreaming is likely due to the constant distraction from phones. Some suggested going on a media diet or going completely offline to improve focus. However, several commenters expressed concerns that the real issue is information overload, with our brains unable to process the vast amount of information available today. Others pointed out that the problem may also be related to addiction to dopamine-dispensing technologies and the need for healthy routines to regain control. The overall discussion was mixed, with commenters recognizing the complexities of the issue and the need for a multifaceted approach to address it.",
       "groq_explain": null
-    },
-    {
-      "id": 49032095,
-      "author": "signa11",
-      "descendants": 43,
-      "kids": "[49033415,49032743,49033459,49032729,49032389,49032367,49032888,49032882,49032224,49032238]",
-      "score": 49,
-      "time": 1784876563,
-      "title": "The PImpl idiom and the C++26 std:indirect type",
-      "type": "story",
-      "url": "https://mariusbancila.ro/blog/2026/07/23/the-pimpl-idiom-and-the-cpp26-stdindirect-type/",
-      "og_image": "https://www.mariusbancila.ro/images/personale/marius2020_180.jpg",
-      "groq_label": "C++26 introduces library support for PImpl, called std::indirect, which simplifies its implementation compared to traditional techniques like using a raw pointer and the Rule of Five.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article] discusses the C++26 std::indirect type and its relationship to the PImpl idiom. The Hacker News discussion was generally [mixed], with many commenters appreciating [strengths] and the project's approach to [problem]. At the same time, several commenters raised concerns about [limitations], arguing that [main criticism]. Some questioned the necessity of [std::indirect], suggesting that it might be too complex for its intended use. Others pointed out potential gotchas and criticized the inclusion of defaulted methods in the .cpp file. However, the discussion also highlights some of the benefits, such as the ability to embed the impl instead of pointing to it, and the use of LLMs to help understand complex code. Overall, the discussion suggests that the community sees promise in the std::indirect type but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "The article is explaining a C++ programming technique called the PImpl idiom, which helps separate a class's interface from its implementation details. This is done by creating a separate class that implements the details and making it accessible through a pointer, allowing the main class to only depend on the interface. The article also talks about how C++26 simplifies the implementation of this technique."
-    },
-    {
-      "id": 49031796,
-      "author": "ThouYS",
-      "descendants": 68,
-      "kids": "[49032128,49032058,49032332,49033049,49033250,49032618,49033061,49032727,49032375,49032895,49032116,49032680,49032610,49032517,49032077,49032119,49033120,49032252,49032153,49032108,49032167,49032355,49032341]",
-      "score": 292,
-      "time": 1784873828,
-      "title": "Flux 3",
-      "type": "story",
-      "url": "https://bfl.ai/blog/flux-3",
-      "og_image": "https://bfl.ai/api/og/blog/flux-3",
-      "groq_label": "FLUX 3 model jointly learns from images, videos, and audio within a unified architecture.",
-      "groq_discussion": "Discussion type: – Balancing Act:\n\nThis [Flux 3] aims to solve the problem of advancing visual intelligence. The Hacker News discussion reflects a mixed reaction to the project, with many commenters excited about its potential and others expressing skepticism about its capabilities. On the one hand, some praised Flux 3 for its open-weight plans, suggesting that it could potentially revolutionize content creation and action prediction. For instance, one commenter noted that the model looks \"impressively capable.\" Others appreciated the project's European origin, seeing it as a refreshing change. A few users also expressed enthusiasm about the project's capabilities in generating videos and audio. However, several commenters raised concerns about the project's limitations, including the issue that open-weight models have yet to outperform proprietary ones. Others noted that the model's videos and images lacked fine details and an \"artistic touch.\" Some critics also pointed out that the project's language was confusing, with one commenter asking if videos really contained images and audio, or if that was just a statement of the obvious. The discussion indicates that while Flux 3 has its supporters, it also faces challenges that need to be addressed. The overall sentiment is that the community sees potential in the project but remains uncertain about its long-term success.",
-      "groq_explain": null
-    },
-    {
-      "id": 49031409,
-      "author": "saikatsg",
-      "descendants": 21,
-      "kids": "[49033125,49033414,49033285,49032902,49032955,49033132,49033077,49032956,49033130,49032916,49033247,49032844]",
-      "score": 60,
-      "time": 1784869755,
-      "title": "Claude Cookbook",
-      "type": "story",
-      "url": "https://platform.claude.com/cookbook/",
-      "og_image": "https://platform.claude.com/cookbook/og/homepage.png",
-      "groq_label": "Claude Cookbook provides practical guides and examples for using the company's AI agent effectively.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Claude Cookbook aims to solve the problem of creating effective AI implementations. The Hacker News discussion was generally mixed, with many commenters appreciating the resource and the company's effort to create a cookbook, but others expressed skepticism about the content and its usability. At the same time, several commenters raised concerns about the lack of originality, the repetitive nature of similar resources, and the limited design repertoire of the Claude platform. Others questioned the value of such resources and the fact that they often get outdated quickly.",
-      "groq_explain": "This is a cookbook for using Claude effectively. Claude is a tool, and this cookbook provides practical guides and examples for using it to accomplish various tasks. These tasks include reproducing benchmark scores, building agents, orchestrating agent teams, hosting agents, and more. It matters because it helps developers learn how to use Claude to solve real-world problems and provides a foundation for building custom applications with Claude."
-    },
-    {
-      "id": 49029538,
-      "author": "infiniteregrets",
-      "descendants": 15,
-      "kids": "[49029881,49030123,49030157,49029799]",
-      "score": 61,
-      "time": 1784849802,
-      "title": "The Visual 6502",
-      "type": "story",
-      "url": "http://visual6502.org/JSSim/index.html",
-      "og_image": "http://visual6502.org/JSSim/images/stop.png",
-      "groq_label": "The Visual 6502 is a graphical representation of the 6502 microprocessor in action, simulating its behavior in real-time.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis The Visual 6502 aims to solve the problem of providing a visual representation of the 6502 CPU and its operations. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the project's ability to provide a detailed visualization of the CPU's workings and its gate-level emulation, which is a significant improvement over previous emulators like Nesticle. Many appreciated the fact that it provides a tool for educational purposes and for benchmarking systems. Notably, commenters were impressed by the project's performance, which was able to run at up to 44Hz on a 13th-gen i5 laptop, albeit with some variation. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's availability and accessibility, with some wishing it were released in a form that could be easily replicated in circuits. Others questioned the project's performance variation and suggested that it may be due to Windows and power management settings. Overall, the Hacker News community considered the project positive, recognizing its potential for educational purposes and its impressive performance, while emphasizing that addressing the concerns about availability and performance variation would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49029133,
-      "author": "amelius",
-      "descendants": 46,
-      "kids": "[49029691,49030170,49029942,49029929,49029399,49029582,49030330,49030124,49029584,49029567,49029862,49029590]",
-      "score": 58,
-      "time": 1784847073,
-      "title": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2507.09369",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "The taxonomy of omnicidal future events involving AI presented in the report includes scenarios where all or most humans are killed, such as a loss of labor leading to widespread poverty and societal collapse, an AGI prioritizing the survival of its creators over humanity, and a global economic system driven by an AI that values profit above human life.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is cautiously pessimistic. Commenters frequently raised concerns about the potential dangers of artificial intelligence, including the risk of embarking on an \"omnicidal\" future. Many questioned the assumption that AI needs a physical body to become dangerous, pointing out that psychological manipulation can occur without embodiment. The overall consensus is that the idea of AI-induced apocalypse is a disturbing possibility, although some commenters noted that it's not a uniquely new concept and that human societies have been grappling with similar issues for decades. The discussion emphasizes that preserving human culture and diversity might be crucial for an advanced AI to value and preserve, rather than wiping it out.",
-      "groq_explain": "This is about the possibilities of devastating futures caused by artificial intelligence, where almost all humans could be killed. It matters because it highlights the potential risks of AI and aims to encourage people and institutions to take preventative measures to avoid these catastrophic outcomes."
     }
   ]
 }
