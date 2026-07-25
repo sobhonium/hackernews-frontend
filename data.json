@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-25T02:54:28.571Z"
+    "lastUpdated": "2026-07-25T06:23:16.742Z"
   },
   "stories": [
+    {
+      "id": 49044492,
+      "author": "walrus01",
+      "descendants": 1,
+      "kids": "[49044977,49044907]",
+      "score": 19,
+      "time": 1784953221,
+      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "type": "story",
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "og_image": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/07/23/image1.png?itok=QQ6h6QCy",
+      "groq_label": "The report references \"Top U.S. Models\" but lacks clear explanations for the metrics used to evaluate their cyber capabilities.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis preliminary assessment of Kimi K3's cyber capabilities aims to solve the problem of understanding and comparing the cyber capabilities of different models, potentially including those from the US and China. Based on the Hacker News discussion, commenters generally viewed the report positively but expressed frustration with a key aspect of the report: the unclear explanation of the \"Top U.S. Models\" comparison. Many appreciated the fact that the report acknowledged the need for more information and clarification, while others believed it could be particularly useful for policymakers and cybersecurity professionals. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of clarity and the potential for misinterpretation, with some questioning the methodologies and assumptions used in the report. Overall, the Hacker News community considered the report partially useful, recognizing its potential to spark debate and discussion while emphasizing the need for more transparency and clarity in its methods and results.",
+      "groq_explain": null
+    },
+    {
+      "id": 49044074,
+      "author": "JumpCrisscross",
+      "descendants": 55,
+      "kids": "[49044505,49044542,49044509,49044368,49044451,49044397,49044510,49044342]",
+      "score": 164,
+      "time": 1784948076,
+      "title": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
+      "type": "story",
+      "url": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc",
+      "og_image": "images/49044074.png",
+      "groq_label": "Taylor Farms attempted to have the White House intervene to delay a Cyclospora recall.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis article reports the Taylor Farms company had attempted to delay a Cyclospora recall by contacting the White House. The FDA responded by stating that the false-positive lab sample does not change the basis for their ongoing investigation or the epidemiological data supporting the current recall. Commenters highlighted the severity of the issue, comparing it to prion disease and expressing concerns about institutional integrity, particularly in relation to the US Federal Government. Many questioned the impact of corporate influence on food safety decisions, stating that the company's attempts to delay the recall could damage its reputation. Overall, the discussion presents the FDA's stance on the matter and highlights the challenges in ensuring food safety.",
+      "groq_explain": null
+    },
+    {
+      "id": 49043724,
+      "author": "agnishom",
+      "descendants": 11,
+      "kids": "[49044885,49044632,49044657,49044543,49044952,49044727]",
+      "score": 46,
+      "time": 1784943852,
+      "title": "Hannah Fry Wins the Leelavati Prize in 2026 for Mathematics Outreach",
+      "type": "story",
+      "url": "https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize",
+      "og_image": "https://www.maths.cam.ac.uk/features/sites/all/themes/cambridge_theme/images/interface/main-logo-small.png",
+      "groq_label": "Hannah Fry's journey from being rejected from the Cambridge math program to becoming a math professor at Cambridge serves as a testament to her determination and dedication to her craft.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the news of Hannah Fry winning the Leelavati Prize with positive reactions. Many commenters praised her as a great communicator, emphasizing her ability to make maths and science engaging and interesting. The community appreciated her achievements, particularly overcoming early rejections to becoming a Cambridge math professor, and enjoyed her current podcast \"The Rest Is Science.\" While not all comments were directly related to the prize, overall the discussion highlighted Hannah Fry's exceptional communication skills and her efforts to make maths and science accessible to a broader audience, with some even mentioning her planned appearance on a reality show.",
+      "groq_explain": null
+    },
     {
       "id": 49042751,
       "author": "hhs",
@@ -406,51 +451,6 @@
       "og_image": "https://bfl.ai/api/og/blog/flux-3-mimic",
       "groq_label": "Collaboration between European startups such as Flux and Mimic accelerates development in next-generation video-action models.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis [project/initiative] aims to establish a partnership between European startups. Based on the Hacker News discussion, commenters generally viewed \nthe collaboration positively, highlighting its potential to foster international cooperation. Many appreciated the focus on European startups, noting that it could lead to increased exchange and collaboration. However, the discussion did not reveal any significant criticisms of the partnership itself, and it seemed to be widely welcomed by the community. Overall, the Hacker News community considered the partnership [overall sentiment], recognizing its potential for beneficial exchange.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033110,
-      "author": "robin_reala",
-      "descendants": 20,
-      "kids": "[49033358,49033262,49033448,49033272,49033335,49033289,49033278,49033181]",
-      "score": 32,
-      "time": 1784885384,
-      "title": "Future euro banknote design proposals",
-      "type": "story",
-      "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/design-proposals.en.html",
-      "og_image": "https://www.ecb.europa.eu/euro/banknotes/shared/img/socialmedia/social-default.jpg?41c0621cace3d2de86489185e5ed9513",
-      "groq_label": "The European Central Bank has unveiled six proposed designs for future euro banknotes, ranging from unoriginal to unexpectedly creative, and featuring motifs including people, birds, and abstract shapes.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis [article/project/blog post/research/product] addresses [problem]. Hacker News commenters generally appreciated [strengths] and believed the project could [benefit]. However, they also expressed concerns about [weaknesses] and questioned [issue]. Overall, the discussion was [overall sentiment], with commenters recognizing both the project's potential and its limitations.\n\nFilled-in values for the template:\n\nThis [Future euro banknote design proposals] addresses [the design of new euro banknotes]. Hacker News commenters generally appreciated [some designs being decent or having interesting motifs] and believed the project could [improve the aesthetic appeal of Euro banknotes]. However, they also expressed concerns about [the lack of originality in the proposed designs, the need for simplicity, and a potential shift to plastic banknotes] and questioned [the selection process and the brief given to artists]. Overall, the discussion was [mixed/skeptical], with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033099,
-      "author": "kristoff_it",
-      "descendants": 70,
-      "kids": "[49034298,49034705,49034807,49034382,49033949,49034353,49034808,49034852,49034968,49035057,49034847,49035110,49034975,49033995,49034066,49034648,49034212,49034130]",
-      "score": 106,
-      "time": 1784885200,
-      "title": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
-      "type": "story",
-      "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891",
-      "og_image": "https://ziggit.dev/uploads/default/original/1X/3417db0e8abaf83a355700b91efd528025492487.png",
-      "groq_label": "A fork of the Bun project, Buz, aims to achieve sub-1 second incremental builds by leveraging modern Zig and LLMs to clean up and modernize the codebase.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Buz project is a fork of Bun using modern Zig, aimed at achieving sub-1s incremental builds. The Hacker News discussion is generally mixed, with many commenters appreciating the significant effort and progress made by the project maintainer in cutting down 11,000 lines of dead code and rewriting parts of the codebase. The community acknowledges the improvements in code quality and performance, with some praising the use of modern Zig and others highlighting the potential benefits of this approach. However, there are also comments expressing skepticism about the project's viability and long-term maintainability, particularly if it relies solely on a single maintainer who has declared a \"no humans allowed\" contribution policy due to the complexity and messiness of the codebase. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033004,
-      "author": "pchm",
-      "descendants": 21,
-      "kids": "[49033350,49033399,49033434,49033242,49033275,49033268,49033421,49033327,49033452,49033416,49033330,49033368,49033222,49033340,49033365,49033288]",
-      "score": 46,
-      "time": 1784884097,
-      "title": "Nothing works and everyone is euphoric",
-      "type": "story",
-      "url": "https://ptrchm.com/posts/nothing-works-and-everyone-is-euphoric/",
-      "og_image": "https://ptrchm.com/images/photo.jpg",
-      "groq_label": "Large software companies have exponential programmer growth yet struggle to align internal goals to produce high-quality software that people enjoy.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the state of software quality is negative and pessimistic. Commenters frequently criticized the industry's focus on speed and growth over robustness, quality, and user experience. Many shared personal experiences with subpar software and highlighted the root causes of the problem, including the exponential growth of inexperienced programmers, large company incentives, lack of internal goal alignment, and complexity. The overall consensus is that the industry is plagued by poor software quality and that addressing these issues will be a significant challenge.",
       "groq_explain": null
     }
   ]
