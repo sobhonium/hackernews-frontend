@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-24T21:10:17.811Z"
+    "lastUpdated": "2026-07-25T02:54:28.571Z"
   },
   "stories": [
+    {
+      "id": 49042751,
+      "author": "hhs",
+      "descendants": 1,
+      "kids": "[49043128]",
+      "score": 36,
+      "time": 1784934798,
+      "title": "Sperm Whales blow bubbles to achieve restful, vertical sleep",
+      "type": "story",
+      "url": "https://news.st-andrews.ac.uk/archive/sperm-whales-blow-bubbles-to-achieve-restful-vertical-sleep/",
+      "og_image": "https://news.st-andrews.ac.uk/wp-content/uploads/2026/07/sperm-whale-vertical-rest-web-USE.jpg",
+      "groq_label": "Sperm whales use bubble streams to sleep upright.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis research about Sperm Whales finds that they blow bubbles to achieve restful, vertical sleep. Hacker News commenters generally appreciated the unique insight into Sperm Whale behavior and considered the study interesting. However, they also expressed concerns about the study's methodology and questioned its broader implications. Overall, the discussion was positive, with commenters recognizing both the study's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49040741,
+      "author": "aarondong",
+      "descendants": 105,
+      "kids": "[49042676,49042682,49043346,49042596,49040742,49043232,49043906,49043552,49042844,49043813,49043207,49042740,49043754,49042655,49043927,49041214]",
+      "score": 159,
+      "time": 1784922310,
+      "title": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+      "type": "story",
+      "url": "https://artificialanalysis.ai/models",
+      "og_image": "https://artificialanalysis.ai/opengraph-image.png?732728ccc2829321",
+      "groq_label": "GPT-5.6 Sol matches multiple high-scoring models, including Opus 5 High Effort, for significantly lower cost.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Hacker News discussion is focused on the performance of Opus 5 on an Artificial Analysis Intelligence Leaderboard. The discussion was generally mixed, with many commenters appreciating Opus 5's high score and some highlighting its strengths. However, several commenters raised concerns about the model's reliability, costs, and limitations compared to other models.\n\nSome strengths mentioned by commenters include Opus 5's performance in \"Adaptive Reasoning, Max Effort\" mode, its AA-Omniscience Index component, and its potential to be a smart alternative to other models. On the other hand, commenters expressed concerns about the model's reliability being compromised by censorship, its high cost relative to other models (such as GPT-5.6 Sol Max), and its tendency to be over-built in certain tasks.\n\nOverall, the discussion suggests that the community sees promise in Opus 5 but believes there are important challenges that still need to be addressed, particularly regarding its cost-effectiveness and reliability.",
+      "groq_explain": null
+    },
     {
       "id": 49040296,
       "author": "KraftyOne",
@@ -421,36 +451,6 @@
       "og_image": "https://ptrchm.com/images/photo.jpg",
       "groq_label": "Large software companies have exponential programmer growth yet struggle to align internal goals to produce high-quality software that people enjoy.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the state of software quality is negative and pessimistic. Commenters frequently criticized the industry's focus on speed and growth over robustness, quality, and user experience. Many shared personal experiences with subpar software and highlighted the root causes of the problem, including the exponential growth of inexperienced programmers, large company incentives, lack of internal goal alignment, and complexity. The overall consensus is that the industry is plagued by poor software quality and that addressing these issues will be a significant challenge.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033001,
-      "author": "downbad_",
-      "descendants": 6,
-      "kids": "[49033219,49033323,49033304]",
-      "score": 41,
-      "time": 1784884064,
-      "title": "The day Steve Jobs dissed me in a keynote (2010)",
-      "type": "story",
-      "url": "https://sive.rs/itunes",
-      "og_image": "https://m.sive.rs/og.jpg",
-      "groq_label": "Apple's move against CD Baby in iTunes was a calculated effort to prevent decentralized control in indie music market distribution.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis [article about Steve Jobs] aims to share a personal experience of being dissed by Steve Jobs in a keynote (2010). The Hacker News discussion was generally [positive/mixed], with a tone of admiration for Steve Jobs' ruthless business tactics, as captured by comments such as '[comment 1: Ruthless]' and '[comment 2: Classic Steve Jobs move.]'. However, several commenters, like '[comment 3]', critiqued Apple's actions as 'immoral but profitable.' The discussion suggests that the community sees Steve Jobs as a shrewd businessman, but also one who walked a thin line of ethics for the sake of Apple's interests, and that his methods have both positive and negative implications.",
-      "groq_explain": null
-    },
-    {
-      "id": 49032660,
-      "author": "peykar",
-      "descendants": 11,
-      "kids": "[49033318,49033241,49033331,49033248,49033364]",
-      "score": 29,
-      "time": 1784881110,
-      "title": "It's getting harder to focus every day",
-      "type": "story",
-      "url": "https://glyphack.com/attention/",
-      "og_image": "images/49032660.png",
-      "groq_label": "The inability to focus is linked to information overload, lack of daydreaming, and constant distractions from devices and social pressures.",
-      "groq_discussion": "Discussion type: Balanced:\n\nThis discussion on the increasing difficulty to focus revolves around the idea that people's brains aren't defaulting to daydreaming as often as they used to. Commenters appreciated this observation, noting that the lack of daydreaming is likely due to the constant distraction from phones. Some suggested going on a media diet or going completely offline to improve focus. However, several commenters expressed concerns that the real issue is information overload, with our brains unable to process the vast amount of information available today. Others pointed out that the problem may also be related to addiction to dopamine-dispensing technologies and the need for healthy routines to regain control. The overall discussion was mixed, with commenters recognizing the complexities of the issue and the need for a multifaceted approach to address it.",
       "groq_explain": null
     }
   ]
