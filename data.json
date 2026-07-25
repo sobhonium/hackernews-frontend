@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-25T06:23:16.742Z"
+    "lastUpdated": "2026-07-25T09:53:32.137Z"
   },
   "stories": [
+    {
+      "id": 49045159,
+      "author": "shscs911",
+      "descendants": 96,
+      "kids": "[49045584,49045506,49045435,49045667,49045669,49045341,49045387,49045476,49045853,49045557,49045799,49045379,49045952,49046090,49045983,49045597,49045702,49045945,49045564,49045487,49045404,49045749,49045585,49045415,49045713,49045455,49045628]",
+      "score": 192,
+      "time": 1784962634,
+      "title": "Android May Soon Restrict On-Device ADB",
+      "type": "story",
+      "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
+      "og_image": "https://kitsumed.goatcounter.com/count?p=/blog/posts/android-may-soon-restrict-on-device-adb&t=Android%20May%20Soon%20Restrict%20On-Device%20ADB%2c%20Affecting%20Shizuku%2c%20libadb%20and%20Developers",
+      "groq_label": "Google may restrict on-device ADB connections to protect against potential security threats.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis proposal to restrict on-device ADB on Android is aimed at solving the problem of user security. Based on the Hacker News discussion, commenters generally viewed the initiative negatively, expressing concerns about the practical implications of limiting user choices. Many appreciated the idea of restricting access to certain interfaces or IP addresses, but criticized the decision to restrict ADB entirely, arguing that this would unnecessarily hinder user flexibility and innovation. Some commenters believed that this decision would set a concerning precedent for future restrictions on device functionality, while others feared that it would lead to a decrease in Android's customizability and user experience. The discussion also highlighted concerns that this restriction could be used as a means to lock users into specific apps or services. Overall, the Hacker News community considered the proposal to be overly restrictive and counterproductive, emphasizing the need for a more nuanced approach that balances security with user choice and flexibility.",
+      "groq_explain": "Google might restrict how Android users connect to the Android Debug Bridge (ADB) on their own devices, supposedly to prevent bad actors from exploiting it."
+    },
+    {
+      "id": 49045040,
+      "author": "rzk",
+      "descendants": 61,
+      "kids": "[49045940,49045295,49045471,49045573,49045336,49045311,49045169,49045753,49045231,49045414,49045247,49045310]",
+      "score": 76,
+      "time": 1784961100,
+      "title": "ARC-AGI Leaderboard",
+      "type": "story",
+      "url": "https://arcprize.org/leaderboard",
+      "og_image": "https://arcprize.org/media/images/og-image-default.jpg",
+      "groq_label": "The ARC-AGI Leaderboard may not accurately measure model performance due to the ease of creating deceptive solutions using base models and external guidance documents.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe ARC-AGI Leaderboard aims to assess the capabilities of advanced language models. Commenters generally appreciate the fact that the leaderboard is transparent about its rules and limitations, notably the use of simple prompts and the disallowance of harnesses or tools that would give models an unfair advantage. However, the discussion also surfaces several concerns. Many commenters question the model providers' ability to truly improve their models in the face of rising scores, suggesting that the benchmarks may be too easy or that model providers are using deceptive means to achieve high scores. While some see the leaderboard as a useful measure of model performance, others point out the limitations of using puzzle-solving as a proxy for real-world usefulness. The overall discussion suggests that the community sees value in the leaderboard but believes that its results should be viewed with caution and considered in the context of real-world applications.",
+      "groq_explain": null
+    },
+    {
+      "id": 49044874,
+      "author": "sohkamyung",
+      "descendants": 3,
+      "kids": "[49046094,49046046,49045422,49045419]",
+      "score": 30,
+      "time": 1784958687,
+      "title": "Extinct Media Museum Tokyo",
+      "type": "story",
+      "url": "https://extinct-media-museum.blog.jp/otemachi/",
+      "og_image": "https://livedoor.blogimg.jp/himag-jta3fdwe/imgs/9/0/909f6d5b-s.png",
+      "groq_label": "The Extinct Media Museum in Tokyo showcases outdated media formats like floppy disks and VHS tapes to illustrate the impermanence of modern data storage methods.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Extinct Media Museum Tokyo aims to solve the problem of preserving historical media. Based on the Hacker News discussion, commenters generally viewed the museum positively and highlighted strengths such as its unique and well-curated collection of vintage and rare gadgets. Many appreciated the opportunity to interact with the exhibits, noting that it brought the history of technology to life. Others believed it could be particularly useful for those interested in the history of technology and media. However, the discussion also revealed several criticisms. Commenters expressed concerns about the museum's size and scope, with some questioning whether it could effectively tackle such a broad scope. Overall, the Hacker News community considered the museum positively, recognizing its potential as a valuable resource for history enthusiasts while emphasizing that it still has room for growth and expansion.",
+      "groq_explain": null
+    },
     {
       "id": 49044492,
       "author": "walrus01",
@@ -406,51 +451,6 @@
       "og_image": "https://technicshistory.com/wp-content/uploads/2026/07/ibm-pc-5150-print-ad-1.jpg",
       "groq_label": "IBM paid a significant amount to Charles Chaplin's estate for the rights to use the Little Tramp character in their advertising.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article about the arrival of the IBM PC aims to solve the problem of providing an accurate historical account of the PC's early years. \nBased on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as its accuracy, focus on important details, and engaging content. Many appreciated the article's nostalgic value and personal accounts, noting that it provides a unique and well-crafted historical perspective, while others believed it could be particularly useful for those interested in the early days of the PC industry. However, the discussion also revealed several criticisms. Commenters expressed concerns about the article's length and wished for additional content, such as the ability to create a similar homepage. Overall, the Hacker News community considered the article to be engaging and well-written, recognizing its potential as a valuable historical resource while emphasizing that addressing the comments and suggestions would improve its impact.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033240,
-      "author": "thisislife2",
-      "descendants": 19,
-      "kids": "[49034929,49034935,49034663,49035142,49034923]",
-      "score": 50,
-      "time": 1784886778,
-      "title": "IRGC Claims It Destroyed Amazon's Bahrain Data Center",
-      "type": "story",
-      "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-      "og_image": "https://houseofsaud.com/wp-content/uploads/2026/07/data-center-server-hall-aws-bahrain.jpg",
-      "groq_label": "An attack allegedly by Iran's IRGC was reported to have destroyed Amazon's Bahrain data center but its reliability was not visibly impaired in the aftermath.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project aims to report on the alleged destruction of Amazon's Bahrain data center by the IRGC. \nBased on the Hacker News discussion, commenters generally viewed the situation with  a mix of seriousness and sarcasm, highlighting strengths such as a humorous comment about the remaining availability of the data center in terms of \"uptime.\" Many were critical of the article's language and composition, noting that the \"stats\" cards seem to be written by a Large Language Model. However, the discussion also revealed several criticisms. Commenters expressed concerns about the fact that AWS status updates have not been updated since April, suggesting that the situation may be more serious than initially reported. Overall, the Hacker News community considered the article to be somewhat tongue-in-cheek and questionable in its credibility.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033173,
-      "author": "visiohex",
-      "descendants": 1,
-      "kids": "[49033441]",
-      "score": 5,
-      "time": 1784886025,
-      "title": "Show HN: A static, client-side tarot calculator for Brazilian Portuguese",
-      "type": "story",
-      "url": "https://meuarcanopessoal.net/",
-      "og_image": "https://meuarcanopessoal.net/images/arcanos/01-o-mago.webp",
-      "groq_label": "Tarot calculator aligns readings with numerology, using birthdate to select Arcanus Maior.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis tarot calculator for Brazilian Portuguese addresses [specific problem or use case]. Hacker News commenters generally appreciated its simplicity and the ability to easily consult tarot readings from a client-side perspective. However, they also expressed concerns about the validity of tarot readings compared to astrology charts. Overall, the discussion was generally positive, with commenters seeing potential in the project.",
-      "groq_explain": "Essa é uma ferramenta gratuita online que calcula seu \"Aracno Pessoal\" com base na sua data de nascimento, usando a numerologia do tarô. Ela não é uma predição fixa, mas sim um símbolo que pode ajudar a refletir sobre a sua personalidade, estilo de vida e áreas de melhoria através de perguntas e reflexões criativas."
-    },
-    {
-      "id": 49033127,
-      "author": "kensai",
-      "descendants": 3,
-      "kids": "[49033264]",
-      "score": 35,
-      "time": 1784885508,
-      "title": "Flux 3 X Mimic: The Next Generation of Video-Action Models",
-      "type": "story",
-      "url": "https://bfl.ai/blog/flux-3-mimic",
-      "og_image": "https://bfl.ai/api/og/blog/flux-3-mimic",
-      "groq_label": "Collaboration between European startups such as Flux and Mimic accelerates development in next-generation video-action models.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis [project/initiative] aims to establish a partnership between European startups. Based on the Hacker News discussion, commenters generally viewed \nthe collaboration positively, highlighting its potential to foster international cooperation. Many appreciated the focus on European startups, noting that it could lead to increased exchange and collaboration. However, the discussion did not reveal any significant criticisms of the partnership itself, and it seemed to be widely welcomed by the community. Overall, the Hacker News community considered the partnership [overall sentiment], recognizing its potential for beneficial exchange.",
       "groq_explain": null
     }
   ]
