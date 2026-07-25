@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-25T09:53:32.137Z"
+    "lastUpdated": "2026-07-25T13:42:55.184Z"
   },
   "stories": [
+    {
+      "id": 49047198,
+      "author": "jmanjmanjman",
+      "descendants": 3,
+      "kids": "[49047313,49047444]",
+      "score": 6,
+      "time": 1784983908,
+      "title": "League of Legends designer shares game design field manual",
+      "type": "story",
+      "url": "https://areadenial.games/design/preface#00-01",
+      "og_image": "https://areadenial.games/images/hero-logo.png",
+      "groq_label": "The manual outlines how League of Legends uses game flow and pacing to create an engaging player experience, emphasizing the importance of downtime and clear objectives.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis League of Legends designer shares game design field manual. \nBased on the Hacker News discussion, commenters generally viewed \nthe project negatively and highlighted a major criticism about \nthe original inspiration behind the game. Some appreciated sharing \nthe manual, but the controversy surrounding the game's creation \ndominated the conversation.",
+      "groq_explain": null
+    },
+    {
+      "id": 49046858,
+      "author": "asontha",
+      "kids": "[]",
+      "score": 1,
+      "time": 1784980804,
+      "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/36d823535a32695e6b82b2371e3ed3df2496af99.png?1754429935",
+      "groq_label": "Kyber, a fintech company, has an opening for a high-level head of engineering.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49046525,
+      "author": "6581",
+      "descendants": 2,
+      "kids": "[49047421,49046892]",
+      "score": 22,
+      "time": 1784977497,
+      "title": "The Fedora 45 Sausage Factory",
+      "type": "story",
+      "url": "https://supakeen.com/weblog/the-fedora-45-sausage-factory/",
+      "og_image": "images/49046525.png",
+      "groq_label": "Fedora 45 changes to selinux boolean selinuxuser_user_exec_content to on in default policy, potentially affecting file permissions.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis Fedora 45 Sausage Factory documentation aims to solve the problem of providing end-to-end documentation for troubleshooting purposes. Based on the Hacker News discussion, commenters generally viewed the documentation positively and highlighted its usefulness for troubleshooting, especially in cases where file permissions have changed between Fedora versions. Many appreciated the ability to identify where to start looking for issues, noting that it can significantly improve problem-solving. However, the discussion also revealed that some consider the guide a \"Beefy Miracle\", a term used humorously to indicate its value. Overall, the Hacker News community considered the documentation  to be a valuable resource for resolving complex problems.",
+      "groq_explain": null
+    },
     {
       "id": 49045159,
       "author": "shscs911",
@@ -406,51 +450,6 @@
       "og_image": "https://img.alexhyett.com/2026/07/15/Thumbnail-1.jpeg",
       "groq_label": "The AI's ability to rapidly build an application doesn't make development easier, but rather hides the complexity of the underlying process.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to explore the feasibility of building a real app with AI. The Hacker News discussion was generally mixed, with many commenters offering a nuanced view of the benefits and challenges of AI-powered app development. On one hand, many appreciated the potential of AI to accelerate development, reduce planning time, and enable smaller teams to be more effective. However, comments also highlighted concerns about the limitations of AI, such as its inability to handle all details, the need for significant investment of time and intelligence, and the risks of relying too heavily on AI without carefully considering the trade-offs. Additionally, some commenters expressed skepticism about the notion of an \"AI bubble,\" arguing that while some AI-related projects may fail or slow down, the underlying technology is unlikely to be abandoned due to being illusory. Overall, the discussion suggests that the community sees promise in AI-powered app development, but also believes that there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49034292,
-      "author": "hhh",
-      "descendants": 9,
-      "kids": "[49035585,49035049,49034542]",
-      "score": 38,
-      "time": 1784894081,
-      "title": "My security camera shipped a GitHub admin token in its login page",
-      "type": "story",
-      "url": "https://hhh.hn/hanwha-github-token/",
-      "og_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Dynamic_Front_25_-_Finnish_Army_K9_Moukari_Self-Propelled_Howitzer_(8761382).jpg/1280px-Dynamic_Front_25_-_Finnish_Army_K9_Moukari_Self-Propelled_Howitzer_(8761382).jpg",
-      "groq_label": "Some consumer electronics companies ship sensitive credentials like API keys and admin tokens in firmware, accessible through reverse engineering.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis security camera shipped with various sensitive credentials, including a GitHub admin token and US Department of War IP addresses, baked into its firmware. Based on the Hacker News discussion, commenters generally viewed the situation as disturbing and alarming. They highlighted the lack of control over proprietary products, as well as the risk of exposed credentials. Many appreciated the revelation in the context of broader concerns, such as the security risks associated with certain products. Others believed that it was particularly useful for highlighting the need for scrutiny when purchasing electronic devices. However, the discussion also revealed several criticisms. Commenters expressed concerns about the vulnerability of connected devices and the potential for malicious attacks, with some questioning the manufacturing process and others pointing out the technical challenges of securing such devices. Overall, the Hacker News community considered the situation alarming, recognizing the potential consequences of such exposure while emphasizing the need for greater caution and awareness in the selection and use of electronic devices.",
-      "groq_explain": null
-    },
-    {
-      "id": 49034217,
-      "author": "bw86",
-      "descendants": 39,
-      "kids": "[49034828,49034555,49034336,49034809,49035014,49035138,49035024,49035283,49034495,49035184,49034901,49035053,49034893,49035189,49034452,49034388,49034375,49034329,49035164,49034354,49034464]",
-      "score": 45,
-      "time": 1784893600,
-      "title": "The case for MUDs in modern times",
-      "type": "story",
-      "url": "https://www.andrewzigler.com/feed/the-case-for-muds-in-modern-times",
-      "og_image": "https://images.prismic.io/andrewzigler/591dfbb0-b88b-4d15-b09d-96a5c615df97_The-case-for-MUDs-in-modern-times.jpg?auto=compress,format&rect=0,0,1200,628&w=1200&h=628",
-      "groq_label": "People learned to code, type, and socialize in a formative way through MUDs, a type of text-based multiplayer online game, and efforts are being made to revive the genre in modern times.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis article about the case for MUDs in modern times sparked a discussion on Hacker News. The topic seemed to reignite interest in classic MUDs, with several commenters sharing their personal experiences and nostalgic feelings about the games. Many appreciated the opportunity to connect with others who shared similar pastimes. However, others noted the challenges of maintaining a MUD, including the effort required for building an engine and the need for community engagement. Some commenters also expressed their excitement about the potential for MUDs to experience a comeback, but others questioned the viability of this. Overall, the discussion suggests that the community sees promise in reviving MUDs but believes there are practical concerns that need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49033916,
-      "author": "cfmcdonald",
-      "descendants": 5,
-      "kids": "[49035031,49034853,49034337]",
-      "score": 27,
-      "time": 1784891639,
-      "title": "The IBM PC, Part 1: Arrival",
-      "type": "story",
-      "url": "https://technicshistory.com/2026/07/24/the-ibm-pc-part-1-arrival/",
-      "og_image": "https://technicshistory.com/wp-content/uploads/2026/07/ibm-pc-5150-print-ad-1.jpg",
-      "groq_label": "IBM paid a significant amount to Charles Chaplin's estate for the rights to use the Little Tramp character in their advertising.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article about the arrival of the IBM PC aims to solve the problem of providing an accurate historical account of the PC's early years. \nBased on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as its accuracy, focus on important details, and engaging content. Many appreciated the article's nostalgic value and personal accounts, noting that it provides a unique and well-crafted historical perspective, while others believed it could be particularly useful for those interested in the early days of the PC industry. However, the discussion also revealed several criticisms. Commenters expressed concerns about the article's length and wished for additional content, such as the ability to create a similar homepage. Overall, the Hacker News community considered the article to be engaging and well-written, recognizing its potential as a valuable historical resource while emphasizing that addressing the comments and suggestions would improve its impact.",
       "groq_explain": null
     }
   ]
