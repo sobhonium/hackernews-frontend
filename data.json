@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-26T06:41:13.616Z"
+    "lastUpdated": "2026-07-26T10:05:25.391Z"
   },
   "stories": [
+    {
+      "id": 49056112,
+      "author": "vismit2000",
+      "descendants": 2,
+      "kids": "[49056415,49056368]",
+      "score": 22,
+      "time": 1785056499,
+      "title": "Ruff v0.16.0 – Significant new updates – 413 default rules up from 59",
+      "type": "story",
+      "url": "https://astral.sh/blog/ruff-v0.16.0",
+      "og_image": "https://astral.sh/static/PNG/Ruff_v_0_16_0.png",
+      "groq_label": "Ruff added 354 default rules, bringing the total to 413.",
+      "groq_discussion": "Discussion type:  – Basic:\n\nThis [Ruff v0.16.0 update] aims to solve the problem of [improving code linting and enforcement]. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as continued active development by the Ruff team despite Astral being acquired by OpenAI. Many appreciated the growth in default rules from 59 to 413, noting that this improvement is significant, particularly in preparation for stronger linting. While opinions differed on what specific features should be added next, the overall sentiment is positive, recognizing the project's potential to advance code enforcement with the advent of agentic coding. However, the discussion also revealed several criticisms. Commenters such as 'This is great news' expressed a desire for the project to extend its capabilities to more languages, in particular forbigo for more languages. Overall, the Hacker News community considered the update to be a step forward, recognizing its potential while emphasizing the need for further development in specific areas, primarily extending support for more languages.",
+      "groq_explain": null
+    },
+    {
+      "id": 49055169,
+      "author": "Cider9986",
+      "descendants": 31,
+      "kids": "[49056154,49055956,49055910,49056089,49056077]",
+      "score": 70,
+      "time": 1785045442,
+      "title": "GrapheneOS protections against data extraction from locked devices",
+      "type": "story",
+      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
+      "og_image": "https://discuss.grapheneos.org/opengraph.png",
+      "groq_label": "GrapheneOS uses features like auto-reboot and data encryption to protect against data extraction even with a successful bypass of the password.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GrapheneOS is overwhelmingly positive. Commenters frequently praised its strong protections against data extraction, particularly the ability to return the device to a secure state even without a duress PIN/password. Many also appreciated the 18-hour auto-reboot feature, which prevents data extraction by returning the device to Before First Unlock (BFU) mode. However, there was a recurring concern mentioned, which is the lack of a complete backup and restore solution, to preventively wipe the device before crossing sensitive borders.",
+      "groq_explain": null
+    },
     {
       "id": 49054697,
       "author": "sqshi",
@@ -121,6 +151,21 @@
       "og_image": "https://huggingface.co/owensong/Inflect-Micro-v2/assets/inflect-v2-repository-hero.png",
       "groq_label": "Inflect-Micro-v2 is a highly condensed model with over 9 million parameters.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Inflect-Micro-v2 model aims to solve the problem of compact voice synthesis. Based on the Hacker News discussion, commenters generally viewed the model positively and highlighted strengths such as impressive quality for a small size. Many appreciated the model's performance, noting that it produces amazing quality for 9.36M parameters, while others believed it could be particularly useful for applications where low latency is essential or for situations where traditional models are too resource-intensive. However, the discussion also revealed a few criticisms, with some commenters wishing for a voice clone option. Overall, the Hacker News community considered the project positive, recognizing its potential to address the need for compact voice synthesis while emphasizing the need for additional features.",
+      "groq_explain": null
+    },
+    {
+      "id": 49052912,
+      "author": "oliculipolicula",
+      "descendants": 103,
+      "kids": "[49053254,49053242,49053671,49053414,49054704,49054732,49055096,49054932,49053817,49054151,49053483,49053643,49053651,49053306,49055167,49054176,49053795]",
+      "score": 150,
+      "time": 1785022370,
+      "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "type": "story",
+      "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "og_image": "https://opengraph.githubassets.com/2f865a1f55ec1ed97f9791df57d88fca805b065e84a3058cfbdc1e5211939067/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22",
+      "groq_label": "US labs may be pouring billion or trillion dollars into AI with diminishing returns due to commodification of AI models.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article/project addresses the situation surrounding DeepSeek's fundraising pause. The Hacker News discussion was generally mixed, with some commenters appreciating the transparency and context the article provided for the leak of DeepSeek's comments on the compute gap to the US, while others raised concerns about the implications of those comments. Many commenters praised the idea that Chinese open-source models are catching up with US frontier models at a fraction of the cost, questioning the justification for the expensive and exclusive path followed by DeepSeek and other US labs. However, the debate also revolved around whether DeepSeek's comments were an exaggeration or strategic pitching of their perceived deficiencies to secure funds. Overall, the discussion reflects a balanced mix of critique and curiosity, with some wondering about the long-term impact and implications of the developments in the field.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "https://pytorch.org/wp-content/uploads/2026/05/PyTorch-Logo-2022_RGB_PyTorchLogo_Horiz_fullColor_RGB2-300x84.png",
       "groq_label": "PyTorch Monarch relies on Nvidia's proprietary NvFBC for display capture, limiting its use on AMD GPUs.",
       "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of bringing PyTorch Monarch to AMD GPUs is positive. Commenters frequently praised the addition of Monarch to PyTorch and its potential to improve performance. However, the discussion also included recurring concerns about the compatibility and practicality of using less expensive AMD cards for training large language models, with one commenter explicitly asking if it is no longer possible. The overall consensus is that the idea of bringing Monarch to AMD GPUs is compelling, but its practical success depends on the feasibility and performance of using these cards for large-scale training.",
-      "groq_explain": null
-    },
-    {
-      "id": 49048212,
-      "author": "kiyanwang",
-      "descendants": 27,
-      "kids": "[49049316,49049215,49049062,49049202,49049232,49048906,49048979,49048928,49048952]",
-      "score": 32,
-      "time": 1784992251,
-      "title": "Engineering management after the cost of code collapsed",
-      "type": "story",
-      "url": "https://karimjedda.com/engineering-management-after-cost-of-code-collapse/",
-      "og_image": "https://karimjedda.com/content/images/size/w1200/2026/07/meowtivate.jpeg",
-      "groq_label": "The cost of code increased with the accumulation of code debt faster than it can be cleaned up.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article attempts to spark a discussion on engineering management in the post-AI era, where the cost of code has collapsed. Based on the Hacker News discussion, commenters generally viewed the topic as relevant and timely. Many appreciated the mention of code debt and the importance of optimizing programmer productivity, not just maximizing code generation. Notably, the discussion highlighted a lack of comprehensive research on how software organizations should adapt to the current AI landscape, with few case studies on successful or failed experiments. However, commenters also expressed concerns about the increasing cost of code and the accumulation of code debt. Overall, the Hacker News community considered the topic thought-provoking, highlighting the need for more research and experimentation in this area to address the challenges and opportunities presented by AI.",
-      "groq_explain": null
-    },
-    {
-      "id": 49048034,
-      "author": "tknaup",
-      "descendants": 11,
-      "kids": "[49049078,49049218,49049238,49049134,49049093,49049292]",
-      "score": 41,
-      "time": 1784990989,
-      "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it",
-      "type": "story",
-      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-      "og_image": "https://tobi.knaup.me/assets/img/blog/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment.730px.jpeg",
-      "groq_label": "Tokenomics leads to unpredictable pricing swings in the AI industry.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project discusses the potential of open-weight AI models, suggesting they could have a significant impact like Kubernetes did. Hacker News commenters generally appreciated the idea of establishing a baseline inference cost for AI models, as it can bring sanity to pricing. However, the project may be overcomplicating things, as some commenters were confused about the need for a \"Kubernetes moment\" in software development.",
-      "groq_explain": null
-    },
-    {
-      "id": 49047453,
-      "author": "olexsmir",
-      "descendants": 16,
-      "kids": "[49055012,49047587,49055338,49055154,49051011]",
-      "score": 57,
-      "time": 1784986429,
-      "title": "A shell colon does nothing. Use it anyway",
-      "type": "story",
-      "url": "https://refp.se/articles/your-shell-and-the-magic-colon",
-      "og_image": "https://refp.se/logo.png",
-      "groq_label": "The null command in shell scripts can be used as a placeholder to allow conditional execution of commands before the null command has any effect, providing a way to sequence operations while avoiding the need for unnecessary semicolons or parentheses.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article on using a shell colon despite its limitations. The Hacker News discussion was generally mixed, with some commenters appreciating the utility of certain examples, such as the error handling and truncation of files. However, others raised concerns about the readability and effectiveness of these solutions, arguing that they are often inferior to traditional scripting languages and could be implemented more clearly. At the same time, several commenters pointed out technical inaccuracies in the article, such as the example's behavior when the file does not exist, and suggested that the colon is not necessary in these cases. Overall, the discussion suggests that the community sees some potential in the article's ideas, but believes there are important limitations and challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
