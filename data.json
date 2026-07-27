@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-27T03:29:03.358Z"
+    "lastUpdated": "2026-07-27T07:37:21.337Z"
   },
   "stories": [
+    {
+      "id": 49065752,
+      "author": "nateb2022",
+      "descendants": 6,
+      "kids": "[49065868,49066201,49066165,49066200,49066164,49065757]",
+      "score": 50,
+      "time": 1785133090,
+      "title": "Kimi-K3 Releases on HuggingFace 6/27",
+      "type": "story",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "og_image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/moonshotai/Kimi-K3.png",
+      "groq_label": "The Kimi-K3 model is released on HuggingFace, marking a historic moment with an open-weights LLM at the top, allowing for hosting competition that may drive down prices.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis release of Kimi-K3 on HuggingFace aims to solve the problem of accessibility to large language models. Based on the Hacker News discussion, commenters generally viewed the project positively, highlighting its historical significance as the first open-weights LLM to be at the top. Many appreciated the potential for third-party providers to make the model available, noting that this will allow people to run the model at a lower cost. Others believed it could be particularly useful for the development and testing of AI applications.\n\nHowever, the discussion also revealed several criticisms. Commenters expressed concerns about the high costs associated with hosting the model, requiring significant VRAM and potentially pushing prices down for AI providers. Some questioned the feasibility of running the model at home, pointing out that it would be more realistic to use 16x context. Overall, the Hacker News community considered the project as a significant step forward, recognizing its potential to make large language models more accessible while emphasizing the need for affordable hosting options.",
+      "groq_explain": null
+    },
     {
       "id": 49063754,
       "author": "jonbaer",
@@ -436,21 +451,6 @@
       "og_image": "https://astral.sh/static/PNG/Ruff_v_0_16_0.png",
       "groq_label": "Ruff added 354 default rules, bringing the total to 413.",
       "groq_discussion": "Discussion type:  – Basic:\n\nThis [Ruff v0.16.0 update] aims to solve the problem of [improving code linting and enforcement]. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as continued active development by the Ruff team despite Astral being acquired by OpenAI. Many appreciated the growth in default rules from 59 to 413, noting that this improvement is significant, particularly in preparation for stronger linting. While opinions differed on what specific features should be added next, the overall sentiment is positive, recognizing the project's potential to advance code enforcement with the advent of agentic coding. However, the discussion also revealed several criticisms. Commenters such as 'This is great news' expressed a desire for the project to extend its capabilities to more languages, in particular forbigo for more languages. Overall, the Hacker News community considered the update to be a step forward, recognizing its potential while emphasizing the need for further development in specific areas, primarily extending support for more languages.",
-      "groq_explain": null
-    },
-    {
-      "id": 49055169,
-      "author": "Cider9986",
-      "descendants": 31,
-      "kids": "[49056154,49055956,49055910,49056089,49056077]",
-      "score": 70,
-      "time": 1785045442,
-      "title": "GrapheneOS protections against data extraction from locked devices",
-      "type": "story",
-      "url": "https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices",
-      "og_image": "https://discuss.grapheneos.org/opengraph.png",
-      "groq_label": "GrapheneOS uses features like auto-reboot and data encryption to protect against data extraction even with a successful bypass of the password.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GrapheneOS is overwhelmingly positive. Commenters frequently praised its strong protections against data extraction, particularly the ability to return the device to a secure state even without a duress PIN/password. Many also appreciated the 18-hour auto-reboot feature, which prevents data extraction by returning the device to Before First Unlock (BFU) mode. However, there was a recurring concern mentioned, which is the lack of a complete backup and restore solution, to preventively wipe the device before crossing sensitive borders.",
       "groq_explain": null
     }
   ]
