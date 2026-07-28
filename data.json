@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-28T17:41:31.659Z"
+    "lastUpdated": "2026-07-28T21:13:04.466Z"
   },
   "stories": [
+    {
+      "id": 49089755,
+      "author": "bakigul",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 11,
+      "time": 1785271975,
+      "title": "OpenAI just open-sourced Codex Security",
+      "type": "story",
+      "url": "https://github.com/openai/codex-security",
+      "og_image": "https://opengraph.githubassets.com/fb7f8beff524717d0619e2aef46e2e8e74d9dbd22621ab527eeac101ede0f051/openai/codex-security",
+      "groq_label": "OpenAI revealed the underlying mechanisms of Codex Security that protect its model from various attacks.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49088058,
+      "author": "Eldodi",
+      "descendants": 22,
+      "kids": "[49089709,49089141,49088837,49088220,49089146,49089348,49089440,49088164,49088194,49088241,49089809,49088712,49088758]",
+      "score": 61,
+      "time": 1785263711,
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "type": "story",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "og_image": "https://blog.modelcontextprotocol.io/og-image.png",
+      "groq_label": "MCP is making transport go stateless to remove the burden of server-side complexity and improve reliability.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis MCP 2026-07-28 Specification focuses on making the transport go stateless. The Hacker News discussion was generally positive, with many commenters appreciating the reduction in server-side complexity and the potential for easier usage and deployment of Open-Source MCP servers. However, several commenters raised concerns about handling channels in the architecture, particularly in cases where a server drops out and comes back. Some also wondered if the stateless core could be kept separate from the existing MCP 1.x for backwards compatibility. While there was support for the idea, the discussion suggests that the community recognizes both the project's potential and its limitations, and believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49087306,
+      "author": "lkurtz",
+      "descendants": 148,
+      "kids": "[49087828,49089641,49088361,49089400,49089231,49087778,49087745,49087729,49089267,49089817,49089248,49087596,49089025,49089250,49087764,49087804,49088962,49087823,49088903,49089125,49087688,49087943,49088845,49088610,49087969,49087995,49087660,49087805,49087942,49087699,49088233]",
+      "score": 82,
+      "time": 1785260232,
+      "title": "The iPhone Upgrade Program is being replaced by Apple Upgrade",
+      "type": "story",
+      "url": "https://www.apple.com/shop/iphone/iphone-upgrade-program",
+      "og_image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iup-overview-og-202509?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1755536432407",
+      "groq_label": "Apple's new program, Apple Upgrade, now includes a purchase option fee in addition to monthly payments that can increase over time and include a trade-in process.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis program, Apple Upgrade, is designed to replace the iPhone Upgrade Program. The Hacker News discussion was generally mixed, with many commenters appreciating the flexibility and convenience of the leasing option, while others expressed concerns about the costs and limitations of the new program. Some praised the option to return, upgrade, or buy the device at the end of the lease, which they saw as a more appealing feature than the previous 0% financing option. However, others questioned the math behind the purchase option fee and pointed out that leasing a Mac, for example, would result in a significant payment at the end of the lease. Many also lamented the loss of Apple's simple payment plan, which they preferred over the postpaid carrier contract. The discussion suggests that the community sees potential in this new program but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49087091,
       "author": "gslin",
@@ -181,6 +226,21 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "Lower ratios in harmonious music are often more pleasant than higher ratios, and the article fails to explain why minor chords don't sound like something is missing despite being composed of whole-number ratios of frequencies.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis research article titled \"Harmony Explained: Progress Towards a Scientific Theory of Music\" aims to solve the problem of understanding the scientific principles behind music and harmony. The Hacker News discussion was generally positive, with many commenters appreciating the article's explanation of ratios and math behind harmonics and how that makes chords. Commenters also appreciated the idea that ideas like lower ratios are more pleasant and minor chords feel like something is missing, which they found to be supported by their personal experiences with music. However, the discussion also raised several concerns about the article's oversimplifications, particularly regarding the idea that minor chords feel like something is missing and the notion that the happiest music would be entirely octaves. Some commenters also questioned the article's logic regarding what sounds worse by combining dissonant notes. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49084987,
+      "author": "rbanffy",
+      "descendants": 61,
+      "kids": "[49088939,49087377,49089739,49086991,49089663,49089165,49089153,49088382,49087767,49087067,49088592,49086852,49087384,49088339,49087123,49087242,49087053]",
+      "score": 85,
+      "time": 1785250872,
+      "title": "Now Is the Time to Give LLMs Access to the ACM Digital Library",
+      "type": "story",
+      "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/",
+      "og_image": "https://cacm.acm.org/wp-content/uploads/2026/07/071526.OP_.Now-Is-the-S.jpg",
+      "groq_label": "LLMs could be given access to the ACM Digital Library.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of giving LLMs access to the ACM Digital Library is one of strong skepticism and frustration. Commenters frequently pointed out the hypocrisy and lack of transparency in ACM's approach, with some even accusing ACM of being more concerned with AI-generated content than actual academic research. Many believed that ACM should prioritize the interests of authors, not just the potential benefits of LLMs. While some commenters argued that it would be better to have open access to the library and that LLMs could contribute positively to the community, the recurring criticism of ACM's approach and potential conflicts of interest dominated the discussion. The overall consensus is that ACM's proposal is misguided and needs significant reevaluation.",
       "groq_explain": null
     },
     {
@@ -391,66 +451,6 @@
       "og_image": "https://arsastronomica.com/logo-with-name.png",
       "groq_label": "Ars Astronomica preserves original texts from rare Hebrew and Latin astronomy works, making English translations accessible to a broader audience.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis \"Ars Astronomica – English translations of rare Hebrew and Latin astronomy texts\" project aims to solve the problem of making ancient astronomy texts more accessible to modern readers. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as providing access to rare texts and preserving historical knowledge. Many appreciated the initiative, noting that it will be valuable for historical research and educational purposes. However, the discussion also revealed several criticisms. Commenters expressed concerns about copyright issues, questioning whether the translated texts will be properly attributed and licensed, and others pointed out the potential for inaccuracies in translations. Overall, the Hacker News community considered the project generally positive, recognizing its potential to contribute to the field of astronomy history while emphasizing the need for careful copyright management and translation quality.",
-      "groq_explain": null
-    },
-    {
-      "id": 49079490,
-      "author": "handfuloflight",
-      "descendants": 4,
-      "kids": "[49079919,49079879,49079817]",
-      "score": 30,
-      "time": 1785214194,
-      "title": "Neutrino-1 8B",
-      "type": "story",
-      "url": "https://www.fermionresearch.com/models/neutrino-8b/",
-      "og_image": "https://fermionresearch.com/images/og/neutrino-8b.jpg",
-      "groq_label": "Labs are using proprietary methods to convert existing language models to compressed ternary format, although publicly available methods like BitNet and Ternary-Bonsai-8B have already demonstrated similar performance.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Neutrino-1 8B project aims to solve the problem of model compression. Hacker News commenters generally appreciated the trend of labs converting existing models to a compressed ternary format but questioned the originality of the project, noting that a similar model, Ternary-Bonsai-8B, outperforms it.",
-      "groq_explain": null
-    },
-    {
-      "id": 49079454,
-      "author": "matt_d",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 14,
-      "time": 1785213960,
-      "title": "PyTorch: A Reference Language",
-      "type": "story",
-      "url": "https://docs.pytorch.org/devlogs/compiler/2026-07-25-pytorch-a-reference-language/",
-      "og_image": "images/49079454.png",
-      "groq_label": "PyTorch relies on dynamic computation graphs because it's designed to work efficiently with dynamic neural networks, which allow for easier implementation of complex models through nested loops.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49079175,
-      "author": "rramadass",
-      "descendants": 26,
-      "kids": "[49079527,49080091,49080090,49079622,49079778,49079753,49079558,49079971,49079514,49079671,49079176]",
-      "score": 35,
-      "time": 1785211241,
-      "title": "Why do we think we understand the world more than we actually do?",
-      "type": "story",
-      "url": "https://thedecisionlab.com/biases/the-illusion-of-explanatory-depth",
-      "og_image": "https://images.prismic.io/thedecisionlab/aDCUCSdWJ-7kSgJP_image3.png?auto=format,compress",
-      "groq_label": "Humans tend to rely on simplified models of the world in their minds that may not accurately represent reality.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion is that people tend to overestimate their understanding of the world. Commenters frequently praised the idea that our understanding is incomplete, describing it as a natural consequence of simplifying complex models. However, the discussion also included recurring concerns about the dangers of overconfidence, including the idea that people often hold strong opinions on topics with limited information. The overall consensus is that humanity has a tendency to overestimate its wisdom, leading to a lack of critical examination of our knowledge and a failure to appreciate the complexity of the world.",
-      "groq_explain": null
-    },
-    {
-      "id": 49078583,
-      "author": "msaltz",
-      "descendants": 66,
-      "kids": "[49080027,49079002,49078889,49078892,49078857,49078920,49079258,49078827,49079981,49080015,49079422,49078953,49079067,49078851,49078897,49078759,49079446]",
-      "score": 210,
-      "time": 1785206234,
-      "title": "Using an open model feels surprisingly good",
-      "type": "story",
-      "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
-      "og_image": "images/49078583.png",
-      "groq_label": "The author found using Modal's open model, Kimi K3, surprisingly enjoyable, citing benefits such as faster thinking and QA loops.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThe article discusses the author's positive experience with an open model, Modal, and how it feels surprisingly good to work with. The Hacker News discussion is generally mixed, with some commenters viewing the post as an advertisement and expressing skepticism about the author's use of Modal. However, others shared similar positive experiences with open models, praising their performance and usability. The discussion highlights the strengths of open models, such as their ability to aid in traditional software development and provide a better thinking and q&a loop, as well as their potential limitations, including the need for good harnesses. The community seems to be cautiously optimistic about the potential of open models, but also emphasizes the importance of considering costs and limitations.",
       "groq_explain": null
     }
   ]
