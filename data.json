@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-28T06:32:50.511Z"
+    "lastUpdated": "2026-07-28T10:40:30.792Z"
   },
   "stories": [
+    {
+      "id": 49081594,
+      "author": "tuxie_",
+      "descendants": 24,
+      "kids": "[49081753,49081703,49081763,49081746,49081839,49081785,49081706,49081760,49081794,49081712,49081702,49081767,49081668,49081633]",
+      "score": 16,
+      "time": 1785232351,
+      "title": "What Even Are Microservices?",
+      "type": "story",
+      "url": "https://var0.xyz/posts/what-even-are-microservices.html",
+      "og_image": "images/49081594.png",
+      "groq_label": "Conway's Law suggests that team boundaries lead to emergence of microservices rather than technical boundaries.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to explain and define microservices. The Hacker News discussion was generally critical, with many commenters appreciating the complexity of microservices but arguing that the concept is often misapplied or overhyped. Several commenters raised concerns about the emergence of team boundaries driving microservices, making them less about technical benefits and more about organizational needs. They also highlighted the difficulties in managing and maintaining numerous microservices, citing increased complexities such as dependency tracing and scalability issues. Meanwhile, other commenters suggested that a balanced approach can be taken, where services are neither too large nor too small, but \"right-sized\" for the task at hand. The discussion also touched on the trade-offs between monoliths and microservices, with some arguing that the best approach may be a combination of both, using a monorepo with microservices. Overall, the discussion suggests that while microservices can offer benefits, they also come with significant challenges that must be considered.",
+      "groq_explain": null
+    },
+    {
+      "id": 49081555,
+      "author": "andor",
+      "descendants": 11,
+      "kids": "[49081628,49081691,49081646]",
+      "score": 26,
+      "time": 1785231943,
+      "title": "About the security content of macOS Tahoe 26.6",
+      "type": "story",
+      "url": "https://support.apple.com/en-us/128067",
+      "og_image": "https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/psp_content/tile-side-applecare.image.large_2x.png",
+      "groq_label": "Apple security content emphasizes collaboration with Claude and Anthropic Research over other AI labs despite presumably having direct access to their technology.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis macOS Tahoe 26.6 update aims to solve the problem of improving security and addressing vulnerabilities in the operating system. \nBased on the Hacker News discussion, commenters generally viewed \nthe emphasis on collaborating with Claude and Anthropic Research positively, noting that it indicates access to cutting-edge AI technology. Many appreciated the high number of credited researchers for addressing CVE-2026-43739 and CVE-2026-43816. While the large number of fixes is seen as a notable strength, others questioned why this update, with so many patches, is being downplayed. However, the discussion also revealed criticism about attributing AI research. Commenters expressed concerns that this might not accurately reflect the complexity of the vulnerabilities being addressed. Overall, the Hacker News community considered the update's collaboration and credited researchers to be a positive aspect, acknowledging the update's potential improvements while emphasizing the need for more transparency.",
+      "groq_explain": null
+    },
+    {
+      "id": 49080664,
+      "author": "krembo",
+      "descendants": 54,
+      "kids": "[49080987,49081577,49080999,49081009,49081163,49080897,49081464,49081621,49081866,49080824,49080967,49081771,49081383,49080839,49080906,49080927,49080890,49080896,49081247,49081216]",
+      "score": 227,
+      "time": 1785224664,
+      "title": "7.1 Earthquake in Japan",
+      "type": "story",
+      "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+      "og_image": "https://www.data.jma.go.jp/multi/images/common/logo.gif",
+      "groq_label": "The earthquake in Japan registered 7 on the Japanese shindo scale in parts of Kumamoto Prefecture, indicating extremely strong ground shaking that can cause significant damage.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe 7.1 earthquake in Japan is a pressing concern for the country, particularly given the recent rebuilding efforts in Kumamoto. Commenters appreciated the prompt updates on the situation and the information available on the severity of the quake and potential damage areas. They also acknowledged the concern about the location and the fact that a 7.1 shindo, which is extremely strong, was recorded in this area. The discussion also revealed several criticisms regarding the potential damage and the impact of the quake, noting that it occurred in an area that is still recovering from the 2016 quake and that many cities were not directly hit by the earthquake at a 7 scale. Commenters questioned how buildings stood up despite the strong quake and also highlighted the relief that major cities were not severely affected and that there were no reports of damage to nuclear power plants. Overall, the discussion suggests that the community is concerned about the situation and waiting for further updates.",
+      "groq_explain": null
+    },
     {
       "id": 49079727,
       "author": "sweisman",
@@ -405,51 +450,6 @@
       "og_image": "images/49070138.png",
       "groq_label": "The Paged Out journal takes a deeply technical and hacker-centric approach with humorously titled sections like 'Baby Steps in C' and features articles on niche topics like subpixel rendering.",
       "groq_discussion": "Discussion type: – Basic :\n\nThis [Paged Out #9 PDF] aims to solve the problem of being a technical, in-depth, and hacker-centric publication. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its unique approach to technical content, humor, and beautifully designed layout. Many appreciated its modern take on hacking culture, noting that it is comparable to the classic zine \"2600.\" Others believed it could be particularly useful for those interested in advanced technical topics. However, the discussion also revealed several criticisms. Commenters expressed concerns about the scattered nature of the topics, which some found confusing. Overall, the Hacker News community considered the project [overwhelmingly positive], recognizing its refreshing take on hacker culture while emphasizing that its non-linear approach may still require some adjustment.",
-      "groq_explain": null
-    },
-    {
-      "id": 49069939,
-      "author": "1vuio0pswjnm7",
-      "descendants": 82,
-      "kids": "[49070629,49072592,49072246,49072653,49071543,49072746,49070119,49071836,49071845,49071574,49071141,49071265]",
-      "score": 183,
-      "time": 1785161268,
-      "title": "AI companies spend record sums on Washington lobbying",
-      "type": "story",
-      "url": "https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F9c4b43aa-a368-4159-86dc-e233efc3aa9b.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "groq_label": "AI companies are spending record sums on lobbying in Washington, with OpenAI more than doubling its expenditure and Anthropic nearly tripling its spending.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article about AI companies spending record sums on Washington lobbying is that it is a typical and expected behavior of companies with significant wealth. Commenters frequently noted that lobbying is a widespread practice and that the more money an organization has, the more it will spend on lobbying. Many saw this trend as a natural consequence of having a lot of money, with some even referencing historical examples like AIPAC. While some commenters found the amounts spent by AI companies to be alarming, the overall consensus is that this is a common practice that will continue unless there is a significant change in the system.",
-      "groq_explain": null
-    },
-    {
-      "id": 49069132,
-      "author": "surprisetalk",
-      "descendants": 46,
-      "kids": "[49070405,49070093,49069645,49069612,49069568,49070239,49069873,49069965,49069591,49070041,49069619,49070058]",
-      "score": 68,
-      "time": 1785157451,
-      "title": "Should you wash your solar panels?",
-      "type": "story",
-      "url": "https://incoherency.co.uk/blog/stories/should-you-wash-your-solar-panels.html",
-      "og_image": "https://img.incoherency.co.uk/6637/thumb",
-      "groq_label": "Rainfall is generally sufficient to reduce the need for solar panel cleaning.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the idea of washing solar panels for improved performance. The discussion reflects a mix of opinions on whether to wash panels and the potential benefits or drawbacks of doing so. Some commenters, such as those who have seen a significant increase in power output after cleaning their panels, appreciate the practice and highlight its potential to improve energy generation. However, others are skeptical or even dismissive, suggesting that cleaning panels may not be necessary, and that rain or automated systems could handle dust accumulation.\n\nCommenters also raised practical concerns, such as the risk of damage to roof-mounted panels and the importance of proper grounding and bonding to ensure safe and efficient energy generation. The discussion suggests that the community views the idea of washing solar panels as a promising solution, but also emphasizes the need for more nuanced understanding of individual circumstances, such as environmental conditions and system setup, to determine the effectiveness of cleaning.",
-      "groq_explain": null
-    },
-    {
-      "id": 49068738,
-      "author": "anon373839",
-      "descendants": 208,
-      "kids": "[49069602,49069382,49068963,49069014,49068973,49068844,49069797,49069266,49070314,49069882,49069401,49069231,49070272,49068876,49069942,49069764,49070298,49069932,49069949,49070252,49069845,49069313,49069341,49069332,49069678,49069217,49069911,49069733,49069052,49070102,49069530,49069287,49069286,49069738,49069159,49069999,49069209,49070253,49069517,49069152,49070053,49068930,49069714,49069412,49069218,49069972,49069739,49070088,49069549,49069497,49069649,49068832,49069060,49069107,49069810,49069761,49070374,49069330,49069160,49069381,49068999,49069150,49069956,49068966]",
-      "score": 353,
-      "time": 1785155532,
-      "title": "AI companies are shredding rare books",
-      "type": "story",
-      "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
-      "og_image": "https://pbs.twimg.com/media/HOMX3t1XYAA3Pr7.jpg",
-      "groq_label": "Books are being shredded for AI training data because companies are allowed to claim they're legally allowed to destroy a copy under fair use when scanning for copyright purposes.",
-      "groq_discussion": "Discussion type: –  Community Perspective:\n\nThe Hacker News community generally responded to the article about AI companies shredding rare books with mixed reactions. Some commenters sympathized with the publishers' position under current copyright laws, pointing out that publishers do not actively make new copies of their works available while the books are still under copyright. Others, however, argued that the real issue lies with the publishers' failure to actively distribute their content. Commenters frequently praised the efficiency with which AI companies can digitize books, noting that this process is often cheaper than obtaining copyright fees from publishers. However, the discussion also included recurring concerns about the loss of physical copies of rare books and the ethics of destructive scanning. The overall consensus is that the community sees the issue as complex and multifaceted.",
       "groq_explain": null
     }
   ]
