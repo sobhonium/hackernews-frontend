@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-29T02:53:32.027Z"
+    "lastUpdated": "2026-07-29T06:35:37.795Z"
   },
   "stories": [
+    {
+      "id": 49093569,
+      "author": "Error6571",
+      "descendants": 8,
+      "kids": "[49093907,49093871,49093849,49093876,49093836]",
+      "score": 70,
+      "time": 1785301126,
+      "title": "More Tailscale tricks for your jailbroken Kindle",
+      "type": "story",
+      "url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "og_image": "https://tailscale.com/api/og-image?id=42fbec2c-0569-42cb-86c8-dbf1e2f2fa4a",
+      "groq_label": "Tailscale collects behavioral metadata from Kindle users who don't opt out of client logging.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis article/project focuses on optimizing Tailscale on a jailbroken Kindle. The Hacker News discussion suggests that commenters were primarily concerned about user data collection, particularly when using the service on devices like the Kindle. Many praised the idea of using Tailscale for secure communication, but raised concerns about the company's logging and data collection practices. The discussion highlighted the importance of adding `--no-logs-no-support` to the scripted invocation of `tailscaled` to opt out of behavioral metadata collection. However, some commenters also took the opportunity to discuss unrelated topics, such as recommending ereader-friendly RSS feeds. The overall impression was that the community appreciated the ingenuity of customizing Tailscale on a Kindle, but emphasized the need for caution and consideration of user data privacy.",
+      "groq_explain": null
+    },
+    {
+      "id": 49093435,
+      "author": "zdw",
+      "descendants": 1,
+      "kids": "[49093939]",
+      "score": 25,
+      "time": 1785299447,
+      "title": "Cracking Windows Open: Porting RADV to Win32",
+      "type": "story",
+      "url": "https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html",
+      "og_image": "https://www.collabora.com/assets/images/blog/Collabora-Porting%20RADV.jpeg",
+      "groq_label": "The existing open-source Linux drivers for AMD graphics are incompatible with Win32 due to fundamental differences in system architecture and API design.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis attempt to port RADV to Win32 aims to solve the problem of providing open-source Windows GPU drivers. Based on the Hacker News discussion, commenters generally viewed this as a worthwhile effort, highlighting strengths such as the potential for using LLM assistance to reduce the workload. Many appreciated the possibility of using existing open-source Linux drivers, noting that it could simplify the development process. However, the discussion also revealed several criticisms. Commenters expressed concerns about the technical feasibility, particularly with regards to Windows' proprietary nature. Overall, the Hacker News community considered this project promising, acknowledging that it would be a challenging but important effort if successful, and recognizing the potential for long-term benefits.",
+      "groq_explain": null
+    },
+    {
+      "id": 49093434,
+      "author": "zdw",
+      "descendants": 8,
+      "kids": "[49093953,49093831,49093699,49094022,49093653,49093838]",
+      "score": 66,
+      "time": 1785299436,
+      "title": "User Interfaces of the Demo Scene",
+      "type": "story",
+      "url": "https://www.datagubbe.se/scenegui/",
+      "og_image": "https://www.datagubbe.se/scenegui/p/elitesinuesproducer-menu.png",
+      "groq_label": "Demoscene developers prioritized performance above developer productivity, often relying on custom tools and assembly code to generate music, graphics, and other visuals.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses user interfaces of the demo scene. Hacker News commenters generally appreciated the nostalgic value of the topic, sharing personal memories and experiences. They highlighted the creativity and technical innovation of the demo scene, particularly in the use of trackers and disk defrag. However, the discussion also touched on the importance of developer productivity, with a commentator expressing curiosity about how this applies to the project. Overall, the discussion was positive, with commenters recognizing both the project's technical achievements and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49093232,
+      "author": "ilreb",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 35,
+      "time": 1785297149,
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+      "type": "story",
+      "url": "https://transformer-transformer.github.io/",
+      "og_image": "https://transformer-transformer.github.io/static/images/arxiv.svg",
+      "groq_label": "A unified model, Transformer Transformer, generates complete robots for specific tasks based on manipulation demonstrations, optimizing various properties and reducing tracking error.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "The article proposes a new method called Transformer Transformer that can design a robot tailored to a specific task. It takes a demonstration of how the robot should move, and generates a complete robot with the exact parts it needs to perform that motion efficiently. This method is important because it can significantly improve how well a robot performs a task, without needing complex optimization processes."
+    },
     {
       "id": 49092499,
       "author": "ajhai",
@@ -391,66 +451,6 @@
       "og_image": "https://pbs.twimg.com/profile_images/2070145724390535168/x9MGWOxQ_200x200.jpg",
       "groq_label": "Some prominent mathematicians express discomfort with the increasing reliance on a single proof system, Lean, and the lack of peer review in the mathematical community.",
       "groq_discussion": "Discussion type: – Objective:\n\nThis article about mathematicians and Lean proofs is designed to highlight the differing opinions about the value of formal verification in mathematics. The discussion reflects a balanced mix of perspectives. Supporters argued that formal verification brings new levels of rigor and confidence to mathematical proofs, while critics pointed out concerns about the potential for over-reliance on automation and the limitations of verifying large, complex proofs. Several commenters also shared technical observations regarding the strengths and weaknesses of Lean proofs and the role of peer review in mathematics. Overall, the discussion presents the debate as a nuanced exploration of the value and challenges of formal verification in mathematics.",
-      "groq_explain": null
-    },
-    {
-      "id": 49083314,
-      "author": "codebyaditya",
-      "descendants": 24,
-      "kids": "[49084019,49083743,49083561,49084143,49083657,49083610,49083532]",
-      "score": 100,
-      "time": 1785244321,
-      "title": "New HIV vaccine shows unprecedented success in preclinical study",
-      "type": "story",
-      "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
-      "og_image": "https://www.lji.org/wp-content/uploads/2026/07/HIV_Virus_-_5412.jpg",
-      "groq_label": "The HIV vaccine is designed as a series of shots acting as a curriculum for the immune system, each shot targeting a different stage of B-cell development.",
-      "groq_discussion": "Discussion type: – Basic\n\nThis new HIV vaccine aims to solve the problem of finding a successful vaccination method against HIV. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its unique approach, with each shot acting as a different stage for the immune system's development. Many appreciated the potential of the vaccine, noting that it could lead to promising results, while others believed it could be particularly useful for those who have struggled with previous vaccine attempts. However, the discussion also revealed several criticisms. Commenters expressed concerns about being overly optimistic and waiting for a vaccine when existing solutions, such as PrEP, are available. Others questioned the novelty of the approach, wondering if it was significantly different from existing vaccines. The overall sentiment was positive, yet cautious, with the Hacker News community recognizing the potential of the vaccine while emphasizing that the proof lies in human trials.",
-      "groq_explain": null
-    },
-    {
-      "id": 49083239,
-      "author": "permute",
-      "descendants": 14,
-      "kids": "[49083441,49083770,49083789,49083611,49083930,49083874,49083929,49083678]",
-      "score": 37,
-      "time": 1785244034,
-      "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
-      "type": "story",
-      "url": "https://github.com/schildep/verified-3d-mesh-intersection",
-      "og_image": "https://opengraph.githubassets.com/6c06f7a0c32e51e537fd370ad62a45d59e6032c4bb154f0ea62e9ae89922aa9d/schildep/verified-3d-mesh-intersection",
-      "groq_label": "Formally verified 3D CSG can prove correctness in its kernel without needing to inspect intricate AI-written implementation code.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is overwhelmingly positive. Commenters frequently praised the formally verified approach, noting that it's a significant improvement over traditional AI-written code. Many highlighted the benefits of the formal specification, such as the ability to trust 93 lines of code instead of 1000 lines of AI-written implementation. The project's approach to CSG is also seen as intuitive and powerful, with commenters appreciating its ability to rapidly iterate parameters and create complex 3D environments.\n\nThe only criticisms mentioned in the discussion focused on the limitations of formally verified numerical algorithms, with one commenter pointing out that they may not be performant enough for practical use. However, this concern was not widely echoed, and the vast majority of commenters seem enthusiastic about the project.",
-      "groq_explain": null
-    },
-    {
-      "id": 49083132,
-      "author": "sedovsek",
-      "descendants": 18,
-      "kids": "[49084190,49083550,49083735,49084090,49083928,49083814,49084076,49083600,49083133,49083775,49083635,49083410]",
-      "score": 19,
-      "time": 1785243612,
-      "title": "What AI developers could learn from Charles Bukowski?",
-      "type": "story",
-      "url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
-      "og_image": "https://galjot.si/_blog/img/2026/ai-developers-bukowski-social.jpg",
-      "groq_label": "Charles Bukowski's approach to prioritizing quality over quantity, and taking breaks to recharge, could help AI developers avoid burnout and focus on producing meaningful work rather than just meeting output expectations.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about what AI developers could learn from Charles Bukowski received a mixed response from the community. On one hand, some commenters appreciated the idea of Bukowski's unapologetic and anti-establishment attitude influencing AI development, with one commenter suggesting that he would want to kick the shit out of anyone who prioritized profits over people. Others praised the article for highlighting the problems of modern work culture, such as the 996 phenomenon and the pressure to produce high volumes of work.\n\nOn the other hand, several commenters were skeptical of the idea that AI developers could learn much from Bukowski at all. One commenter noted that Bukowski's personality and experiences are so unique that it's unclear what lessons can be applied to the AI industry. Another commenter questioned the value of Bukowski's attitude, particularly in a world where AI is often driven by commercial goals. Overall, the discussion suggests that the community sees some merit in the article's ideas, but also expresses doubts about the relevance and applicability of Bukowski's philosophy to AI development.",
-      "groq_explain": "The article is about a potential lesson from Charles Bukowski that could help AI developers balance their work and quality. The core idea is that Bukowski's relaxed approach to writing, where he prioritizes waiting and letting ideas come naturally, might help developers avoid burnout and overworking when they have access to AI tools that can automate some tasks."
-    },
-    {
-      "id": 49082550,
-      "author": "882542F3884314B",
-      "descendants": 7,
-      "kids": "[49083977,49083804,49083815,49083869,49083201,49083098,49083259]",
-      "score": 22,
-      "time": 1785240177,
-      "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
-      "type": "story",
-      "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
-      "og_image": "https://speedmedia2.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/media.jfrog.com/wp-content/uploads/2024/04/10150531/Coder-JFrog-Fusion-Blog_Thumbnail.png",
-      "groq_label": "Artifactory's package caching proxy, a key piece of OpenAI's security setup, was vulnerable to an unpatched issue.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product, focusing on \"Fast Remediation Is the New Trust Model\" by JFrog and OpenAI Zero-Day Findings, aims to solve the problem of improving cybersecurity in AI and code development. The Hacker News discussion was generally critical, with many commenters appreciating the idea of fast remediation but raising concerns about its limitations and potential vulnerabilities. At the same time, several commenters questioned the effectiveness of relying on models to detect vulnerabilities and the potential for attackers to exploit near-frontier models with open weights. Overall, the discussion suggests that the community sees promise in fast remediation but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
