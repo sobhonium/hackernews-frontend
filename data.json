@@ -1,8 +1,37 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-29T21:01:41.060Z"
+    "lastUpdated": "2026-07-29T22:09:30.409Z"
   },
   "stories": [
+    {
+      "id": 49103285,
+      "author": "YeGoblynQueenne",
+      "descendants": 22,
+      "kids": "[49103641,49103519,49103697,49103462,49103653,49103661,49103673,49103583,49103528,49103662,49103667]",
+      "score": 32,
+      "time": 1785360340,
+      "title": "AI's top startups are barely publishing their research",
+      "type": "story",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "og_image": "images/49103285.png",
+      "groq_label": "The majority of AI startups are unlikely to publish research similar to academic journals due to commercial motivations and the proprietary nature of their work.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights a trend in the AI industry where top startups are not publishing their research. The discussion reflects a mixed reaction to this phenomenon. Some commenters argue that this trend is not surprising, citing that many startups prioritize commercial motivations over research publication. They point out that even pioneers in the field, like Google, published foundational research that ultimately led to significant advancements. However, others express concern that this shift away from public research could hinder progress and innovation in the field. They suggest that the industry's commercialization is causing academics to face a higher bar for what constitutes \"research-worthy\" progress, leading to a lack of transparency and collaboration. Overall, the discussion suggests that the community sees both valid reasons for the trend and potential drawbacks, recognizing that the industry needs to find a balance between commercial success and the pursuit of knowledge.",
+      "groq_explain": null
+    },
+    {
+      "id": 49103026,
+      "author": "maciejSz",
+      "kids": "[]",
+      "score": 1,
+      "time": 1785358861,
+      "title": "SalesPatriot (YC W25) Is Hiring FDEs",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/2eaf182f2bdedfa672a047416d8b513b6e01e58e.png?1736991014",
+      "groq_label": "SalesPatriot is an AI-native platform aiming to automate supply chain operations for industrial companies, and is hiring a full-time Forward Deployed Engineer to relocate to San Francisco.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "SalesPatriot, a startup from Y Combinator, is looking for a Full-Stack Engineer to join their team in San Francisco. The company is working on an AI-powered platform for distributors and OEMs, aiming to modernize the supply chain and operations of critical industries. The role involves traveling to customer sites to understand their operations, implementing the platform, and ensuring its success."
+    },
     {
       "id": 49102774,
       "author": "robbiet480",
@@ -19,6 +48,21 @@
       "groq_explain": null
     },
     {
+      "id": 49102525,
+      "author": "otalp",
+      "descendants": 5,
+      "kids": "[49103369,49103422,49103368,49103328,49103466]",
+      "score": 23,
+      "time": 1785356508,
+      "title": "Theo Conjecture solves 35-year-old math problem, finds a term no one predicted",
+      "type": "story",
+      "url": "https://firstprinciples.com/blog-article/ai-system-theo-conjecture-solves-35-year-old-math-conjecture",
+      "og_image": "https://cdn.prod.website-files.com/69b08eccd318a55f50603856/6a6a2c2962ed0e0497454b86_ChatGPT%20Image%20Jul%2029%2C%202026%2C%2009_52_55%20AM.png",
+      "groq_label": "A breakthrough in the Theo Conjecture has been achieved using a solver that unexpectedly identifies an undetected term in the problem's solution after three decades of attempted resolution.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis math problem solution aims to solve a 35-year-old math problem. Hacker News commenters generally responded critically, expressing disappointment with the AI-generated writing and finding it impenetrable or rambling. However, they also seemed to appreciate learning about the underlying mathematical idea behind TxGraffiti. The discussion was negative, with commenters questioning the article's quality and the solver's accuracy.",
+      "groq_explain": null
+    },
+    {
       "id": 49102425,
       "author": "matthewsharpe3",
       "descendants": 3,
@@ -31,6 +75,21 @@
       "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fdogdogfish.com%2Fblog%2F2026%2F07%2F29%2Fa-trampoline%2F?w=800",
       "groq_label": "Trampolines often feature a safety enclosure to contain users and reduce the risk of injury.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis product aims to solve the problem of recreational entertainment. Based on the Hacker News discussion, commenters generally viewed the product positively and highlighted strengths such as nostalgia and potential for fun. Many appreciated the idea of using a trampoline, noting that it can bring back happy memories for some. However, the discussion also revealed several criticisms. Commenters expressed concerns about the safety risks, specifically ER visits, which they saw as a hidden cost. Overall, the Hacker News community considered the product as an entertaining idea that requires careful consideration of its potential drawbacks.",
+      "groq_explain": null
+    },
+    {
+      "id": 49102150,
+      "author": "gregsadetsky",
+      "descendants": 200,
+      "kids": "[49102404,49102415,49103266,49102394,49102895,49102158,49103388,49102850,49102200,49102452,49102735,49102847,49102293,49102380,49102427,49102277,49103598,49102829,49102878,49102357,49102267,49102970,49102718,49103003,49102510,49102440,49102726,49102401,49102826,49102170,49102687,49103464,49102785,49102589,49102265,49102319,49103030,49102365,49103257,49102434,49102777,49102995,49102398,49102521,49102731,49102450,49102672,49102667,49103019,49102202,49102748,49102703,49102436,49102614,49102337,49102190,49102578,49102639,49102571,49102650,49102419,49102609,49102487,49102566,49102597,49102463,49103258,49103252,49102712,49103189,49102693,49102702,49103461]",
+      "score": 225,
+      "time": 1785354642,
+      "title": "Claude: Elevated errors across all models",
+      "type": "story",
+      "url": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "og_image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "groq_label": "Elevated errors across all models likely resulted in Claude's outage.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Claude is overwhelmingly negative. Commenters frequently criticized the project's reliability, citing outages and downtime. Many commenters expressed frustration and disappointment with the service, citing inconsistent output and reasoning. The discussion suggests that the community views Claude as a promising idea that has failed to deliver in terms of reliability and consistency. Commenters are also questioning how the team can solve the issue of downtime, given that the majority of their code was written by AI. Despite some individual instances of sessions still being active, the general consensus is that Claude is not a reliable solution and that users may need to look elsewhere for similar services.",
       "groq_explain": null
     },
     {
@@ -391,66 +450,6 @@
       "groq_label": "The Amiga Graphics Archive has been active for 18 years, showcasing rare pixel art images created for the Commodore Amiga computer and featuring a restored image by Jim Sachs called Multimedia.",
       "groq_discussion": "Discussion type: - Basic\n\nThis Amiga Graphics Archive aims to preserve and showcase the graphics work of the Amiga era. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the nostalgia and preservation of a bygone era, \nbringing back fond memories for users. Many appreciated the specific examples shared, \nnoting that they still hold great artistic value, while others believed it could be \nparticularly useful for researchers and hobbyists looking to recreate classic graphics. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the lack of modern polish and the relatively low-tech nature of the archives, \nquestioning whether they can be considered a 'lost art' in a digital age. Overall, the Hacker News community considered the \nproject as a sentimental and interesting contribution, recognizing its value in preserving the history of Amiga graphics while emphasizing that it still has room for improvement in terms of presentation and modern context.\n\n(For the detailed comment about \"A snicker to many people\" and the overall feeling of being nostalgic, that would be more suited to the 'Community Perspective' or 'Basic' types. However, for brevity and to better fit the basic type. I have selected the basic template)",
       "groq_explain": "The Amiga Graphics Archive is a collection of high-quality, rare pixel art images created for the Commodore Amiga computer. It's a curated gallery showcasing the unique graphics made for that computer system."
-    },
-    {
-      "id": 49094346,
-      "author": "ankitg12",
-      "descendants": 24,
-      "kids": "[49095251,49095113,49095479,49095489,49094991,49095141]",
-      "score": 71,
-      "time": 1785309504,
-      "title": "SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers",
-      "type": "story",
-      "url": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
-      "og_image": "https://micrologics.org/ml-logo.PNG",
-      "groq_label": "SQLite's design makes it map the entire database into memory for small databases, allowing for fast disk reads through simple pointer arithmetic.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article on SQLite in production aims to solve the problem of optimizing SQLite performance in production environments. The Hacker News discussion was generally cautious and appreciative. Many commenters praised the article's focus on optimizing WAL mode, concurrency, and VFS layers, and believed the advice on using WAL mode with the pragma could improve performance. However, several commenters raised concerns about the lack of discussion on practical issues, such as creating a GUI for interacting with SQLite databases in production, and the potential difficulties of using migrations with per-tenant databases. The discussion highlights the complexity of using SQLite in production, while acknowledging its capabilities, and suggests that the community sees the potential for SQLite but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49093569,
-      "author": "Error6571",
-      "descendants": 8,
-      "kids": "[49093907,49093871,49093849,49093876,49093836]",
-      "score": 70,
-      "time": 1785301126,
-      "title": "More Tailscale tricks for your jailbroken Kindle",
-      "type": "story",
-      "url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
-      "og_image": "https://tailscale.com/api/og-image?id=42fbec2c-0569-42cb-86c8-dbf1e2f2fa4a",
-      "groq_label": "Tailscale collects behavioral metadata from Kindle users who don't opt out of client logging.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis article/project focuses on optimizing Tailscale on a jailbroken Kindle. The Hacker News discussion suggests that commenters were primarily concerned about user data collection, particularly when using the service on devices like the Kindle. Many praised the idea of using Tailscale for secure communication, but raised concerns about the company's logging and data collection practices. The discussion highlighted the importance of adding `--no-logs-no-support` to the scripted invocation of `tailscaled` to opt out of behavioral metadata collection. However, some commenters also took the opportunity to discuss unrelated topics, such as recommending ereader-friendly RSS feeds. The overall impression was that the community appreciated the ingenuity of customizing Tailscale on a Kindle, but emphasized the need for caution and consideration of user data privacy.",
-      "groq_explain": null
-    },
-    {
-      "id": 49093435,
-      "author": "zdw",
-      "descendants": 1,
-      "kids": "[49093939]",
-      "score": 25,
-      "time": 1785299447,
-      "title": "Cracking Windows Open: Porting RADV to Win32",
-      "type": "story",
-      "url": "https://www.collabora.com/news-and-blog/news-and-events/cracking-windows-open-porting-radv-to-win32.html",
-      "og_image": "https://www.collabora.com/assets/images/blog/Collabora-Porting%20RADV.jpeg",
-      "groq_label": "The existing open-source Linux drivers for AMD graphics are incompatible with Win32 due to fundamental differences in system architecture and API design.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis attempt to port RADV to Win32 aims to solve the problem of providing open-source Windows GPU drivers. Based on the Hacker News discussion, commenters generally viewed this as a worthwhile effort, highlighting strengths such as the potential for using LLM assistance to reduce the workload. Many appreciated the possibility of using existing open-source Linux drivers, noting that it could simplify the development process. However, the discussion also revealed several criticisms. Commenters expressed concerns about the technical feasibility, particularly with regards to Windows' proprietary nature. Overall, the Hacker News community considered this project promising, acknowledging that it would be a challenging but important effort if successful, and recognizing the potential for long-term benefits.",
-      "groq_explain": null
-    },
-    {
-      "id": 49093434,
-      "author": "zdw",
-      "descendants": 8,
-      "kids": "[49093953,49093831,49093699,49094022,49093653,49093838]",
-      "score": 66,
-      "time": 1785299436,
-      "title": "User Interfaces of the Demo Scene",
-      "type": "story",
-      "url": "https://www.datagubbe.se/scenegui/",
-      "og_image": "https://www.datagubbe.se/scenegui/p/elitesinuesproducer-menu.png",
-      "groq_label": "Demoscene developers prioritized performance above developer productivity, often relying on custom tools and assembly code to generate music, graphics, and other visuals.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses user interfaces of the demo scene. Hacker News commenters generally appreciated the nostalgic value of the topic, sharing personal memories and experiences. They highlighted the creativity and technical innovation of the demo scene, particularly in the use of trackers and disk defrag. However, the discussion also touched on the importance of developer productivity, with a commentator expressing curiosity about how this applies to the project. Overall, the discussion was positive, with commenters recognizing both the project's technical achievements and its limitations.",
-      "groq_explain": null
     }
   ]
 }
