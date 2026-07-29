@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-29T06:35:37.795Z"
+    "lastUpdated": "2026-07-29T10:42:40.010Z"
   },
   "stories": [
+    {
+      "id": 49094346,
+      "author": "ankitg12",
+      "descendants": 24,
+      "kids": "[49095251,49095113,49095479,49095489,49094991,49095141]",
+      "score": 71,
+      "time": 1785309504,
+      "title": "SQLite in Production: Optimizing WAL Mode, Concurrency, and VFS Layers",
+      "type": "story",
+      "url": "https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers",
+      "og_image": "https://micrologics.org/ml-logo.PNG",
+      "groq_label": "SQLite's design makes it map the entire database into memory for small databases, allowing for fast disk reads through simple pointer arithmetic.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article on SQLite in production aims to solve the problem of optimizing SQLite performance in production environments. The Hacker News discussion was generally cautious and appreciative. Many commenters praised the article's focus on optimizing WAL mode, concurrency, and VFS layers, and believed the advice on using WAL mode with the pragma could improve performance. However, several commenters raised concerns about the lack of discussion on practical issues, such as creating a GUI for interacting with SQLite databases in production, and the potential difficulties of using migrations with per-tenant databases. The discussion highlights the complexity of using SQLite in production, while acknowledging its capabilities, and suggests that the community sees the potential for SQLite but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49093569,
       "author": "Error6571",
@@ -436,21 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/d8a9afcc4b5719c0fdd29d6d9c03acd3f1c356df315c2b0ec584f605012140a1/ctrlb-hq/ctrlb-decompose",
       "groq_label": "Ctrlb-decompose focuses on decomposing noisy logs into a clean format without requiring an entire ecosystem to be adopted.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Ctrlb-decompose is very positive. Commenters frequently praised its strengths, such as modular architecture and alignment with the Unix philosophy. They appreciated the tool's focus on the decomposition step and its ability to effectively strip noise from logs. However, the discussion also included a recurring concern about the tool's limitations, specifically its inability to analyze and process logs beyond the decomposition step, and the need for further integration with tools like OpenTelemetry and logging aggregators. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these remaining challenges.",
-      "groq_explain": null
-    },
-    {
-      "id": 49083330,
-      "author": "tosh",
-      "descendants": 3,
-      "kids": "[49084198,49084119,49084047,49083556]",
-      "score": 16,
-      "time": 1785244382,
-      "title": "Many \"serious\" mathematicians are aghast",
-      "type": "story",
-      "url": "https://twitter.com/lemire/status/2082091243597697071",
-      "og_image": "https://pbs.twimg.com/profile_images/2070145724390535168/x9MGWOxQ_200x200.jpg",
-      "groq_label": "Some prominent mathematicians express discomfort with the increasing reliance on a single proof system, Lean, and the lack of peer review in the mathematical community.",
-      "groq_discussion": "Discussion type: – Objective:\n\nThis article about mathematicians and Lean proofs is designed to highlight the differing opinions about the value of formal verification in mathematics. The discussion reflects a balanced mix of perspectives. Supporters argued that formal verification brings new levels of rigor and confidence to mathematical proofs, while critics pointed out concerns about the potential for over-reliance on automation and the limitations of verifying large, complex proofs. Several commenters also shared technical observations regarding the strengths and weaknesses of Lean proofs and the role of peer review in mathematics. Overall, the discussion presents the debate as a nuanced exploration of the value and challenges of formal verification in mathematics.",
       "groq_explain": null
     }
   ]
