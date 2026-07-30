@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-30T02:36:57.117Z"
+    "lastUpdated": "2026-07-30T06:32:35.899Z"
   },
   "stories": [
+    {
+      "id": 49106384,
+      "author": "dotcoma",
+      "descendants": 7,
+      "kids": "[49106649,49106588,49106644,49106637]",
+      "score": 41,
+      "time": 1785389610,
+      "title": "1,741 \"informed\" consents with one click? GDPR complaint filed",
+      "type": "story",
+      "url": "https://noyb.eu/en/1741-informed-consents-one-click-gdpr-complaint-against-dictcc-filed",
+      "og_image": "https://noyb.eu/sites/default/files/styles/facebook/public/2026-07/header_dictcc.png?h=c9a3a702&itok=bvl4l6Lx",
+      "groq_label": "dict.cc requests user consent for 1,741 partner companies with no clear opt-out option, making it virtually impossible to give informed consent as required by GDPR.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to solve the problem of consent and data sharing. The Hacker News discussion was generally mixed, with many commenters appreciating the attempt to address consent in a user-friendly way with a \"one click\" solution. However, several commenters raised concerns about whether this approach truly meets the requirements of informed consent, citing the presence of a premium subscription as a condition of opting-out and the large number of partners. Others questioned whether a \"Reject All\" button is necessary and argued that the GDPR may not apply in certain contexts, such as mobile apps. Overall, the discussion highlights the complexity of implementing informed consent in practice and the need for further refinement to meet regulatory requirements.",
+      "groq_explain": "A data protection organization has filed a complaint against an online dictionary website because it requires users to consent to sharing their data with 1,741 other companies with a single click. This makes it impossible for users to understand and agree to the terms, violating EU data protection laws."
+    },
+    {
+      "id": 49105642,
+      "author": "osnium123",
+      "descendants": 66,
+      "kids": "[49105938,49106242,49105883,49106548,49105956,49106417,49106550,49106192,49106252,49106187,49105852,49105826,49105855,49105936]",
+      "score": 65,
+      "time": 1785380121,
+      "title": "NSF pilots 4-year PhDs with industry research placements",
+      "type": "story",
+      "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four",
+      "og_image": "https://www.nsf.gov/themes/custom/nsf_theme/logo-200x200.png",
+      "groq_label": "The NSF is piloting a 4-year PhD program with industry research placements, where students receive 3 years of funding and have the option to complete their dissertation in an industry setting.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis NSF [article/project] aims to solve the problem of limited industry-academia collaboration by providing PhD students with industry research placements. The Hacker News discussion was generally mixed, with many commenters appreciating the potential benefits of this approach, such as hands-on industry experience, funding opportunities, and career prospects. At the same time, several commenters raised concerns about the risks of compromising academic independence, proprietary advancements, and potential IP protection issues. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49105190,
       "author": "omerhj",
@@ -16,6 +46,21 @@
       "og_image": "https://vtdigger.org/wp-content/uploads/2026/07/kinney-drugs-2-20260721.jpg",
       "groq_label": "Pharmacy chain in Vermont implemented traditional AI solutions that led to inefficiencies despite increased profits.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the article about the Vermont pharmacy chain's implementation of AI with negative reactions. Many commenters expressed concerns about the consequences, such as delays, incorrect information, and privacy issues, which they believed outweighed any potential benefits. They also questioned the use of AI in this context and suggested that simply hiring local staff and paying them a living wage could solve the problem. Additionally, commenters pointed out an oversight on the part of the article and noted that the issue of profits being up was irrelevant to the success of the implementation. \n\nNote, most of the responses are negative but the community seems to have a sense of hope that with alternative solutions it could have prevented these issues that occurred now in this instance.",
+      "groq_explain": null
+    },
+    {
+      "id": 49104937,
+      "author": "_doctor_love",
+      "descendants": 4,
+      "kids": "[49106111,49106655,49106566,49106149,49106301]",
+      "score": 66,
+      "time": 1785372699,
+      "title": "Logic for Programmers",
+      "type": "story",
+      "url": "https://logicforprogrammers.com/",
+      "og_image": "https://logicforprogrammers.com/static/meta.png",
+      "groq_label": "The logic used in programming often shares mental steps with symbolic logic, which involves chaining together fundamental operations to reach a desired endpoint.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the \"Logic for Programmers\" article with mixed reactions. Some commenters, like the poster who shared their experience with symbolic logic in philosophy classes, appreciated the connection between logic and programming and considered it a valuable resource. Others, such as a developer who preferred readable code, appreciated that the book challenged their assumptions about efficient code. However, not all comments were positive, with someone asking questions about the authorship of the HTML,CSS, and JS code, indicating that some readers may view the presentation as unclear or overly focused on technical details. As a whole, commenters viewed the project as interesting, but with varying opinions on its utility and presentation.",
       "groq_explain": null
     },
     {
@@ -404,51 +449,6 @@
       "og_image": "https://www.claire-blackshaw.com/images/2026/porting_godot_vr/slide-01.jpg",
       "groq_label": "Godot supports asynchronous loading of assets, allowing it to load game data in parallel, but PSVR2's memory limitations require assets to be loaded sequentially.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49096742,
-      "author": "ibobev",
-      "descendants": 2,
-      "kids": "[49097608,49097665]",
-      "score": 17,
-      "time": 1785328813,
-      "title": "A Texture Lookup Approach to Bézier Curve Evaluation on the GPU (JCGT)",
-      "type": "story",
-      "url": "https://jcgt.org/published/0015/02/01/",
-      "og_image": "images/49096742.png",
-      "groq_label": "A texture lookup approach uses a single 2D 2x2 bilinear texture sample to evaluate cubic Bézier curves.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis technique for Bézier curve evaluation aims to solve the problem of efficiently evaluating cubic Bézier curves on the GPU. The Hacker News discussion was generally positive, with many commenters appreciating the clever use of a 2D 2x2 bilinear texture sample to achieve this evaluation. At the same time, the discussion also included comments about the Seiler representation feeling similar to Hermite, suggesting that the technique builds upon existing concepts, while also introducing a new perspective. Overall, the discussion suggests that the community sees promise in the technique but believes there are nuances and details that still need to be explored.",
-      "groq_explain": null
-    },
-    {
-      "id": 49096427,
-      "author": "nyku",
-      "descendants": 7,
-      "kids": "[49097054]",
-      "score": 24,
-      "time": 1785327078,
-      "title": "Disrupting supply chain attacks on NPM and GitHub Actions",
-      "type": "story",
-      "url": "https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/",
-      "og_image": "https://github.blog/wp-content/uploads/2026/01/github-generic-security-blocks-logo.png?fit=1920%2C1080",
-      "groq_label": "NPM and GitHub Actions have implemented several improvements to disrupt supply chain attacks, including preventive account protection for high-impact accounts and safer pull_request_target defaults for GitHub Actions checkout.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is overwhelmingly skeptical. Commenters frequently criticized the idea of \"disrupting\" supply chain attacks, with many questioning the effectiveness of the proposed solutions. Specifically, they pointed out that the advice to simply \"not use\" NPM and GitHub Actions would likely be impractical or unrealistic for many users. The overall consensus is that the idea is not compelling, and that more nuanced or practical solutions would be needed to address the issue.",
-      "groq_explain": "Companies are being targeted by hackers through weaknesses in online platforms where developers share code, and these hackers spread malware to many projects at once. To stop this, the companies behind these platforms are making changes to prevent these attacks, like requiring extra steps for account changes and limiting what code can run in workflows."
-    },
-    {
-      "id": 49096290,
-      "author": "bristleworm",
-      "descendants": 36,
-      "kids": "[49097519,49096727,49096868,49096689,49096850,49097324,49097506,49097148,49097385,49096505,49097176,49096940,49096566,49097192]",
-      "score": 158,
-      "time": 1785326077,
-      "title": "French musician Kavinsky found dead",
-      "type": "story",
-      "url": "https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home",
-      "og_image": "https://images.euronews.com/articles/stories/09/85/47/91/1200x675_cmsv2_4cfab1c6-f557-5cfd-b27b-c06147626386-9854791.jpg",
-      "groq_label": "Kavinsky's death appears to be linked to health issues stemming from years of touring, jet lag, and substance abuse typical of many DJs in the era.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article announces the passing of French musician Kavinsky. Based on the Hacker News discussion, commenters generally viewed his death as a loss for the music community, particularly for the synthwave genre. Many appreciated his contributions, including his iconic song \"Nightcall\" and his role in popularizing the synthwave aesthetic. Commenters also expressed admiration for his music and its inspiring quality. However, some felt that his death was not entirely surprising, citing the physical toll that touring and substance abuse can take on DJs. Ultimately, the discussion reveals a sense of sadness and a recognition of Kavinsky's impact on the music world.",
       "groq_explain": null
     }
   ]
