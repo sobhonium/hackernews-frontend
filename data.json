@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-29T22:09:30.409Z"
+    "lastUpdated": "2026-07-30T02:36:57.117Z"
   },
   "stories": [
+    {
+      "id": 49105190,
+      "author": "omerhj",
+      "descendants": 17,
+      "kids": "[49105394,49105480,49105372,49105452,49105412,49105454,49105409,49105484]",
+      "score": 20,
+      "time": 1785375310,
+      "title": "A pharmacy chain in Vermont implemented AI for efficiency",
+      "type": "story",
+      "url": "https://vtdigger.org/2026/07/29/a-pharmacy-chain-in-vermont-implemented-ai-for-efficiency-its-led-to-delays-incorrect-information-and-privacy-concerns/",
+      "og_image": "https://vtdigger.org/wp-content/uploads/2026/07/kinney-drugs-2-20260721.jpg",
+      "groq_label": "Pharmacy chain in Vermont implemented traditional AI solutions that led to inefficiencies despite increased profits.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the article about the Vermont pharmacy chain's implementation of AI with negative reactions. Many commenters expressed concerns about the consequences, such as delays, incorrect information, and privacy issues, which they believed outweighed any potential benefits. They also questioned the use of AI in this context and suggested that simply hiring local staff and paying them a living wage could solve the problem. Additionally, commenters pointed out an oversight on the part of the article and noted that the issue of profits being up was irrelevant to the success of the implementation. \n\nNote, most of the responses are negative but the community seems to have a sense of hope that with alternative solutions it could have prevented these issues that occurred now in this instance.",
+      "groq_explain": null
+    },
+    {
+      "id": 49104335,
+      "author": "msephton",
+      "descendants": 18,
+      "kids": "[49105453,49105211,49105332,49104926,49105343,49105002,49104952,49105371,49105119,49105215]",
+      "score": 54,
+      "time": 1785367091,
+      "title": "The Productivity Mirage",
+      "type": "story",
+      "url": "https://frantic.im/mirage/",
+      "og_image": "https://frantic.im/assets/og/mirage.png",
+      "groq_label": "Productivity often involves optimizing tools or workflows rather than the end goal of delivering quality work, with individuals prioritizing tinkering over actual accomplishments.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article, \"The Productivity Mirage,\" aims to address the issue of people overemphasizing the importance of productivity tools. The Hacker News discussion was generally critical, with many commenters appreciating the article's argument that people are often driven by enjoyment and a sense of accomplishment rather than actual productivity. At the same time, several commenters raised concerns about the limitations of this perspective, arguing that tools and technology can indeed enhance productivity, particularly in specific contexts or industries, such as AI-assisted workflows. Overall, the discussion suggests that the community sees value in the article's critiques but believes that there are important limitations that need to be taken into account.",
+      "groq_explain": null
+    },
+    {
+      "id": 49104117,
+      "author": "8thom",
+      "descendants": 29,
+      "kids": "[49105306,49105495,49105017,49105498,49104414,49105257,49104347,49104592,49105398,49105214,49104526,49105046,49104456,49104150,49104728,49104490]",
+      "score": 73,
+      "time": 1785365463,
+      "title": "LLM Honeypot",
+      "type": "story",
+      "url": "https://llm2human.pages.dev/",
+      "og_image": "https://llm2human.pages.dev/assets/btc-qr.png",
+      "groq_label": "An interactive webpage attempts to elicit unusual human responses by presenting itself as a futuristic but amateurish website that allows users to request a body transformation through AI-controlled HTTP requests, while also commenting on the current state of web design and potential AI-human interactions.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis LLM Honeypot aims to solve the problem of anticipating and showcasing potential vulnerabilities of artificial intelligence systems. The Hacker News discussion was generally mixed, with many commenters appreciating its creative approach to mocking the flaws of AI and highlighting the potential for a satirical commentary on the intersection of technology and humanity. At the same time, several commenters raised concerns about why the \"honeypot\" is trying to load Widevine, suggesting that the project is not a convincing representation of a real AI system. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, particularly in terms of its execution and purpose.",
+      "groq_explain": null
+    },
     {
       "id": 49103285,
       "author": "YeGoblynQueenne",
@@ -16,6 +61,21 @@
       "og_image": "images/49103285.png",
       "groq_label": "The majority of AI startups are unlikely to publish research similar to academic journals due to commercial motivations and the proprietary nature of their work.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights a trend in the AI industry where top startups are not publishing their research. The discussion reflects a mixed reaction to this phenomenon. Some commenters argue that this trend is not surprising, citing that many startups prioritize commercial motivations over research publication. They point out that even pioneers in the field, like Google, published foundational research that ultimately led to significant advancements. However, others express concern that this shift away from public research could hinder progress and innovation in the field. They suggest that the industry's commercialization is causing academics to face a higher bar for what constitutes \"research-worthy\" progress, leading to a lack of transparency and collaboration. Overall, the discussion suggests that the community sees both valid reasons for the trend and potential drawbacks, recognizing that the industry needs to find a balance between commercial success and the pursuit of knowledge.",
+      "groq_explain": null
+    },
+    {
+      "id": 49103089,
+      "author": "holman",
+      "descendants": 41,
+      "kids": "[49104838,49104847,49105511,49104500,49105362,49104467,49105338,49104210,49104194,49104566,49104186,49104700,49104485,49104702,49103947,49103972,49104148,49104569,49104727,49105106]",
+      "score": 99,
+      "time": 1785359202,
+      "title": "The Cold Email",
+      "type": "story",
+      "url": "https://zachholman.com/posts/cold-email",
+      "og_image": "https://zachholman.com/images/unfurl.jpg",
+      "groq_label": "Professional, personalized emails can be effective in establishing genuine connections.",
+      "groq_discussion": "Discussion type: - Balanced\n\nThis approach to connecting with someone or getting a job, known as \"The Cold Email,\" emphasizes being direct, sincere, and taking the initiative to reach out. The Hacker News discussion was generally positive, with several commenters sharing their own experiences of successfully reaching out to notable individuals, including entrepreneurs and industry leaders. They highlighted the importance of being genuine, showing enthusiasm, and taking the time to craft a thoughtful message. At the same time, some commenters expressed concerns about the effectiveness of this approach in the AI era, where automated messaging tools can make it difficult to determine whether a message is human or AI-generated. Others pointed out that while this approach can work, it may not be the most reliable or preferred method of communication, especially in modern times. Overall, the discussion suggests that The Cold Email approach has its merits but also faces challenges in today's digital landscape.",
       "groq_explain": null
     },
     {
@@ -390,66 +450,6 @@
       "groq_label": "Kavinsky's death appears to be linked to health issues stemming from years of touring, jet lag, and substance abuse typical of many DJs in the era.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article announces the passing of French musician Kavinsky. Based on the Hacker News discussion, commenters generally viewed his death as a loss for the music community, particularly for the synthwave genre. Many appreciated his contributions, including his iconic song \"Nightcall\" and his role in popularizing the synthwave aesthetic. Commenters also expressed admiration for his music and its inspiring quality. However, some felt that his death was not entirely surprising, citing the physical toll that touring and substance abuse can take on DJs. Ultimately, the discussion reveals a sense of sadness and a recognition of Kavinsky's impact on the music world.",
       "groq_explain": null
-    },
-    {
-      "id": 49096188,
-      "author": "Canopy9560",
-      "descendants": 118,
-      "kids": "[49097067,49097857,49096331,49096801,49096834,49096986,49096480,49096467,49097546,49096303,49096627,49096740,49096423,49096678,49097100,49096306,49096581,49096472,49096510,49096498,49096966,49096911,49096202,49096886]",
-      "score": 140,
-      "time": 1785325473,
-      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
-      "type": "story",
-      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
-      "og_image": "https://enklypesalt.com/assets/images/2026-07-28/Initial%20Attack%20Vector%20-%20blurred.png",
-      "groq_label": "Malicious instructions hidden in Word documents can cause Copilot for Word to alter documents and self-propagate attacks to new documents.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to highlight the vulnerability of AI-powered tools like Copilot for Word to document-borne AI worms that can self-propagate. The Hacker News discussion was generally critical, with many commenters expressing concerns about the security implications of using AI in document editing tools and questioning the mitigation strategies. Commenters appreciated the warning about the broader vulnerability class and agreed that hidden text poses a significant risk, but they also raised concerns about the technical feasibility of robust mitigation. Some pointed out that the issue is more about AI misuse than technical limitations, while others highlighted the need to distinguish between user input and document content. The discussion suggests that the community sees the project as a relevant warning about the risks of AI but believes there are important security implications that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49095865,
-      "author": "Cider9986",
-      "descendants": 97,
-      "kids": "[49096449,49096322,49097728,49096388,49097726,49097567,49097411,49097381,49096967,49096835,49097556,49096744,49097282,49096749,49097037,49097348,49096400,49096474,49097048,49097533,49096760,49096470,49096718,49097018,49097116,49097050,49096899,49097002,49096607,49096402,49096418,49096371,49096553,49096507,49096488,49096604,49097173,49096720]",
-      "score": 276,
-      "time": 1785323108,
-      "title": "KOReader",
-      "type": "story",
-      "url": "https://koreader.rocks/",
-      "og_image": "https://koreader.rocks/koreader-logo.png",
-      "groq_label": "KOReader is a free, open-source reading app that provides native EPUB and PDF support for various e-readers, and can be customized with plugins for features like book management and organization.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis eBook reader, KOReader, is designed to solve the problem of limited reading options on e-book devices. The Hacker News discussion was generally positive, with many commenters appreciating its features such as native epub and pdf support, reflow for PDFs, and the ability to use plugins like ZLibrary to download books. However, the discussion also revealed several criticisms. Commenters expressed concerns about the formatting issues, particularly with ePubs, and the need for a jailbroken device. Some also mentioned that it requires granting permission to manage all files on the device, which can be a concern for some users. Additionally, others noted that it lacks dictionary support for Japanese and vertical text support, which can be a significant limitation for certain users. Overall, the discussion suggests that the community recognizes the project's potential, but believes there are important limitations and challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49095628,
-      "author": "agnishom",
-      "descendants": 2,
-      "kids": "[49097677,49096195]",
-      "score": 45,
-      "time": 1785321319,
-      "title": "SpecForge – A Platform for Authoring Formal Specifications",
-      "type": "story",
-      "url": "https://docs.imiron.io/v/0.5.10/en/tour.html",
-      "og_image": "https://docs.imiron.io/v/0.5.10/en/images/screencap-vscode-lilo-code.png",
-      "groq_label": "SpecForge uses proprietary and open algorithms to author formally specified programs with strong correctness guarantees.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis platform, SpecForge, aims to solve the problem of creating and managing formal specifications. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the fact that it allows for learning of this methodology. Many appreciated the free availability of the platform (for non-commercial use), noting that it provides an interesting and useful tool. Others believed it could be particularly useful for those with similar interests to the Software Verification Approach (SVA). However, the discussion also revealed several criticisms. Commenters expressed concerns about potential limitations, particularly the restriction on commercial use. Overall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49095511,
-      "author": "Bluestein",
-      "descendants": 13,
-      "kids": "[49096017,49097541,49096264,49096466,49097643,49096245]",
-      "score": 75,
-      "time": 1785320384,
-      "title": "Amiga Graphics Archive",
-      "type": "story",
-      "url": "https://amiga.lychesis.net/index.html",
-      "og_image": "https://amiga.lychesis.net/assets/Articles/Home.png",
-      "groq_label": "The Amiga Graphics Archive has been active for 18 years, showcasing rare pixel art images created for the Commodore Amiga computer and featuring a restored image by Jim Sachs called Multimedia.",
-      "groq_discussion": "Discussion type: - Basic\n\nThis Amiga Graphics Archive aims to preserve and showcase the graphics work of the Amiga era. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as the nostalgia and preservation of a bygone era, \nbringing back fond memories for users. Many appreciated the specific examples shared, \nnoting that they still hold great artistic value, while others believed it could be \nparticularly useful for researchers and hobbyists looking to recreate classic graphics. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the lack of modern polish and the relatively low-tech nature of the archives, \nquestioning whether they can be considered a 'lost art' in a digital age. Overall, the Hacker News community considered the \nproject as a sentimental and interesting contribution, recognizing its value in preserving the history of Amiga graphics while emphasizing that it still has room for improvement in terms of presentation and modern context.\n\n(For the detailed comment about \"A snicker to many people\" and the overall feeling of being nostalgic, that would be more suited to the 'Community Perspective' or 'Basic' types. However, for brevity and to better fit the basic type. I have selected the basic template)",
-      "groq_explain": "The Amiga Graphics Archive is a collection of high-quality, rare pixel art images created for the Commodore Amiga computer. It's a curated gallery showcasing the unique graphics made for that computer system."
     }
   ]
 }
