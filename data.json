@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-30T21:17:24.419Z"
+    "lastUpdated": "2026-07-31T03:18:27.967Z"
   },
   "stories": [
+    {
+      "id": 49117099,
+      "author": "montroser",
+      "descendants": 78,
+      "kids": "[49117565,49118456,49117859,49118336,49117526,49117727,49118562,49117803,49117541,49117560,49117960,49117604,49117904,49117712,49117637,49118128,49117718,49117878,49117677,49117472,49117789,49118019,49117799,49117646,49117431,49118178,49117480]",
+      "score": 157,
+      "time": 1785453736,
+      "title": "The AI Aesthetic",
+      "type": "story",
+      "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "og_image": "https://cdn.jim-nielsen.com/blog/2026/ai-aesthetics-streaming-text.gif",
+      "groq_label": "LLMs trained to write consistent code are resulting in uniform, generic designs across AI-generated websites.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis AI Aesthetic article aims to solve the problem of defining a universal design style associated with Artificial Intelligence. The Hacker News discussion was generally mixed, with many commenters appreciating the idea that AI-generated designs share certain characteristics, such as beige/cream colors and serif typefaces. However, several commenters raised concerns about the narrow scope of these designs, arguing that they are based on the limited aesthetic of early web development. Some users also pointed out that these designs are not unique to AI and are simply a continuation of previous trends, while others suggested that the true \"AI\" aesthetic is the Text-based User Interface (TUI). The discussion suggests that the community sees potential in exploring the impact of AI on design, but believes there are important challenges to consider when defining a universally accepted aesthetic.",
+      "groq_explain": null
+    },
+    {
+      "id": 49116721,
+      "author": "volumes94",
+      "descendants": 41,
+      "kids": "[49117054,49117381,49117338,49117327,49117504,49118567,49117521,49117909,49117852,49117730]",
+      "score": 109,
+      "time": 1785450791,
+      "title": "I flagged two research papers for fake authors and both were accepted as orals",
+      "type": "story",
+      "url": "https://geospatialml.com/posts/reviewing-ai-slop/",
+      "og_image": "images/49116721.png",
+      "groq_label": "AI-generated research papers are widely accepted at conferences, with at least one case of a paper containing fabricated authors being accepted as an oral.",
+      "groq_discussion": "Discussion type:  – Balanced:\n\nThis  research paper aims to address concerns about the increasing reliance on artificial intelligence in the academic writing and review process. The Hacker News discussion was generally critical, with many commenters questioning the ethics of allowing AI-generated content to be accepted as legitimate research. At the same time, several commenters pointed out the reality of AI's role in modern research, including its use in writing, reviewing, and summarization. Overall, the discussion suggests that the community sees the issue as a significant problem that requires a critical evaluation of the role of AI in academia, and that the proposed solution of treating AI-generated content as plagiarism is not as straightforward as it seems.",
+      "groq_explain": "The core idea is that a significant number of papers being published in academic conferences and journals are containing fake or AI-generated information, such as citations and writing, and this is not being caught by reviewers. This is a big problem because it makes it harder to trust the validity of research and results, and it's becoming more widespread as AI-generated content becomes more common."
+    },
+    {
+      "id": 49116272,
+      "author": "ernestrc",
+      "descendants": 18,
+      "kids": "[49117100,49116616,49118288,49118479,49117884,49117628,49118349,49117596,49117146,49118389,49116747,49117620]",
+      "score": 53,
+      "time": 1785448051,
+      "title": "Rune 1.1: adds Python, an Emacs editor, a symbol index and is now free",
+      "type": "story",
+      "url": "https://rune.build/blog/rune-1-1-release",
+      "og_image": "https://rune.build/images/og4.png",
+      "groq_label": "Rune is adding Python support and a symbol index to reduce search time.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product, Rune 1.1] aims to solve the problem of improving the editing experience. The Hacker News discussion was generally mixed, with some commenters appreciating the new features, especially the addition of Python and the symbol index. The community also saw value in the approach to [problem of balancing feature additions with bug reports]. At the same time, several commenters raised concerns about the business model, pricing clarity, and limitations, arguing that the non-commercial license is too vague and restrictive. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49115620,
       "author": "juleiie",
@@ -404,51 +449,6 @@
       "og_image": "https://98.js.org/images/pinball-overlay.png",
       "groq_label": "The original 3D Pinball for Windows had limited gameplay features like no scoreboard or clear mission selection.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis 3D Pinball for Windows (1995) aims to solve the problem of providing a nostalgic arcade experience. \nBased on the Hacker News discussion, commenters generally viewed \nthe game positively and highlighted strengths such as its nostalgic value and the creativity of the community, which has built real-life versions of Space Cadet pinball machines. Many appreciated the simple controls, noting that they were intuitive. However, the discussion \nalso revealed several criticisms. Commenters expressed frustration about the lack of a scoreboard, with some wondering why it was not included. Overall, the Hacker News community considered the game positively, recognizing its classic charm while emphasizing that it would have been improved with additional features like a scoreboard.",
-      "groq_explain": null
-    },
-    {
-      "id": 49108048,
-      "author": "benn_88",
-      "descendants": 28,
-      "kids": "[49109910,49108836,49108264,49108363,49108397,49108597,49109358,49108787,49108509]",
-      "score": 90,
-      "time": 1785407561,
-      "title": "Gpiozero Flow",
-      "type": "story",
-      "url": "https://bennuttall.com/blog/2026/07/gpiozero-flow/",
-      "og_image": "https://bennuttall.com/blog/2026/07/gpiozero-flow/images/gpiozero-flow.webp",
-      "groq_label": "GPIOZero uses a flow-based model for writing simple RPi programs, which can be extended with hierarchical subgraphs.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Gpiozero Flow addresses automation for Raspberry Pi projects. Hacker News commenters generally appreciated the innovative use of data-flow programming and its hierarchical structure. They also saw potential in incorporating conditional operators to make it a complete coding platform. However, the discussion also mentioned that visual programming tools often reach a limitation where they require 'code nodes' and thus writing code.",
-      "groq_explain": null
-    },
-    {
-      "id": 49107749,
-      "author": "yoanwaidev",
-      "descendants": 40,
-      "kids": "[49109390,49108959,49108674,49109729,49109473,49108894,49109369,49108954,49108490,49109201,49109763,49108956,49109577,49109457,49107990,49109941,49107750]",
-      "score": 57,
-      "time": 1785404067,
-      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
-      "type": "story",
-      "url": "https://github.com/YoanWai/agent-manager",
-      "og_image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1301824521/a5177189-6dfa-4cda-8b63-a048be439a51?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260730%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260730T111938Z&X-Amz-Expires=300&X-Amz-Signature=81ad3ca5f17eabf86f219e725d13db4b1c5a1e3882a4e8baff1783482bd71089&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQxMDY3OCwibmJmIjoxNzg1NDEwMzc4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.9yH4AGV9yiqOBdPqQCEwCH74d41LG2xVRCm4ENj-TJc",
-      "groq_label": "Agent-Manager's added value over a plain tmux session multiplexer is its specialized interface for running and integrating AI tools like Claude Code, Codex, and OpenCode.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode project aims to solve the problem of efficiently managing and running AI-code related tools within a unified interface. The Hacker News discussion was generally mixed, with many commenters appreciating the project's strengths and its approach to integrating AI-code tools into a TUI. At the same time, several commenters raised concerns about the added value of agent-specific multiplexers over traditional session multiplexers. \n\nCommenters highlighted the project's potential advantages, such as the possibility of customizing notifications and using the Claude hook-api to personalize the experience. However, they also noted that there are already similar tools available, such as Herdr, and questioned whether this project offers anything significantly new. Some users expressed preference for alternative solutions, such as GUI-based interfaces or standalone tools, indicating that the project does not fit everyone's needs. Overall, the discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49107713,
-      "author": "bojangleslover",
-      "descendants": 29,
-      "kids": "[49108583,49108594,49109665,49108890,49108818,49108801,49109324]",
-      "score": 50,
-      "time": 1785403681,
-      "title": "Carolina Cloud pays SOFR on unused prepaid credits",
-      "type": "story",
-      "url": "https://docs.carolinacloud.io/organizations/prepaid-interest/",
-      "og_image": "images/49107713.png",
-      "groq_label": "Carolina Cloud pays SOFR interest on unused prepaid credits.",
-      "groq_discussion": "Discussion type:  Balanced\n\nThis article/project focuses on providing interest-bearing prepaid credits, specifically paying SOFR (Secured Overnight Financing Rate) on unused balances. The Hacker News discussion was generally positive, with many appreciating the innovative approach to prepaid credits and its potential benefits for customers. Specifically, one commenter highlighted the idea that it could be particularly useful for small hobbyists who want to host workloads without dealing with recurring billing.\n\nHowever, several commenters raised concerns about regulation-wise complications and the potential for hyperscalers to abuse such a scheme over time. One commenter noted that adding interest-bearing features can change the classification of prepaid credits, potentially creating regulatory issues. Another commenter joked that hyperscalers may find ways to make the scheme worse for customers. \n\nThe overall discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed, particularly in terms of regulation and the potential long-term impact on customers.",
       "groq_explain": null
     }
   ]
