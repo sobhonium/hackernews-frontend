@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-31T06:49:14.508Z"
+    "lastUpdated": "2026-07-31T10:44:29.668Z"
   },
   "stories": [
+    {
+      "id": 49120299,
+      "author": "theanonymousone",
+      "descendants": 6,
+      "kids": "[49120947,49121210,49121208,49120913,49121338,49121342]",
+      "score": 21,
+      "time": 1785484751,
+      "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+      "type": "story",
+      "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+      "og_image": "https://artificialanalysis.ai/opengraph-image.png?732728ccc2829321",
+      "groq_label": "DeepSeek V4 Flash appears to have a lower intelligence index score in some tasks compared to other models, including Kimi K3, despite being known for its long reasoning capabilities.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis DeepSeek V4 Flash 0731 aims to solve the problem of optimizing intelligence, performance, and price in AI models. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as beating Luna on price/task and providing detailed performance analysis. Many appreciated the model's price advantages, noting that it can achieve 2x more tasks at a lower cost. While others believed it could be beneficial for those seeking high-performance AI models, the discussion also revealed a minor criticism regarding the accuracy of the output tokens per intelligence index task comparison. The community considered the DeepSeek V4 Flash 0731 project [overall sentiment], recognizing its cost-effectiveness and performance capabilities while emphasizing that addressing any inaccuracies in the comparison would improve its reliability.",
+      "groq_explain": null
+    },
+    {
+      "id": 49120097,
+      "author": "Garbage",
+      "descendants": 102,
+      "kids": "[49120667,49120596,49120654,49120552,49120793,49121178,49120904,49120895,49121309,49120887,49121262,49121189,49121253,49121163,49120651,49121177,49121399,49120633,49121267,49120543,49120862,49120853,49120758,49120643,49120638,49120823,49121392,49120629,49120701,49120622]",
+      "score": 94,
+      "time": 1785482962,
+      "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "type": "story",
+      "url": "https://blog.google/security/chrome-stronger-with-every-update/",
+      "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png",
+      "groq_label": "Google significantly increased the number of Chrome bug fixes within a short period due to the successful application of AI-powered tools for vulnerability discovery, scaling far beyond human capabilities and automating tasks such as code analysis, patching, and deployment.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project highlights Google's use of AI to fix Chrome bugs, resulting in more fixes in June than the past two years. The Hacker News discussion was generally balanced, with many commenters appreciating the potential benefits of using AI to accelerate bug fixes, particularly in tasks such as performance optimisation. At the same time, several commenters raised concerns about the actual dynamic of the situation, questioning whether the increased productivity was solely due to AI or if the teams were working more than usual. Others wondered about the rate of revertible fixes, introduced bugs, and false positives, which the article did not provide. Some also pointed out that AI has its limitations and should be used as a tool to augment human capabilities rather than work blindly. While there were differing opinions, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "Google used an AI tool in June to fix more Chrome bugs than they did over the past two years. This matters because it shows how technology can help make software safer and faster, potentially preventing major security issues."
+    },
+    {
+      "id": 49119559,
+      "author": "dnhkng",
+      "descendants": 139,
+      "kids": "[49119673,49120203,49120354,49120410,49121376,49121396,49120105,49121088,49119949,49121358,49120209,49120623,49120154,49120126,49119883,49121188,49120483,49120026,49120460,49120212,49119868,49120561,49120684,49120111,49119985,49120152,49121224,49119893,49120658,49121209,49120121,49120188,49121158,49120178,49121109,49120324,49119686,49119707,49120170,49120606,49120047,49119608,49120553]",
+      "score": 308,
+      "time": 1785478116,
+      "title": "DeepSeek-V4-Flash Update",
+      "type": "story",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "og_image": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+      "groq_label": "DeepSeek-V4-Flash model outperforms DS4 Pro preview and GPT 5.6 Luna in some tasks while being cheaper than Luna.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the DeepSeek-V4-Flash Update is extremely positive. Commenters frequently praised the model's capabilities, speed, and cost-effectiveness, with some users indicating they have largely switched to using it for most tasks. Many highlighted the model's improved performance and versatility, with one commenter suggesting that it's \"good enough\" for more tasks. The discussion also included some practical limitations, such as the potential for decreased quality when working with unfamiliar programming languages, but overall, the consensus is that the DeepSeek-V4-Flash update is a compelling and valuable tool, particularly for tasks that require rapid iteration and low-cost execution.",
+      "groq_explain": null
+    },
+    {
+      "id": 49119425,
+      "author": "mokshablr",
+      "descendants": 26,
+      "kids": "[49119998,49121378,49120070,49121277,49120069,49120704,49120636,49120143,49120362,49119467,49120381]",
+      "score": 70,
+      "time": 1785476713,
+      "title": "Show HN: Gander, an Android file viewer that asks for no permissions at all",
+      "type": "story",
+      "url": "https://github.com/mokshablr/gander",
+      "og_image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1305551246/3bdba722-936b-4bc3-ac49-6643d2056eb4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260731T071135Z&X-Amz-Expires=300&X-Amz-Signature=fd3f702480c164c6e1c5f850f4f1c6a935a7756ccd3f5243d0fc015fbf24f8f8&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ4MjE5NSwibmJmIjoxNzg1NDgxODk1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jwCWaLaPKClTrMCnHiojc1UysrWgakmjEdpwE2tMUTQ",
+      "groq_label": "An Android app's lack of the INTERNET permission does not guarantee isolation from the outside world due to potential avenues like opening a browser with a custom URL.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Android file viewer, Gander, aims to solve the problem of unnecessary permission requirements for Android apps. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its approach to avoiding internet access permissions. However, several commenters raised concerns about potential workarounds or avenues for an app to circumvent these restrictions. The discussion also touched on the technical feasibility of such an approach, with some commenters questioning whether Android's system truly isolates an app without the INTERNET permission. At the same time, some users expressed enthusiasm for the project and suggested hosting it on alternative repositories like F-Droid. Overall, the discussion suggests that the community sees promise in the project but believes there are important technical challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49119274,
       "author": "akbabu",
@@ -390,66 +450,6 @@
       "og_image": "https://hackerpublicradio.org/images/icons/mic-fill.svg",
       "groq_label": "The hacker community uses coded language similar to truckers, with examples of Hacker Public Radio's show titles and episode descriptions containing coded references.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis [web radio/Hacker Public Radio] aims to address the problem of disseminating information to the hacking community. The Hacker News discussion was generally mixed, with many commenters appreciating the project's unique approach to creating a community-driven radio station. At the same time, several commenters raised concerns about the content and format, arguing that they had been hoping for something different, such as a different type of content or a more polished presentation. Overall, the discussion suggests that the community sees potential in the project but believes there are important aspects that still need to be addressed, such as improving the security of the website and revisiting the content offerings.",
-      "groq_explain": null
-    },
-    {
-      "id": 49109721,
-      "author": "marinoseliades",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 9,
-      "time": 1785418143,
-      "title": "Launch HN: Prized (YC S26) – Let non-engineer staff build secure internal tools",
-      "type": "story",
-      "url": "https://prized.dev",
-      "og_image": "https://prized.dev/home/opengraph-image-eyav3z?0b910e42a33267fe",
-      "groq_label": "Prized offers visual tool-building capabilities to non-technical staff, providing security features without needing engineering involvement.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49109616,
-      "author": "ryannevius",
-      "descendants": 26,
-      "kids": "[49111032,49111721,49112525,49112335,49112620,49111805,49112590,49112763]",
-      "score": 84,
-      "time": 1785417694,
-      "title": "Upper stage impacting the moon on 2026 August 5",
-      "type": "story",
-      "url": "https://www.projectpluto.com/25010d.htm",
-      "og_image": "https://www.projectpluto.com/upp_stage.png",
-      "groq_label": "Space agencies and companies are relying on outdated methods of disposing or documenting leftover space debris like the Falcon 9 rocket stage impacting the moon, potentially masking safety and environmental concerns about the lingering fuel and other materials on such objects.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis lunar collision aims to solve the problem of space debris disposal. Based on the Hacker News discussion, commenters generally viewed \nthe situation positively and highlighted strengths such as the attention it brings to the issue of space debris. Many appreciated the fact that it \ndraws awareness to the problem, noting that it could significantly improve our understanding of the issue, while others believed it could be \nparticularly useful for spurring innovation in space technology. However, the discussion also revealed several criticisms. Commenters expressed \nconcerns about the environmental impact of space debris, the potential for it to harm future lunar missions, and the general carelessness of the \nway space hardware is disposed of. Overall, the Hacker News community considered the situation concerning, recognizing the potential risk \nwhile emphasizing that addressing these concerns would improve the management of space debris and our relationship with space technology.",
-      "groq_explain": null
-    },
-    {
-      "id": 49109474,
-      "author": "notarobot123",
-      "descendants": 6,
-      "kids": "[49110259,49109784,49109707]",
-      "score": 26,
-      "time": 1785416873,
-      "title": "RFC 8890 – The Internet is for End Users (2020)",
-      "type": "story",
-      "url": "https://mnot.net/blog/2020/for_the_users",
-      "og_image": "https://mnot.net/personal/mn-round-256.png",
-      "groq_label": "The internet and the WWW are increasingly becoming more for businesses and less for individual end users due to centralization and loss of control over hardware and network services.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis RFC 8890 – The Internet is for End Users (2020) aims to address the issue of internet accessibility and user control. The Hacker News discussion was generally mixed, with many commenters appreciating the idea that the internet was initially designed for end users. At the same time, several commenters raised concerns about the limitations of the internet as it stands today, arguing that the presence of bots, anti-bot measures, and centralization of internet services (such as Cloudflare) has led to a loss of user control. Overall, the discussion suggests that the community sees promise in the idea of prioritizing end users, but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49109440,
-      "author": "speckx",
-      "descendants": 51,
-      "kids": "[49109846,49109976,49109810,49109768,49109811,49110006,49110103]",
-      "score": 154,
-      "time": 1785416607,
-      "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
-      "type": "story",
-      "url": "https://remysharp.com/links/2026-07-23-35890312",
-      "og_image": "https://remysharp.com/images/cards/6.jpg",
-      "groq_label": "The EU Court has ruled that VPNs are lawful technical tools, rejecting copyright infringement claims.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis landmark EU Court ruling declares VPNs to be lawful technical tools in a copyright ruling. The Hacker News discussion was generally positive, with many commenters appreciating the sanity this decision brings after recent negative moves around the internet. However, the discussion also highlighted concerns about the potential misuse of VPNs for accessing illegal content and the effectiveness of VPNs in protecting user privacy. Several commenters expressed doubts about the legitimacy of using VPNs, while others saw them as a necessary tool for maintaining online security and anonymity. The overall discussion suggests that the community sees promise in this ruling but also believes there are important challenges to be addressed regarding online privacy and security.",
       "groq_explain": null
     }
   ]
