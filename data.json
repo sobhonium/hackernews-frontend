@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-01T10:05:02.116Z"
+    "lastUpdated": "2026-08-01T13:28:14.783Z"
   },
   "stories": [
+    {
+      "id": 49134079,
+      "author": "BlueBerry2001",
+      "descendants": 9,
+      "kids": "[49134193,49134258,49134240,49134225,49134147,49134151]",
+      "score": 17,
+      "time": 1785589364,
+      "title": "Google kills Earth AI generator after one day",
+      "type": "story",
+      "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
+      "og_image": "https://pbs.twimg.com/profile_images/1972717909559353344/eMJ6AJ0W_200x200.jpg",
+      "groq_label": "Google released an AI-powered feature in Google Earth that lasted only a day before being removed due to questionable outputs.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis AI generator in Google Earth aims to solve the problem of 3D visual representation. The Hacker News discussion was generally critical, with many commenters expressing concerns about the project's approach and the timing of its release. They argued that Google failed to properly test and vet the feature before releasing it, pointing to the racist image generator issue in Bard as evidence of this. Others questioned the value of the AI generator in Google Earth and saw it as another example of Google overhyping AI capabilities. While some commenters did offer a hint of caution and thought it better that Google pulled the plug soon after, the discussion as a whole suggests that the community remains skeptical about Google's approach to AI.",
+      "groq_explain": null
+    },
+    {
+      "id": 49133889,
+      "author": "throwaway2037",
+      "descendants": 20,
+      "kids": "[49133969,49134016,49134234,49134036,49134143,49133964]",
+      "score": 51,
+      "time": 1785587665,
+      "title": "RipGrep musl binaries occasionally segfault during very-large searches",
+      "type": "story",
+      "url": "https://github.com/BurntSushi/ripgrep/issues/3494",
+      "og_image": "https://opengraph.githubassets.com/466478e38f8c4b0285ba6e7a260b0edac4bd7a3bf18187059df059b492c49ea9/BurntSushi/ripgrep/issues/3494",
+      "groq_label": "RipGrep's musl binaries occasionally segfault during very-large searches due to a kernel bug specific to the musl libc implementation.",
+      "groq_discussion": "Discussion type: – Executive Summary:\n\nThis post discusses a issue with RipGrep musl binaries occasionally segfaulting during very-large searches. Community feedback was largely centered around the technical details of the problem. Positive comments noted that a link to a related analysis is provided to better understand the issue. However, the overall discussion indicates that the project is considered problematic, with commenters humorously acknowledging that \"everything is broken\".",
+      "groq_explain": null
+    },
+    {
+      "id": 49133655,
+      "author": "jecastillof",
+      "kids": "[]",
+      "score": 1,
+      "time": 1785585625,
+      "title": "Kontigo (YC S24) Is Hiring",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/kontigo/jobs/xAo6tMt-founding-engineer",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/021205547e8691c3f3d6448bac786086900d5b0e.png?1718238521",
+      "groq_label": "Kontigo is developing a platform to help remote teams work more efficiently.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49132460,
       "author": "oler",
@@ -405,51 +449,6 @@
       "groq_label": "Some models are used with more than one effort level, which suggests varying trade-offs in parameters versus performance across languages.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis set of models and agents on software engineering tasks aims to solve the problem of comparing the performance of different programming languages (Go, Java, Python, Rust, TS) using various models and agents. The Hacker News discussion was generally neutral/mixed, with many commenters appreciating the effort to provide a benchmark for language efficiency, and at the same time, expressing concerns about the methodology used. Some argued that the comparison is unfair because each model is tackling a different problem for each language and that the different effort levels used for each language are not justified. Overall, the discussion suggests that the community sees value in the project's approach but is skeptical about its methodology and would like to see a more robust and fair comparison.",
       "groq_explain": null
-    },
-    {
-      "id": 49124218,
-      "author": "Jrh0203",
-      "descendants": 117,
-      "kids": "[49125641,49125484,49124638,49124903,49126248,49125583,49124827,49124620,49126121,49126261,49126132,49125235,49124762,49125236,49124811,49124734,49125913,49125900,49125064,49125205,49125597,49125333,49125329,49125547,49125736,49124635,49125038,49125974,49125196,49124604,49125986,49125816,49125304,49124718,49125172,49124988,49124786,49124737,49124821,49125141,49125792,49125955,49124744,49124871,49124602,49125299,49125517,49124645,49125298,49124998,49124891,49124853,49124694,49125113,49126183]",
-      "score": 340,
-      "time": 1785511048,
-      "title": "Elevators",
-      "type": "story",
-      "url": "https://john.fun/elevators",
-      "og_image": "https://john.fun/metadata/elevator/twitter-card.png",
-      "groq_label": "People not understanding elevator controls is a problem that outlasts and exceeds the complexity of elevator algorithms.",
-      "groq_discussion": "Discussion type:  – Basic:\n\nThis article/project aims to explore elevator algorithms and their effectiveness. Based on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its connection to real-world applications, such as disk scheduling algorithms. Many appreciated the game link, noting that it provided a useful analogy for understanding elevator scheduling. While others believed it could be particularly useful for educating people about elevator algorithms, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of elevator scheduling, particularly noting that prioritization can be tricky, and wear and tear on the elevator was often overlooked. However, the discussion also touched on the common problem of user behavior with elevator buttons. Overall, the Hacker News community considered the project informative and thought-provoking, recognizing its potential for highlighting the challenges of elevator scheduling and the importance of efficient algorithms.",
-      "groq_explain": null
-    },
-    {
-      "id": 49123789,
-      "author": "narragansett",
-      "descendants": 2,
-      "kids": "[49123802]",
-      "score": 24,
-      "time": 1785508873,
-      "title": "Show HN: BitBang – Reach machines behind NAT from a browser, no account",
-      "type": "story",
-      "url": "https://github.com/richlegrand/bitbang-cli",
-      "og_image": "https://opengraph.githubassets.com/dd1afa69171baeb49a8e179d6b2aa275ad3af9a06a2ccc577a80f519e50bb883/richlegrand/bitbang-cli",
-      "groq_label": "WebRTC uses a device's device ID that is based on WebIDL attributes or WebCrypto keys, providing NAT traversal and authentication without the need for accounts.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project, BitBang, is highly positive. Commenters frequently praised its ability to connect to machines behind a NAT without the need for accounts or port forwarding. The project's use of WebRTC as an alternative to TCP is seen as a key innovation, allowing users to access machines without any additional setup. Many users appreciate the simplicity and ease of use of the project, with some even suggesting it could be a replacement for tools like SSH. The overall consensus is that the idea is compelling, although some questions and concerns have been raised, particularly around the limitations and potential security implications of using WebRTC.",
-      "groq_explain": null
-    },
-    {
-      "id": 49123386,
-      "author": "marcobambini",
-      "descendants": 70,
-      "kids": "[49127961,49130169,49126277,49127974,49129976,49127044,49130467,49127833,49129195,49127704,49126710,49128116,49129168,49128521,49126159,49128044,49126603,49129710,49126172]",
-      "score": 170,
-      "time": 1785507158,
-      "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
-      "type": "story",
-      "url": "https://github.com/sqliteai/waste",
-      "og_image": "https://opengraph.githubassets.com/e62b67151961e96ab4e3df2d9e5ec50c57cffeeecebec3d00e325abcddf64da8/sqliteai/waste",
-      "groq_label": "Run of Kimi K3 on a consumer laptop uses 29 GB of RAM to process text at 0.50 tokens per second.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, called Kimi K3, attempts to create a 29 GB of RAM implementation running at 0.50 tok/s. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its approach to solving a problem, but also raising concerns and limitations. Strengths mentioned include the potential for running LLMs at a lower power consumption and the project's unique approach to addressing the complexity of LLMs.\n\nHowever, several commenters raised concerns about the project's speed, comparing it unfavorably to other LLMs and questioning its practical usefulness for more complicated prompts. Additionally, some critics pointed out the potential risks of using non-open source licenses, a history of the firm behind it, and the project's potential for being overly verbose in its thinking. Overall, the discussion suggests that the community sees promise in the project but believes that it still needs to address some significant challenges before it can move forward.",
-      "groq_explain": "A researcher is using a custom-made engine called WASTE to run a massive computer model called Kimi K3 on a regular laptop with only 29 GB of RAM, achieving a speed of half a token per second. This is significant because the model alone is too large to fit in most consumer systems' RAM, but the engine is able to stream the necessary parts of the model from disk, making it possible to run on a single consumer machine."
     }
   ]
 }
