@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-07-31T21:11:58.584Z"
+    "lastUpdated": "2026-08-01T03:16:26.628Z"
   },
   "stories": [
+    {
+      "id": 49129990,
+      "author": "walterbell",
+      "descendants": 13,
+      "kids": "[49130657,49130663,49130514,49130473,49130417,49130524,49130605,49130677]",
+      "score": 45,
+      "time": 1785543900,
+      "title": "How to Exist",
+      "type": "story",
+      "url": "https://www.raptitude.com/2026/07/how-to-exist/",
+      "og_image": "https://www.raptitude.com/wp-content/uploads/2026/07/coffeeexist.jpg",
+      "groq_label": "Humans often find it difficult to exist without distracting themselves by doing something.",
+      "groq_discussion": "Discussion type: - Basic:\n\nThis \"How to Exist\" article/project aims to explore the idea of simply existing. Based on the Hacker News discussion, commenters generally viewed the project positively, with some finding it insightful and others finding it to be a reflection of anxiety. Many appreciated the honesty and vulnerability shared by the author, noting that it has had an impact on the author's emotional well-being, particularly in reducing rumination and making them a gentler person. Others pointed out the difficulties in practicing \"no thought,\" as it often requires intention and effort. However, some commenters expressed skepticism and argued that the concept may not be universally applicable or even accurate, with some suggesting that it is simply a description of anxiety. Despite this, the discussion suggests that the project is considered thought-provoking and a starting point for self-reflection, even if it may not be universally effective. Overall, the Hacker News community considered the project to be thoughtfully presented, if not without its limitations.",
+      "groq_explain": "The core idea is people struggle to exist in the present moment, often finding it difficult to sit still or be content with simply being. We tend to seek distractions or things we crave because our brains are conditioned to flee the feeling of existing as it is, leading to endless chasing after things that bring temporary comfort or escape. This habit of seeking distraction can lead to various problems in our lives."
+    },
     {
       "id": 49128462,
       "author": "chrisfrantz",
@@ -272,6 +287,21 @@
       "groq_explain": null
     },
     {
+      "id": 49123386,
+      "author": "marcobambini",
+      "descendants": 70,
+      "kids": "[49127961,49130169,49126277,49127974,49129976,49127044,49130467,49127833,49129195,49127704,49126710,49128116,49129168,49128521,49126159,49128044,49126603,49129710,49126172]",
+      "score": 170,
+      "time": 1785507158,
+      "title": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "type": "story",
+      "url": "https://github.com/sqliteai/waste",
+      "og_image": "https://opengraph.githubassets.com/e62b67151961e96ab4e3df2d9e5ec50c57cffeeecebec3d00e325abcddf64da8/sqliteai/waste",
+      "groq_label": "Run of Kimi K3 on a consumer laptop uses 29 GB of RAM to process text at 0.50 tokens per second.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, called Kimi K3, attempts to create a 29 GB of RAM implementation running at 0.50 tok/s. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its approach to solving a problem, but also raising concerns and limitations. Strengths mentioned include the potential for running LLMs at a lower power consumption and the project's unique approach to addressing the complexity of LLMs.\n\nHowever, several commenters raised concerns about the project's speed, comparing it unfavorably to other LLMs and questioning its practical usefulness for more complicated prompts. Additionally, some critics pointed out the potential risks of using non-open source licenses, a history of the firm behind it, and the project's potential for being overly verbose in its thinking. Overall, the discussion suggests that the community sees promise in the project but believes that it still needs to address some significant challenges before it can move forward.",
+      "groq_explain": "A researcher is using a custom-made engine called WASTE to run a massive computer model called Kimi K3 on a regular laptop with only 29 GB of RAM, achieving a speed of half a token per second. This is significant because the model alone is too large to fit in most consumer systems' RAM, but the engine is able to stream the necessary parts of the model from disk, making it possible to run on a single consumer machine."
+    },
+    {
       "id": 49123208,
       "author": "database64128",
       "descendants": 31,
@@ -418,36 +448,6 @@
       "og_image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1305551246/3bdba722-936b-4bc3-ac49-6643d2056eb4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260731T071135Z&X-Amz-Expires=300&X-Amz-Signature=fd3f702480c164c6e1c5f850f4f1c6a935a7756ccd3f5243d0fc015fbf24f8f8&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTQ4MjE5NSwibmJmIjoxNzg1NDgxODk1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jwCWaLaPKClTrMCnHiojc1UysrWgakmjEdpwE2tMUTQ",
       "groq_label": "An Android app's lack of the INTERNET permission does not guarantee isolation from the outside world due to potential avenues like opening a browser with a custom URL.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Android file viewer, Gander, aims to solve the problem of unnecessary permission requirements for Android apps. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its approach to avoiding internet access permissions. However, several commenters raised concerns about potential workarounds or avenues for an app to circumvent these restrictions. The discussion also touched on the technical feasibility of such an approach, with some commenters questioning whether Android's system truly isolates an app without the INTERNET permission. At the same time, some users expressed enthusiasm for the project and suggested hosting it on alternative repositories like F-Droid. Overall, the discussion suggests that the community sees promise in the project but believes there are important technical challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49119274,
-      "author": "akbabu",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 9,
-      "time": 1785475049,
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "type": "story",
-      "url": "https://marbleos.com/demo",
-      "og_image": "https://marbleos.com/hn-og.png",
-      "groq_label": "The proposed GUI for AI agents would likely be a streamlined workspace with visible files, tools, tasks, and outputs displayed prominently.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "This is about designing a user interface for humans to interact with artificial intelligence agents, making it more organized and user-friendly."
-    },
-    {
-      "id": 49119270,
-      "author": "RebelPotato",
-      "descendants": 7,
-      "kids": "[49123080,49121963,49124456,49123632]",
-      "score": 22,
-      "time": 1785475005,
-      "title": "Let's make the worst Htmx",
-      "type": "story",
-      "url": "https://zserge.com/posts/worst-htmx-ever/",
-      "og_image": "https://zserge.com/logo.png",
-      "groq_label": "Htmx makes every interactive event trigger a network request with perceptible latency, forcing use of client-side JS for plumbing.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this HTMX project is overwhelmingly negative. Commenters frequently criticized it, describing it as a \"worst-of-all-worlds technical solution\" and expressing concerns about its performance and design. The discussion suggests that the project has multiple issues, including perceptible latency and obligating client-side JS. While one commenter found it to be a pleasant surprise, the prevailing sentiment is that the project has significant problems and is not a desirable solution.",
       "groq_explain": null
     }
   ]
