@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-01T20:58:53.613Z"
+    "lastUpdated": "2026-08-01T22:00:45.415Z"
   },
   "stories": [
+    {
+      "id": 49138302,
+      "author": "njaremko",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 7,
+      "time": 1785617112,
+      "title": "Seedance 2.5",
+      "type": "story",
+      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "og_image": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/deploy/flow/ai_official_website/88329/static/image/new_qr_code.949b4782.png",
+      "groq_label": "Seedance 2.5 uses an optimization to eliminate unnecessary memory allocations for large trees of dependencies.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49138188,
       "author": "ryanseys",
@@ -435,21 +450,6 @@
       "og_image": "https://innig.net/images/avatars/mastodon/112044776320498844-80x80.webp",
       "groq_label": "A traditional liberal arts education emphasizes broad learning and critical thinking.",
       "groq_discussion": "Discussion type: – Objectuve\n\nThis article explores the purpose and value of a liberal arts education in the 21st century. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argue that a liberal arts education provides a broad and interdisciplinary foundation, developing skills such as close reading, critical questioning, and innovation, which can be applied in various fields. They also highlight its potential to promote critical thinking, problem-solving, and creativity. Critics, on the other hand, question the relevance and effectiveness of a liberal arts education, suggesting it may be overly theoretical or even brainwashing in nature. They point out that similar skills can be acquired through STEM fields, online resources like YouTube, or vocational training. Overall, the discussion presents a nuanced perspective on the value of a liberal arts education, acknowledging both its strengths and limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49130726,
-      "author": "firefoxd",
-      "descendants": 18,
-      "kids": "[49131431,49131480,49130929,49131052,49130880,49131273,49130962,49131108,49130961,49131193,49131212,49130952,49130911,49130864,49130897,49130906]",
-      "score": 52,
-      "time": 1785554169,
-      "title": "The development pipeline is a production system",
-      "type": "story",
-      "url": "https://sundry.jerryorr.com/2026/07/31/development-pipeline-is-a-production-system",
-      "og_image": "https://sundry.jerryorr.com/images/software-assembly-line.png",
-      "groq_label": "Development work, including testing and QA, is not distinct from production in the eyes of operations teams, and outages affecting these areas can have significant business impacts.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article attempts to change the perception of the development pipeline, highlighting that it is a production system. The Hacker News discussion was generally mixed, with many commenters appreciating the article's attempt to point out the importance of the development pipeline's reliability, particularly in terms of maintaining developer productivity. At the same time, several commenters raised concerns about the article's lack of practical advice and the prioritization problems inherent in the development process, arguing that the author's statement is too simplistic and does not acknowledge the complexities of doing so. Overall, the discussion suggests that the community sees some merit in the idea but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
