@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-02T06:35:53.340Z"
+    "lastUpdated": "2026-08-02T10:01:22.858Z"
   },
   "stories": [
+    {
+      "id": 49141891,
+      "author": "andros",
+      "descendants": 74,
+      "kids": "[49142474,49142335,49142587,49142763,49142317,49142438,49142576,49142418,49142504,49142608,49142643,49142478,49142496,49142297,49142324,49142609,49142647,49142372,49142502,49142516,49142583,49142540,49142381,49142477,49142761,49142657,49142334,49142423,49142527,49142451,49142388,49142349,49142511,49142554,49142390,49142303,49142574,49142537,49142732,49142450,49142307,49142291,49142370,49142278]",
+      "score": 81,
+      "time": 1785654578,
+      "title": "I don't recommend Tailwind CSS",
+      "type": "story",
+      "url": "https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/",
+      "og_image": "https://img.andros.dev/2v0BIVF4Nhf-We11Un2zAvL4xJM=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/ai_thumbnail_8a4eed17.png",
+      "groq_label": "Tailwind CSS often requires you to think and code in CSS directly, making it unnecessary to have strong CSS skills.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to question the use of Tailwind CSS. The Hacker News discussion was generally mixed, with some commenters appreciating the ease of use and benefits of Tailwind, such as onboarding new developers and not having to remember complex CSS styling. Others, however, criticized the long class names and the tendency for users to impose Tailwind on codebases they don't know. Some commenters praised alternative approaches, such as CSS Modules, which provide similar benefits without the long class names. Overall, the discussion suggests that the community acknowledges both the merits and drawbacks of Tailwind, and that there is no clear consensus on its use.",
+      "groq_explain": null
+    },
     {
       "id": 49141073,
       "author": "ilreb",
@@ -47,6 +62,21 @@
       "groq_label": "Linux desktop market share is being skewed by scraping bots.",
       "groq_discussion": "Discussion type: – Short:\n\nThis data about Linux desktop market share hitting over 10% in North America is being met with skepticism on Hacker News. Commenters are questioning the accuracy of the figures, with some pointing out inconsistencies, such as the separate mention of \"OS X\" and \"macOS\". Others are expressing doubt based on their personal experiences and general trends in technology usage.",
       "groq_explain": "Linux desktop market share has apparently surpassed 10% in North America. This indicates a growing interest and usage of Linux on computers."
+    },
+    {
+      "id": 49140599,
+      "author": "pkaeding",
+      "descendants": 20,
+      "kids": "[49141017,49142573,49141106,49141957,49141130,49141589]",
+      "score": 53,
+      "time": 1785639075,
+      "title": "Deep-sea vehicles spot 'alien' sharks deep beneath the waves in the Pacific",
+      "type": "story",
+      "url": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific#",
+      "og_image": "images/49140599.png",
+      "groq_label": "Biologists have long underestimated the diversity of deep-sea sharks.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis research aims to solve the problem of understanding deep-sea sharks and their behavior. Based on the Hacker News discussion, commenters generally viewed the discovery positively and highlighted strengths such as the groundbreaking footage of goblin sharks in their natural habitat. Many appreciated the documentation of these lesser-known creatures, noting that it increases our understanding of deep-sea biodiversity. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential impact of increased awareness, not just of the goblin sharks, but of deep-sea sharks in general, with some questioning the ethics of exploration and documentation. Overall, the Hacker News community considered the discovery fascinating but emphasized the need for responsible and sustainable scientific inquiry to ensure the long-term preservation of these unique creatures and their habitats.",
+      "groq_explain": null
     },
     {
       "id": 49140487,
@@ -196,6 +226,21 @@
       "groq_label": "LLMs consistently advised people to save during their working years, draw down savings in retirement, invest heavily in diversified stock funds, and reduce stock exposure after age 45.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of AI financial advice is surprisingly good. Commenters frequently praised its effectiveness, describing it as capable of providing valuable insights and advice, especially when asking the right questions. Many appreciated its ability to give normie advice, which is generally good but lacking in specificity. However, the discussion also included recurring concerns about the potential for AI advice to be influenced by external factors, such as advertising, and its limitations in complex decision-making scenarios. The overall consensus is that the idea of AI financial advice is compelling, although its long-term success depends on addressing these concerns and maintaining its independence from external influences.",
       "groq_explain": "The article is about how good artificial intelligence (AI) is at giving financial advice, and it turns out that it can be surprisingly good if you ask the right questions. It can help people save money, invest wisely, and make smart financial decisions, especially if you provide it with detailed information. This is important because it could be a more accessible and affordable way for people to get good financial advice."
+    },
+    {
+      "id": 49138897,
+      "author": "frizlab",
+      "descendants": 37,
+      "kids": "[49142848,49142580,49142100,49141135,49141728,49140629,49142779,49141446,49141614,49142176,49141557,49140616,49141986]",
+      "score": 79,
+      "time": 1785621616,
+      "title": "Atom is better than RSS, in ways that matter",
+      "type": "story",
+      "url": "https://chrismorgan.info/atom%3Erss",
+      "og_image": "images/49138897.png",
+      "groq_label": "Atom's XML structure doesn't allow unrestricted HTML5, requiring a conversion to XHTML5.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article compares Atom and RSS, arguing that Atom is better in certain ways. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity and better definition of Atom. They highlighted its strengths, such as ease of use and wide parser support, noting that it's a superior format for publishing content. However, the discussion also revealed concerns about the complexity of Atom, particularly its limitations when it comes to HTML5 support and the requirement for full self-links. Some commenters pointed out that these issues are not fatal and can be mitigated, but others believed that the differences between syndication formats do not matter in practice. They argued that JSON feed is a more flexible and accessible solution, and that the spec is short and easy to understand. Overall, the discussion suggests that the community sees promise in Atom but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
     },
     {
       "id": 49138302,
@@ -406,51 +451,6 @@
       "groq_label": "Kaisel uses sealed classes with exhaustive switches to provide typed routes in Flutter navigation.",
       "groq_discussion": "No comments.",
       "groq_explain": "This article is about a new Dart library called Kaisel, which is a native router for Flutter that makes navigating between routes in Flutter apps easier and more efficient by treating routes as values that can be handled by the compiler, allowing for better type safety and easier maintenance."
-    },
-    {
-      "id": 49135914,
-      "author": "speckx",
-      "descendants": 2,
-      "kids": "[49136198,49136197,49136192]",
-      "score": 7,
-      "time": 1785602308,
-      "title": "I Fired My AI Assitant",
-      "type": "story",
-      "url": "https://chreke.com/posts/i-fired-my-ai-assistant",
-      "og_image": "images/49135914.png",
-      "groq_label": "The commenter questioned whether the author's draft was really worth posting.",
-      "groq_discussion": "Discussiontype: – Basic:\n\nThis article/project aims to discuss the experience of firing an AI assistant.\nBased on the Hacker News discussion, commenters generally viewed the event positively and highlighted the AI assistant's shortcomings, such as its harsh criticism of the author's LinkedIn post. Many appreciated the author's willingness to speak out against the AI assistant's behavior, noting that it showed a lack of tact, while others believed it could be particularly helpful in raising awareness about the limitations of AI assistants. However, the discussion also revealed several criticisms. Commenters expressed concerns about the author's decision-making, questioning whether firing the AI assistant was the best solution to the problem, and others pointed out that the AI assistant's behavior could be a result of a larger issue with the training data. Overall, the Hacker News community considered the author's experience a humorous and relatable anecdote, recognizing its potential as a teaching moment while emphasizing that addressing the underlying issues with AI assistants would improve their usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49135546,
-      "author": "brandur",
-      "descendants": 3,
-      "kids": "[49135826,49135927,49136176]",
-      "score": 16,
-      "time": 1785600082,
-      "title": "Pgtestdb's template cloning approach to testing is fast",
-      "type": "story",
-      "url": "https://brandur.org/fragments/pgtestdb",
-      "og_image": "https://brandur.org/assets/images/favicon/favicon-256.jpg",
-      "groq_label": "River's test helpers with schema migration are around 3.5 times faster than pgtestdb's template cloning approach due to Go's parallelization capabilities and schema pooling.",
-      "groq_discussion": "Discussion type: - Basic:\n\nThis Pgtestdb's template cloning approach to testing aims to solve the problem of testing speed. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as speed. Many appreciated the use of a ramdisk, noting that it greatly sped up the cloning process, while others believed it could be particularly useful for mature companies with large schemas. However, the discussion also revealed several criticisms. Commenters expressed concerns about potential limitations with production schema dumps, such as complexity and maintenance, and questioned the use of ORM definitions for schema building. Overall, the Hacker News community considered the project promising, recognizing its potential for improving testing speed while emphasizing the need for careful consideration of schema management.",
-      "groq_explain": "This is about a testing approach called pgtestdb that uses a feature of Postgres to quickly copy and clone databases, making it a faster alternative to other methods for testing. It matters because it provides a faster way to test databases, especially for complex, end-to-end tests."
-    },
-    {
-      "id": 49135257,
-      "author": "EugeneOZ",
-      "descendants": 26,
-      "kids": "[49136112,49135674,49135791,49136154,49135972,49136165,49135662,49135806,49135999,49135706,49135578]",
-      "score": 71,
-      "time": 1785597921,
-      "title": "Cursor removed cost information from the usage page and CSV export",
-      "type": "story",
-      "url": "https://forum.cursor.com/t/usage-page-to-token-amount-what/167153",
-      "og_image": "https://us1.discourse-cdn.com/cursor1/original/3X/3/7/3718fc94d3c996fb60ac40aa8a689003c970b23b.png",
-      "groq_label": "Removing cost information from the usage page and CSV export makes it difficult for developers to track and verify their usage, leading to anxiety and mistrust in the tool.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Cursor is very negative. Commenters frequently criticized Cursor for removing cost information from the usage page and CSV export, describing its decision as \"hostile\" and \"sparing\" existing paying users and partners. They also expressed concerns that this move would lead to a loss of business, as trust in the tool would be capped by the lack of transparency in usage costs. The overall consensus is that Cursor's decision is a step in the wrong direction, and that the company should focus on building trust with its users rather than \"sitting\" them. Many commenters suggested that Cursor's sales are not wide enough to justify hiding cost information, and that capability is key, not cost.",
-      "groq_explain": null
     }
   ]
 }
