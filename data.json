@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-02T13:29:26.666Z"
+    "lastUpdated": "2026-08-02T17:05:06.364Z"
   },
   "stories": [
+    {
+      "id": 49145937,
+      "author": "vlad_kalinkin",
+      "descendants": 1,
+      "kids": "[49145939,49146229]",
+      "score": 10,
+      "time": 1785688000,
+      "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "type": "story",
+      "url": "https://github.com/wie-project/kakehashi",
+      "og_image": "https://opengraph.githubassets.com/7436acdea1ba34908d8df8e738e14cba09c0f74c05ea53d25df6a7d8bc4eabf4/wie-project/kakehashi",
+      "groq_label": "An experimental userspace allows native execution of macOS CLI binaries on Linux ARM machines.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis experimental userspace project, Kakehashi, aims to solve the problem of running macOS CLI binaries natively on Linux ARM machines. The Hacker News discussion was generally mixed, with many commenters appreciating the project's potential and the working prototypes for running specific macOS CLI binaries such as 7-Zip and curl. At the same time, several commenters raised concerns about the project's performance, noting that it is currently ~5.2x slower than native Linux execution. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, such as significant performance gaps and potential usability limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49145883,
+      "author": "mindracer",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 6,
+      "time": 1785687557,
+      "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
+      "type": "story",
+      "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
+      "og_image": "https://blog.juni-mp4.com/themetoggle.ico",
+      "groq_label": "The TP-Link TL-841N router's firmware contains a hardcoded admin username and password, making it vulnerable to remote unauthorized access.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49145590,
+      "author": "c-oreills",
+      "descendants": 21,
+      "kids": "[49146032,49146011,49145892,49145897,49146215,49146083,49145901,49146004,49146041,49145867,49145805]",
+      "score": 71,
+      "time": 1785685268,
+      "title": "How the words we teach English language learners changed",
+      "type": "story",
+      "url": "https://pudding.cool/2026/07/essential-words/",
+      "og_image": "https://pudding.cool/2026/07/essential-words/assets/social-facebook.jpg",
+      "groq_label": "The words in a 1953 English vocabulary list for English language learners have given way to more abstract concepts and words related to distant communities in the 2023 revised list.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about vocabulary changes in the English language for English language learners aims to solve the problem of adapting to a constantly changing language. The Hacker News discussion was generally mixed, with some commenters appreciating the research and its relevance to the topic, while others questioned its findings and methodology. At least one commenter praised the project's timing, but others expressed skepticism, with some suggesting that the changes in vocabulary may be influenced by broader societal trends such as inequality. Overall, the discussion suggests that the community sees the idea as thought-provoking, but believes there are important challenges and limitations that need to be addressed, such as understanding the context and relevance of the changes.",
+      "groq_explain": null
+    },
     {
       "id": 49143967,
       "author": "AlexeyBrin",
@@ -16,6 +61,21 @@
       "og_image": "https://www.riscosopen.org/news/assets/spinner-5919374a.gif",
       "groq_label": "A tiny open-source project maintains an ageing operating system created for a niche hardware platform two decades after its official abandonment.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis project, Twenty Years of RISC OS Open, aims to preserve and celebrate the legacy of RISC OS. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the strength of community dedication, noting that despite being a small and niche effort, RISC OS enthusiasts have maintained a remarkable commitment to the platform over two decades. Many appreciated the project's goal of preserving this unique computing history, with its importance to those involved in the Acorn Archimedes community being particularly emphasized. However, the discussion also revealed a criticism that it's surprising this project has persisted given the relatively small and aging user base. Overall, the Hacker News community considered the project heartwarming, recognizing the resilience and passion of the community involved.",
+      "groq_explain": null
+    },
+    {
+      "id": 49143925,
+      "author": "ducktective",
+      "descendants": 30,
+      "kids": "[49145034,49144797,49145504,49145638,49145547,49145553,49145283]",
+      "score": 77,
+      "time": 1785673876,
+      "title": "F*: A general-purpose proof-oriented programming language",
+      "type": "story",
+      "url": "https://fstar-lang.org/",
+      "og_image": "https://fstar-lang.org/i/fstar-new.png",
+      "groq_label": "F* syntax resembles C-style syntax with some additional type annotations and proof constructs, but the actual syntax is not provided in the given text, however, F* proof logic can be used to reason about programs, and it allows users to write specifications and proofs alongside the code.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of F* is generally favorable. Commenters frequently praised its potential for expressing proof logic and its ability to incrementally migrate existing C codebases to F*. Many appreciated the language's feature of expressing calling external libraries. However, the discussion also included recurring concerns about the language's complexity and the need for clearer presentation of its syntax. The overall consensus is that F* is a promising idea for proof-oriented programming and formal verification, and it has potential for use in implementing compilers and other complex systems.",
       "groq_explain": null
     },
     {
@@ -90,6 +150,21 @@
       "og_image": "https://fuselang.org/fuse-icon_hu_db4cf4be1a7fd488.png",
       "groq_label": "The Fuse language blends elements from Rust and Haskell syntax with a GRIN backend.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Fuse is largely positive. Commenters frequently praised the language's clear semantics and tidy syntax surface, with one commenter noting that it's \"a nice little functional language\" and another acknowledging \"a great achievement for a solo dev project.\" However, the discussion also included recurring concerns, such as the mixed syntax influence from Rust and possibly other languages, which one commenter found jarring. Additionally, the language's lack of Unicode support in the standard library was raised as a potential drawback. The overall consensus is that Fuse is an interesting and promising idea, but its long-term success may depend on addressing these issues.",
+      "groq_explain": null
+    },
+    {
+      "id": 49143096,
+      "author": "dcminter",
+      "descendants": 16,
+      "kids": "[49145351,49146170,49145223,49146000,49144991]",
+      "score": 52,
+      "time": 1785666806,
+      "title": "Rust All Hands 2026 Retrospective",
+      "type": "story",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/31/all-hands-2026-retrospective/",
+      "og_image": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
+      "groq_label": "Rust's strong safety features are well-suited for developing agents that interact with changing models, but compile times might hinder adoption as model speeds improve.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Rust All Hands 2026 Retrospective aims to reflect on the progress and challenges of the Rust project. The Hacker News discussion was generally mixed, with some commenters expressing enthusiasm and praise for the language, particularly its potential for future growth, such as in areas like Rust-GPU. Others highlighted notable strengths, including its \"solid guardrails\" that could make it suitable for coding agents. However, the discussion also included recurring criticisms, such as the issues with the multithreaded front end and the limitations imposed by not accepting AI PRs. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -180,6 +255,21 @@
       "og_image": "https://www.wafer.ai/assets/images/og-image.png",
       "groq_label": "The description of performance optimization and kernel tweaks lacks a clear and thorough explanation, potentially relying on automated or unverified methods.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to demonstrate improved performance of Kimi K3 on the MI355X compared to the B300. The Hacker News discussion was generally mixed, with some commenters appreciating the author's effort to optimize and benchmark their findings. At the same time, several commenters raised concerns about the level of detail and professionalism in the write-up, specifically pointing out issues with the explanation of the performance optimizations and what they considered \"slop.\" Many expressed skepticism about the involvement of a frontier AI in preparing the article, questioning its reliability and coherence. Overall, the discussion suggests that the community sees some potential in the idea but is waiting for more thorough and credible justification.",
+      "groq_explain": null
+    },
+    {
+      "id": 49140998,
+      "author": "delichon",
+      "descendants": 16,
+      "kids": "[49146163,49146211,49146045,49146182,49146135,49146158,49146020,49146082]",
+      "score": 57,
+      "time": 1785643556,
+      "title": "Karpathy’s Pelican",
+      "type": "story",
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "og_image": "https://pbs.twimg.com/amplify_video_thumb/2083744791876292608/img/tWEKnM_bdE_nlfYD.jpg",
+      "groq_label": "Andrej Karpathy created an LLM that can generate a ~3D animation based on a scene description from a film.",
+      "groq_discussion": "Discussion type – Balanced:\n\nThis project, Karpathy’s Pelican, aims to solve the problem of generating detailed descriptions of scenes from images. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its potential applications, particularly in developing manufacturing processes and generating personalized content. However, the discussion also revealed several criticisms, including concerns about the over-reliance on language models and the potential for generating low-quality or biased content. Additionally, some commenters questioned the credibility of the project’s author, Andrej Karpathy, due to his alleged shift from a more cautious stance on reliable AI agents to a more optimistic narrative. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -360,96 +450,6 @@
       "groq_label": "Morph is hiring a performance engineer to optimize the inference stack behind its fastest open models.",
       "groq_discussion": "No comments.",
       "groq_explain": "A tech company called Morph, founded through a program called Y Combinator, is currently hiring a high-level engineer to optimize their system that lets computers quickly understand large models. This engineer will make the system work more efficiently and reliably, using a combination of technical expertise and problem-solving skills."
-    },
-    {
-      "id": 49139102,
-      "author": "foxtrot8672",
-      "descendants": 160,
-      "kids": "[49140187,49139947,49139438,49140686,49139523,49139553,49140601,49139182,49140332,49139410,49139171,49140168,49140055,49139393,49139565,49139276,49139148,49139894,49140054,49139978,49140204,49139903,49139484,49139937,49139538,49139655,49139863,49140482,49140134,49139677,49140014,49139238,49139955,49139715,49140147,49139437,49140352,49139681,49139680,49139290,49140451,49139846,49140121,49139285,49139103]",
-      "score": 195,
-      "time": 1785623112,
-      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-      "type": "story",
-      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-      "og_image": "https://mitsloan.mit.edu/sites/default/files/styles/og_image/public/2026-07/ai-finance.png.webp?h=7691f918&itok=Zfv-5Ys6",
-      "groq_label": "LLMs consistently advised people to save during their working years, draw down savings in retirement, invest heavily in diversified stock funds, and reduce stock exposure after age 45.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of AI financial advice is surprisingly good. Commenters frequently praised its effectiveness, describing it as capable of providing valuable insights and advice, especially when asking the right questions. Many appreciated its ability to give normie advice, which is generally good but lacking in specificity. However, the discussion also included recurring concerns about the potential for AI advice to be influenced by external factors, such as advertising, and its limitations in complex decision-making scenarios. The overall consensus is that the idea of AI financial advice is compelling, although its long-term success depends on addressing these concerns and maintaining its independence from external influences.",
-      "groq_explain": "The article is about how good artificial intelligence (AI) is at giving financial advice, and it turns out that it can be surprisingly good if you ask the right questions. It can help people save money, invest wisely, and make smart financial decisions, especially if you provide it with detailed information. This is important because it could be a more accessible and affordable way for people to get good financial advice."
-    },
-    {
-      "id": 49138897,
-      "author": "frizlab",
-      "descendants": 37,
-      "kids": "[49142848,49142580,49142100,49141135,49141728,49140629,49142779,49141446,49141614,49142176,49141557,49140616,49141986]",
-      "score": 79,
-      "time": 1785621616,
-      "title": "Atom is better than RSS, in ways that matter",
-      "type": "story",
-      "url": "https://chrismorgan.info/atom%3Erss",
-      "og_image": "images/49138897.png",
-      "groq_label": "Atom's XML structure doesn't allow unrestricted HTML5, requiring a conversion to XHTML5.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article compares Atom and RSS, arguing that Atom is better in certain ways. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity and better definition of Atom. They highlighted its strengths, such as ease of use and wide parser support, noting that it's a superior format for publishing content. However, the discussion also revealed concerns about the complexity of Atom, particularly its limitations when it comes to HTML5 support and the requirement for full self-links. Some commenters pointed out that these issues are not fatal and can be mitigated, but others believed that the differences between syndication formats do not matter in practice. They argued that JSON feed is a more flexible and accessible solution, and that the spec is short and easy to understand. Overall, the discussion suggests that the community sees promise in Atom but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49138302,
-      "author": "njaremko",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1785617112,
-      "title": "Seedance 2.5",
-      "type": "story",
-      "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-      "og_image": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/deploy/flow/ai_official_website/88329/static/image/new_qr_code.949b4782.png",
-      "groq_label": "Seedance 2.5 uses an optimization to eliminate unnecessary memory allocations for large trees of dependencies.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49138188,
-      "author": "ryanseys",
-      "descendants": 3,
-      "kids": "[49138385,49138357,49138307]",
-      "score": 12,
-      "time": 1785616407,
-      "title": "Diátaxis",
-      "type": "story",
-      "url": "https://diataxis.fr/",
-      "og_image": "https://diataxis.fr/_images/diataxis.png",
-      "groq_label": "Diátaxis is a documentation generation technique used to describe code structure and functionality.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Diátaxis project aims to provide a way to generate documentation automatically. Based on the Hacker News discussion, commenters generally viewed the project as somewhat useful, especially in terms of its convenience when working with Large Language Models (LLMs). Many appreciated that it offers a quick first pass at documentation, which can be beneficial during the coding process. However, the discussion also revealed several criticisms. Commenters expressed concerns about the overall quality and clarity of the documentation generated by Diátaxis, with some suggesting that it can be a \"flawed and confusing mess.\" Overall, the Hacker News community considered Diátaxis to be a moderately interesting project with some practical applications, but its limitations and flaws need to be addressed for it to be more widely adopted.",
-      "groq_explain": null
-    },
-    {
-      "id": 49138045,
-      "author": "Kaizeras",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 9,
-      "time": 1785615658,
-      "title": "The Silicon Valley Founder Meat Grinder",
-      "type": "story",
-      "url": "https://zaksa.zip/blog/silicon-valley-founder-meat-grinder/",
-      "og_image": "https://zaksa.zip/images/share.png",
-      "groq_label": "The typical Silicon Valley founder trajectory involves a pattern of rapid advancement followed by reckless abandon of discipline once financial security is achieved.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "The article is about a young developer, Jim, who goes from being a struggling bootcamp graduate to landing a job at a successful startup and eventually getting accepted into Y Combinator in Silicon Valley. What's notable is how quickly he rose to the top with little actual skills, but a lot of charm, charisma, and connections. The article makes the point that Silicon Valley can be like a \"meat grinder\" where people with charisma and connections can rise to success quickly, even if they're not necessarily the most talented or capable."
-    },
-    {
-      "id": 49137904,
-      "author": "xbryanx",
-      "descendants": 11,
-      "kids": "[49138220,49138371,49138139,49138043,49138258]",
-      "score": 25,
-      "time": 1785614859,
-      "title": "Cookware Got Worse on Purpose: Who Owns Pyrex and All-Clad Now",
-      "type": "story",
-      "url": "https://www.worseonpurpose.com/p/your-cookware-got-worse-on-purpose",
-      "og_image": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/f337127b-b7da-4c04-ba43-86e2dc9d771e/Cookware_card_1200_630.png?t=1784049693",
-      "groq_label": "Private equity firms now own major cookware brands such as Pyrex and All-Clad, potentially driving decisions that prioritize profits over product quality.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article attempts to solve the problem of consumers being misled by cookware brands regarding their products' durability and dishwasher safety. The Hacker News discussion was generally mixed, with some commenters appreciating the article's exposé and others expressing skepticism about its origin. At the same time, several commenters shared their personal experiences, such as the user who had purchased All-Clad pans but was unhappy with their quality, and another user who found an alternative solution with Hestan Nanobond. Overall, the discussion suggests that the community recognizes the importance of accurate product information and the need for consumers to be vigilant when buying cookware.",
-      "groq_explain": null
     }
   ]
 }
