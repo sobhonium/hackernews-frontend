@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-02T21:00:23.294Z"
+    "lastUpdated": "2026-08-02T22:03:49.881Z"
   },
   "stories": [
+    {
+      "id": 49148159,
+      "author": "Lambda11",
+      "descendants": 29,
+      "kids": "[49148808,49148392,49148589,49148583,49148488,49148470,49148536,49148430,49148270]",
+      "score": 36,
+      "time": 1785703708,
+      "title": "AI Mania: From Tulips to Tokens",
+      "type": "story",
+      "url": "https://seanhelvey.com/tools-and-their-tools/",
+      "og_image": "https://seanhelvey.com/assets/images/seanhelvey/2026/MechanicalTurk.jpg",
+      "groq_label": "The article appears to be critiquing the AI boom by making superficial comparisons to past market bubbles.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is generally negative. Commenters frequently criticized the article as confusing and poorly written, with some suggesting it misrepresents the connection between the AI boom and crypto. The discussion also reveals a consensus that the article's comparison of AI to tulips is flawed, as AI has tangible real-world applications, whereas crypto is often seen as having no value. Many commenters expressed frustration with the article's arguments, likening them to other failed trends like Beanie Babies and NFTs. The overall consensus is that the article is unconvincing and fails to make a compelling case.",
+      "groq_explain": null
+    },
     {
       "id": 49148070,
       "author": "lschueller",
@@ -17,6 +32,21 @@
       "groq_label": "Anthropic's Claude used a PyPi package named 'anthropickit' to steal real SSH keys from users' system, which the package author likely discovered through a previous supply chain attack.",
       "groq_discussion": "No comments.",
       "groq_explain": "An open-source package called \"anthropickit\" was recently released on PyPi, a Python package repository. This package contains malicious code that can steal sensitive information such as SSH keys and API tokens when installed. It's unique in that it doesn't use any obfuscation or deception, and it's designed to be chosen over any existing legitimate package with the same name by specifying a high version number."
+    },
+    {
+      "id": 49148048,
+      "author": "arcaege",
+      "descendants": 2,
+      "kids": "[49148722,49148688]",
+      "score": 14,
+      "time": 1785702781,
+      "title": "Show HN: Make your Framework 12 sound like a creaky door",
+      "type": "story",
+      "url": "https://github.com/ArcaEge/creakwork12",
+      "og_image": "https://opengraph.githubassets.com/47b817bc3ef93862048ada045df3b4c8e10f5d2ea198889a792e1d4aef907068/ArcaEge/creakwork12",
+      "groq_label": "Make your Framework 12 sound like a creaky door.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis sound effect, made to resemble a creaky door, for the Framework 12 is aimed at solving the problem of a lack of unique and authentic sound experiences. \nBased on the Hacker News discussion, commenters generally viewed the sound effect positively and highlighted strengths such as the creativity and the humor it brings. Many appreciated the YouTube link provided, noting that it effectively showcases the sound, while others believed it could be particularly useful for those looking for an attention-grabbing experience. However, the discussion also revealed that commenters were impressed by the overall quality, noting that it feels premium. Overall, the Hacker News community considered the sound effect very positively, recognizing its creativity and humor.",
+      "groq_explain": null
     },
     {
       "id": 49147978,
@@ -62,6 +92,21 @@
       "groq_label": "European EV sales have seen a 50% increase YoY, with 366,000 fully electric vehicles registered in June, placing them at a 26% market share.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article on Europe EV sales BEVs Jump 50% & Reach 26% Market Share aims to solve the problem of addressing the increasing adoption of electric vehicles in Europe. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as clear evidence of growing EV market. Many appreciated the mention of Australia's high EV adoption in the last quarter, noting that it shows a similar trend. However, the discussion also revealed several criticisms. Commenters expressed concerns about the writing quality, asking the author to clarify their sources and the definition of \"Europe\". Some questioned the relevance or desirability of buying a Tesla in 2026. Overall, the Hacker News community considered the article to be informative, while emphasizing the need for better presentation and more transparency.",
       "groq_explain": "Electric vehicle sales in Europe are increasing rapidly, with a 50% year-over-year jump in June, making up 26% of the overall market share. This is partly driven by cheaper models, high gas prices, and new arrivals from Chinese manufacturers, with Tesla and Chinese companies leading the way. The article suggests Europe is on track to achieve 100% electric vehicle sales by the mid-2030s."
+    },
+    {
+      "id": 49147435,
+      "author": "JumpCrisscross",
+      "descendants": 36,
+      "kids": "[49147851,49148663,49147942,49147806,49147930,49148279,49148201]",
+      "score": 94,
+      "time": 1785698364,
+      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+      "type": "story",
+      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fff2a5872-576c-418a-937c-aaf24d9bc51a.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "groq_label": "Seven members of eBay's security team, including former police captains, conspired to harass and intimidate a couple through a campaign of intimidation, ultimately leading to a $56M payout.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the eBay harassment campaign story with a mix of shock and skepticism. Many expressed concern over the severity of the security team's actions and the apparent leniency of some of the punishments. The discussion also touched on the business practices of eBay, with several commenters criticizing the company's fees and comparing them unfavorably to a French competitor. However, there was no overwhelming consensus on the matter, and the overall sentiment suggests that the community is still processing the details of the case.",
+      "groq_explain": null
     },
     {
       "id": 49146605,
@@ -405,51 +450,6 @@
       "og_image": "images/49140599.png",
       "groq_label": "Biologists have long underestimated the diversity of deep-sea sharks.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis research aims to solve the problem of understanding deep-sea sharks and their behavior. Based on the Hacker News discussion, commenters generally viewed the discovery positively and highlighted strengths such as the groundbreaking footage of goblin sharks in their natural habitat. Many appreciated the documentation of these lesser-known creatures, noting that it increases our understanding of deep-sea biodiversity. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential impact of increased awareness, not just of the goblin sharks, but of deep-sea sharks in general, with some questioning the ethics of exploration and documentation. Overall, the Hacker News community considered the discovery fascinating but emphasized the need for responsible and sustainable scientific inquiry to ensure the long-term preservation of these unique creatures and their habitats.",
-      "groq_explain": null
-    },
-    {
-      "id": 49140487,
-      "author": "jeffreyrogers",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 8,
-      "time": 1785637612,
-      "title": "Four Time Scales for Technology Development and Deployment",
-      "type": "story",
-      "url": "https://rodneybrooks.com/four-time-scales-for-technology-development-and-deployment/",
-      "og_image": "https://rodneybrooks.com/wp-content/themes/rab/images/bsky.png",
-      "groq_label": "New research ideas, technology development, and subsequent hype cycles can take anywhere from 10 to 60 years before a technology reaches widespread adoption and eventually becomes obsolete.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "The core idea is that technology development and deployment have different time scales, with some taking as long as 20 years or even 60 years to come to fruition, and others only lasting for a short hype cycle before dying down. It matters because people often make wrong predictions about when a technology will be ready due to jumping between these different time scales and misunderstanding the speed and progression of technology."
-    },
-    {
-      "id": 49140405,
-      "author": "Funes-",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 3,
-      "time": 1785636506,
-      "title": "When random.bytes() runs but doesn't work",
-      "type": "story",
-      "url": "https://insider.btcpp.dev/p/when-randombytes-runs-but-doesnt",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!BDET!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb8c90d04-92b6-4b71-9826-4f752f690009_1024x1024.png",
-      "groq_label": "Python's random.bytes() function relies on the operating system to return truly random bytes, but on some systems, it can run indefinitely while still not producing genuine randomness due to lack of suitable entropy sources.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49140396,
-      "author": "tomilan",
-      "descendants": 6,
-      "kids": "[49140711,49140688,49140584,49140668,49140581,49140593,49140532]",
-      "score": 26,
-      "time": 1785636429,
-      "title": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
-      "type": "story",
-      "url": "https://github.com/tom-ilan/cycloidal_gearbox",
-      "og_image": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1273630842/ba5b1ec0-8a28-46a3-8cf1-5c6983b3c336?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260802T023950Z&X-Amz-Expires=300&X-Amz-Signature=34f665def0bc34e764465572f3bfb50f153bc708785842750f3847a47254853b&X-Amz-SignedHeaders=host&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTYzODY5MCwibmJmIjoxNzg1NjM4MzkwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.JlUFQPAxzRzClSKqYgauBWGYPIpm4_jkPmJ1Vk563m0",
-      "groq_label": "An internet-sourced cycloidal gearbox was used for the project.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is positive. Commenters frequently praised the project, describing it as \"cool\", \"awesome\", and offering congratulations on a promising career. However, the discussion also included recurring concerns about the author's decision to post their age, with several commenters advising against sharing this information online. The overall consensus is that the idea, a cycloidal gearbox, is compelling, and the author's skills are impressive, although caution is urged around personal details.",
       "groq_explain": null
     }
   ]
