@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-02T03:16:54.954Z"
+    "lastUpdated": "2026-08-02T06:35:53.340Z"
   },
   "stories": [
+    {
+      "id": 49141073,
+      "author": "ilreb",
+      "descendants": 3,
+      "kids": "[49141638,49141641,49141623]",
+      "score": 81,
+      "time": 1785644474,
+      "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "type": "story",
+      "url": "https://www.wafer.ai/blog/kimi-k3-mi355x",
+      "og_image": "https://www.wafer.ai/assets/images/og-image.png",
+      "groq_label": "The description of performance optimization and kernel tweaks lacks a clear and thorough explanation, potentially relying on automated or unverified methods.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to demonstrate improved performance of Kimi K3 on the MI355X compared to the B300. The Hacker News discussion was generally mixed, with some commenters appreciating the author's effort to optimize and benchmark their findings. At the same time, several commenters raised concerns about the level of detail and professionalism in the write-up, specifically pointing out issues with the explanation of the performance optimizations and what they considered \"slop.\" Many expressed skepticism about the involvement of a frontier AI in preparing the article, questioning its reliability and coherence. Overall, the discussion suggests that the community sees some potential in the idea but is waiting for more thorough and credible justification.",
+      "groq_explain": null
+    },
+    {
+      "id": 49140702,
+      "author": "goldenskye",
+      "descendants": 1,
+      "kids": "[49140815]",
+      "score": 41,
+      "time": 1785640372,
+      "title": "MkLinux and the pimped-out Apple Workgroup Server 9150",
+      "type": "story",
+      "url": "http://oldvcr.blogspot.com/2026/08/mklinux-and-pimped-out-apple-workgroup.html",
+      "og_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLEUaS83Llw8RdB-dvQ7e33it_cZIPla2mwHoNkUXe2_-VG6QeHsLlSlkQUEFeWfKR3PVSPBOhmboJEWXtPY5unWBMpGLiUiFPkQzkc2NW2vCg5wlL5UAvYKi2Fzo-Whahb8EyI1_z8Twpm7BoGzzUkv6_nE-4NX_E7dLyjgvZ1Tbq8qtMW_NDMqF06Ew/w1200-h630-p-k-no-nu/PXL_20260627_200031220.jpg",
+      "groq_label": "Logitech provided a developer's three-button ADB trackball.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project/blog post about MkLinux aims to solve the problem of running Linux on Apple hardware. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its ability to run Linux on Apple hardware, which was considered innovative at the time. Many appreciated the early community efforts, noting that they led to a thriving Linux ecosystem for PowerMac users. However, the discussion also revealed several criticisms. Commenters expressed concerns about the initial lack of support for multi-button mice, which caused usability issues in certain situations. Overall, the Hacker News community considered the project with nostalgia and appreciation for its historical significance and its role in paving the way for modern Linux adoption on Apple hardware.",
+      "groq_explain": null
+    },
+    {
+      "id": 49140696,
+      "author": "dviola",
+      "descendants": 43,
+      "kids": "[49141529,49141187,49141166,49141466,49141535,49141634,49141484,49141132,49141241,49141176,49141288,49141264,49141238]",
+      "score": 111,
+      "time": 1785640200,
+      "title": "Linux desktop market share has hit over 10% in North America",
+      "type": "story",
+      "url": "https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/",
+      "og_image": "images/49140696.png",
+      "groq_label": "Linux desktop market share is being skewed by scraping bots.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis data about Linux desktop market share hitting over 10% in North America is being met with skepticism on Hacker News. Commenters are questioning the accuracy of the figures, with some pointing out inconsistencies, such as the separate mention of \"OS X\" and \"macOS\". Others are expressing doubt based on their personal experiences and general trends in technology usage.",
+      "groq_explain": "Linux desktop market share has apparently surpassed 10% in North America. This indicates a growing interest and usage of Linux on computers."
+    },
     {
       "id": 49140487,
       "author": "jeffreyrogers",
@@ -405,51 +450,6 @@
       "og_image": "https://us1.discourse-cdn.com/cursor1/original/3X/3/7/3718fc94d3c996fb60ac40aa8a689003c970b23b.png",
       "groq_label": "Removing cost information from the usage page and CSV export makes it difficult for developers to track and verify their usage, leading to anxiety and mistrust in the tool.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Cursor is very negative. Commenters frequently criticized Cursor for removing cost information from the usage page and CSV export, describing its decision as \"hostile\" and \"sparing\" existing paying users and partners. They also expressed concerns that this move would lead to a loss of business, as trust in the tool would be capped by the lack of transparency in usage costs. The overall consensus is that Cursor's decision is a step in the wrong direction, and that the company should focus on building trust with its users rather than \"sitting\" them. Many commenters suggested that Cursor's sales are not wide enough to justify hiding cost information, and that capability is key, not cost.",
-      "groq_explain": null
-    },
-    {
-      "id": 49135245,
-      "author": "DSemba",
-      "descendants": 2,
-      "kids": "[49136075,49135724]",
-      "score": 18,
-      "time": 1785597795,
-      "title": "Explorative modeling: Train on the best of K guesses",
-      "type": "story",
-      "url": "https://alexiglad.github.io/blog/2026/explorative_modeling/",
-      "og_image": "https://alexiglad.github.io/assets/img/blog/xm/banner_xm.png",
-      "groq_label": "Training models on a random selection of K best guesses from the model's own predictions can lead to improved performance and robustness.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article about explorative modeling aims to solve the problem of optimizing model training on diverse and high-quality data. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its potential to revolutionize the field by making obsolete existing image models. Many appreciated the idea, noting that if the numbers are real and scalable, it could be extremely beneficial, while others believed it could be particularly useful in various industries and applications. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the context and data accuracy, with some questioning the claims and others pointing out the need for further testing and validation. Overall, the Hacker News community considered the project cautiously optimistic, recognizing its potential while emphasizing the need for more proof and refinement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49134694,
-      "author": "iamnothere",
-      "descendants": 69,
-      "kids": "[49135025,49135438,49136185,49135628,49134900,49135344,49135373,49135358,49134997,49135576]",
-      "score": 137,
-      "time": 1785593991,
-      "title": "A Surveillance Treaty in Disguise: Canada Signs UN Cybercrime Convention",
-      "type": "story",
-      "url": "https://www.michaelgeist.ca/2026/07/a-surveillance-treaty-in-disguise-the-trouble-with-canadas-quiet-decision-to-sign-the-un-cybercrime-convention/",
-      "og_image": "https://www.michaelgeist.ca/wp-content/uploads/2026/07/Hieu_Ngo_at_Hanoi_Convention_side_event-scaled.jpg",
-      "groq_label": "Canada's signing of the UN Cybercrime Convention may allow for treaty allies such as the US to gain access to Canadian data.",
-      "groq_discussion": "Discussion type: – Objective:\n\nThis UN Cybercrime Convention is designed to address cybercrime issues. The discussion reflects a balanced mix of perspectives. Supporters argued that the convention is necessary for addressing cybercrime, while others pointed out that it could compromise citizens' digital rights and data privacy. Some commenters shared concerns regarding the sharing of information about citizens, digitally, and the potential for treaties to be misused for surveillance purposes. Others mentioned the need for more legislation protecting digital rights, such as a bill of digital rights. Overall, the discussion presents the convention as a complex issue with multiple viewpoints and practical limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49134599,
-      "author": "0x54MUR41",
-      "descendants": 40,
-      "kids": "[49135719,49135641,49135734,49136056,49135690,49135227,49135549,49135952,49135827,49135285]",
-      "score": 81,
-      "time": 1785593340,
-      "title": "The Art of 64-bit Assembly",
-      "type": "story",
-      "url": "https://nostarch.com/art-64-bit-assembly-v2",
-      "og_image": "https://nostarch.com/sites/default/files/art-of-64-bit-assembly-v2_frontcover.jpg",
-      "groq_label": "Windows expects vtable layouts to conform to the Microsoft Visual C++ ABI specification.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis book \"The Art of 64-bit Assembly\" focuses on providing a deep and accurate understanding of assembly language programming for Windows on x64. The Hacker News discussion suggests that the book aims to close the gap between a superficial explanation and genuine comprehension of the subject matter. However, several commenters expressed reservations about the book's approach and tone. Some questioned the use of MASM as an assembler, preferring alternative options such as NASM or YASM. Others felt that the opening sentence, which criticizes LLMs, comes across as unappealing. Despite these criticisms, many commenters emphasized the importance and relevance of learning assembly language programming, particularly in the context of low-level coding and performance-critical applications. The discussion highlights a mix of enthusiasm and skepticism regarding the book's potential to address the needs of its target audience.",
       "groq_explain": null
     }
   ]
