@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-03T17:56:01.336Z"
+    "lastUpdated": "2026-08-03T21:08:00.444Z"
   },
   "stories": [
+    {
+      "id": 49160699,
+      "author": "mapping365",
+      "descendants": 1,
+      "kids": "[49161426]",
+      "score": 32,
+      "time": 1785787341,
+      "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+      "type": "story",
+      "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance/",
+      "og_image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2249021916-e1785504459772.jpg?resize=1200,600",
+      "groq_label": "AI companies and related entities are on pace to issue $400 billion in bonds this year, but hidden debt tied to the AI boom is estimated to reach $1.65T.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the article \"AI's debt binge can't last, hidden borrowing reaches $1.65T\" with a sense of inevitability and concern. Many agreed that the exponential growth of AI-related debt cannot persist indefinitely, with some speculating about the potential risks and consequences of a debt bubble bursting in the AI sector. Although comments expressed varying levels of skepticism and alarm, the prevailing sentiment suggests that the community believes this situation cannot continue indefinitely.",
+      "groq_explain": "The core idea is that tech giants, particularly those involved in AI, are taking on huge amounts of debt to fund their spending plans and this trend can't continue. This matters because if investors start to get nervous about these debt levels, interest rates could rise, and the entire economy could be affected."
+    },
+    {
+      "id": 49160631,
+      "author": "e12e",
+      "descendants": 26,
+      "kids": "[49161049,49160939,49161180,49161136,49161329,49161162,49160979]",
+      "score": 60,
+      "time": 1785786987,
+      "title": "DDoS against Norwegian government IT infrastructure – status",
+      "type": "story",
+      "url": "https://status.digdir.no/incidents/d7hvqmf2yr3l",
+      "og_image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "groq_label": "DDoS attacks against major national infrastructure systems often result from attempts to disrupt political stability rather than simple mischief.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis DDoS attack against the Norwegian government IT infrastructure aims to solve the problem of disrupting critical government services. Based on the Hacker News discussion, commenters generally viewed the situation with skepticism and questioned the motivations behind the attack. Many appreciated the focus on understanding the root cause of the problem, proposing that the root cause is misconfiguration rather than an actual attack, while others believed it could be particularly useful to consider the financial viability of such an attack. However, the discussion also revealed several criticisms, with some questioning potential nation-state actors behind the attack. Overall, the Hacker News community considered the situation cautiously and wondered if there's more to it than an actual attack, emphasizing that understanding the motivations would be more beneficial.\n\nor \n\nDiscussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this DDoS attack against the Norwegian government is one of skepticism. Commenters frequently praised the focus on understanding the root cause of the problem, describing the situation as complex and multifaceted. However, the discussion also included recurring concerns about potential nation-state actors and the motivations behind the attack. The overall consensus is that the situation is more ambiguous than initially thought, although some commenters believed that the root cause could be misconfiguration.",
+      "groq_explain": null
+    },
+    {
+      "id": 49160437,
+      "author": "audreyfei",
+      "descendants": 59,
+      "kids": "[49161348,49161027,49161412,49161072,49161407,49161018,49161114,49161081,49161371,49161077,49161251,49161156,49161334,49161169,49161146,49161297,49161116,49161129,49161125,49161264,49161012,49161131,49161066,49161105,49161255,49161200,49161041,49161197,49161137,49161138]",
+      "score": 61,
+      "time": 1785785974,
+      "title": "The Dunning-Kruger effect may just be a data artefact (2020)",
+      "type": "story",
+      "url": "https://www.mcgill.ca/oss/article/critical-thinking/dunning-kruger-effect-probably-not-real",
+      "og_image": "https://www.mcgill.ca/oss/files/oss/styles/wysiwyg_large/public/light-bulb-1042480_1920_1.jpeg?itok=nDOISjZp",
+      "groq_label": "Random data tends to mimic the Dunning-Kruger effect well, which challenges its reality and raises questions about the nature of the phenomenon.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe article discusses a claim that the Dunning-Kruger effect may just be a data artefact, based on the finding that random data can mimic the effect well. The Hacker News discussion is generally mixed, with some commenters expressing skepticism towards the claim and others agreeing that the data artefact might be a possible explanation. Several commenters pointed out that the article's plot seems to be symmetrical and might be biased, and that the differences between perceived and actual scores are not necessarily unique to the Dunning-Kruger effect. Others drew parallels to the replication crisis in psychology and questioned the validity of Dunning-Kruger studies. The discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed to accurately define and measure the effect.",
+      "groq_explain": null
+    },
+    {
+      "id": 49158581,
+      "author": "ascorbic",
+      "descendants": 18,
+      "kids": "[49160216,49160685,49160066]",
+      "score": 75,
+      "time": 1785776926,
+      "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "og_image": "https://blog.cloudflare.com/_emdash/api/media/file/01KZ1Q04GM9SA4QGPGPKWJQSJ6.png",
+      "groq_label": "Cloudflare uses file locking to test if a file is the same, so writes can race.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project discusses strategies for running Kimi and GLM at scale. The Hacker News discussion was generally balanced, with many commenters appreciating the provider's transparency about KV cache quantisation and its potential impact on quality. At the same time, several commenters raised concerns about the testing methodology, arguing that it was not thorough enough. They noted that some model families are more sensitive to KV quantisation than others and that the evaluation suite used to claim benefits was not robust enough. Overall, the discussion suggests that the community sees potential in the approach but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49158474,
       "author": "roryirvine",
@@ -16,6 +76,21 @@
       "og_image": "https://changelog.complete.org/wp-content/plugins/webmention/assets/img/mm.jpg",
       "groq_label": "New C-Kermit release may appeal to users in industries requiring legacy connectivity such as embedded development and industrial control systems.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis celebration of Kermit's 45 years recognizes its significance in the history of terminal emulation and automation software. Based on the Hacker News discussion, commenters generally viewed the first new C-Kermit release in 15 years positively and highlighted strengths such as its enduring utility for automating tasks, in particular for embedded development and serial port consoles. Many appreciated its reliability and the fact that it has been an essential tool for many developers over the years, with some sharing nostalgic anecdotes about its use in the early days of internet access. However, the discussion also revealed a few criticisms. Commenters expressed concerns about its potential lack of adoption among younger developers, which may be due to its relatively old-fashioned nature or the preference for more modern tools. Overall, the Hacker News community considered Kermit an important piece of software with a dedicated user base, recognizing its continued utility and potential for niche use cases, but also noting the need for it to adapt to the changing needs of modern developers.",
+      "groq_explain": null
+    },
+    {
+      "id": 49158141,
+      "author": "dluuuu",
+      "descendants": 18,
+      "kids": "[49159436,49160599,49159579,49158854,49159058]",
+      "score": 44,
+      "time": 1785775300,
+      "title": "SearXNG in Rust",
+      "type": "story",
+      "url": "https://github.com/MikeLuu99/searxng-rust",
+      "og_image": "https://opengraph.githubassets.com/1f2d69136871f7711d1a33b42ebc579702ed8591ce4c42418dd5a0716e27bb1f/MikeLuu99/searxng-rust",
+      "groq_label": "SearXNG implemented in Rust is available for use as a non-LLM/AI-driven metasearch engine.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis SearxNG Rust project aims to solve the problem of dependence on external search engines and protecting personal data. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its unique approach to search, building a private full-text index, and the lack of dominant AI use. Many appreciated the effort to create a Rust version of SearxNG, considering it a more maintainable and reliable alternative to the original Python package. Others believed it could be particularly useful for users who want to control their searches and protect their data. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential for search engines to ban users for excessive queries or scraping, just like in the original SearxNG. Overall, the Hacker News community considered the project positive, recognizing its potential to address users' concerns while emphasizing the need for careful implementation to avoid getting banned from search engines.",
       "groq_explain": null
     },
     {
@@ -376,81 +451,6 @@
       "og_image": "https://runtimewire.com/og/exclusive-apple-engineer-says-he-was-fired-after-refusing-to-send-customer-devic.jpg",
       "groq_label": "Apple engineer was fired for refusing to send customer device IDs to AT&T.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article/project aims to solve [problem description]. Since the post is a brief report of job termination, it seems there isn't much detail on what the Apple engineer tried to solve.\n\nThe discussion is minimal and does not provide in-depth analysis of the project. However, it seems that the commenters, such as \"Water is wet,\" have an opinion on the matter as shown by the very brief response. The overall sentiment of the discussion remains unclear due to a lack of comments on the topic.\n\nNote: Given the minimal discussion, I could use a template with less requirements. The choice of - Basic seems fitting for this case.",
-      "groq_explain": null
-    },
-    {
-      "id": 49150470,
-      "author": "ai2027",
-      "descendants": 11,
-      "kids": "[49150799,49150809,49150810,49150812,49150823,49150794,49150798]",
-      "score": 56,
-      "time": 1785723369,
-      "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
-      "type": "story",
-      "url": "https://qwen.ai/blog?id=qwen3.8",
-      "og_image": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
-      "groq_label": "Qwen 3.8-Max supports adjusting reasoning depth and controlling cost through reasoning_effort features with settings for xhigh, medium, and low.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Qwen 3.8-Max aims to solve the problem of [improving AI performance and accessibility]. The Hacker News discussion was generally mixed, with many commenters appreciating the model's capabilities and features, especially the support for reasoning_effort, which can be used to adjust reasoning depth and control cost. At the same time, several commenters raised concerns about the cost of the model, with one commenter expressing hope that it would be significantly cheaper compared to Deepseek. Others questioned the decision to move away from open weights. The discussion suggests that the community sees promise in the Qwen 3.8-Max but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49150181,
-      "author": "Jimmc414",
-      "descendants": 4,
-      "kids": "[49150691,49150341,49150559,49150495,49150713,49150248]",
-      "score": 18,
-      "time": 1785720206,
-      "title": "RFC 9851: TLS 1.2 is in Feature Freeze",
-      "type": "story",
-      "url": "https://www.rfc-editor.org/rfc/rfc9851.html",
-      "og_image": "https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc9851.png",
-      "groq_label": "TLS 1.2 is now in feature freeze status.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis RFC proposes that TLS 1.2 is in feature freeze, aiming to address the problem of outdated TLS protocol. The Hacker News discussion is generally mixed, with many commenters appreciating that this move is likely necessary given the adoption of TLS 1.3 and the need for post-quantum cryptography. However, several commenters raised concerns, questioning the purpose of a feature freeze on TLS 1.2, especially if there were no specific revisions or optional features that needed to be addressed. The community seemed to agree that the TLS WG should follow semantic versioning and increment the major version when changing protocol features. Overall, the discussion suggests promise in the proposal but highlights important challenges in the implementation and maintenance of TLS protocols.",
-      "groq_explain": null
-    },
-    {
-      "id": 49149966,
-      "author": "nuwandavek",
-      "descendants": 16,
-      "kids": "[49150567,49150696,49150537,49150331,49150664,49150439,49150422,49150121,49150085,49150590,49150462,49150409,49150348]",
-      "score": 67,
-      "time": 1785717998,
-      "title": "Show HN: Isopolis – Isometric pixel map of SF",
-      "type": "story",
-      "url": "https://sf.isopolis.city/",
-      "og_image": "https://sf.isopolis.city/og.jpg",
-      "groq_label": "Isopolis uses Google Photorealistic 3D Tiles and three.js rendering with a scraper to stream 3D data.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Isopolis project aims to create an isometric pixel map of SF.  \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its ability to create a realistic texture base, use of Google 3D Tiles, and engaging user experience. Many appreciated the interactive features of the map, such as scrollability and information about neighborhoods. However, the discussion also revealed several criticisms. Commenters expressed concerns about minor errors and discontinuities at tile boundaries, while others noted that the ability to zoom in would enhance the overall experience. Overall, the Hacker News community considered the project highly engaging and praised its visual and auditory qualities, recognizing its potential as a valuable contribution.",
-      "groq_explain": null
-    },
-    {
-      "id": 49149898,
-      "author": "TMWNN",
-      "descendants": 9,
-      "kids": "[49150429,49150239,49150345,49150604]",
-      "score": 38,
-      "time": 1785717490,
-      "title": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
-      "type": "story",
-      "url": "https://github.com/johnsonjh/cpm386",
-      "og_image": "https://opengraph.githubassets.com/4296c1e4f88a8524fd4a0f8f65a23e6930dafafa92848b634c5bef2c0848991a/johnsonjh/cpm386",
-      "groq_label": "CP/M-386 operates in 386 protected mode to utilize system memory more efficiently.",
-      "groq_discussion": "Discussion Type: – Balanced\n\nThis CP/M-386 aims to solve the problem of limited compatibility of CP/M on newer hardware systems. The Hacker News discussion was generally positive and mixed, with many commenters appreciating the strengths of the project, such as its compatibility with modern hardware and improved efficiency compared to modern operating systems. At the same time, several commenters raised concerns about the limitations of the project, questioning its support for features like a flat memory model, which is a notable criticism.",
-      "groq_explain": null
-    },
-    {
-      "id": 49149805,
-      "author": "jeninh",
-      "descendants": 20,
-      "kids": "[49150566,49150674,49150403,49150249,49150417,49150349,49150315,49150509]",
-      "score": 38,
-      "time": 1785716601,
-      "title": "Show HN: ssh ssh.place",
-      "type": "story",
-      "url": "https://ssh.place",
-      "og_image": "https://ssh.place/canvas.png",
-      "groq_label": "Coordinating factions through a shared canvas is achieved using SSH to allow multiple users to simultaneously contribute to a collaborative drawing.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis [article/project/blog post] proposes a project called \"ssh.place\" where users can interact with a shared canvas using SSH. Hacker News commenters generally appreciated the social aspect of the project, likening it to the original r/place. However, they also expressed concerns about potential issues, such as the cooldown tied to SSH keys making it vulnerable to bot exploitation. The overall discussion was positive, with commenters recognizing the project's potential and interest in similar products.",
       "groq_explain": null
     }
   ]
