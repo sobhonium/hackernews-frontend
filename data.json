@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-03T11:30:54.333Z"
+    "lastUpdated": "2026-08-03T14:46:28.872Z"
   },
   "stories": [
+    {
+      "id": 49155629,
+      "author": "vblanco",
+      "descendants": 26,
+      "kids": "[49156169,49155969,49156475,49155947,49156438,49155964,49156052,49156207,49155791,49155834]",
+      "score": 62,
+      "time": 1785764083,
+      "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "type": "story",
+      "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!w-S9!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67ff80a9-2436-4749-a553-5f6c8c77e23c_1920x1080.png",
+      "groq_label": "Open source projects have sometimes used parameter pruning or knowledge distillation to reduce model weights without significant loss of output quality, but such approaches are case-specific and difficult to generalize.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the MiniMax H3 Day-0 Support in ComfyUI is highly positive. Commenters frequently praised its ability to dramatically shrink the memory footprint with no loss in output quality, its native frame-to-frame generation, and its spectacular results. Many appreciated the potential for this technology to be used in the creation of AI-generated video content. However, not all commenters were enthusiastic, with some criticizing the aesthetic blandness of the generated videos and the potential threat it poses to human directors. The overall consensus is that the technology is promising, but its long-term success depends on its ability to produce aesthetically pleasing and creative content.",
+      "groq_explain": null
+    },
+    {
+      "id": 49155626,
+      "author": "meysamazad",
+      "descendants": 3,
+      "kids": "[49156108]",
+      "score": 13,
+      "time": 1785764065,
+      "title": "SPF Record Syntax: Mechanisms, Qualifiers, Modifiers, and Macros",
+      "type": "story",
+      "url": "https://dmarcguard.io/blog/spf-record-syntax/",
+      "og_image": "https://dmarcguard.io/og/blog/spf-record-syntax.png",
+      "groq_label": "SPF records adhere to a strict format.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis [article/project/blog post]  aims to provide information about SPF record syntax. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as clarity of explanation. Many appreciated  the structured approach, noting that it was well-organized, while others believed it could be useful for those trying to understand SPF records from scratch. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the initial phrase being somewhat unfriendly, with some questioning the tone of the opening sentences. Overall, the Hacker News community considered the article  neutral, recognizing its potential as a resource while emphasizing that its tone could be improved to make it more approachable.",
+      "groq_explain": null
+    },
+    {
+      "id": 49154332,
+      "author": "ymir_e",
+      "descendants": 123,
+      "kids": "[49156490,49154534,49155075,49154645,49154473,49155138,49154630,49154877,49156036,49155979,49155089,49155014,49154776,49155952,49154555,49155118,49154843,49154649,49154802,49154781,49155219,49155246,49155459,49154469,49156263,49155647,49154545,49154994,49154579]",
+      "score": 380,
+      "time": 1785756534,
+      "title": "Critical CVE issued for hallucinated SQLite vulnerability",
+      "type": "story",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/",
+      "og_image": "https://speedmedia.jfrog.com/08612fe1-9391-4cf3-ac1a-6dd49c36b276/https://research.jfrog.com/assets/static/jfrog-logo-svg.5788598.74a3bea875bf053c65a0663c9ec9a0fd.svg/mxw_64,f_auto",
+      "groq_label": "CVEs are now being issued without authority verification of the vulnerability, resulting in potentially false or hallucinated vulnerabilities.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis article about a hallucinated SQLite vulnerability highlights the issue of a critical CVE being issued for a vulnerability that does not exist. Based on the Hacker News discussion, commenters generally viewed the situation as concerning, with many noting that it reduces the S/N (Signal-to-Noise) ratio, making it harder to distinguish between legitimate and illegitimate CVEs. Commenters highlighted strengths such as the potential for LLMs to discover legitimate CVEs, but also criticized the lack of validation in the submission process, which could lead to a flood of false reports. Others emphasized the need for precise dependency vetting, especially for core database engines like SQLite. However, the discussion also revealed several criticisms, including concerns about the credibility of LLM-based \"AI\" and the possibility that this incident could be exploited by blackhats. Overall, the Hacker News community considered the situation problematic, highlighting the need for better verification and validation processes.",
+      "groq_explain": null
+    },
+    {
+      "id": 49154228,
+      "author": "Anon84",
+      "descendants": 29,
+      "kids": "[49155253,49155378,49155163,49155500,49155970,49155830,49155240]",
+      "score": 62,
+      "time": 1785755748,
+      "title": "AirLLM 70B inference with single 4GB GPU",
+      "type": "story",
+      "url": "https://github.com/lyogavin/airllm",
+      "og_image": "https://opengraph.githubassets.com/1c7fdcc52bf581b5d3ce8bccf0d9220207dc13ac6e6ad4abb3227a1054939727/lyogavin/airllm",
+      "groq_label": "AirLLM 70B inference is possible on a single 4GB GPU.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis [AirLLM project] aims to solve the problem of running large language models on resource-constrained environments. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as impressive engineering and efficiency. Many appreciated the project's ability to run a 70B model on a 4GB GPU, noting that it achieves significant efficiency improvements for resource-constrained environments, while others believed it could be particularly useful for composing convincing emails, even if it takes a long time. However, the discussion also revealed several criticisms. Commenters expressed concerns about potential lack of maintenance, questioning the project's long-term viability, and noting that similar projects haven't had lasting momentum. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49154127,
       "author": "NickySlicks",
@@ -392,66 +452,6 @@
       "groq_label": "European EV sales have seen a 50% increase YoY, with 366,000 fully electric vehicles registered in June, placing them at a 26% market share.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article on Europe EV sales BEVs Jump 50% & Reach 26% Market Share aims to solve the problem of addressing the increasing adoption of electric vehicles in Europe. Based on the Hacker News discussion, commenters generally viewed \nthe article positively and highlighted strengths such as clear evidence of growing EV market. Many appreciated the mention of Australia's high EV adoption in the last quarter, noting that it shows a similar trend. However, the discussion also revealed several criticisms. Commenters expressed concerns about the writing quality, asking the author to clarify their sources and the definition of \"Europe\". Some questioned the relevance or desirability of buying a Tesla in 2026. Overall, the Hacker News community considered the article to be informative, while emphasizing the need for better presentation and more transparency.",
       "groq_explain": "Electric vehicle sales in Europe are increasing rapidly, with a 50% year-over-year jump in June, making up 26% of the overall market share. This is partly driven by cheaper models, high gas prices, and new arrivals from Chinese manufacturers, with Tesla and Chinese companies leading the way. The article suggests Europe is on track to achieve 100% electric vehicle sales by the mid-2030s."
-    },
-    {
-      "id": 49147435,
-      "author": "JumpCrisscross",
-      "descendants": 36,
-      "kids": "[49147851,49148663,49147942,49147806,49147930,49148279,49148201]",
-      "score": 94,
-      "time": 1785698364,
-      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
-      "type": "story",
-      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fff2a5872-576c-418a-937c-aaf24d9bc51a.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "groq_label": "Seven members of eBay's security team, including former police captains, conspired to harass and intimidate a couple through a campaign of intimidation, ultimately leading to a $56M payout.",
-      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the eBay harassment campaign story with a mix of shock and skepticism. Many expressed concern over the severity of the security team's actions and the apparent leniency of some of the punishments. The discussion also touched on the business practices of eBay, with several commenters criticizing the company's fees and comparing them unfavorably to a French competitor. However, there was no overwhelming consensus on the matter, and the overall sentiment suggests that the community is still processing the details of the case.",
-      "groq_explain": null
-    },
-    {
-      "id": 49147263,
-      "author": "mpweiher",
-      "descendants": 104,
-      "kids": "[49147549,49148028,49150705,49147628,49147868,49147939,49148170,49149227,49148036,49148607,49147799,49150714,49147668,49147567,49147682,49147726,49147523,49148039,49150747,49147618,49148145]",
-      "score": 126,
-      "time": 1785697145,
-      "title": "SwiftUI After 7 Years",
-      "type": "story",
-      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
-      "og_image": "https://i.ytimg.com/vi/3XaHHFOZeJg/maxresdefault.jpg",
-      "groq_label": "Autolayout is still widely considered the most robust and versatile UI layout system for iOS.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about SwiftUI aims to solve the problem of evaluating Apple's UI framework after 7 years. The Hacker News discussion was generally mixed, with many commenters appreciating certain strengths, such as the ability to use SwiftUI in conjunction with other frameworks like UIKit, Metal, or Core Animation. At the same time, several commenters raised concerns about the complexity of SwiftUI, the declarative-reactive approach, and its potential limitations. Commenters debated whether SwiftUI is a step backwards from AppKit and whether it offers significant benefits over traditional imperative frameworks. Overall, the discussion suggests that the community sees promise in SwiftUI but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49146605,
-      "author": "whatbackup",
-      "descendants": 16,
-      "kids": "[49148196,49147256,49147289,49147107]",
-      "score": 25,
-      "time": 1785692751,
-      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
-      "type": "story",
-      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
-      "og_image": "https://uphillsecurity.com/images/honeypot-map-2026-07.png",
-      "groq_label": "It appears users are increasingly relying on non-alphanumeric root passwords, but still frequently attempting common weak login credentials.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article, \"Harvesting SSH Credentials: Insights from My Honeypot Network,\" aims to provide insights into SSH credentials. \nBased on the Hacker News discussion, commenters generally viewed the issue positively and highlighted the importance of statistics, noting that they save valuable information. Many appreciated the comment about using non-alphanumeric characters for the root password, with commenters believing it's a clever and effective method to increase security. However, the discussion also revealed several criticisms, such as one commenter pointing out that the concept of \"harvesting credentials\" might be misleading, as the data is indeed \"worthless.\" Overall, the Hacker News community considered the insights interesting, recognizing the potential for learning from these honeypot networks while emphasizing the need for accurate descriptions of what's being collected.\n\n(If you want more detail add more of the discussion)",
-      "groq_explain": null
-    },
-    {
-      "id": 49146267,
-      "author": "graham33",
-      "descendants": 16,
-      "kids": "[49147415,49148086,49146758,49147293,49146391,49147237,49147262,49148155,49147280]",
-      "score": 62,
-      "time": 1785690354,
-      "title": "Show HN: NixOS-DGX-Spark – Nix and NixOS on the DGX Spark",
-      "type": "story",
-      "url": "https://github.com/graham33/nixos-dgx-spark",
-      "og_image": "https://opengraph.githubassets.com/77af5588fe889e611a7fd7ca311297cf64e3a38a055dc6c0be56113da6d2efb6/graham33/nixos-dgx-spark",
-      "groq_label": "Nix and NixOS can be used on the DGX Spark with NixOS-DGX-Spark.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project (NixOS-DGX-Spark) is overwhelmingly positive. Commenters frequently praised the project's effectiveness in managing DGX Spark machines, describing it as \"amazingly helpful\" and \"trivially self-verbose\". Many highlighted the project's benefits, such as its ability to self-verify without side effects and its compatibility with popular tools like Nix, Firecracker, and k3s. The overall consensus is that the project is a game-changer for managing DGX Spark machines, although some commenters mentioned potential use cases beyond this specific application.",
-      "groq_explain": null
     }
   ]
 }
