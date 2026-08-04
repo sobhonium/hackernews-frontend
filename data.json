@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-04T02:48:20.056Z"
+    "lastUpdated": "2026-08-04T06:32:26.962Z"
   },
   "stories": [
+    {
+      "id": 49164649,
+      "author": "meetpateltech",
+      "descendants": 34,
+      "kids": "[49164844,49164963,49164791,49164936,49164972,49164840,49164941,49164848,49164712,49164777,49164926,49164822,49164966,49164973,49164891,49164959,49164910,49164749]",
+      "score": 54,
+      "time": 1785821533,
+      "title": "Apple is getting this wrong",
+      "type": "story",
+      "url": "https://openai.com/index/apple-is-getting-this-wrong/",
+      "og_image": "images/49164649.png",
+      "groq_label": "Apple appears to be presenting a selective and potentially self-serving narrative about its dispute with OpenAI, raising questions about the company's motivations and trustworthiness.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this situation is that Apple's actions are reasonable and that OpenAI has mishandled the situation. Commenters frequently praised Apple's decision to sue OpenAI, describing the company's actions as justified and highlighting its potential to hold OpenAI accountable for its mistakes. Many also praised OpenAI's competitors, particularly those who highlighted the company's weaknesses. However, the discussion also included recurring concerns about OpenAI's transparency and communication, with many questioning the timing and tone of their official blog post. The overall consensus is that the general public views OpenAI's actions as suspicious and is likely to side with Apple in this case.",
+      "groq_explain": null
+    },
+    {
+      "id": 49162653,
+      "author": "pmg101",
+      "descendants": 39,
+      "kids": "[49164866,49164145,49164411,49163995,49164607,49164189,49163724,49163770,49163579,49162654,49164315,49163614,49164810,49164608,49163432,49163668,49163828,49163551,49163575,49163247]",
+      "score": 108,
+      "time": 1785799493,
+      "title": "There Will Come Soft Rains (1950) [pdf]",
+      "type": "story",
+      "url": "https://users.wpi.edu/~zrbutzke/Docs/BradburyStories(1).pdf",
+      "og_image": "images/49162653.png",
+      "groq_label": "Bradbury's technology vision in \"There Will Come Soft Rains\" doesn't extend into gardening automation despite predicting smart homes.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis short story \"There Will Come Soft Rains\" addresses the problem of a possible future where technology has surpassed human existence. The Hacker News discussion was generally mixed, with some commenters appreciating the author's prophetic vision of technology in the future and the strong emotional image created by the silhouettes on the wall. Many praised Bradbury's ability to predict future advancements in automated smart homes, robot vacuum cleaners, and robot mowers. However, some commenters expressed concerns that the story's technology does not extend into the garden exterior, and that this oversight seems like a flaw. Others noted that the story's message about the continuation of human-made structures without their creators resonates, but questioned the relevance of some aspects of the narrative. Recurring criticisms focused on the story's limitations, including its dated and somewhat naive portrayal of the future, as well as its perceived lack of connection between indoor and outdoor spaces. However, the discussion also highlighted the story's timeless and thought-provoking themes and its influence on later works, such as Adrian Tchaikovsky's Service Model, which takes inspiration from the story's ideas. Overall, the discussion suggests that the community sees promise in the story's exploration of the intersection of technology and humanity, but believes there are important limitations that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49162086,
       "author": "jandeboevrie",
@@ -121,6 +151,21 @@
       "og_image": "https://changelog.complete.org/wp-content/plugins/webmention/assets/img/mm.jpg",
       "groq_label": "New C-Kermit release may appeal to users in industries requiring legacy connectivity such as embedded development and industrial control systems.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis celebration of Kermit's 45 years recognizes its significance in the history of terminal emulation and automation software. Based on the Hacker News discussion, commenters generally viewed the first new C-Kermit release in 15 years positively and highlighted strengths such as its enduring utility for automating tasks, in particular for embedded development and serial port consoles. Many appreciated its reliability and the fact that it has been an essential tool for many developers over the years, with some sharing nostalgic anecdotes about its use in the early days of internet access. However, the discussion also revealed a few criticisms. Commenters expressed concerns about its potential lack of adoption among younger developers, which may be due to its relatively old-fashioned nature or the preference for more modern tools. Overall, the Hacker News community considered Kermit an important piece of software with a dedicated user base, recognizing its continued utility and potential for niche use cases, but also noting the need for it to adapt to the changing needs of modern developers.",
+      "groq_explain": null
+    },
+    {
+      "id": 49158333,
+      "author": "leonickson",
+      "descendants": 29,
+      "kids": "[49164268,49164282,49164685,49164713,49164441,49164178,49164210]",
+      "score": 99,
+      "time": 1785776055,
+      "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "type": "story",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "og_image": "https://opengraph.githubassets.com/89c6d26bd8e2057151f4a53fd1d3bf215789b0dc067a1e543423fe584b5e1ad0/leonickson1/Swiftlet",
+      "groq_label": "Researchers successfully ran 80 billion parameter models on Macs with 4.3 GB of RAM and 35 billion parameter models on iPhones, pushing the limits of current hardware capabilities.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the project, \"Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone,\" is that it has potential, but also faces significant challenges. Commenters frequently praised the project's ambition and the potential for future efficiency improvements. Many acknowledged the possibility of future advancements making it possible for everyday models to run on consumer-grade devices. At the same time, the discussion also included recurring concerns about the current impracticality of the setups, issues related to disk swapping, and the bottlenecks caused by prefill. The overall consensus is that the idea is compelling, although its long-term success depends on significant improvements in efficiency and hardware optimization.",
       "groq_explain": null
     },
     {
@@ -404,51 +449,6 @@
       "og_image": "https://arcbox.dev/og/blog/unifi-pppoe-half-bridge-acceleration.png",
       "groq_label": "UniFi's slow PPPoE performance can be significantly improved using a technique called PPPoE half-bridge.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project aims to improve PPPoE performance on UniFi. Hacker News commenters generally appreciated the solution's effectiveness and saw its potential to improve PPPoE performance. However, they also expressed concerns about potential issues with available IP addresses, and questioned the need to replace existing UniFi setups. Overall, the discussion was cautiously optimistic, recognizing both the solution's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49152842,
-      "author": "KolmogorovComp",
-      "descendants": 17,
-      "kids": "[49153587,49154207,49153108,49154065,49153533,49153250,49153544,49153274]",
-      "score": 67,
-      "time": 1785745797,
-      "title": "Bonsai: Janestreet's UI Library",
-      "type": "story",
-      "url": "https://github.com/janestreet/bonsai",
-      "og_image": "https://opengraph.githubassets.com/16fcc0d10e01a88414712c2c9642fbd7c12aed381617d8775fecb323858ba32c/janestreet/bonsai",
-      "groq_label": "Bonsai is a UI library for performant and reactive web applications in OCaml, allowing developers to compose state and incrementality primitives a la carte and leverage the power of functional programming.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis UI library, Bonsai, aims to solve the problem of high-level web UI development.  The Hacker News discussion was generally mixed, with many commenters appreciating the use of OCaml and its potential for consistency across backend and frontend, and others expressing concerns about the library being web-only and lacking native UI support.  Additionally, some commenters questioned the need for a new library when alternatives like Fog Creek's Wasabi exist. Overall, the discussion suggests that the community sees some promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "Bonsai is a UI library for building web applications in OCaml. It's designed to be fast and reactive, allowing for incremental rendering and efficient use of resources. This library matters because it provides a flexible and composable way to build complex web applications, allowing developers to easily manage state and avoid unnecessary recomputations."
-    },
-    {
-      "id": 49152640,
-      "author": "nnx",
-      "descendants": 13,
-      "kids": "[49154225,49154096,49153269,49153643,49153390,49153184,49153887,49154294]",
-      "score": 35,
-      "time": 1785744244,
-      "title": "Octane – React's programming model, compiled",
-      "type": "story",
-      "url": "https://octanejs.dev",
-      "og_image": "https://octanejs.dev/og-image.png",
-      "groq_label": "Octane's compiler tracks dependencies without rules of hooks, allowing hooks to be placed behind conditions or early returns.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Octane project aims to address the problem of improving the React programming model, specifically by compiling it. The Hacker News discussion was generally mixed, with many commenters appreciating the project's unique approach and comparing it to other frameworks like Svelte. At the same time, several commenters raised concerns about the project's documentation and the heavy use of generated content. Overall, the discussion suggests that the community sees potential in the project, but believes there are important challenges that still need to be addressed, such as how coding agents will recognize the new programming model.",
-      "groq_explain": "Octane is a new approach to building React apps, where the performance-first goal is met by compiling the code ahead of time. This eliminates the need for a virtual DOM and dependency arrays, making it easier to write code that's fast and efficient."
-    },
-    {
-      "id": 49152316,
-      "author": "tosh",
-      "descendants": 32,
-      "kids": "[49154317,49153075,49154287,49154109,49153412,49154055,49153638,49153096,49153614,49153780,49152734,49154235,49154239,49153861,49153767,49153479,49153727]",
-      "score": 33,
-      "time": 1785741747,
-      "title": "The Shape of Things to Come",
-      "type": "story",
-      "url": "https://yegge.ai/essays/the-shape-of-things-to-come/",
-      "og_image": "https://yegge.ai/images/og-card.png",
-      "groq_label": "Authors are spending excessively on AI inference and creating overly complex systems, which may not lead to substantial work or value.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Yegge's project and the broader topic of AI-powered productivity is skepticism. Commenters frequently expressed concerns about the potential dangers of relying too heavily on AI, including the risk of \"AI psychosis\" and the \"just two more things\" trap. They also questioned the practical application and effectiveness of AI-powered productivity systems, citing concerns about token limits, lack of real-world achievements, and the potential for over-reliance on abstractions. The overall consensus is that the idea is intriguing but may be overly ambitious, and its long-term success depends on addressing these concerns and demonstrating tangible benefits.",
       "groq_explain": null
     }
   ]
