@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-05T06:32:02.516Z"
+    "lastUpdated": "2026-08-05T10:40:04.374Z"
   },
   "stories": [
+    {
+      "id": 49180535,
+      "author": "igortru",
+      "descendants": 18,
+      "kids": "[49180903,49180604,49180872,49180774,49180902,49180694,49180851,49180654]",
+      "score": 23,
+      "time": 1785922577,
+      "title": "The software group Palantir paid just £2M in corporation tax in the UK in 2024",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2026/aug/05/palantir-corporation-tax-uk-2024-accounting-practices",
+      "og_image": "https://i.guim.co.uk/img/media/aaf5189c67e251323127d9b89a7b88172b2852f8/972_297_4713_3773/master/4713.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=f09e57a34fd7c0aafe669849e019d14d",
+      "groq_label": "Palantir uses tax avoidance methods and pays only £2 million in corporation tax in the UK.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/research/product (related to Palantir's tax payments in the UK) aims to inform readers about the company's tax dealings. The Hacker News discussion was generally mixed, with many commenters appreciating the transparency and criticism of Palantir's accounting practices, but also raising counterpoints and nuances. At the time of writing no one has argued the Palantir pays it's fair share of tax, the main point of discussion was how Palantir's tax payments are structured, and some commenters proposed alternative tax systems, such as taxing income rather than revenue. However, the discussion also included opinions on Palantir's intentions and implications of their practices on society. Overall, the discussion suggests that the community sees complexities in Palantir's tax situation, with a need for further exploration of both the issue and proposed solutions.",
+      "groq_explain": null
+    },
+    {
+      "id": 49180407,
+      "author": "calpaterson",
+      "descendants": 9,
+      "kids": "[49180893,49180857,49180891,49180852,49180831,49180506,49180844]",
+      "score": 28,
+      "time": 1785921333,
+      "title": "Helsinki Hacker News Meetup",
+      "type": "story",
+      "url": "https://calpaterson.com/helsinki-hn.html",
+      "og_image": "https://calpaterson.com/images/photo/hn.jpeg",
+      "groq_label": "Helsinki Hacker News Meetup has a relaxed atmosphere, meeting every month or two for coffee.",
+      "groq_discussion": "Discussion type: Basic:\n\nThis Helsinki Hacker News Meetup aims to bring together members of the Hacker News community living in or visiting Helsinki. Based on the discussion, commenters generally viewed the meetup as positive and organized, highlighting strengths such as its informal nature (a \"relaxed coffee morning\") and the fact that it has been running for over a year. Many appreciated the meetup's casual atmosphere, noting that it creates opportunities for meaningful connections among attendees. However, the discussion also revealed several criticisms. Commenters expressed concerns about the karma requirement, with some questioning its necessity and others believing it to be too low. Others noted that the meetup's location (Helsinki) may limit attendance for those from other locations but overall, the Hacker News community considered the meetup a welcoming initiative that would benefit from wider exposure.",
+      "groq_explain": null
+    },
     {
       "id": 49178702,
       "author": "1659447091",
@@ -420,36 +450,6 @@
       "og_image": "https://storage.ghost.io/c/ed/a2/eda2c6f7-faef-48b4-9ed4-86a4fa4dca68/content/images/size/w1200/2026/08/david-pupaza-heNwUmEtZzo-unsplash-1.jpg",
       "groq_label": "Adform used to serve malicious content after being compromised, highlighting the ongoing need for effective ad blockers.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is that ad blockers are necessary. Commenters frequently praised the role of ad blockers, describing them as a way to avoid the overwhelming ad experience on many websites, which bombards users with pop-ups, slide-ins, and other annoying ads. Many also noted that ad blockers are a response to the poor practices of finance and media industries. However, the discussion also included recurring concerns about the hacking of online ad giants like Adform, highlighting the need for better browser security. The overall consensus is that ad blockers are a practical solution to a problem created by the proliferation of annoying and often intrusive ads online.",
-      "groq_explain": null
-    },
-    {
-      "id": 49168886,
-      "author": "johnbarron",
-      "descendants": 120,
-      "kids": "[49170384,49171352,49170905,49170763,49170785,49171513,49171898,49171885,49170772,49171215,49170285,49170663,49171649,49171015,49171282]",
-      "score": 107,
-      "time": 1785850980,
-      "title": "Germany Records Historic 12B KWh Solar Feed-In in July 2026",
-      "type": "story",
-      "url": "https://solarquarter.com/2026/08/03/germany-records-historic-12-billion-kwh-solar-feed-in-in-july-2026/",
-      "og_image": "https://solarquarter.com/wp-content/uploads/2026/08/Website-blog-banner-design-2026-08-03T172351.920.jpg",
-      "groq_label": "Germany's record-breaking 12 billion KWh solar feed-in in July 2026 contrasts with the country's ongoing severe drought and high electricity prices, highlighting potential disparities in renewable energy's benefits.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article about Germany recording a historic 12 billion kWh solar feed-in in July 2026 aims to solve the problem of renewable energy reliance. The Hacker News discussion was generally mixed, with many commenters appreciating the country's progress in harnessing solar energy and praising its effort to reduce its dependence on fossil fuels. At the same time, several commenters raised concerns about the overall impact of the current drought on energy production and criticized the fact that Germany still has high electricity prices despite its renewable energy efforts. Overall, the discussion suggests that the community recognizes the potential benefits of Germany's solar energy production while emphasizing the need for long-term energy policy changes to ensure sustainability.",
-      "groq_explain": null
-    },
-    {
-      "id": 49167448,
-      "author": "surprisetalk",
-      "descendants": 208,
-      "kids": "[49169001,49167629,49169155,49167596,49168577,49167621,49169389,49169272,49167645,49167643,49168185,49169092,49167624,49167631,49168766,49168575,49168646,49168830,49167755,49168892,49167687,49168298,49167676,49168976,49168938,49168691,49167821,49167871,49168403,49167610,49167749,49169215,49169032,49167570,49167609]",
-      "score": 214,
-      "time": 1785844862,
-      "title": "Xbox goes down. You can't play games you own on disc",
-      "type": "story",
-      "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/",
-      "og_image": "https://storage.ghost.io/c/25/31/25312b2a-2d5b-4d01-ba92-e6755efc202c/content/images/2025/04/profile-pic.png",
-      "groq_label": "Xbox's dependence on online authentication forces users to rely on the company's servers to access games they own on physical disc, rendering them unusable in the event of an outage or server shutdown.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Xbox system is intended to allow users to play their games on disc. Based on the Hacker News discussion, commenters generally viewed the situation negatively and highlighted strengths such as preferring traditional games systems like older consoles, and not having to worry about online requirements. Many appreciated the option of still being able to play games on older consoles like the GameCube and PS3, noting that they can do so without needing an internet connection. Others believed it could be particularly useful for preserving game libraries in the long term. However, the discussion also revealed several criticisms. Commenters expressed concerns about relying on online servers to play games and the risk of losing access to games when servers are shut down. They also questioned the value of buying digital copies of games when they can't be guaranteed to play them in the future. Overall, the Hacker News community considered the situation to be a drawback, recognizing the loss of control over their games and the uncertainty surrounding the availability of their digital purchases.",
       "groq_explain": null
     }
   ]
