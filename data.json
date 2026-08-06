@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-06T02:48:53.065Z"
+    "lastUpdated": "2026-08-06T06:34:12.080Z"
   },
   "stories": [
+    {
+      "id": 49192566,
+      "author": "DarkContinent",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 11,
+      "time": 1785991595,
+      "title": "Crime Pays but Botany Doesn't",
+      "type": "story",
+      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
+      "og_image": "https://images.squarespace-cdn.com/content/v1/6228f6d2f709736d5872534f/889ec46c-b97d-4ed7-9cad-f5ce6f7ceef2/IMG_7726_1.jpg",
+      "groq_label": "Taxonomy groups organisms based on evolutionary relationships rather than just physical characteristics.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "The article is saying that teaching yourself botany isn't hard and that the field doesn't have to be intimidating. With the internet available, you can easily learn the basics and understand key concepts like Latin terminology and scientific names. It's also explaining why knowing the scientific names of plants, like the distinction between genus and species, is important and can make a big difference in learning and identifying different plants."
+    },
     {
       "id": 49191624,
       "author": "mapping365",
@@ -437,21 +452,6 @@
       "groq_label": "Cloudflare OS provides a customizable platform for agents, apps, and work tailored to each organization, making it a customized workspace rather than a traditional operating system.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Cloudflare OS is an open platform for agents, apps, and work. Based on the Hacker News discussion, commenters generally viewed \nthe project with skepticism and confusion, highlighting strengths such as the platform's openness, but criticism around its naming. Many appreciated the idea behind it, but others questioned whether it's truly a full-fledged operating system. However, the discussion also revealed several criticisms. Commenters expressed concerns about its naming and questioning whether it deserves to be called an OS, while others pointed out that there isn't more information available about how it actually works. Overall, the Hacker News community considered the project confusing or misleading, recognizing its potential but emphasizing that addressing this confusion around its naming and nature would improve its understanding and adoption.",
       "groq_explain": "Cloudflare's open-source platform, Cloudflare OS, aims to enable organizations to create their own workspaces and tools tailored to their specific needs and systems, making it easier for employees to work together towards a shared mission."
-    },
-    {
-      "id": 49182847,
-      "author": "speckx",
-      "descendants": 6,
-      "kids": "[49183195,49183212,49183012,49183052]",
-      "score": 19,
-      "time": 1785937638,
-      "title": "A Sick People",
-      "type": "story",
-      "url": "https://householderkarl.com/a-sick-people/",
-      "og_image": "https://householderkarl.com/static/og-image.png",
-      "groq_label": "Many Americans attribute societal problems to a supposed curse stemming from the mass death of native Americans.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThe Hacker News discussion was generally critical, with many commenters sharing concerns about the state of America. However, the discussion also showed a mix of views on the causes behind these issues, with one commenter attributing American problems to capitalism, while others suggested a more complex set of factors. The overall sentiment suggests that the community was critical of America's current state, but opinions on the underlying reasons for these problems varied.",
-      "groq_explain": null
     }
   ]
 }
