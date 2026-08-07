@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T03:49:30.610Z"
+    "lastUpdated": "2026-08-07T05:43:25.088Z"
   },
   "stories": [
+    {
+      "id": 49206115,
+      "author": "frays",
+      "descendants": 2,
+      "kids": "[49206281,49206260]",
+      "score": 12,
+      "time": 1786079727,
+      "title": "Anthropic CEO reportedly worried new hires only care about money",
+      "type": "story",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+      "og_image": "https://s.yimg.com/lo/mysterio/api/788B79EA44A4705016BF14D10066758E05E72E0DBECF5D8D08839244F6525E32/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2Ffdf62ffc66467d337f5ddfca59bf78e6",
+      "groq_label": "Anthropic CEO Sam Altman is reportedly concerned that many new employees prioritize financial gain over the company's mission.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this [article/project/blog post/research/product] is dismissive. Commenters frequently panned the notion that employees in Silicon Valley would prioritize mission over money, describing the idea as unrealistic and naive. However, the discussion also included recurring criticism about Dario Amodei's reaction, with many questioning his perceived neuroses and worrying about things that may not be a real problem. The overall consensus is that the comment from the Anthropic CEO is overly dramatic and doesn't reflect the reality of the tech industry.",
+      "groq_explain": null
+    },
     {
       "id": 49204388,
       "author": "kzahiri",
@@ -437,21 +452,6 @@
       "groq_label": "Meta is offering a deeply discounted pricing tier for its Muse Spark model called \"Contributor\" that is roughly one tenth of normal API pricing in exchange for data usage for training.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis AI model, Muse Code and Muse Spark 1.2, aims to improve upon its previous versions and compete with other models like Deepseek V4 Flash and Luna. The Hacker News discussion was generally mixed, with commenters appreciating the improved performance, particularly in comparison to Grok 4.5, and the relatively low pricing for the \"Contributor\" version. However, several commenters raised concerns about the marketing approach, criticizing the comparison to Terra instead of Sol and the decision to remove the clear goal to beat the Chinese labs on price or performance. Some also questioned the data collection and pricing strategy, suggesting that it could be price discrimination or a way to retain valuable data. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
-    },
-    {
-      "id": 49187259,
-      "author": "triska",
-      "descendants": 1,
-      "kids": "[49188322]",
-      "score": 20,
-      "time": 1785955978,
-      "title": "Sula: A Gemini protocol server written in Scryer Prolog",
-      "type": "story",
-      "url": "https://sagredo.dev/projects/sula/",
-      "og_image": "https://sagredo.dev/img/sula.png",
-      "groq_label": "A Gemini protocol server in Scryer Prolog is achieved through the use of native Prolog builtins to minimize memory usage during file transfers.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Sula project, a Gemini protocol server written in Scryer Prolog, aims to solve the problem of enabling Gemini protocol usage with Prolog. The Hacker News discussion was generally positive, with many commenters appreciating Javier's contribution of the Sula project and the Scryer Prolog improvements that make it possible. Several commenters raised concerns about the project's limitations, arguing that it would be more impactful if it contributed directly to the Scryer Prolog project, specifically by pushing the mentioned PRs for inclusion. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "This article is about a Gemini protocol server called Sula, which is written in a programming language called Scryer Prolog. The server uses TLS encryption, hostname verification, and content negotiation, and is designed for serving files and responding to text and binary requests. It also features a clean shutdown process and per-connection error handling. The server requires a patched version of Scryer Prolog, which can be built and installed using the provided instructions."
     }
   ]
 }
