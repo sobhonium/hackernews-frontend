@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T09:04:39.008Z"
+    "lastUpdated": "2026-08-07T13:11:18.738Z"
   },
   "stories": [
+    {
+      "id": 49209368,
+      "author": "ceejayoz",
+      "descendants": 3,
+      "kids": "[49209800,49209821]",
+      "score": 17,
+      "time": 1786105660,
+      "title": "DOGE overstated savings, government watchdog says",
+      "type": "story",
+      "url": "https://www.politico.com/news/2026/08/06/doge-savings-overstated-watchdog-report-01027797",
+      "og_image": "images/49209368.png",
+      "groq_label": "Government reports reveal widespread exaggeration in DOGE's touted financial reserves.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis report about the potential overstating of savings by DOGE is generally unsurprised by the government watchdog's assertion. The Hacker News discussion suggests that many commenters agree with the watchdog and see the issue as predictable, with some noting that the consequences could be severe and long-lasting.",
+      "groq_explain": null
+    },
+    {
+      "id": 49208314,
+      "author": "defrost",
+      "descendants": 349,
+      "kids": "[49208499,49209569,49208540,49208521,49208602,49208676,49209837,49208573,49209345,49208713,49209737,49208633,49208509,49209567,49209407,49208564,49208611,49209740,49209719,49208546,49209227,49208500,49208526,49208543,49209453,49208603,49208616,49208777,49208865,49209037,49209108,49209059,49209425,49208512,49209459,49208632,49208496,49208542,49209356,49209291,49208981,49208906,49208707,49208666,49209036,49208936,49208812,49208612,49208557,49208491,49209358,49209004,49208814,49209394,49208574,49208725,49208665,49208709,49208892,49209672,49208505,49208629,49208504,49208923,49208721,49208772]",
+      "score": 380,
+      "time": 1786098535,
+      "title": "US strikes $1.2B deal to pay German firm to halt offshore wind projects",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/c1e1vg0gjl5o",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
+      "groq_label": "The US has agreed to pay a German firm $1.2B to halt offshore wind projects, contradicting Interior Secretary Doug Burgum's statement that Americans deserve an energy system built on common sense rather than costly subsidies.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis $1.2B deal aims to halt offshore wind projects. Based on the Hacker News discussion, commenters generally viewed the project negatively and highlighted strengths such as a strong point about the current energy mix but it seems most see this decision as backward. Many appreciated the idea of not subsidizing fossil fuels, noting that the US is building offshore wind instead, while others believed that this project could be particularly useful for advancing the country's energy system but it seems the deal contradicts that. However, the discussion also revealed several criticisms. Commenters expressed concerns about the wasteful use of money, the potential damage to climate, and the influence of special interest groups. Overall, the Hacker News community considered the decision unfortunate and wasteful, recognizing the potential progress that could have been made with the funds.",
+      "groq_explain": null
+    },
     {
       "id": 49207236,
       "author": "inigyou",
@@ -421,36 +451,6 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!UXVg!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8a4fb4a-8a41-4520-8f34-8634442a2612_2300x1272.png",
       "groq_label": "Large language models will likely accelerate math research, potentially leading to breakthroughs that break existing asymmetric encryption algorithms.",
       "groq_discussion": "Discussion type:  Balanced\n\nThis [article/research paper on LLMs and cryptography] aims to explore the potential of large language models (LLMs) to break symmetric crypto. The Hacker News discussion was generally mixed, with some commenters appreciating the potential of LLMs to accelerate math research and increase understanding in areas like quantum mechanics, which may lead to breakthroughs that affect symmetric encryption algorithms. However, several commenters raised concerns about the likelihood of LLMs breaking symmetric crypto, arguing that these systems rely on mathematical impossibilities, time constraints for brute force attacks, and the correctness of algorithms and code used in implementations. Some commenters also pointed out that the code and algorithm correctness aspect is where LLMs might have a chance, but not in breaking the mathematical underpinnings of symmetric crypto itself. Others questioned the idea of LLMs breaking standard asymmetric encryption algorithms and emphasized that the battle-tested nature of these algorithms, along with the lack of publicly successful attacks, should give people confidence in their security. Overall, the discussion suggests that the community sees potential for LLMs to impact cryptography, but also believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49189287,
-      "author": "ExMachina73",
-      "descendants": 72,
-      "kids": "[49190604,49189527,49189444,49191405,49190088,49190874,49190716,49190908,49190944,49190378,49191423,49190599,49190928,49189961,49190504,49190212,49189967,49190322,49190401,49190839]",
-      "score": 163,
-      "time": 1785965363,
-      "title": "The title cards in Blade Runner are amazing",
-      "type": "story",
-      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
-      "og_image": "https://randsinrepose.com/wp-content/uploads/2026/08/bladerunner.png",
-      "groq_label": "Title cards in Blade Runner use a mix of custom typography, clever kerning and positioning, as well as creative use of red ink to create a striking impression.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the discussion about the title cards in Blade Runner with a mixture of admiration and appreciation for the typography, score, and visuals that set the tone for the film. Many commenters praised the specific design elements, such as the Berkeley Mono font and the effective use of em dashes. Some also appreciated the unique aesthetic of the title cards and the accompanying score. Nevertheless, recurring criticisms focused on the technical aspects of the design, including the potential for misinterpretation due to font usage and the potential for improvement in design. As a whole, commenters viewed the title cards as an iconic and well-executed component of the movie, with both clear strengths and notable limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49189234,
-      "author": "pella",
-      "descendants": 13,
-      "kids": "[49189951,49191354,49190781,49189627,49189821,49190334]",
-      "score": 93,
-      "time": 1785965085,
-      "title": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
-      "type": "story",
-      "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!o1nY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bf7fee6-a173-429e-87e9-7c1fba499e5a_1895x1493.png",
-      "groq_label": "NVIDIA's Vera architecture uses a large amount of ordinary compute to benefit from its scaling properties and is designed to handle value speculation and potential security risks.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis NVIDIA Vera Whitepaper focuses on solving the problem of efficiently processing artificial intelligence and agentic workloads. The Hacker News discussion suggests that commenters were primarily impressed by the chip's potential to scale and its internal discussions, but with several concerns about the approach and marketing tactics. Many praised its technical aspects, but also highlighted that it might be misleading to call certain SPEC benchmarks \"agentic\", and that NVIDIA is still the company with a history of misleading marketing. Several commenters pointed out the CPU's focus on value speculation, which might not be a good idea in today's security-conscious world. While some commenters appreciated the competition and the potential for meaningful change, others pointed out that this new chip is more of the same from NVIDIA, with questionable marketing claims. Despite these criticisms, the overall impression was that the project introduces an interesting idea, but it would benefit from further refinement, especially in terms of marketing tactics and security considerations.",
       "groq_explain": null
     }
   ]
