@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T05:43:25.088Z"
+    "lastUpdated": "2026-08-07T09:04:39.008Z"
   },
   "stories": [
+    {
+      "id": 49207236,
+      "author": "inigyou",
+      "descendants": 6,
+      "kids": "[49207708,49207605,49207636,49207631,49207663,49207511]",
+      "score": 26,
+      "time": 1786089504,
+      "title": "2027 memory capacity is reportedly sold out",
+      "type": "story",
+      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
+      "og_image": "https://assets-prd.ignimgs.com/2022/06/24/corsair-dominator-platinum-rgb-1656107201735.jpg?width=1280&format=jpg&auto=webp&quality=80",
+      "groq_label": "Global memory suppliers have reportedly reached maximum production capacity for 2027.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article about memory capacity reportedly selling out is viewed positively by Hacker News commenters. They see it as a cautionary measure against investing in more production capability, something the \"Big 3\" had been hesitant to do. Additionally, many point out that the rising costs of memory highlight the incorrect assumption that it was cheap.",
+      "groq_explain": null
+    },
     {
       "id": 49206115,
       "author": "frays",
@@ -34,6 +49,21 @@
       "groq_explain": null
     },
     {
+      "id": 49204352,
+      "author": "boplicity",
+      "descendants": 150,
+      "kids": "[49206604,49204635,49207640,49204487,49207398,49206145,49206683,49204449,49204749,49205426,49207196,49206111,49206824,49206695,49206837,49206358,49206156,49206043,49205518,49204649,49205394,49204952,49204855,49204868,49207168,49207554]",
+      "score": 234,
+      "time": 1786061188,
+      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
+      "og_image": "https://i.guim.co.uk/img/media/6e9c72f1d4d1541ee16137214046b3255b6a1981/410_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bde32639cfe3328257ea8f512bc97b88",
+      "groq_label": "A New Mexico court used the state's public-nuisance law to hold Meta accountable for harms to children's mental health, with the company facing a $567 million judgment.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis court ruling aims to solve the problem of social media giants harming children's mental health. \nBased on the Hacker News discussion, commenters generally viewed the outcome positively and highlighted strengths such as the court's bold action in imposing a large fine on Meta, despite its relatively small jurisdiction. Many appreciated the ruling's emphasis on Meta's responsibility in ensuring children's safety online, noting that it could improve the mental health of countless young users. Some believed it could be particularly useful for setting a precedent for other governments to hold tech companies accountable. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential impact of increased regulation on internet anonymity and freedom of expression, questioning whether such measures would truly prevent children from accessing objectionable content. Overall, the Hacker News community considered the ruling a significant step forward, recognizing its potential to push Meta and other tech giants to prioritize children's safety more seriously.",
+      "groq_explain": null
+    },
+    {
       "id": 49204060,
       "author": "worik",
       "descendants": 2,
@@ -46,6 +76,21 @@
       "og_image": "https://media.wired.com/photos/6a749b5af36b5a790db748af/191:100/w_1280,c_limit/Security_Dozens%20of%20GPS%20Devices%20for%20Kids%20and%20Cars%20Are%20Vulnerable%20to%20Spying%20and%20Sabotage_v1.jpg",
       "groq_label": "The vulnerability of smartwatches meant for children can allow hackers to intercept personal data from public places, blurring the lines between public and private spaces.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to solve the problem of a parent's smartwatch for their child being hacked. \nBased on the Hacker News discussion, commenters generally viewed the situation positively and highlighted the fact that the child has no expectation or right to privacy in public. Many appreciated the honesty that the situation was not a real problem. However, the discussion also revealed several criticisms. The only criticism being that parents should have no expectation that their children's location is private in public. Overall, the Hacker News community considered privacy concerns in public to be a valid perspective, realizing that some level of surveillance may be necessary in certain situations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49203707,
+      "author": "purestatelabs",
+      "descendants": 1,
+      "kids": "[49204406,49203708]",
+      "score": 12,
+      "time": 1786056609,
+      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
+      "type": "story",
+      "url": "https://zenodo.org/records/21359923",
+      "og_image": "https://zenodo.org/static/images/orcid.svg",
+      "groq_label": "The paper likely uses simulated quantum chemistry benchmarks to inaccurately model complex electronic behaviors in iron-sulfur clusters due to limitations of current quantum computing technology.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis preprint on SQD/QSCI quantum-chemistry benchmarks aims to solve the problem of improving quantum-chemistry simulations. Based on the Hacker News discussion, commenters generally viewed the preprint negatively and highlighted several criticisms. Many agreed with the original poster (OP) that the paper represents an attempt to misrepresent science for business purposes. They criticized the paper for promoting error-prone quantum chemistry simulations and exploiting them to emulate other quantum systems without addressing the issue of error correction. The discussion also included technical concerns regarding the behavior of electrons, which some commenters pointed out as a fundamental challenge in the field. Overall, the Hacker News community considered the preprint flawed and misrepresentative of real scientific progress, noting that it reflects the shortcomings of its underlying assumptions.",
       "groq_explain": null
     },
     {
@@ -91,6 +136,21 @@
       "og_image": "https://www.sciencedaily.com/images/1920/young-woman-biting-chewing-gum.webp",
       "groq_label": "Bioengineered chewing gum releases antibodies directly into the bloodstream to target human papillomavirus and other microorganisms.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis bioengineered chewing gum aims to fight HPV and other microbes. Based on the Hacker News discussion, commenters generally viewed the project with skepticism, expressing doubts about its effectiveness and legitimacy. Many considered the pitch to be overly promotional, with one commenter noting that it reads like an advertisement. The lack of concrete evidence and the perceived bias in the presentation contributed to the negative reaction from the community. However, the discussion also touched on the potential of bioengineered products to address real-world health issues, suggesting that the project could be seen as an interesting area of research if presented more neutrally. Overall, the Hacker News community considered the project with caution, recognizing its potential but emphasizing the need for more reliable information and a more balanced presentation.",
+      "groq_explain": null
+    },
+    {
+      "id": 49202690,
+      "author": "rogix",
+      "descendants": 20,
+      "kids": "[49207661,49207096,49206873,49207652,49207401,49207428,49207093,49207520,49206953,49207109,49206962,49207423,49207121,49207302,49206908]",
+      "score": 42,
+      "time": 1786051012,
+      "title": "What is a product?",
+      "type": "story",
+      "url": "https://roge.onwrite.app/what-is-a-product",
+      "og_image": "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjE5NDZ8MHwxfHNlYXJjaHwyN3x8cHJvZHVjdHxlbnwxfHx8fDE3ODYwNTA1ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "groq_label": "Building a successful product is not just about writing code quickly, but also about understanding what a product is and how to create one that can be relied upon by users.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article focuses on what constitutes a product. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of a product as something that solves a real problem in the real world. However, others disagreed, arguing that a product is something that can be exchanged, transferred, and used according to one's free will, regardless of whether it has users or solves a specific problem. The discussion also touched on the challenges of creating new products, including the importance of originality and addressing network effects. Overall, the discussion suggests that there is no clear consensus on what constitutes a product, with valid arguments on both sides.",
       "groq_explain": null
     },
     {
@@ -391,66 +451,6 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!o1nY!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bf7fee6-a173-429e-87e9-7c1fba499e5a_1895x1493.png",
       "groq_label": "NVIDIA's Vera architecture uses a large amount of ordinary compute to benefit from its scaling properties and is designed to handle value speculation and potential security risks.",
       "groq_discussion": "Discussion type: – Detailed:\n\nThis NVIDIA Vera Whitepaper focuses on solving the problem of efficiently processing artificial intelligence and agentic workloads. The Hacker News discussion suggests that commenters were primarily impressed by the chip's potential to scale and its internal discussions, but with several concerns about the approach and marketing tactics. Many praised its technical aspects, but also highlighted that it might be misleading to call certain SPEC benchmarks \"agentic\", and that NVIDIA is still the company with a history of misleading marketing. Several commenters pointed out the CPU's focus on value speculation, which might not be a good idea in today's security-conscious world. While some commenters appreciated the competition and the potential for meaningful change, others pointed out that this new chip is more of the same from NVIDIA, with questionable marketing claims. Despite these criticisms, the overall impression was that the project introduces an interesting idea, but it would benefit from further refinement, especially in terms of marketing tactics and security considerations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49189075,
-      "author": "Xeophon",
-      "descendants": 19,
-      "kids": "[49190153,49190331,49190083,49190028,49190852,49190228,49189863,49189823,49191400]",
-      "score": 111,
-      "time": 1785964317,
-      "title": "Prime Agent: A self-improving RLM agent",
-      "type": "story",
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "og_image": "https://primeintellect.ai/blog/prime-agent/cover.png?v=prime-agent",
-      "groq_label": "The LLM agent, Prime Agent, can seemingly become overly complicated with large amounts of unreviewed code.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the \"Prime Agent: A self-improving RLM agent\" project is that it is a promising but flawed approach to recursive language modeling (RLM). Commenters frequently praised the project's ability to \"almost\" saturate the ARC-AGI-3 benchmark and its interest in harness engineering, but they also highlighted recurring concerns about the codebase's bloat and the potential for overengineering. The overall consensus is that the idea is compelling, although its long-term success depends on further refinement and optimization.",
-      "groq_explain": null
-    },
-    {
-      "id": 49188022,
-      "author": "speckx",
-      "descendants": 11,
-      "kids": "[49188900,49188989,49188964,49188898,49188935,49188995,49188874,49188801,49188338]",
-      "score": 35,
-      "time": 1785959413,
-      "title": "I'm switching my phone from Android to Linux",
-      "type": "story",
-      "url": "https://runarcn.no/android-to-linux/",
-      "og_image": "https://runarcn.no/static/og-image.png",
-      "groq_label": "Google Play Services interferes with the functionality of certain services on non-Android operating systems.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis discussion about switching from Android to Linux focuses on the idea of having control over one's device. Hacker News commenters generally appreciated the flexibility and customization options offered by Linux, particularly the ability to ssh remotely and tinker with the system. However, some expressed concerns that not all features, such as Google Play Services, work seamlessly on Linux-based systems like Graphene OS. The discussion was generally positive and optimistic about the potential of Linux on mobile devices.",
-      "groq_explain": null
-    },
-    {
-      "id": 49187977,
-      "author": "malshe",
-      "descendants": 48,
-      "kids": "[49188389,49188806,49189032,49189022,49188975,49188941,49189068,49188769,49188494,49188960,49188264,49188227,49188282,49188263,49188984,49188464,49188368,49188481]",
-      "score": 106,
-      "time": 1785959246,
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "type": "story",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "og_image": "https://media.wired.com/photos/6a6d058753afe1590265744d/191:100/w_1280,c_limit/073126-meta-nudify-ads-children.jpg",
-      "groq_label": "Meta ran ads that contained AI-generated child sexual abuse imagery on its platforms, including Facebook, Threads, Messenger, and Instagram.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Meta Ran's use of AI-generated child sexual abuse imagery in ads is extremely negative. Commenters frequently slammed the company's actions as \"horrible\" and \"classy as usual,\" and expressed frustration that the fines Meta faced did not seem to have changed its ways. The consensus is that Meta's reliance on automated tools to moderate content has proven ineffective, and that the company needs to be held meaningfully liable for its actions. Many commenters also noted that the incident highlights the broader problem of tech companies' impact on democracy, citing examples like Facebook's role in the Brexit campaign. The overall consensus is that Meta's actions are unacceptable and that the company's leaders need to be held accountable.",
-      "groq_explain": null
-    },
-    {
-      "id": 49187575,
-      "author": "paulkrush",
-      "descendants": 112,
-      "kids": "[49188633,49188503,49188390,49188208,49188024,49190742,49191106,49188395,49187822,49191043,49190875,49189380,49188435,49188224,49188176,49187934,49188623,49188415,49188026,49188380,49191259,49187586,49188188,49189843,49190502,49188539,49188288,49190421,49188887,49187943,49188784,49188149,49188443,49187916,49187909,49188617]",
-      "score": 190,
-      "time": 1785957352,
-      "title": "Muse Code and Muse Spark 1.2",
-      "type": "story",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "og_image": "https://lookaside.fbsbx.com/elementpath/media/?media_id=27275013325511244&version=1785879996",
-      "groq_label": "Meta is offering a deeply discounted pricing tier for its Muse Spark model called \"Contributor\" that is roughly one tenth of normal API pricing in exchange for data usage for training.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis AI model, Muse Code and Muse Spark 1.2, aims to improve upon its previous versions and compete with other models like Deepseek V4 Flash and Luna. The Hacker News discussion was generally mixed, with commenters appreciating the improved performance, particularly in comparison to Grok 4.5, and the relatively low pricing for the \"Contributor\" version. However, several commenters raised concerns about the marketing approach, criticizing the comparison to Terra instead of Sol and the decision to remove the clear goal to beat the Chinese labs on price or performance. Some also questioned the data collection and pricing strategy, suggesting that it could be price discrimination or a way to retain valuable data. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
