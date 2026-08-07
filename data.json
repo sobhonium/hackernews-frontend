@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T20:46:45.659Z"
+    "lastUpdated": "2026-08-07T21:23:32.544Z"
   },
   "stories": [
+    {
+      "id": 49215762,
+      "author": "docracy",
+      "descendants": 2,
+      "kids": "[49216369,49216329,49215763]",
+      "score": 6,
+      "time": 1786134206,
+      "title": "Chasa",
+      "type": "story",
+      "url": "https://chasa.io/",
+      "og_image": "https://chasa.io/brand/og/chasa-og-1200x630.png",
+      "groq_label": "Chasa automates follow-up on overdue invoices with AI-generated reminder emails.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Chasa appears to be mixed or critical. Commenters seem to be reacting negatively to the idea, with one commenter expressing sarcasm by suggesting it's \"leaning straight into the dystopia\" and another reacting with a question. The limited and somewhat cryptic discussion suggests that Chasa may not have resonated well with the community.",
+      "groq_explain": "Chasa is a tool that helps you write and send professional payment reminders to clients who are overdue on their invoices, without having to worry about sounding desperate. It uses AI to draft follow-up emails that tone matches the number of days the payment is overdue, and you can then copy, tweak, and send them from your own email account."
+    },
     {
       "id": 49214863,
       "author": "_da_",
@@ -436,21 +451,6 @@
       "og_image": "https://zenodo.org/static/images/orcid.svg",
       "groq_label": "The paper likely uses simulated quantum chemistry benchmarks to inaccurately model complex electronic behaviors in iron-sulfur clusters due to limitations of current quantum computing technology.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis preprint on SQD/QSCI quantum-chemistry benchmarks aims to solve the problem of improving quantum-chemistry simulations. Based on the Hacker News discussion, commenters generally viewed the preprint negatively and highlighted several criticisms. Many agreed with the original poster (OP) that the paper represents an attempt to misrepresent science for business purposes. They criticized the paper for promoting error-prone quantum chemistry simulations and exploiting them to emulate other quantum systems without addressing the issue of error correction. The discussion also included technical concerns regarding the behavior of electrons, which some commenters pointed out as a fundamental challenge in the field. Overall, the Hacker News community considered the preprint flawed and misrepresentative of real scientific progress, noting that it reflects the shortcomings of its underlying assumptions.",
-      "groq_explain": null
-    },
-    {
-      "id": 49203105,
-      "author": "gnabgib",
-      "descendants": 13,
-      "kids": "[49203328,49203401,49203816,49203359,49203584]",
-      "score": 72,
-      "time": 1786053136,
-      "title": "Welcoming the Nepalese Government to Have I Been Pwned",
-      "type": "story",
-      "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
-      "og_image": "https://storage.ghost.io/c/fb/33/fb3391dc-723d-4e74-b95a-d641b5feb38e/content/images/2026/07/Nepal-Flag.png",
-      "groq_label": "Nepal's government has become a customer of the data breach notification service Have I Been Pwned.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of government-run IT services lacking security in Nepal. The Hacker News discussion was generally positive/mixed, with many commenters appreciating the effort to include the Nepalese Government in the Have I Been Pwned database and its potential to improve security. At the same time, several commenters raised concerns about the timing of the announcement, questioning whether data has been leaked and added to the database. Overall, the discussion suggests that the community sees promise in the initiative but believes there are important challenges that still need to be addressed, particularly regarding the security implications of the move.",
       "groq_explain": null
     }
   ]
