@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T00:58:23.451Z"
+    "lastUpdated": "2026-08-07T03:49:30.610Z"
   },
   "stories": [
     {
@@ -16,6 +16,21 @@
       "og_image": "https://opengraph.githubassets.com/1dbde36ea5ce6228cc8b4e53ffa8d658470775937882dd738b3934d7c844114c/Kayvan-Zahiri/asr-age-gap",
       "groq_label": "The authors attribute improved Whisper transcription accuracy for 70-year-olds to a more consistent tone and pace.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is generally critical, but with some constructive feedback. Commenters frequently criticized the lack of clear explanation in the README, suggesting it would benefit from being written by a human rather than a Large Language Model (LLM). However, there is no recurring consensus on the project's actual idea or findings, as the first comment barely touches upon the idea of the project itself. The overall consensus is that the presentation needs improvement.",
+      "groq_explain": null
+    },
+    {
+      "id": 49204060,
+      "author": "worik",
+      "descendants": 2,
+      "kids": "[49205633,49205690]",
+      "score": 18,
+      "time": 1786059003,
+      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
+      "type": "story",
+      "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
+      "og_image": "https://media.wired.com/photos/6a749b5af36b5a790db748af/191:100/w_1280,c_limit/Security_Dozens%20of%20GPS%20Devices%20for%20Kids%20and%20Cars%20Are%20Vulnerable%20to%20Spying%20and%20Sabotage_v1.jpg",
+      "groq_label": "The vulnerability of smartwatches meant for children can allow hackers to intercept personal data from public places, blurring the lines between public and private spaces.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to solve the problem of a parent's smartwatch for their child being hacked. \nBased on the Hacker News discussion, commenters generally viewed the situation positively and highlighted the fact that the child has no expectation or right to privacy in public. Many appreciated the honesty that the situation was not a real problem. However, the discussion also revealed several criticisms. The only criticism being that parents should have no expectation that their children's location is private in public. Overall, the Hacker News community considered privacy concerns in public to be a valid perspective, realizing that some level of surveillance may be necessary in certain situations.",
       "groq_explain": null
     },
     {
@@ -437,21 +452,6 @@
       "groq_label": "A Gemini protocol server in Scryer Prolog is achieved through the use of native Prolog builtins to minimize memory usage during file transfers.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Sula project, a Gemini protocol server written in Scryer Prolog, aims to solve the problem of enabling Gemini protocol usage with Prolog. The Hacker News discussion was generally positive, with many commenters appreciating Javier's contribution of the Sula project and the Scryer Prolog improvements that make it possible. Several commenters raised concerns about the project's limitations, arguing that it would be more impactful if it contributed directly to the Scryer Prolog project, specifically by pushing the mentioned PRs for inclusion. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": "This article is about a Gemini protocol server called Sula, which is written in a programming language called Scryer Prolog. The server uses TLS encryption, hostname verification, and content negotiation, and is designed for serving files and responding to text and binary requests. It also features a clean shutdown process and per-connection error handling. The server requires a patched version of Scryer Prolog, which can be built and installed using the provided instructions."
-    },
-    {
-      "id": 49187256,
-      "author": "ahamez",
-      "descendants": 72,
-      "kids": "[49187716,49188367,49189014,49188513,49187785,49187762,49188870,49187477,49188675,49188546,49188622,49188512,49188551,49187862,49188341,49188499,49189036,49187556,49188121,49188128,49188262,49188155,49188522,49187924,49187748,49187925,49187717,49188750]",
-      "score": 174,
-      "time": 1785955974,
-      "title": "Zed DeltaDB",
-      "type": "story",
-      "url": "https://zed.dev/deltadb",
-      "og_image": "https://zed.dev/api/og?title=DeltaDB",
-      "groq_label": "DeltaDB focuses on adding local version control with data provenance for the editor, allowing agents to track changes more efficiently.",
-      "groq_discussion": "Discussion type: - Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Zed DeltaDB is mixed, but with a leaning towards criticism. Commenters frequently highlighted issues and limitations, such as the lack of basic functionality, usability problems, and the unnecessary nature of a new version control system. Many praised the idea of DeltaDB as being useful for training agents, but expressed concerns about its usefulness to humans. Commenters also criticized the project's focus on \"vibe code-y\" design, suggesting that a system based on Git and file system artifacts would be better. The overall consensus is that the idea is not fully realized and still needs refinement and prioritization of basic issues.",
-      "groq_explain": null
     }
   ]
 }
