@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-08T20:36:26.937Z"
+    "lastUpdated": "2026-08-08T21:03:02.263Z"
   },
   "stories": [
+    {
+      "id": 49225139,
+      "author": "MarcoDewey",
+      "descendants": 2,
+      "kids": "[49225875,49225816]",
+      "score": 12,
+      "time": 1786217888,
+      "title": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "type": "story",
+      "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute",
+      "og_image": "https://eclipsefan.org/img/og/og-en.jpg",
+      "groq_label": "The interactive map allows users to track the path of the Aug 12 total solar eclipse in real-time, including live updates and viewing locations around the world.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis interactive map for the Aug 12 total solar eclipse aims to solve the problem of providing a comprehensive visualization tool for the celestial event. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its sophistication, \ngreat details, and comprehensive approach. Many appreciated its global \nreach, noting that it allowed people to tune in virtually, while others \nbelieved it could be particularly useful for those outside the eclipse path. \nHowever, the discussion also revealed some minor points of criticism. \nCommenters mostly did not express any major concerns. Overall, the Hacker \nNews community considered the project enthusiastically, recognizing its \npotential for broadening global access to this event.",
+      "groq_explain": null
+    },
     {
       "id": 49224294,
       "author": "theanonymousone",
@@ -436,21 +451,6 @@
       "og_image": "https://ancientlibrary.net/wp-content/uploads/ancientlibrary/og-default.png",
       "groq_label": "The Ancient Library website offers interactive parsing of over 1,060 Greek and Latin texts, allowing users to click on any word for detailed definition and analysis.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis Ancient Library project aims to solve the problem of providing a comprehensive and interactive resource for ancient Greek and Latin texts. The Hacker News discussion was generally positive, with many commenters appreciating the project's strengths and potential to improve the accessibility of these texts. Commenters praised the idea of clicking on any word to parse it, and some even shared their own similar projects, such as the NoDictionaries project. They also suggested further improvements, such as changing the font, bolding the meaning of words, and integrating with other resources like the Barrington Atlas. However, the discussion also raised some questions and concerns about the project's limitations, including the need for clearer word definitions and better formatting. Overall, the discussion suggests that the community sees promise in the project but believes that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49214468,
-      "author": "moonikakiss",
-      "descendants": 56,
-      "kids": "[49215487,49215538,49215417,49215215,49215350,49215375,49215362,49215333,49215593,49215388,49215091,49215358,49215251,49215364]",
-      "score": 96,
-      "time": 1786127117,
-      "title": "Databricks drove down AI coding spend 70%",
-      "type": "story",
-      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-      "og_image": "https://www.databricks.com/sites/default/files/2026-08/2026-08-blog-managing-coding-costs.png",
-      "groq_label": "Databricks was able to reduce AI coding spend by 70% through a new approach focused on routing logic and token efficiency.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis Databricks-driven technology aims to solve the problem of high AI coding costs. The Hacker News discussion was generally mixed, with several commenters appreciating the approach's potential to reduce costs, citing the use of newer, more efficient models and token efficiency as key benefits. Others raised concerns about the limitations of this approach, noting that it may feel like a gamble to save costs at the expense of developer productivity, and that the benefits may be similar to simply using a cheaper hosting platform. Overall, the discussion suggests that the community sees some promise in the technology but believes that more nuanced and careful approaches, such as context control and workflow optimization, may be more effective in achieving long-term savings.",
       "groq_explain": null
     }
   ]
