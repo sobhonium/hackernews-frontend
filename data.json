@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-07T21:23:32.544Z"
+    "lastUpdated": "2026-08-08T01:49:56.273Z"
   },
   "stories": [
+    {
+      "id": 49217993,
+      "author": "Meleagris",
+      "descendants": 1,
+      "kids": "[49218169]",
+      "score": 9,
+      "time": 1786151565,
+      "title": "The Nixpkgs core team has disbanded",
+      "type": "story",
+      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
+      "og_image": "https://discourse.nixos.org/uploads/default/original/3X/a/5/a5e0d7873e3d34aecf874c577c91a1c06490f436.svg",
+      "groq_label": "There's no mention of 'woke' ideologies or any related concepts in the article.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Nixpkgs core team disbanding is critical. Commenters frequently expressed frustration regarding the way the disbanding occurred, describing the situation as \"surprising\" and \"disappointing\" for the Nixpkgs community. However, the discussion also included some support for reevaluating the team's leadership and governance structure. The overall consensus is that the disbanding was poorly managed and resulted in confusion and uncertainty within the community.",
+      "groq_explain": "The core team of Nixpkgs has disbanded due to burnout and unsustainable expectations, and they're pointing out issues with how the Steering Committee operates, such as micromanagement and poor communication, which affects the community's decision-making and progress."
+    },
+    {
+      "id": 49216946,
+      "author": "moelf",
+      "descendants": 39,
+      "kids": "[49217667,49217951,49218023,49217823,49218036,49217947,49217656,49217567,49218014,49217813,49217953,49217679,49217549,49217572,49217972,49217959]",
+      "score": 86,
+      "time": 1786141467,
+      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "type": "story",
+      "url": "https://genesisopenmodels.anl.gov/",
+      "og_image": "images/49216946.png",
+      "groq_label": "The U.S. Department of Energy launched the Genesis Open Models Initiative, aiming to create and maintain open-source AI models, following the abandonment of American developed open models like the Llama series.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis US Department of Energy initiative, the Genesis Open Models Initiative, aims to solve the problem of limited access to open American deep learning models. The Hacker News discussion was generally positive, with many appreciating the project's focus on developing open models that are free from 'Chyna' concerns. Commenters highlighted strengths such as the potential to improve model diversity and the refreshing attitude towards open weight models, considering the controversies surrounding this topic. Others believed it could be particularly useful for university researchers who seek to develop and use models in the long term without worrying about licensing issues. However, the discussion also revealed several criticisms, with some questioning the lack of funding for selected participants and others pointing out the uncertainty regarding model size and training data. Overall, the Hacker News community considered the project promising, despite these concerns, and recognized its potential to address the need for open models.",
+      "groq_explain": null
+    },
+    {
+      "id": 49216362,
+      "author": "Bender",
+      "descendants": 82,
+      "kids": "[49217158,49216693,49217313,49216634,49217890,49216868,49217152,49216729,49217797,49217763,49217740,49218070,49216621]",
+      "score": 124,
+      "time": 1786137597,
+      "title": "Water system controllers don't belong on the internet, says ex-NSA chief",
+      "type": "story",
+      "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
+      "og_image": "https://image.theregister.com/5285090.jpg?imageId=5285090&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "groq_label": "Industrial control systems like water system controllers are being recklessly placed on the open internet due to security negligence.",
+      "groq_discussion": "Discussion type: - Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of connecting water system controllers to the internet is overwhelmingly negative. Commenters frequently warned about the risks of doing so, pointing to examples of insecure systems that have been used for hacking, and expressed concerns about the potential for catastrophic consequences. The general consensus is that water system controllers should not be directly connected to the internet, and that more secure solutions such as firewalls and VPNs should be used to protect them. Many commenters emphasized the importance of prioritizing security and caution over convenience and cost savings.",
+      "groq_explain": null
+    },
     {
       "id": 49215762,
       "author": "docracy",
@@ -406,51 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/1dbde36ea5ce6228cc8b4e53ffa8d658470775937882dd738b3934d7c844114c/Kayvan-Zahiri/asr-age-gap",
       "groq_label": "The authors attribute improved Whisper transcription accuracy for 70-year-olds to a more consistent tone and pace.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is generally critical, but with some constructive feedback. Commenters frequently criticized the lack of clear explanation in the README, suggesting it would benefit from being written by a human rather than a Large Language Model (LLM). However, there is no recurring consensus on the project's actual idea or findings, as the first comment barely touches upon the idea of the project itself. The overall consensus is that the presentation needs improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49204352,
-      "author": "boplicity",
-      "descendants": 150,
-      "kids": "[49206604,49204635,49207640,49204487,49207398,49206145,49206683,49204449,49204749,49205426,49207196,49206111,49206824,49206695,49206837,49206358,49206156,49206043,49205518,49204649,49205394,49204952,49204855,49204868,49207168,49207554]",
-      "score": 234,
-      "time": 1786061188,
-      "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-      "type": "story",
-      "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-      "og_image": "https://i.guim.co.uk/img/media/6e9c72f1d4d1541ee16137214046b3255b6a1981/410_0_6827_5464/master/6827.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bde32639cfe3328257ea8f512bc97b88",
-      "groq_label": "A New Mexico court used the state's public-nuisance law to hold Meta accountable for harms to children's mental health, with the company facing a $567 million judgment.",
-      "groq_discussion": "Discussion type: –  Basic:\n\nThis court ruling aims to solve the problem of social media giants harming children's mental health. \nBased on the Hacker News discussion, commenters generally viewed the outcome positively and highlighted strengths such as the court's bold action in imposing a large fine on Meta, despite its relatively small jurisdiction. Many appreciated the ruling's emphasis on Meta's responsibility in ensuring children's safety online, noting that it could improve the mental health of countless young users. Some believed it could be particularly useful for setting a precedent for other governments to hold tech companies accountable. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential impact of increased regulation on internet anonymity and freedom of expression, questioning whether such measures would truly prevent children from accessing objectionable content. Overall, the Hacker News community considered the ruling a significant step forward, recognizing its potential to push Meta and other tech giants to prioritize children's safety more seriously.",
-      "groq_explain": null
-    },
-    {
-      "id": 49204060,
-      "author": "worik",
-      "descendants": 2,
-      "kids": "[49205633,49205690]",
-      "score": 18,
-      "time": 1786059003,
-      "title": "Hackers Stalked Me by Hijacking a Smartwatch for Kids",
-      "type": "story",
-      "url": "https://www.wired.com/story/hackers-stalked-me-by-hijacking-a-smartwatch-for-kids/",
-      "og_image": "https://media.wired.com/photos/6a749b5af36b5a790db748af/191:100/w_1280,c_limit/Security_Dozens%20of%20GPS%20Devices%20for%20Kids%20and%20Cars%20Are%20Vulnerable%20to%20Spying%20and%20Sabotage_v1.jpg",
-      "groq_label": "The vulnerability of smartwatches meant for children can allow hackers to intercept personal data from public places, blurring the lines between public and private spaces.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to solve the problem of a parent's smartwatch for their child being hacked. \nBased on the Hacker News discussion, commenters generally viewed the situation positively and highlighted the fact that the child has no expectation or right to privacy in public. Many appreciated the honesty that the situation was not a real problem. However, the discussion also revealed several criticisms. The only criticism being that parents should have no expectation that their children's location is private in public. Overall, the Hacker News community considered privacy concerns in public to be a valid perspective, realizing that some level of surveillance may be necessary in certain situations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49203707,
-      "author": "purestatelabs",
-      "descendants": 1,
-      "kids": "[49204406,49203708]",
-      "score": 12,
-      "time": 1786056609,
-      "title": "Spin audit of SQD/QSCI quantum-chemistry benchmarks on iron–sulfur clusters",
-      "type": "story",
-      "url": "https://zenodo.org/records/21359923",
-      "og_image": "https://zenodo.org/static/images/orcid.svg",
-      "groq_label": "The paper likely uses simulated quantum chemistry benchmarks to inaccurately model complex electronic behaviors in iron-sulfur clusters due to limitations of current quantum computing technology.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis preprint on SQD/QSCI quantum-chemistry benchmarks aims to solve the problem of improving quantum-chemistry simulations. Based on the Hacker News discussion, commenters generally viewed the preprint negatively and highlighted several criticisms. Many agreed with the original poster (OP) that the paper represents an attempt to misrepresent science for business purposes. They criticized the paper for promoting error-prone quantum chemistry simulations and exploiting them to emulate other quantum systems without addressing the issue of error correction. The discussion also included technical concerns regarding the behavior of electrons, which some commenters pointed out as a fundamental challenge in the field. Overall, the Hacker News community considered the preprint flawed and misrepresentative of real scientific progress, noting that it reflects the shortcomings of its underlying assumptions.",
       "groq_explain": null
     }
   ]
