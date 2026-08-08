@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-08T05:51:16.634Z"
+    "lastUpdated": "2026-08-08T08:46:08.673Z"
   },
   "stories": [
+    {
+      "id": 49219508,
+      "author": "epestr",
+      "descendants": 11,
+      "kids": "[49219887,49219673,49219906,49219952,49219920,49219807,49219869,49219932]",
+      "score": 56,
+      "time": 1786172691,
+      "title": "Hardware backdoors in some x86 CPUs",
+      "type": "story",
+      "url": "https://github.com/xoreaxeaxeax/rosenbridge",
+      "og_image": "https://opengraph.githubassets.com/97b76761ee62a22489601f83e1c0b941ac982dc2f1edc60eaca9e7ae005984a6/xoreaxeaxeax/rosenbridge",
+      "groq_label": "Intel and AMD's closed-source CPU firmware has a history of security vulnerabilities including Intel ME and AMD PSP, and some ancient Via CPUs may contain pre-existing backdoors.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis research highlights the existence of hardware backdoors in some x86 CPUs, specifically in decades-old VIA C3 embedded x86 processors. The Hacker News discussion suggests that commenters were primarily concerned with the implications of this discovery, especially in the context of rising chip complexities and the shift towards poorly documented hardware. Many praised the researcher, Domas, for his work in exposing advanced malware and implants, and using techniques such as cpu fuzzer and msr fuzzing to discover the backdoor. Commenters also discussed the issue of trusting large companies making closed-source CPUs, with some suggesting that the backdoor was intentionally added for nefarious purposes, while others questioned whether it was simply a result of poor implementation. Several potential solutions were proposed to mitigate the risk, including using a large FPGA with an open-source CPU, emulating a CPU with encrypted data and commands, and running code in a Virtual Machine. The discussion also touched on the technical aspects of the backdoor, including its location in a separate chip. The overall impression was that the project raises important questions about hardware security and the need for greater transparency in the development of complex hardware.",
+      "groq_explain": null
+    },
     {
       "id": 49218707,
       "author": "dnnehgf",
@@ -436,21 +451,6 @@
       "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
       "groq_label": "The US has agreed to pay a German firm $1.2B to halt offshore wind projects, contradicting Interior Secretary Doug Burgum's statement that Americans deserve an energy system built on common sense rather than costly subsidies.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis $1.2B deal aims to halt offshore wind projects. Based on the Hacker News discussion, commenters generally viewed the project negatively and highlighted strengths such as a strong point about the current energy mix but it seems most see this decision as backward. Many appreciated the idea of not subsidizing fossil fuels, noting that the US is building offshore wind instead, while others believed that this project could be particularly useful for advancing the country's energy system but it seems the deal contradicts that. However, the discussion also revealed several criticisms. Commenters expressed concerns about the wasteful use of money, the potential damage to climate, and the influence of special interest groups. Overall, the Hacker News community considered the decision unfortunate and wasteful, recognizing the potential progress that could have been made with the funds.",
-      "groq_explain": null
-    },
-    {
-      "id": 49207236,
-      "author": "inigyou",
-      "descendants": 6,
-      "kids": "[49207708,49207605,49207636,49207631,49207663,49207511]",
-      "score": 26,
-      "time": 1786089504,
-      "title": "2027 memory capacity is reportedly sold out",
-      "type": "story",
-      "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-      "og_image": "https://assets-prd.ignimgs.com/2022/06/24/corsair-dominator-platinum-rgb-1656107201735.jpg?width=1280&format=jpg&auto=webp&quality=80",
-      "groq_label": "Global memory suppliers have reportedly reached maximum production capacity for 2027.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article about memory capacity reportedly selling out is viewed positively by Hacker News commenters. They see it as a cautionary measure against investing in more production capability, something the \"Big 3\" had been hesitant to do. Additionally, many point out that the rising costs of memory highlight the incorrect assumption that it was cheap.",
       "groq_explain": null
     }
   ]
