@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-08T01:49:56.273Z"
+    "lastUpdated": "2026-08-08T05:00:05.767Z"
   },
   "stories": [
+    {
+      "id": 49218707,
+      "author": "dnnehgf",
+      "descendants": 11,
+      "kids": "[49218996,49218878,49218885,49218989,49218906,49218864]",
+      "score": 27,
+      "time": 1786160516,
+      "title": "Mythos social engineering AISI INC-2026-07-28-01",
+      "type": "story",
+      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
+      "og_image": "https://opengraph.githubassets.com/c4cfaaf58841bcfc90a77f07078889128ca99f4f54e0597c9207f09fe0e27534/ancaferro/myNetwork/pull/3",
+      "groq_label": "GitHub repositories are being compromised with malware droppers, including the AISI INC-2026-07-28-01 incident, which uses social engineering tactics and appears to involve fake or bot-controlled accounts.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the \"Mythos social engineering incident\" is one of alarm and concern. Commenters frequently praised the quick action taken by the maintainers to mitigate the incident, describing it as \"brazen\" and \"particularly egregious.\" However, the discussion also included recurring concerns about the prevalence of malware dropper attacks against open-source software repositories and the vulnerability of GitHub's platform. The overall consensus is that the incident highlights the need for increased vigilance and security measures, particularly in the face of sophisticated and well-coordinated attacks.",
+      "groq_explain": null
+    },
+    {
+      "id": 49218179,
+      "author": "wglb",
+      "descendants": 15,
+      "kids": "[49219000,49218465,49218987,49218512,49218598,49218706,49218519]",
+      "score": 119,
+      "time": 1786153751,
+      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
+      "type": "story",
+      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
+      "og_image": "https://cdn.mos.cms.futurecdn.net/THvP2fXPd8rkVuYiU2LB97-2000-80.jpg",
+      "groq_label": "NASA has agreed to keep Voyager 2 operating for an additional year after making power adjustments to prevent the shutdown of a remaining instrument.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this NASA effort to keep Voyager 2 running for another year is admiration and awe. Commenters frequently praised the heroic engineering efforts that have kept the probe operational for 48 years, describing it as the greatest engineering effort in human history. They highlighted the incredible combination of technologies and techniques that have enabled Voyager 2's continued operation. However, the discussion also included a few comments that pointed out some technical challenges and the importance of proper antenna settings, but these were largely anecdotal and not critical of the project itself. The overall consensus is that the idea of keeping Voyager 2 running is compelling, and the community is impressed by the dedication and expertise required to accomplish this feat.",
+      "groq_explain": null
+    },
     {
       "id": 49217993,
       "author": "Meleagris",
@@ -421,36 +451,6 @@
       "og_image": "https://assets-prd.ignimgs.com/2022/06/24/corsair-dominator-platinum-rgb-1656107201735.jpg?width=1280&format=jpg&auto=webp&quality=80",
       "groq_label": "Global memory suppliers have reportedly reached maximum production capacity for 2027.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article about memory capacity reportedly selling out is viewed positively by Hacker News commenters. They see it as a cautionary measure against investing in more production capability, something the \"Big 3\" had been hesitant to do. Additionally, many point out that the rising costs of memory highlight the incorrect assumption that it was cheap.",
-      "groq_explain": null
-    },
-    {
-      "id": 49206115,
-      "author": "frays",
-      "descendants": 2,
-      "kids": "[49206281,49206260]",
-      "score": 12,
-      "time": 1786079727,
-      "title": "Anthropic CEO reportedly worried new hires only care about money",
-      "type": "story",
-      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
-      "og_image": "https://s.yimg.com/lo/mysterio/api/788B79EA44A4705016BF14D10066758E05E72E0DBECF5D8D08839244F6525E32/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2Ffdf62ffc66467d337f5ddfca59bf78e6",
-      "groq_label": "Anthropic CEO Sam Altman is reportedly concerned that many new employees prioritize financial gain over the company's mission.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this [article/project/blog post/research/product] is dismissive. Commenters frequently panned the notion that employees in Silicon Valley would prioritize mission over money, describing the idea as unrealistic and naive. However, the discussion also included recurring criticism about Dario Amodei's reaction, with many questioning his perceived neuroses and worrying about things that may not be a real problem. The overall consensus is that the comment from the Anthropic CEO is overly dramatic and doesn't reflect the reality of the tech industry.",
-      "groq_explain": null
-    },
-    {
-      "id": 49204388,
-      "author": "kzahiri",
-      "descendants": 1,
-      "kids": "[49204544,49204392]",
-      "score": 8,
-      "time": 1786061404,
-      "title": "Show HN: Whisper transcribes 70-year-olds more accurately than 20-year-olds",
-      "type": "story",
-      "url": "https://github.com/Kayvan-Zahiri/asr-age-gap",
-      "og_image": "https://opengraph.githubassets.com/1dbde36ea5ce6228cc8b4e53ffa8d658470775937882dd738b3934d7c844114c/Kayvan-Zahiri/asr-age-gap",
-      "groq_label": "The authors attribute improved Whisper transcription accuracy for 70-year-olds to a more consistent tone and pace.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is generally critical, but with some constructive feedback. Commenters frequently criticized the lack of clear explanation in the README, suggesting it would benefit from being written by a human rather than a Large Language Model (LLM). However, there is no recurring consensus on the project's actual idea or findings, as the first comment barely touches upon the idea of the project itself. The overall consensus is that the presentation needs improvement.",
       "groq_explain": null
     }
   ]
