@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-09T12:58:27.627Z"
+    "lastUpdated": "2026-08-09T13:54:15.235Z"
   },
   "stories": [
+    {
+      "id": 49231154,
+      "author": "satvikpendem",
+      "descendants": 7,
+      "kids": "[49231407,49231425,49231394,49231428,49231423,49231373,49231357,49231383]",
+      "score": 23,
+      "time": 1786281643,
+      "title": "Mea Culpa – Dark Hours",
+      "type": "story",
+      "url": "https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html",
+      "og_image": "https://blog.terrygodier.com/assets/logo.png",
+      "groq_label": "The developer of an astrology app disguised it as an astronomy app by copying an open source astronomy app called \"Dark Hours\" and making false claims about Apple's review process.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis mea culpa article addresses a developer's actions regarding an astrology app and an open-source astronomy app. The Hacker News discussion was generally mixed, with some commenters appreciating the author's honesty and taking responsibility for their actions. They praised his decision to not use the astronomy app to make money despite having a working model. However, many also expressed skepticism about the situation and questioned the author's intentions, suggesting that he may have manipulated events to frame Apple's review process as flawed. Several commenters brought up other perspectives, such as the availability of open-source projects and the potential for AI to facilitate the development of similar projects. While the discussion was not overwhelmingly critical, it was not entirely positive either, highlighting the nuance of the situation.",
+      "groq_explain": null
+    },
+    {
+      "id": 49230954,
+      "author": "mikhael",
+      "descendants": 20,
+      "kids": "[49231304,49231429,49231181,49231202,49231006,49231113]",
+      "score": 43,
+      "time": 1786279930,
+      "title": "Amazon circumvents Gilroy community vote for AI data center",
+      "type": "story",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "og_image": "https://cdn.mos.cms.futurecdn.net/RSehTW2oDYtFQurj9iJ5cS-2000-80.jpg",
+      "groq_label": "Amazon was able to build a data center in Gilroy without a community vote by meeting existing 45-year-old zoning criteria for industrial development.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses Amazon's plan to build an AI data center in the Gilroy community. Hacker News commenters generally appreciated the fact that Amazon followed the existing permitting rules, rather than being held back by community votes. They also saw this approach as a more efficient way to make decisions. However, the discussion was critical of Amazon's motivations, with some suggesting that the company prioritized building for AI agents over the needs of humans. The overall sentiment was negative, with commenters questioning the priorities of a company that values the power of AI over human decisions.",
+      "groq_explain": null
+    },
+    {
+      "id": 49230891,
+      "author": "Rochus",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 6,
+      "time": 1786279396,
+      "title": "Show HN: A Project Oberon System version running on RISC-V instead of RISC-5",
+      "type": "story",
+      "url": "https://github.com/rochus-keller/OberonSystem/tree/op2-rv32",
+      "og_image": "https://opengraph.githubassets.com/72bf42d3da20d45eb382ca2d8f010608b6fdf0c8d3fcb50f8e14bd38ec69ab15/rochus-keller/OberonSystem",
+      "groq_label": "A version of the Project Oberon System is now running on RISC-V instead of the custom RISC-5 processor.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "A person created a version of an old computer system that was designed in the 1980s, but this time for a newer kind of computer chip called RISC-V. This system is a whole computer, including an operating system and programming language, and it's been updated to work with modern hardware. It matters because it shows how an old system like this can be adapted to work with new technology, and it helps to preserve the design and functionality of the original system."
+    },
     {
       "id": 49230550,
       "author": "nmitchko",
@@ -407,51 +452,6 @@
       "groq_label": "The Voyager 1 FDS Computer Emulator uses an 8-bit instruction set with only 10 fundamental instructions, reminiscent of RISC CPU design.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Voyager 1 FDS Computer Emulator aims to solve the problem of providing a functional simulation of the Voyager 1's onboard Flight Data System (FDS) computer. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its detailed implementation and accuracy. Many appreciated the emulator's potential for educational purposes, noting that it could be useful for teaching computer science concepts and space exploration. The discussion also emphasized the project's potential for interesting applications, such as controlling a virtual Voyager in a satellite space simulator. However, the discussion also revealed several criticisms. Commenters expressed concerns about the need for additional example programs and documentation, as well as the potential for errors due to discrepancies in the distance and signal delay numbers. Overall, the Hacker News community considered the project  useful and potentially educational, recognizing its potential while emphasizing that addressing these concerns would improve its usability and adoption.",
       "groq_explain": "They're emulating the computer system used by the Voyager 1 spacecraft when it was launched in 1977, essentially recreating its old computer to see how it works and what programs it ran."
-    },
-    {
-      "id": 49221668,
-      "author": "shaunpud",
-      "descendants": 57,
-      "kids": "[49222124,49221985,49222451,49222889,49222283,49222709,49223108,49222573,49222978,49222572,49222034,49222289,49222911,49222003,49222216,49222135,49222657,49222667,49222561,49222389,49222103,49222748]",
-      "score": 135,
-      "time": 1786195611,
-      "title": "A domain can now say it is for sale, in DNS",
-      "type": "story",
-      "url": "https://specification.website/spec/foundations/for-sale-dns/",
-      "og_image": "https://specification.website/og/spec/foundations/for-sale-dns.png",
-      "groq_label": "Domain owners can now explicitly state that their domain is for sale within the DNS, using a \"_for-sale\" record.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis attempt to allow domain owners to publicly say their domain is for sale, through a new DNS record, The Hacker News discussion was generally mixed, with many commenters appreciating the potential benefits of increased transparency. On one hand, commenters saw the value in being able to advertise that a domain is for sale, as it could simplify the process for buyers and sellers, as seen with the example of the 2-letter .st domain. At the same time, others raised concerns about the potential consequences, such as domain squatting and trademark infringement, with some arguing that the system has become financialized and is not better off over the last 30 years.",
-      "groq_explain": null
-    },
-    {
-      "id": 49221220,
-      "author": "rfarley04",
-      "descendants": 38,
-      "kids": "[49222789,49222315,49222808,49222211,49222899,49222812,49222794,49222569,49222753,49222791,49222375,49222318,49223225,49222409,49222269,49223097,49221996,49223102]",
-      "score": 50,
-      "time": 1786192271,
-      "title": "Gateway 2000's hilariously bad ads in the 90s (Part II)",
-      "type": "story",
-      "url": "https://buttondown.com/suchbadtechads/archive/gateway-2000-part-2/",
-      "og_image": "https://assets.buttondown.email/images/4b50f07a-a564-4d8c-bb2e-09e73d3624ec.png?w=960&fit=max",
-      "groq_label": "Gateway 2000's ads of the 90s featured awkwardly cheesy graphics and hippie-themed copy to market their computer systems with an attempt at counterculture appeal, which often backfired.",
-      "groq_discussion": "Discussion type: –  Community Perspective:\n\nThe Hacker News community generally responded to the Gateway 2000 ads in the 90s with nostalgia and fondness. Many commenters shared positive experiences with Gateway's products, with some mentioning that they owned and used the computers in the past. Others admired the ads' \"cheezy graphics and copy,\" finding them eye-catching and memorable. The discussion also highlighted the nostalgic value of the ads, with some commenters joking about how the ads are now \"hilariously bad\" but still endearing. However, not all commenters shared the same sentiment, with a few criticizing the ads as poorly designed and overly promotional. Nevertheless, the overall discussion suggests that the community views the ads with a sense of nostalgia and appreciation for their kitsch value.",
-      "groq_explain": null
-    },
-    {
-      "id": 49221089,
-      "author": "eigenBasis",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 8,
-      "time": 1786191363,
-      "title": "The CPU is back: Rethinking the CPU-GPU split for LLM inference",
-      "type": "story",
-      "url": "https://www.redhat.com/en/blog/cpu-back-rethinking-cpu-gpu-split-llm-inference",
-      "og_image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "groq_label": "Google is using a CPU-core-based GPU architecture, such as Intel's Nervana NNP-T, to improve performance and efficiency of Large Language Model inference.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
     }
   ]
 }
