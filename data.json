@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-09T08:47:45.877Z"
+    "lastUpdated": "2026-08-09T09:25:49.065Z"
   },
   "stories": [
+    {
+      "id": 49229174,
+      "author": "gukoff",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 8,
+      "time": 1786259998,
+      "title": "There Are Magic Hexagons of Every Order",
+      "type": "story",
+      "url": "https://gukov.dev/math/2026/08/02/new-magic-hexagons.html",
+      "og_image": "https://gukov.dev/assets/svg/magic-hexagons/MagicHexagon-Order10-sum_zero.svg",
+      "groq_label": "The Apollonian circle packing theorem states that it's possible to arrange hexagons of any order into a repeating pattern.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49228663,
       "author": "BruceEel",
@@ -436,21 +451,6 @@
       "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/2026-08-03-00_00_2026-08-03-23_59_Sentinel-2_L2A_Wildfires-1-2560x1440.jpg",
       "groq_label": "Copernicus Browser now offers a 'wildfires' visualization layer for Sentinel-2 imagery.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis free satellite service aims to solve the problem of tracking wildfires. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the addition of a \"wildfires\" visualization layer. Many appreciated the new feature, noting that it made it easier to track wildfires, while others believed it could be particularly useful for local fire department or emergency management use. However, the discussion also revealed several criticisms. Commenters expressed concerns about navigating the interface to enable the new feature, and one user mentioned using a different service for tracking local wildfires. Overall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that addressing the interface issue would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49220126,
-      "author": "bhavansig",
-      "descendants": 7,
-      "kids": "[49221025,49220127,49221055,49221027]",
-      "score": 43,
-      "time": 1786180730,
-      "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
-      "type": "story",
-      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "og_image": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w1200-h630-n-nu-rw",
-      "groq_label": "DeepMind's WeatherNext model uses machine learning to make more accurate cyclone forecasts, allowing for an extra day of warning time.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis DeepMind's WeatherNext model aims to solve the problem of cyclone forecasting. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as providing accurate cyclone forecasts and giving an extra day of warning, and its potential to save fuel and be safer for cargo ships. Many appreciated the open-sourcing of the model, noting that it promotes transparency and collaboration. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about the model's limitations in forecasting other types of disasters, such as earthquakes. Overall, the Hacker News community considered the \nproject promising, recognizing its potential while emphasizing that it could lead to further breakthroughs with continued improvement.",
       "groq_explain": null
     }
   ]
