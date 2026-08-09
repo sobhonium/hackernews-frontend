@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-09T01:57:04.172Z"
+    "lastUpdated": "2026-08-09T05:09:50.473Z"
   },
   "stories": [
+    {
+      "id": 49228458,
+      "author": "doubletwoyou",
+      "descendants": 2,
+      "kids": "[49228544]",
+      "score": 10,
+      "time": 1786249826,
+      "title": "\"The original URL for this prediction will no longer be available in 11 years.\" (2011)",
+      "type": "story",
+      "url": "https://longbets.org/601/",
+      "og_image": "https://static.longbets.org/static/ui/winbadge-detail.gif",
+      "groq_label": "HTTP will become obsolete as HTTPS becomes the default protocol.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to solve the problem of predicting long-term outcomes by hosting a prediction market where users can bet on future events. Based on the Hacker News discussion, commenters generally viewed the project positively, emphasizing the potential of prediction markets and the ability to test the accuracy of long-term predictions. Many appreciated the project's approach, noting that the community could discuss and refine predictions. However, the discussion also revealed concerns about the potential issue with HTTPS adoption, which could render the original URL obsolete. Commenters questioned whether the project had considered the long-term implications of the \"http://\" protocol and whether a more sustainable approach could be developed. Overall, the Hacker News community considered the project promising but recognized the need to address potential long-term limitations, such as the transition to HTTPS.",
+      "groq_explain": null
+    },
+    {
+      "id": 49228166,
+      "author": "minimaxir",
+      "descendants": 4,
+      "kids": "[49228436,49228547,49228388,49228507]",
+      "score": 58,
+      "time": 1786245960,
+      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
+      "type": "story",
+      "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
+      "og_image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "groq_label": "The author of \"Daring Fireball\" retracted an article about an App Store rejection because the premise was fundamental wrong and the author was misled about the app's nature.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is overwhelmingly positive. Commenters frequently praised the author's decision to retract the article and address the criticism from Apple, describing it as \" refreshing\" and a \"right way to handle the situation.\" They also appreciated the author's transparency and willingness to admit mistake. However, some commenters also expressed concerns about the author's character, pointing to further plagiarism issues. The overall consensus is that the author should be commended for taking responsibility and owning up to the mistake, acknowledging the importance of honesty and transparency in storytelling.",
+      "groq_explain": "The writer of a tech blog posted an article about an app being rejected from the App Store due to it being considered \"astrology,\" not \"astronomy\" as the developer claimed, but it turns out the app was indeed about astrology and the developer was lying."
+    },
+    {
+      "id": 49227652,
+      "author": "bkudria",
+      "descendants": 3,
+      "kids": "[49228439,49228505]",
+      "score": 23,
+      "time": 1786240188,
+      "title": "Incentives Are for Losers",
+      "type": "story",
+      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!5i4W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bc18a36-e4db-4865-9b44-3e3cb2129236_1456x990.webp",
+      "groq_label": "Punishment and exclusion are used against individuals who defy or refuse incentives.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Incentives Are for Losers\" is overwhelmingly positive. Commenters frequently praised the perspective presented in the article, with one commenter expressing strong enthusiasm by giving a \"3\" out of 3 stars. The discussion suggests a clear consensus on the article's main points and ideas, with no dissenting opinions present in the provided comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49227365,
+      "author": "bohaska",
+      "descendants": 4,
+      "kids": "[49228560,49228527,49227564]",
+      "score": 23,
+      "time": 1786237198,
+      "title": "Melatonin impairs morning cognition in healthy young adults",
+      "type": "story",
+      "url": "https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621",
+      "og_image": "images/49227365.png",
+      "groq_label": "Higher doses of melatonin may negatively impact morning cognition in healthy young adults, but further research with more detailed dosage information is needed to understand the effects.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to investigate the effects of melatonin on morning cognition, as well as sleep measures, in healthy young adults. The Hacker News discussion was generally critical, with many commenters appreciating the study's attempt to understand the impact of melatonin on morning cognition. However, several commenters raised concerns about the study's limitations, arguing that the use of higher-than-recommended melatonin dosages (2mg and 5mg) and the lack of differentiation between these dosages when evaluating cognitive processes. The discussion also highlighted the need for more information regarding the specific formulation and dosage of melatonin used in the study, as well as the lack of clarity on some key findings. Overall, the discussion suggests that the community sees the study as a starting point, but believes there are important challenges that still need to be addressed in order to fully understand the effects of melatonin on morning cognition.",
+      "groq_explain": null
+    },
     {
       "id": 49226923,
       "author": "jggonz",
@@ -391,66 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/97b76761ee62a22489601f83e1c0b941ac982dc2f1edc60eaca9e7ae005984a6/xoreaxeaxeax/rosenbridge",
       "groq_label": "Intel and AMD's closed-source CPU firmware has a history of security vulnerabilities including Intel ME and AMD PSP, and some ancient Via CPUs may contain pre-existing backdoors.",
       "groq_discussion": "Discussion type: – Detailed:\n\nThis research highlights the existence of hardware backdoors in some x86 CPUs, specifically in decades-old VIA C3 embedded x86 processors. The Hacker News discussion suggests that commenters were primarily concerned with the implications of this discovery, especially in the context of rising chip complexities and the shift towards poorly documented hardware. Many praised the researcher, Domas, for his work in exposing advanced malware and implants, and using techniques such as cpu fuzzer and msr fuzzing to discover the backdoor. Commenters also discussed the issue of trusting large companies making closed-source CPUs, with some suggesting that the backdoor was intentionally added for nefarious purposes, while others questioned whether it was simply a result of poor implementation. Several potential solutions were proposed to mitigate the risk, including using a large FPGA with an open-source CPU, emulating a CPU with encrypted data and commands, and running code in a Virtual Machine. The discussion also touched on the technical aspects of the backdoor, including its location in a separate chip. The overall impression was that the project raises important questions about hardware security and the need for greater transparency in the development of complex hardware.",
-      "groq_explain": null
-    },
-    {
-      "id": 49218707,
-      "author": "dnnehgf",
-      "descendants": 11,
-      "kids": "[49218996,49218878,49218885,49218989,49218906,49218864]",
-      "score": 27,
-      "time": 1786160516,
-      "title": "Mythos social engineering AISI INC-2026-07-28-01",
-      "type": "story",
-      "url": "https://web.archive.org/web/20260731053721/http://github.com/ancaferro/myNetwork/pull/3",
-      "og_image": "https://opengraph.githubassets.com/c4cfaaf58841bcfc90a77f07078889128ca99f4f54e0597c9207f09fe0e27534/ancaferro/myNetwork/pull/3",
-      "groq_label": "GitHub repositories are being compromised with malware droppers, including the AISI INC-2026-07-28-01 incident, which uses social engineering tactics and appears to involve fake or bot-controlled accounts.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the \"Mythos social engineering incident\" is one of alarm and concern. Commenters frequently praised the quick action taken by the maintainers to mitigate the incident, describing it as \"brazen\" and \"particularly egregious.\" However, the discussion also included recurring concerns about the prevalence of malware dropper attacks against open-source software repositories and the vulnerability of GitHub's platform. The overall consensus is that the incident highlights the need for increased vigilance and security measures, particularly in the face of sophisticated and well-coordinated attacks.",
-      "groq_explain": null
-    },
-    {
-      "id": 49218179,
-      "author": "wglb",
-      "descendants": 15,
-      "kids": "[49219000,49218465,49218987,49218512,49218598,49218706,49218519]",
-      "score": 119,
-      "time": 1786153751,
-      "title": "NASA to keep its 48-year-old Voyager 2 probe running for yet another year",
-      "type": "story",
-      "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year",
-      "og_image": "https://cdn.mos.cms.futurecdn.net/THvP2fXPd8rkVuYiU2LB97-2000-80.jpg",
-      "groq_label": "NASA has agreed to keep Voyager 2 operating for an additional year after making power adjustments to prevent the shutdown of a remaining instrument.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this NASA effort to keep Voyager 2 running for another year is admiration and awe. Commenters frequently praised the heroic engineering efforts that have kept the probe operational for 48 years, describing it as the greatest engineering effort in human history. They highlighted the incredible combination of technologies and techniques that have enabled Voyager 2's continued operation. However, the discussion also included a few comments that pointed out some technical challenges and the importance of proper antenna settings, but these were largely anecdotal and not critical of the project itself. The overall consensus is that the idea of keeping Voyager 2 running is compelling, and the community is impressed by the dedication and expertise required to accomplish this feat.",
-      "groq_explain": null
-    },
-    {
-      "id": 49217993,
-      "author": "Meleagris",
-      "descendants": 1,
-      "kids": "[49218169]",
-      "score": 9,
-      "time": 1786151565,
-      "title": "The Nixpkgs core team has disbanded",
-      "type": "story",
-      "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
-      "og_image": "https://discourse.nixos.org/uploads/default/original/3X/a/5/a5e0d7873e3d34aecf874c577c91a1c06490f436.svg",
-      "groq_label": "There's no mention of 'woke' ideologies or any related concepts in the article.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Nixpkgs core team disbanding is critical. Commenters frequently expressed frustration regarding the way the disbanding occurred, describing the situation as \"surprising\" and \"disappointing\" for the Nixpkgs community. However, the discussion also included some support for reevaluating the team's leadership and governance structure. The overall consensus is that the disbanding was poorly managed and resulted in confusion and uncertainty within the community.",
-      "groq_explain": "The core team of Nixpkgs has disbanded due to burnout and unsustainable expectations, and they're pointing out issues with how the Steering Committee operates, such as micromanagement and poor communication, which affects the community's decision-making and progress."
-    },
-    {
-      "id": 49216946,
-      "author": "moelf",
-      "descendants": 39,
-      "kids": "[49217667,49217951,49218023,49217823,49218036,49217947,49217656,49217567,49218014,49217813,49217953,49217679,49217549,49217572,49217972,49217959]",
-      "score": 86,
-      "time": 1786141467,
-      "title": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
-      "type": "story",
-      "url": "https://genesisopenmodels.anl.gov/",
-      "og_image": "images/49216946.png",
-      "groq_label": "The U.S. Department of Energy launched the Genesis Open Models Initiative, aiming to create and maintain open-source AI models, following the abandonment of American developed open models like the Llama series.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis US Department of Energy initiative, the Genesis Open Models Initiative, aims to solve the problem of limited access to open American deep learning models. The Hacker News discussion was generally positive, with many appreciating the project's focus on developing open models that are free from 'Chyna' concerns. Commenters highlighted strengths such as the potential to improve model diversity and the refreshing attitude towards open weight models, considering the controversies surrounding this topic. Others believed it could be particularly useful for university researchers who seek to develop and use models in the long term without worrying about licensing issues. However, the discussion also revealed several criticisms, with some questioning the lack of funding for selected participants and others pointing out the uncertainty regarding model size and training data. Overall, the Hacker News community considered the project promising, despite these concerns, and recognized its potential to address the need for open models.",
       "groq_explain": null
     }
   ]
