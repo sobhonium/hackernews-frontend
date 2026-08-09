@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-09T16:41:17.709Z"
+    "lastUpdated": "2026-08-09T17:16:03.602Z"
   },
   "stories": [
     {
@@ -34,6 +34,36 @@
       "groq_explain": "Vibez is an open-source digital audio workstation (DAW). A DAW is software used for creating, editing, and mixing music. It's written in the Rust programming language and has three main workspaces: Perform, Arrange, and Mix. It allows users to create and edit audio and music projects, and it's designed to be user-friendly and powerful."
     },
     {
+      "id": 49232318,
+      "author": "iamnothere",
+      "descendants": 11,
+      "kids": "[49233124,49233106,49233252,49233224,49233270]",
+      "score": 47,
+      "time": 1786289205,
+      "title": "Criminal Deception in Silicon Valley",
+      "type": "story",
+      "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981",
+      "og_image": "images/49232318.png",
+      "groq_label": "Founders of some startups engage in deep façading, creating fake business metrics to protect early investor returns and attract new funding, often resulting in prosecution when deception is eventually uncovered.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the topic of \"Criminal Deception in Silicon Valley\" is highly critical. Commenters frequently criticized the deception and lack of transparency in the startup world, describing it as a \"clear line that gets crossed\" and a \"game of hot potato\". They highlighted the example of Elizabeth Holmes and Theranos as a prime example of this deception. The overall consensus is that the behavior of some founders is not only unethical but also illegal, and that it's essential to address these issues to restore trust in the industry.",
+      "groq_explain": null
+    },
+    {
+      "id": 49232300,
+      "author": "eighttrigrams",
+      "descendants": 1,
+      "kids": "[49233170]",
+      "score": 8,
+      "time": 1786289129,
+      "title": "Human vs. AI – Diff-based line-level provenance for text under agentic editing",
+      "type": "story",
+      "url": "https://github.com/eighttrigrams/us-vs-them",
+      "og_image": "https://opengraph.githubassets.com/57bef562f24a7276bcbf285920c9445ce9544963b75f12e52efc00f1d2a11f9d/eighttrigrams/us-vs-them",
+      "groq_label": "Agents can introduce inconsistencies by modifying source text based on diff operations.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis research focuses on solving the problem of tracking provenance in text edited by artificial intelligence (AI) agents. The Hacker News discussion suggests that commenters were primarily impressed by the idea of diff-based line-level provenance, which many believed could significantly improve our understanding of AI's editing processes.",
+      "groq_explain": null
+    },
+    {
       "id": 49232221,
       "author": "evo_9",
       "descendants": 37,
@@ -46,6 +76,36 @@
       "og_image": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-491300440.jpg?w=1024",
       "groq_label": "Silicon Valley executives often draw inspiration from science fiction without accurately interpreting cautionary themes.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Silicon Valley misreads science fiction and undermines democracy\" is that the author's argument is largely correct. Commenters frequently praised the article's portrayal of the problems caused by Silicon Valley's misinterpretation of science fiction and its negative impact on democracy. However, the discussion also included recurring concerns about the oversimplification of the issue and the potential consequences of overemphasizing the role of science fiction. The overall consensus is that the critique of Silicon Valley's actions is compelling, although its generalizability and broader implications are subjects of ongoing debate.",
+      "groq_explain": null
+    },
+    {
+      "id": 49232138,
+      "author": "akyuu",
+      "descendants": 55,
+      "kids": "[49233151,49233230,49233228,49232910,49232727,49233248,49233226,49232845,49233201,49233256,49232936,49232969,49233131]",
+      "score": 74,
+      "time": 1786288280,
+      "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+      "type": "story",
+      "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
+      "og_image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Windows_11_01.jpg",
+      "groq_label": "Windows 11's built-in Weather app allegedly wastes over 1 GB of RAM.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses Windows 11's built-in Weather app's RAM usage, specifically that it wastes more than 1 GB of RAM. The Hacker News discussion was generally critical, with many commenters expressing frustration about the app's excessive RAM usage and the idea that Microsoft couldn't do better. However, the discussion also included some nuanced comments, with a few commenters arguing that 1 GB of RAM for a weather app isn't necessarily egregious or that the issue might be due to the author's expectations rather than the actual performance of the app. Overall, the discussion suggests that the community has significant concerns about the app's design and execution.",
+      "groq_explain": null
+    },
+    {
+      "id": 49232110,
+      "author": "Thorondor",
+      "descendants": 16,
+      "kids": "[49232519,49232584,49232796,49232632,49232746]",
+      "score": 60,
+      "time": 1786288131,
+      "title": "Tom Stanton's supersonic trebuchet breaks sound barrier with gravity alone",
+      "type": "story",
+      "url": "https://www.techeblog.com/tom-stanton-supersonic-trebuchet/",
+      "og_image": "https://images.techeblog.com/wp-content/uploads/2026/08/09001255/tom-stanton-supersonic-trebuchet.jpg",
+      "groq_label": "Tom Stanton's elastic-powered supersonic trebuchet achieves supersonic speeds using gravity alone.",
+      "groq_discussion": "Discussion type: Short\n\nThis supersonic trebuchet addresses a problem. Hacker News commenters generally appreciated its innovative application of ancient technology and believed it could have various benefits. However, they also expressed concerns about its practicality and questioned its deployment strategy. Overall, the discussion was  positive  with commenters recognizing both the project's potential and its technical limitations.",
       "groq_explain": null
     },
     {
@@ -392,66 +452,6 @@
       "groq_label": "WASM DOS emulators can run TinySol directly, requiring no additional porting.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis TinySol, a tiny solitaire game for DOS, aims to solve the problem of providing a simple solitaire experience. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its accuracy to the original DOS experience. Many appreciated the nostalgic value of the game, noting that it brings back memories of old-school computing, while others believed it could be particularly useful for those interested in retro computing. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of a web-based version, with some suggesting it would be a nice addition. Overall, the Hacker News community considered the project well-done, recognizing its potential as a nostalgic experience while emphasizing that a web-based version would improve its accessibility and adoption.",
       "groq_explain": null
-    },
-    {
-      "id": 49223845,
-      "author": "geox",
-      "descendants": 35,
-      "kids": "[49225430,49224855,49223896,49224622,49225482,49224808,49225093,49225526,49225284,49224786,49224220]",
-      "score": 104,
-      "time": 1786210072,
-      "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
-      "type": "story",
-      "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
-      "og_image": "https://images.newrepublic.com/8f7acb5e8746b79f60cadd801a4b9b90be7df0e6.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg",
-      "groq_label": "Amazon's massive 7.65-gigawatt gas power plant will likely become the biggest pollution source in the country.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Amazon \"Shareholder Value Pledge Arena\" project aims to create a 7.65 gigawatt gas power plant. Hacker News commenters are primarily concerned about the pollution it will create, citing air pollution in the forms of formaldehyde and NOx, and noise pollution. Many also believe this plan ignores the potential for carbon capture and offsets, despite Amazon's commitment to net zero. The discussion was negative, with commenters viewing the project as a source of pollution.",
-      "groq_explain": null
-    },
-    {
-      "id": 49223475,
-      "author": "andrewpollack",
-      "descendants": 70,
-      "kids": "[49225558,49224047,49225620,49225442,49225474,49224036,49224479,49225461,49223878,49225585,49225336,49224267,49224222,49224428,49224025,49224302,49223959,49224263,49224861,49224703,49223890,49223888,49224524,49223923,49224210,49224004,49223999,49223975,49224074,49223899]",
-      "score": 113,
-      "time": 1786207747,
-      "title": "LinkedIn Feed Blocker",
-      "type": "story",
-      "url": "https://github.com/andrewpollack/linkedin-feed-blocker",
-      "og_image": "https://opengraph.githubassets.com/0a642b5a9132302d6026295b033152fb8560462aa8e72ba13bccf525c0bb7791/andrewpollack/linkedin-feed-blocker",
-      "groq_label": "LinkedIn's home feed can be blocked by a Chrome extension, but using it may result in account shadow banning.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThe LinkedIn Feed Blocker is an attempt to solve the problem of unwanted content in LinkedIn's feed. The Hacker News discussion is generally mixed, with many commenters appreciating the idea and wishing for a similar feature. However, several commenters raised concerns about the potential risks of such an extension, specifically regarding LinkedIn's anti-manipulation code that may result in account shadowbanning. Others pointed out that existing features, like unfollowing everyone, could achieve a similar result, or provided existing solutions like News Feed Eradicator and custom style sheets for browsers like Safari. The discussion suggests that while there is enthusiasm for a feed blocker, there are important challenges and limitations that need to be addressed before a suitable solution can be developed.",
-      "groq_explain": "The LinkedIn Feed Blocker is a free Chrome extension that removes the main newsfeed from LinkedIn, allowing you to keep using the other features like searching for jobs and sending messages while blocking the annoying social feed. It doesn't require an install from the Chrome store, and once you have it set up, you can easily keep the feed blocked unless you choose to turn it back on."
-    },
-    {
-      "id": 49223082,
-      "author": "groomlake",
-      "descendants": 97,
-      "kids": "[49223953,49223952,49223931,49225548,49224714,49224257,49225174,49224562,49224325,49224544,49225189,49223950,49224590,49223914,49224817,49223926,49224602,49224342,49224447,49224362,49224801,49224245,49224319,49224336,49225195,49223848,49223963]",
-      "score": 204,
-      "time": 1786205091,
-      "title": "Fastmail offers EU data region",
-      "type": "story",
-      "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
-      "og_image": "https://www.fastmail.com/assets/images/data-center-hero-3jPa_k89iw-1200.png",
-      "groq_label": "Fastmail installs its own servers in Amsterdam for an EU data region.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nFastmail offers EU data region aims to provide a solution for the problem of data storage and access in a region-specific manner. The Hacker News discussion was generally positive, with many commenters appreciating the move as a step in the right direction for their business. However, the discussion also raised concerns about the limitations of this approach, pointing out that data can still be forcibly pulled and accessed by other countries due to the existing laws and infrastructure in place. Several commenters highlighted the need for end-to-end encryption as a more effective solution to ensure data security and pointed out that the EU region hosting is just a \"panacea\" that has its own set of risks. Others raised concerns about the Australian laws, such as the Assistance and Access Act 2018 which permits government agencies to access user info and data. Overall, the discussion suggests that the community sees Fastmail's move as a promising step but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "Fastmail is now allowing users to store their email data within the European Union, giving them a choice between having their data in the US or the EU. This is important for users who prioritize having their data stored locally for compliance, security, or personal reasons."
-    },
-    {
-      "id": 49223079,
-      "author": "gumby",
-      "descendants": 23,
-      "kids": "[49224686,49225610,49225381,49224629,49225458,49225085,49224427]",
-      "score": 81,
-      "time": 1786205076,
-      "title": "Can Intel finally beat ARM on performance per Watt?",
-      "type": "story",
-      "url": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
-      "og_image": "https://hackaday.com/wp-content/uploads/2026/08/XPS-v-Neo-Jeff-feat.jpg",
-      "groq_label": "Intel's 12th Gen Core i7-13700H achieves performance per Watt that's comparable to or even surpasses ARM's Apple M4 and M3 chips in some benchmarks.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the news of Intel's improved performance per watt with a mix of reactions. While some commenters appreciated the achievement, particularly the improved efficiency, others pointed out that Intel still lags behind competitors like Apple in terms of actual performance. Many commenters questioned the significance of Intel's achievement, noting that it's a stretch to declare victory based on a single metric, and that other benchmarks show Apple's A18 chip to be superior in many areas. Others expressed concern that Intel's goal is not to push the boundaries of innovation, but rather to maintain a competitive edge through incremental improvements, rather than producing truly groundbreaking technology.",
-      "groq_explain": "Intel is reportedly matching or even beating ARM's performance per watt, which could give them an edge in the mobile market and challenge Apple's use of ARM architecture."
     }
   ]
 }
