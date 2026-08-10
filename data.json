@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-10T05:38:39.856Z"
+    "lastUpdated": "2026-08-10T09:27:05.974Z"
   },
   "stories": [
+    {
+      "id": 49239751,
+      "author": "etoxin",
+      "descendants": 118,
+      "kids": "[49240545,49241156,49240321,49241053,49240351,49240662,49240437,49240155,49241176,49240315,49240831,49240077,49239911,49239857,49240476,49240891,49241040,49240475,49240214,49241014,49241028,49240288,49240728,49240066,49240358,49240596,49240808,49240640,49240709,49239998,49239965,49240814,49240510,49240105,49240171,49240448,49239989,49239938,49240415,49240857,49240049,49240570,49240055,49239992,49240607,49240356,49240868,49240293,49240054,49240002]",
+      "score": 179,
+      "time": 1786341758,
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "type": "story",
+      "url": "https://www.docker.com/products/docker-sandboxes/",
+      "og_image": "https://www.docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png",
+      "groq_label": "Docker Sandboxes uses a custom runtime on top of existing container runtimes.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Docker Sandboxes project aims to provide disposable, isolated sandboxes for AI agents. The Hacker News discussion was generally mixed, with many commenters appreciating the project's convenience and ease of use. Some praised its benefits, such as outbound firewall and secret injection with placeholders, which made it a daily driver for some users. However, others raised concerns about the login requirement, security model, and limitations compared to using real virtual machines. Many also noted that the project lacks support for Linux, with some suggesting alternatives such as OpenShell or custom devcontainers. The discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, particularly regarding security and platform support.",
+      "groq_explain": null
+    },
     {
       "id": 49239095,
       "author": "ryzvonusef",
@@ -435,21 +450,6 @@
       "og_image": "https://blog.terrygodier.com/assets/logo.png",
       "groq_label": "The developer of an astrology app disguised it as an astronomy app by copying an open source astronomy app called \"Dark Hours\" and making false claims about Apple's review process.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis mea culpa article addresses a developer's actions regarding an astrology app and an open-source astronomy app. The Hacker News discussion was generally mixed, with some commenters appreciating the author's honesty and taking responsibility for their actions. They praised his decision to not use the astronomy app to make money despite having a working model. However, many also expressed skepticism about the situation and questioned the author's intentions, suggesting that he may have manipulated events to frame Apple's review process as flawed. Several commenters brought up other perspectives, such as the availability of open-source projects and the potential for AI to facilitate the development of similar projects. While the discussion was not overwhelmingly critical, it was not entirely positive either, highlighting the nuance of the situation.",
-      "groq_explain": null
-    },
-    {
-      "id": 49230954,
-      "author": "mikhael",
-      "descendants": 20,
-      "kids": "[49231304,49231429,49231181,49231202,49231006,49231113]",
-      "score": 43,
-      "time": 1786279930,
-      "title": "Amazon circumvents Gilroy community vote for AI data center",
-      "type": "story",
-      "url": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
-      "og_image": "https://cdn.mos.cms.futurecdn.net/RSehTW2oDYtFQurj9iJ5cS-2000-80.jpg",
-      "groq_label": "Amazon was able to build a data center in Gilroy without a community vote by meeting existing 45-year-old zoning criteria for industrial development.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses Amazon's plan to build an AI data center in the Gilroy community. Hacker News commenters generally appreciated the fact that Amazon followed the existing permitting rules, rather than being held back by community votes. They also saw this approach as a more efficient way to make decisions. However, the discussion was critical of Amazon's motivations, with some suggesting that the company prioritized building for AI agents over the needs of humans. The overall sentiment was negative, with commenters questioning the priorities of a company that values the power of AI over human decisions.",
       "groq_explain": null
     }
   ]
