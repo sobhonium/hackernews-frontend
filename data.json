@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-10T17:56:16.693Z"
+    "lastUpdated": "2026-08-10T20:47:37.499Z"
   },
   "stories": [
+    {
+      "id": 49249150,
+      "author": "speckx",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 9,
+      "time": 1786393206,
+      "title": "Illinois Just Passed a Law That Puts Linux on the Hook for Age Verification",
+      "type": "story",
+      "url": "https://linuxstans.com/illinois-hb5511-operating-system-age-verification/",
+      "og_image": "https://linuxstans.com/wp-content/uploads/2026/08/illinois-hb5511-operating-system-age-verification.png",
+      "groq_label": "Illinois requires online Age Verification to pass certain technical standards, which may inadvertently rely on Linux systems.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49247477,
+      "author": "sagacity",
+      "descendants": 27,
+      "kids": "[49249354,49248918,49249385,49248656,49248469,49249020,49248933,49248983,49248669]",
+      "score": 51,
+      "time": 1786385569,
+      "title": "Rust SIMD on the GPU",
+      "type": "story",
+      "url": "https://www.vectorware.com/blog/simd-on-gpu/",
+      "og_image": "https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_4ZmndNCZY2uSnEayhwbSuemEqYJP",
+      "groq_label": "Rust's SIMD library has been ported to work with the GPU in addition to the CPU.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Rust SIMD on the GPU project aims to solve the problem of optimizing performance on graphics processing units. The Hacker News discussion was generally positive, with many commenters appreciating the work of the Rust-GPU team and praising the potential benefits of using SIMD on the GPU. At the same time, several commenters raised concerns about the issue of portable SIMD being available only on nightly, citing the need for a compatible solution that works on stable rust.\n\nHowever, overall the discussion suggests that the community sees promise in this project, particularly with respect to its innovative approach and the potential for improving performance.",
+      "groq_explain": null
+    },
     {
       "id": 49246187,
       "author": "thomas_unise",
@@ -178,6 +208,21 @@
       "og_image": "https://gray-wcax-prod.gtv-cdn.com/resizer/v2/QEV2FCRJFVE4HN5LGUQU3IWK5U.png?auth=2f0b57d18eb3d3dbb7bc5fb4d2610e3390e058794706a44bf2b74201e08cff23&width=1200&height=600&smart=true",
       "groq_label": "Companies rushing to adopt AI customer service are overlooking fundamental issues like poor model accuracy and lack of human nuance, potentially leading to customer dissatisfaction.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is critical. Commenters frequently criticized the use of AI phone assistants, describing the experience as \"hacky,\" \"atrocious,\" and \"a recipe for disaster.\" The consensus is that companies are pushing the adoption of AI at their own peril, and that the quality of AI-powered customer service is still not there yet. The community views the decision of Kinney Drugs to pull back AI phone assistant as a justified move, highlighting the importance of human interaction in customer service and the limitations of current AI technology. However, the overall consensus is that AI customer service is doomed to fail, despite initial excitement and promises from companies.",
+      "groq_explain": null
+    },
+    {
+      "id": 49243880,
+      "author": "root-parent",
+      "descendants": 266,
+      "kids": "[49248960,49244674,49245325,49244345,49244564,49248461,49248691,49244235,49244697,49248794,49245067,49248958,49243957,49248926,49249238,49245158,49245227,49249018,49248374,49248729,49248580,49248522,49246363,49248049,49248953,49244374,49248439,49249006,49245468,49248798,49248459,49248147,49244907,49244394,49248516]",
+      "score": 213,
+      "time": 1786370782,
+      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "type": "story",
+      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8b2e6973-50e7-406b-8076-5605a762cb0f.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "groq_label": "Meta announces a return to open-source AI models following criticism from the open-source community of its competitors' closed approaches.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article about Mark Zuckerberg's attack on \"closed\" AI rivals highlights Meta's return to open models. The Hacker News discussion was generally nuanced, with many commenters appreciating Meta's shift towards open-source AI models and arguing that increased competition and access to knowledge can lead to progress. However, several commenters raised concerns about the timing and motivations behind Meta's decision, suggesting that it may be a strategic move to shift the narrative and gain an advantage over competitors. One commenter questioned whether the recent open-source release is significant enough, considering Facebook's existing open model collections. The discussion also featured philosophical debates, with some commenters praising Zuckerberg's thought experiment on the benefits of universal access to superintelligent AI and others dismissing it as simplistic or misguided. Overall, the discussion reflects a balanced mix of enthusiasm and skepticism, with commenters weighing the potential benefits and drawbacks of Meta's decision.",
       "groq_explain": null
     },
     {
@@ -404,51 +449,6 @@
       "groq_label": "The author used an inefficient icosahedron model instead of the more common and easier to fold dymaxion map to turn satellite imagery into a paper globe.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis project, titled \"Turn satellite imagery into a paper globe you fold yourself,\" aims to solve the problem of physically interacting with and folding a detailed representation of the globe using satellite imagery. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its simplicity and the potential for users to create their own customized globes. Many appreciated the idea behind the project, noting its educational value and interest. However, the discussion also revealed several criticisms. Commenters expressed concerns about the presentation and usability of the website, noting the unclear icons and confusing labeling. Others questioned the specific approach to the project, particularly the naming and design choices, and some believed the idea could be implemented more effectively in other ways.Overall, the Hacker News community considered the project interesting but imperfect, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
       "groq_explain": null
-    },
-    {
-      "id": 49238561,
-      "author": "hipparchus",
-      "descendants": 40,
-      "kids": "[49239120,49238929,49238934,49238940,49238681,49238766,49239341,49239340,49239347,49239102,49239145,49238830,49238733,49239277,49238791]",
-      "score": 139,
-      "time": 1786328597,
-      "title": "What Happened to HackerOne?",
-      "type": "story",
-      "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-      "og_image": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/featured.jpg",
-      "groq_label": "HackerOne allegedly used AI technology to triage bug bounty reports without obtaining users' consent.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project discusses the apparent decline of HackerOne, a bug bounty platform. The Hacker News discussion was generally critical, with many commenters raising concerns about the company's approach to bug bounty programs, citing issues such as high transaction costs, inefficient triage processes, and vulnerability to low-effort submissions. Some commenters also pointed out that the margins for such platforms are thin and that companies might be better off building their own in-house platforms. At the same time, several commenters questioned the accuracy of some of the criticism, arguing that the company's actions, such as using AI tools to triage reports, might not be as scandalous as it initially seemed. Overall, the discussion suggests that the community views HackerOne with a mix of skepticism and concern, highlighting the need for the company to adapt and improve its services to remain competitive.",
-      "groq_explain": null
-    },
-    {
-      "id": 49238050,
-      "author": "craigkerstiens",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 16,
-      "time": 1786323694,
-      "title": "How We Pushed CDC into Postgres",
-      "type": "story",
-      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
-      "og_image": "https://www.snowflake.com/content/dam/snowflake-site/engineering-blog/featured-images/sf-eng-blog-ML-2.png",
-      "groq_label": "Postgres can now directly consume message data from the database itself, eliminating the need for a separate message broker.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49237873,
-      "author": "anigbrowl",
-      "descendants": 3,
-      "kids": "[49238157,49238208,49238307]",
-      "score": 22,
-      "time": 1786322184,
-      "title": "Japanese court overturns Red RAW video patent",
-      "type": "story",
-      "url": "https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/",
-      "og_image": "https://www.dpreview.com/wp-content/uploads/2020/12/8323309263-V_RAPTOR_XL_Selects_Camera_w_Family_Bckgrnd.jpeg",
-      "groq_label": "Red's patent for compressing Raw data in a high-resolution video camera before debayering has been declared invalid by Japan's patent court.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Red RAW video patent is overwhelmingly negative. Commenters frequently expressed relief about the patent being overturned, describing the patent as a \"terrible patent\" and expressing their dissatisfaction with Red milking it for nearly two decades. While some commenters highlighted a potential silver lining, such as the abolition of license fees, this was met with skepticism about the likelihood of such a change occurring. The overall consensus is that the patent's abolition is a welcome outcome, long overdue given its flaws.",
-      "groq_explain": "A Japanese court just invalidated a key Red company patent that prevents other companies from using raw video technology without paying a license fee. This could potentially lead to lower costs for companies and consumers in the tech industry, or even get passed on to consumers as lower prices for cameras and equipment."
     }
   ]
 }
