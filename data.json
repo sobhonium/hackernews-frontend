@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-10T17:00:10.506Z"
+    "lastUpdated": "2026-08-10T17:56:16.693Z"
   },
   "stories": [
     {
@@ -76,6 +76,51 @@
       "groq_explain": null
     },
     {
+      "id": 49245359,
+      "author": "jmintz",
+      "descendants": 3,
+      "kids": "[49246916,49247209,49247146]",
+      "score": 22,
+      "time": 1786377315,
+      "title": "The Tragedy of the Cognitive Commons",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2607.29380",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "Large language model supported work is affected by skill decline, which some professionals and leadership are willfully ignoring in favor of increasing code production.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article, \"The Tragedy of the Cognitive Commons\", addresses [problem of skill decline in the field of LLM supported work]. Hacker News commenters generally expressed frustration and warning, with one commenter directly impacted by their workplace's lack of concern for the issue. The discussion was overwhelmingly critical, with commenters highlighting the need for addressing the problem of skill decline in the field.",
+      "groq_explain": null
+    },
+    {
+      "id": 49245348,
+      "author": "bookofjoe",
+      "descendants": 10,
+      "kids": "[49246361,49247095,49247054,49246182,49246992,49246988]",
+      "score": 33,
+      "time": 1786377287,
+      "title": "Midlife Vascular Risk Burden and Dementia-Free Survival Years",
+      "type": "story",
+      "url": "https://www.neurology.org/doi/10.1212/WN9.0000000000000152",
+      "og_image": "images/49245348.png",
+      "groq_label": "Midlife vascular health's impact on dementia-free survival can add up to 12.6 additional years.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis study aims to solve the problem of determining the impact of midlife vascular health on dementia-free survival years. The Hacker News discussion was generally positive, with several commenters appreciating the study's quantification of the benefit of maintaining optimized midlife vascular health. Many praised the study's emphasis on the importance of cardiovascular health in the last decade of life and noted that even moderate diet and lifestyle changes can have a significant impact. However, several commenters raised concerns about the study's definition of hypertension and the choice of risk factors, with some arguing that these definitions are too stringent or do not accurately reflect current medical guidelines. Overall, the discussion suggests that the community sees promise in the study's findings but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49245318,
+      "author": "peter_d_sherman",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 19,
+      "time": 1786377181,
+      "title": "Extreme 220GHz+Broadband Silicon Capacitor X2SC 0201M 22nF BV11",
+      "type": "story",
+      "url": "https://pim.murata.com/asset/pim4/siliconCapacitor/SICAP_X2SC422522_PDF_SILICONCAPACITOR",
+      "og_image": "images/49245318.png",
+      "groq_label": "The X2SC 0201M 22nF capacitors have a broadband frequency of over 220 GHz and are made from silicon material.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
       "id": 49245251,
       "author": "Bender",
       "descendants": 14,
@@ -104,6 +149,21 @@
       "groq_label": "Mars Bar sizes decreased by up to 57% over 35 years due to manufacturing costs and external factors.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article about the 1991 Mars bar being 20g bigger than today's is generally neutral to positive. Commenters frequently discussed the topic of shrinkflation and how it is affecting food sizes, with many agreeing that it is a problem. However, some commentators also pointed out that reducing portion sizes for junk food could be beneficial, while others noted that this might be an isolated case where shrinkflation has a positive effect. The overall consensus is that the idea of a bigger Mars bar is interesting, although its relevance to the broader issue of healthy eating is debated.",
       "groq_explain": "A 35-year-old vintage Mars Bar was found during a house clearance in 2022 in Scunthorpe. It's 20 grams heavier than the current Mars Bar size, which is now 40 grams. This discovery has sparked a discussion about \"shrinkflation,\" where products seem to shrink in size over time while prices remain the same."
+    },
+    {
+      "id": 49244916,
+      "author": "surprisetalk",
+      "descendants": 26,
+      "kids": "[49245984,49245965,49245287,49246881,49247045,49245650,49246033,49246636,49246350,49245415]",
+      "score": 57,
+      "time": 1786375424,
+      "title": "Itadakimasu: A word you say to the food, not the cook",
+      "type": "story",
+      "url": "https://thetokyohermit.substack.com/p/itadakimasu-a-word-you-say-to-the",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!KrAt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a619db4-5a7e-4815-854b-a79c9ea28d26_1254x1254.png",
+      "groq_label": "There is no widely accepted translation of 'itadakimasu', with the common phrase 'thank you for the food' actually misdirecting the word towards the cook rather than the food itself.",
+      "groq_discussion": "Discussion type:  Basic:\n\nThis cultural practice, known as saying \"itadakimasu\" before a meal, is believed to have evolved during the Meiji era in Japan as part of moral and ethics education, possibly influenced by Christian teachings from envoys returning from Western countries. Based on the Hacker News discussion, commenters generally viewed this explanation as somewhat intellectualized and argued that the practice is a simple expression of gratitude for the food, rather than a complex cultural phenomenon. Many pointed out that similar expressions of thanks for food are present in various cultures around the world, such as saying \"grace\" in the West or \"Gracias a Dios\" in other cultures. While the discussion highlighted the intricacies of the Japanese language and the cultural context of the practice, it ultimately boiled down to a consensus that saying \"itadakimasu\" is a universal expression of gratitude for the food, rather than a specifically targeted greeting to the cook. However, some commenters noted that in Japan, it's also common to thank the cook directly after the meal, using the phrase \"ごちそうさまでした\".",
+      "groq_explain": "This is about the meaning and significance of the Japanese phrase \"Itadakimasu\", which means to humbly receive food. The author argues that saying \"Itadakimasu\" before eating is not just a way to thank the cook, but rather a way to acknowledge the lives of the animals or plants that gave themselves to become the food you're eating. It's about being mindful and appreciative of the source of the food."
     },
     {
       "id": 49244569,
@@ -389,66 +449,6 @@
       "groq_label": "Red's patent for compressing Raw data in a high-resolution video camera before debayering has been declared invalid by Japan's patent court.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Red RAW video patent is overwhelmingly negative. Commenters frequently expressed relief about the patent being overturned, describing the patent as a \"terrible patent\" and expressing their dissatisfaction with Red milking it for nearly two decades. While some commenters highlighted a potential silver lining, such as the abolition of license fees, this was met with skepticism about the likelihood of such a change occurring. The overall consensus is that the patent's abolition is a welcome outcome, long overdue given its flaws.",
       "groq_explain": "A Japanese court just invalidated a key Red company patent that prevents other companies from using raw video technology without paying a license fee. This could potentially lead to lower costs for companies and consumers in the tech industry, or even get passed on to consumers as lower prices for cameras and equipment."
-    },
-    {
-      "id": 49235697,
-      "author": "smartmic",
-      "descendants": 11,
-      "kids": "[49237459,49237095,49238122,49237681,49236472,49238141,49237336]",
-      "score": 48,
-      "time": 1786308526,
-      "title": "Tuxedo No. 2 – Cocktail recipes",
-      "type": "story",
-      "url": "https://tuxedono2.com",
-      "og_image": "https://d34nm4jmyicdxh.cloudfront.net/eyJidWNrZXQiOiJjaHJpc3N5LXR1eGVkby1ubzIiLCJrZXkiOiJtZXRyb3BvbGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo3NzAsImhlaWdodCI6NjUwLCJmaXQiOiJjb3ZlciJ9fX0=",
-      "groq_label": "The site is experiencing technical issues, including load crashes and a bug with the infinite scroll feature.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Tuxedo No. 2 – Cocktail recipes is mixed. Commenters frequently praised other resources for cocktail recipes, such as Webtender and Difford's Guide, and mentioned that the site has some technical issues, including a bug with the infinite scroll and an application error under load. However, the main point of debate was a critical comment about a specific drink recipe, which some commenters found unconvincing and others agreed with. The overall consensus is that the discussion was dominated by opinions on cocktail recipes and resources, with little to no enthusiasm for the particular article being discussed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49235641,
-      "author": "berghoffer",
-      "descendants": 43,
-      "kids": "[49237031,49238383,49236173,49238386,49238072,49237771,49236546,49237579,49237926,49237339,49236408,49236361,49236328]",
-      "score": 76,
-      "time": 1786308149,
-      "title": "New Zealand lost its music media, and what we're building to replace it",
-      "type": "story",
-      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
-      "og_image": "https://media.propelmusic.co.nz/articles/nz-music-media/karangahape-road-auckland.webp",
-      "groq_label": "New Zealand's local music scene is struggling due to a lack of coverage and local journalism, despite live performance revenue reaching $329 million and local artists capturing a tiny share of music sales.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis article/project aims to replace the music media in New Zealand. The Hacker News discussion was generally mixed, with many commenters appreciating the idea behind the project and the goal of promoting local music. However, several commenters raised concerns about the project's limitations, arguing that it is only focusing on electronic music, which may not address the broader needs of the local music scene. They pointed out that other forms of music, such as live performances, are still thriving in the country. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49235323,
-      "author": "andrewstetsenko",
-      "descendants": 43,
-      "kids": "[49235510,49235498,49235891,49235441,49235549,49235496,49235540,49235527,49235463,49235557,49235462]",
-      "score": 54,
-      "time": 1786306418,
-      "title": "Poland now 6th-largest EU economy, ahead of Switzerland and Belgium",
-      "type": "story",
-      "url": "https://www.euronews.com/business/2026/08/09/poland-now-sixth-largest-eu-economy-ahead-of-switzerland-and-belgium",
-      "og_image": "https://images.euronews.com/articles/stories/09/86/71/11/1200x675_cmsv2_5450915e-6272-5879-ab91-c04a70bf4057-9867111.jpg",
-      "groq_label": "Poland has surpassed Switzerland and Belgium in economic size becoming the 6th largest EU economy.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the news of Poland's increased economic status with a mix of admiration and perspective. Many commenters acknowledged Poland's growth and accomplishments, citing examples of the country's skilled workforce and attractive business environment. The positive comments also highlighted Poland's social and cultural aspects, mentioning its commitment to the Catholic church and the presence of excellent museums. However, others expressed skepticism, questioning the significance of nominal GDP and suggesting that it may not accurately reflect living conditions. Some also criticized the EU's structure and the influence of smaller Eastern European countries, raising concerns about the union's top-heaviness and potential for discontent. Overall, commenters viewed Poland's progress with a nuanced perspective, acknowledging both its achievements and potential limitations.",
-      "groq_explain": "Poland is now the 6th largest economy in the European Union, surpassing countries like Switzerland and Belgium, with a GDP of almost a trillion euros in 2025. This is largely due to years of economic growth, but it doesn't necessarily mean that the country's residents have high living standards, as its GDP per capita is lower than the EU average."
-    },
-    {
-      "id": 49235242,
-      "author": "campuscodi",
-      "descendants": 2,
-      "kids": "[49235556]",
-      "score": 7,
-      "time": 1786306011,
-      "title": "Deletes all instances of Microsoft's GDID and prevents minting of new ones",
-      "type": "story",
-      "url": "https://github.com/yegors/deGDID",
-      "og_image": "https://opengraph.githubassets.com/4c5a6e19f2034357ac95664d50c1b6f251faf54b91ebe79e2d6289102a29fd85/yegors/deGDID",
-      "groq_label": "Using static or random GDIDs instead of deleting the existing ones would allow for multiple hosts to share the same identifier, which might be more effective in avoiding detection.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to prevent the deletion of instances of Microsoft's GDID by deleting them altogether and preventing the minting of new ones.\n\nBased on the Hacker News discussion, commenters generally viewed the project as somewhat simplistic and questioned its effectiveness. Many appreciated the straightforward approach of simply removing GDIDs, noting that it is an obvious solution. However, others believed it could be particularly useful for systems or applications that require zero exposure to Microsoft's GDIDs. However, the discussion also revealed several criticisms. Commenters expressed concerns about the approach, suggesting that using the same GDID on multiple hosts or generating a random GDID for each read might be a more suitable and less invasive solution. Overall, the Hacker News community considered the project a somewhat niche solution, recognizing its simplicity and practicality while emphasizing that its limitations might make it less desirable than other approaches.",
-      "groq_explain": null
     }
   ]
 }
