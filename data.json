@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-10T20:47:37.499Z"
+    "lastUpdated": "2026-08-10T21:29:31.408Z"
   },
   "stories": [
     {
@@ -31,6 +31,21 @@
       "og_image": "https://www.vectorware.com/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fvectorware_logo.6d5f5210.png&w=640&q=75&dpl=dpl_4ZmndNCZY2uSnEayhwbSuemEqYJP",
       "groq_label": "Rust's SIMD library has been ported to work with the GPU in addition to the CPU.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Rust SIMD on the GPU project aims to solve the problem of optimizing performance on graphics processing units. The Hacker News discussion was generally positive, with many commenters appreciating the work of the Rust-GPU team and praising the potential benefits of using SIMD on the GPU. At the same time, several commenters raised concerns about the issue of portable SIMD being available only on nightly, citing the need for a compatible solution that works on stable rust.\n\nHowever, overall the discussion suggests that the community sees promise in this project, particularly with respect to its innovative approach and the potential for improving performance.",
+      "groq_explain": null
+    },
+    {
+      "id": 49246804,
+      "author": "HenryNdubuaku",
+      "descendants": 7,
+      "kids": "[49249984,49249736,49249620,49249933]",
+      "score": 30,
+      "time": 1786382527,
+      "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "type": "story",
+      "url": "https://cactuscompute.com/needle",
+      "og_image": "https://cactuscompute.com/opengraph-image?9df76a35fe8276e2",
+      "groq_label": "The Needle2 model is designed to be highly agentic and can handle tasks like locking a door even though it's a small 14MB model.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis Needle2: 14MB agentic LLM for phones, wearables, smart home, and robots aims to solve the problem of enabling artificial intelligence capabilities on edge devices. The Hacker News discussion was generally positive, with several commenters appreciating its strengths such as the \"Fine-tuning\" feature and the small size of the model, which would make it suitable for use in a web browser. At the same time, several commenters raised concerns about its limitations, debating issues such as consistency in its responses and the need for larger models for more performance.",
       "groq_explain": null
     },
     {
@@ -226,6 +241,21 @@
       "groq_explain": null
     },
     {
+      "id": 49243474,
+      "author": "kuberwastaken",
+      "descendants": 51,
+      "kids": "[49246865,49247415,49248449,49248143,49249586,49249451,49247996,49247312,49247101,49246901,49249127,49247465,49247503,49248663,49249045,49247121,49248778,49247507,49248700,49246640,49249269,49247144,49249495]",
+      "score": 91,
+      "time": 1786368940,
+      "title": "Humanising LLM Outputs Is Dumb",
+      "type": "story",
+      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "og_image": "https://kuber.studio/blog/static/social-images/content-Reflections-Humanising%20LLM%20Outputs%20is%20Actually%20Dumb.md.webp",
+      "groq_label": "LLMs trained on human-generated data inherently produce text that mirrors existing linguistic patterns, and attempting to force a specific style onto them can result in loss of accuracy and potentially introduce new, made-up information or blithering.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis article argues against humanizing LLM outputs by suggesting that it is unnecessary and potentially counterproductive. The Hacker News discussion reflects a balanced mix of viewpoints on this issue. Some commenters, like the author, find that humanizing LLM outputs can lead to unclear and convoluted language that is difficult to follow. Others, however, appreciate the ability of LLMs to produce clear and professional-sounding text. The discussion also touches on the idea that forcing an LLM to use human-like language can result in lossy compression of the original information, potentially introducing new errors or hallucinations. Additionally, some commenters note that LLMs are trained on human-written text and may perform better when using a more natural language style. The overall discussion presents a nuanced view of the issue, highlighting both the potential benefits and drawbacks of humanizing LLM outputs.",
+      "groq_explain": null
+    },
+    {
       "id": 49243397,
       "author": "theanonymousone",
       "descendants": 110,
@@ -418,36 +448,6 @@
       "og_image": "https://www.whodunnitai.com/whodunnitai-metadata.jpg",
       "groq_label": "The implementation doesn't require users to create an account as the interview can be conducted anonymously and without registration.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project addresses the problem of engaging with interactive content. Hacker News commenters generally appreciated its unique approach and potential for entertainment. However, they also expressed concerns about requiring an account for access, citing their preference for not creating new accounts online. Overall, the discussion was neutral, with commenters recognizing the project's potential but emphasizing its limitations related to user experience and account creation.",
-      "groq_explain": null
-    },
-    {
-      "id": 49238818,
-      "author": "LorenDB",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 22,
-      "time": 1786331568,
-      "title": "Run Android ARM64 VR APKs on Apple Vision Pro",
-      "type": "story",
-      "url": "https://github.com/shinyquagsire23/Klepton",
-      "og_image": "https://opengraph.githubassets.com/72fc0532580024f43027aa9143b581a59452111e92aa8d99ef8760fc1b03d14c/shinyquagsire23/Klepton",
-      "groq_label": "Arm64 can be emulated on the Apple M2 through Rosetta 2, making it a potential compatibility solution.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49238735,
-      "author": "dango2506",
-      "descendants": 5,
-      "kids": "[49239582,49239034,49239223,49238793,49239402,49238736]",
-      "score": 24,
-      "time": 1786330658,
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "type": "story",
-      "url": "https://foldingglobes.com/",
-      "og_image": "https://foldingglobes.com/api/theme-texture/blue-marble",
-      "groq_label": "The author used an inefficient icosahedron model instead of the more common and easier to fold dymaxion map to turn satellite imagery into a paper globe.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project, titled \"Turn satellite imagery into a paper globe you fold yourself,\" aims to solve the problem of physically interacting with and folding a detailed representation of the globe using satellite imagery. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its simplicity and the potential for users to create their own customized globes. Many appreciated the idea behind the project, noting its educational value and interest. However, the discussion also revealed several criticisms. Commenters expressed concerns about the presentation and usability of the website, noting the unclear icons and confusing labeling. Others questioned the specific approach to the project, particularly the naming and design choices, and some believed the idea could be implemented more effectively in other ways.Overall, the Hacker News community considered the project interesting but imperfect, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
       "groq_explain": null
     }
   ]
