@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-09T21:08:09.867Z"
+    "lastUpdated": "2026-08-10T02:02:29.539Z"
   },
   "stories": [
+    {
+      "id": 49238050,
+      "author": "craigkerstiens",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 16,
+      "time": 1786323694,
+      "title": "How We Pushed CDC into Postgres",
+      "type": "story",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/",
+      "og_image": "https://www.snowflake.com/content/dam/snowflake-site/engineering-blog/featured-images/sf-eng-blog-ML-2.png",
+      "groq_label": "Postgres can now directly consume message data from the database itself, eliminating the need for a separate message broker.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49237873,
+      "author": "anigbrowl",
+      "descendants": 3,
+      "kids": "[49238157,49238208,49238307]",
+      "score": 22,
+      "time": 1786322184,
+      "title": "Japanese court overturns Red RAW video patent",
+      "type": "story",
+      "url": "https://www.dpreview.com/news/panasonic-did-what-apple-sony-and-nikon-couldnt-overturn-a-red-raw-video-patent/",
+      "og_image": "https://www.dpreview.com/wp-content/uploads/2020/12/8323309263-V_RAPTOR_XL_Selects_Camera_w_Family_Bckgrnd.jpeg",
+      "groq_label": "Red's patent for compressing Raw data in a high-resolution video camera before debayering has been declared invalid by Japan's patent court.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Red RAW video patent is overwhelmingly negative. Commenters frequently expressed relief about the patent being overturned, describing the patent as a \"terrible patent\" and expressing their dissatisfaction with Red milking it for nearly two decades. While some commenters highlighted a potential silver lining, such as the abolition of license fees, this was met with skepticism about the likelihood of such a change occurring. The overall consensus is that the patent's abolition is a welcome outcome, long overdue given its flaws.",
+      "groq_explain": "A Japanese court just invalidated a key Red company patent that prevents other companies from using raw video technology without paying a license fee. This could potentially lead to lower costs for companies and consumers in the tech industry, or even get passed on to consumers as lower prices for cameras and equipment."
+    },
+    {
+      "id": 49235697,
+      "author": "smartmic",
+      "descendants": 11,
+      "kids": "[49237459,49237095,49238122,49237681,49236472,49238141,49237336]",
+      "score": 48,
+      "time": 1786308526,
+      "title": "Tuxedo No. 2 – Cocktail recipes",
+      "type": "story",
+      "url": "https://tuxedono2.com",
+      "og_image": "https://d34nm4jmyicdxh.cloudfront.net/eyJidWNrZXQiOiJjaHJpc3N5LXR1eGVkby1ubzIiLCJrZXkiOiJtZXRyb3BvbGUuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo3NzAsImhlaWdodCI6NjUwLCJmaXQiOiJjb3ZlciJ9fX0=",
+      "groq_label": "The site is experiencing technical issues, including load crashes and a bug with the infinite scroll feature.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Tuxedo No. 2 – Cocktail recipes is mixed. Commenters frequently praised other resources for cocktail recipes, such as Webtender and Difford's Guide, and mentioned that the site has some technical issues, including a bug with the infinite scroll and an application error under load. However, the main point of debate was a critical comment about a specific drink recipe, which some commenters found unconvincing and others agreed with. The overall consensus is that the discussion was dominated by opinions on cocktail recipes and resources, with little to no enthusiasm for the particular article being discussed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49235641,
+      "author": "berghoffer",
+      "descendants": 43,
+      "kids": "[49237031,49238383,49236173,49238386,49238072,49237771,49236546,49237579,49237926,49237339,49236408,49236361,49236328]",
+      "score": 76,
+      "time": 1786308149,
+      "title": "New Zealand lost its music media, and what we're building to replace it",
+      "type": "story",
+      "url": "https://propelmusic.co.nz/articles/the-sound-went-quiet-nz-music-media",
+      "og_image": "https://media.propelmusic.co.nz/articles/nz-music-media/karangahape-road-auckland.webp",
+      "groq_label": "New Zealand's local music scene is struggling due to a lack of coverage and local journalism, despite live performance revenue reaching $329 million and local artists capturing a tiny share of music sales.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis article/project aims to replace the music media in New Zealand. The Hacker News discussion was generally mixed, with many commenters appreciating the idea behind the project and the goal of promoting local music. However, several commenters raised concerns about the project's limitations, arguing that it is only focusing on electronic music, which may not address the broader needs of the local music scene. They pointed out that other forms of music, such as live performances, are still thriving in the country. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49235323,
       "author": "andrewstetsenko",
@@ -390,66 +450,6 @@
       "og_image": "https://gukov.dev/assets/svg/magic-hexagons/MagicHexagon-Order10-sum_zero.svg",
       "groq_label": "The Apollonian circle packing theorem states that it's possible to arrange hexagons of any order into a repeating pattern.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49228663,
-      "author": "BruceEel",
-      "descendants": 17,
-      "kids": "[49229163,49229365,49229468,49228957,49229089,49229135]",
-      "score": 53,
-      "time": 1786253021,
-      "title": "Microsoft Word for Windows 1.1a, Native X64 Port",
-      "type": "story",
-      "url": "https://github.com/jmarshall23/msword",
-      "og_image": "https://opengraph.githubassets.com/105d9c4a418505e44a6b7b7b9795e9142f8b49c1eb0da5aba19083da264ca58f/jmarshall23/msword",
-      "groq_label": "A 64-bit Windows executable of Microsoft Word 1.1a is built by translating 16-bit assembly and Win16-specific code into modern C and adapting memory and resource handling to current Win32 APIs.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis native Windows x64 port of Microsoft Word for Windows 1.1a aims to solve the problem of making an ancient piece of software compatible with modern architectures. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the impressive technical achievement of translating 16-bit segmented memory to x64 without emulation, and the comprehensive test suite covering UI workflows. Many appreciated the dedication and effort that went into creating this project, with one commenter considering it a \"fully working\" native Windows x64 port. However, some users encountered minor issues, such as a missing CMake file, and others requested additional features, like screenshots. Overall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that addressing these minor issues would improve its usefulness and adoption.",
-      "groq_explain": "This is about a team of developers who successfully ported the original Microsoft Word 1.1a to run natively on a 64-bit Windows system, rather than through an emulator or a modified version. They did this by translating 16-bit assembly code to C++ and adapting other outdated features to modern Win32 APIs. The end result is a working 64-bit version of the original Word program that can be run like any other Windows application."
-    },
-    {
-      "id": 49228458,
-      "author": "doubletwoyou",
-      "descendants": 2,
-      "kids": "[49228544]",
-      "score": 10,
-      "time": 1786249826,
-      "title": "\"The original URL for this prediction will no longer be available in 11 years.\" (2011)",
-      "type": "story",
-      "url": "https://longbets.org/601/",
-      "og_image": "https://static.longbets.org/static/ui/winbadge-detail.gif",
-      "groq_label": "HTTP will become obsolete as HTTPS becomes the default protocol.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to solve the problem of predicting long-term outcomes by hosting a prediction market where users can bet on future events. Based on the Hacker News discussion, commenters generally viewed the project positively, emphasizing the potential of prediction markets and the ability to test the accuracy of long-term predictions. Many appreciated the project's approach, noting that the community could discuss and refine predictions. However, the discussion also revealed concerns about the potential issue with HTTPS adoption, which could render the original URL obsolete. Commenters questioned whether the project had considered the long-term implications of the \"http://\" protocol and whether a more sustainable approach could be developed. Overall, the Hacker News community considered the project promising but recognized the need to address potential long-term limitations, such as the transition to HTTPS.",
-      "groq_explain": null
-    },
-    {
-      "id": 49228166,
-      "author": "minimaxir",
-      "descendants": 4,
-      "kids": "[49228436,49228547,49228388,49228507]",
-      "score": 58,
-      "time": 1786245960,
-      "title": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
-      "type": "story",
-      "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week",
-      "og_image": "https://daringfireball.net/graphics/df-wide-card.png",
-      "groq_label": "The author of \"Daring Fireball\" retracted an article about an App Store rejection because the premise was fundamental wrong and the author was misled about the app's nature.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is overwhelmingly positive. Commenters frequently praised the author's decision to retract the article and address the criticism from Apple, describing it as \" refreshing\" and a \"right way to handle the situation.\" They also appreciated the author's transparency and willingness to admit mistake. However, some commenters also expressed concerns about the author's character, pointing to further plagiarism issues. The overall consensus is that the author should be commended for taking responsibility and owning up to the mistake, acknowledging the importance of honesty and transparency in storytelling.",
-      "groq_explain": "The writer of a tech blog posted an article about an app being rejected from the App Store due to it being considered \"astrology,\" not \"astronomy\" as the developer claimed, but it turns out the app was indeed about astrology and the developer was lying."
-    },
-    {
-      "id": 49227652,
-      "author": "bkudria",
-      "descendants": 3,
-      "kids": "[49228439,49228505]",
-      "score": 23,
-      "time": 1786240188,
-      "title": "Incentives Are for Losers",
-      "type": "story",
-      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!5i4W!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4bc18a36-e4db-4865-9b44-3e3cb2129236_1456x990.webp",
-      "groq_label": "Punishment and exclusion are used against individuals who defy or refuse incentives.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Incentives Are for Losers\" is overwhelmingly positive. Commenters frequently praised the perspective presented in the article, with one commenter expressing strong enthusiasm by giving a \"3\" out of 3 stars. The discussion suggests a clear consensus on the article's main points and ideas, with no dissenting opinions present in the provided comments.",
       "groq_explain": null
     }
   ]
