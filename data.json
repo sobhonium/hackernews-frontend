@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-11T01:59:08.726Z"
+    "lastUpdated": "2026-08-11T05:15:05.535Z"
   },
   "stories": [
+    {
+      "id": 49252493,
+      "author": "swyx",
+      "descendants": 20,
+      "kids": "[49253237,49253124,49253242,49253417,49253191,49253377,49253188,49253193]",
+      "score": 33,
+      "time": 1786413875,
+      "title": "Hyperspace",
+      "type": "story",
+      "url": "https://hypercritical.co/hyperspace/",
+      "og_image": "https://hypercritical.co/hyperspace/images/hyperspace-icon-1024-lossy.png",
+      "groq_label": "Hyperspace uses space-saving clones to reclaim disk space by replacing duplicate files with references to a single original file.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Hyperspace product aims to solve the problem of redundant data storage. The Hacker News discussion was generally mixed, with some commenters appreciating its ability to save hundreds of TBs of space in a single run, and others criticizing its dark pattern of presenting users with a purchase option after initially allowing them to download and scan for free. At the same time, several commenters raised questions about its comparison to other products, such as diskDedupe, and how it works exactly, including its use of reflinks and symbolic links. Overall, the discussion suggests that the community sees some promise in Hyperspace, but believes there are important challenges and comparisons with existing products that still need to be addressed.",
+      "groq_explain": "Hyperspace is a tool that frees up disk space by finding duplicate files on your computer and replacing all but one with a smaller, space-saving version, without deleting the original file. It does this by scanning your computer, identifying identical files, and reclaiming disk space from the duplicates."
+    },
+    {
+      "id": 49252462,
+      "author": "calvinmorrison",
+      "descendants": 9,
+      "kids": "[49253029,49253006,49253003,49253312]",
+      "score": 35,
+      "time": 1786413661,
+      "title": "Recycle – Floppydisks",
+      "type": "story",
+      "url": "https://www.floppydisk.com/recycle",
+      "og_image": "https://static.wixstatic.com/media/f3bcf8_f5c6d3965bcf44479f00eec297e5d51b~mv2.jpg/v1/crop/x_3,y_0,w_114,h_120/fill/w_111,h_116,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f3bcf8_f5c6d3965bcf44479f00eec297e5d51b~mv2.jpg",
+      "groq_label": "Floppydisks were a standard medium for storing and transporting digital content, often containing early programming, pixel art, and written essays.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis product attempts to sell old floppy disks (3.5\" specifically). Hacker News commenters generally reacted positively to the nostalgia of using floppy disks in the past, mentioning experiences like writing QBASIC programs and carrying floppy disks to school. However, they also expressed frustration with the product, citing issues such as a broken \"add to cart\" feature and skepticism about whether the product actually exists. Overall, the discussion was largely negative, with commenters seeming to dismiss the product.",
+      "groq_explain": null
+    },
+    {
+      "id": 49252179,
+      "author": "swyx",
+      "descendants": 15,
+      "kids": "[49252931,49253261,49253439,49252756,49252831,49252992,49253508]",
+      "score": 129,
+      "time": 1786411329,
+      "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "type": "story",
+      "url": "https://github.com/antirez/h3.c",
+      "og_image": "https://opengraph.githubassets.com/9cd232b5fd3c9516e195f1a778ed8ff05d2f2a2cbeedd7bc419b18d7872b0cd8/antirez/h3.c",
+      "groq_label": "H3-metal uses native MiniMax-H3 inference on Apple Silicon to potentially provide performance gains.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis H3-metal project aims to provide native MiniMax-H3 inference on Apple Silicon. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its ability to work on M5 Pro 64GB MacBook Pro. Many appreciated customized modifications such as city96's ComfyUI-GGUF custom node, noting that it can improve performance, while others believed it could be particularly useful for those with access to Apple Silicon hardware. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about speed, noting that an 9-second clip at 20 steps can take over an hour to process. Some questioned the need for 128GB of memory, suggesting it's not compatible with lower-end models.  Overall, the Hacker News community considered the project with a mixture of enthusiasm and criticism, recognizing its potential but emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49251702,
       "author": "eatonphil",
@@ -404,51 +449,6 @@
       "groq_label": "OpenCode Go costs the DeepSeek user $1.14 per day.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article/project (OpenCode Go) aims to solve the problem of expensive GPU compute. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as cost-effectiveness, scalability, and convenience. Many appreciated the ability to rent GPU compute, noting that it is a more practical and productive approach than buying and maintaining local hardware. However, the discussion also revealed several criticisms. Commenters expressed concerns about data security, citing past issues with the OpenCode project's handling of sensitive information. Overall, the Hacker News community considered the project generally positive, recognizing its potential while emphasizing the need for improved data security.",
       "groq_explain": null
-    },
-    {
-      "id": 49242653,
-      "author": "fniephaus",
-      "descendants": 3,
-      "kids": "[49243035]",
-      "score": 17,
-      "time": 1786364153,
-      "title": "Squeak/Smalltalk 6.1 Release Notes",
-      "type": "story",
-      "url": "https://squeak.org/release_notes/6.1/",
-      "og_image": "https://squeak.org/static/img/balloon-og.png",
-      "groq_label": "Many developers learned fundamental concepts that influenced modern programming languages by using Squeak, a Smalltalk implementation.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Squeak/Smalltalk 6.1 Release Notes is overwhelmingly positive. Commenters frequently praised the language and its influence on other programming languages, describing it as the true embodiment of object-oriented programming. They highlighted the lasting impact of Smalltalk on modern languages, including its role in shaping JavaScript. The overall consensus is that learning Smalltalk is a valuable experience that can greatly influence a programmer's perspective.",
-      "groq_explain": null
-    },
-    {
-      "id": 49242297,
-      "author": "prakashqwerty",
-      "descendants": 12,
-      "kids": "[49242686,49242711,49243001,49242661,49242702]",
-      "score": 31,
-      "time": 1786361680,
-      "title": "Tail-call optimization in C is relatively recent",
-      "type": "story",
-      "url": "https://lwn.net/Articles/1034703/",
-      "og_image": "https://static.lwn.net/images/logo/barepenguin-70.webp",
-      "groq_label": "Tail-call optimization in C was implemented in GCC by Mark Probst in 2001.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis discussion about the history of tail-call optimization in C reveals the project of implementing TCO in GCC is more extensive than initially thought. Based on the Hacker News discussion, commenters generally viewed the addition of TCO in GCC positively and highlighted strengths such as the contribution of Mark Probst who implemented it in 2001. Many appreciated the technical detail provided by others noting that TCO is more recent than anticipated, with indirect calls also being implemented. However, the discussion also revealed several criticisms. Commenters expressed concerns about the limitations of the old implementation in GCC, with some questioning the initial assessment of 'relatively recent' and others pointing out the potential for stack-overflow bugs in languages with TCO. Overall, the Hacker News community considered the topic informative, recognizing the depth of the implementation history while emphasizing that a more nuanced understanding would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49242245,
-      "author": "jottinger",
-      "descendants": 35,
-      "kids": "[49243175,49242982,49243161,49242964,49242990,49242961,49243088,49243017,49242999,49243036,49242564,49242659,49242787,49242738,49242789,49242768]",
-      "score": 55,
-      "time": 1786361267,
-      "title": "Because It's Not Fun Enough: why languages fail",
-      "type": "story",
-      "url": "https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough",
-      "og_image": "https://bytecode.news/opengraph-image",
-      "groq_label": "Multiple factors combine to determine a programming language's success or failure, including making it harder for users to pursue their vocation, art, or job.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article \"Because It's Not Fun Enough: why languages fail\" is that the author's theory oversimplifies the reasons why languages fail or succeed. Commenters emphasized that learning languages, regardless of their design, can be tedious at times due to the complexity of concepts and the need to achieve a specific goal. They also pointed out that having a strong ecosystem, including libraries, tools, and community support, is crucial for a language's success, and that switching languages requires significant investment of time. Recurring concerns focused on the idea that a language's success is often linked to \"killer features\" that influence the entire industry, but commenters also debated the importance of factors such as commercial viability, ease of use, and interactivity. The overall consensus is that language adoption is a complex phenomenon that cannot be reduced to a single factor, and that the article fails to provide a comprehensive explanation for why languages fail or succeed.",
-      "groq_explain": "The core idea is that programming languages fail not because of their technical merit, but because they don't meet the needs of the people who use them - as a job, as an art, and as a personal passion or calling. Languages that make any of these aspects unnecessarily difficult eventually get replaced."
     }
   ]
 }
