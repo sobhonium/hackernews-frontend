@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-11T05:15:05.535Z"
+    "lastUpdated": "2026-08-11T09:03:19.372Z"
   },
   "stories": [
+    {
+      "id": 49254880,
+      "author": "aziaziazi",
+      "descendants": 6,
+      "kids": "[49255174,49255095,49255084,49255015]",
+      "score": 26,
+      "time": 1786436146,
+      "title": "France to ban unsolicited telemarketing calls",
+      "type": "story",
+      "url": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html",
+      "og_image": "https://img.lemde.fr/2022/03/07/1/0/3500/2333/1440/960/60/0/8116779_1646665384570-pns-720085380.jpg",
+      "groq_label": "The new law banning unsolicited telemarketing calls in France is intended to prevent scams but may not be effective since scammers often don't verify block-lists and many spam calls come from unregistered businesses or individuals.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the proposed law to ban unsolicited telemarketing calls in France is generally negative. Commenters were skeptical that the law would be effective in blocking scams, pointing out that scammers often do not register with the proper authorities. Many expressed concerns that the law could also harm businesses that engage in legitimate B2B marketing. The discussion also highlighted the ineffectiveness of the previous system due to a security breach. There was also a lighthearted tone as some commenters suggested taking it a step further and banning all forms of unsolicited marketing, including door-to-door sales and street approaches.",
+      "groq_explain": null
+    },
+    {
+      "id": 49253721,
+      "author": "mcptokensaver",
+      "descendants": 28,
+      "kids": "[49254312,49254173,49253925,49254624,49254568,49254077,49254559,49254601,49253973,49254185,49254430,49254317,49253830,49254168,49253956,49253946,49254377]",
+      "score": 40,
+      "time": 1786426018,
+      "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
+      "type": "story",
+      "url": "https://github.com/activeing123/mcptoon",
+      "og_image": "https://opengraph.githubassets.com/69eabfe7fff81b07c9f3155daeaec123c8530276845564da5a96e5d181ad795d/activeing123/mcptoon",
+      "groq_label": "MCP payload has nothing to do with the REST API payload and requires rethinking what's sent over the wire.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Mcptoon tool is overwhelmingly negative. Commenters frequently criticized its design choice to replace true/false with T/F and null with ∅, citing concerns about token efficiency, citing the use of a special unicode symbol that takes up 2 tokens and arguing that true/false is already 1 token in all tokenizers. Many questioned the tool's understanding of tokenization and the author's investigation into how it works. The majority of commenters also highlighted the potential issues caused by the tool's design, such as information lost, hallucinations by models, and wasted tokens and cycles. The overall consensus is that the tool is flawed and that the author's claims are overstated.",
+      "groq_explain": null
+    },
     {
       "id": 49252493,
       "author": "swyx",
@@ -106,6 +136,21 @@
       "og_image": "https://worldtrainmap.com/og.jpg?v=4",
       "groq_label": "Data quality issues are present, with missing reasonably common passenger routes in some regions and significant discrepancies in the global distribution of high-speed rail.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis [World Train Map] aims to provide an interactive map of train routes around the world. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its engaging nature and potential for educational value, particularly in illustrating the disparity in global rail infrastructure. Many appreciated the filter feature for high-speed rail, noting that it effectively showcased the prevalence of such infrastructure in countries like Japan, China, and Europe. However, the discussion also revealed several criticisms. Commenters expressed concerns about the map's incompleteness, pointing out missing routes in Europe and noting that a more comprehensive verification system was necessary. Overall, the Hacker News community considered the project interesting and well-intentioned, recognizing its potential while emphasizing that improving its scope and accuracy would enhance its usefulness and adoption.\n\nDiscussion type: - News Style \nHacker News commenters reacted to the World Train Map with a mix of interest and criticism. Many praised its engaging feature set and the ability to visualize global rail infrastructure, particularly high-speed rail adoption. However, the discussion also highlighted limitations, including the map's incomplete data and a lack of verification system, pointing to more comprehensive options like Open Railway Map as a potential alternative. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea.",
+      "groq_explain": null
+    },
+    {
+      "id": 49250836,
+      "author": "awnird",
+      "descendants": 236,
+      "kids": "[49254850,49254552,49252034,49251231,49254472,49251205,49254917,49251293,49254385,49253269,49255045,49252050,49251268,49254848,49251324,49251716,49255003,49251625,49254634,49251507,49254306,49254679,49251404,49251561,49251310,49254894,49251242,49251061,49251357,49254446,49254465,49254471,49251025]",
+      "score": 248,
+      "time": 1786401390,
+      "title": "As AI eats the web, the internet’s collective memory is disappearing",
+      "type": "story",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "og_image": "https://walrus-assets.s3.amazonaws.com/img/Bednar-Google-1800.jpg",
+      "groq_label": "The internet's collective memory is disappearing as AI-powered systems and algorithms erase and alter online content.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis article focuses on the decline of the internet's collective memory, largely due to the rise of AI. The Hacker News discussion suggests that commenters were primarily concerned about the impact of AI on the internet, with many seeing it as a threat to the incentives that drive innovation and content creation. Several commenters pointed out specific examples, such as Google's declining search quality and the Internet Archive's struggles with copyright restrictions. \n\nSome commenters praised alternative approaches, such as Gemini, which aggregates information from multiple sources without the need for intermediaries or advertising revenue. Others noted the value of having granular control over AI responses, such as with DuckDuckGo's search engine. \n\nHowever, the discussion also highlighted concerns about the limitations and potential biases of AI, including its tendency to hallucinate or manipulate information. Some commenters suggested that a return to older formats, such as printed almanacs or paper encyclopedias, might be necessary to protect the accuracy and verifiability of information. \n\nFinally, several commenters noted that collecting, curating, and protecting high-quality corpuses of truth will become increasingly important for developing high-quality AI models. The overall impression is that the project introduces a pressing concern about the future of the internet and the role of AI in shaping it, highlighting the need for a more nuanced and critical approach to AI development.\n\nThe overall sentiment from the discussion is that the community views AI as a significant threat to the internet's collective memory and that a more thoughtful approach to its development and deployment is necessary to preserve the accuracy and verifiability of information.",
       "groq_explain": null
     },
     {
@@ -403,51 +448,6 @@
       "og_image": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630-D00000.gif",
       "groq_label": "Mistral has secured a US patent for a software feature that is a basic pattern seen in almost all of software engineering.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Mistral's patent for \"Code implemented tool calls\" is extremely negative. Commenters frequently praised several points, describing the patent as \"lame\", \"scourge of the software industry\", \"novelty\" and pointing out how the idea of such a patent seems to not be original or \"obvious to someone skilled in the art\". However, the discussion also included recurring concerns about the fact that it could block smaller companies, and be used in cross-licensing to generate revenue, while critics pointed out how the idea itself is a basic pattern seen in all of software engineering. The overall consensus is that the patent is \"almost for sure invalid and overturnable\" and that Mistral's actions are \"embarrassing and shameful\", and that the patent system is being exploited by large companies.",
-      "groq_explain": null
-    },
-    {
-      "id": 49243029,
-      "author": "jonathanmkeegan",
-      "descendants": 3,
-      "kids": "[49243183,49243178]",
-      "score": 9,
-      "time": 1786366696,
-      "title": "50k Boat Names",
-      "type": "story",
-      "url": "https://www.beautifulpublicdata.com/boat-names/",
-      "og_image": "https://storage.ghost.io/c/7e/ed/7eed3692-c4ce-47fb-af77-6293d8e19002/content/images/size/w1200/2026/08/boat-names-header-5.png",
-      "groq_label": "A list of 50,000 boat names exists.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis 50k Boat Names [article/project] aims to provide a comprehensive list of boat names. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively, with many referencing the infamous Boaty McBoatface \nas a humorous and relatable example of boats making headlines. Commenters also \nappreciated the opportunity to reminisce about this well-known instance. However, \nthe discussion also revealed a minor negative comment criticizing the lack of \nmentioning Boaty McBoatface in the project, with others responding that it's likely \na rare occurrence for a boat to become a mainstream news topic. Overall, the \nHacker News community considered the project with a lighthearted tone, enjoying \nthe nostalgic and funny reference.",
-      "groq_explain": null
-    },
-    {
-      "id": 49242739,
-      "author": "colesantiago",
-      "descendants": 8,
-      "kids": "[49243206,49243115,49243173,49242944,49243074]",
-      "score": 19,
-      "time": 1786364765,
-      "title": "Over 181,000 AI meeting recordings left wide open in note taking app",
-      "type": "story",
-      "url": "https://bobdahacker.com/blog/tldv-hack",
-      "og_image": "https://bobdahacker.com/static/images/blogs/tldv/blogHeader.png",
-      "groq_label": "Over 181,000 AI meeting recordings were left exposed for six months, accessible without authentication on a note-taking app.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis note-taking app vulnerability is designed to address [data security]. The Hacker News discussion was generally critical, with many commenters expressing disappointment and frustration with the company's handling of the issue, citing the long duration of time (six months) that the vulnerability remained unaddressed. Some praised the discovery of the issue but also noted that other basic security measures such as cross-tenant isolation should have been in place. Commenters also highlighted the risks associated with the exposed meeting recordings, pointing out potential sensitive information and the possibility of espionage, as in the comment about Russia possibly accessing Ukraine's Ministry of Digital Transformation meeting notes. Overall, the discussion suggests that the community sees significant issues with the company's handling of the vulnerability and expects better security measures to be in place.",
-      "groq_explain": null
-    },
-    {
-      "id": 49242728,
-      "author": "delduca",
-      "descendants": 11,
-      "kids": "[49243119,49243041,49242875,49242912]",
-      "score": 16,
-      "time": 1786364688,
-      "title": "DeepSeek costs OpenCode Go user $1.14/day; dual DGX breaks even in 24 years",
-      "type": "story",
-      "url": "https://twitter.com/thdxr/status/2086599224674681242",
-      "og_image": "https://pbs.twimg.com/profile_images/1602333093485891584/mmVqjFNI_400x400.jpg",
-      "groq_label": "OpenCode Go costs the DeepSeek user $1.14 per day.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project (OpenCode Go) aims to solve the problem of expensive GPU compute. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as cost-effectiveness, scalability, and convenience. Many appreciated the ability to rent GPU compute, noting that it is a more practical and productive approach than buying and maintaining local hardware. However, the discussion also revealed several criticisms. Commenters expressed concerns about data security, citing past issues with the OpenCode project's handling of sensitive information. Overall, the Hacker News community considered the project generally positive, recognizing its potential while emphasizing the need for improved data security.",
       "groq_explain": null
     }
   ]
