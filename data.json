@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-11T20:52:52.826Z"
+    "lastUpdated": "2026-08-11T21:33:20.421Z"
   },
   "stories": [
+    {
+      "id": 49264578,
+      "author": "therepanic",
+      "descendants": 3,
+      "kids": "[49264778,49264710,49264694,49264722]",
+      "score": 14,
+      "time": 1786482824,
+      "title": "AI Is Solving CTF Challenges in Minutes",
+      "type": "story",
+      "url": "https://www.simulationslabs.com/blogs/AI_Is_Solving_CTF_Challenges_in_Minutes",
+      "og_image": "https://images.simulationslabs.com/website+articles/AI+Is+Solving+CTF+Challenges+in+Minutes+%E2%80%94+What+This+Means+for+Cybersecurity+Training.png",
+      "groq_label": "Researchers are developing custom AI models and harnesses, often through prompt engineering, to solve CTF challenges quickly within narrow domains.",
+      "groq_discussion": "Discussion type: - Basic:\n\nThis article/project aims to solve the problem of completing Capture The Flag (CTF) challenges. Based on the Hacker News discussion, commenters generally viewed the project with skepticism and highlighted concerns about access to the information used for training AI models, noting that some users are able to get models to CTF challenges when others are unable to even simulate reverse engineering attempts on open source projects. Many appreciated transparency and asked for the prompt, while others provided specific examples of working models or AI-generated solutions. However, the discussion also revealed several criticisms, with some questioning how users are obtaining models and others pointing out the challenge of simulating real-world scenarios. Overall, the Hacker News community considered the project with a critical eye, emphasizing the need for more information and accessibility.",
+      "groq_explain": null
+    },
     {
       "id": 49263658,
       "author": "andsoitis",
@@ -436,21 +451,6 @@
       "og_image": "https://everycube.alen.is/opengraph-image?e65a545ab414fc11",
       "groq_label": "The Rubik's Cube website displays over 44 quintillion possible states.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis project, Scroll through all 4.32 × 10^18 Rubik's Cube states, aims to solve the problem of visualizing an enormous number of possible Rubik's Cube permutations. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its technical execution, launch, and sheer scale. Many appreciated the feature of exploring different positions, noting that it would be useful to update the page when the URL changes, allowing users to explore without reloading. Others believed it could be particularly useful as a unique and fascinating internet experience. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's relevance and value in the face of more pressing social issues, such as housing affordability and employment shortages. Overall, the Hacker News community considered the project interesting, while emphasizing the need for a more nuanced perspective on its impact and value.",
-      "groq_explain": null
-    },
-    {
-      "id": 49250894,
-      "author": "Flightmussy",
-      "descendants": 8,
-      "kids": "[49251701,49252342,49251629,49251900,49251932,49251982]",
-      "score": 35,
-      "time": 1786401734,
-      "title": "World Train Map – 1247 train routes around the world",
-      "type": "story",
-      "url": "https://worldtrainmap.com/",
-      "og_image": "https://worldtrainmap.com/og.jpg?v=4",
-      "groq_label": "Data quality issues are present, with missing reasonably common passenger routes in some regions and significant discrepancies in the global distribution of high-speed rail.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis [World Train Map] aims to provide an interactive map of train routes around the world. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its engaging nature and potential for educational value, particularly in illustrating the disparity in global rail infrastructure. Many appreciated the filter feature for high-speed rail, noting that it effectively showcased the prevalence of such infrastructure in countries like Japan, China, and Europe. However, the discussion also revealed several criticisms. Commenters expressed concerns about the map's incompleteness, pointing out missing routes in Europe and noting that a more comprehensive verification system was necessary. Overall, the Hacker News community considered the project interesting and well-intentioned, recognizing its potential while emphasizing that improving its scope and accuracy would enhance its usefulness and adoption.\n\nDiscussion type: - News Style \nHacker News commenters reacted to the World Train Map with a mix of interest and criticism. Many praised its engaging feature set and the ability to visualize global rail infrastructure, particularly high-speed rail adoption. However, the discussion also highlighted limitations, including the map's incomplete data and a lack of verification system, pointing to more comprehensive options like Open Railway Map as a potential alternative. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea.",
       "groq_explain": null
     }
   ]
