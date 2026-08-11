@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-11T09:03:19.372Z"
+    "lastUpdated": "2026-08-11T13:13:19.359Z"
   },
   "stories": [
+    {
+      "id": 49257160,
+      "author": "ilamont",
+      "descendants": 33,
+      "kids": "[49257358,49257712,49257614,49257232,49257632,49257281,49257311,49257563,49257593]",
+      "score": 28,
+      "time": 1786450987,
+      "title": "OpenAI's Only Ethicist Reportedly Left Last Month",
+      "type": "story",
+      "url": "https://gizmodo.com/openais-only-ethicist-reportedly-left-last-month-she-wasnt-replaced-2000796883",
+      "og_image": "https://gizmodo.com/app/uploads/2026/02/openai-logo-1200x675.jpg",
+      "groq_label": "OpenAI is reportedly without a dedicated head ethicist after Chloé Bakalar, its sole specialist, quietly left the company in July.",
+      "groq_discussion": "Discussion type: – Objective:\n\nThis report on the departure of OpenAI's only ethicist reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the role of an ethicist is important for addressing potential issues with AI development, while critics pointed out that corporate ethics can be performative or lacking in genuine substance. Several commenters also shared observations regarding the nature of corporate ethics and the potential limitations of relying on a single individual for ethical guidance. Overall, the discussion presents the issue as a nuanced debate about the role of ethics in corporate decision-making.",
+      "groq_explain": "OpenAI is reportedly without a dedicated ethicist after Chloé Bakalar left the company. This matters because an ethicist plays a crucial role in ensuring AI development is responsible and safe, and OpenAI is a leading company in this field."
+    },
+    {
+      "id": 49255710,
+      "author": "jonbaer",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 12,
+      "time": 1786442520,
+      "title": "Nvidia's Risky Business",
+      "type": "story",
+      "url": "https://stratechery.com/2026/nvidias-risky-business/",
+      "og_image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
+      "groq_label": "Nvidia relies heavily on third-party intellectual property from companies like Linux creator Linus Torvalds due to its own patent portfolio being relatively thin.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49255672,
+      "author": "whosgotch",
+      "descendants": 12,
+      "kids": "[49257654,49257697,49257626,49257676,49257678,49257538,49257535,49255841]",
+      "score": 37,
+      "time": 1786442234,
+      "title": "More than 10 firms pay up to $100k a month for access to Truth Social posts",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/ce3q5nxpgk1o",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/391a/live/f6f964e0-9514-11f1-976d-475167c7f6ea.jpg",
+      "groq_label": "Some companies pay up to $100,000 a month for exclusive access to Truth Social posts to gain insider knowledge potentially used for trading.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is overwhelmingly negative. Commenters frequently criticized the idea of paying up to $100k a month for access to Truth Social posts, describing the practice as \"insider trading as a service\" and the US administration as one of the \"most corrupt in history.\" The general consensus is that this practice is a clear conflict of interest and a form of bribery, with many questioning how it can continue to operate without serious consequences. The overall sentiment is one of outrage and disappointment in the perceived corruption within the current administration.",
+      "groq_explain": null
+    },
+    {
+      "id": 49254881,
+      "author": "atan2",
+      "descendants": 26,
+      "kids": "[49256158,49256254,49256770,49256109,49256967,49257380,49257059,49256450]",
+      "score": 21,
+      "time": 1786436179,
+      "title": "Closing Canario Terminal source code",
+      "type": "story",
+      "url": "https://rapha.land/closing-canario-terminal-source-code/",
+      "og_image": "https://rapha.land/assets/images/banner.jpg",
+      "groq_label": "The author argues that developers who release open-source code are not obligated to accept contributions or be part of a community.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis [article] addresses the problem of open source maintenance and community expectations. The Hacker News discussion was generally mixed, with some commenters appreciating the idea that open source does not necessarily require the acceptance of pull requests or contributions. Others highlighted the importance of community involvement and the value of open contribution. At the same time, the discussion repeatedly highlighted concerns about the maintenance burden and the importance of setting clear boundaries around open source projects. The overall discussion suggests that there is a reasonable middle ground that can balance the needs of maintainers and contributors, but that the current expectations and norms around open source may be unsustainable.",
+      "groq_explain": null
+    },
     {
       "id": 49254880,
       "author": "aziaziazi",
@@ -151,6 +211,21 @@
       "og_image": "https://walrus-assets.s3.amazonaws.com/img/Bednar-Google-1800.jpg",
       "groq_label": "The internet's collective memory is disappearing as AI-powered systems and algorithms erase and alter online content.",
       "groq_discussion": "Discussion type: – Detailed:\n\nThis article focuses on the decline of the internet's collective memory, largely due to the rise of AI. The Hacker News discussion suggests that commenters were primarily concerned about the impact of AI on the internet, with many seeing it as a threat to the incentives that drive innovation and content creation. Several commenters pointed out specific examples, such as Google's declining search quality and the Internet Archive's struggles with copyright restrictions. \n\nSome commenters praised alternative approaches, such as Gemini, which aggregates information from multiple sources without the need for intermediaries or advertising revenue. Others noted the value of having granular control over AI responses, such as with DuckDuckGo's search engine. \n\nHowever, the discussion also highlighted concerns about the limitations and potential biases of AI, including its tendency to hallucinate or manipulate information. Some commenters suggested that a return to older formats, such as printed almanacs or paper encyclopedias, might be necessary to protect the accuracy and verifiability of information. \n\nFinally, several commenters noted that collecting, curating, and protecting high-quality corpuses of truth will become increasingly important for developing high-quality AI models. The overall impression is that the project introduces a pressing concern about the future of the internet and the role of AI in shaping it, highlighting the need for a more nuanced and critical approach to AI development.\n\nThe overall sentiment from the discussion is that the community views AI as a significant threat to the internet's collective memory and that a more thoughtful approach to its development and deployment is necessary to preserve the accuracy and verifiability of information.",
+      "groq_explain": null
+    },
+    {
+      "id": 49250109,
+      "author": "mfiguiere",
+      "descendants": 208,
+      "kids": "[49255085,49250569,49257141,49256576,49250761,49254751,49257644,49251340,49250391,49250622,49250765,49257308,49257106,49250833,49250605,49256380,49257576,49256562,49256390,49257139,49256357,49255879,49250383,49250458,49256012,49257633,49250682,49250897,49255141,49250634,49250770,49250388,49250885,49250795,49250842,49251811,49250745,49253363,49253859,49250343,49250782,49250797,49257684,49250772,49256668,49256013,49253668,49255687,49256462]",
+      "score": 248,
+      "time": 1786397816,
+      "title": "How Claude marks AI-generated content",
+      "type": "story",
+      "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "og_image": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "groq_label": "Claude marks AI-generated content with an imperceptible watermark that changes the statistical probability of token choices at each position to create a unique bias.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe article explains how Claude marks AI-generated content. The discussion on Hacker News highlights both the positive and negative aspects of this approach. Some commenters appreciate the watermarking technique used to identify Claude-generated content, seeing it as a way to prevent misattribution and provide transparency. They praise the idea that Claude weaves an imperceptible watermark into the text, which doesn't affect the meaning, quality, or readability of the response.\n\nHowever, others are critical, arguing that the watermarking technique might not be effective in preventing detection and that the focus should be on educating institutional gatekeepers about AI-generated content instead of relying on watermarks. They also point out that the current approach might compromise the quality of the generated content, which could be counterproductive.\n\nThe discussion suggests that the community considers the idea of using watermarks as a way to identify AI-generated content as a promising solution but believes there are challenges that need to be addressed, such as the potential for false positives and the impact on the quality of the generated content.",
       "groq_explain": null
     },
     {
@@ -374,81 +449,6 @@
       "groq_label": "Mars Bar sizes decreased by up to 57% over 35 years due to manufacturing costs and external factors.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article about the 1991 Mars bar being 20g bigger than today's is generally neutral to positive. Commenters frequently discussed the topic of shrinkflation and how it is affecting food sizes, with many agreeing that it is a problem. However, some commentators also pointed out that reducing portion sizes for junk food could be beneficial, while others noted that this might be an isolated case where shrinkflation has a positive effect. The overall consensus is that the idea of a bigger Mars bar is interesting, although its relevance to the broader issue of healthy eating is debated.",
       "groq_explain": "A 35-year-old vintage Mars Bar was found during a house clearance in 2022 in Scunthorpe. It's 20 grams heavier than the current Mars Bar size, which is now 40 grams. This discovery has sparked a discussion about \"shrinkflation,\" where products seem to shrink in size over time while prices remain the same."
-    },
-    {
-      "id": 49244916,
-      "author": "surprisetalk",
-      "descendants": 26,
-      "kids": "[49245984,49245965,49245287,49246881,49247045,49245650,49246033,49246636,49246350,49245415]",
-      "score": 57,
-      "time": 1786375424,
-      "title": "Itadakimasu: A word you say to the food, not the cook",
-      "type": "story",
-      "url": "https://thetokyohermit.substack.com/p/itadakimasu-a-word-you-say-to-the",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!KrAt!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a619db4-5a7e-4815-854b-a79c9ea28d26_1254x1254.png",
-      "groq_label": "There is no widely accepted translation of 'itadakimasu', with the common phrase 'thank you for the food' actually misdirecting the word towards the cook rather than the food itself.",
-      "groq_discussion": "Discussion type:  Basic:\n\nThis cultural practice, known as saying \"itadakimasu\" before a meal, is believed to have evolved during the Meiji era in Japan as part of moral and ethics education, possibly influenced by Christian teachings from envoys returning from Western countries. Based on the Hacker News discussion, commenters generally viewed this explanation as somewhat intellectualized and argued that the practice is a simple expression of gratitude for the food, rather than a complex cultural phenomenon. Many pointed out that similar expressions of thanks for food are present in various cultures around the world, such as saying \"grace\" in the West or \"Gracias a Dios\" in other cultures. While the discussion highlighted the intricacies of the Japanese language and the cultural context of the practice, it ultimately boiled down to a consensus that saying \"itadakimasu\" is a universal expression of gratitude for the food, rather than a specifically targeted greeting to the cook. However, some commenters noted that in Japan, it's also common to thank the cook directly after the meal, using the phrase \"ごちそうさまでした\".",
-      "groq_explain": "This is about the meaning and significance of the Japanese phrase \"Itadakimasu\", which means to humbly receive food. The author argues that saying \"Itadakimasu\" before eating is not just a way to thank the cook, but rather a way to acknowledge the lives of the animals or plants that gave themselves to become the food you're eating. It's about being mindful and appreciative of the source of the food."
-    },
-    {
-      "id": 49244569,
-      "author": "kotaKat",
-      "descendants": 20,
-      "kids": "[49246229,49245807,49246248,49246249,49246277,49245643,49244584,49246003]",
-      "score": 32,
-      "time": 1786373792,
-      "title": "Kinney Drugs pulls back AI phone assistant after hundreds of customer complaints",
-      "type": "story",
-      "url": "https://www.wcax.com/2026/08/07/kinney-drugs-pulls-back-ai-phone-assistant-after-hundreds-customer-complaints/",
-      "og_image": "https://gray-wcax-prod.gtv-cdn.com/resizer/v2/QEV2FCRJFVE4HN5LGUQU3IWK5U.png?auth=2f0b57d18eb3d3dbb7bc5fb4d2610e3390e058794706a44bf2b74201e08cff23&width=1200&height=600&smart=true",
-      "groq_label": "Companies rushing to adopt AI customer service are overlooking fundamental issues like poor model accuracy and lack of human nuance, potentially leading to customer dissatisfaction.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is critical. Commenters frequently criticized the use of AI phone assistants, describing the experience as \"hacky,\" \"atrocious,\" and \"a recipe for disaster.\" The consensus is that companies are pushing the adoption of AI at their own peril, and that the quality of AI-powered customer service is still not there yet. The community views the decision of Kinney Drugs to pull back AI phone assistant as a justified move, highlighting the importance of human interaction in customer service and the limitations of current AI technology. However, the overall consensus is that AI customer service is doomed to fail, despite initial excitement and promises from companies.",
-      "groq_explain": null
-    },
-    {
-      "id": 49243880,
-      "author": "root-parent",
-      "descendants": 266,
-      "kids": "[49248960,49244674,49245325,49244345,49244564,49248461,49248691,49244235,49244697,49248794,49245067,49248958,49243957,49248926,49249238,49245158,49245227,49249018,49248374,49248729,49248580,49248522,49246363,49248049,49248953,49244374,49248439,49249006,49245468,49248798,49248459,49248147,49244907,49244394,49248516]",
-      "score": 213,
-      "time": 1786370782,
-      "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
-      "type": "story",
-      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F8b2e6973-50e7-406b-8076-5605a762cb0f.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "groq_label": "Meta announces a return to open-source AI models following criticism from the open-source community of its competitors' closed approaches.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis article about Mark Zuckerberg's attack on \"closed\" AI rivals highlights Meta's return to open models. The Hacker News discussion was generally nuanced, with many commenters appreciating Meta's shift towards open-source AI models and arguing that increased competition and access to knowledge can lead to progress. However, several commenters raised concerns about the timing and motivations behind Meta's decision, suggesting that it may be a strategic move to shift the narrative and gain an advantage over competitors. One commenter questioned whether the recent open-source release is significant enough, considering Facebook's existing open model collections. The discussion also featured philosophical debates, with some commenters praising Zuckerberg's thought experiment on the benefits of universal access to superintelligent AI and others dismissing it as simplistic or misguided. Overall, the discussion reflects a balanced mix of enthusiasm and skepticism, with commenters weighing the potential benefits and drawbacks of Meta's decision.",
-      "groq_explain": null
-    },
-    {
-      "id": 49243474,
-      "author": "kuberwastaken",
-      "descendants": 51,
-      "kids": "[49246865,49247415,49248449,49248143,49249586,49249451,49247996,49247312,49247101,49246901,49249127,49247465,49247503,49248663,49249045,49247121,49248778,49247507,49248700,49246640,49249269,49247144,49249495]",
-      "score": 91,
-      "time": 1786368940,
-      "title": "Humanising LLM Outputs Is Dumb",
-      "type": "story",
-      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
-      "og_image": "https://kuber.studio/blog/static/social-images/content-Reflections-Humanising%20LLM%20Outputs%20is%20Actually%20Dumb.md.webp",
-      "groq_label": "LLMs trained on human-generated data inherently produce text that mirrors existing linguistic patterns, and attempting to force a specific style onto them can result in loss of accuracy and potentially introduce new, made-up information or blithering.",
-      "groq_discussion": "Discussion type: – Objective:\n\nThis article argues against humanizing LLM outputs by suggesting that it is unnecessary and potentially counterproductive. The Hacker News discussion reflects a balanced mix of viewpoints on this issue. Some commenters, like the author, find that humanizing LLM outputs can lead to unclear and convoluted language that is difficult to follow. Others, however, appreciate the ability of LLMs to produce clear and professional-sounding text. The discussion also touches on the idea that forcing an LLM to use human-like language can result in lossy compression of the original information, potentially introducing new errors or hallucinations. Additionally, some commenters note that LLMs are trained on human-written text and may perform better when using a more natural language style. The overall discussion presents a nuanced view of the issue, highlighting both the potential benefits and drawbacks of humanizing LLM outputs.",
-      "groq_explain": null
-    },
-    {
-      "id": 49243397,
-      "author": "theanonymousone",
-      "descendants": 110,
-      "kids": "[49245543,49243590,49243771,49246302,49243491,49243934,49244790,49243521,49243525,49243564,49244179,49245969,49243914,49244414,49244175,49243546,49244924,49244051,49245046,49243756,49246185,49244528,49244004,49243740,49243804,49244726,49243776,49243494,49245179,49243654,49243781,49243678,49244360,49243487,49243588,49244792,49243512,49244163,49243614,49243490,49243529,49243514,49243706]",
-      "score": 124,
-      "time": 1786368552,
-      "title": "Mistral Patent for \"Code implemented tool calls\"",
-      "type": "story",
-      "url": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630.html",
-      "og_image": "https://patentsgazette.uspto.gov/week26/OG/html/1547-5/US12670045-20260630-D00000.gif",
-      "groq_label": "Mistral has secured a US patent for a software feature that is a basic pattern seen in almost all of software engineering.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Mistral's patent for \"Code implemented tool calls\" is extremely negative. Commenters frequently praised several points, describing the patent as \"lame\", \"scourge of the software industry\", \"novelty\" and pointing out how the idea of such a patent seems to not be original or \"obvious to someone skilled in the art\". However, the discussion also included recurring concerns about the fact that it could block smaller companies, and be used in cross-licensing to generate revenue, while critics pointed out how the idea itself is a basic pattern seen in all of software engineering. The overall consensus is that the patent is \"almost for sure invalid and overturnable\" and that Mistral's actions are \"embarrassing and shameful\", and that the patent system is being exploited by large companies.",
-      "groq_explain": null
     }
   ]
 }
