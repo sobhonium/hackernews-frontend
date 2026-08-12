@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-11T21:33:20.421Z"
+    "lastUpdated": "2026-08-12T02:10:44.162Z"
   },
   "stories": [
+    {
+      "id": 49266277,
+      "author": "michaefe",
+      "descendants": 92,
+      "kids": "[49266606,49266494,49267067,49266465,49266587,49266550,49266726,49266549,49266852,49266636,49266626,49266871,49266619,49266597,49266980,49266783,49266543,49266618,49266527,49266592,49266569,49266692,49266608,49266798,49266610]",
+      "score": 116,
+      "time": 1786493879,
+      "title": "CFTC declares market emergency, orders Kalshi to continue to operate in New York",
+      "type": "story",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/9281-26",
+      "og_image": "https://www.cftc.gov/sites/default/files/2025/06/1750109430/cftc-logo-square.png",
+      "groq_label": "The CFTC has declared a market emergency and taken action in favor of Kalshi, framing them as a financial derivatives exchange, despite a New York lawsuit seeking to stop the company's prediction markets nationwide.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article reports on the CFTC declaring a market emergency and ordering Kalshi to continue operating in New York. The Hacker News discussion was generally mixed, with many commenters appreciating the CFTC's jurisdiction over futures and derivatives contracts. At the same time, several commenters raised concerns about the CFTC's interpretation of Kalshi's products, arguing that they are more closely related to gambling than financial derivatives. Commenters also questioned the CFTC's apparent disagreement with New York state's characterization of Kalshi's offerings as a platform for gambling or betting. Overall, the discussion suggests that the community sees a clear jurisdictional issue, but is divided on the merits of the CFTC's decision and the regulation of Kalshi's products.",
+      "groq_explain": null
+    },
+    {
+      "id": 49265051,
+      "author": "EwanG",
+      "descendants": 43,
+      "kids": "[49265585,49265445,49265851,49265974,49265600,49265444,49266566,49265452,49266780,49265791,49265581]",
+      "score": 128,
+      "time": 1786485378,
+      "title": "WorldClaw Agentic 3D open-world generation at scale",
+      "type": "story",
+      "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
+      "og_image": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/assets/worldclaw-share.jpg",
+      "groq_label": "Open-world generation at scale can be done using a combination of large language models and 3D models, where an image model composes the scene and a 3D model extracts and places objects.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of WorldClaw Agentic 3D open-world generation at scale is generally positive. Commenters frequently praised its potential to enable new game ideas and improve game development for indie developers. Many appreciated the idea of attaching an LLM to a PCG system and extracting objects into 3D models. However, the discussion also included recurring concerns about the limitations of procedurally generated content, with some commenters arguing that it lacks the depth and detail of hand-placed elements found in games like Skyrim and Cyberpunk. There was also concern about the potential for low-quality results and the difficulty of assessing the amount of human work involved in the game. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these challenges and improving the quality of the generated content.",
+      "groq_explain": null
+    },
     {
       "id": 49264578,
       "author": "therepanic",
@@ -106,6 +136,21 @@
       "og_image": "images/49261895.png",
       "groq_label": "The OpenSSH team will make more frequent security releases to rapidly deploy bugfixes due to the potential for AI-assisted bug discovery by adversaries.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis OpenSSH 10.5/10.5p1 update aims to solve the problem of security bugs, particularly those that may go undiscovered if left unreported. Based on the Hacker News discussion, commenters generally viewed the approach positively and highlighted strengths such as actively encouraging AI-assisted security bug reports, despite the possible high false positive rate. Many appreciated the new feature added in the update, specifically the ability to print keys that will be tried for public key authentication, noting that it provides valuable debugging information. However, the discussion also revealed several criticisms. Commenters expressed concerns about the webpage layout, describing it as unreadable, and questioned the reasoning behind the redesign. Overall, the Hacker News community considered the update positive, recognizing its potential to improve security while addressing concerns regarding the user experience and potential improvements to the reporting process.",
+      "groq_explain": null
+    },
+    {
+      "id": 49261514,
+      "author": "rvz",
+      "descendants": 132,
+      "kids": "[49267073,49263241,49265372,49262042,49265601,49265680,49263974,49265984,49265384,49265148,49261899,49263443,49265427,49265975,49261705,49266307,49264932,49265480,49261795,49261860,49266339,49264838,49261718,49266789,49263448,49261766,49264975,49264946,49266073,49262203,49263491,49266080,49263080]",
+      "score": 149,
+      "time": 1786468989,
+      "title": "Grok Bot",
+      "type": "story",
+      "url": "https://x.ai/bot",
+      "og_image": "https://x.ai/images/news/introducing-grok-bot-og-2.png",
+      "groq_label": "The main reason someone might choose to use Grok Bot over an open-source alternative is that the latter requires integrating multiple components to achieve similar capabilities, while a commercial solution like Grok Bot offers a more streamlined experience with pre-configured routines, context, and domain-specific models.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Grok Bot aims to solve the problem of automating tasks and improving productivity. The Hacker News discussion was generally mixed, with many commenters appreciating the bot's ability to own its own routines, context, and domain, and communicate between each other. However, several commenters raised concerns about data security, the risk of agents running non-stop with access to personal data, and the ethics of using automated tools to interact with systems. They also debated the issue of data scraping and the legal implications of using bots to interact with big companies. Overall, the discussion suggests that the community sees both promise and challenges in the project.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/9cd232b5fd3c9516e195f1a778ed8ff05d2f2a2cbeedd7bc419b18d7872b0cd8/antirez/h3.c",
       "groq_label": "H3-metal uses native MiniMax-H3 inference on Apple Silicon to potentially provide performance gains.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis H3-metal project aims to provide native MiniMax-H3 inference on Apple Silicon. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its ability to work on M5 Pro 64GB MacBook Pro. Many appreciated customized modifications such as city96's ComfyUI-GGUF custom node, noting that it can improve performance, while others believed it could be particularly useful for those with access to Apple Silicon hardware. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about speed, noting that an 9-second clip at 20 steps can take over an hour to process. Some questioned the need for 128GB of memory, suggesting it's not compatible with lower-end models.  Overall, the Hacker News community considered the project with a mixture of enthusiasm and criticism, recognizing its potential but emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49251702,
-      "author": "eatonphil",
-      "descendants": 3,
-      "kids": "[49252127,49252301,49252176]",
-      "score": 33,
-      "time": 1786407855,
-      "title": "Chicken Scheme 6.0",
-      "type": "story",
-      "url": "https://code.call-cc.org/releases/6.0.0/NEWS",
-      "og_image": "images/49251702.png",
-      "groq_label": "Chicken Scheme 6.0 fully supports UNICODE capable strings, provides improved file-locking operations, and includes R7RS compatible bytevector operations.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Chicken Scheme 6.0 tool aims to solve the problem of compiling Scheme source files into executable code. Based on the Hacker News discussion, commenters generally viewed the project positively, particularly highlighting its support for Crunch, a statically typed compiler for Scheme R7RS, which has reached a high level of maturity. Many appreciated the tool's ability to generate standalone executables from Scheme source code. However, the discussion revealed concerns about the tool's status and its potential limitations. Overall, the Hacker News community considered the project positively, recognizing its usefulness in compiling Scheme code and improving its performance.",
-      "groq_explain": "Chicken Scheme 6.0 is a major update to the Chicken Scheme programming language, making it fully UNICODE capable and adding several features to improve compatibility with the R7RS small language standard."
-    },
-    {
-      "id": 49251411,
-      "author": "slowin",
-      "descendants": 99,
-      "kids": "[49251830,49252070,49251880,49252258,49251866,49252072,49251868,49252105,49251819,49252285,49252148,49252110,49252212,49251873,49252195,49252087]",
-      "score": 178,
-      "time": 1786405550,
-      "title": "The UK's War on Anonymity Has Come to America",
-      "type": "story",
-      "url": "https://www.effort.news/uk-lobby",
-      "og_image": "https://www.effort.news/images/article-graphics/uk-lobby/reset-bipartite-graph-cover.png",
-      "groq_label": "British NGOs, using the rhetoric of child safety, are influencing US lawmakers to pass digital ID laws that could compromise internet anonymity and potentially enable mass surveillance.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThe discussion revolves around an article claiming that NGOs in the US are trying to implement digital ID laws using the rhetoric of \"child safety.\" The commenters have a mixed reaction, with some arguing that this strategy is manipulative and that the concerns over social media and pornography are unfounded. They believe that it's hypocritical to use \"the children\" as a reason to sacrifice individual freedom, and that the real intention behind these laws is to expand surveillance. On the other hand, a few commenters point out that there are legitimate concerns about child safety, and that the article's conclusion is too broad and doesn't take into account the various complexities of the issue. There are also concerns expressed about the role of state-backed intelligence agencies and their influence on the narrative.",
-      "groq_explain": "Some foreign non-governmental organizations and their US affiliates are trying to pass digital ID laws in the US that would strip people of their anonymity online. They've already done this in the UK and it's been used to surveil and jail people who dissent from the government."
-    },
-    {
-      "id": 49251179,
-      "author": "Alen123",
-      "descendants": 11,
-      "kids": "[49252106,49252025,49251820,49251935,49251774,49252193,49252379,49252358]",
-      "score": 56,
-      "time": 1786403785,
-      "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
-      "type": "story",
-      "url": "https://everycube.alen.is/",
-      "og_image": "https://everycube.alen.is/opengraph-image?e65a545ab414fc11",
-      "groq_label": "The Rubik's Cube website displays over 44 quintillion possible states.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project, Scroll through all 4.32 × 10^18 Rubik's Cube states, aims to solve the problem of visualizing an enormous number of possible Rubik's Cube permutations. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its technical execution, launch, and sheer scale. Many appreciated the feature of exploring different positions, noting that it would be useful to update the page when the URL changes, allowing users to explore without reloading. Others believed it could be particularly useful as a unique and fascinating internet experience. However, the discussion also revealed several criticisms. Commenters expressed concerns about the project's relevance and value in the face of more pressing social issues, such as housing affordability and employment shortages. Overall, the Hacker News community considered the project interesting, while emphasizing the need for a more nuanced perspective on its impact and value.",
       "groq_explain": null
     }
   ]
