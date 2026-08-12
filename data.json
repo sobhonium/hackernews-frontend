@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-12T18:04:46.200Z"
+    "lastUpdated": "2026-08-12T20:50:55.392Z"
   },
   "stories": [
+    {
+      "id": 49277799,
+      "author": "wwilson",
+      "descendants": 4,
+      "kids": "[49278270,49278241,49278325]",
+      "score": 8,
+      "time": 1786564816,
+      "title": "Breaking the WAL",
+      "type": "story",
+      "url": "https://antithesis.com/blog/2026/wal-reset-bug/",
+      "og_image": "https://antithesis.com/_astro/cover.CvRlIHpM_A4x11.jpg",
+      "groq_label": "The Tailscale bug involves SQLite's WAL file not being properly reset following a crash.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is negative. Commenters frequently criticized the advertisement, with one commenter labeling it the \"Worst ad I've ever read.\" The tone is overwhelmingly dismissive, and there is no positive commentary on the article.",
+      "groq_explain": null
+    },
+    {
+      "id": 49276574,
+      "author": "khy",
+      "descendants": 68,
+      "kids": "[49276893,49277029,49276928,49277274,49278302,49276961,49277593,49277146,49277365,49277249,49276941,49277925,49277273,49278013,49277387,49277660,49277241,49277779,49277435,49277463,49277753,49277770,49277492,49277347,49277281,49277330,49277464]",
+      "score": 189,
+      "time": 1786558799,
+      "title": "Delta",
+      "type": "story",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "og_image": "https://images.zed.dev/blog/introducing-delta/thumbnail.webp",
+      "groq_label": "Code can be more tersely described than a written explanation of its functionality.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis article/project (Delta) aims to solve the problem of improving the coding experience in collaboration environments. The Hacker News discussion was generally mixed, with many commenters appreciating the innovative approach and potential of the project. However, several commenters raised concerns about its practicality and limitations, including the potential verbosity of AI-generated code summaries and the challenge of storing and preserving conversation history. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49276534,
+      "author": "julienreszka",
+      "descendants": 52,
+      "kids": "[49278204,49277417,49277609,49277093,49277255,49278297,49277143,49277092,49276977,49278088,49277815,49278100,49277629,49277970,49277638,49277156,49277709,49277676,49276968,49277953,49277235,49277507,49277687,49277949,49277390,49277565,49277028,49277298,49277737,49277076,49276901,49276986]",
+      "score": 60,
+      "time": 1786558623,
+      "title": "People who grew up with high economic connectedness earn more",
+      "type": "story",
+      "url": "https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/",
+      "og_image": "https://julienreszka.com/blog/your-key-to-success-isn-t-more-luck-or-hard-work/og.png",
+      "groq_label": "The correlation between high economic connectedness in childhood and future success is likely influenced by multiple factors and can be attributed to both causation and correlation, and it's also possible that having a higher income allows for the ability to make more connections rather than being the cause.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis research aims to solve the problem of understanding the factors that contribute to economic success. The Hacker News discussion was generally mixed, with many commenters appreciating the findings and their emphasis on the importance of socioeconomic connections. However, several commenters raised concerns about the limitations of the study, questioning the causal relationship between wealth and connections, and arguing that it could be the other way around. Others pointed out that success may be the result of a combination of factors, including hard work, decision-making, and luck. While there was no unanimous agreement on every aspect, the overall discussion suggests that the community recognizes the potential importance of socioeconomic connections but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49275465,
       "author": "apetuskey",
@@ -135,6 +180,21 @@
       "og_image": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813/opengraph-image-1oizug?2301fe75d300c5cc",
       "groq_label": "Some of the Chinese models such as the DeepSeek V4 Pro 0813 appear capable despite being less established, but development often defaults to established industry standards.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis DeepSeek V4 Pro 0813 aims to solve the problem of effective image recognition. The Hacker News discussion was generally mixed, with many commenters appreciating the device's competitive pricing but questioning its technical advantages. At the same time, several commenters raised concerns about the cost of the official DeepSeek API and how it compares to other models like Opus 4.8. Overall, the discussion suggests that the community is intrigued by the device but believes there are important considerations to address in the marketplace.",
+      "groq_explain": null
+    },
+    {
+      "id": 49274027,
+      "author": "iLuddite",
+      "descendants": 289,
+      "kids": "[49276227,49274490,49274516,49277198,49274180,49275544,49275265,49274154,49274372,49278102,49274494,49274496,49274602,49274076,49274661,49278070,49274559,49275742,49277171,49275414,49274456,49274348,49274431,49275847,49277128,49274342,49274177,49274623,49274359,49275341,49274676,49274356,49274637,49274962,49274563,49274450,49278142]",
+      "score": 269,
+      "time": 1786548770,
+      "title": "Grok 4.6",
+      "type": "story",
+      "url": "https://x.ai/news/grok-4-6",
+      "og_image": "https://x.ai/images/news/grok-4-6-og.png",
+      "groq_label": "Grok 4.6 has features and capabilities similar to those of leading AI models like Fable, but at a lower cost.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Grok 4.6 update addresses [problem]. Hacker News commenters generally appreciated its [strengths] and believed the project could [benefit]. However, they also expressed concerns about [weaknesses] and questioned [issue], specifically the potential drawbacks of adding a default system prompt to all requests.",
       "groq_explain": null
     },
     {
@@ -389,66 +449,6 @@
       "og_image": "https://discoveredmaterials.com/assets/og-image.png",
       "groq_label": "The AI agents can develop \"reward-hacking\" behavior where they prioritize shortcuts for certain metrics instead of the intended outcomes.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis research and development project from Y Combinator P26, Discovered Materials, focuses on using AI agents for the discovery of new materials. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as addressing the feasibility of discovered materials, providing a step in the right direction. Many appreciated the effort to mitigate unintended behavior in AI systems, noting that it could lead to significant efficiency gains. Others believed it could be particularly useful for improving the materials discovery process, closing the computational-experimental loop. However, the discussion also revealed several criticisms. Commenters expressed concerns about the actual cost and effort required for synthesized materials, with some questioning the practical challenges of implementing this approach. Overall, the Hacker News community considered the project promising and viewed it as a step towards improving the materials discovery process.",
-      "groq_explain": null
-    },
-    {
-      "id": 49268564,
-      "author": "theanonymousone",
-      "descendants": 43,
-      "kids": "[49269655,49269563,49269647,49269630,49269308,49269497,49269587,49269567,49269570,49269350,49269447,49269454,49269568,49269367,49269245,49269098,49269441,49269407,49269201,49269193,49269521,49269544,49269373,49269163,49269537,49269382,49269304,49269496]",
-      "score": 125,
-      "time": 1786516249,
-      "title": "LinkedIn CringeBot 3000",
-      "type": "story",
-      "url": "https://www.cringebot3000.com/",
-      "og_image": "https://www.cringebot3000.com/centered_cringebot_face.jpg",
-      "groq_label": "LinkedIn's CringeBot 3000 uses a customizable system prompt with a token API endpoint to generate cringe-filled, lengthy LinkedIn posts.",
-      "groq_discussion": "Discussion type: Basic:\n\nThis LinkedIn CringeBot 3000 aims to solve the problem of cringeworthy LinkedIn posts. \nBased on the Hacker News discussion, commenters generally viewed \nthe project as entertaining and humorous, highlighting strengths such as \nits ability to transform awkward sentences into something unexpected, \nwhile also poking fun at the stereotypical LinkedIn posts. Many appreciated \nthe creative output, noting that it was both funny and surprising, \nwhile others believed it could be particularly useful for those who want \nto mock the clichés of LinkedIn. However, the discussion also revealed \nseveral criticisms. Commenters expressed concerns about the API token\nspend limit, questioning the stability of the service, and others pointing \nout the potential for abuse. Overall, the Hacker News community considered \nthe project humorous, recognizing its potential as entertainment, and \nemphasizing that addressing the technical limitations and potential \nabuse would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49267928,
-      "author": "kristianpaul",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1786510319,
-      "title": "llama.cpp",
-      "type": "story",
-      "url": "https://llama.app",
-      "og_image": "https://llama.app/og-image-llama-cpp.png",
-      "groq_label": "The `llama.cpp` file appears to use a linear congruential generator to produce pseudorandom numbers, similar to the Mersenne Twister random number generator.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49267818,
-      "author": "Taikhoom10",
-      "descendants": 6,
-      "kids": "[49268171,49268188,49268146,49268143,49268107]",
-      "score": 13,
-      "time": 1786509034,
-      "title": "Dropbox, loved by the masses, a shareholder dead end",
-      "type": "story",
-      "url": "https://s-1.vercel.app/posts/why-dropbox-is-a-obvious-pe-target/",
-      "og_image": "images/49267818.png",
-      "groq_label": "Dropbox is still widely used despite being replaced by Microsoft at one workplace, Google Drive and iCloud at the author's personal account, and having a valuation 10 times higher than Apple's rejected takeover offer.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product discusses the success of Dropbox as a widely used service while acknowledging its potential decline due to increased competition. The Hacker News discussion is generally mixed, with some commenters praising its nostalgic value and essentiality in the past, especially for those who were early adopters. Others pointed out that the competition has significantly increased over time, making Dropbox less necessary for many users. Additionally, the discussion suggests that the company may be reaching the end of its stable period as it has been acquired by private equity, similar to other acquisitions made by Bending Spoons. Overall, the discussion reflects a balanced view of Dropbox's current state, acknowledging both its past success and its potential limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49267527,
-      "author": "daau",
-      "descendants": 15,
-      "kids": "[49269473,49269330,49268861,49268977,49269173,49269538]",
-      "score": 38,
-      "time": 1786505251,
-      "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
-      "type": "story",
-      "url": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
-      "og_image": "https://cdn.dronexl.co/wp-content/uploads/2026/08/avidrone-katana-helicopter-drone-darpa-lift-challenge.webp",
-      "groq_label": "A conventional helicopter achieved a better payload to weight ratio than more advanced designs in the DARPA heavy lift challenge, with a prize-winning ratio of 3.84:1 due to a combination of established aerodynamics and constraints.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis DARPA Heavy Lift Challenge addressed [problem of maximizing payload-to-weight ratio]. Hacker News commenters generally appreciated the winning team's [3.84:1 payload to weight ratio] and believed this could significantly improve [personal mobility]. However, they also expressed concerns about [the non-linear nature of aerodynamics] and questioned [whether the standard helicopter design is the optimal solution]. Overall, the discussion was [cautiously optimistic about the project's potential], acknowledging both the achievement and its limitations.",
       "groq_explain": null
     }
   ]
