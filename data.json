@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-12T05:42:09.616Z"
+    "lastUpdated": "2026-08-12T09:15:26.031Z"
   },
   "stories": [
+    {
+      "id": 49268564,
+      "author": "theanonymousone",
+      "descendants": 43,
+      "kids": "[49269655,49269563,49269647,49269630,49269308,49269497,49269587,49269567,49269570,49269350,49269447,49269454,49269568,49269367,49269245,49269098,49269441,49269407,49269201,49269193,49269521,49269544,49269373,49269163,49269537,49269382,49269304,49269496]",
+      "score": 125,
+      "time": 1786516249,
+      "title": "LinkedIn CringeBot 3000",
+      "type": "story",
+      "url": "https://www.cringebot3000.com/",
+      "og_image": "https://www.cringebot3000.com/centered_cringebot_face.jpg",
+      "groq_label": "LinkedIn's CringeBot 3000 uses a customizable system prompt with a token API endpoint to generate cringe-filled, lengthy LinkedIn posts.",
+      "groq_discussion": "Discussion type: Basic:\n\nThis LinkedIn CringeBot 3000 aims to solve the problem of cringeworthy LinkedIn posts. \nBased on the Hacker News discussion, commenters generally viewed \nthe project as entertaining and humorous, highlighting strengths such as \nits ability to transform awkward sentences into something unexpected, \nwhile also poking fun at the stereotypical LinkedIn posts. Many appreciated \nthe creative output, noting that it was both funny and surprising, \nwhile others believed it could be particularly useful for those who want \nto mock the clichés of LinkedIn. However, the discussion also revealed \nseveral criticisms. Commenters expressed concerns about the API token\nspend limit, questioning the stability of the service, and others pointing \nout the potential for abuse. Overall, the Hacker News community considered \nthe project humorous, recognizing its potential as entertainment, and \nemphasizing that addressing the technical limitations and potential \nabuse would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49267928,
       "author": "kristianpaul",
@@ -31,6 +46,21 @@
       "og_image": "images/49267818.png",
       "groq_label": "Dropbox is still widely used despite being replaced by Microsoft at one workplace, Google Drive and iCloud at the author's personal account, and having a valuation 10 times higher than Apple's rejected takeover offer.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product discusses the success of Dropbox as a widely used service while acknowledging its potential decline due to increased competition. The Hacker News discussion is generally mixed, with some commenters praising its nostalgic value and essentiality in the past, especially for those who were early adopters. Others pointed out that the competition has significantly increased over time, making Dropbox less necessary for many users. Additionally, the discussion suggests that the company may be reaching the end of its stable period as it has been acquired by private equity, similar to other acquisitions made by Bending Spoons. Overall, the discussion reflects a balanced view of Dropbox's current state, acknowledging both its past success and its potential limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49267527,
+      "author": "daau",
+      "descendants": 15,
+      "kids": "[49269473,49269330,49268861,49268977,49269173,49269538]",
+      "score": 38,
+      "time": 1786505251,
+      "title": "DARPA heavy lift challenge ends with winner at a 3.84:1 payload to weight ratio",
+      "type": "story",
+      "url": "https://dronexl.co/2026/08/10/darpa-lift-challenge-results-avidrone/",
+      "og_image": "https://cdn.dronexl.co/wp-content/uploads/2026/08/avidrone-katana-helicopter-drone-darpa-lift-challenge.webp",
+      "groq_label": "A conventional helicopter achieved a better payload to weight ratio than more advanced designs in the DARPA heavy lift challenge, with a prize-winning ratio of 3.84:1 due to a combination of established aerodynamics and constraints.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis DARPA Heavy Lift Challenge addressed [problem of maximizing payload-to-weight ratio]. Hacker News commenters generally appreciated the winning team's [3.84:1 payload to weight ratio] and believed this could significantly improve [personal mobility]. However, they also expressed concerns about [the non-linear nature of aerodynamics] and questioned [whether the standard helicopter design is the optimal solution]. Overall, the discussion was [cautiously optimistic about the project's potential], acknowledging both the achievement and its limitations.",
       "groq_explain": null
     },
     {
@@ -422,36 +452,6 @@
       "groq_label": "OpenAI is reportedly without a dedicated head ethicist after Chloé Bakalar, its sole specialist, quietly left the company in July.",
       "groq_discussion": "Discussion type: – Objective:\n\nThis report on the departure of OpenAI's only ethicist reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the role of an ethicist is important for addressing potential issues with AI development, while critics pointed out that corporate ethics can be performative or lacking in genuine substance. Several commenters also shared observations regarding the nature of corporate ethics and the potential limitations of relying on a single individual for ethical guidance. Overall, the discussion presents the issue as a nuanced debate about the role of ethics in corporate decision-making.",
       "groq_explain": "OpenAI is reportedly without a dedicated ethicist after Chloé Bakalar left the company. This matters because an ethicist plays a crucial role in ensuring AI development is responsible and safe, and OpenAI is a leading company in this field."
-    },
-    {
-      "id": 49256057,
-      "author": "j0selit0",
-      "descendants": 10,
-      "kids": "[49256392,49260152,49261149,49260556,49258724,49258637,49259780,49258053,49256058,49259901]",
-      "score": 86,
-      "time": 1786444847,
-      "title": "What I learned by putting GitHub Copilot behind a MitM proxy",
-      "type": "story",
-      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!uT1l!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F547a610b-a6e9-40e0-a5f5-525f27a6f69f_768x384.jpeg",
-      "groq_label": "GitHub Copilot implements its harness by using watched model/capability discovery and routing, and it sends injected context and ghost completions over the network.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this article is highly positive. Commenters frequently praised the author's deep dive into GitHub Copilot's implementation, finding it informative and interesting. Many appreciated the discovery of the author's insights into Copilot's network traffic and its underlying mechanics. The discussion also included recurring comments on the potential benefits and limitations of Copilot, including its Java limitations and episodic memory issues. However, the overall consensus is that the article presents a compelling and enlightening exploration of Copilot's workings, and many readers found it useful for understanding the tool's capabilities and limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49255710,
-      "author": "jonbaer",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 12,
-      "time": 1786442520,
-      "title": "Nvidia's Risky Business",
-      "type": "story",
-      "url": "https://stratechery.com/2026/nvidias-risky-business/",
-      "og_image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvaTAud3AuY29tXC9zdHJhdGVjaGVyeS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMThcLzAzXC9jcm9wcGVkLWFuZHJvaWQtY2hyb21lLTUxMng1MTItMS5wbmc_Zml0PTUxMiUyQzUxMiZzc2w9MSIsInR4dCI6IlN0cmF0ZWNoZXJ5IGJ5IEJlbiBUaG9tcHNvbiIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxODgwNDM0MTV9.5VWck4PcKPWCTPe_HVznn3n3xsgn-G0b3d2OeiNNC7cMQ",
-      "groq_label": "Nvidia relies heavily on third-party intellectual property from companies like Linux creator Linus Torvalds due to its own patent portfolio being relatively thin.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
     }
   ]
 }
