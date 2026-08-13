@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-13T09:17:02.344Z"
+    "lastUpdated": "2026-08-13T13:20:15.738Z"
   },
   "stories": [
+    {
+      "id": 49285268,
+      "author": "surprisetalk",
+      "descendants": 1,
+      "kids": "[49285424]",
+      "score": 4,
+      "time": 1786626024,
+      "title": "My Rules for Using Spreadsheets",
+      "type": "story",
+      "url": "https://leancrew.com/all-this/2026/08/my-rules-for-using-spreadsheets/",
+      "og_image": "https://leancrew.com/all-this/images2026/20260731-Cubic%20sum%20spreadsheet.png",
+      "groq_label": "Avoid using spreadsheets as manually updated tracking tools with inconsistent formatting.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis set of rules for using spreadsheets aims to solve the problem of inefficently using spreadsheets, specifically as manually updated tracking tools where formatting inconsistencies hinder automation. Based on the Hacker News discussion, commenters generally viewed the rules positively and appreciated their emphasis on avoiding the use of spreadsheets as tracking tools with inconsistent formatting. Many agreed that this advice is valuable and appreciated the acknowledgement of AI's potential to update such spreadsheets. However, the discussion also revealed criticisms. Commenters expressed concerns about the challenges of implementing the rules in real-world scenarios, questioning whether they are realistic and practical. Overall, the Hacker News community considered the rules a valuable contribution by advising against a common misuse of spreadsheets, with some emphasizing that further guidance on implementing the rules would be beneficial.",
+      "groq_explain": null
+    },
+    {
+      "id": 49284774,
+      "author": "Markoff",
+      "descendants": 82,
+      "kids": "[49285067,49285100,49284843,49285374,49285299,49285308,49285147,49285151,49284946,49285241,49285159,49285143,49285280,49285050,49285094,49285029,49284997,49284879,49285053,49285127]",
+      "score": 128,
+      "time": 1786622990,
+      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
+      "type": "story",
+      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
+      "og_image": "https://tradersunion.com/uploads/images/tu-news/02026/08/2973571/deutsche-bank-becomes.jpg",
+      "groq_label": "Deutsche Bank's recognition as a foreign yuan clearing bank could be a sign of the dollar's increasing instability as global reserve currency.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis move by Deutsche Bank to become the first foreign yuan clearing bank in Europe is a significant development in international trade and finance. The Hacker News discussion was generally mixed, with some commenters praising the potential benefits of the yuan's rising influence, while others expressed concerns about doing business with an authoritarian regime like China. Some commenters saw the move as a sign of the dollar's potential decline as the world's reserve currency, while others questioned the motivations behind Deutsche Bank's involvement in the yuan market. The discussion also touched on the broader implications of the US-China trade relationship and the potential risks associated with relying on China for financial services. Overall, the discussion suggests that the community sees the yuan's growing influence as a potential game-changer, but also believes that there are many challenges and risks associated with this development.",
+      "groq_explain": null
+    },
+    {
+      "id": 49284697,
+      "author": "dkobran",
+      "kids": "[]",
+      "score": 1,
+      "time": 1786622462,
+      "title": "ATG (YC F25) Is Hiring Member of Technical Staff (Data Platform)",
+      "type": "job",
+      "url": "https://atg.science/careers",
+      "og_image": "https://atg.science/social-card.png",
+      "groq_label": "ATG uses Snowflake as its primary data warehousing solution allowing it to efficiently process and analyze a large volume of data to inform business decisions.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49281916,
       "author": "allanrbo",
@@ -404,51 +448,6 @@
       "og_image": "https://guillaumetech.github.io/_astro/compare.DJwphvWD_1VRb2.webp",
       "groq_label": "Chrome scales down JPEGs from their native size, not from a fully decompressed version, unlike other browsers.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Chrome's image scaling is mixed. Commenters frequently praised the sharpness of Firefox's image scaling but criticized Chrome's for being blurry and causing compression artifacts. Many highlighted the issue with Chrome's optimization and its effects on icons in various products. The overall consensus is that Chrome's scaling algorithm is flawed and in need of improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49271994,
-      "author": "florianherrengt",
-      "descendants": 290,
-      "kids": "[49273063,49274715,49273178,49275463,49272939,49275487,49275353,49273037,49272196,49275374,49273058,49274576,49272901,49275312,49273938,49273319,49274869,49274814,49273076,49273737,49275294,49274507,49272822,49274712,49274061,49274422,49273696,49273363,49274129,49274092,49274161,49275091,49273070,49273876,49274167,49273870,49273114,49274845,49273468,49274592,49273555,49275054,49274948,49273153,49273436,49272250,49274432,49272941,49273229,49273015,49273892]",
-      "score": 350,
-      "time": 1786540805,
-      "title": "AI is removing the middle class of software engineering",
-      "type": "story",
-      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-      "og_image": "images/49271994.png",
-      "groq_label": "The use of AI in software engineering is shifting the demand from learning and practicing skills to simply having access to AI tools.",
-      "groq_discussion": "Discussion type: Balanced\n\nThis article suggests that AI is removing the middle class of software engineering by automating the work that traditionally required specialized skills. The Hacker News discussion was generally mixed, with some commenters agreeing that AI is eliminating jobs that were previously done by mid-level engineers, citing the loss of skills gained through practice and the demand for AI subscriptions to do jobs. Others argued that the issue is not just about AI, but also about the business and management side of the industry, pointing out that incompetent engineers have always been a problem and that many companies chose to keep them on for their perceived value. A number of commenters also shared personal anecdotes about the challenges of finding entry or mid-level software engineering jobs, noting that the pipeline to senior engineering positions is broken. Overall, the discussion suggests that while AI may be a contributing factor, the problem is more complex and multifaceted.",
-      "groq_explain": null
-    },
-    {
-      "id": 49271126,
-      "author": "bundie",
-      "descendants": 34,
-      "kids": "[49271651,49271599,49271476,49271411,49271857,49271582,49271579,49271895,49271878,49271759,49271811,49271416,49271561,49271455,49271393]",
-      "score": 67,
-      "time": 1786536436,
-      "title": "Facebook ads are so hard to block that uBlock Origin stopped filtering them",
-      "type": "story",
-      "url": "https://www.neowin.net/news/facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them/",
-      "og_image": "https://cdn.neowin.com/news/images/uploaded/2026/08/1786534055_facebook_ublock_origin_story.webp",
-      "groq_label": "Facebook's use of unnecessary and complex markup with class names and deep HTML nesting makes it difficult for blockers like uBlock Origin to filter their ads.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article/project aims to describe the difficulty of blocking Facebook ads. Based on the Hacker News discussion, commenters generally viewed Facebook's methods of evading ad blocking as problematic and highlighted strengths such as the effectiveness of using tools like uBlock Origin and F.B. Purity, but also noted the complexity and potentially negative impact of Facebook's techniques on accessibility. Many appreciated alternative solutions such as blocking Facebook domains or proxying Facebook requests. However, the discussion also revealed several criticisms, including the challenges of maintaining ad blocking with Facebook's evasive strategies and the financial impracticality of proxying ads. Overall, the Hacker News community considered Facebook's approach to ads as frustrating and emphasized the need for more effective ad-blocking solutions and better accessibility.",
-      "groq_explain": null
-    },
-    {
-      "id": 49270953,
-      "author": "zoenolan",
-      "descendants": 30,
-      "kids": "[49271716,49271655,49271162,49271894,49271917,49271400,49271625,49271302,49271489,49271915,49271460,49271840,49271374,49271544,49271422]",
-      "score": 122,
-      "time": 1786535581,
-      "title": "2026 Eclipse Webcams",
-      "type": "story",
-      "url": "https://jonty.github.io/2026_eclipse_webcams/",
-      "og_image": "images/49270953.png",
-      "groq_label": "Several webcams are broadcasting live footage of the 2026 solar eclipse across various locations including northern Spain and western Iceland.",
-      "groq_discussion": "Discussion type: –  Basic:\n\nThis 2026 Eclipse Webcams project aims to solve the problem of providing access to views of a rare solar eclipse. Based on the Hacker News discussion, commenters generally viewed the project positively, appreciating its usefulness and the ability to see which areas are overfilled with people. Many appreciated the feature of multiple webcams, noting that it provides a more comprehensive view of the eclipse. The project is also useful for planning purposes, with commenters noting that it allows them to review what happened since the previous eclipse and make plans for the next one. However, the discussion also revealed several criticisms, with some commenters expressing concerns about the weather conditions in certain areas. Overall, the Hacker News community considered the project positively, recognizing its potential and utility.",
       "groq_explain": null
     }
   ]
