@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-13T05:43:34.250Z"
+    "lastUpdated": "2026-08-13T09:17:02.344Z"
   },
   "stories": [
+    {
+      "id": 49281916,
+      "author": "allanrbo",
+      "descendants": 35,
+      "kids": "[49283276,49282978,49283411,49283365,49283390,49282758,49282603,49283094,49282621,49282613,49283294,49282591]",
+      "score": 93,
+      "time": 1786596821,
+      "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+      "type": "story",
+      "url": "https://openai.com/codex/",
+      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/ccd8ea0a41e98a3a273357ae621dfe72/codex-og-image.png?w=1600&h=900&fit=fill",
+      "groq_label": "People are running the Codex Desktop in a VM or with limited access to avoid potential security risks associated with its installation.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of ChatGPT Desktop (Codex Desktop) for Linux is negative. Commenters frequently expressed concerns about its potential security risks, including the possibility of it being used as a Trojan or spyware. Many emphasized the importance of running it isolated from the rest of the system, with some suggesting creating a separate account for the agent and enabling this security measure by default. Commenters also pointed out that many Linux users might not benefit from the desktop app, given their tendency to prefer the command line interface. Overall, the consensus is that the project is not compelling, mainly due to its security implications and potential drawbacks.",
+      "groq_explain": null
+    },
     {
       "id": 49280184,
       "author": "danielkimber",
@@ -434,21 +449,6 @@
       "og_image": "images/49270953.png",
       "groq_label": "Several webcams are broadcasting live footage of the 2026 solar eclipse across various locations including northern Spain and western Iceland.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis 2026 Eclipse Webcams project aims to solve the problem of providing access to views of a rare solar eclipse. Based on the Hacker News discussion, commenters generally viewed the project positively, appreciating its usefulness and the ability to see which areas are overfilled with people. Many appreciated the feature of multiple webcams, noting that it provides a more comprehensive view of the eclipse. The project is also useful for planning purposes, with commenters noting that it allows them to review what happened since the previous eclipse and make plans for the next one. However, the discussion also revealed several criticisms, with some commenters expressing concerns about the weather conditions in certain areas. Overall, the Hacker News community considered the project positively, recognizing its potential and utility.",
-      "groq_explain": null
-    },
-    {
-      "id": 49270726,
-      "author": "Markoff",
-      "descendants": 85,
-      "kids": "[49274373,49275262,49274285,49275476,49273518,49275379,49273493,49275034,49275467,49273507,49273311,49272850,49273391,49274558,49274242,49273481,49273559,49273545,49273767,49271729,49273136,49273235,49273191,49274040,49274377,49274593]",
-      "score": 120,
-      "time": 1786534107,
-      "title": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
-      "type": "story",
-      "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html",
-      "og_image": "images/49270726.png",
-      "groq_label": "uBlock Origin is abandoning efforts to block ads on Facebook due to the rapid changes Facebook makes in response.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of uBlock Origin giving up the fight to keep ads off Facebook is that it's a losing battle. Commenters frequently expressed concerns about the futility of trying to bypass ad blockers and criticized Facebook's tactics, describing them as a \"losing fight\" or \"hitting them where it hurts\". The discussion suggests that the idea of keeping ads off Facebook is compelling, although its long-term success depends on the community finding alternative solutions or abandoning Facebook altogether.",
       "groq_explain": null
     }
   ]
