@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-13T20:50:12.879Z"
+    "lastUpdated": "2026-08-13T21:31:44.920Z"
   },
   "stories": [
     {
@@ -107,6 +107,21 @@
       "groq_label": "Cerebras' Ultrafast mode for GPT-5.6 Sol achieves comparable accuracy nearly 7× faster than Claude Fable 5.",
       "groq_discussion": "Discussion type: – Basic\n\nThis Accelerating GPT-5.6 Sol Ultrafast aims to solve the problem of computational speed for large language models. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its speed, achieving comparable accuracy nearly 7x faster than the baseline model, Claude Fable 5. Many appreciated the Ultrafast mode, noting that it can run 11x faster than Fable 5 and 5x faster than Opus 4.8 on Fast mode. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of clear information on whether the Ultrafast mode offers identical performance to the regular 5.6 Sol model and the absence of pricing information, which could be a crucial factor in adoption. Some questioned whether the speed advantage is significant enough to matter in real-world applications, particularly if human oversight is required to verify the model's output. Overall, the Hacker News community considered the project promising, but emphasized that its usefulness will depend on its practical applications and the costs associated with its deployment.",
       "groq_explain": null
+    },
+    {
+      "id": 49289654,
+      "author": "tosh",
+      "descendants": 5,
+      "kids": "[49291979,49291801,49289954,49291851,49291994]",
+      "score": 43,
+      "time": 1786643870,
+      "title": "How Compaction Works in Pi",
+      "type": "story",
+      "url": "https://earendil.com/posts/compaction-in-pi/",
+      "og_image": "https://earendil.com/static/og/posts/compaction-in-pi.png",
+      "groq_label": "Pi's compaction implementation involves retaining ~20k tokens of recent conversations and then feeding the rest of the conversation to a secondary model with specific system and user prompts to generate the compaction result.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis Pi project aims to improve the performance of local LLM usage. The Hacker News discussion was generally mixed, with many commenters appreciating the idea behind the project but questioning its implementation and limitations. Commenters highlighted several strengths, such as its novel approach to compaction, but also raised concerns about the project's resource usage and potential impact on performance. Overall, the discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "Large language models like Pi have a limited context window and can only process so much information before it stops working. To keep working, Pi needs to remove some of the conversation history to make room for new information. This process is called compaction."
     },
     {
       "id": 49289532,
@@ -435,21 +450,6 @@
       "og_image": "https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/ccd8ea0a41e98a3a273357ae621dfe72/codex-og-image.png?w=1600&h=900&fit=fill",
       "groq_label": "People are running the Codex Desktop in a VM or with limited access to avoid potential security risks associated with its installation.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of ChatGPT Desktop (Codex Desktop) for Linux is negative. Commenters frequently expressed concerns about its potential security risks, including the possibility of it being used as a Trojan or spyware. Many emphasized the importance of running it isolated from the rest of the system, with some suggesting creating a separate account for the agent and enabling this security measure by default. Commenters also pointed out that many Linux users might not benefit from the desktop app, given their tendency to prefer the command line interface. Overall, the consensus is that the project is not compelling, mainly due to its security implications and potential drawbacks.",
-      "groq_explain": null
-    },
-    {
-      "id": 49280184,
-      "author": "danielkimber",
-      "descendants": 2,
-      "kids": "[49280899,49280328]",
-      "score": 17,
-      "time": 1786579303,
-      "title": "Show HN: Ballet – Workflow automation that writes integrations against any API",
-      "type": "story",
-      "url": "https://www.ballet.dev/",
-      "og_image": "https://ballet.dev/og-v2.png",
-      "groq_label": "Most systems that require workflow automation for integration have poorly documented, frequently changing APIs.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis 'Ballet' workflow automation project aims to solve the problem of integrating with various APIs. Based on the Hacker News discussion, commenters generally viewed the project with skepticism, with one comment highlighting the difficulty in modeling complex systems in a short amount of time. Many appreciated the project's ease of use, but others questioned its ability to add significant value in a market where automation tools are becoming increasingly commodified. However, the discussion also suggested that the project still has potential, with one commenter wishing the team luck and success.",
       "groq_explain": null
     }
   ]
