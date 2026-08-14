@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-14T20:35:34.896Z"
+    "lastUpdated": "2026-08-14T21:02:20.675Z"
   },
   "stories": [
     {
@@ -49,6 +49,21 @@
       "groq_explain": null
     },
     {
+      "id": 49303405,
+      "author": "kwakwa_cat",
+      "descendants": 3,
+      "kids": "[49304342]",
+      "score": 9,
+      "time": 1786735220,
+      "title": "What You Gain by Building Your Own Game Engine",
+      "type": "story",
+      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "og_image": "images/49303405.png",
+      "groq_label": "Most game developers actually use pre-existing game engines, with fewer than 13% rolling their own, opting instead for commercial or open-source options.",
+      "groq_discussion": "Discussion type: – Basic\n\nThis article explores the benefits of building one's own game engine. Based on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as the unique insight into the challenges and benefits of game engine development. Many appreciated the author's experience sharing, noting that it provided valuable lessons for game developers, while others believed it could be particularly useful for indie game developers seeking to create unique experiences. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of creating a game engine from scratch and questioned the author's emphasis on DIY game engine building as a viable choice for most games. Others pointed out that the market is flooded with existing game engines, making it less necessary for developers to build their own. Overall, the Hacker News community considered the article informative and insightful, while also emphasizing the practical limitations of building a custom game engine.",
+      "groq_explain": null
+    },
+    {
       "id": 49303350,
       "author": "surprisetalk",
       "descendants": 39,
@@ -62,6 +77,21 @@
       "groq_label": "Claude's text watermarking achieves authorship identification by artificially inducing subtle writing patterns that are difficult for humans to notice but can be reliably detected.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Claude's text watermarking is generally positive. Commenters frequently praised the solution's approach to addressing EU mandates and the effectiveness of the watermark in detecting AI-generated content, particularly through token re-positioning. However, the discussion also included recurring concerns about the ease of defeating the watermark, with some commenters questioning its robustness. The overall consensus is that the idea is compelling, although its long-term success depends on the implementation of a robust and reliable watermark detection API and addressing concerns about its potential vulnerabilities.",
       "groq_explain": null
+    },
+    {
+      "id": 49303046,
+      "author": "lajosdeme",
+      "descendants": 5,
+      "kids": "[49303683,49303670]",
+      "score": 22,
+      "time": 1786733568,
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "type": "story",
+      "url": "https://github.com/lajosdeme/mole",
+      "og_image": "https://opengraph.githubassets.com/0c3ff67bb573df047755ddc3a554b626ffc1a124f89ab5970c13a8416a211a41/lajosdeme/mole",
+      "groq_label": "Mole verifies quotes against source pages to check if claims are supported.",
+      "groq_discussion": "Discussion type: Balanced \n\nThis Show HN presents a research agent called Mole, which aims to solve the problem of efficient and effective research in the terminal. The Hacker News discussion is generally cautious, as some users have raised questions and concerns about the project's budgeting and pricing mechanisms. Commenters such as the first discussant have inquired about how Mole handles instances where the LLM spending exceeds the expected amount on a request, and how caching and pricing tables interact with each other. However, the discussion also includes a comment from user who pointed out a perceived conflict of interest, which adds to the cautious tone of the discussion. Overall, the community sees promise in Mole's approach but is still seeking answers to these important questions.",
+      "groq_explain": "Mole is a tool that helps you research and answer questions from your terminal. It's like a smart researcher that searches, reads, and analyzes information to give you accurate answers. What's unique about it is that it has a built-in budget system so it won't go over a certain limit, and it keeps your local data private and on your own machine."
     },
     {
       "id": 49301260,
@@ -422,36 +452,6 @@
       "groq_label": "SparrowMap is a decentralized open-source project that uses volunteer-operated cameras to anonymously track and record government vehicles.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project (SparrowMap) is generally critical. Commenters frequently pointed out the invasion of privacy concerns, questioning the ethics of tracking government vehicles. Others noted the potential hypocrisy in applying this technology when similar issues arise in their own companies or among their neighbors. The consensus is that while the project raises an interesting conversation about privacy, its long-term success and societal acceptance depend on addressing these concerns and navigating complex legal and ethical issues.",
       "groq_explain": "It's a project where people use their spare phones and devices to create a map of government vehicles and their locations."
-    },
-    {
-      "id": 49291268,
-      "author": "theanonymousone",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 8,
-      "time": 1786652057,
-      "title": "NP-Overrated",
-      "type": "story",
-      "url": "https://gruhn.me/blog/2026-08-13/",
-      "og_image": "https://gruhn.me/rss.svg",
-      "groq_label": "The complexity of algorithms classified as NP-hard is not always directly proportional to their practical impact, with some having significant real-world applications despite theoretical limitations.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49290969,
-      "author": "tzury",
-      "descendants": 5,
-      "kids": "[49291309,49291225]",
-      "score": 17,
-      "time": 1786650286,
-      "title": "How Gödel's Proof Works",
-      "type": "story",
-      "url": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
-      "og_image": "https://d2r55xnwy6nx47.cloudfront.net/uploads/2020/07/Godel-Tower_1200_social.jpg",
-      "groq_label": "Peano arithmetic can produce a statement that claims its own impossibility, which leads to a contradiction when attempting to determine if the statement is true or false.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this piece on how Gödel's Proof works is positive. Commenters frequently praised its recommendation of the influential book \"Gödel, Escher, Bach: an Eternal Golden Braid\", describing it as interesting and worth reading. However, the discussion included no recurring concerns about the content of the piece itself. The overall consensus is that the idea to read the book about Gödel is compelling.",
-      "groq_explain": null
     }
   ]
 }
