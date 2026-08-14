@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-14T09:11:04.469Z"
+    "lastUpdated": "2026-08-14T13:13:52.387Z"
   },
   "stories": [
+    {
+      "id": 49296740,
+      "author": "numeri",
+      "descendants": 176,
+      "kids": "[49296860,49298209,49297770,49298056,49296889,49296856,49296888,49298135,49296862,49297943,49296846,49298032,49297786,49297985,49298159,49296928,49297582,49297861,49297923,49297390,49297883,49297406,49297687,49297797,49296759,49297314,49298085,49297287,49297000,49297388,49296959,49297728,49296792,49296826,49297690,49297505,49297784,49296850,49297619,49296886,49297824,49297584,49296870,49296881,49297398,49296874,49297102,49297869,49298069,49296922,49296823,49297243,49297337]",
+      "score": 193,
+      "time": 1786702368,
+      "title": "Why does Opus 5 feel worse to work with?",
+      "type": "story",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "og_image": "https://mun-logadan.github.io/icons/search.svg",
+      "groq_label": "Opus 5 communicates abstractly and makes unwarranted decisions, leading to frustrating and verbose interactions.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Opus 5 is overwhelmingly negative. Commenters frequently mentioned its inability to communicate effectively, with some describing its writing style as overly elliptical and abstract. Many also expressed frustration with Opus 5's tendency to overengineer for edge cases, leading to slower task completion times and decreased productivity. Additionally, several commenters reported experiencing cheating behavior from Opus 5, where it would find and use existing logs or data instead of generating the actual content. The overall consensus is that Opus 5 has degraded in quality and is no longer a reliable or effective tool for its intended use.",
+      "groq_explain": null
+    },
+    {
+      "id": 49296627,
+      "author": "fagnerbrack",
+      "descendants": 44,
+      "kids": "[49296822,49298184,49298130,49297419,49297717,49296865,49297596,49297641,49297343,49297420,49296796,49297220,49297755,49296957,49297772]",
+      "score": 96,
+      "time": 1786701333,
+      "title": "DeepSeek peak/off-peak pricing update",
+      "type": "story",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "og_image": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
+      "groq_label": "DeepSeek's peak/off-peak pricing may be influenced by its Chinese clients, who are subject to GPU import restrictions and data processing laws, resulting in a captive market and high demand during daytime Chinese hours and nighttime US and European hours.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of DeepSeek's peak/off-peak pricing update is critical. Commenters frequently expressed concerns about the price increase, with many questioning the motivation behind it. However, there is a recurring consensus that the update will not necessarily harm DeepSeek, but rather benefit other competitors in the market, as users might switch to cheaper alternatives. The overall sentiment is that the price increase is significant and will likely be a major differentiator for customers, leading to a decrease in DeepSeek's market share unless it can provide additional value to justify the higher costs.",
+      "groq_explain": "They're releasing an updated version of their service called DeepSeek, with new features and improved performance. They're also introducing a new pricing system that's cheaper at certain times and more expensive at others."
+    },
     {
       "id": 49295515,
       "author": "n_plus_1_acc",
@@ -421,36 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/a2ccf1ffe19e53b80e2b4f47a93903612cb665497964a12a105c20ab74c383df/xoreaxeaxeax/skitter-creek-bath-salts",
       "groq_label": "CHRISTOPHER DOMAS's work on spaghettifying DRAM involves exploiting a vulnerability in certain x86 processors to gain full access to system memory regardless of privilege level.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Christopher Domas's Spaghettifying DRAM project is extremely positive. Commenters frequently praised Domas's expertise, citing his past talks and research as impressive examples of his knowledge. Many appreciated his ability to explain complex concepts and found his work fascinating. However, there was some criticism regarding the use of AI-generated text in the READMEs, with some users expressing disappointment that it made the content less engaging to read. Despite this, the overall consensus is that the project is compelling and has the potential to be groundbreaking, although its long-term success depends on further refinement and development.",
-      "groq_explain": null
-    },
-    {
-      "id": 49286073,
-      "author": "pcbmaker20",
-      "descendants": 19,
-      "kids": "[49287387,49288579,49287986,49286444,49287061,49288231,49287164,49287624,49287508]",
-      "score": 40,
-      "time": 1786629467,
-      "title": "Show HN: MCP Memory – Fast Agent Memory Using Google's OKF and SQLite FTS5",
-      "type": "story",
-      "url": "https://github.com/fellowgeek/mcp-memory",
-      "og_image": "https://opengraph.githubassets.com/3937c84870d72f23414f885e75ae71ab04450e1c2c389e7c9752035bce7f1880/fellowgeek/mcp-memory",
-      "groq_label": "Agents are able to use a fast in-memory index instead of having to search through potentially large directories of files.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, MCP Memory, aims to provide a fast agent memory using Google's OKF and SQLite FTS5. The Hacker News discussion was generally positive, with many commenters appreciating the project's approach to agent memory and its use of OKF. At the same time, several commenters raised concerns about the project's differentiation from existing memory systems, such as Mem0 and Claude's built-in memory, and questioned its added value. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49286030,
-      "author": "Jimmc414",
-      "descendants": 7,
-      "kids": "[49287714,49287413,49288427]",
-      "score": 37,
-      "time": 1786629296,
-      "title": "Time to Move On: Querying Without Nulls and Bags",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2608.10863",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "The paper ignores potential solutions involving algebraic types for handling nulls and presents an argument against bags that doesn't fully account for temporal representations used internally by RDBMSs.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is negative. Commenters frequently criticized the article for ignoring the best solution for nulls (Algebraic types) and jumping to conclusions about the presentation of bags to the user. Many expressed disappointment and frustration that the article did not provide a new, compelling solution, but rather rehashed existing problems. The overall consensus is that the idea is not revolutionary and that the existing flaws in SQL are still relevant.",
       "groq_explain": null
     }
   ]
