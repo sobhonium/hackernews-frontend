@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-13T21:31:44.920Z"
+    "lastUpdated": "2026-08-14T02:09:05.682Z"
   },
   "stories": [
+    {
+      "id": 49293324,
+      "author": "danabramov",
+      "descendants": 16,
+      "kids": "[49293859,49293533,49293752,49293711,49293792,49293863,49293778]",
+      "score": 71,
+      "time": 1786666468,
+      "title": "Bluesky Protocol Services",
+      "type": "story",
+      "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+      "og_image": "https://atproto.com/-/blog/introducing-bluesky-protocol-services/opengraph-image.png?d2b4677fa75ef34c",
+      "groq_label": "Jetstream can be used directly in a browser to consume the Bluesky firehose.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to the Bluesky Protocol Services with a mix of positive and critical reactions. Many commenters appreciated the ease of use and functionality of the Jetstream, with one user showcasing a browser demo that utilized the new Jetstream in real-time. Others found the web page UI to be fast and uncluttered, inquiring about the documentation system/CMS used. However, the discussion also revealed concerns about the reliability of Bluesky, with one user expressing frustration over outages and lack of updates on the service's status. Some commenters even suggested innovative ideas, such as remaking DNS on top of Bluesky, which could potentially solve some of DNS's long-running issues. Overall, the community viewed the project as an interesting contribution while acknowledging its limitations, particularly regarding its operational reliability.",
+      "groq_explain": null
+    },
+    {
+      "id": 49293294,
+      "author": "paulnpace",
+      "descendants": 8,
+      "kids": "[49293851,49293536,49293718,49293770,49293932]",
+      "score": 40,
+      "time": 1786666204,
+      "title": "SparrowMap – Cameras that watch government vehicles",
+      "type": "story",
+      "url": "https://sparrowmap.com/",
+      "og_image": "https://sparrowmap.com/cover.png",
+      "groq_label": "SparrowMap is a decentralized open-source project that uses volunteer-operated cameras to anonymously track and record government vehicles.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project (SparrowMap) is generally critical. Commenters frequently pointed out the invasion of privacy concerns, questioning the ethics of tracking government vehicles. Others noted the potential hypocrisy in applying this technology when similar issues arise in their own companies or among their neighbors. The consensus is that while the project raises an interesting conversation about privacy, its long-term success and societal acceptance depend on addressing these concerns and navigating complex legal and ethical issues.",
+      "groq_explain": "It's a project where people use their spare phones and devices to create a map of government vehicles and their locations."
+    },
     {
       "id": 49291268,
       "author": "theanonymousone",
@@ -77,6 +107,21 @@
       "groq_label": "Systemd-journald's disk writes are inefficiently large due to its use of mmap-ed files.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion of systemd-journald aims to solve the problem of logging on Linux systems. The Hacker News discussion was generally critical, with many commenters appreciating a desire for change. At the same time, several commenters raised concerns about journald's performance and design choices, arguing that it is slow and lacks control over chatty subsystems. According to one developer involved in journald's creation, the team's focus was on read performance and stability rather than the on-disk structure or writes. Overall, the discussion suggests that the community sees major issues with journald and considers it a prime example of systemd's problems, but some acknowledge the efforts made to improve it in the past.",
       "groq_explain": null
+    },
+    {
+      "id": 49290166,
+      "author": "somesoftdev",
+      "descendants": 9,
+      "kids": "[49290957,49293962,49293786,49293607,49291108]",
+      "score": 25,
+      "time": 1786646238,
+      "title": "Hello, me. It's been a while",
+      "type": "story",
+      "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+      "og_image": "https://secure.gravatar.com/avatar/10ab3895f5f788f14b825d1269010060?s=32&d=mm&r=g",
+      "groq_label": "Subconscious minds often make big breakthroughs on hard problems despite a lack of conscious awareness.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally shared personal anecdotes about their preferences for focusing with or without music/noise. Many appreciated the article's reflection on their own behavior, with one person realizing they fill every spare moment with audio content and another mentioning the benefits of silence during driving. Others shared their unique experiences, such as a musician who prefers listening to the engine and their thoughts, or someone who doesn't focus with music or noise. The discussion revealed a mix of people who appreciate silence, those who need music or talking to focus, and everyone in between, indicating a diverse and personalized approach to productivity.",
+      "groq_explain": "The article is about the author's personal experience of losing touch with their inner voice over time due to increased responsibilities and a reliance on distractions. They've realized how important it is to listen to themselves and think deeply about their thoughts and ideas, and are encouraging others to take a moment of silence to rediscover their own inner voice."
     },
     {
       "id": 49290062,
@@ -167,6 +212,21 @@
       "groq_label": "A 45-year-old BASIC game, Donkey.bas, has been ported into a browser game with its original CGA gameplay recreated using JavaScript, retaining just 131 lines of the original code.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis 45-year-old DONKEY.BAS game is being revamped to run in a browser. Commenters generally viewed the port positively, highlighting its ability to run a game so old with relatively simple code. Many appreciated the nostalgic value of the project and were impressed by its potential to be run in modern browsers. The discussion also revealed a single criticism regarding a bug that causes the game to flicker at a specific window size, although it is fixable by resizing the window. Overall, the Hacker News community considered the port a success, recognizing its potential to revive a piece of retro gaming history while emphasizing that resolving the glitch would further improve its usability.",
       "groq_explain": "An old IBM PC game from the 80s called Donkey.bas is being recreated in a browser to celebrate its 45th birthday."
+    },
+    {
+      "id": 49289260,
+      "author": "domenkozar",
+      "descendants": 5,
+      "kids": "[49294006,49293734,49293824]",
+      "score": 28,
+      "time": 1786642327,
+      "title": "I want extern \"fil-C\"",
+      "type": "story",
+      "url": "https://domenkozar.com/2026/08/13/i-want-extern-fil-c/",
+      "og_image": "https://domenkozar.com/images/me.png",
+      "groq_label": "Fil-C's ABI incompatibility with C prevents non-safe C usage in Fil-C programs but also restricts Fil-C programs from being used from Rust, essentially blocking interoperability.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] addresses how to handle C code from Rust. Hacker News commenters had various opinions on the approach proposed in the article. Some appreciated the alternative solution presented, which is the rlbox, and used successfully by Mozilla. They saw it as a great option for calling C libraries without letting them access the caller's memory freely.\n\nHowever, others questioned the design choice behind fil-C, specifically regarding ABI compatibility with C. They pointed out that fil-C does not intentionally allow non-safe C to be used in its programs, but the decision not to support ABI compatibility may limit its compatibility with other languages like Rust and C.\n\nAnother commenter expressed disapproval of the approach in general, suggesting that it legitimizes the author's flawed definitions of memory safety and may lock Rust into a specific fork of clang. They questioned the benefits of fil-C, particularly considering its reliance on a single ISA and OS. The discussion reflects a mix of opinions on the matter, with some seeing potential benefits and others raising concerns about the project's design choices and limitations. Overall, the community presented a mixed assessment of the proposal.\n\nor in short:\n\nDiscussion type: – Short:\n\nThis [article/project/blog post/research/product] addresses how to handle C code from Rust. Hacker News commenters generally liked the alternative solution presented, but questioned fil-C's design choice on ABI compatibility and its reliance on a specific fork of clang. Their discussion reflects a mixed assessment of the proposal.",
+      "groq_explain": null
     },
     {
       "id": 49289112,
@@ -391,65 +451,6 @@
       "og_image": "https://leancrew.com/all-this/images2026/20260731-Cubic%20sum%20spreadsheet.png",
       "groq_label": "Avoid using spreadsheets as manually updated tracking tools with inconsistent formatting.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis set of rules for using spreadsheets aims to solve the problem of inefficently using spreadsheets, specifically as manually updated tracking tools where formatting inconsistencies hinder automation. Based on the Hacker News discussion, commenters generally viewed the rules positively and appreciated their emphasis on avoiding the use of spreadsheets as tracking tools with inconsistent formatting. Many agreed that this advice is valuable and appreciated the acknowledgement of AI's potential to update such spreadsheets. However, the discussion also revealed criticisms. Commenters expressed concerns about the challenges of implementing the rules in real-world scenarios, questioning whether they are realistic and practical. Overall, the Hacker News community considered the rules a valuable contribution by advising against a common misuse of spreadsheets, with some emphasizing that further guidance on implementing the rules would be beneficial.",
-      "groq_explain": null
-    },
-    {
-      "id": 49285244,
-      "author": "bjin",
-      "descendants": 177,
-      "kids": "[49288435,49288757,49286436,49287317,49286902,49288533,49286014,49287844,49285900,49288265,49286080,49287468,49286296,49288060,49287947,49286608,49286570,49288082,49287033,49286597,49286643,49285944,49287945,49287592,49286248,49287890,49286784,49288140,49285857,49287573,49287232,49287719,49286645,49286934,49287752,49285918,49286473,49285931,49285779,49286572,49286307,49285541,49288483,49286333,49285917,49285955,49287267,49287532]",
-      "score": 378,
-      "time": 1786625882,
-      "title": "DeepSeek Harness developer preview",
-      "type": "story",
-      "url": "https://deepseek.com/harness/en/",
-      "og_image": "https://deepseek.com/harness/images/harness/feat-plugin.en.png",
-      "groq_label": "The DeepSeek Harness uses Cordis v4 for hot loading and unloading plugins without restarting a process.",
-      "groq_discussion": "Discussion type: – Detailed\n\nThis is a developer preview of the DeepSeek Harness, a system designed to enable developers to create and manage plugins in a flexible and powerful way. The Hacker News discussion suggests that commenters were impressed by the harness's ability to record and log all interactions with the model, allowing for full transparency and reproducibility. Many saw this feature as a key advantage over similar systems in the US, which have more opaque and difficult to work with traces. The discussion also touched on the use of Cordis v4, a plugin system that allows for hot loading and unloading of plugins without restarting a process, and can even revert any state and side effects it creates. However, not all commenters were convinced of the usefulness of the harness, with some expressing concerns about the complexity of the system and the potential for plugin fatigue. The overall impression was that the project introduces an interesting idea that would benefit from further refinement and a clearer explanation of its goals and capabilities.",
-      "groq_explain": null
-    },
-    {
-      "id": 49284774,
-      "author": "Markoff",
-      "descendants": 82,
-      "kids": "[49285067,49285100,49284843,49285374,49285299,49285308,49285147,49285151,49284946,49285241,49285159,49285143,49285280,49285050,49285094,49285029,49284997,49284879,49285053,49285127]",
-      "score": 128,
-      "time": 1786622990,
-      "title": "Deutsche Bank becomes first foreign yuan clearing bank in Europe",
-      "type": "story",
-      "url": "https://tradersunion.com/news/central-banks/show/2973571-deutsche-bank-becomes/",
-      "og_image": "https://tradersunion.com/uploads/images/tu-news/02026/08/2973571/deutsche-bank-becomes.jpg",
-      "groq_label": "Deutsche Bank's recognition as a foreign yuan clearing bank could be a sign of the dollar's increasing instability as global reserve currency.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis move by Deutsche Bank to become the first foreign yuan clearing bank in Europe is a significant development in international trade and finance. The Hacker News discussion was generally mixed, with some commenters praising the potential benefits of the yuan's rising influence, while others expressed concerns about doing business with an authoritarian regime like China. Some commenters saw the move as a sign of the dollar's potential decline as the world's reserve currency, while others questioned the motivations behind Deutsche Bank's involvement in the yuan market. The discussion also touched on the broader implications of the US-China trade relationship and the potential risks associated with relying on China for financial services. Overall, the discussion suggests that the community sees the yuan's growing influence as a potential game-changer, but also believes that there are many challenges and risks associated with this development.",
-      "groq_explain": null
-    },
-    {
-      "id": 49284697,
-      "author": "dkobran",
-      "kids": "[]",
-      "score": 1,
-      "time": 1786622462,
-      "title": "ATG (YC F25) Is Hiring Member of Technical Staff (Data Platform)",
-      "type": "job",
-      "url": "https://atg.science/careers",
-      "og_image": "https://atg.science/social-card.png",
-      "groq_label": "ATG uses Snowflake as its primary data warehousing solution allowing it to efficiently process and analyze a large volume of data to inform business decisions.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49281916,
-      "author": "allanrbo",
-      "descendants": 35,
-      "kids": "[49283276,49282978,49283411,49283365,49283390,49282758,49282603,49283094,49282621,49282613,49283294,49282591]",
-      "score": 93,
-      "time": 1786596821,
-      "title": "ChatGPT Desktop (Codex Desktop) for Linux",
-      "type": "story",
-      "url": "https://openai.com/codex/",
-      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/ccd8ea0a41e98a3a273357ae621dfe72/codex-og-image.png?w=1600&h=900&fit=fill",
-      "groq_label": "People are running the Codex Desktop in a VM or with limited access to avoid potential security risks associated with its installation.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of ChatGPT Desktop (Codex Desktop) for Linux is negative. Commenters frequently expressed concerns about its potential security risks, including the possibility of it being used as a Trojan or spyware. Many emphasized the importance of running it isolated from the rest of the system, with some suggesting creating a separate account for the agent and enabling this security measure by default. Commenters also pointed out that many Linux users might not benefit from the desktop app, given their tendency to prefer the command line interface. Overall, the consensus is that the project is not compelling, mainly due to its security implications and potential drawbacks.",
       "groq_explain": null
     }
   ]
