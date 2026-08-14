@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-14T02:09:05.682Z"
+    "lastUpdated": "2026-08-14T05:41:25.933Z"
   },
   "stories": [
+    {
+      "id": 49294997,
+      "author": "pella",
+      "descendants": 9,
+      "kids": "[49295043,49295050,49295026,49295045,49295079,49295020,49295081,49295023]",
+      "score": 61,
+      "time": 1786684799,
+      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "type": "story",
+      "url": "https://z.ai/blog/glm-5.3",
+      "og_image": "https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/5-blog/z-icon.png",
+      "groq_label": "Oracle uses model scaling instead of new model development, shifting difficulty from models to environment.",
+      "groq_discussion": "Discussion type: –  Basic:\n\nThis project, GLM-5.3, addresses the problem of enhancing AI model capabilities. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the potential for \"ridiculous results.\" Many appreciated the post-training improvement scaling, noting that it significantly enhanced model capabilities. Others believed it could be particularly useful for addressing the difficulty in scaling post-training models in various environments. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of a compelling economic reason to switch from OpenAI, and some questioned the restricted-usage license that Hugging Face has chosen. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its adoption and usefulness.\n\nAlternatively, Discussion type: – Balanced:\n\nThis project, GLM-5.3, aims to enhance AI model capabilities. The Hacker News discussion was generally positive, with many commenters appreciating the significant improvements achieved through post-training scaling. At the same time, several commenters raised concerns about the economic and licensing aspects of the project. While the discussion suggests that the community sees promise in the updated model, it emphasizes the need for further refinement to address the remaining limitations.\n\nAlternatively, Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GLM-5.3 is that it has made significant improvements, particularly in post-training scaling. Commenters frequently praised the \"ridiculous results\" and highlighted the project's potential to revolutionize AI model capabilities. However, the discussion also included recurring concerns about the need for a more compelling economic reason to switch from OpenAI and the impact of the restricted-usage license. The overall consensus is that the project is indeed promising, although its long-term success depends on addressing these remaining challenges.",
+      "groq_explain": null
+    },
     {
       "id": 49293324,
       "author": "danabramov",
@@ -436,21 +451,6 @@
       "og_image": "https://alexmorleyfinch.github.io/marlin/history/v1/article/images/hero-search.png",
       "groq_label": "The algorithm uses a rented 4090 GPU, a VLLM model, and a local language model to generate categories, tags, and text summaries for each website in a dataset of 500,000 domains indexed for a matter of weeks.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of website discovery and search. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and the ability to create a personal search engine. The use of cloud computing and large language models was seen as exciting, with one commenter noting that it's \"where I see software going in the short term.\" However, the discussion also highlighted several limitations and criticisms, such as the need to bypass captchas and cloudflare turnstiles, as well as concerns about scalability and data storage. Some commenters also pointed out that this problem is not new, and that a Lucene instance can handle a similar number of domains. The overall discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49285268,
-      "author": "surprisetalk",
-      "descendants": 1,
-      "kids": "[49285424]",
-      "score": 4,
-      "time": 1786626024,
-      "title": "My Rules for Using Spreadsheets",
-      "type": "story",
-      "url": "https://leancrew.com/all-this/2026/08/my-rules-for-using-spreadsheets/",
-      "og_image": "https://leancrew.com/all-this/images2026/20260731-Cubic%20sum%20spreadsheet.png",
-      "groq_label": "Avoid using spreadsheets as manually updated tracking tools with inconsistent formatting.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis set of rules for using spreadsheets aims to solve the problem of inefficently using spreadsheets, specifically as manually updated tracking tools where formatting inconsistencies hinder automation. Based on the Hacker News discussion, commenters generally viewed the rules positively and appreciated their emphasis on avoiding the use of spreadsheets as tracking tools with inconsistent formatting. Many agreed that this advice is valuable and appreciated the acknowledgement of AI's potential to update such spreadsheets. However, the discussion also revealed criticisms. Commenters expressed concerns about the challenges of implementing the rules in real-world scenarios, questioning whether they are realistic and practical. Overall, the Hacker News community considered the rules a valuable contribution by advising against a common misuse of spreadsheets, with some emphasizing that further guidance on implementing the rules would be beneficial.",
       "groq_explain": null
     }
   ]
