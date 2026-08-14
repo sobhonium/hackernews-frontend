@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-14T05:41:25.933Z"
+    "lastUpdated": "2026-08-14T09:11:04.469Z"
   },
   "stories": [
+    {
+      "id": 49295515,
+      "author": "n_plus_1_acc",
+      "descendants": 11,
+      "kids": "[49296184,49296190,49296274]",
+      "score": 27,
+      "time": 1786691036,
+      "title": "Eclipse: The Xiaomi 17 Ultra Confuses the Moon and the Sun",
+      "type": "story",
+      "url": "https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil",
+      "og_image": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2026/08/photo-eclipse-xiaomi-17-ultra.jpg?resize=1600,900&key=ff7f0008",
+      "groq_label": "Xiaomi's camera software displays virtual \"moon\" on sunny days when no real moon is visible, indicating a design choice to prioritize aesthetics over accuracy.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Xiaomi's \"Eclipse\" feature is negative. Commenters frequently criticized the company for intentionally including a fake \"moon\" in their camera's recording, and then failing to disable it even after being caught. The general sentiment is that this is a misleading and deceptive practice, and many see it as a sign of a larger issue with the company's approach to authenticity and truthfulness.",
+      "groq_explain": null
+    },
+    {
+      "id": 49295238,
+      "author": "pentestercrab",
+      "descendants": 3,
+      "kids": "[49295971,49296090]",
+      "score": 21,
+      "time": 1786687744,
+      "title": "Ruby 4.0 Universal RCE Deserialization Gadget Chain",
+      "type": "story",
+      "url": "https://www.elttam.com/blog/ruby-4-0-universal-rce-deserialization-gadget-chain",
+      "og_image": "https://cdn.prod.website-files.com/6971f0e051b588235e8acf7b/6a7e91f27de7b76cbfa2ea50_image%20(1).png",
+      "groq_label": "The Ruby 4.0 Universal RCE Deserialization Gadget Chain requires untrusted data to be passed to Marshal.load.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the \"Ruby 4.0 Universal RCE Deserialization Gadget Chain\" is that it poses little risk when security best practices are followed. Commenters frequently highlighted the importance of not passing untrusted data to the `Marshal.load` function, and that using dependencies from Rubygems, which should be considered part of a Trusted Computing Base, mitigates the risk. However, the discussion also included recurring concerns about the difficulty of managing trusted dependencies, particularly in the context of Rubygems. The overall consensus is that the vulnerability is not as severe as presented, but it still highlights the importance of following proper security guidelines.",
+      "groq_explain": "There's a new way to hack into a computer system running a software called Ruby, by taking advantage of how it handles data. This hack allows someone to get control of the system by sending a message with certain types of information in it. It works on newer versions of Ruby, including the latest one, and it's based on work that's been done over the past 13 years to find weaknesses in this software."
+    },
     {
       "id": 49294997,
       "author": "pella",
@@ -16,6 +46,21 @@
       "og_image": "https://z-cdn-media.chatglm.cn/prompts-rich-media-resources/5-blog/z-icon.png",
       "groq_label": "Oracle uses model scaling instead of new model development, shifting difficulty from models to environment.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis project, GLM-5.3, addresses the problem of enhancing AI model capabilities. \nBased on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the potential for \"ridiculous results.\" Many appreciated the post-training improvement scaling, noting that it significantly enhanced model capabilities. Others believed it could be particularly useful for addressing the difficulty in scaling post-training models in various environments. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of a compelling economic reason to switch from OpenAI, and some questioned the restricted-usage license that Hugging Face has chosen. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its adoption and usefulness.\n\nAlternatively, Discussion type: – Balanced:\n\nThis project, GLM-5.3, aims to enhance AI model capabilities. The Hacker News discussion was generally positive, with many commenters appreciating the significant improvements achieved through post-training scaling. At the same time, several commenters raised concerns about the economic and licensing aspects of the project. While the discussion suggests that the community sees promise in the updated model, it emphasizes the need for further refinement to address the remaining limitations.\n\nAlternatively, Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of GLM-5.3 is that it has made significant improvements, particularly in post-training scaling. Commenters frequently praised the \"ridiculous results\" and highlighted the project's potential to revolutionize AI model capabilities. However, the discussion also included recurring concerns about the need for a more compelling economic reason to switch from OpenAI and the impact of the restricted-usage license. The overall consensus is that the project is indeed promising, although its long-term success depends on addressing these remaining challenges.",
+      "groq_explain": null
+    },
+    {
+      "id": 49293523,
+      "author": "vforno",
+      "descendants": 1,
+      "kids": "[49296085]",
+      "score": 11,
+      "time": 1786668424,
+      "title": "Show HN: Lumabri – Run Moe Models on a P2P Swarm with Colibri",
+      "type": "story",
+      "url": "https://github.com/JustVugg/lumabri",
+      "og_image": "https://opengraph.githubassets.com/cd4915e87727ee2aa2d560472a3704d650991eb084e3faeb099f770abea9f1fc/JustVugg/lumabri",
+      "groq_label": "Lumabri uses a P2P swarm to distribute the load of running Moe models on multiple nodes.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project, Lumabri, aims to allow users to run Mole Models on a P2P swarm with Colibri. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its innovative approach. \nMany appreciated the project, noting that it's great work, while others believed it could be \nparticularly useful for decentralized computing. However, the discussion also revealed several criticisms. \nCommenters expressed concerns about scalability and security. Overall, the Hacker News community considered \nthe project [overall sentiment], recognizing its potential while emphasizing that addressing these concerns \nwould improve its usefulness and adoption.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "The paper ignores potential solutions involving algebraic types for handling nulls and presents an argument against bags that doesn't fully account for temporal representations used internally by RDBMSs.",
       "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is negative. Commenters frequently criticized the article for ignoring the best solution for nulls (Algebraic types) and jumping to conclusions about the presentation of bags to the user. Many expressed disappointment and frustration that the article did not provide a new, compelling solution, but rather rehashed existing problems. The overall consensus is that the idea is not revolutionary and that the existing flaws in SQL are still relevant.",
-      "groq_explain": null
-    },
-    {
-      "id": 49285982,
-      "author": "rbanffy",
-      "descendants": 106,
-      "kids": "[49288126,49287721,49286808,49288145,49288245,49286560,49287305,49286895,49287248,49287662,49288751,49287883,49286634,49286892,49287013]",
-      "score": 232,
-      "time": 1786629152,
-      "title": "Gloomberb",
-      "type": "story",
-      "url": "https://gloom.sh/",
-      "og_image": "https://gloom.sh/_next/image?url=%2Fscreenshots%2FDES.png&w=3840&q=75",
-      "groq_label": "The Gloomberb platform integrates various finance data sources, but its data source and latency are unclear.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis Gloomberb project aims to create a terminal-based interface for finance data. Based on the Hacker News discussion, commenters generally viewed the project as an interesting concept that needs refinement. Many appreciated the project's potential to rethink the terminal interface and interactions with the introduction of AI, while others highlighted the importance of addressing limitations such as data quality, latency, and scalability. Although opinions differed, the discussion suggests that the community considers Gloomberb a promising idea that would benefit from further refinement.\n\nHowever, I have to make some changes here.\n\nThe above answer does not exactly match any of the templates, I have to choose between the templates. However, the template \"Basic\" is the closest so far. The rest I need to fill according to the template.\n\nDiscussion type: – Balanced:\n\nThis Gloomberb project aims to solve the problem of financial data access. The Hacker News discussion was generally mixed, with many commenters appreciating the project's potential to rethink the terminal interface and its use of AI. At the same time, several commenters raised concerns about the data source, latency, and the quality of the interface.\n\nHowever, I have to choose between the templates and also fill.\n\nDiscussion type: – Short:\n\nThis Gloomberb project attempts to provide a better interface for finance data. Hacker News commenters generally thought the project was an interesting idea with potential, but they also expressed concerns about the data quality, latency, and the fact that the source code was written in typescript.",
-      "groq_explain": "Gloomberb is a platform for tracking and analyzing financial markets and stocks, allowing users to follow market news, trends, and valuations, and even manage their own portfolios."
-    },
-    {
-      "id": 49285770,
-      "author": "yen223",
-      "descendants": 30,
-      "kids": "[49288234,49289619,49289142,49289647,49288756,49289094,49289037,49289061]",
-      "score": 81,
-      "time": 1786628381,
-      "title": "Ordinary abundance",
-      "type": "story",
-      "url": "https://ordinaryabundance.com/",
-      "og_image": "https://ordinaryabundance.com/assets/abundance-room-v8.jpg",
-      "groq_label": "Hedonic adaptation makes people forget and take for granted modern marvels like instantly communicating across thousands of miles and having hot showers in air-conditioned homes.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses how people often take modern marvels for granted, and the importance of appreciating the ordinary abundance that surrounds them. The Hacker News discussion was generally positive, with many commenters appreciating the article's premise and highlighting the importance of appreciation and gratitude. However, the discussion also raised concerns about the accessibility and distribution of basic necessities, such as healthcare and healthy food, and how many people are still struggling to access these things. The overall sentiment suggests that the community sees the value in the article's message, but also acknowledges the complexities and challenges of creating a more equitable society.",
-      "groq_explain": null
-    },
-    {
-      "id": 49285718,
-      "author": "dreamforever",
-      "descendants": 36,
-      "kids": "[49286510,49286853,49286580,49288572,49288217,49288501,49286971,49287308,49288185,49286915,49286677,49285719,49288614,49286482,49286802,49286471,49286918]",
-      "score": 69,
-      "time": 1786628179,
-      "title": "I built a 500k-domain search engine for makers in a weekend for $10",
-      "type": "story",
-      "url": "https://alexmorleyfinch.github.io/marlin/history/v1/article/the_birth.html",
-      "og_image": "https://alexmorleyfinch.github.io/marlin/history/v1/article/images/hero-search.png",
-      "groq_label": "The algorithm uses a rented 4090 GPU, a VLLM model, and a local language model to generate categories, tags, and text summaries for each website in a dataset of 500,000 domains indexed for a matter of weeks.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of website discovery and search. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and the ability to create a personal search engine. The use of cloud computing and large language models was seen as exciting, with one commenter noting that it's \"where I see software going in the short term.\" However, the discussion also highlighted several limitations and criticisms, such as the need to bypass captchas and cloudflare turnstiles, as well as concerns about scalability and data storage. Some commenters also pointed out that this problem is not new, and that a Lucene instance can handle a similar number of domains. The overall discussion suggests that the community sees promise in the project, but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
