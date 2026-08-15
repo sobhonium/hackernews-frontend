@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-15T20:27:36.909Z"
+    "lastUpdated": "2026-08-15T21:09:20.684Z"
   },
   "stories": [
+    {
+      "id": 49314235,
+      "author": "felixbraun",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 3,
+      "time": 1786827251,
+      "title": "Cultivating a state of mind where new ideas are born",
+      "type": "story",
+      "url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!9VgW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4697c31d-2502-48d2-b6c1-11e5ea97536f_2560x2174.jpeg",
+      "groq_label": "The human brain's ability to make novel connections between seemingly unrelated concepts is enhanced when in a state of relaxed focus with minimal cognitive interference.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49313367,
       "author": "AnodicElegy",
@@ -436,21 +451,6 @@
       "groq_label": "RISC-V prioritizes optional features over necessary ones, resulting in a design that doesn't effectively address the needs of high-end CPUs or low-end microcontrollers.",
       "groq_discussion": "Discussion type: Basic:\n\nThis RISC-V project aims to solve the problem of creating an open and competitive ISA for computing devices. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as being open and royalty-free, which has attracted significant investment from China. Many appreciated the flexibility of the ISA, noting that it can be extended and modified to suit specific needs. Others believed it could be particularly useful for hobby CPU designers and embedded systems. However, the discussion also revealed several criticisms. Commenters expressed concerns about the technical limitations of RISC-V, including its performance and efficiency compared to other architectures. Others questioned the potential for fragmentation and the need for additional extensions. Overall, the Hacker News community considered the project promising but emphasized that it still has room for improvement.",
       "groq_explain": "This article criticizes RISC-V, an open-source computer architecture, for not being well-suited for its intended purpose of being a flexible and efficient solution for various computing needs. The author argues that RISC-V will ultimately excel in low-cost, single-use microcontroller applications, not due to its design, but rather because it's an improvement over existing technology. They point out that RISC-V's design choices prioritize flexibility and complexity, which isn't ideal for simple, cost-constrained applications like microcontrollers."
-    },
-    {
-      "id": 49305250,
-      "author": "bookofjoe",
-      "descendants": 2,
-      "kids": "[49306381,49306461]",
-      "score": 24,
-      "time": 1786745712,
-      "title": "eigendrum",
-      "type": "story",
-      "url": "https://eigendrum.com/#p=circle",
-      "og_image": "https://eigendrum.com/docs/hero.png",
-      "groq_label": "The Eigendrum software solves the mathematical problem behind drum vibrations by numerically finding the eigenvalues of a system, allowing users to create custom drum shapes and hear the unique sound each one produces.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis eigendrum project aims to solve the problem of limited musical creativity and customization. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its ability to create microtonal sounds and allow users to draw their own drums, which several thought was particularly cool. Many appreciated the project's interactive features, noting that they enabled surprising levels of musical expressiveness, while others believed it could be particularly useful for musicians and composers looking for new sounds. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of material selection options, with some questioning the absence of this feature and others pointing out its potential impact on the project's usability. Overall, the Hacker News community considered the project positive, recognizing its creative potential while emphasizing the need to address the customization limitations.",
-      "groq_explain": "It's about a program called Eigendrum that calculates the unique sound of a drum based on its shape by solving a special math problem."
     }
   ]
 }
