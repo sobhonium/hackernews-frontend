@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-15T09:36:02.637Z"
+    "lastUpdated": "2026-08-15T12:44:13.740Z"
   },
   "stories": [
+    {
+      "id": 49309549,
+      "author": "tosh",
+      "descendants": 9,
+      "kids": "[49309929,49309982,49310020,49309979,49309995,49310011]",
+      "score": 47,
+      "time": 1786791602,
+      "title": "Auto-research with codex: How I achieved a 232x Faster Kernel",
+      "type": "story",
+      "url": "https://sankalp.bearblog.dev/autoresearch/",
+      "og_image": "https://sankalp.bearblog.dev/static/og-image.png",
+      "groq_label": "DeepSeek agents with access to compiler profiler and VTune achieved a 232x performance boost in a video compression codec kernel.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Auto-research with Codex project is overwhelmingly positive. Commenters frequently praised its ability to significantly improve kernel performance, with one developer achieving a 232x speedup. Many noted the ease of use and effectiveness of the project's beam search approach and the comprehensive training material provided, particularly for GPU kernels and SIMD. The discussion highlighted the project's potential to democratize AI research, making it accessible to solo engineers and small teams, and potentially rendering large AI research organizations like OAI/Anthropic less competitive. However, one concern mentioned was the lack of adherence to rules in some submissions, with at least one notable example. The overall consensus is that the project is groundbreaking and has a wide range of potential applications.",
+      "groq_explain": null
+    },
+    {
+      "id": 49308685,
+      "author": "uecker",
+      "descendants": 15,
+      "kids": "[49309818,49309757,49309524]",
+      "score": 34,
+      "time": 1786780782,
+      "title": "Using GCC's Nested Functions with Wide Pointers and No Trampolines II",
+      "type": "story",
+      "url": "https://uecker.codeberg.page/2026-07-14.html",
+      "og_image": "https://uecker.codeberg.page/banner.png",
+      "groq_label": "GCC's -fno-trampolines flag was meant to allow wide function pointers, where a single pointer type could represent either a code pointer or a descriptor (closure) pointer, identified by a tag; in contrast, nested functions require a trampoline in some cases. \n\nA trampoline is typically used in situations where, due to the function calling convention or stack usage, a return address needs to be stored and retrieved without calling the original function, thus jumping over or using the trampoline to indirectly call the original function, often when returning from nested functions.\n\nA nested function can encapsulate a small helper function within another function and can provide access to its scope, thus being useful when a small utility function is only needed within the context of a larger piece of code; they also can provide a way to limit the scope and visibility of helper functions.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to solve the problem of utilizing GCC's nested functions with wide pointers and without trampolines. Based on the Hacker News discussion, commenters were engaged by the technical complexity of the topic and the author's attempt to improve the compiler. They appreciated the explanation of nested functions and the use of wide pointers, noting that the idea was technically interesting and had potential for various applications. However, the discussion also revealed criticisms, with some questioning the practical relevance of nested functions and the implementation details of the patch. The community considered the project as a technical curiosity that could benefit from further improvement and refinement to increase its usability and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49307700,
       "author": "chatchan",
@@ -421,36 +451,6 @@
       "og_image": "https://opengraph.githubassets.com/16db4c79ed223cdcf457cbc3c659f06f6fe32e67a834c389aeb3d1f5fc42c7a5/NanoNets/Graft",
       "groq_label": "Graft uses static Claude-generated concept graphs to reduce grep tokens by 42% through a single pass rather than repeated discovery from scratch.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Graft – Claude Code project aims to solve the problem of excessive codebase exploration, which causes high latency and overhead in coding agents. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as the potential for significant latency savings and the ability to cut grep tokens by 42%. Many appreciated the use of Claude, a well-recognized LLM, noting that it allows for more efficient language understanding. Others believed the project could be particularly useful for improving the performance of coding assistants. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential for the generated concept graph to become stale, the use of animations in the GitHub README, and the possibility that the project may not be cheaper when the graph is stale. Overall, the Hacker News community considered the project promising, recognizing its potential benefits while emphasizing the need to address these concerns to improve its usefulness and adoption.\n\nDiscussion type: – Balanced:\n\nThis Graft – Claude Code project aims to solve the problem of excessive codebase exploration. The Hacker News discussion was generally positive, with many commenters appreciating the potential for significant latency savings and the project's approach to improving coding agent performance. At the same time, several commenters raised concerns about the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.\n\nDiscussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Graft – Claude Code project is that it has a lot of potential. Commenters frequently praised the project's approach to improving coding agent performance and the use of Claude, describing it as an interesting idea that could significantly improve the efficiency of coding assistants. However, the discussion also included recurring concerns about the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. The overall consensus is that these issues need to be addressed to fully realize the project's benefits.\n\nDiscussion type: – Objective:\n\nThis Graft – Claude Code project is designed to address the problem of excessive codebase exploration. The discussion reflects a balanced mix of enthusiasm and skepticism. Supporters argued that the project could significantly improve the performance of coding assistants and reduce latency, while critics pointed out concerns about the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. Several commenters also shared technical observations regarding the limitations of the project, providing additional context about its strengths and weaknesses. Overall, the discussion presents the project as a promising solution with several practical limitations.\n\nDiscussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this Graft – Claude Code project with positive reactions. Many commenters appreciated the project's potential to improve coding agent performance and the use of Claude, considering it useful because it allows for more efficient language understanding. Others highlighted the project's ability to cut grep tokens by 42% as one of its most valuable aspects. Nevertheless, recurring criticisms focused on the potential for the generated concept graph to become stale, particularly. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.\n\nDiscussion type: – Executive Summary:\n\nThis Graft – Claude Code project aims to solve the problem of excessive codebase exploration. Community feedback was largely centered around the project's potential to improve coding agent performance and the use of Claude. Positive comments emphasized the possibilities for significant latency savings and improved efficiency, while negative comments focused on the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. Although opinions differed on several aspects, the overall discussion indicates that the project is considered promising, with both clear strengths and notable limitations.\n\nDiscussion type: – Short:\n\nThis Graft – Claude Code project addresses the problem of excessive codebase exploration. Hacker News commenters generally appreciated the project's potential to improve coding agent performance and the use of Claude. However, they also expressed concerns about the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.\n\nDiscussion type: – Detailed:\n\nThis Graft – Claude Code project focuses on solving the problem of excessive codebase exploration, which causes high latency and overhead in coding agents. The Hacker News discussion suggests that commenters were primarily impressed by the project's potential to significantly improve coding agent performance and reduce latency. Many believed that the use of Claude could improve the efficiency of language understanding and cut grep tokens by 42%. At the same time, the discussion repeatedly highlighted concerns about the potential for the generated concept graph to become stale, the use of animations in the GitHub README, and the possibility that the project may not be cheaper when the graph is stale. While there was no unanimous agreement on every aspect, the overall impression was that the project introduces an interesting idea that would benefit from further refinement and testing.\n\nDiscussion type: – News Style:\n\nHacker News commenters reacted to the Graft – Claude Code project with cautious optimism. Many praised its potential to improve coding agent performance and the use of Claude, seeing value in its approach to reducing latency and overhead. However, the discussion also surfaced recurring concerns regarding the potential for the generated concept graph to become stale and the possibility that the project may not be cheaper when the graph is stale. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures and addresses these limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49299746,
-      "author": "mplappert",
-      "descendants": 20,
-      "kids": "[49300478,49300499,49301204,49300691,49301065,49300504,49300744,49300228]",
-      "score": 68,
-      "time": 1786720077,
-      "title": "Introducing Toast 1",
-      "type": "story",
-      "url": "https://www.mixedbread.com/blog/toast-1",
-      "og_image": "https://www.mixedbread.com/images/blog/toast-1/intro-toast-1.jpg",
-      "groq_label": "Google's entrance in the LLM search space appears to be rough due to the complexity of answering moderately complex questions in a single search query.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Toast 1 project addresses specialized LLMs for search. Hacker News commenters generally appreciated its potential to improve search efficiency, particularly its comparison to existing search tools like Gemini. However, they also expressed concerns about the project's naming and branding scheme, as well as the need for further explanation of its approach, specifically \"Mixedbread Search.\" Overall, the discussion was cautiously optimistic.",
-      "groq_explain": null
-    },
-    {
-      "id": 49299675,
-      "author": "surprisetalk",
-      "descendants": 32,
-      "kids": "[49301391,49300544,49301337,49300862,49300277,49300406,49300254,49300293,49300625,49301042,49300453,49300287,49301024,49301080,49300426,49300432]",
-      "score": 90,
-      "time": 1786719806,
-      "title": "Seven books I keep close because I love them",
-      "type": "story",
-      "url": "https://blog.plover.com/2026/08/02/",
-      "og_image": "https://pic.blog.plover.com/book/elbow-shelf/elbow-shelf-th.jpg",
-      "groq_label": "The commentator with the delayed comment recently learned that Samson's last words have never been translated into English literally from ancient Greek.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article lists 7 books that the author loves. The Hacker News discussion was generally positive, with many commenters appreciating the author's unique writing style, witty humor, and erudite references. At the same time, several commenters raised concerns about the article's off-topic tangents and a sense that the titles were overly vague. Overall, the discussion suggests that the community enjoyed the author's writing but felt that it could have been more focused.",
       "groq_explain": null
     }
   ]
