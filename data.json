@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-15T16:55:24.514Z"
+    "lastUpdated": "2026-08-15T17:17:59.098Z"
   },
   "stories": [
+    {
+      "id": 49312008,
+      "author": "jeffreyrogers",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 18,
+      "time": 1786811914,
+      "title": "A controversial Alzheimer's surgery is said to reverse symptoms",
+      "type": "story",
+      "url": "https://www.nature.com/articles/d41586-026-02448-x",
+      "og_image": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02448-x/d41586-026-02448-x_53083048.jpg",
+      "groq_label": "A new type of brain surgery that involves drilling into the skull and removing a large portion of the brain's diseased tissue is yielding mixed results in the treatment of Alzheimer's patients.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49311651,
       "author": "randycupertino",
@@ -436,21 +451,6 @@
       "og_image": "images/49303405.png",
       "groq_label": "Most game developers actually use pre-existing game engines, with fewer than 13% rolling their own, opting instead for commercial or open-source options.",
       "groq_discussion": "Discussion type: – Basic\n\nThis article explores the benefits of building one's own game engine. Based on the Hacker News discussion, commenters generally viewed the article positively and highlighted strengths such as the unique insight into the challenges and benefits of game engine development. Many appreciated the author's experience sharing, noting that it provided valuable lessons for game developers, while others believed it could be particularly useful for indie game developers seeking to create unique experiences. However, the discussion also revealed several criticisms. Commenters expressed concerns about the complexity of creating a game engine from scratch and questioned the author's emphasis on DIY game engine building as a viable choice for most games. Others pointed out that the market is flooded with existing game engines, making it less necessary for developers to build their own. Overall, the Hacker News community considered the article informative and insightful, while also emphasizing the practical limitations of building a custom game engine.",
-      "groq_explain": null
-    },
-    {
-      "id": 49303350,
-      "author": "surprisetalk",
-      "descendants": 39,
-      "kids": "[49303933,49303789,49303912,49304142,49304124,49304201,49303986,49303906,49304083,49303895,49303743,49303746,49303721,49303700,49303755]",
-      "score": 34,
-      "time": 1786734951,
-      "title": "How Claude's text watermarking works",
-      "type": "story",
-      "url": "https://www.anthropic.com/news/claude-text-watermark",
-      "og_image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Quill&backgroundColor=heather",
-      "groq_label": "Claude's text watermarking achieves authorship identification by artificially inducing subtle writing patterns that are difficult for humans to notice but can be reliably detected.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Claude's text watermarking is generally positive. Commenters frequently praised the solution's approach to addressing EU mandates and the effectiveness of the watermark in detecting AI-generated content, particularly through token re-positioning. However, the discussion also included recurring concerns about the ease of defeating the watermark, with some commenters questioning its robustness. The overall consensus is that the idea is compelling, although its long-term success depends on the implementation of a robust and reliable watermark detection API and addressing concerns about its potential vulnerabilities.",
       "groq_explain": null
     }
   ]
