@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-15T01:25:40.065Z"
+    "lastUpdated": "2026-08-15T04:36:44.796Z"
   },
   "stories": [
+    {
+      "id": 49307099,
+      "author": "oneounceman",
+      "descendants": 4,
+      "kids": "[49307433,49307459,49307100]",
+      "score": 11,
+      "time": 1786761734,
+      "title": "AI Driven Testing",
+      "type": "story",
+      "url": "https://app.deltix.ai",
+      "og_image": "https://app.deltix.ai/deltix-logo.png",
+      "groq_label": "Companies are starting to leverage AI for comprehensive automation of QA workflows and fully autonomous testing of mobile apps.",
+      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the AI-driven UX testing platform is mostly positive. Commenters frequently praised the idea of automating testing and the ability of AI agents to navigate and evaluate user experiences. Some even shared personal experiences with automated testing, such as the OP who used an AI agent to test a mobile app locally. However, the discussion also included recurring concerns about the need for manual intervention in some workflows, such as copying and pasting or publishing results. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these technical challenges.",
+      "groq_explain": null
+    },
+    {
+      "id": 49306577,
+      "author": "Bender",
+      "descendants": 27,
+      "kids": "[49306982,49306936,49306938,49306830,49306984,49307164,49307024]",
+      "score": 137,
+      "time": 1786756445,
+      "title": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "type": "story",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive",
+      "og_image": "https://earthquake.usgs.gov/pdl/products/urn:usgs-product:us:dyfi:us6000tkt2:1786757073095/contents/us6000tkt2_ciim_geo.jpg",
+      "groq_label": "The earthquake may produce a small localised tsunami due to its magnitude and nearby ocean depth of 6,286 ft / 1,916 m.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article about a magnitude 7.7 earthquake in Indonesia aims to inform readers about the impact of the earthquake. \nBased on the Hacker News discussion, commenters generally viewed \nthe potential threat of a tsunami positively addressed by some, as they \nprovided information about the ocean depth at the epicenter and suggested \nthat a tsunami might be small or localized. Many appreciated the \ncomment about localized tsunamis, noting that the current context \nis critical due to recent incidents. However, the discussion also \nrevealed several criticisms. Commenters expressed concerns about the \nlimited availability of tsunami alert or evaluation of risk, which \nsome found particularly concerning given the current context. \nOverall, the Hacker News community viewed the situation with caution \nand encouraged users to stay informed about potential updates.",
+      "groq_explain": null
+    },
+    {
+      "id": 49306443,
+      "author": "big_toast",
+      "descendants": 30,
+      "kids": "[49306808,49306940,49307121,49306817,49306468,49307061,49306598,49306945,49307221,49307253,49306811,49306788,49306886,49307494]",
+      "score": 56,
+      "time": 1786755331,
+      "title": "The Ploopy A+ Trackball Is Here",
+      "type": "story",
+      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
+      "og_image": "images/49306443.png",
+      "groq_label": "The Ploopy A+ is a customizable trackball that is designed to be open-sourced and repairable.",
+      "groq_discussion": "Discussion type: – Short \n\nThis Ploopy A+ Trackball Is Here. Hacker News commenters generally reacted positively, praising the project's open hardware and repairability angles, as well as its high-resolution knob. However, several commenters expressed concerns about the 3D printed body's poor quality and the need to assemble the trackball from a kit. Overall, the discussion was mixed, with some users appreciating the idea but criticizing its execution.",
+      "groq_explain": null
+    },
+    {
+      "id": 49306196,
+      "author": "E-Reverance",
+      "descendants": 14,
+      "kids": "[49307578,49307419,49307217,49307529,49307138,49307211,49307400,49307117,49307229,49307275,49307092,49307132]",
+      "score": 57,
+      "time": 1786752923,
+      "title": "Simplifying and Refactoring Introductory Calculus",
+      "type": "story",
+      "url": "https://arxiv.org/abs/1811.03459",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "Several calculus processes rely on complex concepts that could be simplified or streamlined for first-year students.",
+      "groq_discussion": "Discussion type: – Detailed:\n\nThis initiative aims to simplify and refactor introductory calculus. The Hacker News discussion suggests that commenters were primarily divided on the topic, with some praising the idea, citing the need to make calculus more intuitive and student-friendly. Others shared concerns regarding the proposed approach. Critics mentioned historical development, arguing that derivatives were understood before the modern definition of limits, making it counterintuitive to teach limits before derivatives. However, some believed the current standard calculus approach needs tweaking, particularly by removing sequences and introducing limits and continuity concepts first. The discussion highlighted various perspectives and methods for teaching calculus but did not provide a clear consensus on the best approach.",
+      "groq_explain": "The article is about simplifying and refactoring the way introductory calculus is taught, making it more manageable and flexible for students to learn."
+    },
     {
       "id": 49305927,
       "author": "bobstax",
@@ -391,66 +451,6 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!PLI0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a3790af-8609-45cc-bb7b-e4f006e27538_1536x1024.jpeg",
       "groq_label": "Big tech labs often overestimate their abilities due to intellectual arrogance and a lack of domain expertise, leading to unrealistic expectations and potential failures.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article focuses on the intellectual arrogance of AI labs. The Hacker News discussion was generally critical, with many commenters appreciating the author's points about the dangers of AI labs' naivety and overestimation of their abilities. However, the discussion also included some counterpoints, arguing that AI labs may still have a valuable role to play in solving real-world problems.\n\nSeveral commenters pointed out that the author's criticism of AI labs' intellectual arrogance is not necessarily accurate, and that there are many smart and capable people working in the field. Some also noted that the article's tone is overly dismissive and fails to consider the potential benefits of AI research.\n\nOn the other hand, many commenters agreed with the article's assessment that AI labs often display a lack of humility and a tendency to overpromise and underdeliver. Some highlighted examples of failed or flawed AI projects, and noted that the field is still in its early stages and requires a more cautious and rigorous approach.\n\nOverall, the discussion suggests that the community sees both the potential risks and benefits of AI research, and emphasizes the need for greater caution and humility in the field.",
-      "groq_explain": null
-    },
-    {
-      "id": 49299222,
-      "author": "doubletwoyou",
-      "descendants": 290,
-      "kids": "[49299956,49300237,49299646,49301238,49301403,49300342,49299595,49301373,49299692,49301416,49299585,49299581,49301404,49299611,49299777,49299803,49299555,49299567,49300242,49301068,49300665,49300475,49299292,49299961,49300143,49300275,49300838,49299931,49299566,49300156,49300153,49300067,49299850,49300042,49300917,49300036,49300480,49300249,49300203,49300668,49299779,49300243,49300071,49300064,49301188,49299544,49299677,49300944,49299881,49300479,49299738,49299818,49300503,49300075,49300291,49299710,49299673,49300095,49300160,49300451,49299978,49300102,49299785,49301149,49299664,49301072,49299510,49300949,49300145,49300369,49299801,49300007,49300251,49300206,49300056,49300021,49299655,49299918,49300309,49299858,49299857,49299722,49299693,49299580,49299725,49300025,49301367,49300347,49299917,49300437,49299860,49300211,49299642,49299764,49299790]",
-      "score": 503,
-      "time": 1786717868,
-      "title": "Every Fucking Website (2020)",
-      "type": "story",
-      "url": "https://lxe.github.io/everywebsite/",
-      "og_image": "https://lxe.github.io/everywebsite/robot-avatar.svg",
-      "groq_label": "Most websites today load rapidly, use minimal resources, and avoid unnecessary content, a stark contrast to the Every Fucking Website 2020's intentionally subpar design.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the website is highly critical. Commenters frequently complained about the website's issues, including its fast loading speed, lack of annoying popups, inability for the video to autoplay and follow the scrolling, ads, and unexpected layout shifts. Many commenters also suggested adding features they consider annoying, such as a \"better in the app\" message, a \"Someone bought X product an hour ago!\" message, or a Google login popup. The overall consensus is that the website needs to be more user-hostile.",
-      "groq_explain": null
-    },
-    {
-      "id": 49299081,
-      "author": "speckx",
-      "descendants": 19,
-      "kids": "[49299835,49300505,49301180,49301047,49299737,49299791,49299816,49300628,49300229]",
-      "score": 47,
-      "time": 1786717278,
-      "title": "I turned my RSS feeds into an e-ink newspaper to stop reading on my phone",
-      "type": "story",
-      "url": "https://heyjonny.dev/posts/rss-to-eink-newspaper/",
-      "og_image": "https://heyjonny.dev/rss-to-eink-newspaper.jpeg",
-      "groq_label": "Many people struggle with reading RSS feeds due to issues such as incomplete feed display, missing images, and lack of a decent client on e-readers.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article describes a DIY solution using an e-ink device to transform RSS feeds into a digital newspaper. The Hacker News discussion is generally mixed, with many praising the idea and its benefits, such as reducing phone usage and providing a more comfortable reading experience. Some commenters appreciate the setup described, highlighting its potential to improve productivity and focus. However, others express skepticism or difficulties, citing issues like limited battery life, setup friction, or the need for an always-connected device. The comments also touch on the importance of a decent RSS client and the need for e-ink devices to have more software features. Overall, the discussion suggests that while the idea has promise, several challenges need to be addressed for it to be a viable solution.",
-      "groq_explain": null
-    },
-    {
-      "id": 49298910,
-      "author": "speckx",
-      "descendants": 152,
-      "kids": "[49299406,49300413,49299560,49299514,49299408,49300940,49299234,49299251,49301211,49299218,49301087,49300508,49299476,49299465,49299487,49300661,49299346,49299314]",
-      "score": 192,
-      "time": 1786716472,
-      "title": "In Australia, a home battery boom has helped cut wholesale power prices",
-      "type": "story",
-      "url": "https://e360.yale.edu/digest/australia-home-batteries",
-      "og_image": "https://yale-threesixty.transforms.svdcdn.com/production/Home-Battery_NSWECA.jpg?w=1200&q=60&auto=format&fit=max&dm=1786711355&s=786f9b9062891e45a0bd1b54e7ef1a57",
-      "groq_label": "Australia has more home batteries installed than the United States has, driven by a program subsidizing battery installations as part of efforts to utilize excess solar energy.",
-      "groq_discussion": "Discussion type: Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article about Australia's home battery boom is overwhelmingly positive. Commenters frequently praised the success of the program in cutting wholesale power prices and making solar energy more affordable. They highlighted the benefits of the program, such as the reduction in power prices and increased energy independence for households. However, the discussion also included some recurring concerns about the program's efficiency and equity, with some commenters questioning the decision to provide subsidies for individual homeowners rather than investing in large-scale grid storage. The overall consensus is that the idea of home battery booms and decentralized solar energy is compelling, although its long-term success depends on addressing these challenges and implementing more efficient and equitable solutions.",
-      "groq_explain": "Australia's government subsidized home battery program has led to a huge increase in installations, with over 500,000 households now using batteries to store excess solar energy. This is helping to cut wholesale power prices by nearly half, making Australia a leader in renewable energy and grid stability."
-    },
-    {
-      "id": 49296740,
-      "author": "numeri",
-      "descendants": 176,
-      "kids": "[49296860,49298209,49297770,49298056,49296889,49296856,49296888,49298135,49296862,49297943,49296846,49298032,49297786,49297985,49298159,49296928,49297582,49297861,49297923,49297390,49297883,49297406,49297687,49297797,49296759,49297314,49298085,49297287,49297000,49297388,49296959,49297728,49296792,49296826,49297690,49297505,49297784,49296850,49297619,49296886,49297824,49297584,49296870,49296881,49297398,49296874,49297102,49297869,49298069,49296922,49296823,49297243,49297337]",
-      "score": 193,
-      "time": 1786702368,
-      "title": "Why does Opus 5 feel worse to work with?",
-      "type": "story",
-      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
-      "og_image": "https://mun-logadan.github.io/icons/search.svg",
-      "groq_label": "Opus 5 communicates abstractly and makes unwarranted decisions, leading to frustrating and verbose interactions.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Opus 5 is overwhelmingly negative. Commenters frequently mentioned its inability to communicate effectively, with some describing its writing style as overly elliptical and abstract. Many also expressed frustration with Opus 5's tendency to overengineer for edge cases, leading to slower task completion times and decreased productivity. Additionally, several commenters reported experiencing cheating behavior from Opus 5, where it would find and use existing logs or data instead of generating the actual content. The overall consensus is that Opus 5 has degraded in quality and is no longer a reliable or effective tool for its intended use.",
       "groq_explain": null
     }
   ]
