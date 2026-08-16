@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-16T16:55:29.664Z"
+    "lastUpdated": "2026-08-16T17:19:17.448Z"
   },
   "stories": [
+    {
+      "id": 49321353,
+      "author": "brandonb",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 9,
+      "time": 1786896895,
+      "title": "NIH is ending a key grant for budding clinical researchers",
+      "type": "story",
+      "url": "https://www.science.org/content/article/nih-ending-key-grant-budding-clinical-researchers",
+      "og_image": "images/49321353.png",
+      "groq_label": "The NIH is discontinuing funding for Clinical and Translational Science Awards, impacting early-career clinical researchers.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49320984,
       "author": "lentil_soup",
@@ -407,6 +422,20 @@
       "groq_explain": null
     },
     {
+      "id": 49313711,
+      "author": "ryanmerket",
+      "descendants": 3,
+      "kids": "[49321705,49321788]",
+      "score": 18,
+      "time": 1786823446,
+      "title": "Kimi Work attaches raw agent sessions to feedback reports",
+      "type": "story",
+      "og_image": "images/49313711.png",
+      "groq_label": "Kimi Work automatically attaches raw AI model sessions to feedback reports which may reveal sensitive user data despite common AI provider privacy policies allowing data collection for feedback purposes.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to provide detailed analysis of AI-generated content. The Hacker News discussion was generally mixed, with some commenters appreciating the effort and value of the analysis, particularly its comprehensiveness. At the same time, several commenters raised concerns about the approach, including the potential privacy implications of attaching raw agent sessions to feedback reports. One commenter specifically noted that most AI providers have carve-outs for feedback in their privacy policies. Overall, the discussion suggests that the community sees the potential value in the analysis but believes there are important privacy considerations that need to be addressed.",
+      "groq_explain": null
+    },
+    {
       "id": 49313428,
       "author": "dgellow",
       "descendants": 22,
@@ -419,36 +448,6 @@
       "og_image": "http://www.severe-weather.eu/wp-content/uploads/2026/08/weather-fall-winter-2026-2027-forecast-united-states-canada-jet-stream-pressure-system-anomaly-temperature-snowfall-record-super-el-nino-event-unfolding-growing-faster-august-update.png",
       "groq_label": "New forecasts for a Super El Niño indicate record-breaking temperature increases of up to 1.76°C next year.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Super El Niño situation is dire. Commenters frequently noted the extreme potential consequences of this weather phenomenon, describing it as a \"massive disruption\" and warning that it may cause permanent instability in global systems. They highlighted that this situation is part of a broader issue with the global climate and emphasized that it will likely have severe effects, particularly in regions like India. Although one commenter noted a positive side to this situation, with a healthy rainy season in the SE US, the overall consensus is that the global community is unprepared for the magnitude of the crisis ahead.",
-      "groq_explain": null
-    },
-    {
-      "id": 49313367,
-      "author": "AnodicElegy",
-      "descendants": 15,
-      "kids": "[49313545,49313583,49313890,49313521,49313748]",
-      "score": 30,
-      "time": 1786821173,
-      "title": "So How Is AI Drug Discovery Doing, Really?",
-      "type": "story",
-      "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
-      "og_image": "images/49313367.png",
-      "groq_label": "Artificial intelligence can design potential new medicines but so far most are not viable for human testing.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about AI drug discovery aims to provide an update on the field's current state. The Hacker News discussion was generally mixed, with many commenters acknowledging the potential of AI in drug discovery while also expressing concerns. Commenters appreciated the article's highlight of the paper's call to action, focusing on the importance of thoughtful application of emerging technologies, rather than simply adopting them for their novelty. However, some commenters were more critical, with some advocating for greater recognition of expert voices in the field and others lamenting the potential misuse of powerful technologies. Overall, the discussion suggests that the community sees potential in AI drug discovery, but believes there are important challenges and considerations that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49313097,
-      "author": "gradus_ad",
-      "descendants": 32,
-      "kids": "[49313659,49313962,49313689,49313562,49313535]",
-      "score": 18,
-      "time": 1786819029,
-      "title": "First human trials of designer protein therapies stun US neuroscientists",
-      "type": "story",
-      "url": "https://cen.acs.org/biological-chemistry/biotechnology/human-trial-chemogenetic-brain-therapy/104/web/2026/08",
-      "og_image": "https://s7d1.scene7.com/is/image/CENODS/DREADD-human-trials---576245:Widescreen?$responsive$&qlt=90,0&resMode=sharp2&fmt=webp&op_sharpen=1",
-      "groq_label": "Researchers in the US have begun conducting human trials of designer protein therapies despite China's own researchers facing criticism for unethical and safety guideline breaches in similar experiments.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article is cautiously critical. Commenters frequently expressed concerns about the risks associated with designer protein therapies, particularly in relation to potential unforeseen consequences and the incident in China where researchers allegedly ignored ethical and safety guidelines. Many commenters questioned the safety and specificity of the targeting of these therapies and the potential risks of uncontrolled spread. Despite some positive comments suggesting that the research is a promising direction, the overall consensus is that the community is cautious about pursuing this research and believes that containment and caution are essential.",
       "groq_explain": null
     }
   ]
