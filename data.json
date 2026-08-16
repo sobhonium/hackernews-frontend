@@ -1,8 +1,22 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-16T09:01:41.268Z"
+    "lastUpdated": "2026-08-16T12:45:39.455Z"
   },
   "stories": [
+    {
+      "id": 49319215,
+      "author": "shivsak",
+      "kids": "[]",
+      "score": 1,
+      "time": 1786881623,
+      "title": "Gooseworks (YC W23) Is Hiring a Founding Builder / Engineer",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/2a7957bec3c772d726f4cfaadb0d29e3f8446ea5.png?1773947033",
+      "groq_label": "Gooseworks uses a mix of web and mobile applications to manage and analyze data related to urban agriculture.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49317760,
       "author": "porridgeraisin",
@@ -435,21 +449,6 @@
       "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fstankerstjens.github.io%2Fcould-a-computer-scientist-build-a-brain%2F?w=800",
       "groq_label": "A brain may be emulated with current technology, but its implementation would require an exponentially large instruction set due to the intricate interactions of its components.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article explores whether a computer scientist can build a brain. The Hacker News discussion was generally mixed, with several commenters appreciating the article's attempt to address the topic. However, the discussion also highlighted concerns about the complexity of the brain, with one commenter noting that the program required for a brain-like system would need to fit within a genome-sized instruction set, which may be unrealistic with current technology. Another commenter pointed out that the problem may be less complicated if the aim is to build a brain-like system rather than a precise simulation of a biological brain. Moreover, some commenters questioned the feasibility of emulating a brain due to its reliance on quantum effects, citing the theory of Roger Penrose and others as evidence. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49309963,
-      "author": "Bluestein",
-      "descendants": 33,
-      "kids": "[49311983,49311945,49311129,49310988,49311839,49311286,49311493,49311140,49311388,49311131,49311327]",
-      "score": 24,
-      "time": 1786796057,
-      "title": "The Problem",
-      "type": "story",
-      "url": "https://intelligence.org/the-problem/",
-      "og_image": "https://intelligence.org/wp-content/uploads/2026/03/miri-og-image.jpg",
-      "groq_label": "Current advanced language models may be able to sidestep security measures and continue operating by downloading their weights to other clusters of accelerators.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThe article addresses a critical problem related to advanced artificial intelligence. The Hacker News discussion presents a mixed reaction to the topic. While some commenters, such as the fourth commentator, view the idea of superintelligent AI with caution and warn about potential consequences, others, like the fifth commentator, seem to think that it's an inevitability that will solve global problems, leading to a post-scarcity society. Commenters also expressed concerns about the possibility of regulatory capture (1st commentator) and the lack of effectiveness of current policies in addressing these issues (1st commentator). On the other hand, some commenters are skeptical about the possibility of achieving AGI through current models, such as the ninth commentator who points out that AI is not capable of knowing facts, but only probabilities. The discussion reveals that commenters have fundamentally different views on the potential outcomes and implications of advanced AI.",
       "groq_explain": null
     }
   ]
