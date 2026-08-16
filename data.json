@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-16T12:45:39.455Z"
+    "lastUpdated": "2026-08-16T13:23:03.599Z"
   },
   "stories": [
+    {
+      "id": 49319389,
+      "author": "Alifatisk",
+      "descendants": 14,
+      "kids": "[49319780,49319801,49319730,49319641,49319783,49319628]",
+      "score": 24,
+      "time": 1786882940,
+      "title": "Research papers using \"kidney disappointment\" instead of \"kidney failure\"",
+      "type": "story",
+      "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
+      "og_image": "images/49319389.png",
+      "groq_label": "Some medical research papers use the unusual term \"kidney disappointment\" instead of the more common \"kidney failure\" likely due to language translation issues.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research paper discusses the phenomenon of \"kidney disappointment\" instead of the more commonly used term \"kidney failure.\" The Hacker News discussion was generally skeptical, with many commenters appreciating the historical research that showed the term \"kidney disappointment\" was first introduced in 2021, but raising questions about the validity of using such a term in a formal medical research context. At the same time, several commenters pointed out the likelihood of this being a translation issue or a case of AI-generated content. Overall, the discussion suggests that the community sees the term as potentially problematic and is questioning its legitimacy in academic research.",
+      "groq_explain": null
+    },
     {
       "id": 49319215,
       "author": "shivsak",
@@ -16,6 +31,36 @@
       "groq_label": "Gooseworks uses a mix of web and mobile applications to manage and analyze data related to urban agriculture.",
       "groq_discussion": "No comments.",
       "groq_explain": null
+    },
+    {
+      "id": 49319061,
+      "author": "ksec",
+      "descendants": 3,
+      "kids": "[49319127]",
+      "score": 7,
+      "time": 1786880052,
+      "title": "Stripe 2.9% vs. Adyen 0.6% vs. Braintree 2.59%: 2026 Fees",
+      "type": "story",
+      "url": "https://valueaddvc.com/blog/stripe-vs-adyen-vs-braintree-enterprise-payment-processing-compared-in-2026",
+      "og_image": "https://valueaddvc.com/og/stripe-vs-adyen-vs-braintree-enterprise-payment-processing-compared-in-2026.png",
+      "groq_label": "Stripe charges 2.9% + 30¢, Adyen charges 0.6% with an overall payment volume rate that may be around 1.1% when other fees and deductions considered at scale.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article comparing Stripe, Adyen, and Braintree fees is generally positive. Commenters frequently praised Stripe's integrated solution, convenience, and simplicity, acknowledging that these factors outweigh the cost of higher fees. Many also appreciated the article's nuanced perspective, considering that cost is not the only factor when choosing a payment provider. The overall consensus is that this perspective is compelling and sheds an important light on the payment industry.",
+      "groq_explain": null
+    },
+    {
+      "id": 49319026,
+      "author": "not_wowinter14",
+      "descendants": 3,
+      "kids": "[49319816,49319600]",
+      "score": 6,
+      "time": 1786879730,
+      "title": "Show HN: Remove AI voice from AI writings",
+      "type": "story",
+      "url": "https://unslopai.com",
+      "og_image": "https://unslopai.com/og",
+      "groq_label": "Unslop's algorithm reuses phrases like \"leverage\" and \"delve\" to make AI-generated writing sound more like it was written by a human.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is negative. Commenters frequently criticized the approach of using AI writing to remove AI voice, describing it as \"fighting slop with slop\". The discussion suggests that many users view this as an oxymoronic concept, which likely led to the humorous comments.",
+      "groq_explain": "This is about a tool called Unslop that removes the distinctive sound of AI-generated writing, making it sound more like it was written by a person, while still maintaining the original meaning."
     },
     {
       "id": 49317760,
@@ -404,51 +449,6 @@
       "og_image": "https://th-thumbnailer.cdn-si-edu.com/zHvX_MeCmgyz7Mfc3JnZBzfRUgU=/fit-in/1600x0/filters:focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/44/ad/44ad8f8b-e8c6-4c3b-9d22-10eececf06c3/gettyimages-1602304607.jpg",
       "groq_label": "A home tick test may improve Lyme disease diagnosis by providing faster and more accurate results, potentially enabling earlier treatment.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis [diagnostic test for infected ticks] aims to solve the problem of accurate Lyme disease diagnosis. The Hacker News discussion was generally positive, with many commenters appreciating the potential for earlier diagnosis and improved treatment outcomes. At the same time, several commenters raised concerns about the availability and accessibility of tick-borne disease prevention, noting that a cure or vaccine would be more effective in the long run. The discussion also highlighted existing knowledge about tick-borne diseases, with some commenters pointing out that education is a key factor in preventing the spread of Lyme disease. Overall, the discussion suggests that the community recognizes the importance of improving Lyme disease diagnosis, while also emphasizing the need for broader approaches to addressing the problem.",
-      "groq_explain": null
-    },
-    {
-      "id": 49310533,
-      "author": "r34",
-      "descendants": 5,
-      "kids": "[49310991,49311125,49311063,49310974]",
-      "score": 21,
-      "time": 1786801723,
-      "title": "Show HN: Quasicrystals Animation Playground with WebXR",
-      "type": "story",
-      "url": "https://hypnagogic-quasicrystals.github.io/",
-      "og_image": "images/49310533.png",
-      "groq_label": "Photosensitive content triggers a specific medical condition.",
-      "groq_discussion": "Discussion type: – Short\n\nThis Quasicrystals Animation Playground with WebXR addresses the problem of exploring complex scientific concepts through immersive and interactive experiences. Hacker News commenters generally appreciated the project's coolness and neatness, with one commenter even suggesting it could be enhanced with a psychedelic experience like LSD. However, one concern was raised about photosensitive people and the potential risk of triggering seizures. Overall, the discussion was positive, with commenters recognizing the project's potential as an engaging tool for exploring complex ideas.",
-      "groq_explain": "This is about a website that lets users play with an animation of quasicrystals using web-based virtual reality technology. It includes a warning because the animations could potentially cause seizures or discomfort for people with certain visual sensitivities."
-    },
-    {
-      "id": 49310495,
-      "author": "scresswell",
-      "descendants": 11,
-      "kids": "[49311786,49310496,49310856,49311647]",
-      "score": 29,
-      "time": 1786801426,
-      "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
-      "type": "story",
-      "url": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-      "og_image": "http://www.stephen-cresswell.com/images/dormammu.png",
-      "groq_label": "Yadda 3.0.0 was written largely by Claude Code, an AI agent, suggesting executable specifications may gain more value in agent-driven development.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Yadda 3.0.0 aims to modernize JavaScript BDD in an age of AI agents. The Hacker News discussion was generally mixed, with many commenters appreciating the new direction the project has taken and its potential to guide AI development. However, several commenters raised concerns about the example used, considering it either brilliant or a self-referential paradox and questioning its value. Despite these limitations, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49310362,
-      "author": "ogundipeore",
-      "descendants": 7,
-      "kids": "[49311650,49311390,49311287]",
-      "score": 15,
-      "time": 1786800388,
-      "title": "Could a computer scientist build a brain?",
-      "type": "story",
-      "url": "https://stankerstjens.github.io/could-a-computer-scientist-build-a-brain/",
-      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fstankerstjens.github.io%2Fcould-a-computer-scientist-build-a-brain%2F?w=800",
-      "groq_label": "A brain may be emulated with current technology, but its implementation would require an exponentially large instruction set due to the intricate interactions of its components.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article explores whether a computer scientist can build a brain. The Hacker News discussion was generally mixed, with several commenters appreciating the article's attempt to address the topic. However, the discussion also highlighted concerns about the complexity of the brain, with one commenter noting that the program required for a brain-like system would need to fit within a genome-sized instruction set, which may be unrealistic with current technology. Another commenter pointed out that the problem may be less complicated if the aim is to build a brain-like system rather than a precise simulation of a biological brain. Moreover, some commenters questioned the feasibility of emulating a brain due to its reliance on quantum effects, citing the theory of Roger Penrose and others as evidence. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
