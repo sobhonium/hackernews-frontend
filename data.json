@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-15T21:09:20.684Z"
+    "lastUpdated": "2026-08-16T01:29:51.565Z"
   },
   "stories": [
+    {
+      "id": 49315456,
+      "author": "turtushig22",
+      "descendants": 0,
+      "kids": "[49315457]",
+      "score": 7,
+      "time": 1786838075,
+      "title": "Tea5767-Radio-Tuner",
+      "type": "story",
+      "url": "https://github.com/turtushig22-blip/tea5767-radio-tuner",
+      "og_image": "https://opengraph.githubassets.com/539ef69bc378cc8036862a125fb5ee49ed6f1483619a345f9f1e29f2338e4f82/turtushig22-blip/tea5767-radio-tuner",
+      "groq_label": "Tea5767-Radio-Tuner, a software that allows access to radio stations by emulating a conventional DVB-T/DAB receiver using the USB chip Tea5767.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49314884,
+      "author": "hunzaboy",
+      "descendants": 4,
+      "kids": "[49314994,49315596,49314885]",
+      "score": 17,
+      "time": 1786832894,
+      "title": "SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)",
+      "type": "story",
+      "url": "https://sugartrack-beta.vercel.app/",
+      "og_image": "https://sugartrack-beta.vercel.app/icon.png",
+      "groq_label": "Some blood sugar logbook apps require users to share their data with the cloud.",
+      "groq_discussion": "Discussion type:  – Balanced:\n\nThis mobile app, SugarTrack, aims to provide an offline Android logbook for blood sugar levels without requiring an account or cloud storage. The Hacker News discussion was generally mixed. Some commenters appreciated the app's simplicity and the lack of account or cloud requirements, arguing that more apps should adopt this approach. At the same time, others questioned the need for the app when it's possible to download and store data directly from a blood sugar meter on the device, effectively eliminating the need for an additional app. The discussion suggests that the community sees value in simple, low-tech solutions like SugarTrack but also acknowledges the convenience of existing methods for tracking blood sugar levels.",
+      "groq_explain": null
+    },
+    {
+      "id": 49314579,
+      "author": "ingve",
+      "descendants": 4,
+      "kids": "[49315260,49315887,49315198,49315476,49315281]",
+      "score": 31,
+      "time": 1786829949,
+      "title": "Tracking down a Zsh history data loss bug",
+      "type": "story",
+      "url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug/",
+      "og_image": "https://michael.stapelberg.ch/logo1x.jpg",
+      "groq_label": "Zsh has a default 2000 command history limit.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article about tracking down a Zsh history data loss bug prompted a largely positive response from the Hacker News community. Commenters appreciated the investigation and the potential solution to the problem, with one user expressing gratitude for being made aware of a mistake they may have been making in the past. Additionally, someone suggested an alternative solution with the atuin shell history tool. However, the discussion also included a critical view of Zsh's history limit defaults and a suggestion to use a more robust solution for forensic-grade command tracking. Overall, the discussion was mixed, with both praise for the article and criticism of Zsh's default settings.",
+      "groq_explain": null
+    },
+    {
+      "id": 49314403,
+      "author": "theanonymousone",
+      "descendants": 106,
+      "kids": "[49315522,49315023,49314792,49315399,49315383,49315816,49314755,49315271,49314794,49315152,49315708,49315477,49314851,49314847,49315034,49315579,49315141,49314797]",
+      "score": 143,
+      "time": 1786828474,
+      "title": "Abdominal fat predicts heart disease risk better than BMI",
+      "type": "story",
+      "url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+      "og_image": "http://www.acc.org/-/media/9E7FA8BE7B44449AB9993CC9237EF455.png",
+      "groq_label": "Visceral abdominal fat, rather than body mass index, is a stronger predictor of heart disease risk.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis study suggests that abdominal fat, specifically visceral fat, is a stronger predictor of heart disease risk than BMI. The Hacker News discussion was generally interested and appreciative of this finding, with many commenters noting the importance of visceral fat as a risk factor. At the same time, several commenters highlighted concerns about the practical limitations of measuring abdominal fat, and others emphasized the continued usefulness of BMI as a metric, at least in association with all-cause mortality.",
+      "groq_explain": null
+    },
     {
       "id": 49314235,
       "author": "felixbraun",
@@ -16,6 +76,21 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!9VgW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4697c31d-2502-48d2-b6c1-11e5ea97536f_2560x2174.jpeg",
       "groq_label": "The human brain's ability to make novel connections between seemingly unrelated concepts is enhanced when in a state of relaxed focus with minimal cognitive interference.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49313428,
+      "author": "dgellow",
+      "descendants": 22,
+      "kids": "[49315876,49315584,49315697,49315565,49315773,49314029,49315601,49315881]",
+      "score": 62,
+      "time": 1786821651,
+      "title": "Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+      "type": "story",
+      "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
+      "og_image": "http://www.severe-weather.eu/wp-content/uploads/2026/08/weather-fall-winter-2026-2027-forecast-united-states-canada-jet-stream-pressure-system-anomaly-temperature-snowfall-record-super-el-nino-event-unfolding-growing-faster-august-update.png",
+      "groq_label": "New forecasts for a Super El Niño indicate record-breaking temperature increases of up to 1.76°C next year.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the Super El Niño situation is dire. Commenters frequently noted the extreme potential consequences of this weather phenomenon, describing it as a \"massive disruption\" and warning that it may cause permanent instability in global systems. They highlighted that this situation is part of a broader issue with the global climate and emphasized that it will likely have severe effects, particularly in regions like India. Although one commenter noted a positive side to this situation, with a healthy rainy season in the SE US, the overall consensus is that the global community is unprepared for the magnitude of the crisis ahead.",
       "groq_explain": null
     },
     {
@@ -376,81 +451,6 @@
       "groq_label": "Researchers combine 2D Gaussian Splatting with Bézier spline line art vectorization to achieve state-of-the-art results.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis 2D Gaussian Splatting for Bézier Spline Line Art Vectorization research aims to solve the problem of vectorizing line art and sketches in computer graphics. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as leveraging recent advances in the field. Many appreciated the approach to extracting a meaningful set of strokes from a raster, noting that it's a step beyond relying on heuristics. Others believed it could be particularly useful for improving the field of computer graphics. However, the discussion also revealed several criticisms. Commenters expressed concerns about the current state of the project (server down, no access to the full paper) and the potential limitations of this approach. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.\n\nor  Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this 2D Gaussian Splatting for Bézier Spline Line Art Vectorization research is positive. Commenters frequently praised the approach's reliance on recent advances in the field and the extraction of meaningful strokes from a raster, describing the project as a promising solution. However, the discussion also included recurring concerns about the server being down, the need for further refinement, and the potential limitations of this approach. The overall consensus is that the idea is compelling, although its long-term success depends on addressing these challenges.",
       "groq_explain": null
-    },
-    {
-      "id": 49306196,
-      "author": "E-Reverance",
-      "descendants": 14,
-      "kids": "[49307578,49307419,49307217,49307529,49307138,49307211,49307400,49307117,49307229,49307275,49307092,49307132]",
-      "score": 57,
-      "time": 1786752923,
-      "title": "Simplifying and Refactoring Introductory Calculus",
-      "type": "story",
-      "url": "https://arxiv.org/abs/1811.03459",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "Several calculus processes rely on complex concepts that could be simplified or streamlined for first-year students.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis initiative aims to simplify and refactor introductory calculus. The Hacker News discussion suggests that commenters were primarily divided on the topic, with some praising the idea, citing the need to make calculus more intuitive and student-friendly. Others shared concerns regarding the proposed approach. Critics mentioned historical development, arguing that derivatives were understood before the modern definition of limits, making it counterintuitive to teach limits before derivatives. However, some believed the current standard calculus approach needs tweaking, particularly by removing sequences and introducing limits and continuity concepts first. The discussion highlighted various perspectives and methods for teaching calculus but did not provide a clear consensus on the best approach.",
-      "groq_explain": "The article is about simplifying and refactoring the way introductory calculus is taught, making it more manageable and flexible for students to learn."
-    },
-    {
-      "id": 49305927,
-      "author": "bobstax",
-      "descendants": 29,
-      "kids": "[49306610,49306150,49306216,49306516,49306585,49306352,49306354,49306149,49306397,49306580,49306114,49306146,49306460,49306386]",
-      "score": 78,
-      "time": 1786750837,
-      "title": "Jane Street suffers $15B hit after meltdown at Situational Awareness",
-      "type": "story",
-      "url": "https://www.ft.com/content/47dd5308-dd17-404a-a615-61046defd697",
-      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fcd391508-bc64-401e-aae1-ffd08fc4c6ad.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
-      "groq_label": "Jane Street's $15 billion loss was partially due to their investments in Situational Awareness, which collapsed in market ructions.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Jane Street's situation is mostly critical. Commenters frequently criticized the company for their involvement in Situational Awareness and its subsequent meltdown, suggesting that they may have been more interested in profiting from the situation than genuinely supporting the company. However, the discussion also highlights Jane Street's overall success, with some commenters noting that they are still up $25B for the year. The overall consensus is that Jane Street's effective altruistic efforts may be motivated by self-interest rather than genuine philanthropy, and that their losses are likely a minor setback for the company.",
-      "groq_explain": null
-    },
-    {
-      "id": 49305708,
-      "author": "andsoitis",
-      "descendants": 13,
-      "kids": "[49306266,49306113,49306086,49306239,49306449,49306163,49306384,49306326,49306218]",
-      "score": 32,
-      "time": 1786749094,
-      "title": "The case for overhauling American science",
-      "type": "story",
-      "url": "https://www.economist.com/by-invitation/2026/08/13/the-case-for-overhauling-american-science",
-      "og_image": "images/49305708.png",
-      "groq_label": "Investments have surged while results have diminished due to inefficient allocation of funds and entrenched interests perpetuating the status quo in the US research system.",
-      "groq_discussion": "Discussion type: – Detailed:\n\nThis article proposes overhauling the American science system. The Hacker News discussion suggests that commenters were primarily skeptical about the solutions proposed, with some questioning the effectiveness of changing the current system. Many noted that disbursing money to researchers directly or via industry is still subject to the same incentives as the current system. Commenters also expressed concerns about the article's focus on harnessing AI and out-competing China, with some viewing this as a simplistic or even misguided approach. Additionally, the discussion repeatedly highlighted criticisms of the current NSF, with some arguing that overhauling it would be a more productive and effective move. The overall impression is that the project introduces an interesting idea, but its long-term success depends on addressing these criticisms and concerns.",
-      "groq_explain": null
-    },
-    {
-      "id": 49305558,
-      "author": "trezm",
-      "descendants": 36,
-      "kids": "[49306219,49306211,49306237,49306548,49306303,49305666,49306477,49306199,49306457,49306485,49306479,49306107]",
-      "score": 55,
-      "time": 1786747695,
-      "title": "Stop sending me huge PRs; a rant",
-      "type": "story",
-      "url": "https://getsmall.xyz/post/cmstjfl9l000if70ljmpzr4va",
-      "og_image": "images/49305558.png",
-      "groq_label": "Human maintainers are often forced to review extremely large PRs submitted by AI agents because the agents lack the ability to sequence work and understand dependencies.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article, a rant on huge PRs, aims to solve the problem of overly large pull requests in code reviews. The Hacker News discussion was generally critical, with many commenters appreciating the sentiment of the rant but arguing that large PRs are often necessary for complex tasks. At the same time, several commenters raised concerns about the current state of AI-powered code reviews and suggested that this might be a more effective solution to the problem of large PRs. Overall, the discussion suggests that the community recognizes the issue, but has mixed opinions on how to address it.",
-      "groq_explain": null
-    },
-    {
-      "id": 49305492,
-      "author": "kaycebasques",
-      "descendants": 65,
-      "kids": "[49306153,49306249,49305695,49306187,49306043,49306515,49306197,49305897,49305830,49305823,49305779,49305832,49305962,49305909,49305755,49305863]",
-      "score": 113,
-      "time": 1786747114,
-      "title": "RISC-V: They should have known better",
-      "type": "story",
-      "url": "https://dmitry.gr/?r=06.%20Thoughts&proj=12.%20RV",
-      "og_image": "https://dmitry.gr/images/icons/RV.png",
-      "groq_label": "RISC-V prioritizes optional features over necessary ones, resulting in a design that doesn't effectively address the needs of high-end CPUs or low-end microcontrollers.",
-      "groq_discussion": "Discussion type: Basic:\n\nThis RISC-V project aims to solve the problem of creating an open and competitive ISA for computing devices. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as being open and royalty-free, which has attracted significant investment from China. Many appreciated the flexibility of the ISA, noting that it can be extended and modified to suit specific needs. Others believed it could be particularly useful for hobby CPU designers and embedded systems. However, the discussion also revealed several criticisms. Commenters expressed concerns about the technical limitations of RISC-V, including its performance and efficiency compared to other architectures. Others questioned the potential for fragmentation and the need for additional extensions. Overall, the Hacker News community considered the project promising but emphasized that it still has room for improvement.",
-      "groq_explain": "This article criticizes RISC-V, an open-source computer architecture, for not being well-suited for its intended purpose of being a flexible and efficient solution for various computing needs. The author argues that RISC-V will ultimately excel in low-cost, single-use microcontroller applications, not due to its design, but rather because it's an improvement over existing technology. They point out that RISC-V's design choices prioritize flexibility and complexity, which isn't ideal for simple, cost-constrained applications like microcontrollers."
     }
   ]
 }
