@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-16T20:28:43.141Z"
+    "lastUpdated": "2026-08-16T20:50:12.272Z"
   },
   "stories": [
+    {
+      "id": 49323459,
+      "author": "ghuntley",
+      "descendants": 1,
+      "kids": "[49323522]",
+      "score": 5,
+      "time": 1786912738,
+      "title": "The Case Against Formal Verification, 50 Years Later",
+      "type": "story",
+      "url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "og_image": "https://ivan-gavran.github.io/assets/images/forall.png",
+      "groq_label": "The critique of formal verification from a 1979 paper still partly holds today despite some of its criticisms appearing outdated upon further examination.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis article, \"The Case Against Formal Verification, 50 Years Later,\" re-examines a 1979 paper critiquing formal verification. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its insightful re-evaluation of a decades-old criticism. Many appreciated the article's nuanced approach and thorough consideration of both the original paper's claims and the advancements made since then. Others believed it could be particularly useful for understanding the history and context surrounding formal verification. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about potential biases or overreliance on outdated information, with some questioning the article's framing of the original paper's critique. Overall, the Hacker News community considered the article thought-provoking and informative, recognizing its potential to provide context and insights about formal verification while emphasizing that the original paper's claims may not be as universally applicable as initially thought.",
+      "groq_explain": null
+    },
     {
       "id": 49322695,
       "author": "hruvhwe",
@@ -433,21 +448,6 @@
       "og_image": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
       "groq_label": "It's possible you're prioritizing features over foundational software engineering principles, leading to short-term success but long-term technical debt and maintenance issues.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to highlight the importance of software engineering fundamentals. \nBased on the Hacker News discussion, commenters generally agreed and highlighted the strengths of emphasizing fundamentals, such as the ability to ensure quality and correctness in projects. Many appreciated the need for caution and careful consideration in software development, noting that it leads to more robust and reliable systems. Others believed that this focus would be particularly useful for junior engineers and in situations where complexity is high. However, the discussion also revealed several criticisms. Commenters expressed concerns about the potential for overemphasis on details, with some questioning the need for such caution in certain contexts, and others pointing out that excessive focus on fundamentals might hinder innovation and speed. Overall, the Hacker News community considered the importance of software engineering fundamentals  valuable, recognizing the benefits of careful consideration while emphasizing that there needs to be a balance between quality and development speed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49314884,
-      "author": "hunzaboy",
-      "descendants": 4,
-      "kids": "[49314994,49315596,49314885]",
-      "score": 17,
-      "time": 1786832894,
-      "title": "SugarTrack – an offline Android logbook for blood sugar (no account, no cloud)",
-      "type": "story",
-      "url": "https://sugartrack-beta.vercel.app/",
-      "og_image": "https://sugartrack-beta.vercel.app/icon.png",
-      "groq_label": "Some blood sugar logbook apps require users to share their data with the cloud.",
-      "groq_discussion": "Discussion type:  – Balanced:\n\nThis mobile app, SugarTrack, aims to provide an offline Android logbook for blood sugar levels without requiring an account or cloud storage. The Hacker News discussion was generally mixed. Some commenters appreciated the app's simplicity and the lack of account or cloud requirements, arguing that more apps should adopt this approach. At the same time, others questioned the need for the app when it's possible to download and store data directly from a blood sugar meter on the device, effectively eliminating the need for an additional app. The discussion suggests that the community sees value in simple, low-tech solutions like SugarTrack but also acknowledges the convenience of existing methods for tracking blood sugar levels.",
       "groq_explain": null
     }
   ]
