@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T20:58:15.196Z"
+    "lastUpdated": "2026-08-17T21:33:33.879Z"
   },
   "stories": [
+    {
+      "id": 49336909,
+      "author": "skm",
+      "descendants": 4,
+      "kids": "[49337472,49337720,49337552]",
+      "score": 17,
+      "time": 1786997578,
+      "title": "The Origin of Consciousness (2008)",
+      "type": "story",
+      "url": "https://blog.plover.com/brain/Jaynes.html",
+      "og_image": "https://pic.blog.plover.com/FIRST_IMAGE_DEFAULT.jpg",
+      "groq_label": "Jaynes proposed that human consciousness emerged only around 3,000 years ago, requiring language and metaphor, and that preconscious humans heard hallucinated god-voices from their right brain to guide decisions.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article explores the origin of consciousness, particularly focusing on the idea that consciousness arises post-language. The Hacker News discussion was mixed, with some commenters appreciating the article's approach to understanding consciousness through language and its connection to broader themes like religion. At the same time, several commenters raised concerns about the narrow framing of consciousness, arguing that it excludes other forms of consciousness that do not rely on language, such as anendophasia or post-DMT states. Overall, the discussion suggests that the community sees some promise in the article's ideas but believes there are important limitations in its scope that need to be addressed.",
+      "groq_explain": "TL;DR: Human consciousness as we know it developed only about 3,000 years ago, not earlier, and it required language and metaphor. Before that, humans had a \"bicameral\" mind where the brain's hemispheres operated separately, and people heard hallucinated voices (gods) guiding their decisions. This challenges the idea that consciousness has always existed and suggests it emerged from major cultural and neurological shifts."
+    },
     {
       "id": 49336573,
       "author": "mooreds",
@@ -76,6 +91,21 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "Rust's GPU offloading emulates pointers, a key challenge for HPC benchmarks.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on solving GPU offloading in Rust, aiming for portability, safety, and performance. Hacker News commenters generally appreciated the project's goals and potential benefits for GPU programming. However, they also expressed concerns about technical limitations, such as pointer emulation in rust-gpu and the lack of published code. Overall, the discussion was mixed, with commenters recognizing both the project's promise and its current gaps.",
+      "groq_explain": null
+    },
+    {
+      "id": 49334409,
+      "author": "neogodless",
+      "descendants": 27,
+      "kids": "[49337418,49337474,49337014,49337736,49337788,49337674,49337785,49337481,49334425,49337502,49337683,49335953]",
+      "score": 46,
+      "time": 1786986920,
+      "title": "An update on leaving Gmail for Fastmail",
+      "type": "story",
+      "url": "https://moddedbear.com/an-update-on-leaving-gmail-for-fastmail/",
+      "og_image": "https://moddedbear.com/images/share.png",
+      "groq_label": "Fastmail users report a sudden surge in spam after leaving Gmail, suggesting Google's filters were catching more than previously realized.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post about leaving Gmail for Fastmail aims to solve the problem of privacy concerns and dependency on Google's ecosystem. The Hacker News discussion was generally mixed, with many commenters appreciating the practicality and ease of migration to Fastmail, as well as its reliability and value for money. At the same time, several commenters raised concerns about the limitations of leaving Gmail, such as the prevalence of \"login with Google\" options and the loss of useful features like auto-categorization of emails. Overall, the discussion suggests that the community sees promise in Fastmail as a privacy-focused alternative but believes there are important challenges that still need to be addressed, particularly around the convenience of Google's ecosystem and the transition process.",
       "groq_explain": null
     },
     {
@@ -419,36 +449,6 @@
       "og_image": "https://duti.dev/img/avatar.jpeg",
       "groq_label": "The HackEurope winner added a language model to a decades-old fire prediction tool, overselling its potential for automation by downplaying the complexity of tasks beyond AI capabilities.",
       "groq_discussion": "Discussion type: – Short:\n\nThis HackEurope 2026 project on AI and hackathons was met with skepticism by Hacker News commenters. They expressed concerns about the project's lack of originality, with the grand winner replicating existing fire prediction technology, and the overhyped use of LLMs to suggest replacing human professionals with drones. The overall discussion was critical, with commenters recognizing the project's limitations and questioning the judges' evaluation.",
-      "groq_explain": null
-    },
-    {
-      "id": 49326816,
-      "author": "the-mitr",
-      "descendants": 28,
-      "kids": "[49327951,49327420,49327250,49327246,49327889,49327478,49327526,49327579,49327384,49327575,49327666,49327344,49327547,49327752,49327639]",
-      "score": 56,
-      "time": 1786944094,
-      "title": "Linear algebra done right",
-      "type": "story",
-      "url": "https://linear.axler.net/",
-      "og_image": "https://linear.axler.net/coverLADR4e.png",
-      "groq_label": "The text \"Linear Algebra Done Right\" by Sheldon Axler focuses on understanding the structure of linear operators on finite-dimensional vector spaces, and its novel approach banishes determinants until the end of the book.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nLinear Algebra Done Right aims to solve the problem of providing a clear and rigorous introduction to linear algebra. The Hacker News discussion was generally mixed, with many commenters appreciating its unique approach and insightful explanations, particularly regarding vector and co-vector spaces. At the same time, several commenters raised concerns about the book's tone and layout, describing the writing as too formal or pretentious. Some also felt that the book fails to motivate readers and questioned the polemic against determinants. Overall, the discussion suggests that the community sees value in the book but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "This is about a textbook called \"Linear Algebra Done Right\" by Sheldon Axler. It's a free online resource and textbook for learning linear algebra, a key mathematical subject, which focuses on understanding the structure of linear operators rather than determinants."
-    },
-    {
-      "id": 49326229,
-      "author": "dmarto",
-      "descendants": 14,
-      "kids": "[49326481,49326501,49326602,49326531,49326460,49326524,49326534,49326451]",
-      "score": 16,
-      "time": 1786936897,
-      "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
-      "type": "story",
-      "url": "https://boston.conman.org/2026/08/11.1",
-      "og_image": "https://boston.conman.org/favicon.png",
-      "groq_label": "People with Gmail addresses that differ by periods in the username, but are intended to go to the same mailbox, have been receiving emails intended for others.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article suggests that Gmail might be partially to blame for receiving emails from other Sean Conners. The Hacker News discussion was generally cautious and divided, with several commenters providing evidence that Google has consistently treated punctuated and unpunctuated addresses as one and the same since the beginning. They cited personal experiences and pointed out that it's possible for multiple people to have the same Gmail address due to typos or incorrect configuration. However, some commenters also raised the possibility that the issue might be caused by senders misconfiguring their email software or intentionally trying to circumvent email filters. At the same time, others questioned the idea that Google would intentionally design such a bug. Overall, the discussion suggests that the community sees promise in investigating this issue but believes there are important challenges that need to be addressed to understand its root cause.",
       "groq_explain": null
     }
   ]
