@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T16:34:21.741Z"
+    "lastUpdated": "2026-08-17T17:00:12.972Z"
   },
   "stories": [
+    {
+      "id": 49333728,
+      "author": "dhruv3006",
+      "descendants": 2,
+      "kids": "[49334094,49334110]",
+      "score": 25,
+      "time": 1786984277,
+      "title": "GitHub Has an Availability Problem. Is It Time to Look Elsewhere?",
+      "type": "story",
+      "url": "https://dhruv2038.bearblog.dev/github-has-an-availability-problem-is-it-time-to-look-elsewhere/",
+      "og_image": "https://dhruv2038.bearblog.dev/static/og-image.png",
+      "groq_label": "GitHub's remaining long-term moat appears to be Microsoft bundling, name recognition, and its status as the go-to place for open source.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses GitHub's availability issues and questions whether it's time to consider alternatives. Hacker News commenters generally appreciated GitHub's strengths like its CLI and name recognition but expressed concerns about its CI/CD, user interface, and availability. Overall, the discussion was mixed, with commenters recognizing GitHub's potential while acknowledging its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49332981,
       "author": "karakoram",
@@ -109,6 +124,35 @@
       "groq_explain": null
     },
     {
+      "id": 49331033,
+      "author": "dhruv3006",
+      "descendants": 132,
+      "kids": "[49333996,49331916,49333266,49331444,49331516,49332095,49331969,49331407,49332356,49331807,49331402,49332043,49331163,49333819,49331950,49331796,49331685,49333031,49331938,49333047,49332416,49331483,49333704,49332483,49332589,49331191,49333366,49332334,49332118,49331966,49331741,49331899,49331645,49332476,49331835,49332163,49331848,49331900,49331663,49331771,49331681,49333170,49332296,49331808,49333605,49331691,49331984,49331875,49331873,49332974,49332797,49332092,49331719,49331922,49332512,49334138,49332745,49333646,49331383,49331895,49331795]",
+      "score": 214,
+      "time": 1786975157,
+      "title": "Ask HN: Alternatives to GitHub",
+      "type": "story",
+      "og_image": "images/49331033.png",
+      "groq_label": "Gitea and Forgejo offer lightweight, fast self-hosted Git solutions with minimal overhead compared to heavier alternatives like GitLab.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion about alternatives to GitHub aims to help users find suitable options based on their needs. The Hacker News discussion was generally mixed, with many commenters appreciating the variety of alternatives like Forgejo, Gitea, GitLab, and CodeBerg, each offering different strengths such as ease of use, self-hosting capabilities, or minimal hassle. At the same time, several commenters raised concerns about the challenges of self-hosting GitLab, including maintenance issues, upgrade problems, and configuration complexities. Overall, the discussion suggests that the community sees promise in these alternatives but believes there are important challenges—particularly around self-hosting—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49330978,
+      "author": "tarunnnp",
+      "descendants": 2,
+      "kids": "[49333500,49333243]",
+      "score": 34,
+      "time": 1786974998,
+      "title": "How to ship a database every day",
+      "type": "story",
+      "url": "https://turbopuffer.com/blog/control-plane",
+      "og_image": "https://turbopuffer.com/og/turbopuffer.png",
+      "groq_label": "Metrics are pushed from BYOC clusters to a central system, aligning with the direction of cluster operator config syncs rather than data flow.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses strategies for deploying a database daily. Hacker News commenters generally appreciated the focus on simplifying data plane management and found the approach interesting. However, they also expressed concerns about monitoring and metrics collection in BYOC (Bring Your Own Cluster) environments, questioning whether push-based metrics systems are used. Overall, the discussion was cautiously positive, with commenters recognizing the potential of the approach while highlighting areas needing further clarification.",
+      "groq_explain": null
+    },
+    {
       "id": 49330781,
       "author": "ibotty",
       "descendants": 29,
@@ -150,6 +194,21 @@
       "og_image": "images/49330632.png",
       "groq_label": "GitHub's recent outages reveal a struggle to maintain reliability amid exponential growth, with users reporting failures in core services like PR access and repo listings.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to GitHub's recent downtime with mixed reactions. Many commenters appreciated the push toward alternatives like GitLab, Forgejo, Codeberg, and self-hosted options, highlighting their reliability, speed, and lack of distractions. Others criticized GitHub’s declining performance, citing frequent outages, unreliability, and concerns over Microsoft’s influence, including worries about code being used for AI training. Recurring criticisms focused on GitHub’s inability to maintain core services, its centralized model struggling with scale, and its status page’s lack of transparency. As a whole, commenters viewed the situation as a sign of GitHub’s diminishing reliability while acknowledging the growing need for viable alternatives.",
+      "groq_explain": null
+    },
+    {
+      "id": 49330597,
+      "author": "SpyCoder77",
+      "descendants": 649,
+      "kids": "[49333670,49330791,49331168,49331142,49331097,49330987,49332275,49332201,49330751,49330857,49332135,49331479,49332111,49330993,49331328,49330861,49331770,49331199,49330888,49331215,49333942,49332641,49332756,49333058,49331626,49332543,49331624,49332433,49332700,49331557,49330617,49330764,49331659,49333280,49330795,49330784,49333209,49331066,49332315,49330704,49330793,49333156,49331018,49333600,49330663,49332437,49331325,49331502,49334036,49331051,49332373,49332131,49330870,49332605,49330926,49331524,49332390,49330880,49332880,49332912,49332172,49330705,49331507,49331365,49332271,49331944,49332268,49330930,49330838,49331827,49332070,49332306,49331445,49330753,49333174,49331186,49330977,49332655,49332777,49331380,49332149,49333676,49332601,49331468,49331126,49330778,49333365,49330667,49330834,49332792,49332824,49332089,49332265,49330758,49331173,49330689,49330810,49330763,49330725,49330648,49332491,49330843,49330912,49331070,49333072,49330627,49331055,49332673,49330723,49332191,49332443,49330768,49331598,49332228,49330709,49332143,49332038,49333182,49330662,49331570,49330776,49331526,49331203,49331344,49330964,49333040,49330672,49330825,49332554,49330787,49332801,49332617,49331345,49332200,49331697,49331432,49330752,49330899,49332146,49331314,49330817,49331237,49331559,49331506,49331364,49333856,49330794,49330924,49331454,49331462,49332220,49331239,49330915,49331338,49332336,49333398]",
+      "score": 131,
+      "time": 1786973706,
+      "title": "Incident with Github.com",
+      "type": "story",
+      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
+      "og_image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
+      "groq_label": "GitHub's repeated outages expose a critical gap in the market for a reliable, low-cost alternative with full GitHub feature parity.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the GitHub outage with cautious optimism. Many praised the need for reliable alternatives and saw value in self-hosted or community-driven solutions like Forgejo. However, the discussion also surfaced recurring concerns regarding GitHub's reliability and long-term stability, including frequent outages and perceived mismanagement. Despite these criticisms, the general sentiment suggests that the community considers the incident a wake-up call, with some users actively seeking or recommending alternatives while acknowledging that GitHub’s dominance makes transitioning difficult.",
       "groq_explain": null
     },
     {
@@ -390,66 +449,6 @@
       "og_image": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
       "groq_label": "Qwen 3.8 27B is a high-performance language model but it defaults to overthinking tasks, incurring significant speed penalties and making it less token-efficient than similar large models.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis project, Qwen 3.8 27B, aims to solve the problem of complex thinking. The Hacker News discussion was generally critical, with many commenters appreciating the model's capabilities but also highlighting significant limitations. The project's approach to dense modeling was praised for its thoroughness, but the discussion repeatedly emphasized concerns about its overthinking nature, particularly in terms of speed and efficiency. Several commenters mentioned the model's slower performance compared to other models, like GPT 5.5 and Muse 30B, which was considered a major drawback. Overall, the discussion suggests that the community sees promise in Qwen 3.8 27B, but believes there are important challenges, such as speed and efficiency, that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49324087,
-      "author": "ropbear",
-      "descendants": 206,
-      "kids": "[49327751,49324316,49324513,49326948,49324787,49324290,49327763,49325168,49324383,49325028,49324917,49324404,49327628,49325382,49324491,49324872,49324218,49324578,49324699,49326384,49324830,49324461,49324343,49324860,49325354,49324684,49324835,49326066,49327380,49324573,49325468,49324920,49327719,49324947,49325198,49325336,49324167,49324603,49327095,49324836,49325423,49325068,49324840,49325378,49325728,49325370,49324861,49324264,49325350,49324709,49324509,49327738,49324411,49326121,49325624,49324802,49325219,49325517,49324652]",
-      "score": 223,
-      "time": 1786917223,
-      "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
-      "type": "story",
-      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "og_image": "https://daringfireball.net/graphics/df-wide-card.png",
-      "groq_label": "The technique for adulterating text in LLMs like Claude by adding imperceptible noise does not guarantee the use of the best words, and instead relies on exploiting ambiguity and the rarity of certain combinations.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article by Anthropic, which suggests adding a \"watermark\" to language models like Claude to detect their origin, was met with a mixed reaction on Hacker News. While some commenters praised the idea behind the watermark, others were highly critical of its implementation and the implications it has for writing quality. Supporters argued that the approach can be seen as a necessary measure to combat the misuse of language models, but critics pointed out that it could also stifle the creation of high-quality content. The discussion suggests that the community sees the potential benefits of the watermark but believes there are important challenges to consider. The commenters debated various aspects, including the idea that LLMs already use randomness, the effect of the gumbel softmax technique, and the concept of the \"best word.\" Overall, the discussion presents the project as an interesting idea that requires careful consideration of its limitations and potential consequences.",
-      "groq_explain": null
-    },
-    {
-      "id": 49323686,
-      "author": "root-parent",
-      "descendants": 27,
-      "kids": "[49325207,49325444,49324199,49325281,49324674,49324044,49324927,49324305,49324577,49324375,49324096]",
-      "score": 96,
-      "time": 1786914430,
-      "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
-      "type": "story",
-      "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
-      "og_image": "images/49323686.png",
-      "groq_label": "Nvidia significantly reduces its guarantee for the massive investment in OpenAI's infrastructure, possibly indicating a decrease in investor demand and a shift in the AI market landscape.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of Nvidia's proposed deal with OpenAI is highly critical. Commenters frequently expressed concerns that Nvidia is turning into more of a financial institution, and that the deal's massive scale ($500B) poses significant risks. Many praised a comment that analyzed the numbers and argued that even if the backstop capacity is a total write-off, Nvidia could still profit from reselling it. However, the overall consensus is that the deal is a bad idea, and that Nvidia and investors like pension funds, sovereign wealth funds, and Softbank will be hurt. The discussion also touched on the potential impact of an open-source AI model that matches the performance of OpenAI's technology, which could make Nvidia's massive investment obsolete.",
-      "groq_explain": null
-    },
-    {
-      "id": 49323474,
-      "author": "nanochess",
-      "descendants": 2,
-      "kids": "[49333694,49333488,49331553]",
-      "score": 30,
-      "time": 1786912917,
-      "title": "How I developed an Am29000 C compiler and web browser",
-      "type": "story",
-      "url": "https://nanochess.org/am29000_c_compiler_web_browser.html",
-      "og_image": "https://nanochess.org/img/am29k_20.png",
-      "groq_label": "Oscar Toledo single-handedly developed a C compiler and web browser for the obscure Am29000 processor.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article describes the author's development of an Am29000 C compiler and web browser. Hacker News commenters generally appreciated the sheer effort and technical achievement behind the project, noting its impressive and detailed nature. However, they also expressed a sense of amusement at the perceived impracticality of the endeavor. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49323459,
-      "author": "ghuntley",
-      "descendants": 1,
-      "kids": "[49323522]",
-      "score": 5,
-      "time": 1786912738,
-      "title": "The Case Against Formal Verification, 50 Years Later",
-      "type": "story",
-      "url": "https://ivan-gavran.github.io/0-social-processes-paper",
-      "og_image": "https://ivan-gavran.github.io/assets/images/forall.png",
-      "groq_label": "The critique of formal verification from a 1979 paper still partly holds today despite some of its criticisms appearing outdated upon further examination.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article, \"The Case Against Formal Verification, 50 Years Later,\" re-examines a 1979 paper critiquing formal verification. \nBased on the Hacker News discussion, commenters generally viewed \nthe project positively and highlighted strengths such as its insightful re-evaluation of a decades-old criticism. Many appreciated the article's nuanced approach and thorough consideration of both the original paper's claims and the advancements made since then. Others believed it could be particularly useful for understanding the history and context surrounding formal verification. However, the discussion \nalso revealed several criticisms. Commenters expressed concerns about potential biases or overreliance on outdated information, with some questioning the article's framing of the original paper's critique. Overall, the Hacker News community considered the article thought-provoking and informative, recognizing its potential to provide context and insights about formal verification while emphasizing that the original paper's claims may not be as universally applicable as initially thought.",
       "groq_explain": null
     }
   ]
