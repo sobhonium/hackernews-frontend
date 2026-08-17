@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T17:00:12.972Z"
+    "lastUpdated": "2026-08-17T17:36:43.524Z"
   },
   "stories": [
+    {
+      "id": 49333932,
+      "author": "domenkozar",
+      "descendants": 36,
+      "kids": "[49334238,49334330,49334645,49334362,49334659,49334352,49334489,49334314,49334573,49334414,49334329,49334103,49334023]",
+      "score": 43,
+      "time": 1786985111,
+      "title": "Buy Your Friends Batteries",
+      "type": "story",
+      "url": "https://domenkozar.com/2026/08/17/buy-your-friends-batteries/",
+      "og_image": "https://domenkozar.com/images/me.png",
+      "groq_label": "A 5 kWh home battery can save €126–144 per year through grid arbitrage in Germany and Spain, cutting payback time to 11–13 years when shared among friends.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post presents the idea of \"Buy Your Friends Batteries\" as a novel but impractical solution to gift-giving. The Hacker News discussion was generally mixed, with some commenters appreciating the creative concept and others dismissing it as unrealistic or even dangerous. Many found humor in the idea, while several raised serious concerns about feasibility, cost, and safety. The main criticism centered on the impracticality of gifting batteries, the logistical challenges of installation, and the potential hazards of lithium batteries. Overall, the discussion suggests that while the idea is entertaining, it faces significant real-world obstacles that limit its appeal.",
+      "groq_explain": "TL;DR: Pool money with friends to buy each other home batteries as birthday gifts. Batteries save daily on electricity costs by storing cheap power and using it when prices spike, plus provide backup during outages. In Germany and Spain, this could pay back the €1,600 cost in about 11-13 years through smart energy use alone."
+    },
     {
       "id": 49333728,
       "author": "dhruv3006",
@@ -434,21 +449,6 @@
       "og_image": "https://reticulum.network/gfx/reticulum_logo_512.png",
       "groq_label": "Reticulum was inspired by Neal Stephenson's science fiction novel Anathem which also featured a network called the Reticulum.",
       "groq_discussion": "Discussion type: –  Basic:\n\nThis Reticulum project aims to solve the problem of creating a decentralized mesh network. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its connection to a notable literary work. Many appreciated the idea of a decentralized network and considered it useful for its potential to allow for more flexible and resilient communication. Others believed it could be particularly useful for communities that rely on alternative, self-organized networks. However, the discussion also revealed several criticisms. Commenters expressed concerns about its scalability and questioned the technical feasibility of such a network. Overall, the Hacker News community considered the project positive, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49324985,
-      "author": "bilsbie",
-      "descendants": 3,
-      "kids": "[49325586,49325030,49325406]",
-      "score": 17,
-      "time": 1786923909,
-      "title": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
-      "type": "story",
-      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "og_image": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
-      "groq_label": "Qwen 3.8 27B is a high-performance language model but it defaults to overthinking tasks, incurring significant speed penalties and making it less token-efficient than similar large models.",
-      "groq_discussion": "Discussion type: – Balanced\n\nThis project, Qwen 3.8 27B, aims to solve the problem of complex thinking. The Hacker News discussion was generally critical, with many commenters appreciating the model's capabilities but also highlighting significant limitations. The project's approach to dense modeling was praised for its thoroughness, but the discussion repeatedly emphasized concerns about its overthinking nature, particularly in terms of speed and efficiency. Several commenters mentioned the model's slower performance compared to other models, like GPT 5.5 and Muse 30B, which was considered a major drawback. Overall, the discussion suggests that the community sees promise in Qwen 3.8 27B, but believes there are important challenges, such as speed and efficiency, that still need to be addressed.",
       "groq_explain": null
     }
   ]
