@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T05:24:34.966Z"
+    "lastUpdated": "2026-08-17T08:49:04.462Z"
   },
   "stories": [
+    {
+      "id": 49327490,
+      "author": "mindracer",
+      "descendants": 2,
+      "kids": "[49327920]",
+      "score": 19,
+      "time": 1786951723,
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "type": "story",
+      "url": "https://duti.dev/blog/2026/spr/",
+      "og_image": "https://duti.dev/img/avatar.jpeg",
+      "groq_label": "The HackEurope winner added a language model to a decades-old fire prediction tool, overselling its potential for automation by downplaying the complexity of tasks beyond AI capabilities.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis HackEurope 2026 project on AI and hackathons was met with skepticism by Hacker News commenters. They expressed concerns about the project's lack of originality, with the grand winner replicating existing fire prediction technology, and the overhyped use of LLMs to suggest replacing human professionals with drones. The overall discussion was critical, with commenters recognizing the project's limitations and questioning the judges' evaluation.",
+      "groq_explain": null
+    },
+    {
+      "id": 49326816,
+      "author": "the-mitr",
+      "descendants": 28,
+      "kids": "[49327951,49327420,49327250,49327246,49327889,49327478,49327526,49327579,49327384,49327575,49327666,49327344,49327547,49327752,49327639]",
+      "score": 56,
+      "time": 1786944094,
+      "title": "Linear algebra done right",
+      "type": "story",
+      "url": "https://linear.axler.net/",
+      "og_image": "https://linear.axler.net/coverLADR4e.png",
+      "groq_label": "The text \"Linear Algebra Done Right\" by Sheldon Axler focuses on understanding the structure of linear operators on finite-dimensional vector spaces, and its novel approach banishes determinants until the end of the book.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nLinear Algebra Done Right aims to solve the problem of providing a clear and rigorous introduction to linear algebra. The Hacker News discussion was generally mixed, with many commenters appreciating its unique approach and insightful explanations, particularly regarding vector and co-vector spaces. At the same time, several commenters raised concerns about the book's tone and layout, describing the writing as too formal or pretentious. Some also felt that the book fails to motivate readers and questioned the polemic against determinants. Overall, the discussion suggests that the community sees value in the book but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "This is about a textbook called \"Linear Algebra Done Right\" by Sheldon Axler. It's a free online resource and textbook for learning linear algebra, a key mathematical subject, which focuses on understanding the structure of linear operators rather than determinants."
+    },
     {
       "id": 49326229,
       "author": "dmarto",
@@ -16,6 +46,36 @@
       "og_image": "https://boston.conman.org/favicon.png",
       "groq_label": "People with Gmail addresses that differ by periods in the username, but are intended to go to the same mailbox, have been receiving emails intended for others.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article suggests that Gmail might be partially to blame for receiving emails from other Sean Conners. The Hacker News discussion was generally cautious and divided, with several commenters providing evidence that Google has consistently treated punctuated and unpunctuated addresses as one and the same since the beginning. They cited personal experiences and pointed out that it's possible for multiple people to have the same Gmail address due to typos or incorrect configuration. However, some commenters also raised the possibility that the issue might be caused by senders misconfiguring their email software or intentionally trying to circumvent email filters. At the same time, others questioned the idea that Google would intentionally design such a bug. Overall, the discussion suggests that the community sees promise in investigating this issue but believes there are important challenges that need to be addressed to understand its root cause.",
+      "groq_explain": null
+    },
+    {
+      "id": 49326156,
+      "author": "lumpa",
+      "descendants": 53,
+      "kids": "[49327717,49327913,49327851,49327565,49327595,49327489,49327442,49327550]",
+      "score": 118,
+      "time": 1786936127,
+      "title": "GIMP Development Update",
+      "type": "story",
+      "url": "https://www.gimp.org/news/2026/08/16/dev-update-august-2026/",
+      "og_image": "https://www.gimp.org/images/frontpage/wilber-big.png",
+      "groq_label": "The GIMP development team is updating its project file format from binary XCF to a zipped XML structure.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThe Hacker News discussion surrounding the GIMP Development Update was generally mixed, with various opinions on the recent advancements in the software. While some commenters appreciated the introduction of non-destructive filter layers and praised GIMP as an excellent, well-used, and well-resourced project, others expressed criticism about the new features, particularly the zipped XML format, which they considered slow and outdated. The discussion also touched on concerns about GIMP's UI, with one commenter suggesting it may be intended to appear sloppy due to perceived external pressures. Nevertheless, several commenters defended GIMP, highlighting its efficiency and contrast to other for-profit projects.",
+      "groq_explain": "GIMP, a free graphic design program, is getting an update with new features. These include improved file saving, support for blending colors, and non-destructive editing."
+    },
+    {
+      "id": 49325789,
+      "author": "jacquesm",
+      "descendants": 29,
+      "kids": "[49327860,49327866,49327864,49327931,49327926,49327801,49327816,49327757,49327898,49327765,49327829,49325792]",
+      "score": 41,
+      "time": 1786931996,
+      "title": "On A.I. regulation and messaging",
+      "type": "story",
+      "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "og_image": "https://pbs.twimg.com/profile_images/2015835742577012736/uOwdzrEz_400x400.jpg",
+      "groq_label": "Open-source AI models are insufficient as a solution to concentration of power in AI development because they can simply shift the advantage to those with the most resources.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of AI regulation and messaging is that it's a complex issue that requires careful consideration. Commenters frequently praised the idea that AI can bring about significant benefits and improvements, describing it as a \"historical game changer\" for humanity. However, the discussion also included recurring concerns about the concentration of power and wealth, with many questioning whether AI companies will prioritize the greater good or their own interests. The overall consensus is that the issue is more nuanced than a simple \"regulation = regulatory capture = concentration of power\" narrative, and that policymakers should approach it with a more detailed and careful analysis.",
       "groq_explain": null
     },
     {
@@ -106,6 +166,21 @@
       "og_image": "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
       "groq_label": "Qwen 3.8 27B is a high-performance language model but it defaults to overthinking tasks, incurring significant speed penalties and making it less token-efficient than similar large models.",
       "groq_discussion": "Discussion type: – Balanced\n\nThis project, Qwen 3.8 27B, aims to solve the problem of complex thinking. The Hacker News discussion was generally critical, with many commenters appreciating the model's capabilities but also highlighting significant limitations. The project's approach to dense modeling was praised for its thoroughness, but the discussion repeatedly emphasized concerns about its overthinking nature, particularly in terms of speed and efficiency. Several commenters mentioned the model's slower performance compared to other models, like GPT 5.5 and Muse 30B, which was considered a major drawback. Overall, the discussion suggests that the community sees promise in Qwen 3.8 27B, but believes there are important challenges, such as speed and efficiency, that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49324087,
+      "author": "ropbear",
+      "descendants": 206,
+      "kids": "[49327751,49324316,49324513,49326948,49324787,49324290,49327763,49325168,49324383,49325028,49324917,49324404,49327628,49325382,49324491,49324872,49324218,49324578,49324699,49326384,49324830,49324461,49324343,49324860,49325354,49324684,49324835,49326066,49327380,49324573,49325468,49324920,49327719,49324947,49325198,49325336,49324167,49324603,49327095,49324836,49325423,49325068,49324840,49325378,49325728,49325370,49324861,49324264,49325350,49324709,49324509,49327738,49324411,49326121,49325624,49324802,49325219,49325517,49324652]",
+      "score": 223,
+      "time": 1786917223,
+      "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
+      "type": "story",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "og_image": "https://daringfireball.net/graphics/df-wide-card.png",
+      "groq_label": "The technique for adulterating text in LLMs like Claude by adding imperceptible noise does not guarantee the use of the best words, and instead relies on exploiting ambiguity and the rarity of certain combinations.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article by Anthropic, which suggests adding a \"watermark\" to language models like Claude to detect their origin, was met with a mixed reaction on Hacker News. While some commenters praised the idea behind the watermark, others were highly critical of its implementation and the implications it has for writing quality. Supporters argued that the approach can be seen as a necessary measure to combat the misuse of language models, but critics pointed out that it could also stifle the creation of high-quality content. The discussion suggests that the community sees the potential benefits of the watermark but believes there are important challenges to consider. The commenters debated various aspects, including the idea that LLMs already use randomness, the effect of the gumbel softmax technique, and the concept of the \"best word.\" Overall, the discussion presents the project as an interesting idea that requires careful consideration of its limitations and potential consequences.",
       "groq_explain": null
     },
     {
@@ -374,80 +449,6 @@
       "og_image": "https://ei3lh.eu/wp-content/uploads/2026/08/1000013219-1024x683.png",
       "groq_label": "The project features a Casio calculator running a vintage telnet BBS using a modified firmware.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis nostalgic article aims to solve the problem of reminiscing about old technology. \nBased on the Hacker News discussion, commenters generally viewed \nthe piece positively and highlighted strengths such as the author's storytelling style, \nwhich many appreciated for its ability to be engaging and relatable. Many appreciated \nthe unique subject matter, noting that it brought back memories of their own experiences \nwith older technology, while others believed it could be particularly useful for readers \ninterested in retro computer culture. However, the discussion also revealed several criticisms. \nCommenters expressed concerns about the format being difficult to read due to the font and colors. \nOverall, the Hacker News community considered the article [overall sentiment], recognizing its \nnostalgic value while emphasizing the need for better readability.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319215,
-      "author": "shivsak",
-      "kids": "[]",
-      "score": 1,
-      "time": 1786881623,
-      "title": "Gooseworks (YC W23) Is Hiring a Founding Builder / Engineer",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/gooseworks/jobs/UJ4vH2F-founding-engineer",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/2a7957bec3c772d726f4cfaadb0d29e3f8446ea5.png?1773947033",
-      "groq_label": "Gooseworks uses a mix of web and mobile applications to manage and analyze data related to urban agriculture.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319061,
-      "author": "ksec",
-      "descendants": 3,
-      "kids": "[49319127]",
-      "score": 7,
-      "time": 1786880052,
-      "title": "Stripe 2.9% vs. Adyen 0.6% vs. Braintree 2.59%: 2026 Fees",
-      "type": "story",
-      "url": "https://valueaddvc.com/blog/stripe-vs-adyen-vs-braintree-enterprise-payment-processing-compared-in-2026",
-      "og_image": "https://valueaddvc.com/og/stripe-vs-adyen-vs-braintree-enterprise-payment-processing-compared-in-2026.png",
-      "groq_label": "Stripe charges 2.9% + 30¢, Adyen charges 0.6% with an overall payment volume rate that may be around 1.1% when other fees and deductions considered at scale.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the article comparing Stripe, Adyen, and Braintree fees is generally positive. Commenters frequently praised Stripe's integrated solution, convenience, and simplicity, acknowledging that these factors outweigh the cost of higher fees. Many also appreciated the article's nuanced perspective, considering that cost is not the only factor when choosing a payment provider. The overall consensus is that this perspective is compelling and sheds an important light on the payment industry.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319026,
-      "author": "not_wowinter14",
-      "descendants": 3,
-      "kids": "[49319816,49319600]",
-      "score": 6,
-      "time": 1786879730,
-      "title": "Show HN: Remove AI voice from AI writings",
-      "type": "story",
-      "url": "https://unslopai.com",
-      "og_image": "https://unslopai.com/og",
-      "groq_label": "Unslop's algorithm reuses phrases like \"leverage\" and \"delve\" to make AI-generated writing sound more like it was written by a human.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is negative. Commenters frequently criticized the approach of using AI writing to remove AI voice, describing it as \"fighting slop with slop\". The discussion suggests that many users view this as an oxymoronic concept, which likely led to the humorous comments.",
-      "groq_explain": "This is about a tool called Unslop that removes the distinctive sound of AI-generated writing, making it sound more like it was written by a person, while still maintaining the original meaning."
-    },
-    {
-      "id": 49317760,
-      "author": "porridgeraisin",
-      "descendants": 34,
-      "kids": "[49317926,49317891,49318059,49317918,49317853,49317923,49318019,49318022,49317986,49317858,49317835,49317933,49317886]",
-      "score": 58,
-      "time": 1786865873,
-      "title": "What happens when an LLM never sees material beyond fifth grade?",
-      "type": "story",
-      "url": "https://littlelearner-ll.github.io/",
-      "og_image": "images/49317760.png",
-      "groq_label": "An LLM trained only on material up to fifth grade will generate responses that might be more similar to a highly intelligent child than an average adult, with limited knowledge of complex topics.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to solve the problem of LLMs' limitations by restricting their training data to material beyond fifth grade. The Hacker News discussion was generally mixed, with many commenters appreciating the idea and its potential benefits, such as promoting a more realistic understanding of LLMs' capabilities. At the same time, several commenters raised concerns about the limitations of this approach, arguing that it may not accurately reflect human learning and development. They also questioned the effectiveness of text filtering and the validity of the methods used to validate it. Overall, the discussion suggests that the community sees promise in this idea but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49316888,
-      "author": "cjlm",
-      "descendants": 1,
-      "kids": "[49316946]",
-      "score": 5,
-      "time": 1786854240,
-      "title": "The quirky personal homepages of programming language creators",
-      "type": "story",
-      "url": "https://breck.lol/plMakers.html",
-      "og_image": "https://breck.lol/plMakers.jpg",
-      "groq_label": "Many programming language creators display their personal homepages which often showcase a unique blend of humor, personality, and programming expertise.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to showcase the quirky personal homepages of programming language creators. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the strength of its unique approach and interesting content, which offers a fascinating glimpse into the personal lives of influential figures in the programming world. Many appreciated the idea of accessing these homepages with ease and the potential for exploration and discovery. However, the discussion also revealed several criticisms, with commenters expressing concerns about the technical feasibility and challenges in implementing a simple button to visit these homepages. Overall, the Hacker News community considered the project exciting and entertaining, recognizing its potential as a valuable resource for programmers and history enthusiasts while emphasizing that addressing these challenges would improve its usefulness and adoption.",
       "groq_explain": null
     }
   ]
