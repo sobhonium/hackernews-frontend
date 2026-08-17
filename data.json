@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T09:27:17.694Z"
+    "lastUpdated": "2026-08-17T12:50:47.435Z"
   },
   "stories": [
+    {
+      "id": 49329660,
+      "author": "bilsbie",
+      "descendants": 2,
+      "kids": "[49329992,49329932]",
+      "score": 17,
+      "time": 1786969104,
+      "title": "Buyer cancels showing after Deflock shows two cameras utilized by the HOA",
+      "type": "story",
+      "url": "https://twitter.com/lydiakauppi/status/2089196932413452386",
+      "og_image": "https://pbs.twimg.com/media/HP5RiQZWoAEoat5.jpg",
+      "groq_label": "Deflock's camera detection system can be weaponized to disrupt property sales by falsely reporting unauthorized cameras.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Reddit thread discusses a situation where a buyer's showing of a property was canceled after the Deflock system revealed two cameras in use by the HOA. Hacker News commenters generally appreciated the idea of proactively disclosing security camera locations to buyers, seeing it as a potential advantage for buyer's agents. However, they also expressed concerns about the possibility of misuse, such as falsely reporting cameras to hinder a property sale. Overall, the discussion was mixed, with commenters recognizing both the potential benefits and risks of the system.",
+      "groq_explain": null
+    },
+    {
+      "id": 49329575,
+      "author": "plurby",
+      "descendants": 0,
+      "kids": "[49329983]",
+      "score": 5,
+      "time": 1786968582,
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "type": "story",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "og_image": "https://storage.ghost.io/c/2c/8d/2c8d8c0d-1c15-4b6d-825e-02b78d61d40a/content/images/2026/07/img-blog-gpt-5-6-sol-best-vision-model-to-date.jpg",
+      "groq_label": "GPT-5.6 Sol achieves 46.2 mAP@50 in object detection, a 236% improvement over GPT-5.5's 13.8, nearly closing the gap with top VLMs.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article about GPT 5.6 Sol presents it as the best vision model OpenAI has ever released. Hacker News commenters generally appreciated the advancements in vision capabilities and believed the project could significantly improve multimodal AI applications. However, they also expressed concerns about potential limitations in real-world deployment and questioned the model's efficiency compared to alternatives. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its unproven aspects.",
+      "groq_explain": "GPT-5.6 Sol is OpenAI’s strongest vision model yet, excelling at object detection, counting, and document layout tasks. It outperforms older models by a huge margin—like jumping from 13.8 to 46.2 in detection accuracy. While Terra and Luna are improvements over GPT-5.5, Sol is the standout. It handles dense scenes well but struggles with very large images unless you adjust settings. This matters because better vision models enable smarter AI tools for real-world tasks like UI automation, data extraction, and detailed image analysis."
+    },
+    {
+      "id": 49327643,
+      "author": "vlowrian",
+      "descendants": 20,
+      "kids": "[49329282,49329662,49329311,49329705,49329508,49329431,49329410,49329379,49329409,49329180,49329152,49329460,49329686]",
+      "score": 39,
+      "time": 1786953082,
+      "title": "Show HN: Desktopcolors.com – A museum for solid background colors of classic OS",
+      "type": "story",
+      "url": "https://desktopcolors.com",
+      "og_image": "images/49327643.png",
+      "groq_label": "The teal background in Windows 98 (#008080) appeared lighter when displayed in 16-color VGA mode due to palette limitations.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated the nostalgic value of preserving classic operating system background colors and considered it a delightful collection. Others highlighted the project's attention to technical details, such as the nuances in color rendering across different graphics modes. Nevertheless, recurring criticisms focused on the completeness of the collection, with commenters noting missing entries like \"Hot Dog Stand\" and Plan9. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
+      "groq_explain": "It’s a curated archive of the default solid background colors from classic operating systems and desktop environments, showing how each OS branded its desktop visually. It matters because these colors shaped early computer aesthetics and nostalgia, offering a simple yet vivid snapshot of tech history."
+    },
     {
       "id": 49327490,
       "author": "mindracer",
@@ -404,51 +449,6 @@
       "og_image": "https://assets-prod.sumo.prod.webservices.mozgcp.net/static/pencil.966aaf14c9fb9489.svg",
       "groq_label": "Firefox includes its native adblocker after years of other browsers and adblocker extensions offering the feature.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the native adblocker in Firefox for iOS is generally positive. Commenters frequently praised the effort to include an adblocker in the browser, describing it as a step in the right direction and highlighting its potential to improve user experience. However, the discussion also included recurring concerns that the implementation may not be as effective as other adblockers available, such as uBlock Origin Lite for Safari. The overall consensus is that the idea of a native adblocker is compelling, although its effectiveness and limitations are still being debated.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319556,
-      "author": "tosh",
-      "descendants": 119,
-      "kids": "[49319926,49320794,49321249,49321392,49319898,49321412,49320331,49319964,49319937,49321165,49321244,49320724,49320255,49319934,49320559,49320079,49320292,49320843,49320772,49321183,49320441,49320455,49320230,49321290,49320107,49321003,49320632,49321053,49320701,49319986,49320751,49320313,49319949,49320196,49320888,49319939,49320514,49320586,49320663]",
-      "score": 236,
-      "time": 1786884501,
-      "title": "Claude: System Prompts",
-      "type": "story",
-      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
-      "og_image": "https://platform.claude.com/docs/og?locale=en&path=release-notes/system-prompts&design-rev=1",
-      "groq_label": "Early system prompts for Claude are over 300 words long, while the latest ones are more than 3000 words long.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this [article/project/blog post/research/product, in this case, \"Claude: System Prompts\"] is generally positive. Commenters frequently praised the system prompts as a way to provide additional context and instructions to the Claude model, describing them as \"interesting\" and highlighting their potential to improve user experience. However, the discussion also included recurring concerns about the size and content of the system prompts, with some questioning the accuracy of claims about a 80% reduction in size. Overall, the consensus is that the idea is compelling, although its implementation and presentation could be refined, particularly regarding the amount of information and instructions provided.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319389,
-      "author": "Alifatisk",
-      "descendants": 14,
-      "kids": "[49319780,49319801,49319730,49319641,49319783,49319628]",
-      "score": 24,
-      "time": 1786882940,
-      "title": "Research papers using \"kidney disappointment\" instead of \"kidney failure\"",
-      "type": "story",
-      "url": "https://scholar.google.com/scholar?q=%22kidney+disappointment%22",
-      "og_image": "images/49319389.png",
-      "groq_label": "Some medical research papers use the unusual term \"kidney disappointment\" instead of the more common \"kidney failure\" likely due to language translation issues.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis research paper discusses the phenomenon of \"kidney disappointment\" instead of the more commonly used term \"kidney failure.\" The Hacker News discussion was generally skeptical, with many commenters appreciating the historical research that showed the term \"kidney disappointment\" was first introduced in 2021, but raising questions about the validity of using such a term in a formal medical research context. At the same time, several commenters pointed out the likelihood of this being a translation issue or a case of AI-generated content. Overall, the discussion suggests that the community sees the term as potentially problematic and is questioning its legitimacy in academic research.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319349,
-      "author": "austinallegro",
-      "descendants": 6,
-      "kids": "[49321397,49321077,49320790,49320950,49321026,49320786]",
-      "score": 37,
-      "time": 1786882581,
-      "title": "A True Telnet BBS on a Casio Calculator",
-      "type": "story",
-      "url": "https://ei3lh.eu/2026/08/16/a-true-telnet-bbs-on-a-casio-calculator/",
-      "og_image": "https://ei3lh.eu/wp-content/uploads/2026/08/1000013219-1024x683.png",
-      "groq_label": "The project features a Casio calculator running a vintage telnet BBS using a modified firmware.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis nostalgic article aims to solve the problem of reminiscing about old technology. \nBased on the Hacker News discussion, commenters generally viewed \nthe piece positively and highlighted strengths such as the author's storytelling style, \nwhich many appreciated for its ability to be engaging and relatable. Many appreciated \nthe unique subject matter, noting that it brought back memories of their own experiences \nwith older technology, while others believed it could be particularly useful for readers \ninterested in retro computer culture. However, the discussion also revealed several criticisms. \nCommenters expressed concerns about the format being difficult to read due to the font and colors. \nOverall, the Hacker News community considered the article [overall sentiment], recognizing its \nnostalgic value while emphasizing the need for better readability.",
       "groq_explain": null
     }
   ]
