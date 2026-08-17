@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T01:26:49.650Z"
+    "lastUpdated": "2026-08-17T04:47:24.376Z"
   },
   "stories": [
+    {
+      "id": 49326229,
+      "author": "dmarto",
+      "descendants": 14,
+      "kids": "[49326481,49326501,49326602,49326531,49326460,49326524,49326534,49326451]",
+      "score": 16,
+      "time": 1786936897,
+      "title": "Gmail might partially be to blame for receiving emails from other Sean Conners",
+      "type": "story",
+      "url": "https://boston.conman.org/2026/08/11.1",
+      "og_image": "https://boston.conman.org/favicon.png",
+      "groq_label": "People with Gmail addresses that differ by periods in the username, but are intended to go to the same mailbox, have been receiving emails intended for others.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article suggests that Gmail might be partially to blame for receiving emails from other Sean Conners. The Hacker News discussion was generally cautious and divided, with several commenters providing evidence that Google has consistently treated punctuated and unpunctuated addresses as one and the same since the beginning. They cited personal experiences and pointed out that it's possible for multiple people to have the same Gmail address due to typos or incorrect configuration. However, some commenters also raised the possibility that the issue might be caused by senders misconfiguring their email software or intentionally trying to circumvent email filters. At the same time, others questioned the idea that Google would intentionally design such a bug. Overall, the discussion suggests that the community sees promise in investigating this issue but believes there are important challenges that need to be addressed to understand its root cause.",
+      "groq_explain": null
+    },
+    {
+      "id": 49325714,
+      "author": "erickhill",
+      "descendants": 4,
+      "kids": "[49326588,49326078,49326258]",
+      "score": 33,
+      "time": 1786931136,
+      "title": "AGI-64 Brings Sierra Adventures to the Commodore 64",
+      "type": "story",
+      "url": "https://meanhamster.com/news/agi-64-brings-sierra-adventures-to-the-commodore-64",
+      "og_image": "https://meanhamster.com/games/agi-64/space-quest-2.png",
+      "groq_label": "AGI-64 emulates 64K total RAM, but not in the sense of physical memory, by using the Commodore 64's bank-switching ability to create pseudo-address spaces.",
+      "groq_discussion": "Discussion type: – Basic:\n\nThis project, AGI-64: Brings Sierra Adventures to the Commodore 64, aims to bring Sierra Adventures games to the Commodore 64. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its unique name bringing a smile to their faces. Many appreciated the idea's nostalgia, while others believed it could be particularly useful for retro gaming enthusiasts. However, the discussion also revealed several criticisms. Commenters expressed concerns about a need for more explanation about the background technology, and how the project achieves its goal, with some questioning whether it is a tool for recompiling the games. Overall, the Hacker News community considered the project with interest, recognizing its potential to bring new life to old games, while emphasizing that clarification on its implementation would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
     {
       "id": 49325384,
       "author": "spdegabrielle",
@@ -16,6 +46,21 @@
       "og_image": "https://blog.racket-lang.org/img/racket-logo.svg",
       "groq_label": "The Rhombus/Racket community's current library packaging approach is plagued by fraudulent submissions and a lack of clear top library promotion.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Rhombus 1.1 release aims to solve the problem of poor library management and discoverability in the Rhombus/Racket community. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its ease of use and unique customizability. Many appreciated the community's ability to promote and discover top libraries. However, the discussion also revealed several criticisms, including concerns about the package site being a \"stale stream of fraud garbage\" and the need for improvement in promoting top libraries. Overall, the Hacker News community considered the project promising, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": null
+    },
+    {
+      "id": 49325304,
+      "author": "gumby",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 14,
+      "time": 1786926929,
+      "title": "Applying a photosynthetic process to treat \"dry eye\"",
+      "type": "story",
+      "url": "https://www.science.org/content/blog-post/taking-tip-plants-eyes",
+      "og_image": "images/49325304.png",
+      "groq_label": "Artificial photosynthesis technology is being explored to produce hydrogen peroxide in contact lenses to mimic the natural antioxidant properties that prevent dry eye in plants.",
+      "groq_discussion": "No comments.",
       "groq_explain": null
     },
     {
@@ -403,51 +448,6 @@
       "og_image": "https://breck.lol/plMakers.jpg",
       "groq_label": "Many programming language creators display their personal homepages which often showcase a unique blend of humor, personality, and programming expertise.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis article aims to showcase the quirky personal homepages of programming language creators. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted the strength of its unique approach and interesting content, which offers a fascinating glimpse into the personal lives of influential figures in the programming world. Many appreciated the idea of accessing these homepages with ease and the potential for exploration and discovery. However, the discussion also revealed several criticisms, with commenters expressing concerns about the technical feasibility and challenges in implementing a simple button to visit these homepages. Overall, the Hacker News community considered the project exciting and entertaining, recognizing its potential as a valuable resource for programmers and history enthusiasts while emphasizing that addressing these challenges would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49316815,
-      "author": "Wpnx330",
-      "descendants": 1,
-      "kids": "[49316868]",
-      "score": 4,
-      "time": 1786853238,
-      "title": "21,000 MCP servers exposed: the protocol reaches a security inflection point",
-      "type": "story",
-      "url": "https://forkast.news/the-model-context-protocol-reaches-a-security-inflection-point/",
-      "og_image": "https://forkast.news/wp-content/uploads/2026/08/mcp-dev-summit-seoul-preview-1024x572.jpg",
-      "groq_label": "The MCP protocol's STDIO transport model leaves servers exposed with no standard way to verify what an MCP server actually does before connecting.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this exposé of 21,000 MCP servers is highly critical. Commenters frequently praised the initial reaction to the issue, but soon turned their focus to the fundamental weakness of the MCP protocol, which does not provide a standard way to verify the authenticity or intent of MCP servers. Many commenters emphasized the need for features such as lockfiles, audit commands, and signed provenance to ensure the security and trustworthiness of MCP servers. The overall consensus is that the MCP protocol has reached a significant security inflection point, requiring immediate attention and reform.",
-      "groq_explain": "A security problem has been discovered in a system used for AI models to interact with data, and over 21,000 servers are vulnerable. It's not clear if the system's design is secure or not, and this is making AI experts and security researchers disagree about how to fix it. This could have serious implications for how AI is built and used."
-    },
-    {
-      "id": 49316791,
-      "author": "ktwu01",
-      "descendants": 6,
-      "kids": "[49316949,49316859,49316930,49316870,49316874,49316792]",
-      "score": 5,
-      "time": 1786852958,
-      "title": "I checked 30 frontier model cards. Here are the benchmarks labs report",
-      "type": "story",
-      "url": "https://koutian.is-a.dev/benchmark-radar/?view=leaderboard",
-      "og_image": "https://ktwu01.github.io/benchmark-radar/assets/og-card.png",
-      "groq_label": "Frontier model cards from 30 benchmark tests were checked for inconsistencies and potential fabrication through a detailed analysis.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis benchmark report aims to compare the performance of 30 Frontier model cards. Based on the Hacker News discussion, commenters generally viewed the report negatively, highlighting several issues. Many appreciated the idea of cross-examining the benchmarks but felt that the page information was obscured by aggressive AI-generated text, making it difficult to understand. Some pointed out technical issues, such as the page being broken on mobile Safari. However, the discussion also revealed criticisms about the design choice of using AI-generated text, with commenters questioning the usefulness of the report's complex headers and labels. Overall, the Hacker News community considered the report to have potential but emphasized the need for clearer presentation and human explanation to improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49316395,
-      "author": "adm4",
-      "descendants": 3,
-      "kids": "[49316760]",
-      "score": 9,
-      "time": 1786847770,
-      "title": "Zapping Rocks Unlocks Stimulated Geologic Hydrogen",
-      "type": "story",
-      "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
-      "og_image": "https://spectrum.ieee.org/media-library/image.jpg?id=67598580&width=1200&height=600&coordinates=0%2C414%2C0%2C415",
-      "groq_label": "High temperatures can accelerate hydrogen-oxygen reactions causing explosions and making the process even more hazardous.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis research/project \"Zapping Rocks Unlocks Stimulated Geologic Hydrogen\" aims to solve the problem of accessing deep geologic hydrogen. Based on the Hacker News discussion, commenters generally viewed the project with a critical perspective, highlighting concerns about the potential risks associated with using extreme heat in the presence of hydrogen. Many expressed concerns about the safety implications, noting that this approach could lead to unintended consequences, such as increased volatility or accidents. Although others raised questions about the oxygen mixture, the primary criticism centered around the potential dangers of high-temperature hydrogen reactions. However, the discussion also revealed some interest in the idea, with a few commenters suggesting that it could potentially be a groundbreaking solution if the challenges can be adequately addressed. Overall, the Hacker News community considered the project cautiously, emphasizing the need for further investigation into the risks and potential outcomes.",
       "groq_explain": null
     }
   ]
