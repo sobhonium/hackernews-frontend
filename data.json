@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-17T12:50:47.435Z"
+    "lastUpdated": "2026-08-17T13:31:44.645Z"
   },
   "stories": [
+    {
+      "id": 49330215,
+      "author": "enjoyyourlife",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 5,
+      "time": 1786972020,
+      "title": "Show HN: Sokoban AI Solver",
+      "type": "story",
+      "url": "https://mkornreich.me/projects/sokoban/",
+      "og_image": "https://mkornreich.me/og-image.png",
+      "groq_label": "Sokoban AI Solver uses reinforcement learning to solve the notoriously hard puzzle game by training on millions of simulated levels.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49329660,
       "author": "bilsbie",
@@ -16,6 +31,21 @@
       "og_image": "https://pbs.twimg.com/media/HP5RiQZWoAEoat5.jpg",
       "groq_label": "Deflock's camera detection system can be weaponized to disrupt property sales by falsely reporting unauthorized cameras.",
       "groq_discussion": "Discussion type: – Short:\n\nThis Reddit thread discusses a situation where a buyer's showing of a property was canceled after the Deflock system revealed two cameras in use by the HOA. Hacker News commenters generally appreciated the idea of proactively disclosing security camera locations to buyers, seeing it as a potential advantage for buyer's agents. However, they also expressed concerns about the possibility of misuse, such as falsely reporting cameras to hinder a property sale. Overall, the discussion was mixed, with commenters recognizing both the potential benefits and risks of the system.",
+      "groq_explain": null
+    },
+    {
+      "id": 49329583,
+      "author": "untiledsource",
+      "descendants": 3,
+      "kids": "[49330280,49330366,49330243,49330374]",
+      "score": 20,
+      "time": 1786968622,
+      "title": "Mexico Crackdown on Coastal Development Underway",
+      "type": "story",
+      "url": "https://yucatanmagazine.com/mexico-crackdown-on-coastal-development/",
+      "og_image": "https://yucatanmagazine.com/wp-content/uploads/2023/10/Yucatancoastconstruction.jpg",
+      "groq_label": "Fines for unauthorized coastal development in Mexico were previously treated as a routine operating cost for wealthy developers.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis crackdown on unauthorized coastal development in Mexico aims to enforce existing regulations and demolish illegal structures. Hacker News commenters generally appreciated the enforcement of laws, recognizing it as a positive step toward environmental protection and fairness. However, they also expressed concerns about the practical challenges of demolishing structures and questioned the long-term impact on wealthy developers. Overall, the discussion was cautiously optimistic, with commenters acknowledging both the potential benefits and the limitations of the initiative.",
       "groq_explain": null
     },
     {
@@ -419,36 +449,6 @@
       "og_image": "https://tasklet.ai/og-image.png",
       "groq_label": "Tasklet is looking for a professional with significant experience in product design and engineering to lead and optimize their software product development.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319814,
-      "author": "adjohu",
-      "descendants": 14,
-      "kids": "[49321188,49321399,49321205,49321031,49321150,49321088,49321425,49321061,49321044,49321066,49321014,49321069,49321343]",
-      "score": 25,
-      "time": 1786886505,
-      "title": "Show HN: A public AI whose memory is shared across all users",
-      "type": "story",
-      "url": "https://wildstatic.com/",
-      "og_image": "https://wildstatic.com/og.jpg",
-      "groq_label": "Users are comparing the described AI to Microsoft's Tay and Cleverbot, suggesting it shares similar problems or characteristics of previous AI projects that were met with controversy.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis public AI memory-sharing project aims to create a collective intelligence. The Hacker News discussion was generally mixed, with some commenters expressing concerns about the potential risks and limitations of this concept. Some noted parallels to previous projects, such as Tay.ai and Cleverbot, that had similar issues with AI behavior. The project's current state was also met with disappointment and frustration, with commenters noting difficulties engaging with it. Others, however, saw this as a glimpse into the future of AI and continual learning, where every interaction contributes to a shared intelligence.",
-      "groq_explain": null
-    },
-    {
-      "id": 49319633,
-      "author": "pentagrama",
-      "descendants": 82,
-      "kids": "[49320504,49319902,49320353,49319936,49321281,49320566,49320747,49321323,49320225,49321304,49321254,49320484,49319861,49320719,49321468,49321384]",
-      "score": 214,
-      "time": 1786885090,
-      "title": "Firefox for iOS now has a native adblocker",
-      "type": "story",
-      "url": "https://support.mozilla.org/en-US/kb/block-ads-firefox-ios",
-      "og_image": "https://assets-prod.sumo.prod.webservices.mozgcp.net/static/pencil.966aaf14c9fb9489.svg",
-      "groq_label": "Firefox includes its native adblocker after years of other browsers and adblocker extensions offering the feature.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of the native adblocker in Firefox for iOS is generally positive. Commenters frequently praised the effort to include an adblocker in the browser, describing it as a step in the right direction and highlighting its potential to improve user experience. However, the discussion also included recurring concerns that the implementation may not be as effective as other adblockers available, such as uBlock Origin Lite for Safari. The overall consensus is that the idea of a native adblocker is compelling, although its effectiveness and limitations are still being debated.",
       "groq_explain": null
     }
   ]
