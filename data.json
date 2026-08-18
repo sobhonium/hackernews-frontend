@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-18T08:41:19.256Z"
+    "lastUpdated": "2026-08-18T09:17:51.824Z"
   },
   "stories": [
+    {
+      "id": 49342719,
+      "author": "flaburgan",
+      "descendants": 1,
+      "kids": "[49343217,49343145]",
+      "score": 37,
+      "time": 1787039510,
+      "title": "Linux 7.3 improves performance when running out of vRAM",
+      "type": "story",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+      "og_image": "https://pixelcluster.dev/assets/images/RDNA3Microbench.png",
+      "groq_label": "Linux 7.3 optimizes performance when vRAM is exhausted by prioritizing critical memory allocations.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Linux 7.3 release aims to improve performance when running out of vRAM. Hacker News commenters generally appreciated the technical improvements and believed the update could enhance system stability under memory constraints. However, they also expressed concerns about potential edge cases and questioned the long-term reliability of the solution. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49342530,
+      "author": "honungsburk",
+      "descendants": 3,
+      "kids": "[49343241,49343202,49342531]",
+      "score": 17,
+      "time": 1787038107,
+      "title": "Rethinking Database Programming",
+      "type": "story",
+      "url": "https://acadia.engineering/blog/rethinking-database-programming",
+      "og_image": "images/49342530.png",
+      "groq_label": "Evan Czaplicki, creator of Elm, has developed a new functional query language for PostgreSQL and SQLite.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project aims to rethink database programming by introducing a new functional query language for PostgreSQL and SQLite. Hacker News commenters generally appreciated the initiative and expressed enthusiasm for the language, particularly due to its connection to Elm. However, they also expressed limited feedback, with only brief positive remarks and no major criticisms raised. Overall, the discussion was positive, with commenters recognizing the project's potential while acknowledging the lack of detailed discussion or critique.",
+      "groq_explain": null
+    },
+    {
+      "id": 49341411,
+      "author": "newsomix9xl",
+      "descendants": 1,
+      "kids": "[49341412]",
+      "score": 18,
+      "time": 1787028693,
+      "title": "Exercise intensity modulates interorgan communication and is associated with",
+      "type": "story",
+      "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
+      "og_image": "images/49341411.png",
+      "groq_label": "Exercise intensity changes how organs communicate and links to heart and metabolic health in humans.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis research focuses on how exercise intensity affects interorgan communication and its link to cardiometabolic health outcomes in humans. Hacker News commenters generally appreciated the study's exploration of exercise science and believed it could advance understanding of [benefit]. However, they also expressed concerns about the study's scope and questioned the practical implications of the findings. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49340299,
       "author": "cyndunlop",
@@ -406,50 +451,6 @@
       "og_image": "https://www.librarian.net/wp-content/uploads/2026/07/48920624132_01c82cd654_b-600x880.jpg",
       "groq_label": "Companies increasingly design core features to depend on AI, creating lock-in even when users disable or avoid it.",
       "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the article about disabling or avoiding intrusive AI with cautious optimism. Many praised its practical tips and saw value in its approach to regaining control over user experience. However, the discussion also surfaced recurring concerns regarding the broader trend of companies forcing unwanted AI features, with commenters highlighting the inconvenience and inefficiency of having to opt out of default settings. Despite these criticisms, the general sentiment suggests that the community considers the article a promising guide that could become more compelling as users share additional workarounds and tools.",
-      "groq_explain": null
-    },
-    {
-      "id": 49331033,
-      "author": "dhruv3006",
-      "descendants": 132,
-      "kids": "[49333996,49331916,49333266,49331444,49331516,49332095,49331969,49331407,49332356,49331807,49331402,49332043,49331163,49333819,49331950,49331796,49331685,49333031,49331938,49333047,49332416,49331483,49333704,49332483,49332589,49331191,49333366,49332334,49332118,49331966,49331741,49331899,49331645,49332476,49331835,49332163,49331848,49331900,49331663,49331771,49331681,49333170,49332296,49331808,49333605,49331691,49331984,49331875,49331873,49332974,49332797,49332092,49331719,49331922,49332512,49334138,49332745,49333646,49331383,49331895,49331795]",
-      "score": 214,
-      "time": 1786975157,
-      "title": "Ask HN: Alternatives to GitHub",
-      "type": "story",
-      "og_image": "images/49331033.png",
-      "groq_label": "Gitea and Forgejo offer lightweight, fast self-hosted Git solutions with minimal overhead compared to heavier alternatives like GitLab.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion about alternatives to GitHub aims to help users find suitable options based on their needs. The Hacker News discussion was generally mixed, with many commenters appreciating the variety of alternatives like Forgejo, Gitea, GitLab, and CodeBerg, each offering different strengths such as ease of use, self-hosting capabilities, or minimal hassle. At the same time, several commenters raised concerns about the challenges of self-hosting GitLab, including maintenance issues, upgrade problems, and configuration complexities. Overall, the discussion suggests that the community sees promise in these alternatives but believes there are important challenges—particularly around self-hosting—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49330978,
-      "author": "tarunnnp",
-      "descendants": 2,
-      "kids": "[49333500,49333243]",
-      "score": 34,
-      "time": 1786974998,
-      "title": "How to ship a database every day",
-      "type": "story",
-      "url": "https://turbopuffer.com/blog/control-plane",
-      "og_image": "https://turbopuffer.com/og/turbopuffer.png",
-      "groq_label": "Metrics are pushed from BYOC clusters to a central system, aligning with the direction of cluster operator config syncs rather than data flow.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses strategies for deploying a database daily. Hacker News commenters generally appreciated the focus on simplifying data plane management and found the approach interesting. However, they also expressed concerns about monitoring and metrics collection in BYOC (Bring Your Own Cluster) environments, questioning whether push-based metrics systems are used. Overall, the discussion was cautiously positive, with commenters recognizing the potential of the approach while highlighting areas needing further clarification.",
-      "groq_explain": null
-    },
-    {
-      "id": 49330781,
-      "author": "ibotty",
-      "descendants": 29,
-      "kids": "[49333697,49332405,49333427,49332217,49332053,49333255,49333319,49333026,49332883,49332256,49332188,49332992,49333260]",
-      "score": 207,
-      "time": 1786974387,
-      "title": "A Preview of DuckDB v2.0",
-      "type": "story",
-      "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-      "og_image": "https://duckdb.org/images/blog/thumbs/duckdb-preview-2-0.png",
-      "groq_label": "DuckDB v2.0 introduces a stable C++ API for extensions, ensuring long-term compatibility for developers.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the preview of DuckDB v2.0 with cautious optimism. Many praised its new stable C++ API for extensions, calling it a game-changer for building and maintaining extensions reliably. The project's ability to enable out-of-core data processing on consumer-grade hardware was highlighted as a major strength, with users sharing how they’ve adopted DuckDB across multiple companies to reduce resource requirements. The portability and fun factor of the tool were also frequently mentioned.\n\nHowever, the discussion also surfaced recurring concerns. Some commenters criticized the AI-influenced writing style in the announcement, finding it distracting. Others pointed out missing features, such as native ordered tables for time-series data or procedural functionality like PL/pgSQL. Technical questions about runtime size, particularly for running DuckDB in a stripped WASM version in browsers, were raised. Additionally, the expansion into cloud data warehouse territory, despite the founders' initial reluctance, sparked debate.\n\nDespite these criticisms, the general sentiment suggests that the community considers DuckDB a promising and astonishing project that continues to push the boundaries of local and lightweight data processing.",
       "groq_explain": null
     }
   ]
