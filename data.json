@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-18T04:40:47.344Z"
+    "lastUpdated": "2026-08-18T05:14:44.098Z"
   },
   "stories": [
+    {
+      "id": 49340299,
+      "author": "cyndunlop",
+      "descendants": 2,
+      "kids": "[49341489,49340911]",
+      "score": 31,
+      "time": 1787019062,
+      "title": "The Benchmarkpocalypse",
+      "type": "story",
+      "url": "https://danluu.com/benchpocalypse/",
+      "og_image": "images/49340299.png",
+      "groq_label": "LLMs often fabricate confident-sounding falsehoods, a phenomenon linked to training on human-like text and RLHF reinforcement.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses the problem of LLMs providing confident but incorrect or misleading information. Hacker News commenters generally appreciated the discussion on the reliability of LLMs and believed the article could raise awareness about their limitations. However, they also expressed concerns about the broader implications of such \"lies\" and questioned the root causes behind this behavior. Overall, the discussion was critical, with commenters recognizing both the article's potential to highlight an important issue and its limitations in fully addressing the problem.",
+      "groq_explain": null
+    },
     {
       "id": 49339097,
       "author": "rglover",
@@ -435,21 +450,6 @@
       "og_image": "https://duckdb.org/images/blog/thumbs/duckdb-preview-2-0.png",
       "groq_label": "DuckDB v2.0 introduces a stable C++ API for extensions, ensuring long-term compatibility for developers.",
       "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the preview of DuckDB v2.0 with cautious optimism. Many praised its new stable C++ API for extensions, calling it a game-changer for building and maintaining extensions reliably. The project's ability to enable out-of-core data processing on consumer-grade hardware was highlighted as a major strength, with users sharing how they’ve adopted DuckDB across multiple companies to reduce resource requirements. The portability and fun factor of the tool were also frequently mentioned.\n\nHowever, the discussion also surfaced recurring concerns. Some commenters criticized the AI-influenced writing style in the announcement, finding it distracting. Others pointed out missing features, such as native ordered tables for time-series data or procedural functionality like PL/pgSQL. Technical questions about runtime size, particularly for running DuckDB in a stripped WASM version in browsers, were raised. Additionally, the expansion into cloud data warehouse territory, despite the founders' initial reluctance, sparked debate.\n\nDespite these criticisms, the general sentiment suggests that the community considers DuckDB a promising and astonishing project that continues to push the boundaries of local and lightweight data processing.",
-      "groq_explain": null
-    },
-    {
-      "id": 49330684,
-      "author": "kevcampb",
-      "descendants": 485,
-      "kids": "[49330987,49330791,49331168,49333670,49331142,49331097,49332275,49332135,49330993,49330857,49330751,49331479,49331328,49330888,49333600,49331215,49332756,49333280,49332543,49332433,49333209,49332700,49333156,49331557,49330764,49332315,49330795,49330784,49331066,49330704,49332373,49331502,49332605,49332880,49331051,49332912,49332390,49330926,49332172,49330880,49332271,49331507,49331365,49332268,49331944,49332070,49331827,49330930,49332306,49330838,49332777,49331445,49330753,49331186,49330977,49332149,49331468,49332824,49331126,49330778,49330905,49332265,49332089,49330834,49331173,49330810,49330763,49330725,49331070,49330912,49331055,49332443,49332191,49330723,49332228,49330709,49332038,49333040,49331570,49331203,49332554,49332617,49330787,49331345,49331697,49331432,49330817,49330899,49331314,49331237,49331559,49331364,49330794,49330924,49330915]",
-      "score": 682,
-      "time": 1786974055,
-      "title": "Incident with Github.com",
-      "type": "story",
-      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "og_image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
-      "groq_label": "Github's outages reveal a growing tension between centralized development platforms and the need for decentralized, resilient alternatives.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis GitHub incident highlights ongoing reliability and scalability challenges at GitHub.com. The Hacker News discussion was generally critical, with many commenters expressing frustration over prolonged outages and questioning GitHub’s ability to maintain stable service. At the same time, several commenters acknowledged the complexity of the problem, citing factors like rapid growth in LLM-generated traffic and Microsoft’s management as contributing issues. Overall, the discussion suggests that while the community recognizes GitHub’s importance, there is significant concern about its long-term reliability and whether it can address these challenges effectively.",
       "groq_explain": null
     }
   ]
