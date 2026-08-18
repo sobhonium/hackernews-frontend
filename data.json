@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-18T01:23:18.098Z"
+    "lastUpdated": "2026-08-18T04:40:47.344Z"
   },
   "stories": [
+    {
+      "id": 49339097,
+      "author": "rglover",
+      "descendants": 9,
+      "kids": "[49340814,49340545,49340261,49340188,49340078,49339623,49340115,49340781,49340648]",
+      "score": 54,
+      "time": 1787009308,
+      "title": "Repair Cafe – Fix Your Broken Items",
+      "type": "story",
+      "url": "https://www.repaircafe.org/",
+      "og_image": "https://www.repaircafe.org/wp-content/uploads/2022/01/Koffiezetapparaat_vierkant.jpg",
+      "groq_label": "A \"Repair Cafe\" can expand into an \"international component database\" for 3D-printable and custom-manufactured replacement parts.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this [Repair Cafe project] with positive reactions. Many commenters appreciated the concept of community-driven repair events and considered it useful because it promotes sustainability and reduces waste. Others highlighted the potential for local repair initiatives to build shared expertise and strengthen community ties as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on the need for better organization and accessibility, particularly around local awareness and participation. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement in terms of scalability and reach.",
+      "groq_explain": null
+    },
     {
       "id": 49338732,
       "author": "jimt1234",
@@ -91,6 +106,21 @@
       "og_image": "https://openrouter.ai/openai/gpt-5.6-sol/opengraph-image-1oizug?abd1ffaa6102aa5f",
       "groq_label": "OpenRouter's 50% price cut on GPT-5.6 Sol may be subsidized by harvesting user conversation data as \"thinking traces.\"",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis pricing cut for GPT-5.6 Sol aims to address the problem of high costs for users accessing advanced AI models. The Hacker News discussion was generally positive, with many commenters appreciating the reduced pricing and the model's capabilities. At the same time, several commenters raised concerns about the limitations of the price cut, arguing that it only applies to OpenRouter and not native OpenAI pricing. Overall, the discussion suggests that the community sees promise in the price reduction but believes there are important challenges, such as the model's occasional overcomplication of tasks, that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49337392,
+      "author": "DeepLogin",
+      "descendants": 115,
+      "kids": "[49341203,49340620,49340718,49340509,49341045,49341292,49340251,49340408,49340687,49341049,49341039,49340370,49340111,49340125,49337909,49340927,49340474,49340791,49340766,49338143,49337953,49340529,49340434,49337823,49337850,49340494,49339998,49340209,49341000,49340870]",
+      "score": 233,
+      "time": 1786999570,
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "type": "story",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/",
+      "og_image": "https://responsiblestatecraft.org/media-library/screenshot-of-the-hanover-institute-s-website-taken-on-aug-16-2026.png?id=67630219&width=1200&height=600&coordinates=0%2C0%2C0%2C65",
+      "groq_label": "Israel created a fake think tank to manipulate AI chatbots while a top Israeli official openly called for killing Palestinians nightly.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the exposure of Israel's alleged tactic of creating fake think tanks to manipulate AI chatbots, considering it an important issue due to concerns about misinformation and foreign influence. Others highlighted the broader implications of AI-generated narratives and the potential for such tactics to become widespread in marketing, PR, and geopolitical influence. Nevertheless, recurring criticisms focused on the ethical and practical concerns of using AI to spread propaganda, particularly given the involvement of major AI models with government entities like the Pentagon. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it raises serious questions about the future of information integrity and AI ethics.",
       "groq_explain": null
     },
     {
@@ -420,35 +450,6 @@
       "og_image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
       "groq_label": "Github's outages reveal a growing tension between centralized development platforms and the need for decentralized, resilient alternatives.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis GitHub incident highlights ongoing reliability and scalability challenges at GitHub.com. The Hacker News discussion was generally critical, with many commenters expressing frustration over prolonged outages and questioning GitHub’s ability to maintain stable service. At the same time, several commenters acknowledged the complexity of the problem, citing factors like rapid growth in LLM-generated traffic and Microsoft’s management as contributing issues. Overall, the discussion suggests that while the community recognizes GitHub’s importance, there is significant concern about its long-term reliability and whether it can address these challenges effectively.",
-      "groq_explain": null
-    },
-    {
-      "id": 49330632,
-      "author": "yodon",
-      "descendants": 97,
-      "kids": "[49331770,49332201,49332111,49330861,49331199,49333058,49331626,49332641,49333676,49331624,49331659,49331018,49332437,49330663,49332131,49330870,49331524,49332673,49333365,49332655,49332601,49332792,49330689,49331233,49332491,49331598,49333182,49330768,49332143,49330662,49330776,49330672,49330825,49332200,49330752,49332146,49332220,49331462,49331338,49331239,49332336,49333398]",
-      "score": 280,
-      "time": 1786973848,
-      "title": "GitHub down again? no PR access",
-      "type": "story",
-      "og_image": "images/49330632.png",
-      "groq_label": "GitHub's recent outages reveal a struggle to maintain reliability amid exponential growth, with users reporting failures in core services like PR access and repo listings.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to GitHub's recent downtime with mixed reactions. Many commenters appreciated the push toward alternatives like GitLab, Forgejo, Codeberg, and self-hosted options, highlighting their reliability, speed, and lack of distractions. Others criticized GitHub’s declining performance, citing frequent outages, unreliability, and concerns over Microsoft’s influence, including worries about code being used for AI training. Recurring criticisms focused on GitHub’s inability to maintain core services, its centralized model struggling with scale, and its status page’s lack of transparency. As a whole, commenters viewed the situation as a sign of GitHub’s diminishing reliability while acknowledging the growing need for viable alternatives.",
-      "groq_explain": null
-    },
-    {
-      "id": 49330597,
-      "author": "SpyCoder77",
-      "descendants": 649,
-      "kids": "[49333670,49330791,49331168,49331142,49331097,49330987,49332275,49332201,49330751,49330857,49332135,49331479,49332111,49330993,49331328,49330861,49331770,49331199,49330888,49331215,49333942,49332641,49332756,49333058,49331626,49332543,49331624,49332433,49332700,49331557,49330617,49330764,49331659,49333280,49330795,49330784,49333209,49331066,49332315,49330704,49330793,49333156,49331018,49333600,49330663,49332437,49331325,49331502,49334036,49331051,49332373,49332131,49330870,49332605,49330926,49331524,49332390,49330880,49332880,49332912,49332172,49330705,49331507,49331365,49332271,49331944,49332268,49330930,49330838,49331827,49332070,49332306,49331445,49330753,49333174,49331186,49330977,49332655,49332777,49331380,49332149,49333676,49332601,49331468,49331126,49330778,49333365,49330667,49330834,49332792,49332824,49332089,49332265,49330758,49331173,49330689,49330810,49330763,49330725,49330648,49332491,49330843,49330912,49331070,49333072,49330627,49331055,49332673,49330723,49332191,49332443,49330768,49331598,49332228,49330709,49332143,49332038,49333182,49330662,49331570,49330776,49331526,49331203,49331344,49330964,49333040,49330672,49330825,49332554,49330787,49332801,49332617,49331345,49332200,49331697,49331432,49330752,49330899,49332146,49331314,49330817,49331237,49331559,49331506,49331364,49333856,49330794,49330924,49331454,49331462,49332220,49331239,49330915,49331338,49332336,49333398]",
-      "score": 131,
-      "time": 1786973706,
-      "title": "Incident with Github.com",
-      "type": "story",
-      "url": "https://www.githubstatus.com/incidents/zkxwbgr0cnmx",
-      "og_image": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png",
-      "groq_label": "GitHub's repeated outages expose a critical gap in the market for a reliable, low-cost alternative with full GitHub feature parity.",
-      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the GitHub outage with cautious optimism. Many praised the need for reliable alternatives and saw value in self-hosted or community-driven solutions like Forgejo. However, the discussion also surfaced recurring concerns regarding GitHub's reliability and long-term stability, including frequent outages and perceived mismanagement. Despite these criticisms, the general sentiment suggests that the community considers the incident a wake-up call, with some users actively seeking or recommending alternatives while acknowledging that GitHub’s dominance makes transitioning difficult.",
       "groq_explain": null
     }
   ]
