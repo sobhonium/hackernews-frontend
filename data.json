@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-18T09:17:51.824Z"
+    "lastUpdated": "2026-08-18T12:53:31.738Z"
   },
   "stories": [
+    {
+      "id": 49344114,
+      "author": "xoa",
+      "descendants": 8,
+      "kids": "[49344115,49344529,49344796]",
+      "score": 42,
+      "time": 1787052423,
+      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
+      "type": "story",
+      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
+      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg",
+      "groq_label": "Flock's shared camera network loses value as cities withdraw, demonstrating the fragility of systems dependent on network effects.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the decline of Flock's shared camera network as Wisconsin cities cancel their contracts, reducing the system's overall value. The Hacker News discussion was generally mixed, with many commenters appreciating the insight into network effects and the unintended consequences of surveillance systems. At the same time, several commenters raised concerns about privacy, the trade-offs between different surveillance technologies, and the broader implications of automated license plate readers. Overall, the discussion suggests that the community sees the article as a compelling example of how interconnected systems can unravel, but also highlights important ethical and practical challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49343559,
+      "author": "pseudolus",
+      "descendants": 111,
+      "kids": "[49343955,49343864,49343935,49344092,49343945,49343826,49343923,49343652,49344445,49344836,49344336,49344653,49344556,49344436,49344564,49344271,49344066,49343827,49344606,49343999,49343833,49343708,49344124,49344132,49344024,49343828,49343929,49344543]",
+      "score": 190,
+      "time": 1787048008,
+      "title": "Google buys crashed airline Spirit's data at auction, because AI",
+      "type": "story",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "og_image": "https://image.theregister.com/5273664.jpg?imageId=5273664&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "groq_label": "Google acquired Spirit Airlines' de-identified customer data—including 100M emails, 500M Teams items, 30M calls, and 11M in-flight Wi-Fi sales—from a bankruptcy auction, highlighting how AI's hunger for training data turns distressed assets into valuable commodities.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis acquisition by Google aims to solve the problem of acquiring large-scale, diverse datasets for AI training and development. The Hacker News discussion was generally mixed, with many commenters appreciating the scale and potential value of the data while expressing skepticism about its ethical and practical implications. At the same time, several commenters raised concerns about privacy, data anonymization, and the broader implications of companies treating personal data as a commodity. Overall, the discussion suggests that the community sees the move as a significant but troubling development, highlighting both the potential for AI advancement and the risks of unchecked data exploitation.",
+      "groq_explain": null
+    },
     {
       "id": 49342719,
       "author": "flaburgan",
@@ -31,6 +61,21 @@
       "og_image": "images/49342530.png",
       "groq_label": "Evan Czaplicki, creator of Elm, has developed a new functional query language for PostgreSQL and SQLite.",
       "groq_discussion": "Discussion type: – Short\n\nThis project aims to rethink database programming by introducing a new functional query language for PostgreSQL and SQLite. Hacker News commenters generally appreciated the initiative and expressed enthusiasm for the language, particularly due to its connection to Elm. However, they also expressed limited feedback, with only brief positive remarks and no major criticisms raised. Overall, the discussion was positive, with commenters recognizing the project's potential while acknowledging the lack of detailed discussion or critique.",
+      "groq_explain": null
+    },
+    {
+      "id": 49342472,
+      "author": "andros",
+      "descendants": 20,
+      "kids": "[49344813,49344550,49344227,49344373,49344695,49344199,49344692,49344147,49343887,49343944]",
+      "score": 45,
+      "time": 1787037695,
+      "title": "Finger: Social network that never died",
+      "type": "story",
+      "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
+      "og_image": "https://img.andros.dev/rH0oYj_cZ0wTERmKJDdUQxzQ45Y=/600x0/filters:format(avif):quality(85)/https://andros.dev/media/thumbnails/franco-antonio-giovanella-Lzys6r1xFD8-unsplash.jpg",
+      "groq_label": "Finger's simplicity—no encryption, headers, or sessions—makes it eerily reminiscent of modern AI systems.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis social network from the past aims to solve the problem of decentralized, text-based online interaction. The Hacker News discussion was generally positive, with many commenters appreciating the nostalgic and simple nature of Finger. At the same time, several commenters raised concerns about its lack of encryption, discovery layers, and modern features. Overall, the discussion suggests that the community sees promise in the project's simplicity and historical significance but believes there are important limitations that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -406,51 +451,6 @@
       "og_image": "https://signoregalilei.com/wp-content/uploads/2026/08/Rydberg_Polaron_schematic.svg_.png",
       "groq_label": "Scientists trapped 170 strontium atoms inside a single Rydberg atom's expanded electron orbital by cooling a Bose-Einstein Condensate to near absolute zero.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article discusses a scientific breakthrough involving a Bose-Einstein Condensate (BEC) of strontium atoms, where one atom is excited into a Rydberg state, trapping up to 170 other atoms within its expanded electron orbital. Hacker News commenters generally appreciated the novelty of the concept and its potential implications for quantum physics and chemistry. However, they also expressed concerns about the practicality and purpose of the experiment, with one commenter questioning whether it was \"completely pointless.\" Overall, the discussion was mixed, with commenters recognizing both the scientific intrigue and the skepticism surrounding the project's real-world applications.",
-      "groq_explain": null
-    },
-    {
-      "id": 49331423,
-      "author": "galnagli",
-      "descendants": 43,
-      "kids": "[49333161,49332391,49333653,49332462,49331819,49332696,49332364,49332034,49332134,49332552,49331825,49332398,49332614]",
-      "score": 96,
-      "time": 1786976318,
-      "title": "AI-Generated GitHub Copilot \"Autofix\" Allowed Compromise of Snowflake's Jira",
-      "type": "story",
-      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-      "og_image": "https://www.datocms-assets.com/75231/1786964856-image.png?fm=webp",
-      "groq_label": "Autofix replaced a deliberate env + jq command with a vulnerable shell string, introducing a command injection vulnerability.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis incident involving an AI-generated GitHub Copilot \"autofix\" that compromised Snowflake's Jira highlights the risks of automated code changes without proper safeguards. The Hacker News discussion was generally critical, with many commenters appreciating the need for human oversight in security-sensitive environments. At the same time, several commenters raised concerns about the limitations of AI-driven fixes, arguing that the incident underscored the dangers of blindly trusting automation. Overall, the discussion suggests that the community sees the event as a cautionary tale about the importance of rigorous peer review and static analysis tools, while also acknowledging the potential for AI to streamline workflows when used responsibly.",
-      "groq_explain": null
-    },
-    {
-      "id": 49331222,
-      "author": "nyku",
-      "descendants": 58,
-      "kids": "[49332254,49331838,49333530,49331921,49332746,49332733,49332147,49332694,49332078,49331688,49332359,49332071,49332985,49332360,49332870,49332446,49331945]",
-      "score": 166,
-      "time": 1786975679,
-      "title": "Apple's App Tracking Transparency treated its own apps better than rivals",
-      "type": "story",
-      "url": "https://www.bundeskartellamt.de/SharedDocs/Meldung/EN/Pressemitteilungen/2026/08_17_2026_Apple_ATTF.html",
-      "og_image": "https://www.bundeskartellamt.de/SiteGlobals/Frontend/Images/logo.svg?__blob=normal&v=4",
-      "groq_label": "Apple granted its own apps more lenient tracking permission prompts under ATT before equalizing them with third-party apps, potentially reducing privacy standards for all users.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about Apple's changes to its rules for personalized advertising in apps aims to address concerns around unequal treatment of first-party and third-party apps in terms of data tracking permissions. The Hacker News discussion was generally mixed, with many commenters appreciating Apple's move to equalize the permission prompts for all apps. At the same time, several commenters raised concerns about the broader implications of these changes, arguing that they may reduce user privacy protections overall. Overall, the discussion suggests that the community sees some promise in the project but believes there are important challenges and potential unintended consequences that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49331220,
-      "author": "ColinWright",
-      "descendants": 20,
-      "kids": "[49332207,49333657,49331888,49333149,49331925,49332514,49332176]",
-      "score": 75,
-      "time": 1786975676,
-      "title": "How to disable or avoid intrusive AI",
-      "type": "story",
-      "url": "https://www.librarian.net/notoai/",
-      "og_image": "https://www.librarian.net/wp-content/uploads/2026/07/48920624132_01c82cd654_b-600x880.jpg",
-      "groq_label": "Companies increasingly design core features to depend on AI, creating lock-in even when users disable or avoid it.",
-      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the article about disabling or avoiding intrusive AI with cautious optimism. Many praised its practical tips and saw value in its approach to regaining control over user experience. However, the discussion also surfaced recurring concerns regarding the broader trend of companies forcing unwanted AI features, with commenters highlighting the inconvenience and inefficiency of having to opt out of default settings. Despite these criticisms, the general sentiment suggests that the community considers the article a promising guide that could become more compelling as users share additional workarounds and tools.",
       "groq_explain": null
     }
   ]
