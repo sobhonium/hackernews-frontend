@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-19T12:54:49.704Z"
+    "lastUpdated": "2026-08-19T13:41:22.027Z"
   },
   "stories": [
     {
@@ -31,6 +31,21 @@
       "og_image": "https://grapheneos.social/system/site_uploads/files/000/000/002/@1x/42ead1439dbbdc50.png",
       "groq_label": "Motorola's high-end phones in 2027 will run GrapheneOS, with lower-end models excluded due to weaker security updates from Qualcomm.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article about GrapheneOS becoming available on high-end Motorola phones in 2027 aims to solve the problem of providing a more secure and privacy-focused mobile operating system. The Hacker News discussion was generally mixed, with many commenters appreciating GrapheneOS's focus on security and its potential to expand beyond Google's Pixel devices. At the same time, several commenters raised concerns about the project's reliance on high-end hardware and Qualcomm's involvement, arguing that this limits accessibility and raises questions about funding sources. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around hardware requirements and vendor partnerships—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49360015,
+      "author": "kareiva",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 16,
+      "time": 1787138510,
+      "title": "A joke domain purchase turned in geopolitical warfare",
+      "type": "story",
+      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+      "og_image": "https://sprocketfox.io/xssfox/images/war.png",
+      "groq_label": "A Russian oligarch bought a domain name that accidentally became a tool in geopolitical conflict.",
+      "groq_discussion": "No comments.",
       "groq_explain": null
     },
     {
@@ -436,21 +451,6 @@
       "og_image": "https://www.videogameschronicle.com/files/2019/05/31957465_10156266296628764_8581449025113292800_o.jpg",
       "groq_label": "Warren Spector's retirement announcement contrasts with the expectation that AI might bring him back to game development.",
       "groq_discussion": "Discussion type: – Short:\n\nThis retirement announcement from Deus Ex creator Warren Spector highlights his impact on game development. Hacker News commenters generally appreciated his work, particularly Deus Ex 1, praising its unique feel and character/equipment development opportunities. However, they also noted its limitations compared to modern games. Overall, the discussion was positive, with commenters recognizing Spector's legacy while acknowledging the potential for future returns, possibly driven by advancements in AI.",
-      "groq_explain": null
-    },
-    {
-      "id": 49344825,
-      "author": "otherayden",
-      "descendants": 6,
-      "kids": "[49345381,49345360,49345311,49345071,49345336]",
-      "score": 43,
-      "time": 1787057034,
-      "title": "Using the railway network as a flatbed scanner",
-      "type": "story",
-      "url": "https://philo.gay/linecam/",
-      "og_image": "https://philo.gay/linecam/blogpics_1x/cranes-edit.jpg",
-      "groq_label": "A line-scan camera mounted on a train captures an \"infinite\" image of tracks by continuously scanning, a technique also used by railway operators for inspections.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project aims to use the railway network as a flatbed scanner. Hacker News commenters generally appreciated the creative and unconventional approach, noting its inspiration and artistic potential. However, they also pointed out practical limitations, such as the lack of precision compared to traditional scanning methods. Overall, the discussion was positive, with commenters recognizing both the project's novelty and its challenges.",
       "groq_explain": null
     }
   ]
