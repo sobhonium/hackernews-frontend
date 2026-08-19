@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-19T09:22:20.077Z"
+    "lastUpdated": "2026-08-19T12:54:49.704Z"
   },
   "stories": [
+    {
+      "id": 49360545,
+      "author": "yassa9",
+      "descendants": 4,
+      "kids": "[49360918,49360875,49360761]",
+      "score": 13,
+      "time": 1787141992,
+      "title": "Geolocating a random island using geometry and CUDA programming",
+      "type": "story",
+      "url": "https://yassa9.github.io/osint/gralhix-004/",
+      "og_image": "https://yassa9.github.io/images/icon.jpg",
+      "groq_label": "OpenStreetMap data's high-resolution features enable precise geolocation of remote islands using geometric and CUDA-based computational methods.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on solving the problem of geolocating a random island using geometry and CUDA programming. Hacker News commenters generally appreciated the technical approach and found the process impressive, particularly highlighting the use of OpenStreetMap data as a valuable resource for OSINT purposes. However, they also expressed curiosity about broader applications, such as using the method for self-location without GPS. Overall, the discussion was positive, with commenters recognizing both the project's potential and its innovative use of technology.",
+      "groq_explain": null
+    },
+    {
+      "id": 49360242,
+      "author": "exceptione",
+      "descendants": 23,
+      "kids": "[49360904,49360570,49360564,49360732,49360243,49360267,49360601,49360560]",
+      "score": 103,
+      "time": 1787140018,
+      "title": "GrapheneOS in 2027 available on high-end Motorola phones",
+      "type": "story",
+      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
+      "og_image": "https://grapheneos.social/system/site_uploads/files/000/000/002/@1x/42ead1439dbbdc50.png",
+      "groq_label": "Motorola's high-end phones in 2027 will run GrapheneOS, with lower-end models excluded due to weaker security updates from Qualcomm.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about GrapheneOS becoming available on high-end Motorola phones in 2027 aims to solve the problem of providing a more secure and privacy-focused mobile operating system. The Hacker News discussion was generally mixed, with many commenters appreciating GrapheneOS's focus on security and its potential to expand beyond Google's Pixel devices. At the same time, several commenters raised concerns about the project's reliance on high-end hardware and Qualcomm's involvement, arguing that this limits accessibility and raises questions about funding sources. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around hardware requirements and vendor partnerships—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49359425,
+      "author": "gurov",
+      "descendants": 38,
+      "kids": "[49359983,49359959,49360061,49360072,49360583,49359851,49359992,49359704,49360275,49359903,49360185,49360206,49359440]",
+      "score": 75,
+      "time": 1787134500,
+      "title": "Air Theremin – a browser theremin you play by waving at your webcam",
+      "type": "story",
+      "url": "https://theremin.bizibah.com/",
+      "og_image": "https://theremin.bizibah.com/og.png",
+      "groq_label": "A browser-based theremin uses webcam hand gestures to control pitch, volume, and vibrato in real time.",
+      "groq_discussion": "Discussion type: – Short\n\nThis browser-based theremin project aims to solve the problem of making a contactless musical instrument accessible via webcam. Hacker News commenters generally appreciated the creativity and nostalgic appeal of the project, noting that it successfully recreates the theremin experience in a virtual format. Many found it fun to play with and praised its simplicity and effectiveness. However, some users expressed concerns about privacy and usability, particularly regarding webcam access and camera activation. Overall, the discussion was positive, with commenters recognizing both the project's potential and its minor limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49358327,
+      "author": "flaburgan",
+      "descendants": 44,
+      "kids": "[49360781,49359817,49360209,49358830,49358328,49358976,49359008,49360879,49358978,49359029,49359259,49360325,49360190,49360597,49359279,49359136,49359300,49359004,49359712,49360487]",
+      "score": 115,
+      "time": 1787125639,
+      "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
+      "type": "story",
+      "url": "https://www.modular.com/blog/modcon-announcements",
+      "og_image": "https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a845980ea521c5fbe46a88c_Highlights.png",
+      "groq_label": "Mojo leverages MLIR to enable compiler optimizations as libraries, allowing domain-specific tuning without modifying the compiler itself.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project (the Mojo language by Modular, now Qualcomm) aims to solve the problem of simplifying high-performance programming for AI and systems development. The Hacker News discussion was generally mixed, with many commenters appreciating its technical strengths, such as its integration with MLIR for compiler optimizations and its Python-like syntax with features like comptime and tile support. At the same time, several commenters raised concerns about its long-term viability, arguing that the delayed open-sourcing and Qualcomm's acquisition cast doubt on its future. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around sustainability and adoption—that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49358259,
       "author": "XzetaU8",
@@ -391,66 +451,6 @@
       "og_image": "https://philo.gay/linecam/blogpics_1x/cranes-edit.jpg",
       "groq_label": "A line-scan camera mounted on a train captures an \"infinite\" image of tracks by continuously scanning, a technique also used by railway operators for inspections.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project aims to use the railway network as a flatbed scanner. Hacker News commenters generally appreciated the creative and unconventional approach, noting its inspiration and artistic potential. However, they also pointed out practical limitations, such as the lack of precision compared to traditional scanning methods. Overall, the discussion was positive, with commenters recognizing both the project's novelty and its challenges.",
-      "groq_explain": null
-    },
-    {
-      "id": 49344811,
-      "author": "Vinnl",
-      "descendants": 2,
-      "kids": "[49345327,49345389,49345259]",
-      "score": 30,
-      "time": 1787056973,
-      "title": "Fairphone is now officially available in the United States",
-      "type": "story",
-      "url": "https://www.fairphone.com/nl/stories/the-fairphone-gen-6-is-all-about-giving-you-more",
-      "og_image": "https://www.fairphone.com/web/content/fairphone.story/192/thumbnail/FP6+Launch-Blog-Header.jpg",
-      "groq_label": "Fairphone's U.S. launch excludes Verizon support despite its carrier partnerships.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article announces the official availability of Fairphone in the United States. Hacker News commenters generally appreciated the initiative but expressed concerns about the lack of Verizon support. Overall, the discussion was mixed, with commenters recognizing the project's potential while questioning its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49344654,
-      "author": "DeepLogin",
-      "descendants": 14,
-      "kids": "[49345419,49345324,49345056,49345355,49345264,49345118]",
-      "score": 39,
-      "time": 1787055835,
-      "title": "Meta Files Patent for Facial Recognition, Automatic Recording of People",
-      "type": "story",
-      "url": "https://www.privacyguides.org/news/2026/08/17/meta-files-patent-for-facial-recognition-automatic-recording-of-people/",
-      "og_image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDF8fHJheSUyMGJhbnN8ZW58MHx8fHwxNzg3MDA1MjE5fDA&ixlib=rb-4.1.0&q=80&w=2000",
-      "groq_label": "Meta's patent suggests facial recognition combined with automatic recording could enable crowdsourced surveillance where everyone's devices continuously document others' activities.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this Meta patent for facial recognition and automatic recording is overwhelmingly negative. Commenters frequently criticized the project, describing it as dystopian and highlighting its potential to erode privacy completely. However, the discussion also included recurring concerns about the role of legal pressure in pushing such technologies forward, with many questioning the assumption that forced verification systems will lead to a safer or more transparent society. The overall consensus is that the idea is alarming, and its long-term implications for privacy and surveillance depend on how it is implemented and regulated.",
-      "groq_explain": null
-    },
-    {
-      "id": 49344643,
-      "author": "porridgeraisin",
-      "descendants": 9,
-      "kids": "[49345175,49345309,49345119,49345285,49345200,49345027,49344969,49345135]",
-      "score": 41,
-      "time": 1787055778,
-      "title": "Claude writing a macOS driver for my obscure HP printer built only for Windows",
-      "type": "story",
-      "url": "https://twitter.com/kuberwastaken/status/2089377982536388964",
-      "og_image": "https://pbs.twimg.com/media/HP72MdaaEAAAX7z.jpg",
-      "groq_label": "A developer reverse-engineered macOS printer drivers for an obscure HP printer originally built only for Windows.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project involves writing a macOS driver for an obscure HP printer originally built only for Windows. Hacker News commenters generally appreciated the initiative and believed it could enable greater hardware freedom and customization. However, they also expressed concerns about the practical challenges of printer driver development and questioned the long-term viability of such niche projects. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49344114,
-      "author": "xoa",
-      "descendants": 8,
-      "kids": "[49344115,49344529,49344796]",
-      "score": 42,
-      "time": 1787052423,
-      "title": "As Wisconsin cities flee Flock, its shared camera network loses value",
-      "type": "story",
-      "url": "https://arstechnica.com/tech-policy/2026/08/as-wisconsin-cities-flee-flock-its-shared-camera-network-loses-value/",
-      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/flock-camera-1152x648-1779223467.jpg",
-      "groq_label": "Flock's shared camera network loses value as cities withdraw, demonstrating the fragility of systems dependent on network effects.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the decline of Flock's shared camera network as Wisconsin cities cancel their contracts, reducing the system's overall value. The Hacker News discussion was generally mixed, with many commenters appreciating the insight into network effects and the unintended consequences of surveillance systems. At the same time, several commenters raised concerns about privacy, the trade-offs between different surveillance technologies, and the broader implications of automated license plate readers. Overall, the discussion suggests that the community sees the article as a compelling example of how interconnected systems can unravel, but also highlights important ethical and practical challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
