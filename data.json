@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-19T16:39:20.993Z"
+    "lastUpdated": "2026-08-19T17:02:39.792Z"
   },
   "stories": [
     {
@@ -16,6 +16,36 @@
       "og_image": "https://repository-images.githubusercontent.com/1175900220/ddf244eb-befe-4ea2-a784-b1b91be1d0eb",
       "groq_label": "OneCLI provides a sandboxed agent harness to safely run and manage commands across teams in an open-source tool.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49363668,
+      "author": "coloneltcb",
+      "descendants": 1,
+      "kids": "[49364052]",
+      "score": 6,
+      "time": 1787156765,
+      "title": "Extensible Software in the Age of LLMs",
+      "type": "story",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "og_image": "https://jeremymorrell.dev/_astro/omg-meme-social.BBc_Z2VQ.png",
+      "groq_label": "AI can turn user requests into pull requests, potentially reducing the need for programmers in software development.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article discusses the future of software development in the age of large language models (LLMs). Hacker News commenters generally appreciated the vision of AI-driven software development, particularly the idea of AI handling user requests, prioritizing tasks, and generating pull requests. However, they also expressed concerns about the limitations of manual testing and the potential reduction in the need for programmers. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49363587,
+      "author": "florianherrengt",
+      "descendants": 3,
+      "kids": "[49363588,49363945,49363977,49363975]",
+      "score": 12,
+      "time": 1787156337,
+      "title": "Chain-of-Thought Reasoning in the Wild Is Not Always Faithful",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2503.08679",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "Models sometimes generate reasoning that corrects itself mid-chain but then ignores the correction to match a biased template.",
+      "groq_discussion": "Discussion type: – Short\n\nThis research examines the problem of faithfulness in chain-of-thought reasoning for large language models. Hacker News commenters generally appreciated the paper's insights into model behavior and believed it could help improve transparency in AI reasoning. However, they also expressed concerns about the broader implications of such biases and questioned the practical challenges of addressing them. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     },
     {
@@ -421,36 +451,6 @@
       "og_image": "https://images.ctfassets.net/kftzwdyauwt9/55UVJLAaFr5hqOom9Il3Ou/2a7c6a08571daf98a0643d76cc243add/index-pacing-model-development-cyber-capabilities-dark-seo.png?w=1600&h=900&fit=fill",
       "groq_label": "Frontier labs historically used three-tiered isolation systems, with the most secure tier having no internet or internal network access, requiring formal requests for any data transfer.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the challenges of pacing model development in an era of cyber-critical AI capabilities. The Hacker News discussion was generally mixed, with many commenters appreciating the need for strong AI safety regulations and international cooperation to manage risks. At the same time, several commenters raised concerns about the practical implementation of monitoring and pausing systems, arguing that real-time tool execution complicates oversight. Overall, the discussion suggests that the community sees promise in addressing AI safety but believes there are important challenges—such as balancing speed of development with security—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49349984,
-      "author": "NaOH",
-      "descendants": 82,
-      "kids": "[49350799,49350308,49351609,49350739,49351111,49350839,49351983,49351154,49350974,49351289,49351825,49350835,49351890,49351669,49351352,49350618,49350501,49351261,49350605,49351029,49351311,49350384,49350885,49350827,49350019]",
-      "score": 126,
-      "time": 1787076713,
-      "title": "How does IKEA come up with names for its products?",
-      "type": "story",
-      "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html",
-      "og_image": "https://www.ikea.com/ext/ingkadam/m/7a111193a6086f35/original/PH205884.jpg?f=xl",
-      "groq_label": "IKEA names 2,000–3,000 new products yearly, with some catalogs containing only 2–3k total items, suggesting frequent name reuse.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis IKEA article explains how the company names its products. The Hacker News discussion was generally positive, with many commenters appreciating the company's systematic approach to naming and its cultural quirks. At the same time, several commenters raised concerns about the scale of product naming and questioned the accuracy of some claims, arguing that the naming process might not be as extensive as described. Overall, the discussion suggests that the community sees the naming system as interesting and well-thought-out but believes there are important details that still need clarification.",
-      "groq_explain": null
-    },
-    {
-      "id": 49349898,
-      "author": "fittingopposite",
-      "descendants": 14,
-      "kids": "[49350740,49350635,49350892,49351981,49351135,49350855,49350863,49350310]",
-      "score": 120,
-      "time": 1787076441,
-      "title": "Turbovec – Google's TurboQuant for vector search in Rust",
-      "type": "story",
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "og_image": "https://repository-images.githubusercontent.com/1192555574/000b661c-3519-42a5-9609-d5051c50c2f0",
-      "groq_label": "Google's Turbovec reportedly compresses 10 million documents into just 4GB, enabling faster reverse indexing and smoother development workflows.",
-      "groq_discussion": "Discussion type: – Community Perspective\n\nThe Hacker News community generally responded to this Google's TurboQuant for vector search in Rust with positive reactions. Many commenters appreciated its efficiency, highlighting the impressive 4GB size for 10 million documents and the potential for faster reverse indexing and smoother development processes. Others saw value in its suitability for local, privacy-first search and the possibility of compiling it to WASM for browser extensions. Some users also praised its potential for codebase indexing and documentation in agentic workflows. Nevertheless, recurring criticisms focused on the need for a more human-readable README to encourage adoption and the inclusion of integrations like LanceDB and DuckDB. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
       "groq_explain": null
     }
   ]
