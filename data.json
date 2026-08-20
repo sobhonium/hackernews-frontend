@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T04:41:29.451Z"
+    "lastUpdated": "2026-08-20T05:16:43.688Z"
   },
   "stories": [
     {
@@ -92,6 +92,21 @@
       "groq_label": "XWayland 26.1-rc1 introduces a clipboard bridge for rootful XWayland, enabling copy/paste between XWayland and Wayland desktops.",
       "groq_discussion": "No comments.",
       "groq_explain": "XWayland 26.1-rc1 is a major update to the software that lets older X11 apps run on Wayland-based systems. It’s been two years since the last release, and this version adds key features like better clipboard sharing between X11 and Wayland, multi-seat support, and improved display handling. It matters because it keeps compatibility alive for legacy apps while improving performance and functionality for modern Linux desktops."
+    },
+    {
+      "id": 49366264,
+      "author": "animalcule",
+      "descendants": 88,
+      "kids": "[49366722,49366678,49366496,49366319,49366460,49366346,49367661,49367305,49366841,49366702,49370489,49366802,49366402,49366911,49367327,49366398,49366925]",
+      "score": 44,
+      "time": 1787168628,
+      "title": "Pixel 11 Pro Fold feels like the end of an era",
+      "type": "story",
+      "url": "https://www.theverge.com/tech/981956/google-pixel-11-pro-fold-review",
+      "og_image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/google-pixel-11-pro-fold-01.jpg?quality=90&strip=all&crop=0%2C10.741906587151%2C100%2C78.516186825698&w=1200",
+      "groq_label": "Foldable phones remain a niche market despite their futuristic appeal, with users divided over their practicality, durability, and long-term viability.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Pixel 11 Pro Fold aims to solve the problem of providing a more versatile smartphone form factor. The Hacker News discussion was generally mixed, with many commenters appreciating the device's unique design and practical benefits, such as the convenient front screen for quick tasks and the wide inner screen for content viewing. At the same time, several commenters raised concerns about the device's fragility, high cost, and practical challenges like pocket usability and hinge durability. Overall, the discussion suggests that the community sees promise in the foldable form factor but believes there are important limitations that still need to be addressed.",
+      "groq_explain": null
     },
     {
       "id": 49365841,
@@ -436,21 +451,6 @@
       "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2237968141-1152x648.jpg",
       "groq_label": "During Trump’s second term, DOGE cuts led to the firing or retirement of an estimated 75% of the Agency for Healthcare Research and Quality staff.",
       "groq_discussion": "Discussion type: – Short\n\nThis article reports on criticism of RFK Jr. for allegedly destroying healthcare research. Hacker News commenters generally appreciated the investigative angle and believed the topic could highlight important issues in public healthcare research. However, they also expressed concerns about the lack of direct quotes and questioned the depth of the reporting. Overall, the discussion was mixed, with commenters recognizing both the potential importance of the story and its shortcomings in execution.",
-      "groq_explain": null
-    },
-    {
-      "id": 49357501,
-      "author": "matt_d",
-      "descendants": 4,
-      "kids": "[49358682,49358645]",
-      "score": 17,
-      "time": 1787119756,
-      "title": "λλ: A Programming Language for Silicon Photonics",
-      "type": "story",
-      "url": "https://dl.acm.org/doi/10.1145/3789240.3829151",
-      "og_image": "images/49357501.png",
-      "groq_label": "The programming language λλ integrates λ-calculus with optical wavelength concepts, using a subscripted second λ to represent light's physical properties.",
-      "groq_discussion": "Discussion type: – Short\n\nThis programming language, λλ, aims to solve the problem of programming silicon photonics systems. Hacker News commenters generally appreciated its innovative approach and believed the project could bridge the gap between high-level programming and low-level hardware control in photonics. However, they also expressed concerns about its complexity and questioned the practicality of its syntax for real-world adoption. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     }
   ]
