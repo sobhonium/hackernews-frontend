@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T01:23:05.035Z"
+    "lastUpdated": "2026-08-20T04:41:29.451Z"
   },
   "stories": [
+    {
+      "id": 49369408,
+      "author": "mayoff",
+      "descendants": 36,
+      "kids": "[49370076,49369919,49369479,49370263,49370272,49369841,49370409,49369852,49370383,49369881,49369828,49370078,49369988,49370229,49369930]",
+      "score": 64,
+      "time": 1787189352,
+      "title": "Turns are Better than Radians (2022)",
+      "type": "story",
+      "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!mvXW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F20e598bd-cac0-4b10-8222-b432167c9159_5616x3744.jpeg",
+      "groq_label": "Turns simplify quarter-turns and integer multiples of π/2, but calculus forces conversion to radians due to the derivative d/dx sin(x) = cos(x) only holding when x is in radians.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article advocates for using turns instead of radians for angle measurements. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity of turns for certain applications, such as quarter-turns and fixed-point representations. At the same time, several commenters raised concerns about the practicality of turns in calculus and rate-of-change calculations, arguing that radians remain the natural unit for trigonometric functions in mathematical contexts. Overall, the discussion suggests that the community sees promise in the idea of turns but believes there are important limitations, particularly in mathematical and scientific applications, that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49367350,
+      "author": "fg137",
+      "descendants": 95,
+      "kids": "[49368397,49368246,49370389,49368353,49368856,49368371,49369858,49368271,49369026,49368323,49368277,49369945,49369002,49368314,49368493,49368222,49368234,49368665,49368420,49368929,49368664,49368111,49369131,49370119,49368122,49370014,49368273,49368499]",
+      "score": 166,
+      "time": 1787174390,
+      "title": "Feature Request: Support AGENTS.md",
+      "type": "story",
+      "url": "https://github.com/anthropics/claude-code/issues/6235",
+      "og_image": "https://opengraph.githubassets.com/04c96f1f8a39b017609277941ce3a9d1ea8be13a070067bd69b615b3aef32dc7/anthropics/claude-code/issues/6235",
+      "groq_label": "Anthropic's push for CLAUDE.md over AGENTS.md mirrors historical platform control tactics seen in Reddit and Twitter's third-party client shutdowns.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this feature request is critical. Commenters frequently praised the idea of supporting AGENTS.md as a step toward standardization but described the situation as frustrating and symptomatic of larger issues with Anthropic's practices. Many highlighted concerns about Anthropic's perceived hostility toward the open-source community and questioned the company's motivations, suggesting that the move could be a marketing ploy rather than a genuine effort to improve interoperability. The overall consensus is that the idea is compelling in principle, although its implementation and the company's broader behavior cast doubt on its sincerity and long-term success.",
+      "groq_explain": null
+    },
     {
       "id": 49367256,
       "author": "jggonz",
@@ -421,36 +451,6 @@
       "og_image": "images/49357501.png",
       "groq_label": "The programming language λλ integrates λ-calculus with optical wavelength concepts, using a subscripted second λ to represent light's physical properties.",
       "groq_discussion": "Discussion type: – Short\n\nThis programming language, λλ, aims to solve the problem of programming silicon photonics systems. Hacker News commenters generally appreciated its innovative approach and believed the project could bridge the gap between high-level programming and low-level hardware control in photonics. However, they also expressed concerns about its complexity and questioned the practicality of its syntax for real-world adoption. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49355968,
-      "author": "matt_d",
-      "descendants": 17,
-      "kids": "[49357813,49357580,49358001,49357007,49357538,49356830,49357206,49357821,49357443,49356678]",
-      "score": 98,
-      "time": 1787107310,
-      "title": "Palomar: A registry of Lean verified mathematics",
-      "type": "story",
-      "url": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
-      "og_image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1787118962",
-      "groq_label": "Palomar verifies Lean proofs by storing snapshots of GitHub repositories to ensure reproducibility and rigor in formalized mathematics.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis registry of Lean verified mathematics aims to solve the problem of organizing and indexing formalized mathematical proofs in a centralized, searchable way. The Hacker News discussion was generally positive, with many commenters appreciating the ambitious vision behind Palomar and its potential to formalize mathematics at scale. At the same time, several commenters raised concerns about the project's reliance on GitHub, the complexity of verifying proofs, and the lack of clear incentives for contributors. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around usability, decentralization, and motivation—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49355606,
-      "author": "amatheus",
-      "descendants": 159,
-      "kids": "[49356516,49358009,49356751,49356294,49356174,49358756,49357962,49356545,49357563,49358537,49356189,49358888,49358111,49357408,49356052,49357786,49358507,49357933,49357729,49358226,49357419,49357537,49357921,49358887,49356639,49357665,49358341,49357828,49357978,49357198,49356844,49358564,49358388,49358053,49357326,49356565,49358208,49357968,49358343,49358225,49357499,49357132,49357470,49356834]",
-      "score": 592,
-      "time": 1787104708,
-      "title": "OpenLogi",
-      "type": "story",
-      "url": "https://openlogi.org/en",
-      "og_image": "https://openlogi.org/social-preview.png",
-      "groq_label": "OpenLogi's codebase is lightweight, using just 3.5MB of RAM compared to alternatives that leak memory or rely on vague AI-generated instructions.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this open-source project with mixed reactions. Many commenters appreciated the effort to create open-source alternatives to Logitech's proprietary software, highlighting its potential to improve user control and privacy. Others praised lightweight and efficient implementations, such as the one using only 3.5MB of RAM. However, recurring criticisms focused on the lack of support for Logitech's plugin ecosystem, which many users rely on for advanced features like accessibility tools. Additionally, some commenters expressed concerns about the quality and trustworthiness of modern open-source software, especially when developed rapidly with AI assistance (\"vibe coding\"), questioning whether it can match the reliability of established SaaS solutions. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement, particularly in feature parity and trust-building.",
       "groq_explain": null
     }
   ]
