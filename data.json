@@ -1,8 +1,22 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T16:42:22.326Z"
+    "lastUpdated": "2026-08-20T17:07:24.758Z"
   },
   "stories": [
+    {
+      "id": 49377248,
+      "author": "HPMOR",
+      "kids": "[]",
+      "score": 1,
+      "time": 1787245265,
+      "title": "Sixtyfour (YC P25) Is Hiring",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/sixtyfour/jobs/39SkSrA-software-engineering-intern",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/1bb597f3c523ffa144378db8ab6100c529167c91.png?1755022649",
+      "groq_label": "Sixtyfour, a Y Combinator-backed startup, is actively recruiting for its team.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49376332,
       "author": "codedge",
@@ -16,6 +30,21 @@
       "og_image": "https://www.codedge.de/posts/how-to-compromise-your-system-with-a-job-interview/cover.jpg",
       "groq_label": "Official email address verification is the most reliable way to distinguish legitimate job offers from scams.",
       "groq_discussion": "Discussion type: – Short\n\nThis article highlights how job interview processes can be exploited to compromise systems. Hacker News commenters generally appreciated the focus on security awareness during interviews and believed the project could help candidates identify potential scams. However, they also expressed concerns about the practicality of some suggestions and questioned the effectiveness of certain detection methods. Overall, the discussion was mixed, with commenters recognizing both the article's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49376211,
+      "author": "EspressoGPT",
+      "descendants": 2,
+      "kids": "[49377267,49376742]",
+      "score": 20,
+      "time": 1787240508,
+      "title": "Generic Methods in Go 1.27",
+      "type": "story",
+      "url": "https://dominik.info/blog/go-generic-methods",
+      "og_image": "https://dominik.info/images/og-default.png",
+      "groq_label": "Go 1.27's generic methods face runtime interface limitations due to generics resolving at compile time while interfaces resolve at runtime.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article about Generic Methods in Go 1.27 addresses the challenge of integrating generics with Go's interface system. Hacker News commenters generally appreciated the technical exploration of the problem but expressed concerns about the practicality of the solution. Many believed the project could improve type safety and code reuse, though they questioned the complexity of implementing such a feature. Overall, the discussion was mixed, with commenters recognizing both the potential benefits and the significant challenges involved.",
       "groq_explain": null
     },
     {
@@ -420,36 +449,6 @@
       "og_image": "https://grapheneos.social/system/site_uploads/files/000/000/002/@1x/42ead1439dbbdc50.png",
       "groq_label": "Google now requires a Google Forms request and manual approval to obtain certain source code via Google Drive, replacing direct Git tag access.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Google's change to how certain source code is distributed aims to solve the problem of managing access to proprietary components. The Hacker News discussion was generally critical, with many commenters questioning the motivation behind the shift from Git tags to Google Drive downloads. At the same time, several commenters raised concerns about potential GPL compliance issues and the practical inconvenience of the new process. Overall, the discussion suggests that the community sees this move as a step backward, believing it unnecessarily complicates access while raising questions about transparency and openness.",
-      "groq_explain": null
-    },
-    {
-      "id": 49364559,
-      "author": "rvz",
-      "descendants": 250,
-      "kids": "[49366396,49366755,49365600,49366070,49364942,49364963,49365141,49367421,49365439,49365087,49365701,49366311,49365481,49367041,49364988,49366381,49365064,49365008,49366919,49365193,49365994,49366943,49365762,49365147,49365599,49367179,49366437,49366400,49364978,49366584,49366735,49365106,49366838,49365154,49365592,49365263,49365257,49365534,49365209,49365942,49366422,49365913,49367090,49366967,49365794,49365872,49365190,49365489,49365090,49366029,49364993,49365061,49366739]",
-      "score": 436,
-      "time": 1787160758,
-      "title": "OpenRouter is joining Stripe",
-      "type": "story",
-      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
-      "og_image": "https://openrouter.ai/blog/images/openrouter-stripe.png",
-      "groq_label": "OpenRouter processes over 10 trillion tokens daily from 400+ AI models for 10+ million developers, growing at least 10x annually.",
-      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the news of OpenRouter joining Stripe with cautious optimism. Many praised its developer experience and saw value in its approach to simplifying AI model integration through a unified API. Commenters highlighted benefits such as seamless model switching, fallback support, and reduced vendor lock-in, which encourages competition among providers. However, the discussion also surfaced recurring concerns regarding the high acquisition cost and the potential long-term implications of increased centralization in the AI infrastructure space. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures, particularly in enabling financial and accounting infrastructure for metered AI services.",
-      "groq_explain": "OpenRouter, the biggest AI model marketplace, is joining Stripe to combine their tech and scale up faster. OpenRouter lets developers use any AI model easily and manage costs, and they handle over 10 trillion tokens daily for millions of users. The deal won’t change how OpenRouter works—same product, same mission, same independence from any single model or provider. Stripe’s strong financial tools will help OpenRouter grow even more while keeping its focus on giving users the best, fairest AI options. The core idea is making AI smarter and more accessible by letting many models compete and thrive, not just one."
-    },
-    {
-      "id": 49363710,
-      "author": "guyb3",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 3,
-      "time": 1787156942,
-      "title": "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
-      "type": "story",
-      "url": "https://github.com/onecli/onecli",
-      "og_image": "https://repository-images.githubusercontent.com/1175900220/ddf244eb-befe-4ea2-a784-b1b91be1d0eb",
-      "groq_label": "OneCLI provides a sandboxed agent harness to safely run and manage commands across teams in an open-source tool.",
-      "groq_discussion": "No comments.",
       "groq_explain": null
     }
   ]
