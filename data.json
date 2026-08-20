@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T12:55:35.327Z"
+    "lastUpdated": "2026-08-20T13:46:04.194Z"
   },
   "stories": [
+    {
+      "id": 49374269,
+      "author": "abhisek",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 18,
+      "time": 1787232192,
+      "title": "Malicious Rust Crate Arrayref Runs a Build-Time Payload",
+      "type": "story",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
+      "og_image": "https://safedep.io/images/arrayref-blog-blanner.png",
+      "groq_label": "The \"arrayref\" Rust crate executed a build-time payload by exploiting a dependency confusion attack.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49373456,
       "author": "simedw",
@@ -45,6 +60,21 @@
       "og_image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
       "groq_label": "Smartphone images of the face and body can predict cardiometabolic risk factors like blood pressure and cholesterol as accurately as traditional methods.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49372661,
+      "author": "throwaw12",
+      "descendants": 3,
+      "kids": "[49374490,49373868]",
+      "score": 24,
+      "time": 1787221138,
+      "title": "Risk Engineering",
+      "type": "story",
+      "url": "https://risk-engineering.org/",
+      "og_image": "https://risk-engineering.org/static/img/carousel1.png",
+      "groq_label": "A system running too smoothly may erode the ability to handle failures when they inevitably occur.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on risk engineering. Hacker News commenters generally appreciated its concept and believed the project could foster better preparedness for system failures. However, they also expressed concerns about the website's usability and questioned its mobile compatibility. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     },
     {
@@ -420,36 +450,6 @@
       "og_image": "https://pbs.twimg.com/media/HQFGSU0W0AAVdPu.png",
       "groq_label": "Moderna's mRNA neoantigen therapy for melanoma achieved its first positive Phase 3 results, marking a potential breakthrough in personalized cancer treatment.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Moderna report on mRNA neoantigen therapy in melanoma aims to solve the problem of improving treatment efficacy for melanoma patients. The Hacker News discussion was generally mixed, with many commenters appreciating the potential of personalized mRNA-based therapies and the progress in cancer treatment. At the same time, several commenters raised concerns about the lack of detailed data, questioning the validity of the press release and the actual clinical benefits. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around transparency and measurable health benefits—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49361279,
-      "author": "karlmush",
-      "descendants": 104,
-      "kids": "[49362208,49362086,49361749,49363577,49363406,49362921,49362150,49362508,49362067,49362767,49363132,49361785,49361917,49361755,49361769,49362836,49362507,49362953,49362347,49361914,49362336,49362443,49362628,49362949,49361648,49362068,49362040,49361577,49362388,49362708,49362470,49362019,49361657,49362400,49362182,49362155,49363116,49363345,49361795,49361779,49361990,49362368,49361883,49361545]",
-      "score": 151,
-      "time": 1787145681,
-      "title": "PostgreSQL for Everything",
-      "type": "story",
-      "url": "https://www.raphaelbauer.com:443/posts/postgresql-everything/",
-      "og_image": "https://www.raphaelbauer.com/images/db-servers.jpg",
-      "groq_label": "Revolut uses PostgreSQL for all event persistence and streaming, eliminating traditional message queues.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article argues that PostgreSQL can be used for a wide range of tasks beyond traditional relational database needs. The Hacker News discussion was mixed, with many commenters appreciating PostgreSQL's versatility and strengths in certain areas like event persistence and geospatial data handling. At the same time, several commenters raised concerns about its limitations, arguing that PostgreSQL falls short as a full replacement for specialized tools like Elasticsearch, OLAP systems, or message queues. Overall, the discussion suggests that the community sees promise in PostgreSQL's flexibility but believes there are important challenges and trade-offs that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49360545,
-      "author": "yassa9",
-      "descendants": 4,
-      "kids": "[49360918,49360875,49360761]",
-      "score": 13,
-      "time": 1787141992,
-      "title": "Geolocating a random island using geometry and CUDA programming",
-      "type": "story",
-      "url": "https://yassa9.github.io/osint/gralhix-004/",
-      "og_image": "https://yassa9.github.io/images/icon.jpg",
-      "groq_label": "OpenStreetMap data's high-resolution features enable precise geolocation of remote islands using geometric and CUDA-based computational methods.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on solving the problem of geolocating a random island using geometry and CUDA programming. Hacker News commenters generally appreciated the technical approach and found the process impressive, particularly highlighting the use of OpenStreetMap data as a valuable resource for OSINT purposes. However, they also expressed curiosity about broader applications, such as using the method for self-location without GPS. Overall, the discussion was positive, with commenters recognizing both the project's potential and its innovative use of technology.",
       "groq_explain": null
     }
   ]
