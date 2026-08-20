@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-19T21:40:20.730Z"
+    "lastUpdated": "2026-08-20T01:23:05.035Z"
   },
   "stories": [
+    {
+      "id": 49367256,
+      "author": "jggonz",
+      "descendants": 25,
+      "kids": "[49368455,49367570,49368104,49367257,49368734,49368054,49369053,49369036]",
+      "score": 40,
+      "time": 1787173891,
+      "title": "Os8088.com: IBM XT OS now has a Browser, CP/M 2.2 with Z80 core and MS Word 1.1a",
+      "type": "story",
+      "url": "https://os8088.com/spotlight/",
+      "og_image": "https://os8088.com/img/og.png",
+      "groq_label": "An HTTPS request to Wikipedia completes on a 4.77 MHz 8088 with only 384 KB RAM, though without certificate verification.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of modernizing and expanding the capabilities of vintage IBM XT-class computers by providing a contemporary browser, CP/M 2.2 with Z80 core emulation, and MS Word 1.1a compatibility. The Hacker News discussion was generally mixed, with many commenters appreciating the technical achievement and creativity behind running modern applications on such old hardware. At the same time, several commenters raised concerns about the practicality and necessity of the project, arguing that simpler alternatives like Gopher clients or retro-themed interfaces would be more feasible. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges and limitations that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49366792,
+      "author": "mike-the-brain",
+      "descendants": 8,
+      "kids": "[49368383,49367380,49367357,49367601,49366843]",
+      "score": 71,
+      "time": 1787171323,
+      "title": "DFlash 2: Keep Drafting Parallel",
+      "type": "story",
+      "url": "https://inco.ai/blog/dflash2/",
+      "og_image": "https://inco.ai/og/dflash2.png",
+      "groq_label": "DFlash 2 achieves 20% more output per verification pass with only 1% added latency while maintaining identical output quality.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project aims to solve the problem of efficient parallel drafting in language models. Hacker News commenters generally appreciated the technical advancements and performance improvements, particularly the speed and memory efficiency gains. Many highlighted the impressive tokens-per-second decode rate and the benefits for low memory bandwidth model usage. However, some expressed concerns about occasional syntax failures in the tool's output, questioning the reliability of the model under constrained conditions. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": "DFlash 2 improves AI model inference by making the drafting process parallel, cutting down the time and cost of generating tokens. It builds on speculative decoding, where a smaller model predicts multiple tokens at once, and the larger model verifies them in a single pass. DFlash 2 makes the drafting itself parallel, boosting throughput by 16–25% with minimal added latency. This matters because AI agents today consume massive amounts of tokens, and faster, cheaper inference is key to scaling them effectively."
+    },
     {
       "id": 49366597,
       "author": "willmeyers",
@@ -229,6 +259,21 @@
       "groq_explain": null
     },
     {
+      "id": 49362001,
+      "author": "surprisetalk",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 17,
+      "time": 1787149210,
+      "title": "Manabu Kosaka's Handmade Paper Sculptures",
+      "type": "story",
+      "url": "https://coca11272000.wixsite.com/manabukosaka",
+      "og_image": "https://static.wixstatic.com/media/387403_b6688f1bc2d14991a4e060b65581cb05.jpg/v1/fit/w_2500,h_1330,al_c/387403_b6688f1bc2d14991a4e060b65581cb05.jpg",
+      "groq_label": "Manabu Kosaka transforms washi paper into intricate, delicate sculptures using traditional techniques and modern precision.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
       "id": 49361395,
       "author": "heydenberk",
       "descendants": 108,
@@ -406,51 +451,6 @@
       "og_image": "https://openlogi.org/social-preview.png",
       "groq_label": "OpenLogi's codebase is lightweight, using just 3.5MB of RAM compared to alternatives that leak memory or rely on vague AI-generated instructions.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this open-source project with mixed reactions. Many commenters appreciated the effort to create open-source alternatives to Logitech's proprietary software, highlighting its potential to improve user control and privacy. Others praised lightweight and efficient implementations, such as the one using only 3.5MB of RAM. However, recurring criticisms focused on the lack of support for Logitech's plugin ecosystem, which many users rely on for advanced features like accessibility tools. Additionally, some commenters expressed concerns about the quality and trustworthiness of modern open-source software, especially when developed rapidly with AI assistance (\"vibe coding\"), questioning whether it can match the reliability of established SaaS solutions. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement, particularly in feature parity and trust-building.",
-      "groq_explain": null
-    },
-    {
-      "id": 49355451,
-      "author": "teleforce",
-      "descendants": 3,
-      "kids": "[49358990,49358822,49358573,49355478]",
-      "score": 37,
-      "time": 1787103400,
-      "title": "The Vietnam Binh Chau (Chau Tan) Late Tang Wreck",
-      "type": "story",
-      "url": "https://www.koh-antique.com/client/tangwreck/tangwreck.html",
-      "og_image": "https://www.koh-antique.com/client/binhchau%20wreck/map.jpg",
-      "groq_label": "A Vietnamese antique collector with a Chinese surname preserves artifacts from a Late Tang shipwreck, revealing cross-cultural maritime heritage.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses the Vietnam Binh Chau (Chau Tan) Late Tang Wreck. Hacker News commenters generally appreciated the historical and cultural significance of the wreck but expressed limited personal interest in the topic. However, they also expressed concerns about the lack of deeper engagement with the subject matter. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49355105,
-      "author": "dabinat",
-      "descendants": 177,
-      "kids": "[49359020,49355650,49358928,49357992,49355679,49356325,49355556,49358499,49357887,49356854,49358904,49358067,49358647,49357755,49358093,49358513,49357779,49357483,49355687,49358346,49355982,49356905,49356567,49358044,49356722]",
-      "score": 247,
-      "time": 1787100503,
-      "title": "Scientists stunned by children's lung recovery in ultra low emission zone",
-      "type": "story",
-      "url": "https://www.bbc.com/news/articles/c1l1r1zne1ro",
-      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/4dc6/live/93fc0f30-9ad4-11f1-aed2-8d6da8d75094.jpg",
-      "groq_label": "Children's lung function improved measurably within months of exposure to cleaner air in London's Ultra Low Emission Zone.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis study aims to solve the problem of childhood lung damage caused by air pollution. The Hacker News discussion was generally positive, with many commenters appreciating the evidence linking ultra low emission zones (ULEZ) to improved children's lung health. At the same time, several commenters raised concerns about the study's limitations, arguing that the effects may be localized and not representative of broader atmospheric conditions. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49354949,
-      "author": "sunils34",
-      "descendants": 185,
-      "kids": "[49358714,49355495,49355619,49355653,49355767,49355924,49355445,49356523,49355382,49358320,49357612,49356589,49355694,49355943,49355472,49356559,49355689,49355457,49356911,49355528]",
-      "score": 265,
-      "time": 1787099298,
-      "title": "Cerebras CS-4",
-      "type": "story",
-      "url": "https://www.cerebras.ai/cs4",
-      "og_image": "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg?w=1200&h=630&fit=max&auto=format",
-      "groq_label": "Cerebras CS-4 claims over 1,000 tokens per second on models exceeding 10 trillion parameters, potentially outperforming GPT-5.6 Sol’s rumored 50B active parameters.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Cerebras CS-4 aims to solve the problem of high-performance AI inference at scale. The Hacker News discussion was generally mixed, with many commenters appreciating the hardware's potential for speed and efficiency but questioning the lack of transparency in pricing, power consumption, and technical details. At the same time, several commenters raised concerns about the outdated models offered, the absence of consumer-friendly versions, and the vague comparisons to GPUs. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around transparency and practical usability—that still need to be addressed.",
       "groq_explain": null
     }
   ]
