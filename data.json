@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T20:35:03.315Z"
+    "lastUpdated": "2026-08-20T21:01:03.477Z"
   },
   "stories": [
     {
@@ -16,6 +16,21 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!8Pn8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb16dcd1f-1143-443d-a429-53b97142f277_1280x985.jpeg",
       "groq_label": "Lady Gaga's Oreo collaboration exemplifies how celebrity-brand tie-ins have shifted from stigma to mainstream acceptance in the 2000s.",
       "groq_discussion": "Discussion type: – Short\n\nThis article critiques the trend of musicians partnering with brands for commercial tie-ins, using Lady Gaga's collaboration with Oreo as an example. Hacker News commenters generally appreciated the discussion but believed the focus on Lady Gaga's Oreos was overly specific, with some suggesting the critique could apply more broadly to corporate partnerships in music. However, they also expressed concerns about the ethical and economic implications of such collaborations, questioning whether they benefit artists or exploit their fanbases. Overall, the discussion was mixed, with commenters recognizing the validity of the critique while questioning its narrow scope.",
+      "groq_explain": null
+    },
+    {
+      "id": 49378957,
+      "author": "0xedb",
+      "descendants": 73,
+      "kids": "[49379179,49380149,49379210,49379612,49379481,49379151,49380025,49379365,49380029,49379310,49379559,49379525,49379308,49379313,49380038,49379794,49379278,49379241,49379225,49379218,49379785,49379219,49379086,49379239,49379601]",
+      "score": 62,
+      "time": 1787253744,
+      "title": "The August 17 outage, and the work ahead",
+      "type": "story",
+      "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
+      "og_image": "https://github.blog/wp-content/uploads/2026/01/generic-github-logo-left.png",
+      "groq_label": "Microsoft's ownership of GitHub incentivizes them to absorb losses to keep developers using AI models and paying for OpenAI subscriptions.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product aims to solve the problem of GitHub outages and scalability challenges. The Hacker News discussion was generally mixed, with many commenters appreciating the transparency in the postmortem and the company's recognition of the work ahead. At the same time, several commenters raised concerns about GitHub's reliance on Microsoft's ecosystem and the lack of concrete solutions for paid customers. Overall, the discussion suggests that the community sees promise in GitHub's commitment to improvement but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     },
     {
@@ -434,21 +449,6 @@
       "og_image": "images/49368886.png",
       "groq_label": "CIA funding helped keep NeXT afloat in the 80s while Apple later joined the NSA's PRISM data collection program.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights how CIA funding helped sustain NeXT in the 1980s. The Hacker News discussion was mixed, with many commenters noting the historical prevalence of government funding in tech industries. At the same time, several commenters raised concerns about the implications of such ties, arguing that it reflects broader patterns of government influence in the tech sector. Overall, the discussion suggests that the community sees historical interest in the topic but believes there are important ethical and practical challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49367350,
-      "author": "fg137",
-      "descendants": 95,
-      "kids": "[49368397,49368246,49370389,49368353,49368856,49368371,49369858,49368271,49369026,49368323,49368277,49369945,49369002,49368314,49368493,49368222,49368234,49368665,49368420,49368929,49368664,49368111,49369131,49370119,49368122,49370014,49368273,49368499]",
-      "score": 166,
-      "time": 1787174390,
-      "title": "Feature Request: Support AGENTS.md",
-      "type": "story",
-      "url": "https://github.com/anthropics/claude-code/issues/6235",
-      "og_image": "https://opengraph.githubassets.com/04c96f1f8a39b017609277941ce3a9d1ea8be13a070067bd69b615b3aef32dc7/anthropics/claude-code/issues/6235",
-      "groq_label": "Anthropic's push for CLAUDE.md over AGENTS.md mirrors historical platform control tactics seen in Reddit and Twitter's third-party client shutdowns.",
-      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this feature request is critical. Commenters frequently praised the idea of supporting AGENTS.md as a step toward standardization but described the situation as frustrating and symptomatic of larger issues with Anthropic's practices. Many highlighted concerns about Anthropic's perceived hostility toward the open-source community and questioned the company's motivations, suggesting that the move could be a marketing ploy rather than a genuine effort to improve interoperability. The overall consensus is that the idea is compelling in principle, although its implementation and the company's broader behavior cast doubt on its sincerity and long-term success.",
       "groq_explain": null
     }
   ]
