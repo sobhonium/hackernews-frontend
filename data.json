@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T05:16:43.688Z"
+    "lastUpdated": "2026-08-20T08:43:03.359Z"
   },
   "stories": [
+    {
+      "id": 49371857,
+      "author": "pjerem",
+      "descendants": 2,
+      "kids": "[49371986,49371983]",
+      "score": 13,
+      "time": 1787214044,
+      "title": "Don't Paste the AI, please",
+      "type": "story",
+      "url": "https://dontpastetheai.com/",
+      "og_image": "https://dontpastetheai.com/assets/og-image.png",
+      "groq_label": "The irony of an anti-AI paste notice being composed entirely of AI-generated content.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article/project/blog post addresses the problem of AI-generated content cluttering discussions. Hacker News commenters generally appreciated the critique of AI slop and believed the project could highlight the issue of low-quality AI-generated responses. However, they also expressed concerns about the ironic use of AI in the critique itself and questioned the practicality of the message. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49371006,
+      "author": "luu",
+      "descendants": 49,
+      "kids": "[49371925,49371777,49371980,49371408,49371450,49371752,49371491,49371410,49371803,49371391,49371921,49371783,49371724,49371878,49371840,49371501,49371898,49371436,49371487,49371480,49371441,49371397]",
+      "score": 122,
+      "time": 1787206600,
+      "title": "Windows brings out the Rorschach test in everyone",
+      "type": "story",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
+      "og_image": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
+      "groq_label": "Windows 95 was banned in one country for depicting naked children, while Ubuntu's logo was a skull and Windows' logo was four windows.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated Raymond Chen's writing style and considered his blog posts a valuable resource for tech lore and historical insights. Others highlighted the humorous and thought-provoking nature of the article, particularly the idea of Windows and Ubuntu logos being \"Rorschach tests\" reflecting users' perceptions. Nevertheless, recurring criticisms focused on the article's tone and some of the more provocative comparisons, particularly the mention of sensitive topics like nudity in software design. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it pushed boundaries and sparked debate.",
+      "groq_explain": null
+    },
     {
       "id": 49369408,
       "author": "mayoff",
@@ -421,36 +451,6 @@
       "og_image": "https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a845980ea521c5fbe46a88c_Highlights.png",
       "groq_label": "Mojo leverages MLIR to enable compiler optimizations as libraries, allowing domain-specific tuning without modifying the compiler itself.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis project (the Mojo language by Modular, now Qualcomm) aims to solve the problem of simplifying high-performance programming for AI and systems development. The Hacker News discussion was generally mixed, with many commenters appreciating its technical strengths, such as its integration with MLIR for compiler optimizations and its Python-like syntax with features like comptime and tile support. At the same time, several commenters raised concerns about its long-term viability, arguing that the delayed open-sourcing and Qualcomm's acquisition cast doubt on its future. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around sustainability and adoption—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49358259,
-      "author": "XzetaU8",
-      "descendants": 26,
-      "kids": "[49358986,49358946,49358819,49358781,49358585,49358929,49358650,49358947,49358687]",
-      "score": 44,
-      "time": 1787125232,
-      "title": "Where Human Sleep Went Wrong",
-      "type": "story",
-      "url": "https://nautil.us/where-human-sleep-went-wrong-1283797",
-      "og_image": "https://lede-admin.nautil.us/wp-content/uploads/sites/70/2026/08/French_HERO_5715e7.png",
-      "groq_label": "Humans sleep fewer total hours than other apes but have the most REM sleep relative to total sleep time.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article explores the problem of human sleep patterns and their evolutionary implications. The Hacker News discussion was generally mixed, with many commenters appreciating the article's critique of sleep dogma and its emphasis on natural sleep variations. At the same time, several commenters raised concerns about the article's framing and oversimplifications, arguing that it overstated the benefits of traditional sleep patterns. Overall, the discussion suggests that the community sees value in the article's perspective but believes there are important nuances and challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49358220,
-      "author": "01-_-",
-      "descendants": 5,
-      "kids": "[49358913,49359009,49358783,49358733]",
-      "score": 42,
-      "time": 1787124959,
-      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
-      "type": "story",
-      "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/",
-      "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2237968141-1152x648.jpg",
-      "groq_label": "During Trump’s second term, DOGE cuts led to the firing or retirement of an estimated 75% of the Agency for Healthcare Research and Quality staff.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article reports on criticism of RFK Jr. for allegedly destroying healthcare research. Hacker News commenters generally appreciated the investigative angle and believed the topic could highlight important issues in public healthcare research. However, they also expressed concerns about the lack of direct quotes and questioned the depth of the reporting. Overall, the discussion was mixed, with commenters recognizing both the potential importance of the story and its shortcomings in execution.",
       "groq_explain": null
     }
   ]
