@@ -1,8 +1,67 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T09:18:56.929Z"
+    "lastUpdated": "2026-08-20T12:55:35.327Z"
   },
   "stories": [
+    {
+      "id": 49373456,
+      "author": "simedw",
+      "descendants": 7,
+      "kids": "[49373700,49373738,49373678,49373681]",
+      "score": 39,
+      "time": 1787227478,
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "type": "story",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "og_image": "https://simedw.com/2026/08/20/midi-autocomplete/images/rolltab_phone.jpg",
+      "groq_label": "A 125M-parameter transformer autocompletes piano performances in real time on an iPhone 15 (~108 notes/sec) using a MIDI grammar tokenization and DPO post-training.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of real-time piano accompaniment through on-device AI autocomplete. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and potential for creative applications. At the same time, several commenters raised concerns about limitations, arguing that the model's output lacks musical coherence, rhythm, and compositional structure. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "A 125-million-parameter AI model was trained to predict and autocomplete piano music in real time on an iPhone 15, processing about 108 notes per second. The breakthrough came from refining how MIDI data is structured, rigorously cleaning the training data, and using a technique called DPO post-training to improve the model’s responses. The result is an app called RollTab that listens to your MIDI keyboard and instantly suggests musical continuations, like GitHub Copilot but for piano. It matters because it turns a creative tool into something interactive and responsive, making music composition faster and more fluid for players."
+    },
+    {
+      "id": 49373423,
+      "author": "timshell",
+      "kids": "[]",
+      "score": 1,
+      "time": 1787227223,
+      "title": "Proof of Human (YC S23) Is Hiring a Member of Technical Staff",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/db68adbc7ddaaac6c3e120fcc6e7c88f4975ab09.png?1784306036",
+      "groq_label": "A Proof of Human (YC S23) technical staff member will work on cryptographic anti-bot systems.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49372994,
+      "author": "leanderjanssen",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 10,
+      "time": 1787223809,
+      "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
+      "type": "story",
+      "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
+      "og_image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+      "groq_label": "Smartphone images of the face and body can predict cardiometabolic risk factors like blood pressure and cholesterol as accurately as traditional methods.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49372583,
+      "author": "emctech",
+      "descendants": 62,
+      "kids": "[49373972,49373899,49373965,49372945,49373909,49373745,49372910,49372679,49372584,49373064,49373134,49373856,49373539,49373033,49373018,49373004,49373762,49373189,49373029,49373422]",
+      "score": 196,
+      "time": 1787220532,
+      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "type": "story",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "og_image": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
+      "groq_label": "AliExpress uses WebAudio fingerprinting to uniquely identify devices, disrupting Bluetooth multipoint connections and even interfering with hearing aids and car audio systems.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights a case where AliExpress employs silent WebAudio fingerprinting, which disrupts Bluetooth multipoint functionality. The Hacker News discussion was mixed, with many commenters appreciating the revelation of how invasive browser fingerprinting can be, especially when it interferes with other device functionalities. At the same time, several commenters raised concerns about the lack of user control over such intrusive techniques, arguing that current permission systems are insufficient. Overall, the discussion suggests that the community sees this as a serious issue that highlights the need for better privacy protections and more granular user controls.",
+      "groq_explain": null
+    },
     {
       "id": 49371857,
       "author": "pjerem",
@@ -391,66 +450,6 @@
       "og_image": "https://yassa9.github.io/images/icon.jpg",
       "groq_label": "OpenStreetMap data's high-resolution features enable precise geolocation of remote islands using geometric and CUDA-based computational methods.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on solving the problem of geolocating a random island using geometry and CUDA programming. Hacker News commenters generally appreciated the technical approach and found the process impressive, particularly highlighting the use of OpenStreetMap data as a valuable resource for OSINT purposes. However, they also expressed curiosity about broader applications, such as using the method for self-location without GPS. Overall, the discussion was positive, with commenters recognizing both the project's potential and its innovative use of technology.",
-      "groq_explain": null
-    },
-    {
-      "id": 49360242,
-      "author": "exceptione",
-      "descendants": 23,
-      "kids": "[49360904,49360570,49360564,49360732,49360243,49360267,49360601,49360560]",
-      "score": 103,
-      "time": 1787140018,
-      "title": "GrapheneOS in 2027 available on high-end Motorola phones",
-      "type": "story",
-      "url": "https://grapheneos.social/@GrapheneOS/117078064184215730",
-      "og_image": "https://grapheneos.social/system/site_uploads/files/000/000/002/@1x/42ead1439dbbdc50.png",
-      "groq_label": "Motorola's high-end phones in 2027 will run GrapheneOS, with lower-end models excluded due to weaker security updates from Qualcomm.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about GrapheneOS becoming available on high-end Motorola phones in 2027 aims to solve the problem of providing a more secure and privacy-focused mobile operating system. The Hacker News discussion was generally mixed, with many commenters appreciating GrapheneOS's focus on security and its potential to expand beyond Google's Pixel devices. At the same time, several commenters raised concerns about the project's reliance on high-end hardware and Qualcomm's involvement, arguing that this limits accessibility and raises questions about funding sources. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around hardware requirements and vendor partnerships—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49360015,
-      "author": "kareiva",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 16,
-      "time": 1787138510,
-      "title": "A joke domain purchase turned in geopolitical warfare",
-      "type": "story",
-      "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-      "og_image": "https://sprocketfox.io/xssfox/images/war.png",
-      "groq_label": "A Russian oligarch bought a domain name that accidentally became a tool in geopolitical conflict.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49359425,
-      "author": "gurov",
-      "descendants": 38,
-      "kids": "[49359983,49359959,49360061,49360072,49360583,49359851,49359992,49359704,49360275,49359903,49360185,49360206,49359440]",
-      "score": 75,
-      "time": 1787134500,
-      "title": "Air Theremin – a browser theremin you play by waving at your webcam",
-      "type": "story",
-      "url": "https://theremin.bizibah.com/",
-      "og_image": "https://theremin.bizibah.com/og.png",
-      "groq_label": "A browser-based theremin uses webcam hand gestures to control pitch, volume, and vibrato in real time.",
-      "groq_discussion": "Discussion type: – Short\n\nThis browser-based theremin project aims to solve the problem of making a contactless musical instrument accessible via webcam. Hacker News commenters generally appreciated the creativity and nostalgic appeal of the project, noting that it successfully recreates the theremin experience in a virtual format. Many found it fun to play with and praised its simplicity and effectiveness. However, some users expressed concerns about privacy and usability, particularly regarding webcam access and camera activation. Overall, the discussion was positive, with commenters recognizing both the project's potential and its minor limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49358327,
-      "author": "flaburgan",
-      "descendants": 44,
-      "kids": "[49360781,49359817,49360209,49358830,49358328,49358976,49359008,49360879,49358978,49359029,49359259,49360325,49360190,49360597,49359279,49359136,49359300,49359004,49359712,49360487]",
-      "score": 115,
-      "time": 1787125639,
-      "title": "The Mojo language (by Modular, now Qualcomm) is now open-source",
-      "type": "story",
-      "url": "https://www.modular.com/blog/modcon-announcements",
-      "og_image": "https://cdn.prod.website-files.com/68c9c3107effc2ea46e1a82c/6a845980ea521c5fbe46a88c_Highlights.png",
-      "groq_label": "Mojo leverages MLIR to enable compiler optimizations as libraries, allowing domain-specific tuning without modifying the compiler itself.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project (the Mojo language by Modular, now Qualcomm) aims to solve the problem of simplifying high-performance programming for AI and systems development. The Hacker News discussion was generally mixed, with many commenters appreciating its technical strengths, such as its integration with MLIR for compiler optimizations and its Python-like syntax with features like comptime and tile support. At the same time, several commenters raised concerns about its long-term viability, arguing that the delayed open-sourcing and Qualcomm's acquisition cast doubt on its future. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around sustainability and adoption—that still need to be addressed.",
       "groq_explain": null
     }
   ]
