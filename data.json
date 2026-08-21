@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T01:27:59.504Z"
+    "lastUpdated": "2026-08-21T04:43:28.153Z"
   },
   "stories": [
+    {
+      "id": 49383326,
+      "author": "TheP1000",
+      "descendants": 7,
+      "kids": "[49383796,49383850,49383327,49383676]",
+      "score": 28,
+      "time": 1787282263,
+      "title": "Codex on AWS bedrock bug causing 10x charges",
+      "type": "story",
+      "url": "https://github.com/openai/codex/issues/37674",
+      "og_image": "https://opengraph.githubassets.com/b27b65eaa4902295d0953058722f3cfc268ba685c94c29e91e445c8495544eb9/openai/codex/issues/37674",
+      "groq_label": "Codex on AWS Bedrock's default behavior caused a 10x cost spike due to excessive writes from unused caching, resolved by disabling web_search.",
+      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the Codex on AWS Bedrock bug causing 10x charges with cautious optimism. Many praised its potential for cost efficiency but saw value in its approach to managing caching. However, the discussion also surfaced recurring concerns regarding the lack of transparency and documentation around the issue, including the confusing behavior of Codex and its impact on SSD wear. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures and addresses these issues.",
+      "groq_explain": null
+    },
+    {
+      "id": 49383026,
+      "author": "Cider9986",
+      "descendants": 99,
+      "kids": "[49383354,49383697,49383415,49383406,49383526,49383517,49383687,49383787,49383530,49383688,49383615,49383626,49383592,49383682,49383443,49383539,49383580,49383422,49383693,49383458,49383457,49383356,49383764,49383618,49383473,49383677,49383614,49383563,49383644,49383429]",
+      "score": 153,
+      "time": 1787279867,
+      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "type": "story",
+      "url": "https://annas-archive.gl/blog/physical-destruction.html",
+      "og_image": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
+      "groq_label": "AI companies buy rare books solely to scan, destroy, and train models, not preserve knowledge.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights the issue of AI companies purchasing and destroying physical books to scan them for training data, raising concerns about the preservation of rare books. The Hacker News discussion was mixed, with many commenters appreciating the urgency of preserving knowledge but criticizing the methods used by AI companies and the underlying copyright laws. At the same time, several commenters raised concerns about the limitations of AI training data and the broader implications of privatizing human knowledge. Overall, the discussion suggests that the community sees promise in digitizing rare books but believes there are important ethical and practical challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49382152,
       "author": "mooreslaw",
@@ -419,36 +449,6 @@
       "og_image": "https://bookface-images.s3.amazonaws.com/logos/db68adbc7ddaaac6c3e120fcc6e7c88f4975ab09.png?1784306036",
       "groq_label": "A Proof of Human (YC S23) technical staff member will work on cryptographic anti-bot systems.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49372994,
-      "author": "leanderjanssen",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 10,
-      "time": 1787223809,
-      "title": "Seeing beyond BMI: Estimating cardiometabolic risk with smartphone imagery",
-      "type": "story",
-      "url": "https://research.google/blog/seeing-beyond-bmi-estimating-cardiometabolic-risk-with-smartphone-imagery/",
-      "og_image": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
-      "groq_label": "Smartphone images of the face and body can predict cardiometabolic risk factors like blood pressure and cholesterol as accurately as traditional methods.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49372661,
-      "author": "throwaw12",
-      "descendants": 3,
-      "kids": "[49374490,49373868]",
-      "score": 24,
-      "time": 1787221138,
-      "title": "Risk Engineering",
-      "type": "story",
-      "url": "https://risk-engineering.org/",
-      "og_image": "https://risk-engineering.org/static/img/carousel1.png",
-      "groq_label": "A system running too smoothly may erode the ability to handle failures when they inevitably occur.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on risk engineering. Hacker News commenters generally appreciated its concept and believed the project could foster better preparedness for system failures. However, they also expressed concerns about the website's usability and questioned its mobile compatibility. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     }
   ]
