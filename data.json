@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T12:58:32.584Z"
+    "lastUpdated": "2026-08-21T13:43:04.100Z"
   },
   "stories": [
+    {
+      "id": 49387497,
+      "author": "throw7",
+      "descendants": 3,
+      "kids": "[49387822,49387842]",
+      "score": 27,
+      "time": 1787317471,
+      "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
+      "type": "story",
+      "url": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
+      "og_image": "https://san.com/wp-content/uploads/2026/08/GettyImages-2291172825_Getty_Images_clean.jpg",
+      "groq_label": "Flock's AI-powered surveillance cameras have faced legal challenges but often evade accountability due to weak enforcement.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses the decision of a grand jury not to indict an Ohio man charged with destroying a Flock surveillance camera. Hacker News commenters generally appreciated the outcome and believed it could reinforce opposition to surveillance technology. However, they also expressed concerns about broader systemic issues and questioned the lack of accountability for surveillance companies. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49386895,
       "author": "floathub",
@@ -435,21 +450,6 @@
       "og_image": "https://www.igalia.com/assets/i/logo200x200Margin-og.png",
       "groq_label": "HDMI 2.1 support in Linux 7.2 was enabled after the HDMI Forum's licensing terms were clarified to be compatible with open-source drivers.",
       "groq_discussion": "Discussion type: – Short\n\nThis Linux 7.2 release addresses kernel-level improvements and hardware support enhancements. Hacker News commenters generally appreciated the incremental progress and technical updates, particularly the expanded HDMI 2.1 support. However, they also expressed concerns about the lack of clarity regarding licensing and patent issues with HDMI 2.1, questioning whether the changes truly resolve prior legal barriers. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its unresolved technical and legal ambiguities.",
-      "groq_explain": null
-    },
-    {
-      "id": 49376211,
-      "author": "EspressoGPT",
-      "descendants": 2,
-      "kids": "[49377267,49376742]",
-      "score": 20,
-      "time": 1787240508,
-      "title": "Generic Methods in Go 1.27",
-      "type": "story",
-      "url": "https://dominik.info/blog/go-generic-methods",
-      "og_image": "https://dominik.info/images/og-default.png",
-      "groq_label": "Go 1.27's generic methods face runtime interface limitations due to generics resolving at compile time while interfaces resolve at runtime.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article about Generic Methods in Go 1.27 addresses the challenge of integrating generics with Go's interface system. Hacker News commenters generally appreciated the technical exploration of the problem but expressed concerns about the practicality of the solution. Many believed the project could improve type safety and code reuse, though they questioned the complexity of implementing such a feature. Overall, the discussion was mixed, with commenters recognizing both the potential benefits and the significant challenges involved.",
       "groq_explain": null
     }
   ]
