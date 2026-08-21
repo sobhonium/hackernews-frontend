@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-20T21:01:03.477Z"
+    "lastUpdated": "2026-08-21T01:27:59.504Z"
   },
   "stories": [
+    {
+      "id": 49382152,
+      "author": "mooreslaw",
+      "descendants": 9,
+      "kids": "[49382284,49382328,49382351,49382523,49382324,49382524]",
+      "score": 11,
+      "time": 1787272117,
+      "title": "There's no such thing as a small software team anymore",
+      "type": "story",
+      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
+      "og_image": "https://jacob.gold/images/theres-no-such-thing-as-a-small-software-team.webp",
+      "groq_label": "A single developer can outperform React-based teams by avoiding LLM assistance and building a monolith with strict module separation.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article argues that the trend of small software teams is disappearing due to increasing complexity and modularity demands. The Hacker News discussion was mixed, with many commenters appreciating the critique of unchecked modularity and microservices hype while acknowledging the challenges of maintaining simple, high-velocity monoliths. At the same time, several commenters raised concerns about the article's assumptions, arguing that service boundaries and operational overhead are often overstated. Overall, the discussion suggests that the community sees merit in the argument but believes there are important nuances—such as the trade-offs between code modularity and operational complexity—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49382041,
+      "author": "u1hcw9nx",
+      "descendants": 53,
+      "kids": "[49382238,49382327,49382501,49382499,49382330,49382274,49382325,49382153,49382418,49382136,49382260,49382391,49382243]",
+      "score": 50,
+      "time": 1787271312,
+      "title": "Copyright does not protect AI-generated content in EU",
+      "type": "story",
+      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+      "og_image": "https://media.mathstodon.xyz/site_uploads/files/000/000/002/@1x/c2d0c9932cd25b26.png",
+      "groq_label": "EU courts have ruled that AI-generated content lacks copyright protection, creating a legal gray area for human-AI collaboration.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis EU ruling on copyright and AI-generated content aims to clarify the legal status of works created without human authorship. The Hacker News discussion was mixed, with many commenters appreciating the ruling's alignment with historical precedent (e.g., the \"monkey selfie\" case) and its potential to prevent copyright monopolies on purely AI-generated works. At the same time, several commenters raised concerns about the ruling's implications for human-AI collaboration, licensing (e.g., MIT, GPL, CC), and the broader question of how much human contribution is required for copyrightability. Others debated whether this would enable circumvention of copyright restrictions (e.g., game emulation, decompilation) and whether AI training data should be subject to copyright. Overall, the discussion suggests that the community sees the ruling as a step toward clarity but acknowledges significant unresolved questions about AI's role in creative and technical works.",
+      "groq_explain": null
+    },
+    {
+      "id": 49381896,
+      "author": "mtokmak06",
+      "descendants": 3,
+      "kids": "[49382548,49382443,49382531]",
+      "score": 18,
+      "time": 1787270195,
+      "title": "Stealth Model",
+      "type": "story",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "og_image": "https://openrouter.ai/stealth/ox-alpha/opengraph-image-1oizug?abd1ffaa6102aa5f",
+      "groq_label": "The prompt and response pairs are likely used to improve the model's performance or to create derivative products without sharing the data with the original model's creators.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Stealth Model aims to address the problem of privacy concerns around AI model usage by ensuring prompts and completions are not retained or used for training. Hacker News commenters generally appreciated the idea of privacy but expressed skepticism about the model provider's true intentions. They questioned what the provider might be using the prompt/response pairs for if not training, suggesting the model isn't offered for free without some form of benefit to the provider. The discussion was mixed, with commenters recognizing the potential privacy benefits while questioning the underlying motivations and transparency of the model provider.",
+      "groq_explain": null
+    },
+    {
+      "id": 49379550,
+      "author": "speckx",
+      "descendants": 213,
+      "kids": "[49379781,49381658,49380882,49380561,49381047,49380150,49380787,49380542,49382399,49382455,49381992,49382043,49379734,49380310,49382108,49381680,49382063,49380670,49380885,49382279,49380641,49382017,49380430,49380869,49382156,49380420,49380613,49381604,49381750,49380353,49380304,49381180,49380982,49380881,49380550,49380112,49379830,49382155,49380822,49381616,49380606,49379834,49380659,49380443,49381105]",
+      "score": 931,
+      "time": 1787256446,
+      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
+      "type": "story",
+      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
+      "og_image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/img_2026_web.jpg",
+      "groq_label": "Aaron Swartz was prosecuted for physically trespassing and MAC address spoofing, not just for automated scraping like Meta does.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the disparity in how Aaron Swartz was prosecuted for web scraping while Meta faces no consequences for similar actions. The Hacker News discussion was mixed, with many commenters appreciating the critique of selective prosecution and corporate double standards. At the same time, several commenters raised concerns about oversimplifying the legal nuances of Swartz’s case, arguing that his actions involved more than just scraping. Overall, the discussion suggests that the community sees validity in the argument about unequal enforcement but believes the issue is more complex than a simple comparison between the two cases.",
+      "groq_explain": null
+    },
     {
       "id": 49379253,
       "author": "cwal37",
@@ -91,6 +151,21 @@
       "og_image": "https://i0.wp.com/www.rathbiotaclan.com/wp-content/uploads/2026/08/35bnmbid2rq.jpg?fit=1600%2C1067&ssl=1",
       "groq_label": "TikTok's rapid, algorithm-driven content may trigger the brain's Default Mode Network, reducing active cognitive engagement similar to other immersive or passive activities.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis scientific study aims to examine the cognitive effects of TikTok videos on brain activity. The Hacker News discussion was mixed, with many commenters appreciating the exploration of how modern media impacts cognition while questioning the oversimplification of the findings. At the same time, several commenters raised concerns about the study's limitations, arguing that the deactivation of brain regions is not unique to TikTok and occurs in other immersive tasks like video games or even reading. Overall, the discussion suggests that the community sees value in the research but believes there are important methodological and interpretive challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49378446,
+      "author": "rafaelc",
+      "descendants": 136,
+      "kids": "[49380602,49382214,49382545,49379775,49379676,49381445,49381287,49379381,49380144,49381136,49382409,49380164,49380167,49381856,49379707,49381244,49379855,49379856,49379442,49382369,49379912,49380023,49381444,49380416,49381403,49380933,49380264,49379688,49380018,49379724,49379593,49380191,49380123,49379422,49379385,49381534,49380681,49382001,49379713,49380850,49380182,49379761,49381921,49379870,49381410,49379570,49379995,49379579,49379821,49379872,49381150,49381040,49380747,49379973,49379949,49379932,49379796,49379753,49379644,49380524,49381970,49380581,49382426,49379847]",
+      "score": 83,
+      "time": 1787251127,
+      "title": "Why aren't smart people happier? (2022)",
+      "type": "story",
+      "url": "https://www.experimental-history.com/p/why-arent-smart-people-happier",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!-0i8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc8548b3-2eaa-4a22-b782-10646cfb25b7_1668x1113.jpeg",
+      "groq_label": "Smart people often see more problems in the world but lack the power to fix them, leading to frustration.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article explores the question of why highly intelligent people aren't necessarily happier. The Hacker News discussion was mixed, with many commenters appreciating the distinction between intelligence and wisdom, noting that true happiness often comes from emotional growth rather than cognitive ability. At the same time, several commenters raised concerns about the article's narrow focus on traditional intelligence metrics, arguing that the premise overlooks broader factors like emotional intelligence and life circumstances. Overall, the discussion suggests that the community sees value in the topic but believes the analysis could be more nuanced in addressing why intelligence alone doesn't guarantee happiness.",
       "groq_explain": null
     },
     {
@@ -374,81 +449,6 @@
       "og_image": "https://risk-engineering.org/static/img/carousel1.png",
       "groq_label": "A system running too smoothly may erode the ability to handle failures when they inevitably occur.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on risk engineering. Hacker News commenters generally appreciated its concept and believed the project could foster better preparedness for system failures. However, they also expressed concerns about the website's usability and questioned its mobile compatibility. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49372583,
-      "author": "emctech",
-      "descendants": 62,
-      "kids": "[49373972,49373899,49373965,49372945,49373909,49373745,49372910,49372679,49372584,49373064,49373134,49373856,49373539,49373033,49373018,49373004,49373762,49373189,49373029,49373422]",
-      "score": 196,
-      "time": 1787220532,
-      "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-      "type": "story",
-      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-      "og_image": "https://resources.blogblog.com/img/icon18_edit_allbkg.gif",
-      "groq_label": "AliExpress uses WebAudio fingerprinting to uniquely identify devices, disrupting Bluetooth multipoint connections and even interfering with hearing aids and car audio systems.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights a case where AliExpress employs silent WebAudio fingerprinting, which disrupts Bluetooth multipoint functionality. The Hacker News discussion was mixed, with many commenters appreciating the revelation of how invasive browser fingerprinting can be, especially when it interferes with other device functionalities. At the same time, several commenters raised concerns about the lack of user control over such intrusive techniques, arguing that current permission systems are insufficient. Overall, the discussion suggests that the community sees this as a serious issue that highlights the need for better privacy protections and more granular user controls.",
-      "groq_explain": null
-    },
-    {
-      "id": 49371857,
-      "author": "pjerem",
-      "descendants": 2,
-      "kids": "[49371986,49371983]",
-      "score": 13,
-      "time": 1787214044,
-      "title": "Don't Paste the AI, please",
-      "type": "story",
-      "url": "https://dontpastetheai.com/",
-      "og_image": "https://dontpastetheai.com/assets/og-image.png",
-      "groq_label": "The irony of an anti-AI paste notice being composed entirely of AI-generated content.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article/project/blog post addresses the problem of AI-generated content cluttering discussions. Hacker News commenters generally appreciated the critique of AI slop and believed the project could highlight the issue of low-quality AI-generated responses. However, they also expressed concerns about the ironic use of AI in the critique itself and questioned the practicality of the message. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49371006,
-      "author": "luu",
-      "descendants": 49,
-      "kids": "[49371925,49371777,49371980,49371408,49371450,49371752,49371491,49371410,49371803,49371391,49371921,49371783,49371724,49371878,49371840,49371501,49371898,49371436,49371487,49371480,49371441,49371397]",
-      "score": 122,
-      "time": 1787206600,
-      "title": "Windows brings out the Rorschach test in everyone",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20030825-00/?p=42803",
-      "og_image": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
-      "groq_label": "Windows 95 was banned in one country for depicting naked children, while Ubuntu's logo was a skull and Windows' logo was four windows.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated Raymond Chen's writing style and considered his blog posts a valuable resource for tech lore and historical insights. Others highlighted the humorous and thought-provoking nature of the article, particularly the idea of Windows and Ubuntu logos being \"Rorschach tests\" reflecting users' perceptions. Nevertheless, recurring criticisms focused on the article's tone and some of the more provocative comparisons, particularly the mention of sensitive topics like nudity in software design. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it pushed boundaries and sparked debate.",
-      "groq_explain": null
-    },
-    {
-      "id": 49369408,
-      "author": "mayoff",
-      "descendants": 36,
-      "kids": "[49370076,49369919,49369479,49370263,49370272,49369841,49370409,49369852,49370383,49369881,49369828,49370078,49369988,49370229,49369930]",
-      "score": 64,
-      "time": 1787189352,
-      "title": "Turns are Better than Radians (2022)",
-      "type": "story",
-      "url": "https://www.computerenhance.com/p/turns-are-better-than-radians",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!mvXW!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F20e598bd-cac0-4b10-8222-b432167c9159_5616x3744.jpeg",
-      "groq_label": "Turns simplify quarter-turns and integer multiples of π/2, but calculus forces conversion to radians due to the derivative d/dx sin(x) = cos(x) only holding when x is in radians.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article advocates for using turns instead of radians for angle measurements. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity of turns for certain applications, such as quarter-turns and fixed-point representations. At the same time, several commenters raised concerns about the practicality of turns in calculus and rate-of-change calculations, arguing that radians remain the natural unit for trigonometric functions in mathematical contexts. Overall, the discussion suggests that the community sees promise in the idea of turns but believes there are important limitations, particularly in mathematical and scientific applications, that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49368886,
-      "author": "EwanG",
-      "descendants": 36,
-      "kids": "[49376111,49375921,49375908,49376486,49376492,49375962,49375997,49370283,49376875,49376082,49375834,49375972]",
-      "score": 111,
-      "time": 1787184901,
-      "title": "CIA funding helped keep NeXT afloat in the 80s",
-      "type": "story",
-      "url": "https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink",
-      "og_image": "images/49368886.png",
-      "groq_label": "CIA funding helped keep NeXT afloat in the 80s while Apple later joined the NSA's PRISM data collection program.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights how CIA funding helped sustain NeXT in the 1980s. The Hacker News discussion was mixed, with many commenters noting the historical prevalence of government funding in tech industries. At the same time, several commenters raised concerns about the implications of such ties, arguing that it reflects broader patterns of government influence in the tech sector. Overall, the discussion suggests that the community sees historical interest in the topic but believes there are important ethical and practical challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
