@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T05:18:44.731Z"
+    "lastUpdated": "2026-08-21T08:45:31.041Z"
   },
   "stories": [
+    {
+      "id": 49384896,
+      "author": "spankibalt",
+      "descendants": 10,
+      "kids": "[49385385,49385189,49385334,49385207,49385352,49385261]",
+      "score": 40,
+      "time": 1787297007,
+      "title": "The Lost Treasure of Sid Meier's Pirates",
+      "type": "story",
+      "url": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/",
+      "og_image": "https://storage.ghost.io/c/44/bd/44bde490-d49a-4b74-9f0c-24be597e5294/content/images/size/w1200/2026/08/Pirates-Merchant-1.png",
+      "groq_label": "Sid Meier's Pirates! (1987) fundamentally shifted MicroProse's identity from simulation-heavy games to a broader, more accessible portfolio.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article about Sid Meier's memoir with positive reactions. Many commenters appreciated the nostalgic reflections on Pirates and considered it a great read, highlighting its impact on the studio and gaming culture. Others highlighted the game's lasting influence as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on minor frustrations like login system issues with third-party links. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it still has room for improvement.",
+      "groq_explain": null
+    },
+    {
+      "id": 49384716,
+      "author": "signa11",
+      "descendants": 5,
+      "kids": "[49385379,49385154,49385263,49385270]",
+      "score": 37,
+      "time": 1787295580,
+      "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
+      "type": "story",
+      "url": "https://encore.dev/blog/firecracker-apple-silicon",
+      "og_image": "https://encore.dev/assets/blog/card/crackling-microvms-card.png",
+      "groq_label": "VZ.framework lacks features compared to Hypervisor.framework, and Apple's private virtualization APIs hold hidden capabilities.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project aims to rebuild the Linux MicroVM stack on Apple Silicon. Hacker News commenters generally appreciated the effort and believed the project could improve local development workflows. However, they also expressed concerns about Apple's limited virtualization frameworks and questioned the project's focus on solving problems for Mac users. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49384224,
+      "author": "wise_blood",
+      "descendants": 11,
+      "kids": "[49385371,49384834,49385313,49384519,49384772,49384974]",
+      "score": 29,
+      "time": 1787290779,
+      "title": "The Religious Experience of Philip K. Dick by R. Crumb (1986)",
+      "type": "story",
+      "url": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17/",
+      "og_image": "https://philipdick.com/mirror/misc/weirdo/weirdo17.jpg",
+      "groq_label": "Philip K. Dick's religious visions and schizophrenia symptoms blurred so completely that he once tried suicide, convinced his divine contact had abandoned him.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product aims to explore the religious experiences of Philip K. Dick through R. Crumb's 1986 comic. The Hacker News discussion was generally mixed, with many commenters appreciating the exploration of PKD's mental state and its impact on his work. At the same time, several commenters raised concerns about the graphic nature of the content and its potential to trigger or disturb readers. Overall, the discussion suggests that the community sees value in the project but believes there are important ethical and practical challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49384180,
+      "author": "rdmuser",
+      "descendants": 53,
+      "kids": "[49384560,49384267,49384558,49384839,49385341,49384915,49384470,49384402,49385046,49384992,49385221,49384774,49384482,49384815]",
+      "score": 109,
+      "time": 1787290294,
+      "title": "Japan tried to build an operating system for the world, the US intervened",
+      "type": "story",
+      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+      "og_image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/tron-feature-image.jpg?w=1600&h=900&fit=crop",
+      "groq_label": "The US trade office's intervention in Japan's TRON OS development highlights how geopolitical power shapes global tech standards.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
     {
       "id": 49383326,
       "author": "TheP1000",
@@ -390,65 +450,6 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "DiffusionGemma repurposes a pre-trained Gemma 4 26B A4B MoE model by leveraging unused token logits to function as a denoiser without full retraining.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis DiffusionGemma Technical Report aims to solve the problem of improving text generation efficiency and flexibility by leveraging diffusion models with existing Gemma checkpoints. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and the technical depth of the report. At the same time, several commenters raised concerns about the practical limitations of diffusion-based text models, arguing that their accuracy and reasoning capabilities may not yet match traditional autoregressive models. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49374269,
-      "author": "abhisek",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 18,
-      "time": 1787232192,
-      "title": "Malicious Rust Crate Arrayref Runs a Build-Time Payload",
-      "type": "story",
-      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-      "og_image": "https://safedep.io/images/arrayref-blog-blanner.png",
-      "groq_label": "The \"arrayref\" Rust crate executed a build-time payload by exploiting a dependency confusion attack.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49373932,
-      "author": "st_goliath",
-      "descendants": 13,
-      "kids": "[49375836,49375935,49375817]",
-      "score": 59,
-      "time": 1787230216,
-      "title": "Xorg-Server 26.0.99.901",
-      "type": "story",
-      "url": "https://lists.x.org/archives/xorg-announce/2026-August/003741.html",
-      "og_image": "images/49373932.png",
-      "groq_label": "Intel's modesetting driver now includes tearfree support in Xorg 26.0.99.901.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis release of Xorg-Server 26.0.99.901 focuses on incremental improvements and compatibility updates. Hacker News commenters generally appreciated the timely updates to XQuartz for macOS, noting the recent releases and beta versions that align with this Xorg update. However, they also expressed concerns about the overlap with existing implementations like xlibre and questioned whether the changes were substantial enough to warrant a new release. Overall, the discussion was mixed, with commenters recognizing the maintenance effort while questioning the significance of the updates.",
-      "groq_explain": null
-    },
-    {
-      "id": 49373456,
-      "author": "simedw",
-      "descendants": 7,
-      "kids": "[49373700,49373738,49373678,49373681]",
-      "score": 39,
-      "time": 1787227478,
-      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-      "type": "story",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-      "og_image": "https://simedw.com/2026/08/20/midi-autocomplete/images/rolltab_phone.jpg",
-      "groq_label": "A 125M-parameter transformer autocompletes piano performances in real time on an iPhone 15 (~108 notes/sec) using a MIDI grammar tokenization and DPO post-training.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of real-time piano accompaniment through on-device AI autocomplete. The Hacker News discussion was generally positive, with many commenters appreciating the innovative approach and potential for creative applications. At the same time, several commenters raised concerns about limitations, arguing that the model's output lacks musical coherence, rhythm, and compositional structure. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "A 125-million-parameter AI model was trained to predict and autocomplete piano music in real time on an iPhone 15, processing about 108 notes per second. The breakthrough came from refining how MIDI data is structured, rigorously cleaning the training data, and using a technique called DPO post-training to improve the model’s responses. The result is an app called RollTab that listens to your MIDI keyboard and instantly suggests musical continuations, like GitHub Copilot but for piano. It matters because it turns a creative tool into something interactive and responsive, making music composition faster and more fluid for players."
-    },
-    {
-      "id": 49373423,
-      "author": "timshell",
-      "kids": "[]",
-      "score": 1,
-      "time": 1787227223,
-      "title": "Proof of Human (YC S23) Is Hiring a Member of Technical Staff",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/proof-of-human/jobs/ZTZHEbb-member-of-technical-staff",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/db68adbc7ddaaac6c3e120fcc6e7c88f4975ab09.png?1784306036",
-      "groq_label": "A Proof of Human (YC S23) technical staff member will work on cryptographic anti-bot systems.",
-      "groq_discussion": "No comments.",
       "groq_explain": null
     }
   ]
