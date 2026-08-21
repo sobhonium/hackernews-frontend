@@ -1,8 +1,22 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T16:41:42.494Z"
+    "lastUpdated": "2026-08-21T17:06:17.892Z"
   },
   "stories": [
+    {
+      "id": 49390910,
+      "author": "ij23",
+      "kids": "[]",
+      "score": 1,
+      "time": 1787331623,
+      "title": "LiteLLM (YC W23) Is Hiring – Rust / Performance Engineers",
+      "type": "job",
+      "url": "https://jobs.ashbyhq.com/litellm/3f326076-7415-46a1-921e-8a1b1d6ee2b6",
+      "og_image": "images/49390910.png",
+      "groq_label": "LiteLLM, a Y Combinator-backed startup, is hiring Rust and performance engineers to optimize its AI model integration framework.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49390132,
       "author": "djfergus",
@@ -17,6 +31,21 @@
       "groq_label": "Eight million dollars is being poured into a Linux shell script repository to make \"the malleable computer of the future.\"",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Omacom Foundation project aims to solve the problem of making Linux desktop environments more accessible and enjoyable for users. The Hacker News discussion was generally positive, with many commenters appreciating the project's approach to simplifying Linux adoption and enhancing user experience. At the same time, several commenters raised concerns about the project's hype-driven nature and questioned the value of $8M funding for what some saw as just a Linux shell script repository. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges, such as ease of use with different hardware and the practicality of AI-driven customization, that still need to be addressed.",
       "groq_explain": "The Omacom Foundation just launched with $8 million to push open-source computer tech, making futuristic, flexible computers more accessible. The goal is to break the stagnation in how people interact with computers by funding and supporting projects like Omarchy Quattro. Big names like Shopify’s CEO and Stripe’s CEO are backing it, showing serious confidence in the mission to finally make Linux on the desktop a reality."
+    },
+    {
+      "id": 49390099,
+      "author": "ssiddharth",
+      "descendants": 2,
+      "kids": "[49390912,49390957]",
+      "score": 22,
+      "time": 1787328054,
+      "title": "I Just Want to Search",
+      "type": "story",
+      "url": "https://www.0xsid.com/blog/just-want-to-search",
+      "og_image": "https://0xsid.com/post-images/search.jpg",
+      "groq_label": null,
+      "groq_discussion": "Discussion type: – Short\n\nThis article discusses the challenges of modern web search and the decline of effective search capabilities. Hacker News commenters generally appreciated the critique of current search engines and believed the project highlights a growing need for better search solutions. However, they also expressed concerns about the feasibility of human editorial control as a solution and questioned the scalability of such an approach. Overall, the discussion was mixed, with commenters recognizing both the problem's urgency and the difficulty of addressing it effectively.",
+      "groq_explain": null
     },
     {
       "id": 49389565,
@@ -421,36 +450,6 @@
       "og_image": "https://openrouter.ai/stealth/ox-alpha/opengraph-image-1oizug?abd1ffaa6102aa5f",
       "groq_label": "The prompt and response pairs are likely used to improve the model's performance or to create derivative products without sharing the data with the original model's creators.",
       "groq_discussion": "Discussion type: – Short:\n\nThis Stealth Model aims to address the problem of privacy concerns around AI model usage by ensuring prompts and completions are not retained or used for training. Hacker News commenters generally appreciated the idea of privacy but expressed skepticism about the model provider's true intentions. They questioned what the provider might be using the prompt/response pairs for if not training, suggesting the model isn't offered for free without some form of benefit to the provider. The discussion was mixed, with commenters recognizing the potential privacy benefits while questioning the underlying motivations and transparency of the model provider.",
-      "groq_explain": null
-    },
-    {
-      "id": 49379550,
-      "author": "speckx",
-      "descendants": 213,
-      "kids": "[49379781,49381658,49380882,49380561,49381047,49380150,49380787,49380542,49382399,49382455,49381992,49382043,49379734,49380310,49382108,49381680,49382063,49380670,49380885,49382279,49380641,49382017,49380430,49380869,49382156,49380420,49380613,49381604,49381750,49380353,49380304,49381180,49380982,49380881,49380550,49380112,49379830,49382155,49380822,49381616,49380606,49379834,49380659,49380443,49381105]",
-      "score": 931,
-      "time": 1787256446,
-      "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-      "type": "story",
-      "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-      "og_image": "https://bear-images.sfo2.cdn.digitaloceanspaces.com/curiousquail/img_2026_web.jpg",
-      "groq_label": "Aaron Swartz was prosecuted for physically trespassing and MAC address spoofing, not just for automated scraping like Meta does.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the disparity in how Aaron Swartz was prosecuted for web scraping while Meta faces no consequences for similar actions. The Hacker News discussion was mixed, with many commenters appreciating the critique of selective prosecution and corporate double standards. At the same time, several commenters raised concerns about oversimplifying the legal nuances of Swartz’s case, arguing that his actions involved more than just scraping. Overall, the discussion suggests that the community sees validity in the argument about unequal enforcement but believes the issue is more complex than a simple comparison between the two cases.",
-      "groq_explain": null
-    },
-    {
-      "id": 49379253,
-      "author": "cwal37",
-      "descendants": 11,
-      "kids": "[49379706,49379693,49379769,49379661,49379554]",
-      "score": 54,
-      "time": 1787255166,
-      "title": "Stop Eating Lady Gaga's Oreos",
-      "type": "story",
-      "url": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!8Pn8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb16dcd1f-1143-443d-a429-53b97142f277_1280x985.jpeg",
-      "groq_label": "Lady Gaga's Oreo collaboration exemplifies how celebrity-brand tie-ins have shifted from stigma to mainstream acceptance in the 2000s.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article critiques the trend of musicians partnering with brands for commercial tie-ins, using Lady Gaga's collaboration with Oreo as an example. Hacker News commenters generally appreciated the discussion but believed the focus on Lady Gaga's Oreos was overly specific, with some suggesting the critique could apply more broadly to corporate partnerships in music. However, they also expressed concerns about the ethical and economic implications of such collaborations, questioning whether they benefit artists or exploit their fanbases. Overall, the discussion was mixed, with commenters recognizing the validity of the critique while questioning its narrow scope.",
       "groq_explain": null
     }
   ]
