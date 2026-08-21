@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T17:06:17.892Z"
+    "lastUpdated": "2026-08-21T20:31:24.796Z"
   },
   "stories": [
+    {
+      "id": 49393051,
+      "author": "speckx",
+      "descendants": 2,
+      "kids": "[49393378]",
+      "score": 13,
+      "time": 1787341908,
+      "title": "Quick impressions: A week of using Codex more than Claude",
+      "type": "story",
+      "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
+      "og_image": "https://allaboutcoding.ghinda.com/assets/images/posts/a-week-of-using-codex-more-than-claude/og.png",
+      "groq_label": "Fewer comments in Ruby/Rails code often indicate cleaner, more self-documenting code where logic is straightforward enough to not need excessive explanation.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses a user's experience of using Codex more than Claude for a week. Hacker News commenters generally appreciated the observation that changes created by Codex had fewer comments in Ruby/Ruby on Rails code, believing this could lead to cleaner code. However, they also expressed concerns about the implications of fewer comments and questioned the reasoning behind this approach. Overall, the discussion was mixed, with commenters recognizing both the potential benefits and limitations of this observation.",
+      "groq_explain": "The writer tried using Codex more than Claude for a week and noticed Codex is faster and simpler but makes more technical, less commented code. Codex also struggles with branching and rebasing, while Claude handles it better. Codex’s CLI is cleaner for authentication, but Claude adapts better to the user’s preferred workflow. Overall, Codex feels like a precise tool, while Claude feels more like a helpful colleague. Neither saved time in the end due to extra review steps."
+    },
+    {
+      "id": 49392331,
+      "author": "garo-pro",
+      "descendants": 10,
+      "kids": "[49393114,49393277,49393300,49393199,49393185,49393396,49393209]",
+      "score": 17,
+      "time": 1787338108,
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "type": "story",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "og_image": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69f398245c0b3933c7940d49_og_claude-security-public-beta%20(1).jpg",
+      "groq_label": "Anthropic is integrating Claude Mythos 5 into third-party cybersecurity tools while restricting direct access to its advanced security features.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of expanding access to advanced cybersecurity capabilities for defenders. The Hacker News discussion was generally mixed, with many commenters appreciating the intent behind the project and the potential of integrating Claude Mythos 5 into existing security tools. At the same time, several commenters raised concerns about the practical limitations and inconsistencies in the model's behavior, arguing that the rollout felt rushed and lacked transparency about new guardrails. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around usability, speed, and reliability—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49392200,
+      "author": "NKosmatos",
+      "descendants": 16,
+      "kids": "[49392946,49393115,49393329,49381690,49383275,49392842,49381233,49392903,49393092]",
+      "score": 56,
+      "time": 1787337394,
+      "title": "Scientists release biggest 2D map of the universe",
+      "type": "story",
+      "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+      "og_image": "https://newscenter.lbl.gov/wp-content/uploads/2026/08/Newscenter_Feature_1400px-DR11-M96_DECam_TAR-CC9.jpg",
+      "groq_label": "The biggest 2D map of the universe reveals vast cosmic structures with unexpected flat lines, possibly artifacts or projections of higher-dimensional phenomena.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated the sheer scale and ambition of the 2D map of the universe, calling it impressive and humbling. Others highlighted the embedded video as a way to better grasp the map's massive scale. Nevertheless, recurring criticisms focused on practical aspects, with commenters questioning whether the map could be downloaded for local exploration and suggesting the need for a 360 VR version. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
+      "groq_explain": "TL;DR: Scientists published the largest-ever 2D map of the universe, mapping hundreds of millions of galaxies and stars. It matters because this detailed cosmic atlas helps researchers study dark energy, galaxy formation, and the universe's expansion, advancing our understanding of space."
+    },
     {
       "id": 49390910,
       "author": "ij23",
@@ -16,6 +61,21 @@
       "groq_label": "LiteLLM, a Y Combinator-backed startup, is hiring Rust and performance engineers to optimize its AI model integration framework.",
       "groq_discussion": "No comments.",
       "groq_explain": null
+    },
+    {
+      "id": 49390427,
+      "author": "thepoet",
+      "descendants": 94,
+      "kids": "[49391973,49392304,49392056,49393085,49391248,49391946,49391789,49392093,49392313,49392322,49391076,49391904,49392212,49391756,49393245,49392641,49392021,49391901,49392348,49392226,49392768,49391270,49391510,49391551,49392195,49392715,49392497,49392383]",
+      "score": 255,
+      "time": 1787329525,
+      "title": "Kobo can run apps now",
+      "type": "story",
+      "url": "https://bandarlabs.github.io/Cobalt/",
+      "og_image": "https://bandarlabs.github.io/Cobalt/media/site/og-card.jpg",
+      "groq_label": "Kobo e-readers now support third-party apps via Cobalt, an open-source platform with a Rust SDK, running static ARM binaries in isolated processes and installing updates over Wi-Fi.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project enabling apps on Kobo e-readers with positive reactions. Many commenters appreciated the increased functionality and customization options, considering it useful because it allows users to run apps like Firefox, Syncthing, and KOReader, and even author their own applications. Others highlighted the potential for integrating services like Libby or Zotero, or improving highlight management and search capabilities. Nevertheless, recurring criticisms focused on the potential for distraction and the departure from the simplicity of traditional e-readers, with some questioning whether this aligns with the core purpose of an e-reader as a distraction-free reading device. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement, particularly in balancing functionality with the minimalist reading experience.",
+      "groq_explain": "Kobo e-readers can now run third-party apps thanks to Cobalt, an open-source platform that turns the device into a mini computer. It’s like installing an app store on your e-reader—apps install, update, and remove wirelessly, and you can always go back to the normal Kobo reader. The apps are secure, running in isolated processes, and don’t mess with the device’s core functions. It matters because it turns a simple e-reader into a more versatile tool for reading, coding, or browsing without needing extra hardware."
     },
     {
       "id": 49390132,
@@ -48,6 +108,21 @@
       "groq_explain": null
     },
     {
+      "id": 49389952,
+      "author": "toebee",
+      "descendants": 11,
+      "kids": "[49392664,49389953,49392353,49392969,49392230,49391610,49392419]",
+      "score": 56,
+      "time": 1787327470,
+      "title": "How we made a text-to-speech model respond in sub-50 ms",
+      "type": "story",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "og_image": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/assets/image.png",
+      "groq_label": "A 34 ms p95 time-to-first-audio for TTS at 10 requests per second was achieved on a single H100 by optimizing the qwen3-tts model.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis text-to-speech (TTS) model aims to solve the problem of achieving ultra-low latency in real-time voice applications. The Hacker News discussion was generally positive, with many commenters appreciating the technical achievement of sub-50 ms response times and the open-source release of the implementation. At the same time, several commenters raised concerns about the trade-offs between speed and quality, noting that pushing for lower latency often comes at the expense of output quality. Others highlighted the importance of on-device or mobile-friendly implementations, arguing that current solutions remain too resource-intensive for widespread adoption. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around quality preservation and hardware efficiency—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
       "id": 49389565,
       "author": "Edymilson",
       "descendants": 37,
@@ -75,6 +150,21 @@
       "og_image": "images/49389524.png",
       "groq_label": "Modern passenger jets pump superheated engine bleed-air into cabins, potentially circulating toxic fumes from oil and hydraulic leaks during \"fume events.\"",
       "groq_discussion": "Discussion type: – Community Perspective\n\nThe Hacker News community generally responded to this study on cancer-related mortality among US pilots and flight attendants with mixed reactions. Many commenters appreciated the investigation into occupational health risks for aviation workers, considering it an important and under-discussed issue. Others highlighted the significance of cabin air quality and potential exposure to toxic fumes as a major concern for flight crews.\n\nNevertheless, recurring criticisms focused on accessibility and media sensationalism. Commenters expressed frustration over paywalls preventing access to the full study, with some pointing out that even \"free\" accounts did not bypass restrictions. There was also skepticism about the framing of the issue, with some arguing that the discussion around \"poisoned cabin air\" and \"fume events\" oversimplified complex occupational health challenges.\n\nAs a whole, commenters viewed the project as an interesting contribution to public health discussions while acknowledging that it still has room for improvement, particularly in transparency and accessibility.",
+      "groq_explain": null
+    },
+    {
+      "id": 49389441,
+      "author": "colinprince",
+      "descendants": 13,
+      "kids": "[49393348,49392885,49392642,49392954,49392508,49391956,49392494,49391543]",
+      "score": 70,
+      "time": 1787325467,
+      "title": "I ran Photoshop on a £0.60 computer chip",
+      "type": "story",
+      "url": "https://pointinthecloud.com/2026-08-19-144600.html",
+      "og_image": "https://pointinthecloud.com/media/rosie-flying-dog.jpg",
+      "groq_label": "A £0.60 RP2350 microcontroller can emulate a 1984 Macintosh with just 520KB of RAM.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project demonstrates running Photoshop on a low-cost RP2350 microcontroller. Hacker News commenters generally appreciated the creative approach and believed the project could inspire more efficient computing practices. However, they also expressed concerns about the misleading RAM specifications and questioned the practicality of such a setup. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     },
     {
@@ -360,96 +450,6 @@
       "og_image": "https://philipdick.com/mirror/misc/weirdo/weirdo17.jpg",
       "groq_label": "Philip K. Dick's religious visions and schizophrenia symptoms blurred so completely that he once tried suicide, convinced his divine contact had abandoned him.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product aims to explore the religious experiences of Philip K. Dick through R. Crumb's 1986 comic. The Hacker News discussion was generally mixed, with many commenters appreciating the exploration of PKD's mental state and its impact on his work. At the same time, several commenters raised concerns about the graphic nature of the content and its potential to trigger or disturb readers. Overall, the discussion suggests that the community sees value in the project but believes there are important ethical and practical challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49384180,
-      "author": "rdmuser",
-      "descendants": 53,
-      "kids": "[49384560,49384267,49384558,49384839,49385341,49384915,49384470,49384402,49385046,49384992,49385221,49384774,49384482,49384815]",
-      "score": 109,
-      "time": 1787290294,
-      "title": "Japan tried to build an operating system for the world, the US intervened",
-      "type": "story",
-      "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
-      "og_image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/tron-feature-image.jpg?w=1600&h=900&fit=crop",
-      "groq_label": "The US trade office's intervention in Japan's TRON OS development highlights how geopolitical power shapes global tech standards.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49383326,
-      "author": "TheP1000",
-      "descendants": 7,
-      "kids": "[49383796,49383850,49383327,49383676]",
-      "score": 28,
-      "time": 1787282263,
-      "title": "Codex on AWS bedrock bug causing 10x charges",
-      "type": "story",
-      "url": "https://github.com/openai/codex/issues/37674",
-      "og_image": "https://opengraph.githubassets.com/b27b65eaa4902295d0953058722f3cfc268ba685c94c29e91e445c8495544eb9/openai/codex/issues/37674",
-      "groq_label": "Codex on AWS Bedrock's default behavior caused a 10x cost spike due to excessive writes from unused caching, resolved by disabling web_search.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the Codex on AWS Bedrock bug causing 10x charges with cautious optimism. Many praised its potential for cost efficiency but saw value in its approach to managing caching. However, the discussion also surfaced recurring concerns regarding the lack of transparency and documentation around the issue, including the confusing behavior of Codex and its impact on SSD wear. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures and addresses these issues.",
-      "groq_explain": null
-    },
-    {
-      "id": 49383026,
-      "author": "Cider9986",
-      "descendants": 99,
-      "kids": "[49383354,49383697,49383415,49383406,49383526,49383517,49383687,49383787,49383530,49383688,49383615,49383626,49383592,49383682,49383443,49383539,49383580,49383422,49383693,49383458,49383457,49383356,49383764,49383618,49383473,49383677,49383614,49383563,49383644,49383429]",
-      "score": 153,
-      "time": 1787279867,
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "type": "story",
-      "url": "https://annas-archive.gl/blog/physical-destruction.html",
-      "og_image": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
-      "groq_label": "AI companies buy rare books solely to scan, destroy, and train models, not preserve knowledge.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights the issue of AI companies purchasing and destroying physical books to scan them for training data, raising concerns about the preservation of rare books. The Hacker News discussion was mixed, with many commenters appreciating the urgency of preserving knowledge but criticizing the methods used by AI companies and the underlying copyright laws. At the same time, several commenters raised concerns about the limitations of AI training data and the broader implications of privatizing human knowledge. Overall, the discussion suggests that the community sees promise in digitizing rare books but believes there are important ethical and practical challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49382152,
-      "author": "mooreslaw",
-      "descendants": 9,
-      "kids": "[49382284,49382328,49382351,49382523,49382324,49382524]",
-      "score": 11,
-      "time": 1787272117,
-      "title": "There's no such thing as a small software team anymore",
-      "type": "story",
-      "url": "https://jacob.gold/posts/theres-no-such-thing-as-a-small-software-team/",
-      "og_image": "https://jacob.gold/images/theres-no-such-thing-as-a-small-software-team.webp",
-      "groq_label": "A single developer can outperform React-based teams by avoiding LLM assistance and building a monolith with strict module separation.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article argues that the trend of small software teams is disappearing due to increasing complexity and modularity demands. The Hacker News discussion was mixed, with many commenters appreciating the critique of unchecked modularity and microservices hype while acknowledging the challenges of maintaining simple, high-velocity monoliths. At the same time, several commenters raised concerns about the article's assumptions, arguing that service boundaries and operational overhead are often overstated. Overall, the discussion suggests that the community sees merit in the argument but believes there are important nuances—such as the trade-offs between code modularity and operational complexity—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49382041,
-      "author": "u1hcw9nx",
-      "descendants": 53,
-      "kids": "[49382238,49382327,49382501,49382499,49382330,49382274,49382325,49382153,49382418,49382136,49382260,49382391,49382243]",
-      "score": 50,
-      "time": 1787271312,
-      "title": "Copyright does not protect AI-generated content in EU",
-      "type": "story",
-      "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
-      "og_image": "https://media.mathstodon.xyz/site_uploads/files/000/000/002/@1x/c2d0c9932cd25b26.png",
-      "groq_label": "EU courts have ruled that AI-generated content lacks copyright protection, creating a legal gray area for human-AI collaboration.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis EU ruling on copyright and AI-generated content aims to clarify the legal status of works created without human authorship. The Hacker News discussion was mixed, with many commenters appreciating the ruling's alignment with historical precedent (e.g., the \"monkey selfie\" case) and its potential to prevent copyright monopolies on purely AI-generated works. At the same time, several commenters raised concerns about the ruling's implications for human-AI collaboration, licensing (e.g., MIT, GPL, CC), and the broader question of how much human contribution is required for copyrightability. Others debated whether this would enable circumvention of copyright restrictions (e.g., game emulation, decompilation) and whether AI training data should be subject to copyright. Overall, the discussion suggests that the community sees the ruling as a step toward clarity but acknowledges significant unresolved questions about AI's role in creative and technical works.",
-      "groq_explain": null
-    },
-    {
-      "id": 49381896,
-      "author": "mtokmak06",
-      "descendants": 3,
-      "kids": "[49382548,49382443,49382531]",
-      "score": 18,
-      "time": 1787270195,
-      "title": "Stealth Model",
-      "type": "story",
-      "url": "https://openrouter.ai/stealth/ox-alpha",
-      "og_image": "https://openrouter.ai/stealth/ox-alpha/opengraph-image-1oizug?abd1ffaa6102aa5f",
-      "groq_label": "The prompt and response pairs are likely used to improve the model's performance or to create derivative products without sharing the data with the original model's creators.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Stealth Model aims to address the problem of privacy concerns around AI model usage by ensuring prompts and completions are not retained or used for training. Hacker News commenters generally appreciated the idea of privacy but expressed skepticism about the model provider's true intentions. They questioned what the provider might be using the prompt/response pairs for if not training, suggesting the model isn't offered for free without some form of benefit to the provider. The discussion was mixed, with commenters recognizing the potential privacy benefits while questioning the underlying motivations and transparency of the model provider.",
       "groq_explain": null
     }
   ]
