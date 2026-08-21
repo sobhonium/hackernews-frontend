@@ -1,8 +1,22 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T20:54:28.704Z"
+    "lastUpdated": "2026-08-21T21:21:53.405Z"
   },
   "stories": [
+    {
+      "id": 49393733,
+      "author": "maciejSz",
+      "kids": "[]",
+      "score": 1,
+      "time": 1787346048,
+      "title": "SalesPatriot (YC W25) Is Hiring Forward Deployed Engineers",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
+      "og_image": "https://bookface-images.s3.amazonaws.com/logos/2eaf182f2bdedfa672a047416d8b513b6e01e58e.png?1736991014",
+      "groq_label": "SalesPatriot, a Y Combinator Winter 2025 startup, is hiring Forward Deployed Engineers.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49393051,
       "author": "speckx",
@@ -435,21 +449,6 @@
       "og_image": "https://encore.dev/assets/blog/card/crackling-microvms-card.png",
       "groq_label": "VZ.framework lacks features compared to Hypervisor.framework, and Apple's private virtualization APIs hold hidden capabilities.",
       "groq_discussion": "Discussion type: – Short\n\nThis project aims to rebuild the Linux MicroVM stack on Apple Silicon. Hacker News commenters generally appreciated the effort and believed the project could improve local development workflows. However, they also expressed concerns about Apple's limited virtualization frameworks and questioned the project's focus on solving problems for Mac users. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49384224,
-      "author": "wise_blood",
-      "descendants": 11,
-      "kids": "[49385371,49384834,49385313,49384519,49384772,49384974]",
-      "score": 29,
-      "time": 1787290779,
-      "title": "The Religious Experience of Philip K. Dick by R. Crumb (1986)",
-      "type": "story",
-      "url": "https://philipdick.com/resources/miscellaneous/the-religious-experience-of-philip-k-dick-by-r-crumb-from-weirdo-17/",
-      "og_image": "https://philipdick.com/mirror/misc/weirdo/weirdo17.jpg",
-      "groq_label": "Philip K. Dick's religious visions and schizophrenia symptoms blurred so completely that he once tried suicide, convinced his divine contact had abandoned him.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product aims to explore the religious experiences of Philip K. Dick through R. Crumb's 1986 comic. The Hacker News discussion was generally mixed, with many commenters appreciating the exploration of PKD's mental state and its impact on his work. At the same time, several commenters raised concerns about the graphic nature of the content and its potential to trigger or disturb readers. Overall, the discussion suggests that the community sees value in the project but believes there are important ethical and practical challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
