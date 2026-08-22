@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T01:23:28.809Z"
+    "lastUpdated": "2026-08-22T04:37:21.131Z"
   },
   "stories": [
+    {
+      "id": 49396086,
+      "author": "gmays",
+      "descendants": 24,
+      "kids": "[49396573,49396389,49396413,49396531,49396378]",
+      "score": 15,
+      "time": 1787366250,
+      "title": "Early Humans Likely Ate Carbs and Sugary Foods",
+      "type": "story",
+      "url": "https://www.history.com/articles/early-human-ancestors-diet-sugar-carbs",
+      "og_image": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,w_1200,h_630,g_auto/dpr_auto/f_auto/q_auto:eco/v1/prehistoric-man_bixtxv?_a=BAVMn6E80",
+      "groq_label": "Early human diets included carbohydrates and sugars, with women and children gathering fruit to provide energy for hunting males.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article discusses the likelihood that early humans consumed carbohydrates and sugary foods. Hacker News commenters generally appreciated the insights into early human diets and believed the project could improve understanding of human evolution. However, they also expressed concerns about oversimplification and questioned the extent of sugar consumption. Overall, the discussion was mixed, with commenters recognizing both the article's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49395628,
+      "author": "Jach",
+      "descendants": 139,
+      "kids": "[49396448,49395998,49396585,49396106,49396446,49396038,49396059,49396149,49396327,49396544,49396432,49395917,49396344,49396173,49396210,49395831,49396385,49395927,49396020,49396433,49396033,49395893,49396172,49395868,49395987,49395896,49396157,49396326,49395843,49396513,49395798,49395860,49395837,49396080,49396016,49395979,49395828,49395819,49395690,49395906,49395969,49395900,49396579,49396236,49396055,49395782,49396058,49396023]",
+      "score": 171,
+      "time": 1787360777,
+      "title": "There's no reason for software to be slow anymore",
+      "type": "story",
+      "url": "https://danluu.com/perf-opt/",
+      "og_image": "images/49395628.png",
+      "groq_label": "LLMs enable automated, workload-specific optimizations that were previously too costly, turning niche performance techniques from demoscene and FFTW into mainstream possibilities.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post/research/product aims to solve the problem of software inefficiency and slowness. The Hacker News discussion was generally mixed, with many commenters appreciating the potential of agentic optimization and AI-driven improvements in software performance. At the same time, several commenters raised concerns about the limitations of AI-generated code, arguing that it often lacks data or hardware-oriented design and may introduce inefficiencies. Overall, the discussion suggests that the community sees promise in AI-driven optimization but believes there are important challenges—such as hardware constraints and the need for better specifications—that still need to be addressed.",
+      "groq_explain": "Software is slow because it’s often built generically, but now we can optimize it easily for specific tasks using AI and modern tools. This matters because it means software can run faster and more efficiently without needing rare expertise, unlocking better performance for almost any project."
+    },
+    {
+      "id": 49395605,
+      "author": "Cider9986",
+      "descendants": 14,
+      "kids": "[49396565,49396437,49395861,49396345,49396497,49396468,49396415,49396009,49396206,49396142,49395905,49395977,49395795]",
+      "score": 40,
+      "time": 1787360529,
+      "title": "Initial focus for our partnership with Motorola is a regular non-folding device",
+      "type": "story",
+      "url": "https://grapheneos.social/@GrapheneOS/117136278553665985",
+      "og_image": "https://grapheneos.social/system/site_uploads/files/000/000/002/@1x/42ead1439dbbdc50.png",
+      "groq_label": "Motorola's partnership with GrapheneOS could enable non-Google hardware with strong privacy-focused software, addressing a key trust gap for users.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis partnership between GrapheneOS and Motorola aims to solve the problem of providing secure, privacy-focused smartphone hardware and software for users who distrust Google's ecosystem. The Hacker News discussion was generally positive, with many commenters appreciating the potential for a non-folding, GrapheneOS-compatible device with features like a stylus, audio jack, and microSD slot. Commenters also praised the collaboration between GrapheneOS and Motorola, noting that Motorola's involvement could make it easier to port GrapheneOS to their devices compared to Google Pixels. However, several commenters raised concerns about Motorola's ownership by Lenovo (a Chinese company) and questioned the long-term viability of the partnership. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around trust in Motorola—that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49394827,
       "author": "dariusmonsef",
@@ -106,6 +151,21 @@
       "groq_label": "The biggest 2D map of the universe reveals vast cosmic structures with unexpected flat lines, possibly artifacts or projections of higher-dimensional phenomena.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated the sheer scale and ambition of the 2D map of the universe, calling it impressive and humbling. Others highlighted the embedded video as a way to better grasp the map's massive scale. Nevertheless, recurring criticisms focused on practical aspects, with commenters questioning whether the map could be downloaded for local exploration and suggesting the need for a 360 VR version. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
       "groq_explain": "TL;DR: Scientists published the largest-ever 2D map of the universe, mapping hundreds of millions of galaxies and stars. It matters because this detailed cosmic atlas helps researchers study dark energy, galaxy formation, and the universe's expansion, advancing our understanding of space."
+    },
+    {
+      "id": 49391553,
+      "author": "hn_acker",
+      "descendants": 21,
+      "kids": "[49396130,49393236,49395846,49396182,49395167,49391596,49396150,49396056]",
+      "score": 61,
+      "time": 1787334341,
+      "title": "OTel isn't going well (and I made a spreadsheet about it)",
+      "type": "story",
+      "url": "https://matduggan.com/otel-isnt-going-well-and-i-made-a-spreadsheet-about-it/",
+      "og_image": "https://matduggan.com/content/images/2026/08/image-1.png",
+      "groq_label": "OpenTelemetry's tracing, metrics, and logs are designed independently, making runtime decisions like converting logs to traces impossible without re-instrumenting code.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project/blog post aims to solve the problem of standardizing observability practices across vendors and environments. The Hacker News discussion was generally mixed, with many commenters appreciating OpenTelemetry's (OTel) potential to avoid vendor lock-in and provide a unified framework for metrics, logs, and traces. At the same time, several commenters raised concerns about OTel's design, performance overhead, and implementation challenges. Overall, the discussion suggests that the community sees promise in OTel as a standard but believes there are important technical and practical challenges that still need to be addressed.",
+      "groq_explain": null
     },
     {
       "id": 49390910,
@@ -389,66 +449,6 @@
       "og_image": "images/49386895.png",
       "groq_label": "A U.S. citizen faces felony charges for deleting phone data at the border, despite using a duress PIN that technically transferred deletion control to the border official.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the felony charges brought against a citizen for deleting phone data at a US border. The Hacker News discussion was generally critical, with many commenters questioning the legal basis and fairness of the charges. Commenters appreciated the mention of GrapheneOS and the use of a duress PIN, highlighting the tension between privacy tools and law enforcement actions. At the same time, several commenters raised concerns about the overreach of border officials and the potential for such cases to waste judicial resources. Overall, the discussion suggests that the community sees the prosecution as an overreach but acknowledges the broader implications for privacy and digital rights.",
-      "groq_explain": null
-    },
-    {
-      "id": 49386659,
-      "author": "ksec",
-      "descendants": 11,
-      "kids": "[49387084,49386914,49387230]",
-      "score": 39,
-      "time": 1787312618,
-      "title": "TigerBeetle Core System Architecture: Deconstructing Performance Engineering",
-      "type": "story",
-      "url": "https://ixuvo.com/blog/tigerbeetle-core-system-architecture-performance-engineering",
-      "og_image": "https://ixuvo.com/api/pb/api/files/posts/huy107e0jp78h5b/tigerbeetle_core_system_architecture_performance_engineering_cover_rsy2ravvpk.jpg",
-      "groq_label": "TigerBeetle's architecture enables users to define custom business logic while reusing its high-performance consensus and networking stack.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article about TigerBeetle Core System Architecture aims to solve the problem of high-performance financial transaction processing. Hacker News commenters generally appreciated the system's architecture and performance engineering, particularly highlighting the simulation tool as a standout feature. However, they also expressed concerns about the project's rigidity, with one commenter wishing it could be more modular to allow custom business logic while reusing the underlying infrastructure. Overall, the discussion was positive, with commenters recognizing both the project's potential and its current limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49386383,
-      "author": "ksec",
-      "descendants": 1,
-      "kids": "[49386389]",
-      "score": 17,
-      "time": 1787310385,
-      "title": "Kino: A high-performance Ractor web server for Ruby 4.0",
-      "type": "story",
-      "url": "https://github.com/yaroslav/kino",
-      "og_image": "https://repository-images.githubusercontent.com/1265848260/7f75d1f0-fb33-4960-93a1-6ab45c6a3296",
-      "groq_label": "Ruby's Ractor web server performance could shift Rails' concurrency model from Fibers to Ractors.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project aims to solve the problem of high-performance web serving in Ruby 4.0. Hacker News commenters generally appreciated the focus on performance and believed the project could significantly improve Ruby's web serving capabilities. However, they also expressed concerns about the future direction of Ruby on Rails, questioning whether Ractor or Fiber would dominate. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations in the broader Ruby ecosystem.",
-      "groq_explain": null
-    },
-    {
-      "id": 49386163,
-      "author": "dares2573",
-      "descendants": 42,
-      "kids": "[49386390,49386385,49386864,49386553,49386339,49387025,49386799,49386490,49386871,49386541,49386458,49386967,49386444,49387113,49386634]",
-      "score": 183,
-      "time": 1787308436,
-      "title": "DeepSeek-v4-flash-vision-exp",
-      "type": "story",
-      "url": "https://api-docs.deepseek.com/guides/vision/",
-      "og_image": "https://api-docs.deepseek.com/img/deepseek-social-card.jpeg",
-      "groq_label": "DeepSeek-v4-flash-vision-exp resizes images to ~800×800 pixels (0.64 MP) for token-based vision processing, which is far below modern display resolutions.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis DeepSeek-v4-flash-vision-exp project aims to solve the problem of integrating vision capabilities into language models. The Hacker News discussion was generally positive, with many commenters appreciating the addition of vision features and the project's approach to multimodal input. At the same time, several commenters raised concerns about the limited resolution (800x800 pixels), arguing that it restricts practical applications like OCR or detailed image analysis. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed, particularly around image resolution and usability for fine-grained tasks.",
-      "groq_explain": null
-    },
-    {
-      "id": 49385994,
-      "author": "darccio",
-      "descendants": 87,
-      "kids": "[49387145,49386905,49387175,49387031,49387054,49387257,49386891,49387086,49387237,49387026,49387023,49387128,49386831,49386962,49386755,49387191,49386744,49387064]",
-      "score": 142,
-      "time": 1787306746,
-      "title": "AI companies destroy physical books – let's scan rare books before it's too late",
-      "type": "story",
-      "url": "https://annas-archive.pk/blog/physical-destruction.html",
-      "og_image": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
-      "groq_label": "AI companies are destroying physical books to scan them for AI training, potentially erasing rare copies forever.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights the problem of AI companies destroying physical books to digitize them, potentially risking the loss of rare and unique knowledge. The Hacker News discussion was mixed, with many commenters appreciating the urgency of preserving knowledge and the potential benefits of digitization. At the same time, several commenters raised concerns about the ethical and legal implications, arguing that the destruction of physical books is not justified by digitization alone. Overall, the discussion suggests that the community sees promise in digitization but believes there are important challenges—particularly around copyright, trustworthiness of claims, and the practical value of rare books—that still need to be addressed.",
       "groq_explain": null
     }
   ]
