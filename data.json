@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T09:02:51.800Z"
+    "lastUpdated": "2026-08-22T12:45:31.460Z"
   },
   "stories": [
+    {
+      "id": 49398904,
+      "author": "sbulaev",
+      "descendants": 1,
+      "kids": "[49399150]",
+      "score": 9,
+      "time": 1787400426,
+      "title": "Hook, hold, harvest and hide: Meta's alleged strategy laid out in first week",
+      "type": "story",
+      "url": "https://www.theguardian.com/technology/2026/aug/22/meta-trial-children-privacy",
+      "og_image": "https://i.guim.co.uk/img/media/5fe3c6e2663c1940dc067dd6bc16c1117ac663b4/955_0_4016_3213/master/4016.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d230dbeb5c6c85168c698cf5d9542f3f",
+      "groq_label": "Meta allegedly designed addictive products that exploit children, with a potential $200bn liability risk if found liable.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article discusses Meta's alleged strategy of \"Hook, hold, harvest, and hide\" as laid out in its first week. Hacker News commenters generally appreciated the breakdown of Meta's strategy and believed it provided valuable insight into the company's approach. However, they also expressed concerns about the ethical implications of such a strategy and questioned its long-term sustainability. Overall, the discussion was mixed, with commenters recognizing both the article's potential to inform and its limitations in addressing broader ethical concerns.",
+      "groq_explain": "Meta is accused of designing addictive social media platforms that harm kids by hooking, holding, and harvesting their data while hiding the harm. The lawsuit could cost them up to $200 billion and force major changes to how their apps work. Meta denies wrongdoing, saying they have safeguards in place."
+    },
+    {
+      "id": 49398304,
+      "author": "backlit4034",
+      "descendants": 219,
+      "kids": "[49398764,49398678,49398416,49398899,49399161,49398427,49398750,49399085,49399148,49398535,49398801,49399158,49398831,49398977,49399059,49398618,49398768,49398502,49398741,49399129,49398637,49398921,49398775,49398483,49398931,49398436,49399033,49399009,49398657,49398408,49398492,49398865,49398390,49398467,49398526]",
+      "score": 346,
+      "time": 1787394369,
+      "title": "Canada suspends trade negotiations with USA and match tariffs dollar for dollar",
+      "type": "story",
+      "url": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+      "og_image": "https://www.pm.gc.ca/sites/pm/files/media/override_sharing/2025-11/PM_Statement_EN.png",
+      "groq_label": "Canada's tariff retaliation risks pushing the country closer to China, undermining its own stated goal of reducing dependence on the US.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis decision by Canada to suspend trade negotiations with the USA and impose matching tariffs aims to address unfair trade practices and protect domestic industries. The Hacker News discussion was generally mixed, with many commenters appreciating Canada's willingness to stand up to the U.S. administration and highlighting the need for a firm response to tariffs. At the same time, several commenters raised concerns about the potential economic impact on Canadians, noting that tariffs could lead to higher costs and job losses. Overall, the discussion suggests that the community sees Canada's actions as a necessary pushback against aggressive U.S. trade policies but believes there are significant risks and challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49398158,
+      "author": "asdefghyk",
+      "descendants": 17,
+      "kids": "[49398547,49398850,49398437,49398159,49398538]",
+      "score": 35,
+      "time": 1787392197,
+      "title": "Z80–The 1970s Microprocessor Still Alive",
+      "type": "story",
+      "url": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi",
+      "og_image": "images/49398158.png",
+      "groq_label": "The Z80's 8,000 transistors in 1976 contrasts with the Apple M5 Max's 100 billion in 2023, showing a 12.5-million-fold increase in transistor count over 47 years.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about the Z80 microprocessor highlights its historical significance and continued relevance. The Hacker News discussion was generally positive, with many commenters appreciating the Z80's simplicity and its role in early computing. At the same time, several commenters raised concerns about its outdated architecture and limited modern applications. Overall, the discussion suggests that the community sees the Z80 as an interesting piece of computing history but believes its practical use today is limited.",
+      "groq_explain": null
+    },
+    {
+      "id": 49398152,
+      "author": "simonpure",
+      "descendants": 18,
+      "kids": "[49399018,49398820,49398628,49398695,49398677,49398753,49399015]",
+      "score": 50,
+      "time": 1787392154,
+      "title": "Munder Difflin – Agent harness to run an office of your clones",
+      "type": "story",
+      "url": "https://munderdiffl.in/",
+      "og_image": "https://munderdiffl.in/media/og.png",
+      "groq_label": "Munder Difflin lets users simulate an office of AI agents where one acts as Michael Scott and others as Dwight Schrute, enabling management practice without real consequences.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, Munder Difflin, aims to solve the problem of managing multiple AI coding agents efficiently. The Hacker News discussion was generally positive, with many commenters appreciating its creativity and potential usefulness. At the same time, several commenters raised concerns about its practicality and tone, arguing that it might be seen as gimmicky or unnecessary. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49397074,
       "author": "tartoran",
@@ -390,66 +450,6 @@
       "groq_label": "Zig's std.Io.Threaded uses POSIX signals to reliably cancel blocking syscalls in threads, enabling proper concurrency without resorting to newer APIs like io_uring.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project aims to improve [problem description, inferred from title]. Hacker News commenters generally appreciated the concept and believed the project could enhance [benefit, inferred from title]. However, they also expressed concerns about [weaknesses, inferred from lack of detail in comment] and questioned [issue, inferred from commenter's desire for more]. Overall, the discussion was positive yet brief, with the commenter recognizing both the project's potential and its limitations.",
       "groq_explain": "Zig's Io.Threaded lets you use regular OS threads with blocking system calls while still allowing you to cancel ongoing operations reliably. Most systems don't let you stop a thread stuck in a blocking syscall, but Zig does this by using signals to interrupt the syscall. This matters because it combines the simplicity of threads with proper concurrency support, avoiding the need for complex alternatives like io_uring."
-    },
-    {
-      "id": 49388682,
-      "author": "erikschoster",
-      "descendants": 4,
-      "kids": "[49390605,49390242,49389875,49389950]",
-      "score": 37,
-      "time": 1787322457,
-      "title": "WPD won't replace stolen Flock cameras, citing public trust",
-      "type": "story",
-      "url": "https://www.winonapost.com/news/wpd-wont-replace-stolen-flock-cameras-citing-public-trust/article_06a67859-2d97-414b-aa8f-d8751ad214bb.html",
-      "og_image": "https://bloximages.newyork1.vip.townnews.com/winonapost.com/content/tncms/assets/v3/editorial/8/6f/86fe59af-f945-41eb-9308-e29fc88c0b05/6a297577a5475.image.jpg?crop=1723%2C905%2C16%2C142&resize=1200%2C630&order=crop%2Cresize",
-      "groq_label": "Public distrust of police, not the surveillance system itself, is the core issue driving opposition to Flock cameras.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses a decision by WPD not to replace stolen Flock cameras, citing concerns about public trust. Hacker News commenters generally viewed the decision critically, questioning the police department's priorities and understanding of public sentiment. Many appreciated the acknowledgment of public distrust but believed the response missed the mark, noting that the real issue lies with distrust of the police rather than the surveillance system itself. However, they also expressed concerns about the lack of clarity on alternative solutions and the potential implications of leaving cameras unreplaced. Overall, the discussion was negative, with commenters recognizing the complexity of the issue while emphasizing the need for better approaches to address public concerns.",
-      "groq_explain": null
-    },
-    {
-      "id": 49388446,
-      "author": "speckx",
-      "descendants": 31,
-      "kids": "[49389055,49390532,49389224,49389977,49389575,49389154,49389019,49390013,49389581,49389611,49389542,49389152,49389049,49388994,49389289,49389011]",
-      "score": 56,
-      "time": 1787321777,
-      "title": "What We Lost When Search Stopped Making Us Think",
-      "type": "story",
-      "url": "https://blog.8ball.space/what-we-lost-when-search/",
-      "og_image": "https://blog.8ball.space/static/og-image.png",
-      "groq_label": "Google AI Overviews hallucinate numbers and time-sensitive data, making quick searches unreliable.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the decline in thoughtful, high-quality search results and the rise of AI-generated summaries that prioritize convenience over depth. The Hacker News discussion was generally mixed, with many commenters appreciating the concerns raised about the erosion of critical thinking in search while also acknowledging the practical benefits of AI-driven results. At the same time, several commenters raised concerns about the limitations of AI-generated content, arguing that it often hallucinates facts and lacks the reliability of traditional search results. Overall, the discussion suggests that the community sees value in the critique but believes there are important trade-offs between convenience and accuracy that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49388154,
-      "author": "speckx",
-      "descendants": 187,
-      "kids": "[49388910,49389173,49388398,49388483,49388382,49388579,49388443,49389555,49390223,49388428,49388652,49388494,49389792,49390033,49389370,49390380,49389886,49388792,49388542,49389815,49390283,49388453,49388755,49390048,49390123,49389082,49390299,49388471,49389960,49388449,49389089,49388604,49389211,49390135,49388679,49388511,49389008,49388928]",
-      "score": 508,
-      "time": 1787320597,
-      "title": "Kagi added a setting for removing paywalled links from search results",
-      "type": "story",
-      "url": "https://kagi.com/changelog#11296",
-      "og_image": "https://kagi.com/asset/static_assets/stock-chart.apng",
-      "groq_label": "Kagi's paywall-removal feature highlights how subscription models may be the only viable path for quality journalism in an era of AI-generated content and ad-driven clickbait.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this Kagi search engine feature with positive reactions. Many commenters appreciated the new setting for removing paywalled links and considered it useful because it addresses a common frustration with search results. Others highlighted Kagi's AI Assistant as one of the project's most valuable aspects, praising its ability to provide verifiable data without fluff. Nevertheless, recurring criticisms focused on concerns about Kagi's data sources, particularly its use of Russian indexing services, which some commenters found problematic. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49387856,
-      "author": "pppone",
-      "descendants": 16,
-      "kids": "[49390199,49388133,49388079]",
-      "score": 58,
-      "time": 1787319317,
-      "title": "Radiation damage to Hubble has been 4.3 years out of phase with the Solar cycle",
-      "type": "story",
-      "url": "https://arxiv.org/abs/2608.18214",
-      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
-      "groq_label": "Hubble's radiation damage peaked 4.3 years after the Solar cycle's maximum, likely due to the delayed impact of solar wind and CMEs scattering cosmic rays.",
-      "groq_discussion": "Discussion type: – Short\n\nThis research focuses on the unexpected phase difference between radiation damage to the Hubble telescope and the Solar cycle. Hacker News commenters generally appreciated the unintended empirical data revealing cosmic ray interactions with space telescopes, noting its potential to improve sensor durability and imaging quality. However, they also expressed concerns about the underlying mechanisms, questioning the correlation with solar wind/CMEs versus sunspots. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
     }
   ]
 }
