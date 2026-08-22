@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T16:54:52.476Z"
+    "lastUpdated": "2026-08-22T17:18:18.766Z"
   },
   "stories": [
+    {
+      "id": 49401229,
+      "author": "newsomix9xl",
+      "descendants": 9,
+      "kids": "[49401560,49401581]",
+      "score": 15,
+      "time": 1787415789,
+      "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+      "type": "story",
+      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+      "og_image": "https://image.cnbcfm.com/api/v1/image/108342843-1785448090042-gettyimages-2280291466-ANTHROPIC_CIRCUIT.jpeg?v=1785448353&w=1920&h=1080",
+      "groq_label": "Anthropic's IPO filing will list AI backlash and data center sentiment as risk factors.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article discusses how Anthropic's IPO filing will highlight AI backlash as a risk factor. Hacker News commenters generally viewed the article as a non-story, noting that prospectuses typically list every potential risk, including those that may never materialize. However, they also acknowledged that negative sentiment towards AI and data centers is a legitimate concern. Overall, the discussion was mixed, with commenters recognizing the article's point while questioning its significance.",
+      "groq_explain": null
+    },
+    {
+      "id": 49401122,
+      "author": "gwynforthewyn",
+      "descendants": 1,
+      "kids": "[49401123]",
+      "score": 3,
+      "time": 1787415076,
+      "title": "Learning about \"The Unix Time-Sharing System\"",
+      "type": "story",
+      "url": "https://playtechnique.io/long/the-unix-time-sharing-system.html",
+      "og_image": "images/49401122.png",
+      "groq_label": "Ken Thompson used a little-used PDP-7 to write Unix after Multics, contrasting file opening methods and explaining the \"comfile\" in the original Unix paper.",
+      "groq_discussion": "Discussion type: – Short\n\nThis essay explores details surrounding the first Bell Labs white paper on Unix, \"The Unix Time-Sharing System,\" focusing on Ken Thompson's work between the end of Multics and the development of Unix on a PDP-7, file handling differences between Multics and Unix, and the meaning of \"comfile\" in the paper. Hacker News commenters generally appreciated the historical insights and the author's firsthand perspective. However, they also expressed curiosity about broader implications and potential gaps in the narrative. Overall, the discussion was positive, with commenters recognizing both the essay's value and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49400408,
       "author": "jemoka",
@@ -419,36 +449,6 @@
       "og_image": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/assets/image.png",
       "groq_label": "A 34 ms p95 time-to-first-audio for TTS at 10 requests per second was achieved on a single H100 by optimizing the qwen3-tts model.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis text-to-speech (TTS) model aims to solve the problem of achieving ultra-low latency in real-time voice applications. The Hacker News discussion was generally positive, with many commenters appreciating the technical achievement of sub-50 ms response times and the open-source release of the implementation. At the same time, several commenters raised concerns about the trade-offs between speed and quality, noting that pushing for lower latency often comes at the expense of output quality. Others highlighted the importance of on-device or mobile-friendly implementations, arguing that current solutions remain too resource-intensive for widespread adoption. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around quality preservation and hardware efficiency—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49389565,
-      "author": "Edymilson",
-      "descendants": 37,
-      "kids": "[49390049,49390414,49390381,49390068,49390151,49390217,49390090]",
-      "score": 61,
-      "time": 1787325942,
-      "title": "AI Boosted Homework Scores by 18% – Then Exam Scores Dropped 20%, Study Shows",
-      "type": "story",
-      "url": "https://canews24.online/?p=71",
-      "og_image": "https://canews24.online/wp-content/uploads/2026/08/Student_using_smartphone_for_lea%E2%80%A6_202608210934.jpeg",
-      "groq_label": "Students who relied on AI tools for homework improved scores by 18% but performed 20% worse on exams without AI assistance.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis study examines the unintended consequences of using AI tools on homework and exam performance. The Hacker News discussion was generally mixed, with some commenters appreciating the nuanced takeaway that AI assistance may reduce memorization but still aid learning. At the same time, several commenters raised concerns about the over-reliance on AI tools, arguing that they contribute to \"AI slop\" and undermine traditional learning methods. Overall, the discussion suggests that the community sees both the potential of AI in education and the risks of over-dependence on it, emphasizing the need for better integration of AI tools in learning.",
-      "groq_explain": "AI tools boost homework scores by 18% but cause exam scores to drop 20% when students rely on them instead of learning the material. It matters because it shows AI can give short-term gains but hurt long-term understanding, raising concerns about how students use these tools."
-    },
-    {
-      "id": 49389524,
-      "author": "jader201",
-      "descendants": 15,
-      "kids": "[49390531,49390133,49390095,49390158,49390129,49390216,49390161]",
-      "score": 32,
-      "time": 1787325812,
-      "title": "Cancer-Related Mortality Among US Pilots and Flight Attendants",
-      "type": "story",
-      "url": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2852504",
-      "og_image": "images/49389524.png",
-      "groq_label": "Modern passenger jets pump superheated engine bleed-air into cabins, potentially circulating toxic fumes from oil and hydraulic leaks during \"fume events.\"",
-      "groq_discussion": "Discussion type: – Community Perspective\n\nThe Hacker News community generally responded to this study on cancer-related mortality among US pilots and flight attendants with mixed reactions. Many commenters appreciated the investigation into occupational health risks for aviation workers, considering it an important and under-discussed issue. Others highlighted the significance of cabin air quality and potential exposure to toxic fumes as a major concern for flight crews.\n\nNevertheless, recurring criticisms focused on accessibility and media sensationalism. Commenters expressed frustration over paywalls preventing access to the full study, with some pointing out that even \"free\" accounts did not bypass restrictions. There was also skepticism about the framing of the issue, with some arguing that the discussion around \"poisoned cabin air\" and \"fume events\" oversimplified complex occupational health challenges.\n\nAs a whole, commenters viewed the project as an interesting contribution to public health discussions while acknowledging that it still has room for improvement, particularly in transparency and accessibility.",
       "groq_explain": null
     }
   ]
