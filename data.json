@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-21T21:21:53.405Z"
+    "lastUpdated": "2026-08-22T01:23:28.809Z"
   },
   "stories": [
+    {
+      "id": 49394827,
+      "author": "dariusmonsef",
+      "descendants": 10,
+      "kids": "[49395359,49395240,49394952,49395220]",
+      "score": 31,
+      "time": 1787353746,
+      "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "type": "story",
+      "url": "https://ozbrain.com",
+      "og_image": "https://ozbrain.com/og.png?v=4",
+      "groq_label": "OzBrain addresses LLM accuracy degradation in summarizing large text batches by optimizing compilation methods.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project, OzBrain, aims to solve the problem of knowledge sharing and memory between AI agents and teams. The Hacker News discussion was generally mixed, with many commenters appreciating the concept and the potential market fit, noting that they had built similar systems themselves. At the same time, several commenters raised concerns about the project's approach to handling large-scale text compilation, questioning the accuracy of LLMs in summarizing non-trivial batches of text. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around accuracy, scalability, and format support—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49394496,
+      "author": "tdullien",
+      "descendants": 8,
+      "kids": "[49395574,49395254,49395083,49395184,49394620,49395298,49395322,49395261]",
+      "score": 39,
+      "time": 1787351340,
+      "title": "Three important steps in my maturation process",
+      "type": "story",
+      "url": "https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/",
+      "og_image": "https://s0.wp.com/mshots/v1/https%3A%2F%2Fthomasdullien.github.io%2Fposts%2F2026-08-21-three-important-steps-in-my-maturation-process%2F?w=800",
+      "groq_label": "Emotion and reason are not opposing forces but complementary inputs guiding actions, with incentive structures shaping daily nudges toward self-transformation.",
+      "groq_discussion": "Discussion type: – Short\n\nThis personal reflection discusses three key steps in the author's maturation process: understanding one's incentive structure, recognizing the role of emotions in decision-making, and challenging the reason-emotion dichotomy. Hacker News commenters generally appreciated the introspective and thought-provoking nature of the piece, noting that it resonated with them and offered valuable insights. However, they also expressed some skepticism, particularly regarding the oversimplification of the relationship between reason and emotion. Overall, the discussion was positive, with commenters recognizing both the depth of the reflection and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49393733,
       "author": "maciejSz",
@@ -15,6 +45,21 @@
       "og_image": "https://bookface-images.s3.amazonaws.com/logos/2eaf182f2bdedfa672a047416d8b513b6e01e58e.png?1736991014",
       "groq_label": "SalesPatriot, a Y Combinator Winter 2025 startup, is hiring Forward Deployed Engineers.",
       "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49393052,
+      "author": "matklad",
+      "descendants": 9,
+      "kids": "[49395659,49393068,49395537,49395338]",
+      "score": 12,
+      "time": 1787341914,
+      "title": "Rust Glancer: Rust LSP using 100x less RAM",
+      "type": "story",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "og_image": "https://rust-glancer.github.io/assets/2026-08-19-hello-world/memory.png",
+      "groq_label": "Rust Glancer is a Rust Language Server Protocol implementation that uses significantly less RAM than traditional tools like Rust Analyzer.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis Rust Glancer project aims to solve the problem of high RAM usage in Rust Language Server Protocol (LSP) implementations. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its potential to significantly reduce memory consumption. Many appreciated the innovative approach to addressing a common pain point in Rust development workflows. However, the discussion also revealed several criticisms. Commenters expressed concerns about the lack of clarity in the project's explanation of acronyms like \"LSP,\" which could hinder adoption. Overall, the Hacker News community considered the project promising but emphasized the need for better documentation and clearer communication of technical terms.",
       "groq_explain": null
     },
     {
@@ -404,51 +449,6 @@
       "og_image": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
       "groq_label": "AI companies are destroying physical books to scan them for AI training, potentially erasing rare copies forever.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights the problem of AI companies destroying physical books to digitize them, potentially risking the loss of rare and unique knowledge. The Hacker News discussion was mixed, with many commenters appreciating the urgency of preserving knowledge and the potential benefits of digitization. At the same time, several commenters raised concerns about the ethical and legal implications, arguing that the destruction of physical books is not justified by digitization alone. Overall, the discussion suggests that the community sees promise in digitization but believes there are important challenges—particularly around copyright, trustworthiness of claims, and the practical value of rare books—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49385860,
-      "author": "marcomezzavilla",
-      "descendants": 23,
-      "kids": "[49387363,49386123,49387266,49386195,49386720,49386034,49386186,49386737,49387324,49387124,49386826]",
-      "score": 97,
-      "time": 1787305514,
-      "title": "Small, native web tricks worth remembering",
-      "type": "story",
-      "url": "https://htmlcat.net/",
-      "og_image": "images/49385860.png",
-      "groq_label": "The commenters highlight the lack of examples, compatibility details, and demos as major shortcomings of the resource.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to share small, native web tricks worth remembering. The Hacker News discussion was generally mixed, with many commenters appreciating the concept of opinionated lists and the ease of browsing useful features. At the same time, several commenters raised concerns about the lack of examples and compatibility information, arguing that the site would be more valuable with demos and browser support details. Overall, the discussion suggests that the community sees promise in the idea but believes there are important improvements that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49384896,
-      "author": "spankibalt",
-      "descendants": 10,
-      "kids": "[49385385,49385189,49385334,49385207,49385352,49385261]",
-      "score": 40,
-      "time": 1787297007,
-      "title": "The Lost Treasure of Sid Meier's Pirates",
-      "type": "story",
-      "url": "https://remapradio.com/articles/the-lost-treasure-of-sid-meiers-pirates/",
-      "og_image": "https://storage.ghost.io/c/44/bd/44bde490-d49a-4b74-9f0c-24be597e5294/content/images/size/w1200/2026/08/Pirates-Merchant-1.png",
-      "groq_label": "Sid Meier's Pirates! (1987) fundamentally shifted MicroProse's identity from simulation-heavy games to a broader, more accessible portfolio.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article about Sid Meier's memoir with positive reactions. Many commenters appreciated the nostalgic reflections on Pirates and considered it a great read, highlighting its impact on the studio and gaming culture. Others highlighted the game's lasting influence as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on minor frustrations like login system issues with third-party links. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49384716,
-      "author": "signa11",
-      "descendants": 5,
-      "kids": "[49385379,49385154,49385263,49385270]",
-      "score": 37,
-      "time": 1787295580,
-      "title": "We Rebuilt the Linux MicroVM Stack on Apple Silicon",
-      "type": "story",
-      "url": "https://encore.dev/blog/firecracker-apple-silicon",
-      "og_image": "https://encore.dev/assets/blog/card/crackling-microvms-card.png",
-      "groq_label": "VZ.framework lacks features compared to Hypervisor.framework, and Apple's private virtualization APIs hold hidden capabilities.",
-      "groq_discussion": "Discussion type: – Short\n\nThis project aims to rebuild the Linux MicroVM stack on Apple Silicon. Hacker News commenters generally appreciated the effort and believed the project could improve local development workflows. However, they also expressed concerns about Apple's limited virtualization frameworks and questioned the project's focus on solving problems for Mac users. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     }
   ]
