@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T05:03:50.018Z"
+    "lastUpdated": "2026-08-22T08:34:51.151Z"
   },
   "stories": [
+    {
+      "id": 49397074,
+      "author": "tartoran",
+      "descendants": 21,
+      "kids": "[49397401,49397736,49397644,49397661,49397388]",
+      "score": 60,
+      "time": 1787379417,
+      "title": "Canada will match US tariffs 'dollar for dollar' as trade talks break down",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/cvgvyy4x2mvo",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/ef5d/live/88423690-9ddd-11f1-b109-879e35c24276.jpg",
+      "groq_label": "Canada's potential retaliation in trade wars could target critical US supply chains like oil, potash, and fertilizer, significantly disrupting prices and industries.",
+      "groq_discussion": "Discussion type: – Short\n\nThis news about Canada matching US tariffs 'dollar for dollar' as trade talks break down highlights a tense trade dispute. Hacker News commenters generally reacted with sarcasm and criticism, focusing on the broader geopolitical context. Many appreciated the humorous take on the situation, noting the irony of the US's trade actions while also pointing out the potential economic leverage Canada holds. However, they also expressed concerns about escalating trade wars and their impact on global stability. Overall, the discussion was critical, with commenters recognizing both the absurdity and the serious implications of the situation.",
+      "groq_explain": null
+    },
     {
       "id": 49396620,
       "author": "Markoff",
@@ -166,6 +181,21 @@
       "groq_label": "The biggest 2D map of the universe reveals vast cosmic structures with unexpected flat lines, possibly artifacts or projections of higher-dimensional phenomena.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated the sheer scale and ambition of the 2D map of the universe, calling it impressive and humbling. Others highlighted the embedded video as a way to better grasp the map's massive scale. Nevertheless, recurring criticisms focused on practical aspects, with commenters questioning whether the map could be downloaded for local exploration and suggesting the need for a 360 VR version. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
       "groq_explain": "TL;DR: Scientists published the largest-ever 2D map of the universe, mapping hundreds of millions of galaxies and stars. It matters because this detailed cosmic atlas helps researchers study dark energy, galaxy formation, and the universe's expansion, advancing our understanding of space."
+    },
+    {
+      "id": 49391661,
+      "author": "corysama",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 17,
+      "time": 1787334846,
+      "title": "Optimizing meshoptimizer to process billions of triangles in minutes (2025)",
+      "type": "story",
+      "url": "https://zeux.io/2025/09/30/billions-of-triangles-in-minutes/",
+      "og_image": "https://zeux.io/images/avatar.jpg",
+      "groq_label": "NVIDIA's RTX Mega Geometry uses clustered raytracing with Nanite's LOD pipeline to stream highly detailed scenes without proxy meshes, and meshoptimizer now optimizes hierarchical clustered LOD processing.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "TL;DR: NVIDIA's new tech lets games render ultra-detailed scenes with full ray tracing without slowing down. It uses a smart system to break down massive 3D models into smaller, manageable chunks that can be streamed and displayed at just the right level of detail. The author improved an open-source tool called meshoptimizer to handle these huge models faster, making it easier for developers to use this tech in their own projects. It matters because it could make next-gen graphics more accessible and efficient for real-time applications like games."
     },
     {
       "id": 49391553,
@@ -419,36 +449,6 @@
       "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
       "groq_label": "Hubble's radiation damage peaked 4.3 years after the Solar cycle's maximum, likely due to the delayed impact of solar wind and CMEs scattering cosmic rays.",
       "groq_discussion": "Discussion type: – Short\n\nThis research focuses on the unexpected phase difference between radiation damage to the Hubble telescope and the Solar cycle. Hacker News commenters generally appreciated the unintended empirical data revealing cosmic ray interactions with space telescopes, noting its potential to improve sensor durability and imaging quality. However, they also expressed concerns about the underlying mechanisms, questioning the correlation with solar wind/CMEs versus sunspots. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49387570,
-      "author": "gavide",
-      "descendants": 22,
-      "kids": "[49389249,49389967,49390148,49390421,49389908,49389123,49389743,49390110,49389023,49389668]",
-      "score": 145,
-      "time": 1787317888,
-      "title": "I accidentally logged phone calls to military bases",
-      "type": "story",
-      "url": "https://lina.sh/blog/hijacking-e164-arpa",
-      "og_image": "https://lina.sh/assets/blog/e164/cover.png",
-      "groq_label": "A private, nearly abandoned phone number porting system still operates quietly via e164.arpa queries over VPN, revealing military call logs years after its decline.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article describes an accidental discovery of logged phone calls to military bases. The Hacker News discussion was generally mixed, with many commenters appreciating the story's intrigue and the author's luck in avoiding legal consequences. At the same time, several commenters raised concerns about the assumptions made in the article, arguing that the conclusion about the source IPs was a significant leap. Overall, the discussion suggests that the community sees the story as interesting but believes there are important questions and limitations that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49387525,
-      "author": "speckx",
-      "descendants": 36,
-      "kids": "[49389372,49390529,49388866,49390182,49390249,49388958,49388929,49389996,49388968]",
-      "score": 85,
-      "time": 1787317646,
-      "title": "We are living in a version of the future out of J.G. Ballard or William Gibson",
-      "type": "story",
-      "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds/",
-      "og_image": "https://precastreinforced.co.uk/wp-content/uploads/2026/08/delivery_robot.jpg",
-      "groq_label": "Gibson's concept of \"biz\" in the Sprawl trilogy describes the merger of governments, corporations, finance, intelligence, and crime into a single nihilistic power structure.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/blog post reflects on how modern reality aligns with dystopian visions from J.G. Ballard or William Gibson. The Hacker News discussion was mixed, with many commenters appreciating the literary and cultural parallels between fiction and reality. At the same time, several commenters raised concerns about the lack of aesthetic or cultural depth in real-world corporations compared to their fictional counterparts. Overall, the discussion suggests that the community sees some truth in the comparison but believes the dystopian fiction serves more as a warning than a manual.",
       "groq_explain": null
     }
   ]
