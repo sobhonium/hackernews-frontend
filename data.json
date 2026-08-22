@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T13:21:54.452Z"
+    "lastUpdated": "2026-08-22T16:29:48.294Z"
   },
   "stories": [
+    {
+      "id": 49400408,
+      "author": "jemoka",
+      "descendants": 13,
+      "kids": "[49401257,49401106,49401019,49401227,49401157,49401200,49401140,49401099,49401011]",
+      "score": 56,
+      "time": 1787410447,
+      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "type": "story",
+      "url": "https://quantumi.sh/public/labs.html",
+      "og_image": "images/49400408.png",
+      "groq_label": "The trend of AI startups adopting numeric names followed by \"labs\" suggests a deliberate attempt to mimic ElevenLabs' branding, with numbers ranging from 0 to 99 and beyond.",
+      "groq_discussion": "Discussion type: – Short\n\nThis trend of naming startups with sequential numbers (ElevenLabs, TwelveLabs, ThirteenLabs) appears to be a playful take on the \"FizzBuzz\" naming convention in startup funding rounds. Hacker News commenters generally viewed the trend with amusement and mild criticism, highlighting strengths such as its memorability and the sheer audacity of the naming scheme. Many appreciated the humor and creativity behind it, noting that it stands out in a crowded market of similarly named startups. However, they also expressed concerns about the lack of originality and the potential for it to become a cliché, with some questioning whether it’s a meaningful trend or just a fleeting gimmick. Overall, the discussion was lighthearted and critical, with commenters recognizing both the entertainment value and the limitations of such naming conventions.",
+      "groq_explain": "The core idea is that there's a trend of AI startups using names like ElevenLabs, TwelveLabs, etc., where a number followed by \"labs\" suggests a focus on AI innovation. It matters because it shows how popular and competitive the AI field has become, with companies trying to stand out or signal modernity through naming conventions. The odd naming pattern raises questions about whether these names are chosen independently or inspired by each other. The piece also highlights the quirky, sometimes outdated web design of these startups, adding a humorous twist to the observation."
+    },
+    {
+      "id": 49399898,
+      "author": "signa11",
+      "descendants": 5,
+      "kids": "[49401269,49401232,49400608,49400483]",
+      "score": 34,
+      "time": 1787407699,
+      "title": "A Friendly Introduction to Racket",
+      "type": "story",
+      "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/",
+      "og_image": "https://geometridae.bearblog.dev/static/og-image.png",
+      "groq_label": "Racket's macro system enables creating domain-specific languages, making it uniquely versatile for both general and specialized programming tasks.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article introduces Racket as a programming language. Hacker News commenters generally appreciated Racket's features and believed the project could appeal to those interested in Lisp dialects. However, they also expressed concerns about the lack of real-world applications and questioned the practicality of the language. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49399591,
+      "author": "pentagrama",
+      "descendants": 65,
+      "kids": "[49400071,49400699,49401101,49400011,49400607,49399913,49400361,49400001,49400288,49400218,49400802,49400160,49399849]",
+      "score": 85,
+      "time": 1787405494,
+      "title": "The New MCP Roadmap",
+      "type": "story",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "og_image": "https://blog.modelcontextprotocol.io/og-image.png",
+      "groq_label": "MCP’s shift to HTTP-native transport and stateless design simplifies deployment but risks losing early adopters frustrated by its evolving standards and complexity.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis MCP roadmap aims to solve the problem of standardizing agent-server communication and improving interoperability. The Hacker News discussion was generally mixed, with many commenters appreciating the shift toward statelessness and HTTP compatibility but criticizing the project's history of changing standards and complexity. At the same time, several commenters raised concerns about MCP's practicality compared to REST, authentication challenges, and deployment difficulties. Overall, the discussion suggests that the community sees promise in the roadmap but believes there are important challenges—particularly around usability and adoption—that still need to be addressed.",
+      "groq_explain": "The new MCP roadmap outlines key improvements for the Model Context Protocol, focusing on five priority areas. It aims to enhance agentic messaging with better primitives for long-running tasks and real-time updates, unify HTTP-native transport for easier server deployment, and strengthen security with standardized agent identity and enterprise-ready authorization methods. The goal is to make MCP more scalable, flexible, and secure for modern AI workloads."
+    },
+    {
+      "id": 49399524,
+      "author": "altmanaltman",
+      "descendants": 48,
+      "kids": "[49400827,49401205,49399870,49400507,49400142,49399736,49401013,49400630,49400780,49400209,49400609,49400570,49400229,49400707,49400618,49400757,49401204,49400569,49400254,49399676,49401093]",
+      "score": 130,
+      "time": 1787405046,
+      "title": "A Kantian Critique of \"Sorry\" by Justin Bieber",
+      "type": "story",
+      "url": "https://decodingvibes.com/blog/a-kantian-critique-of-sorry-by-justin-bieber/",
+      "og_image": "https://decodingvibes.com/_astro/cover.BTJLLbvU_vIUsu.webp",
+      "groq_label": "Justin Bieber’s \"Sorry\" embodies a Kantian critique through its portrayal of an apology that may be insincere, aligning with the song’s fleeting, ambiguous character.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article offers a Kantian critique of Justin Bieber's song \"Sorry.\" Hacker News commenters generally appreciated the depth of analysis applied to a seemingly superficial pop song. However, they also expressed concerns about the overcomplication of the topic and questioned the relevance of the critique. Overall, the discussion was mixed, with commenters recognizing both the project's potential for interesting analysis and its limitations in practical application.",
+      "groq_explain": null
+    },
     {
       "id": 49398904,
       "author": "sbulaev",
@@ -273,6 +333,21 @@
       "groq_explain": null
     },
     {
+      "id": 49391168,
+      "author": "laszlokorte",
+      "descendants": 3,
+      "kids": "[49400427,49400461,49400934]",
+      "score": 23,
+      "time": 1787332686,
+      "title": "Show HN: Rotation via Double Reflection",
+      "type": "story",
+      "url": "https://static.laszlokorte.de/rotor-reflect/",
+      "og_image": "https://static.laszlokorte.de/rotor-reflect/favicon.svg",
+      "groq_label": "Two reflections across intersecting lines always result in a rotation by twice the angle between the lines.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis project introduces a method for rotation via double reflection. Hacker News commenters generally appreciated the mathematical insight and simplicity of the approach, believing it could provide an intuitive way to understand rotations. However, they also noted that it relies on trigonometric functions for initial setup, similar to traditional rotation matrices. Overall, the discussion was positive, with commenters recognizing both the project's potential and its conceptual clarity.",
+      "groq_explain": null
+    },
+    {
       "id": 49390910,
       "author": "ij23",
       "kids": "[]",
@@ -375,81 +450,6 @@
       "groq_label": "Modern passenger jets pump superheated engine bleed-air into cabins, potentially circulating toxic fumes from oil and hydraulic leaks during \"fume events.\"",
       "groq_discussion": "Discussion type: – Community Perspective\n\nThe Hacker News community generally responded to this study on cancer-related mortality among US pilots and flight attendants with mixed reactions. Many commenters appreciated the investigation into occupational health risks for aviation workers, considering it an important and under-discussed issue. Others highlighted the significance of cabin air quality and potential exposure to toxic fumes as a major concern for flight crews.\n\nNevertheless, recurring criticisms focused on accessibility and media sensationalism. Commenters expressed frustration over paywalls preventing access to the full study, with some pointing out that even \"free\" accounts did not bypass restrictions. There was also skepticism about the framing of the issue, with some arguing that the discussion around \"poisoned cabin air\" and \"fume events\" oversimplified complex occupational health challenges.\n\nAs a whole, commenters viewed the project as an interesting contribution to public health discussions while acknowledging that it still has room for improvement, particularly in transparency and accessibility.",
       "groq_explain": null
-    },
-    {
-      "id": 49389441,
-      "author": "colinprince",
-      "descendants": 13,
-      "kids": "[49393348,49392885,49392642,49392954,49392508,49391956,49392494,49391543]",
-      "score": 70,
-      "time": 1787325467,
-      "title": "I ran Photoshop on a £0.60 computer chip",
-      "type": "story",
-      "url": "https://pointinthecloud.com/2026-08-19-144600.html",
-      "og_image": "https://pointinthecloud.com/media/rosie-flying-dog.jpg",
-      "groq_label": "A £0.60 RP2350 microcontroller can emulate a 1984 Macintosh with just 520KB of RAM.",
-      "groq_discussion": "Discussion type: – Short\n\nThis project demonstrates running Photoshop on a low-cost RP2350 microcontroller. Hacker News commenters generally appreciated the creative approach and believed the project could inspire more efficient computing practices. However, they also expressed concerns about the misleading RAM specifications and questioned the practicality of such a setup. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49389430,
-      "author": "colinprince",
-      "descendants": 13,
-      "kids": "[49390398,49390229,49390614,49390516,49390324,49390475,49390173,49390169]",
-      "score": 35,
-      "time": 1787325424,
-      "title": "Felony Bench",
-      "type": "story",
-      "url": "https://www.felonybench.com/",
-      "og_image": "https://www.felonybench.com/og-chart.png",
-      "groq_label": "AI agents have inadvertently caused real-world harm, raising questions about accountability and the adequacy of current legal frameworks.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of tracking unintended harmful impacts of AI agents on third-party entities. The Hacker News discussion was generally mixed, with many commenters appreciating the novelty and potential value of the benchmark as a way to highlight real-world misalignments or illegal outcomes. At the same time, several commenters raised concerns about the framing of these incidents as \"felonies,\" arguing that intent is typically required for legal culpability and that many failures could be attributed to broader systemic issues rather than AI-specific malice. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges with the terminology and scope that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49389392,
-      "author": "tosh",
-      "descendants": 45,
-      "kids": "[49390594,49389771,49390411,49390091,49389881,49389772,49389762,49390378,49389945,49389696,49389810,49389916,49390367,49390339,49389708,49390343,49390366,49390235,49389993,49389994,49390522,49389690,49390287,49389901,49390444,49390021,49390226,49389818,49389717,49389718]",
-      "score": 74,
-      "time": 1787325247,
-      "title": "c100",
-      "type": "story",
-      "url": "https://caligra.com/c100/",
-      "og_image": "https://caligra.com/images/og.c100.jpg",
-      "groq_label": "Caligra's C100 uses a non-standard keyboard layout designed by Pentagram, featuring a unique slabtop form factor with a CNC-milled aluminum case.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis custom workstation product, the Caligra C100, aims to solve the problem of providing a high-end, aesthetically designed computing device for professionals. The Hacker News discussion was generally mixed, with many commenters appreciating the build quality, design, and unique industrial aesthetic, particularly highlighting the attention to detail and craftsmanship. At the same time, several commenters raised concerns about the product's vague positioning, unclear use cases, and high cost—especially given the current market conditions for RAM and SSD prices. Overall, the discussion suggests that the community sees promise in the product's design and uniqueness but believes there are important questions about its practicality and value that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49388963,
-      "author": "baruchel",
-      "descendants": 2,
-      "kids": "[49390453,49390093]",
-      "score": 13,
-      "time": 1787323561,
-      "title": "I came to write THAT paper with Leslie Lamport",
-      "type": "story",
-      "url": "https://lawrencecpaulson.github.io//2026/08/21/Lamport.html",
-      "og_image": "https://lawrencecpaulson.github.io/images/Nullius-window.jpg",
-      "groq_label": "Leslie Lamport's \"Types Considered Harmful\" paper was initially rejected by referees but later co-authored with one referee, who helped transform it into a technically accurate version.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article reflects on a collaborative experience with Leslie Lamport. Hacker News commenters generally appreciated the personal insight into working with Lamport and found the discussion about referee processes and academic collaboration interesting. However, they also expressed concerns about the title's wording and questioned the connection to David McAllester's work. Overall, the discussion was mixed, with commenters recognizing both the article's engaging perspective and its minor ambiguities.",
-      "groq_explain": "The core idea is Leslie Lamport's argument against using types in specification languages, favoring untyped set theory instead. It matters because Lamport, a respected figure in computer science, challenged a common approach in formal methods, sparking debate. The author got involved to refine Lamport's flawed paper into a technically sound version, blending their own expertise in untyped formalisms. The result highlights differing views on how to best structure formal specifications."
-    },
-    {
-      "id": 49388694,
-      "author": "chilipepperhott",
-      "descendants": 1,
-      "kids": "[49390361]",
-      "score": 23,
-      "time": 1787322495,
-      "title": "Zig's Io.Threaded Is Neat",
-      "type": "story",
-      "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
-      "og_image": "https://avatars.githubusercontent.com/u/1711539?v=4",
-      "groq_label": "Zig's std.Io.Threaded uses POSIX signals to reliably cancel blocking syscalls in threads, enabling proper concurrency without resorting to newer APIs like io_uring.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project aims to improve [problem description, inferred from title]. Hacker News commenters generally appreciated the concept and believed the project could enhance [benefit, inferred from title]. However, they also expressed concerns about [weaknesses, inferred from lack of detail in comment] and questioned [issue, inferred from commenter's desire for more]. Overall, the discussion was positive yet brief, with the commenter recognizing both the project's potential and its limitations.",
-      "groq_explain": "Zig's Io.Threaded lets you use regular OS threads with blocking system calls while still allowing you to cancel ongoing operations reliably. Most systems don't let you stop a thread stuck in a blocking syscall, but Zig does this by using signals to interrupt the syscall. This matters because it combines the simplicity of threads with proper concurrency support, avoiding the need for complex alternatives like io_uring."
     }
   ]
 }
