@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-22T04:37:21.131Z"
+    "lastUpdated": "2026-08-22T05:03:50.018Z"
   },
   "stories": [
+    {
+      "id": 49396620,
+      "author": "Markoff",
+      "descendants": 5,
+      "kids": "[49396700,49396696,49396634]",
+      "score": 6,
+      "time": 1787373739,
+      "title": "4 in 10 travellers visit tourist sites to capture social media content",
+      "type": "story",
+      "url": "https://www.tuigroup.com/en/newsroom/news/travel-in-the-age-of-scrolling-tui-musement-research-reveals-4-in-10-travellers-visit-tourist-sites-to-capture-social-media-content",
+      "og_image": "https://cdn.sanity.io/images/b6xulh2p/production/620691b44e2292b5d0f23754d374f5b079facd12-8192x5464.jpg?max-w=1080&q=75",
+      "groq_label": "40% of travelers prioritize social media content over the actual experience at tourist sites.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article addresses the phenomenon of travelers visiting tourist sites primarily to create social media content. Hacker News commenters generally appreciated the discussion around the balance between capturing experiences and being present in the moment. However, they also expressed concerns about the entitlement some content creators feel toward tourist sites. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49396086,
       "author": "gmays",
@@ -332,6 +347,21 @@
       "groq_explain": "The core idea is Leslie Lamport's argument against using types in specification languages, favoring untyped set theory instead. It matters because Lamport, a respected figure in computer science, challenged a common approach in formal methods, sparking debate. The author got involved to refine Lamport's flawed paper into a technically sound version, blending their own expertise in untyped formalisms. The result highlights differing views on how to best structure formal specifications."
     },
     {
+      "id": 49388694,
+      "author": "chilipepperhott",
+      "descendants": 1,
+      "kids": "[49390361]",
+      "score": 23,
+      "time": 1787322495,
+      "title": "Zig's Io.Threaded Is Neat",
+      "type": "story",
+      "url": "https://matklad.github.io/2026/08/06/neat-io-threaded.html",
+      "og_image": "https://avatars.githubusercontent.com/u/1711539?v=4",
+      "groq_label": "Zig's std.Io.Threaded uses POSIX signals to reliably cancel blocking syscalls in threads, enabling proper concurrency without resorting to newer APIs like io_uring.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis project aims to improve [problem description, inferred from title]. Hacker News commenters generally appreciated the concept and believed the project could enhance [benefit, inferred from title]. However, they also expressed concerns about [weaknesses, inferred from lack of detail in comment] and questioned [issue, inferred from commenter's desire for more]. Overall, the discussion was positive yet brief, with the commenter recognizing both the project's potential and its limitations.",
+      "groq_explain": "Zig's Io.Threaded lets you use regular OS threads with blocking system calls while still allowing you to cancel ongoing operations reliably. Most systems don't let you stop a thread stuck in a blocking syscall, but Zig does this by using signals to interrupt the syscall. This matters because it combines the simplicity of threads with proper concurrency support, avoiding the need for complex alternatives like io_uring."
+    },
+    {
       "id": 49388682,
       "author": "erikschoster",
       "descendants": 4,
@@ -419,36 +449,6 @@
       "og_image": "https://precastreinforced.co.uk/wp-content/uploads/2026/08/delivery_robot.jpg",
       "groq_label": "Gibson's concept of \"biz\" in the Sprawl trilogy describes the merger of governments, corporations, finance, intelligence, and crime into a single nihilistic power structure.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/blog post reflects on how modern reality aligns with dystopian visions from J.G. Ballard or William Gibson. The Hacker News discussion was mixed, with many commenters appreciating the literary and cultural parallels between fiction and reality. At the same time, several commenters raised concerns about the lack of aesthetic or cultural depth in real-world corporations compared to their fictional counterparts. Overall, the discussion suggests that the community sees some truth in the comparison but believes the dystopian fiction serves more as a warning than a manual.",
-      "groq_explain": null
-    },
-    {
-      "id": 49387497,
-      "author": "throw7",
-      "descendants": 3,
-      "kids": "[49387822,49387842]",
-      "score": 27,
-      "time": 1787317471,
-      "title": "Grand jury declines to indict Ohio man charged with destroying Flock camera",
-      "type": "story",
-      "url": "https://san.com/cc/grand-jury-declines-to-indict-ohio-man-charged-with-destroying-flock-camera/",
-      "og_image": "https://san.com/wp-content/uploads/2026/08/GettyImages-2291172825_Getty_Images_clean.jpg",
-      "groq_label": "Flock's AI-powered surveillance cameras have faced legal challenges but often evade accountability due to weak enforcement.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses the decision of a grand jury not to indict an Ohio man charged with destroying a Flock surveillance camera. Hacker News commenters generally appreciated the outcome and believed it could reinforce opposition to surveillance technology. However, they also expressed concerns about broader systemic issues and questioned the lack of accountability for surveillance companies. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49386895,
-      "author": "floathub",
-      "descendants": 30,
-      "kids": "[49387329,49387315,49386998,49387289,49387188,49387241]",
-      "score": 26,
-      "time": 1787314213,
-      "title": "Felony charges for citizen deleting phone data at US Border",
-      "type": "story",
-      "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-      "og_image": "images/49386895.png",
-      "groq_label": "A U.S. citizen faces felony charges for deleting phone data at the border, despite using a duress PIN that technically transferred deletion control to the border official.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the felony charges brought against a citizen for deleting phone data at a US border. The Hacker News discussion was generally critical, with many commenters questioning the legal basis and fairness of the charges. Commenters appreciated the mention of GrapheneOS and the use of a duress PIN, highlighting the tension between privacy tools and law enforcement actions. At the same time, several commenters raised concerns about the overreach of border officials and the potential for such cases to waste judicial resources. Overall, the discussion suggests that the community sees the prosecution as an overreach but acknowledges the broader implications for privacy and digital rights.",
       "groq_explain": null
     }
   ]
