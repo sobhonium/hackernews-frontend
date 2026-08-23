@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+# Never run two updates concurrently — overlapping runs race on the data.json push.
+concurrency:
+  group: hn-update
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -31,6 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
+          git pull --rebase -X theirs origin main
           git add data.json images/ 2>/dev/null || git add data.json
           git diff --staged --quiet && echo "updated=false" >> $GITHUB_OUTPUT && exit 0
           git commit -m "auto: update HN data"
