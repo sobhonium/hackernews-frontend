@@ -221,7 +221,7 @@ async function llmCall(system, user) {
 async function tryGroq(system, user) {
   try {
     const completion = await groq.chat.completions.create({
-      model: "llama-3.1-8b-instant",
+      model: "llama-3.3-70b-versatile",
       messages: [
         { role: "system", content: system },
         { role: "user", content: user },
@@ -238,7 +238,7 @@ async function tryGemini(system, user) {
   if (!genAI) return null;
   try {
     const model = genAI.getGenerativeModel({
-      model: "gemini-2.0-flash",
+      model: "gemini-3.6-flash",
       systemInstruction: system,
     });
     const result = await model.generateContent(user);

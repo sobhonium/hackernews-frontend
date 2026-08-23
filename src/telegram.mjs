@@ -191,22 +191,88 @@ async function loadImage(s) {
   return null;
 }
 
+// Download an OG image ourselves (IPv4 + redirects) so it can be uploaded
+// as a real file when Telegram rejects the raw URL.
+function httpsGet(url, redirectsLeft = 3) {
+  return new Promise((resolve, reject) => {
+    const req = https.request(url, {
+      method: "GET",
+      family: 4,
+      timeout: REQUEST_TIMEOUT_MS,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; HNReader/1.0)",
+        Accept: "image/*,*/*;q=0.8",
+      },
+    }, (res) => {
+      if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+        res.resume();
+        if (redirectsLeft <= 0) return reject(new Error("too many redirects"));
+        try { return resolve(httpsGet(new URL(res.headers.location, url).href, redirectsLeft - 1)); }
+        catch (e) { return reject(e); }
+      }
+      if (res.statusCode !== 200) {
+        res.resume();
+        return reject(new Error(`HTTP ${res.statusCode}`));
+      }
+      const chunks = [];
+      res.on("data", (c) => chunks.push(c));
+      res.on("end", () => resolve({ headers: res.headers, body: Buffer.concat(chunks) }));
+    });
+    req.on("timeout", () =>
+      req.destroy(Object.assign(new Error("download timed out"), { code: "ETIMEDOUT" }))
+    );
+    req.on("error", reject);
+    req.end();
+  });
+}
+
+async function downloadImage(url) {
+  try {
+    const { headers, body } = await httpsGet(url);
+    const mime = String(headers["content-type"] || "").split(";")[0].trim().toLowerCase();
+    if (!body.length || body.length > 9 * 1024 * 1024) return null;
+    if (!mime.startsWith("image/") || mime === "image/svg+xml") return null;
+    const ext =
+      mime.includes("jpeg") ? ".jpg" :
+      mime.includes("webp") ? ".webp" :
+      mime.includes("gif") ? ".gif" : ".png";
+    return { kind: "buffer", data: body, mime, name: `og${ext}` };
+  } catch {
+    return null;
+  }
+}
+
 async function postStory(token, chatId, s) {
-  const image = await loadImage(s);
+  let image = await loadImage(s);
 
   if (image?.kind === "url") {
-    await tgCall(token, "sendPhoto", {
-      chat_id: chatId, photo: image.value, caption: buildCaption(s), parse_mode: "HTML",
-    });
-  } else if (image?.kind === "buffer") {
-    await tgCall(token, "sendPhoto",
-      { chat_id: chatId, caption: buildCaption(s), parse_mode: "HTML" },
-      { field: "photo", data: image.data, mime: image.mime, name: image.name });
-  } else {
-    await tgCall(token, "sendMessage", {
-      chat_id: chatId, text: buildTextMessage(s), parse_mode: "HTML", disable_web_page_preview: true,
-    });
+    try {
+      await tgCall(token, "sendPhoto", {
+        chat_id: chatId, photo: image.value, caption: buildCaption(s), parse_mode: "HTML",
+      });
+      return;
+    } catch (err) {
+      console.warn(`  ⚠ Photo URL rejected (${String(err.message).slice(0, 90)}) — downloading and re-uploading instead...`);
+      image = await downloadImage(image.value);
+    }
   }
+
+  if (image?.kind === "buffer") {
+    try {
+      await tgCall(token, "sendPhoto",
+        { chat_id: chatId, caption: buildCaption(s), parse_mode: "HTML" },
+        { field: "photo", data: image.data, mime: image.mime, name: image.name });
+      return;
+    } catch {}
+  }
+
+  // No usable image at all — text message with everything.
+  await tgCall(token, "sendMessage", {
+    chat_id: chatId,
+    text: buildTextMessage(s),
+    parse_mode: "HTML",
+    disable_web_page_preview: false,
+  });
 }
 
 export async function notifyTelegram(stories) {
