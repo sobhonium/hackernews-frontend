@@ -1,8 +1,98 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-23T13:42:26.140Z"
+    "lastUpdated": "2026-08-23T16:21:15.654Z"
   },
   "stories": [
+    {
+      "id": 49409473,
+      "author": "shortcrct",
+      "descendants": 2,
+      "kids": "[49409790,49409831]",
+      "score": 28,
+      "time": 1787498011,
+      "title": "How Complex Systems Fail",
+      "type": "story",
+      "url": "https://how.complexsystems.fail/",
+      "og_image": "images/49409473.png",
+      "groq_label": "Complex systems always operate in degraded states and fail through unexpected combinations of multiple minor anomalies rather than a single root cause.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses how complex systems fail. Hacker News commenters generally appreciated its insights into system dynamics and resilience and believed the project could help practitioners better understand failure modes in large-scale environments. However, they also expressed concerns about the brevity of the thread and questioned how directly these theoretical concepts apply to modern software development. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49409200,
+      "author": "dredmorbius",
+      "descendants": 36,
+      "kids": "[49409690,49409559,49409858,49409694,49409431,49409824,49409786,49410021]",
+      "score": 92,
+      "time": 1787495905,
+      "title": "Slovakia finds Russian backdoor in traffic speed cameras",
+      "type": "story",
+      "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
+      "og_image": "https://risky.biz/static/img/RB-OG-Social.jpg",
+      "groq_label": "Slovakia discovered Russian-made traffic cameras contained a backdoor, despite the government's initial denial of their origin.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the discovery of a Russian backdoor in Slovakia's traffic speed cameras with cautious skepticism. Many praised the government's prompt investigation and saw value in exposing potential security vulnerabilities in critical infrastructure. However, the discussion also surfaced recurring concerns regarding the ease of such breaches, with commenters highlighting risks like surveillance and geopolitical espionage. The general sentiment suggests that the community considers the incident a serious security lapse, emphasizing the need for stricter procurement and auditing standards for imported technology.",
+      "groq_explain": null
+    },
+    {
+      "id": 49409092,
+      "author": "tosh",
+      "descendants": 56,
+      "kids": "[49410048,49409371,49409800,49409874,49409363,49409388,49410015,49409601,49409658,49410008,49409617,49409594,49409530]",
+      "score": 82,
+      "time": 1787495061,
+      "title": "What Is a Harness?",
+      "type": "story",
+      "url": "https://earendil.com/posts/what-is-a-harness/",
+      "og_image": "https://earendil.com/static/og/posts/what-is-a-harness.png",
+      "groq_label": "Pi's extension system allows turning it into virtually any specialized tool, from stock traders to software factories.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article about \"What Is a Harness?\" with positive reactions. Many commenters appreciated the concept of harnesses as frameworks or tools that enhance LLM capabilities, describing them as the \"next frontier\" in AI development. Commenters frequently praised the idea of harnesses as the \"electronics\" that provide real value beyond raw AI models, highlighting the extension systems in tools like Pi as particularly useful. Others compared harnesses to saddles or backpacks, emphasizing their role in configuring and complementing models for specific tasks. However, recurring criticisms focused on the ambiguity of the term \"harness\" itself, with some questioning whether it was just a rebranded or overhyped concept. Overall, commenters viewed the project as an interesting contribution to the AI ecosystem while acknowledging that it still has room for improvement in terms of clarity and practical adoption.",
+      "groq_explain": null
+    },
+    {
+      "id": 49409073,
+      "author": "dr_pardee",
+      "descendants": 22,
+      "kids": "[49410039,49410020,49410023,49409918,49409832,49409933,49409866,49409088,49409906]",
+      "score": 60,
+      "time": 1787494989,
+      "title": "I spent $266 and four AI models to own my tablet. GLM-5.3 finished it in a day",
+      "type": "story",
+      "url": "https://ericpardee.github.io/fire-hd-ownership/",
+      "og_image": "https://ericpardee.github.io/fire-hd-ownership/blog-assets/kimi-we-found-a-working-bug.png",
+      "groq_label": "GLM-5.3 exploited a 2022 Mali GPU vulnerability (CVE-2022-38181) that Amazon patched in 2024 but never rolled out to the author's 2021 Fire HD 10 tablet.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article describes how the author spent $266 and used four AI models to jailbreak a 2021 Fire HD 10 tablet to prevent it from powering off unexpectedly. Hacker News commenters generally appreciated the ingenuity of using AI to achieve this goal and believed the project demonstrated the potential of AI in enabling users to take control of their devices. However, they also expressed concerns about the reliance on AI models with fewer safeguards and questioned the ethical implications of bypassing security measures. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49408889,
+      "author": "Brajeshwar",
+      "descendants": 25,
+      "kids": "[49409982,49409337,49409139,49409267,49409698,49409336,49409242,49409526,49409238]",
+      "score": 34,
+      "time": 1787493387,
+      "title": "Death to px, long live ch",
+      "type": "story",
+      "url": "https://shkspr.mobi/blog/2026/08/death-to-px-long-live-ch/",
+      "og_image": "https://shkspr.mobi/blog/wp-content/uploads/2026/03/CSS-Logo.webp",
+      "groq_label": "CSS pixels are abstract rather than physical, making character-based units like ch and ex better suited for sizing text containers and margins proportionally to typography.",
+      "groq_discussion": "Discussion type: – Balanced\n\nThis article advocates for replacing the CSS unit \"px\" with \"ch\" to address issues with high-DPI displays rendering content too small. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of text-relative units for better responsiveness and accessibility. At the same time, several commenters raised concerns about the limitations of \"ch,\" arguing that it can produce inconsistent results with non-Latin characters and is difficult to implement in practice. Overall, the discussion suggests that the community sees some promise in text-relative units but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "Pixels are unreliable for consistent sizing across devices because they don’t match physical measurements or stay uniform. Instead, using `ch` (based on character width) ensures text remains readable by setting widths relative to content, not screen size. It’s a cleaner way to handle layouts, especially for text-heavy designs, though other units like `ex` (for height) or even `px` can still work fine—it’s just about preference. The core idea is to ditch rigid pixel-based sizing in favor of more flexible, content-relative units for better consistency."
+    },
+    {
+      "id": 49408858,
+      "author": "bwb",
+      "descendants": 21,
+      "kids": "[49409490,49409704,49409931,49409673,49409376,49409129,49409356,49409149,49409686,49409398,49409420,49409386,49409425,49409657,49409587,49409261,49409383,49409507]",
+      "score": 79,
+      "time": 1787493070,
+      "title": "My favorite nonfiction books about cults, scams, and schemes",
+      "type": "story",
+      "url": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes",
+      "og_image": "images/49408858.png",
+      "groq_label": "The BITE model categorizes authoritarian control into Behavioral, Information, Thought, and Emotional domains, revealing consistent tactics across cults, MLMs, and political movements.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/blog post aims to share a curated list of nonfiction books about cults, scams, and schemes. The Hacker News discussion was generally positive, with many commenters appreciating the recommendations and the project's approach to highlighting lesser-known or niche titles. At the same time, several commenters raised concerns about the subjective nature of such lists, arguing that memoirs and personal accounts are closer to fiction than traditional nonfiction. Overall, the discussion suggests that the community sees value in the project but believes there are important limitations regarding the reliability and verification of the sources.",
+      "groq_explain": null
+    },
     {
       "id": 49408550,
       "author": "campuscodi",
@@ -166,6 +256,21 @@
       "og_image": "https://nappertime.com/wp-content/uploads/2014/07/blade-runner-cityscape.jpg",
       "groq_label": "Ridley Scott’s *Blade Runner 2049* uses a 2,048-pixel-wide frame to avoid motion blur, making its visuals sharper than most modern films.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this discussion about *The Art and Beauty of Blade Runner (2015)* with positive reactions. Many commenters appreciated the film's immersive world-building, describing it as a timeless masterpiece where all elements—script, acting, score, production design, and cinematography—complement each other seamlessly. Others highlighted its stunning visuals and auditory experience, praising the minimalist score by Vangelis and the atmospheric sound design. Several commenters also admired Sean Young's performance and the film's deliberate pacing, contrasting it with modern films that rush through story beats. Nevertheless, recurring criticisms focused on Ridley Scott's post-hoc changes to the plot, particularly the idea that Deckard is a replicant, which some found unconvincing and poorly integrated. As a whole, commenters viewed the film as an iconic contribution to sci-fi while acknowledging that certain aspects, like Scott's later edits, remain divisive.",
+      "groq_explain": null
+    },
+    {
+      "id": 49402491,
+      "author": "zdw",
+      "descendants": 25,
+      "kids": "[49409312,49409419,49409305,49409676,49409774,49409348,49409642,49409514,49409760,49409606,49409369]",
+      "score": 39,
+      "time": 1787423921,
+      "title": "Things I want in a modern relational query language",
+      "type": "story",
+      "url": "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/",
+      "og_image": "https://secure.gravatar.com/avatar/0d1f7f7bb547f02a66136dd1c811949d9cf618121c7cebd9ae69e3465fc10c7a?s=96&d=mm&r=g",
+      "groq_label": "SQL's flat table structure forces users to manually reconstruct nested relationships, making complex queries cumbersome compared to languages designed for hierarchical data.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the limitations of SQL and explores potential improvements for a modern relational query language. The Hacker News discussion was generally mixed, with many commenters appreciating the critique of SQL's shortcomings and the desire for better nested structure support. At the same time, several commenters raised concerns about the practicality of replacing SQL, arguing that its entrenched position and the expertise of users make it difficult to adopt alternatives. Overall, the discussion suggests that the community sees promise in rethinking query languages but believes there are significant challenges to widespread adoption.",
       "groq_explain": null
     },
     {
