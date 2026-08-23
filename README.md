@@ -19,6 +19,7 @@ A self-updating HackerNews reader that pre-commits LLM-powered summaries, discus
 - Inline expand for Discussion and Explain per story
 - AI-generated images when no page image is found
 - Slack notifications on new data
+- Telegram channel posts: each story goes out as a single post with its image, label, discussion recap, and TL;DR in the caption
 
 ## Setup
 
@@ -53,6 +54,7 @@ Open http://localhost:3000 in a browser.
 2. Enable Pages at repo → Settings → Pages → `main` / `(root)`.
 3. Add API keys as repo secrets: `GROQ_API_KEY`, `GEMINI_API_KEY`, `MISTRAL_API_KEY`, `OPENROUTER_API_KEY`.
 4. (Optional) Add `SLACK_WEBHOOK_URL` for Slack notifications on updates.
+5. (Optional) Add `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` to post each new story to a Telegram channel — with image, label, discussion recap, and TL;DR. The bot must be an admin of the channel. Works locally too if the same keys are in `.env`.
 
 The workflow runs automatically every 10 minutes. Trigger manually from Actions → Update HN data → Run workflow.
 
@@ -64,6 +66,7 @@ The workflow runs automatically every 10 minutes. Trigger manually from Actions 
 ├── hackernews.js        Frontend rendering logic
 ├── src/
 │   ├── update.mjs       Data pipeline (HN → LLM → images → SQLite → JSON)
+│   ├── telegram.mjs     Telegram channel posting (photo + content per story)
 │   ├── prompt.js        LLM system prompts
 │   └── server.js        Local dev server on port 3000
 ├── data.json            Generated story data (committed)

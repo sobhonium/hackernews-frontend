@@ -2,7 +2,7 @@ name: Update HN data
 
 on:
   schedule:
-    - cron: "*/7 * * * *"
+    - cron: "0 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,6 +24,8 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Commit and push
         id: git
         run: |
@@ -40,17 +42,6 @@ jobs:
         run: |
           curl -X POST -H 'Content-type: application/json' \
           --data '{
-            "text": "🌐 HN data updated\nRepo: ${{ github.repository }}\nEvent: ${{ github.event_name }}\nActor: ${{ github.actor }}\nRef: ${{ github.ref }}"
+            "text": "🌐 HN data just updated."
           }' \
           ${{ secrets.SLACK_WEBHOOK_URL }}
-
-      - name: Notify Telegram
-        if: steps.git.outputs.updated == 'true'
-        run: |
-          curl -sS -X POST \
-            "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-            -H "Content-Type: application/json" \
-            --data-raw '{
-              "chat_id": "${{ secrets.TELEGRAM_CHAT_ID }}",
-              "text": "🌐 HN data updated\nRepo: ${{ github.repository }}\nEvent: ${{ github.event_name }}\nActor: ${{ github.actor }}\nRef: ${{ github.ref }}"
-            }'

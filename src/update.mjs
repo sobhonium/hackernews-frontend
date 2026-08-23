@@ -12,6 +12,7 @@ import {
   DISCUSSION_SYSTEM,
   EXPLAIN_SYSTEM,
 } from "./prompt.js";
+import { notifyTelegram } from "./telegram.mjs";
 
 const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY) : null;
@@ -347,6 +348,7 @@ async function main() {
     queue = (existing.stories || existing).filter(s => s && s.id);
   } catch { queue = []; }
   const existingIds = new Set(queue.map(s => s.id));
+  const newStories = [];
   console.log(`Loaded ${queue.length} existing stories.`);
 
   console.log("Fetching story IDs...");
@@ -422,12 +424,14 @@ async function main() {
     );
 
     // Add to queue
-    queue.push({
+    const entry = {
       id: story.id, author: story.by, descendants: story.descendants,
       kids: JSON.stringify(story.kids || []), score: story.score, time: story.time,
       title: story.title, type: story.type, url: story.url, og_image: finalImage,
       groq_label: label, groq_discussion: discussion, groq_explain: explain,
-    });
+    };
+    queue.push(entry);
+    newStories.push(entry);
     existingIds.add(story.id);
     console.log(`  ✓ Saved`);
   }
@@ -448,6 +452,9 @@ async function main() {
   };
   fs.writeFileSync(JSON_PATH, JSON.stringify(payload, null, 2));
   console.log(`Exported ${queue.length} stories.`);
+
+  // Post new stories (content + image) to the Telegram channel
+  await notifyTelegram(newStories);
 
   db.close();
   console.log("Done.");
