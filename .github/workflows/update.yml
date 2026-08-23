@@ -2,7 +2,7 @@ name: Update HN data
 
 on:
   schedule:
-    - cron: '* */4 * * *'
+    - cron: "* */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -50,4 +50,4 @@ jobs:
           curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
           -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
           -d parse_mode="HTML" \
-          -d text="🌐 <b>HN data updated</b>
+          -d text="🌐 <b>HN data updated</b>"
