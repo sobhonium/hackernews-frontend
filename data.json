@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-24T00:54:44.455Z"
+    "lastUpdated": "2026-08-24T04:40:40.369Z"
   },
   "stories": [
+    {
+      "id": 49414338,
+      "author": "soheilpro",
+      "descendants": 22,
+      "kids": "[49415103,49414758,49414861,49414994,49414708,49414749,49414864,49414726,49414956,49414821]",
+      "score": 27,
+      "time": 1787535194,
+      "title": "Migrating a Synology NAS to a UniFi UNAS Pro 8 with Robocopy, SMB Multichannel",
+      "type": "story",
+      "url": "https://www.hanselman.com/blog/migrating-a-synology-nas-to-a-unifi-unas-pro-8-with-robocopy-smb-multichannel-and-surprising-performance-traps",
+      "og_image": "https://pbs.twimg.com/profile_images/1133122333290291200/xV9gO-D6_400x400.jpg",
+      "groq_label": "Robocopy's restartable mode switch drastically slows file transfer speeds, making full recopies faster than enabling interruption recovery.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post aims to solve the problem of migrating data between NAS devices efficiently. The Hacker News discussion was generally mixed, with many commenters appreciating the detailed step-by-step troubleshooting and the project's approach to documenting complex data transfers. At the same time, several commenters raised concerns about the choice of migration tools and flags, arguing that using Robocopy with the restartable switch created unnecessary performance overhead compared to alternatives like rsync, rclone, or direct SMB mounting. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49414096,
+      "author": "momentmaker",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 11,
+      "time": 1787532741,
+      "title": "The first search engine for Internet-connected devices",
+      "type": "story",
+      "url": "https://www.shodan.io/",
+      "og_image": "images/49414096.png",
+      "groq_label": "Censys indexes every host and service on the public Internet and lets you query it like a search engine.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49413561,
+      "author": "pantelisk",
+      "descendants": 6,
+      "kids": "[49415192,49415138,49415051,49415120,49414960]",
+      "score": 34,
+      "time": 1787527097,
+      "title": "I built a low-latency AI companion that plays Skyrim with me",
+      "type": "story",
+      "url": "https://pantel.is/projects/ai-gaming-companion/",
+      "og_image": "https://pantelis.s3.us-west-2.amazonaws.com/0/varkos/varkos-share.png",
+      "groq_label": "A real-time AI companion like Varkos demonstrates how LLMs can execute complex, multi-step plans with low latency and emotional personality, bridging the gap between dialogue and action in gaming.",
+      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the AI companion project with cautious optimism. Many praised its clever integration of AI into gameplay and saw value in its approach to enhancing player experience. Commenters highlighted the entertaining persona of the AI companion and its potential to revolutionize NPC interactions in games. However, the discussion also surfaced concerns about the lack of open-sourcing the \"ALE\" design and whether the system could genuinely run purely locally. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures, particularly with advancements in AI-centric hardware.",
+      "groq_explain": "TL;DR: Someone built an AI gaming companion called Varkos that plays *Skyrim* alongside you in real time, reacting instantly to commands, fighting, fetching items, and even evolving its personality over time. It avoids cloud delays and privacy issues by running locally, making gameplay feel more immersive—especially in VR—where quick, natural interaction matters."
+    },
     {
       "id": 49413320,
       "author": "schlarpc",
@@ -32,6 +77,21 @@
       "groq_label": "CMake, a build system, is being used to implement and execute a full GPT-2 model with Q16.16 integer arithmetic.",
       "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is overwhelmingly negative. Commenters frequently described the project as a \"hellscape\" and expressed disgust, questioning the sanity of anyone attempting such an implementation. The overall consensus is that the idea, while technically interesting, is impractical and inefficient, with the approach being far too slow and cumbersome to be useful.",
       "groq_explain": "It's a project that runs the GPT-2 AI model using only CMake, a build system tool, with fixed-point math instead of floating-point. It matters because it shows how complex AI models can run in environments where floating-point operations aren't available, making it more portable and efficient for embedded systems or constrained hardware."
+    },
+    {
+      "id": 49412328,
+      "author": "simonebrunozzi",
+      "descendants": 31,
+      "kids": "[49415216,49413870,49415141,49412518,49414186]",
+      "score": 50,
+      "time": 1787517050,
+      "title": "Rural Village in Spain Is Welcoming Digital Nomads with Open Arms",
+      "type": "story",
+      "url": "https://www.cntraveler.com/story/this-rural-village-in-spain-is-welcoming-digital-nomads-with-open-arms",
+      "og_image": "https://media.cntraveler.com/photos/6a85c96bff5017380bd7c192/16:9/w_1280,c_limit/23-05-31_JPG_(Forest%20bathing,%20Local%20challenge%20Hostel)-80.jpg",
+      "groq_label": "Rural villages in Spain are attracting digital nomads to prevent depopulation, sparking debates about cultural preservation and economic equity.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about a rural village in Spain welcoming digital nomads aims to solve the problem of rural decline and depopulation. The Hacker News discussion was generally mixed, with many commenters appreciating the effort to revitalize struggling areas and the potential economic benefits for locals. At the same time, several commenters raised concerns about the long-term sustainability and cultural impact of such initiatives, arguing that they may not address deeper systemic issues like Spain's low fertility rates and reliance on migration. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—economic, social, and demographic—that still need to be addressed.",
+      "groq_explain": null
     },
     {
       "id": 49412176,
@@ -391,66 +451,6 @@
       "og_image": "https://malisper.me/wp-content/uploads/2026/08/pgrust-jit-featured-simple-1200x630-1.png",
       "groq_label": "Copy-and-patch compilation achieves microsecond JIT speed by substituting pre-compiled assembly templates instead of running full LLVM optimization pipelines.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis blog post aims to solve the problem of slow compilation times in traditional JIT frameworks like LLVM. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as fast copy-and-patch code generation, extremely low compilation latency, and simple template substitution. Many appreciated the copy-and-patch approach, noting that it generates native code in microseconds, while others believed it could be particularly useful for database query acceleration like in PostgreSQL. However, the discussion also revealed several criticisms. Commenters expressed concerns about missing compiler optimizations, potential security implications, and difficulty in upstream adoption, with some questioning the premise that JIT compilers are rare and others pointing out that template substitution lacks sophisticated LLVM-level optimizations. Overall, the Hacker News community considered the project an intriguing solution, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49406333,
-      "author": "userbinator",
-      "descendants": 50,
-      "kids": "[49408098,49406694,49407407,49406997,49407740,49408636,49408588,49408202,49406969,49408129,49406677,49408216,49407551,49408356,49407026]",
-      "score": 128,
-      "time": 1787464261,
-      "title": "The End of an Athlon",
-      "type": "story",
-      "url": "http://www.os2museum.com/wp/the-end-of-an-athlon/",
-      "og_image": "https://www.os2museum.com/wp/wp-content/uploads/2026/07/athlon-crack-close-640x480.jpg",
-      "groq_label": "Early 2000s AMD Athlon processors featured bare silicon dies that were easily chipped or destroyed by the heavy tension of heatsink mounting clamps.",
-      "groq_discussion": "Discussion type: Community Perspective\n\nThe Hacker News community generally responded to this article with positive reactions. Many commenters appreciated the nostalgic look back at early 2000s hardware and considered it useful because it prompted shared memories of building PCs with bare-die processors. Others highlighted the detailed discussion of heatsink installation techniques and socket tab fragility as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on historical hardware design flaws, particularly the ease with which silicon dies and motherboard socket clips could be permanently damaged. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49406285,
-      "author": "tosh",
-      "descendants": 30,
-      "kids": "[49407550,49407313,49408653,49407971,49407239,49408460,49408172,49406762,49408007]",
-      "score": 66,
-      "time": 1787463546,
-      "title": "Fast and Hard Code",
-      "type": "story",
-      "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-      "og_image": "https://lucumr.pocoo.org/social/2026-08-22-fast-hard-code-social.png",
-      "groq_label": "AI coding agents enable developers to build complex software in unfamiliar languages, prompting debate over whether deep domain expertise remains necessary for code security and reliability.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post aims to solve the problem of software development friction and scope limitations through AI coding agents. The Hacker News discussion was generally mixed, with many commenters appreciating the ability to tackle ambitious, complex projects and the project's approach to accelerating software creation. At the same time, several commenters raised concerns about generating code in unfamiliar languages and safety risks in custom cryptography, arguing that language familiarity and domain expertise remain crucial for reviewing generated code and ensuring security. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49405870,
-      "author": "andsoitis",
-      "descendants": 169,
-      "kids": "[49408705,49407075,49408307,49408566,49406603,49408615,49407797,49407803,49406346,49408140,49408632,49407696,49406408,49407808,49406397,49406460,49408242,49407284,49408167,49406965,49406133,49406771,49408432,49407318,49406358,49407238,49406981,49406372,49406631,49407160,49406640,49406621,49408333,49406930,49406388,49407716,49408226,49407438,49407910,49407727,49407539,49407136,49406627,49406485,49406199,49406552,49406617,49408349,49407388,49407355,49407043,49406390]",
-      "score": 258,
-      "time": 1787455945,
-      "title": "To become a better writer, read as much as you can",
-      "type": "story",
-      "url": "https://nappertime.com/the-golden-rule-of-becoming-a-better-writer/",
-      "og_image": "https://nappertime.com/wp-content/uploads/2026/08/reading-books.png",
-      "groq_label": "Aspiring writers routinely fail to read books despite high daily screen time, neglecting the primary mechanism by which creative craft and structure are internalized.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses how to improve writing and creative output. Hacker News commenters generally appreciated the emphasis on consuming high-quality media to build domain intuition and culture and believed the project could help writers and other creators produce higher-quality work. However, they also expressed concerns about relying on reading alone and questioned whether reading can substitute for the necessary practice of actually writing as much as possible. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": "If you want to be a good writer, you have to read constantly and widely. Many aspiring writers excuse themselves by saying they do not have time to read, but consuming books is the single most essential way you absorb storytelling patterns, study style, and learn how to write well yourself."
-    },
-    {
-      "id": 49405816,
-      "author": "boilerupnc",
-      "descendants": 53,
-      "kids": "[49408564,49408633,49406690,49406366,49406575,49407597,49406222,49406526,49406499,49406216,49407706,49406487,49406234,49406699,49406594,49406935,49407335,49406664,49406777,49407097]",
-      "score": 144,
-      "time": 1787454796,
-      "title": "MartyPC is a cross-platform emulator of early PCs written in Rust",
-      "type": "story",
-      "url": "https://martypc.net/",
-      "og_image": "https://martypc.net/assets/marty_logo_about_twitter.png",
-      "groq_label": "MartyPC uses Rust to bring early IBM PC emulation and AdLib sound support to web browsers.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project addresses the emulation of early PC hardware across multiple platforms. Hacker News commenters generally appreciated features like AdLib audio support and browser playback and believed the project could make running legacy games and software easy to access. However, they also expressed concerns about keyboard configuration issues and questioned the emphasis on Rust in the project title. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
       "groq_explain": null
     }
   ]
