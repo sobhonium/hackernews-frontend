@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-23T20:17:58.088Z"
+    "lastUpdated": "2026-08-24T00:54:44.455Z"
   },
   "stories": [
+    {
+      "id": 49413320,
+      "author": "schlarpc",
+      "descendants": 59,
+      "kids": "[49413879,49413642,49413583,49413499,49413710,49413786,49413566,49413873,49413422,49413612,49413720,49414000,49413906,49413477,49413760,49414062,49413694,49413617,49413667,49413525,49413784]",
+      "score": 198,
+      "time": 1787524864,
+      "title": "Everything I own, owned",
+      "type": "story",
+      "url": "https://schlarp.com/posts/everything-i-own-owned/",
+      "og_image": "https://schlarp.com/posts/everything-i-own-owned/webcam.jpg",
+      "groq_label": "AI agents can reverse engineer peripheral firmware in hours, uncovering vulnerabilities like silent webcam recording and remote memory writes.",
+      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the article with cautious optimism. Many praised the potential of using LLMs for reverse engineering hardware and firmware, highlighting how tools like WebUSB, WebHID, and WebBluetooth could democratize device ownership and debugging. Commenters shared personal success stories, such as unbricking devices, reverse engineering obscure file formats, and discovering vulnerabilities with the help of AI. However, the discussion also surfaced recurring concerns regarding the risks of modifying firmware, including bricking devices and the lack of safe iterative patching tools. Despite these criticisms, the general sentiment suggests that the community considers AI-assisted reverse engineering a promising idea that could become more compelling as tools and techniques mature.",
+      "groq_explain": "TL;DR: The author reverse-engineered multiple devices they own (like a microphone, webcam, and key light) to understand and control them better. They used AI to analyze the devices' firmware, found security flaws, and even disabled the webcam's recording light while it was active. This matters because it shows how everyday gadgets can be vulnerable, and taking control of them can improve privacy and security."
+    },
+    {
+      "id": 49412909,
+      "author": "porridgeraisin",
+      "descendants": 7,
+      "kids": "[49413618,49414034,49414022,49413954,49414002]",
+      "score": 19,
+      "time": 1787521277,
+      "title": "Implementation of GPT-2 in pure CMake",
+      "type": "story",
+      "url": "https://github.com/AlpinDale/gpt2.cmake",
+      "og_image": "https://opengraph.githubassets.com/ef61c6d5317fa66577411565c577aa76e1c5a404b967197c3f593602f3f44ce5/AlpinDale/gpt2.cmake",
+      "groq_label": "CMake, a build system, is being used to implement and execute a full GPT-2 model with Q16.16 integer arithmetic.",
+      "groq_discussion": "Discussion type: – Consensus First:\n\nAccording to the Hacker News discussion, the overall opinion of this project is overwhelmingly negative. Commenters frequently described the project as a \"hellscape\" and expressed disgust, questioning the sanity of anyone attempting such an implementation. The overall consensus is that the idea, while technically interesting, is impractical and inefficient, with the approach being far too slow and cumbersome to be useful.",
+      "groq_explain": "It's a project that runs the GPT-2 AI model using only CMake, a build system tool, with fixed-point math instead of floating-point. It matters because it shows how complex AI models can run in environments where floating-point operations aren't available, making it more portable and efficient for embedded systems or constrained hardware."
+    },
+    {
+      "id": 49412176,
+      "author": "root-parent",
+      "descendants": 11,
+      "kids": "[49413746,49412860,49412964,49413735]",
+      "score": 23,
+      "time": 1787516014,
+      "title": "Decoding silent reading from non-invasive EEG",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2608.20186",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "A contrastive decoder extracts lexical and semantic information from silent reading using EEG, achieving reliable word-level retrieval even for rare words with no sign of saturation.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to solve the problem of decoding silent reading from non-invasive EEG. The Hacker News discussion was generally critical, with many commenters appreciating the scientific effort but raising ethical concerns about the technology's potential misuse. At the same time, several commenters raised concerns about privacy and weaponization, arguing that the ability to read inner thoughts is too dangerous. Overall, the discussion suggests that the community sees the project as a significant scientific breakthrough but believes there are important ethical and societal challenges that still need to be addressed.",
+      "groq_explain": "The core idea is that brain activity during silent reading can be used to decode the words someone is thinking about, using EEG scans and AI. It matters because this could lead to better brain-computer interfaces, helping people with speech disabilities communicate or even allowing machines to read thoughts indirectly. The study shows it’s possible to extract meaningful word information from EEG data, and the more data used, the better the results get."
+    },
+    {
+      "id": 49411717,
+      "author": "el1s7",
+      "descendants": 37,
+      "kids": "[49413550,49413102,49413064,49413145,49412842,49413394,49413191,49412994,49413221,49413503,49412875,49413512,49412940,49412867,49412873,49413560,49413570,49413164,49412836,49412959]",
+      "score": 160,
+      "time": 1787513372,
+      "title": "Google Workspace thinks my domain is an email provider (2025)",
+      "type": "story",
+      "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/",
+      "og_image": "https://blog.elis.cc/_astro/Screenshot%202026-08-23%20170337.DMZ2man9_1b1eRS.webp",
+      "groq_label": "Google's Workspace sign-up page uses a client-side regex filter that incorrectly blocks domains like web.[tld] and me.gov.ua, treating them as email providers.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the article about Google Workspace incorrectly flagging domains as email providers with cautious optimism. Many praised the author's experience and saw value in the cautionary tale about relying on client-side validation for domain verification. However, the discussion also surfaced recurring concerns regarding Google's inconsistent support and domain handling, including the lack of transparency in account suspensions and the challenges faced by users with premium or unusual domains. Despite these criticisms, the general sentiment suggests that the community considers the article a compelling read that highlights important issues with Google Workspace's domain validation processes.",
+      "groq_explain": "TL;DR: Google Workspace wrongly blocks legitimate domains like yours because its sign-up system incorrectly flags them as email providers, using flawed checks (e.g., treating web.* or me.* domains as invalid). Even after escalating to support, you got no real fix—just a lazy suggestion to switch domains—until you dug into the code yourself and found the broken validation rules. It matters because it shows Google’s system has dumb, overbroad filters that waste users’ time and trust, especially for premium or official domains."
+    },
     {
       "id": 49411643,
       "author": "vanpra",
@@ -62,6 +122,21 @@
       "groq_label": "Models trained on months of session data and preferences via RL can develop a \"vibe tax\" by over-optimizing for one-shot outputs, requiring unnecessary tests.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article introduces the concept of the \"vibe tax,\" a problem where AI models attempt to solve programming tasks in one go, leading to unnecessary complexity. Hacker News commenters generally appreciated the critique of current AI coding models, highlighting their tendency to overcomplicate tasks by ingesting too many files and generating excessive tests. Many believed the project could improve workflows by focusing on smaller, more specific edits rather than attempting to solve entire problems at once. However, they also expressed concerns about the feasibility of training models over long periods and questioned whether reinforcement learning (RL) feedback loops could effectively capture user preferences. Overall, the discussion was mixed, with commenters recognizing the problem but debating its solutions and the model's current limitations.",
       "groq_explain": null
+    },
+    {
+      "id": 49411102,
+      "author": "naves",
+      "descendants": 141,
+      "kids": "[49411353,49413750,49412107,49413682,49413882,49413582,49413208,49413385,49413405,49414045,49413988,49411894,49413810,49411843,49412301,49413556,49413089,49413419,49412398,49414005,49412494,49413759,49411810,49412230,49413536,49413671,49413644,49412115,49413846,49413730,49413827,49413938,49411879,49411592,49412060,49412042,49412392,49413534,49413967,49411813]",
+      "score": 177,
+      "time": 1787508997,
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "type": "story",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "og_image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Ff6698aa8-cd7a-44bb-b641-a76a0ecbe302.jpg?source=next-barrier-page&fit=scale-down&quality=highest&width=700&dpr=1",
+      "groq_label": "Anthropic’s pricing and model strategy may have backfired, pushing users toward cheaper alternatives while struggling to justify premium costs.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses Anthropic's best AI model, Fable, struggling to attract users as cheaper tools thrive. The Hacker News discussion was generally mixed, with many commenters appreciating the model's strengths and Anthropic's approach to AI development. At the same time, several commenters raised concerns about the model's monetization strategy and limitations, arguing that the main criticism is the high token cost and confusing pricing plans. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "It's about Anthropic's top AI model not getting many users because cheaper alternatives are more popular. The main point is that even the best AI tools struggle if they're too expensive, showing that cost and accessibility matter more than just performance."
     },
     {
       "id": 49411020,
@@ -376,81 +451,6 @@
       "og_image": "https://martypc.net/assets/marty_logo_about_twitter.png",
       "groq_label": "MartyPC uses Rust to bring early IBM PC emulation and AdLib sound support to web browsers.",
       "groq_discussion": "Discussion type: – Short:\n\nThis project addresses the emulation of early PC hardware across multiple platforms. Hacker News commenters generally appreciated features like AdLib audio support and browser playback and believed the project could make running legacy games and software easy to access. However, they also expressed concerns about keyboard configuration issues and questioned the emphasis on Rust in the project title. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49405331,
-      "author": "cocacola1",
-      "descendants": 50,
-      "kids": "[49407841,49407819,49406875,49407972,49405915,49408168,49406465,49406893,49406371,49407128,49406050,49406899,49407432,49406374,49406518]",
-      "score": 121,
-      "time": 1787446563,
-      "title": "The Art and Beauty of Blade Runner (2015)",
-      "type": "story",
-      "url": "https://nappertime.com/the-art-of-and-beauty-of-blade-runner/",
-      "og_image": "https://nappertime.com/wp-content/uploads/2014/07/blade-runner-cityscape.jpg",
-      "groq_label": "Ridley Scott’s *Blade Runner 2049* uses a 2,048-pixel-wide frame to avoid motion blur, making its visuals sharper than most modern films.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this discussion about *The Art and Beauty of Blade Runner (2015)* with positive reactions. Many commenters appreciated the film's immersive world-building, describing it as a timeless masterpiece where all elements—script, acting, score, production design, and cinematography—complement each other seamlessly. Others highlighted its stunning visuals and auditory experience, praising the minimalist score by Vangelis and the atmospheric sound design. Several commenters also admired Sean Young's performance and the film's deliberate pacing, contrasting it with modern films that rush through story beats. Nevertheless, recurring criticisms focused on Ridley Scott's post-hoc changes to the plot, particularly the idea that Deckard is a replicant, which some found unconvincing and poorly integrated. As a whole, commenters viewed the film as an iconic contribution to sci-fi while acknowledging that certain aspects, like Scott's later edits, remain divisive.",
-      "groq_explain": null
-    },
-    {
-      "id": 49402491,
-      "author": "zdw",
-      "descendants": 25,
-      "kids": "[49409312,49409419,49409305,49409676,49409774,49409348,49409642,49409514,49409760,49409606,49409369]",
-      "score": 39,
-      "time": 1787423921,
-      "title": "Things I want in a modern relational query language",
-      "type": "story",
-      "url": "https://sporks.space/2026/08/19/things-i-want-in-a-modern-relational-query-language/",
-      "og_image": "https://secure.gravatar.com/avatar/0d1f7f7bb547f02a66136dd1c811949d9cf618121c7cebd9ae69e3465fc10c7a?s=96&d=mm&r=g",
-      "groq_label": "SQL's flat table structure forces users to manually reconstruct nested relationships, making complex queries cumbersome compared to languages designed for hierarchical data.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the limitations of SQL and explores potential improvements for a modern relational query language. The Hacker News discussion was generally mixed, with many commenters appreciating the critique of SQL's shortcomings and the desire for better nested structure support. At the same time, several commenters raised concerns about the practicality of replacing SQL, arguing that its entrenched position and the expertise of users make it difficult to adopt alternatives. Overall, the discussion suggests that the community sees promise in rethinking query languages but believes there are significant challenges to widespread adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49402232,
-      "author": "felineflock",
-      "descendants": 159,
-      "kids": "[49407638,49406454,49403412,49406476,49405215,49405060,49407986,49407881,49404557,49405385,49407916,49406678,49407892,49404221,49407454,49404004,49405490,49406396,49405481,49408373,49407674,49404821,49406517,49408205,49406612,49406087,49406955,49406227,49408041,49406643,49408575,49403502,49408322,49407598,49404934,49405853,49405761,49405590,49405240,49405326,49405971,49407801]",
-      "score": 396,
-      "time": 1787422456,
-      "title": "Why your local LLM feels dumber than it is",
-      "type": "story",
-      "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-      "og_image": "https://level1techs.us-east-1.linodeobjects.com/original/4X/d/8/7/d87c01532439840126d90ea94abfdfcf6501f42f.png",
-      "groq_label": "Local LLM performance frequently degrades due to minor parsing bugs, misconfigured sampling parameters, and aggressive quantization rather than flaws in the base model weights.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the technical depth of the discussion and considered it useful because it highlighted the complexities of running local LLMs effectively. Others highlighted the variability in performance across different hardware setups as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on the lack of accessibility for average users, particularly those without high-end GPUs. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it still has room for improvement in making local LLMs more user-friendly.",
-      "groq_explain": null
-    },
-    {
-      "id": 49402189,
-      "author": "tosh",
-      "descendants": 206,
-      "kids": "[49403956,49404732,49403352,49405022,49405322,49402927,49405826,49406307,49404249,49405401,49405121,49402932,49404842,49408407,49403193,49402833,49405417,49402837,49404143,49402780,49404159]",
-      "score": 384,
-      "time": 1787422136,
-      "title": "Scrap (2006)",
-      "type": "story",
-      "url": "https://twitter.com/moxie/status/2091218652133732491",
-      "og_image": "https://pbs.twimg.com/profile_images/1904271714370158592/N1nB2x1O_400x400.jpg",
-      "groq_label": "Informal scrap scavenging creates hyper-local micro-economies where individuals harvest metals ranging from curbside household waste to active infrastructure.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post aims to solve the problem of understanding the realities of the informal scrap metal economy. The Hacker News discussion was generally positive, with many commenters appreciating the nostalgic personal blogging style and the project's approach to capturing real-world labor dynamics. At the same time, several commenters raised concerns about safety and property liability, arguing that scrap removal can involve dangerous heavy lifting and costly infrastructure damage. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49400408,
-      "author": "jemoka",
-      "descendants": 129,
-      "kids": "[49408695,49402465,49402289,49407451,49401875,49408108,49401019,49406282,49402677,49403942,49401106,49407876,49408509,49406589,49401140,49406472,49402220,49402375,49405179,49401458,49401257,49401157,49402149,49402374,49405295,49401373,49401099,49401372,49401200,49404093,49402165,49401994,49404808,49403067,49403472,49402503,49401402,49401227,49403646,49402511,49401011,49401892,49402310,49403359,49406406,49401605,49401870,49405725,49403647,49402316,49403608,49402487,49402456,49404670,49404978,49403531,49402208,49402349,49402417,49403404,49405204,49407666,49404013,49403150,49402449]",
-      "score": 425,
-      "time": 1787410447,
-      "title": "ElevenLabs, TwelveLabs, ThirteenLabs",
-      "type": "story",
-      "url": "https://quantumi.sh/public/labs.html",
-      "og_image": "images/49400408.png",
-      "groq_label": "The naming trend reveals a systematic exhaustion of numerical prefixes (1-13) for \"Labs\" startups, with companies like ElevenLabs, TwelveLabs, and ThirteenLabs, alongside obscure variants like 34labs and 1337labs.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this trend of \"[zipcode/postalcode/country calling code of HQ] labs\" with mixed reactions. Many commenters appreciated the creativity and humor behind the naming conventions, finding them memorable or amusing, while others highlighted the lack of originality and the generic nature of such names. Recurring criticisms focused on the saturation of the \"Labs\" suffix in startup naming, with some questioning the meaningfulness behind the trend. As a whole, commenters viewed the phenomenon as an interesting quirk of the tech industry while acknowledging that it often lacks substance or differentiation.",
       "groq_explain": null
     }
   ]
