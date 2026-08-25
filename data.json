@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-25T00:56:40.017Z"
+    "lastUpdated": "2026-08-25T04:35:37.145Z"
   },
   "stories": [
+    {
+      "id": 49428882,
+      "author": "lbw1215",
+      "descendants": 1,
+      "kids": "[49429024]",
+      "score": 7,
+      "time": 1787630059,
+      "title": "Headlong: A Microharness for Persistent Agents",
+      "type": "story",
+      "url": "https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents",
+      "og_image": "https://www.laude.org/images/updates/headlong-a-microharness-for-persistent-agents-hero.jpg",
+      "groq_label": "There's no standardized benchmark suite for testing agent harnesses, leading to reliance on subjective evaluations.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project aims to solve the problem of creating persistent agents for testing. Hacker News commenters generally appreciated the need for objective metrics and benchmarks in evaluating test harnesses. However, they also expressed concerns about the lack of standardized benchmarks and questioned how the project would address this gap. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations in providing measurable improvements over existing solutions.",
+      "groq_explain": null
+    },
+    {
+      "id": 49428121,
+      "author": "gmays",
+      "descendants": 48,
+      "kids": "[49428477,49428527,49428589,49428348,49428457,49428743,49428623,49428646,49428471,49428419,49428453,49428537,49428634,49428391,49428331,49428342,49428480,49428306,49428247]",
+      "score": 49,
+      "time": 1787622039,
+      "title": "How Universities Should Prepare Founders",
+      "type": "story",
+      "url": "https://paulgraham.com/prepare.html",
+      "og_image": "https://s.turbifycdn.com/aah/paulgraham/bel-7.gif",
+      "groq_label": "Successful founders frequently emerge from liberal arts majors, self-directed research, or career setbacks rather than targeted university entrepreneurship programs.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of how universities can better prepare students to become successful founders. The Hacker News discussion was generally mixed, with many commenters appreciating university incubators and the project's approach to fostering problem-solving skills and experimentation in a safe academic environment. At the same time, several commenters raised concerns about lowering course loads or shifting focus away from core academics, arguing that universities exist to advance knowledge rather than act as business incubators, and that successful founders often emerge from diverse backgrounds or real-world experience. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49427046,
       "author": "firefax",
@@ -228,6 +258,21 @@
       "groq_explain": null
     },
     {
+      "id": 49422226,
+      "author": "jitbit",
+      "descendants": 8,
+      "kids": "[49423512,49423739]",
+      "score": 31,
+      "time": 1787589016,
+      "title": "Ox-Alpha Is GLM?",
+      "type": "story",
+      "url": "https://dejan.ai/blog/ox-alpha/",
+      "og_image": "https://dejan.ai/og/post/ox-alpha.jpg",
+      "groq_label": "Ox-Alpha appears to be a multimodal model with vision capabilities, unlike previous GLM versions.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis project attempts to determine if Ox-Alpha is a GLM model. Hacker News commenters generally appreciated the discussion around model capabilities and believed the project could spark interesting comparisons. However, they also expressed concerns about the lack of concrete evidence and questioned the model's true identity. Overall, the discussion was skeptical, with commenters recognizing both the project's potential for debate and its limitations in verification.",
+      "groq_explain": null
+    },
+    {
       "id": 49421806,
       "author": "adesh_nalpet",
       "descendants": 7,
@@ -378,6 +423,21 @@
       "groq_explain": null
     },
     {
+      "id": 49420116,
+      "author": "subset",
+      "descendants": 0,
+      "kids": "[49423892]",
+      "score": 32,
+      "time": 1787580938,
+      "title": "Crafting QR Codes: A deep dive into QR code art (2024)",
+      "type": "story",
+      "url": "https://kylezhe.ng/writes/crafting-qr-codes",
+      "og_image": "https://kylezhe.ng/_astro/escape.BTIyVXFR_4qfcs.webp",
+      "groq_label": "QR codes can be artfully designed while remaining scannable by strategically altering non-critical modules.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article/project/blog post explores the art and techniques behind crafting visually creative QR codes in 2024. Hacker News commenters generally appreciated the aesthetic and creative potential of QR code art, noting that it could make static codes more engaging and user-friendly. However, they also expressed concerns about functionality and reliability, questioning whether artistic modifications might compromise scannability or accessibility. Overall, the discussion was mixed, with commenters recognizing both the project's innovative appeal and its practical limitations.",
+      "groq_explain": null
+    },
+    {
       "id": 49419351,
       "author": "ssx360",
       "descendants": 13,
@@ -390,66 +450,6 @@
       "og_image": "https://ssx360.github.io/rack-02/og.png",
       "groq_label": "A single HTML file contains a fully functional techno machine with verifiable renders, requiring no external dependencies or installation.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to solve the problem of creating a portable, self-contained techno music machine that runs entirely within a single HTML file with verifiable renders. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its portability, lack of external dependencies, and the fun, intuitive experience it provides. Many appreciated the ability to run the app locally without installation or internet access, noting that it embodies how software should be built. Others believed it could be particularly useful for musicians or enthusiasts looking for a lightweight, experimental tool. However, the discussion also revealed several criticisms. Commenters expressed concerns about the unintuitive knob controls and questioned the necessity of verifiable renders. Overall, the Hacker News community considered the project impressive and fun, recognizing its potential while emphasizing that addressing usability concerns would improve its adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49419237,
-      "author": "l-one-lone",
-      "descendants": 401,
-      "kids": "[49420456,49419725,49420499,49420080,49422205,49419642,49421057,49419663,49419912,49420045,49419790,49420182,49422112,49420403,49420154,49422095,49419930,49420673,49419914,49419620,49420278,49421653,49419634,49420771,49420838,49421178,49421294,49419624,49420733,49419706,49421339,49420156,49419774,49421147,49421114,49419814,49420698,49420784,49420810,49419893,49420081,49420809,49420859,49420115,49420532,49420449,49420883,49420083,49419817,49420562,49420570,49419678,49420432,49419951,49420199,49422000,49420223,49421120,49420100,49420815,49420354,49419611,49419733,49420255,49421106,49419645,49419982,49420606,49419639,49419830,49419729,49419726,49419664,49420816,49420760,49420609,49420462,49421048,49421473,49421030,49421087,49420749,49420349,49420145,49419618,49420226,49419819,49419656,49419849,49419628]",
-      "score": 580,
-      "time": 1787576725,
-      "title": "How Europe is killing makers and micro-entrepreneurs",
-      "type": "story",
-      "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-      "og_image": "https://lectronz.com/lectronz/active_storage/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzAzNjgsInB1ciI6ImJsb2JfaWQifX0=--86803ec7bfb65d5430f3e59aa9c5b2a8dafd15f0/DSC_1769.JPG",
-      "groq_label": "The EU's Packaging and Packaging Waste Regulation (PPWR) creates 20-24 different legal versions across member states, disproportionately burdening micro-entrepreneurs while exempting large corporations.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the article with cautious skepticism. Many praised its critique of EU regulations like PPWR, highlighting how they disproportionately burden small businesses and micro-entrepreneurs while favoring large corporations. Commenters also criticized the EU's fragmented implementation of laws across member states, noting that inconsistent enforcement undermines the single market's intent. However, the discussion surfaced recurring concerns about regulatory overreach, with some drawing parallels to similar issues in the US (e.g., FCC rules). The general sentiment suggests the community views the EU's approach as flawed, with the project of harmonizing regulations failing in practice, though the article itself was seen as a valid exposé of these problems.",
-      "groq_explain": null
-    },
-    {
-      "id": 49418255,
-      "author": "snvzz",
-      "descendants": 4,
-      "kids": "[49418872,49418857,49418726,49418736]",
-      "score": 29,
-      "time": 1787571171,
-      "title": "SeL4 security proofs now complete on AArch64",
-      "type": "story",
-      "url": "https://proofcraft.systems/news-2026/#2026-08-21",
-      "og_image": "http://proofcraft.systems/proofcraft.png",
-      "groq_label": "Formal mathematical security proofs for the seL4 microkernel now extend to single-core 64-bit ARM architectures.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article about the completion of SeL4 security proofs on AArch64 aims to address the challenge of formally verifying system security at the microkernel level. The Hacker News discussion was generally mixed, with many commenters appreciating the technical achievement and the project's approach to formal verification. At the same time, several commenters raised concerns about the project's limitations and practical applicability. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49418163,
-      "author": "joejag",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 8,
-      "time": 1787570440,
-      "title": "Agent Is Not the Model",
-      "type": "story",
-      "url": "https://code.joejag.com/2026/your-agent-is-not-the-model.html",
-      "og_image": "images/49418163.png",
-      "groq_label": "The agent's behavior diverges from the model's predictions due to real-world interactions introducing unpredictable variables.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49418117,
-      "author": "Bluestein",
-      "descendants": 21,
-      "kids": "[49418831,49418856,49418438,49418682,49418740,49418470,49418604,49418535]",
-      "score": 23,
-      "time": 1787570033,
-      "title": "Omakase Computing",
-      "type": "story",
-      "url": "https://learn.omacom.io/3/omacom/76/omakase-computing",
-      "og_image": "https://learn.omacom.io/assets/books-75f5090c.svg",
-      "groq_label": "Omakase computing advocates replacing traditional user-configured Linux setups with strictly opinionated, pre-curated system defaults.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project aims to solve the problem of simplifying software development and tooling through opinionated defaults. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of curated, user-friendly systems but also raising concerns about its execution and motivations. At the same time, several commenters raised concerns about the project's limitations, arguing that traditional Linux distributions remain more stable and secure. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
