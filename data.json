@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-25T04:35:37.145Z"
+    "lastUpdated": "2026-08-25T08:38:01.538Z"
   },
   "stories": [
+    {
+      "id": 49429095,
+      "author": "Dramatize",
+      "descendants": 14,
+      "kids": "[49429866,49429925,49429458,49429549,49430665]",
+      "score": 41,
+      "time": 1787632404,
+      "title": "Show HN: Screen memory without screenshots, just text to Markdown",
+      "type": "story",
+      "url": "https://github.com/dragthelake/ambient-context",
+      "og_image": "https://opengraph.githubassets.com/1f645d04c096a769b2ec0237fe75fd459f05adec431ccd86ec4a0265fcdb4581/dragthelake/ambient-context",
+      "groq_label": "Capturing screen memory via Accessibility APIs converts on-screen text directly to Markdown without screenshots, though inconsistent app accessibility support limits its reliability.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis product aims to solve the problem of capturing screen memory without taking full-frame screenshots. The Hacker News discussion was generally mixed, with many commenters appreciating its lightweight approach and the project's approach to extracting focused window text into plain Markdown via the Accessibility API. At the same time, several commenters raised concerns about formatting transparency and application accessibility support, arguing that incomplete accessibility implementations in most desktop apps require app-specific profiles and lead to insufficient detail compared to traditional OCR methods. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49428882,
       "author": "lbw1215",
@@ -19,6 +34,21 @@
       "groq_explain": null
     },
     {
+      "id": 49428638,
+      "author": "geerlingguy",
+      "descendants": 7,
+      "kids": "[49429666,49430059,49429408,49429767,49430175]",
+      "score": 39,
+      "time": 1787627186,
+      "title": "SiFive's First Server Platform",
+      "type": "story",
+      "url": "https://chipsandcheese.com/p/sifives-first-server-platform",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!hVUh!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2046840a-bfac-4469-86df-3b75d2689714_1557x820.png",
+      "groq_label": "SiFive launched its first RISC-V server platform with support for 450W GPUs and 256GB of DDR5 memory.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis product aims to solve the problem of bringing high-performance RISC-V architecture to server workloads. The Hacker News discussion was generally mixed, with many commenters appreciating progress in the RISC-V ecosystem and the project's approach to high-end server hardware. At the same time, several commenters raised concerns about software ecosystem maturity and potential cost, arguing that driver papercuts, proprietary boot blobs, and high pricing could limit practical adoption. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
       "id": 49428121,
       "author": "gmays",
       "descendants": 48,
@@ -32,6 +62,21 @@
       "groq_label": "Successful founders frequently emerge from liberal arts majors, self-directed research, or career setbacks rather than targeted university entrepreneurship programs.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of how universities can better prepare students to become successful founders. The Hacker News discussion was generally mixed, with many commenters appreciating university incubators and the project's approach to fostering problem-solving skills and experimentation in a safe academic environment. At the same time, several commenters raised concerns about lowering course loads or shifting focus away from core academics, arguing that universities exist to advance knowledge rather than act as business incubators, and that successful founders often emerge from diverse backgrounds or real-world experience. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
+    },
+    {
+      "id": 49428080,
+      "author": "neom",
+      "descendants": 97,
+      "kids": "[49430310,49429956,49428658,49430664,49428604,49429511,49429136,49429187,49428982,49430254,49428722,49429478,49428669,49428733,49428577,49428630,49428468,49428700,49429003,49428729,49428609,49429220,49428807,49428491,49429976]",
+      "score": 72,
+      "time": 1787621700,
+      "title": "Was modern art a CIA psy-op? (2020)",
+      "type": "story",
+      "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+      "og_image": "https://daily.jstor.org/wp-content/uploads/2020/04/was_modern_art_really_a_cia_psy_op_alt_1050x700.jpg",
+      "groq_label": "During the Cold War, the CIA and the Museum of Modern Art promoted American abstract expressionism globally as a cultural weapon to contrast Western freedom with Soviet oppression.",
+      "groq_discussion": "This article addresses the historical claim that modern art was a CIA psychological operation. Hacker News commenters generally appreciated discussions of cultural soft power and believed the project could help explain how governments leverage artistic movements for geopolitical influence. However, they also expressed concerns about historical inaccuracy and questioned the notion that the CIA invented modern art when the movement began in 19th-century Europe long before the agency existed. Overall, the discussion was skeptical, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": "During World War II and the Cold War, the U.S. government and the CIA actively promoted modern American art overseas as a cultural weapon. By highlighting creative, individualistic styles like abstract expressionism, they used art as propaganda to showcase American freedom and counter Soviet oppression."
     },
     {
       "id": 49427046,
@@ -405,51 +450,6 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!GHrS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9051b1e8-7476-489e-881d-e1d7832994b9_1899x1058.png",
       "groq_label": "Samsung's HBM base die at Hot Chips 2026 could enable heterogeneous integration of memory and logic, reducing costs and improving yield.",
       "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49420592,
-      "author": "ksec",
-      "descendants": 7,
-      "kids": "[49421641,49421058,49421829,49421834,49420840,49421022]",
-      "score": 26,
-      "time": 1787582938,
-      "title": "Hot Chips 2026: Applying High Bandwidth Flash (HBF)",
-      "type": "story",
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-applying-high-bandwidth",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!TXwa!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa51c9bf3-0d5c-4fb9-9ccc-bc0915b15005_1901x1047.png",
-      "groq_label": "NAND flash can theoretically deliver over 3TB/s bandwidth, making it a potential replacement for DRAM in AI inference where deterministic access patterns eliminate the need for random access.",
-      "groq_discussion": "Discussion type: – Short\n\nThis research aims to address the problem of memory cost and capacity limitations for AI accelerators. Hacker News commenters generally appreciated the potential of High Bandwidth Flash (HBF) to provide massive bandwidth at lower costs compared to traditional DRAM, noting that it could significantly improve AI inference performance. However, they also expressed concerns about the durability and lifetime properties of HBF compared to DRAM. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49420116,
-      "author": "subset",
-      "descendants": 0,
-      "kids": "[49423892]",
-      "score": 32,
-      "time": 1787580938,
-      "title": "Crafting QR Codes: A deep dive into QR code art (2024)",
-      "type": "story",
-      "url": "https://kylezhe.ng/writes/crafting-qr-codes",
-      "og_image": "https://kylezhe.ng/_astro/escape.BTIyVXFR_4qfcs.webp",
-      "groq_label": "QR codes can be artfully designed while remaining scannable by strategically altering non-critical modules.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project/blog post explores the art and techniques behind crafting visually creative QR codes in 2024. Hacker News commenters generally appreciated the aesthetic and creative potential of QR code art, noting that it could make static codes more engaging and user-friendly. However, they also expressed concerns about functionality and reliability, questioning whether artistic modifications might compromise scannability or accessibility. Overall, the discussion was mixed, with commenters recognizing both the project's innovative appeal and its practical limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49419351,
-      "author": "ssx360",
-      "descendants": 13,
-      "kids": "[49420404,49422114,49422004,49420930,49420611,49421241,49421956,49420690,49420979,49420635,49420711,49420176]",
-      "score": 59,
-      "time": 1787577431,
-      "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
-      "type": "story",
-      "url": "https://ssx360.github.io/rack-02/?src=hn",
-      "og_image": "https://ssx360.github.io/rack-02/og.png",
-      "groq_label": "A single HTML file contains a fully functional techno machine with verifiable renders, requiring no external dependencies or installation.",
-      "groq_discussion": "Discussion type: – Basic:\n\nThis project aims to solve the problem of creating a portable, self-contained techno music machine that runs entirely within a single HTML file with verifiable renders. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as its portability, lack of external dependencies, and the fun, intuitive experience it provides. Many appreciated the ability to run the app locally without installation or internet access, noting that it embodies how software should be built. Others believed it could be particularly useful for musicians or enthusiasts looking for a lightweight, experimental tool. However, the discussion also revealed several criticisms. Commenters expressed concerns about the unintuitive knob controls and questioned the necessity of verifiable renders. Overall, the Hacker News community considered the project impressive and fun, recognizing its potential while emphasizing that addressing usability concerns would improve its adoption.",
       "groq_explain": null
     }
   ]
