@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-25T08:38:01.538Z"
+    "lastUpdated": "2026-08-25T12:39:42.495Z"
   },
   "stories": [
+    {
+      "id": 49432319,
+      "author": "Hbruz0",
+      "descendants": 1,
+      "kids": "[49432912,49432918]",
+      "score": 10,
+      "time": 1787658588,
+      "title": "Don't Wordle",
+      "type": "story",
+      "url": "https://dontwordle.com/",
+      "og_image": "images/49432319.png",
+      "groq_label": "Don't Wordle reverses the classic game mechanics by forcing players to follow all given clues while actively trying to avoid guessing the target word.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis product addresses the lack of challenging variations for fans of daily word puzzles. Hacker News commenters generally appreciated its increased difficulty and believed the project could make standard Wordle feel much easier by comparison. However, they also expressed concerns about its steep learning curve and questioned its appeal for casual players. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49432227,
+      "author": "Bluestein",
+      "descendants": 9,
+      "kids": "[49432924,49432848,49432810,49432874,49432687]",
+      "score": 11,
+      "time": 1787658000,
+      "title": "HelloAssembly The smallest possible complete Windows application",
+      "type": "story",
+      "url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
+      "og_image": "https://opengraph.githubassets.com/a493a1417d9358b37d0470bccac8fe31feb6a5233854f86ed05b43fce5e2beb3/PlummersSoftwareLLC/HelloAssembly",
+      "groq_label": "Dave Plummer's \"HelloAssembly\" bypasses the C Runtime Library (CRT) to directly invoke Windows API functions like WriteFile, demonstrating how minimal Windows executables can be written in pure assembly.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis project addresses creating the smallest possible executable for a complete Windows application. Hacker News commenters generally appreciated bypassing the C runtime to interact directly with the Windows API and believed the project could demonstrate low-level assembly programming concepts. However, they also expressed concerns about its heavy reliance on system DLLs to perform major tasks and questioned the background of the author. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49432201,
+      "author": "conbrian",
+      "descendants": 108,
+      "kids": "[49432605,49432456,49432507,49432928,49432957,49432863,49432460,49432793,49432638,49432941,49432750,49432736,49432447,49432800,49432819,49432422,49432697,49432464,49432754]",
+      "score": 82,
+      "time": 1787657844,
+      "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
+      "type": "story",
+      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
+      "og_image": "https://cloudinary.hbs.edu/hbsit/image/fetch/q_auto/f_webp/https%3A%2F%2Fwww.hbs.edu%2Fctfassets%2Fpublic%2Fimages%2F1LugQvDzX01KToTslxDIzT%2FEgan_Who%20Pays_2026.png",
+      "groq_label": "High US merchant interchange fees enable credit card rewards that transfer billions from cash and interest payers to wealthy consumers.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of explaining how credit card rewards create a wealth transfer from low-income or cash-paying consumers to high-income cardholders. The Hacker News discussion was generally mixed, with many commenters appreciating the analysis of systemic financial inequities and the discussion's approach to comparing US interchange fees with capped rates in the EU and Australia. At the same time, several commenters raised concerns about oversimplified framing, arguing that credit card rewards exist primarily to lower price sensitivity and boost merchant sales rather than deliberately redistribute wealth. Overall, the discussion suggests that the community sees promise in examining credit card industry practices but believes there are important nuanced economic realities that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49431560,
+      "author": "reconnecting",
+      "descendants": 39,
+      "kids": "[49432345,49432820,49432351,49432241,49432371,49432169,49432120,49432849,49432282,49432272,49432042,49432669,49432388,49432204,49432070,49432378,49432092]",
+      "score": 43,
+      "time": 1787654052,
+      "title": "Quantum battery upends the rules of charging",
+      "type": "story",
+      "url": "https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
+      "og_image": "https://ychef.files.bbci.co.uk/624x351/p0p61k4w.jpg",
+      "groq_label": "Quantum batteries use superabsorption to charge faster as their size increases, though current prototypes only retain negligible energy for nanoseconds.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of long battery charging times. The Hacker News discussion was generally critical, with many commenters appreciating the underlying quantum physics concepts and the project's approach to ultra-fast energy delivery. At the same time, several commenters raised concerns about severe practical limitations, arguing that the reporting is sensationalized given the prototype's negligible energy capacity, nanosecond retention times, and the impractical grid requirements for ultra-fast charging. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49429095,
       "author": "Dramatize",
@@ -391,66 +451,6 @@
       "groq_label": "Microsoft's Paint and Photos embed a server-issued GUID as an invisible watermark in locally generated AI images, even when using local models.",
       "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the discovery that MS Paint and Photos invisibly watermark even locally generated output with GUIDs with cautious optimism. Many praised the potential for easy AI-generated content flagging and digital lineage tooling, seeing value in the approach to identifying manipulated media. However, the discussion also surfaced recurring concerns regarding privacy violations, with commenters arguing that unique identifiers could be exploited to deanonymize users via copyright subpoenas. Despite these criticisms, the general sentiment suggests that the community considers the project a promising idea that could become more compelling as it matures, provided Microsoft addresses transparency and user control over data sharing.",
       "groq_explain": "Paint and Photos secretly embed a unique, invisible watermark (a GUID) into AI-generated images, even when created locally. This happens because the apps send your prompt to a remote server for moderation, which then returns a GUID that gets embedded into the image pixels. It matters because this tracking could be used to identify the source of images, raising privacy concerns about how Microsoft monitors AI-generated content."
-    },
-    {
-      "id": 49421074,
-      "author": "tosh",
-      "descendants": 70,
-      "kids": "[49421351,49421293,49422162,49421505,49421268,49422020,49421607,49422075,49421905,49421302,49421439,49421411,49421282,49421497,49421803,49421449,49421262,49421277,49421333]",
-      "score": 93,
-      "time": 1787584963,
-      "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
-      "type": "story",
-      "url": "https://developers.openai.com/api/docs/pricing",
-      "og_image": "https://developers.openai.com/og/api/docs/pricing.png",
-      "groq_label": "OpenAI's GPT-5.6 Sol price reduction to $4/$5 per 1M tokens (20%/33% discount) makes it competitive with Anthropic while commoditizing AI model pricing.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to OpenAI's GPT-5.6 price reduction with cautious optimism. Many praised the significant discounts (20% on input, 33% on output) and saw value in the move, with some noting that Sol is now more competitive against offerings from Anthropic and others. The discussion highlighted the attractiveness of OpenAI's pricing when combined with additional discounts from platforms like OpenRouter ($2/$10 per 1M tokens). However, the discussion also surfaced recurring concerns regarding the temporary nature of the price reduction (\"until at least Nov 21, 2026\") and its limited impact on subscription-based models like Codex. Despite these criticisms, the general sentiment suggests that the community considers the price cuts a promising development that could drive further competition in the AI model market.",
-      "groq_explain": null
-    },
-    {
-      "id": 49420873,
-      "author": "tosh",
-      "descendants": 120,
-      "kids": "[49421180,49421812,49421598,49421838,49421921,49421153,49422120,49421300,49422151,49421286,49421859,49421721,49421857,49421601,49421676,49421600,49421452,49421971,49421807,49421537,49421368,49421232,49421312,49421822,49421576,49421535]",
-      "score": 209,
-      "time": 1787584097,
-      "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-      "type": "story",
-      "url": "https://twitter.com/lemire/status/2091894299289874926",
-      "og_image": "https://pbs.twimg.com/media/HQfmx0UWoAAvbt6.jpg",
-      "groq_label": "Xiaomi's new mobile processor uses off-the-shelf ARM C1-Ultra cores and 44MB of cache to match Apple's single-core performance.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses Xiaomi's new CPU, which matches Apple cores in single-threaded performance and surpasses them in multi-threaded performance. The Hacker News discussion was mixed, with many commenters appreciating the advancement in global competition and Xiaomi's growing capabilities in chip manufacturing. At the same time, several commenters raised concerns about performance per watt, manufacturing limitations, and the actual real-world impact of these improvements. Overall, the discussion suggests that the community sees promise in Xiaomi's progress but believes there are important challenges—such as power efficiency and domestic manufacturing constraints—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49420832,
-      "author": "RicoElectrico",
-      "descendants": 1,
-      "kids": "[49422203]",
-      "score": 11,
-      "time": 1787583922,
-      "title": "Adafruit USB Type C CC Resistor Fixer",
-      "type": "story",
-      "url": "https://www.adafruit.com/product/6323",
-      "og_image": "https://www.adafruit.com/images/480x360/6323-01.jpg",
-      "groq_label": "The device required a specific USB-C cable with a CC resistor to enter firmware flashing mode, which wasn't documented.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis Adafruit USB Type C CC Resistor Fixer aims to address the problem of unreliable USB Type-C connections and undocumented device behavior during firmware flashing. Hacker News commenters generally appreciated the project's practical focus on fixing common USB Type-C issues, noting it could save developers significant debugging time. However, they also expressed concerns about the complexity of USB Type-C standards and questioned whether the solution would cover all edge cases. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential to simplify USB Type-C troubleshooting and its limitations in addressing broader compatibility challenges.",
-      "groq_explain": null
-    },
-    {
-      "id": 49420781,
-      "author": "rbanffy",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 5,
-      "time": 1787583711,
-      "title": "Hot Chips 2026: Samsung and HBM Base Die Opportunities",
-      "type": "story",
-      "url": "https://chipsandcheese.com/p/hot-chips-2026-samsung-and-hbm-base",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!GHrS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9051b1e8-7476-489e-881d-e1d7832994b9_1899x1058.png",
-      "groq_label": "Samsung's HBM base die at Hot Chips 2026 could enable heterogeneous integration of memory and logic, reducing costs and improving yield.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
     }
   ]
 }
