@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-26T04:34:19.021Z"
+    "lastUpdated": "2026-08-26T08:37:56.030Z"
   },
   "stories": [
+    {
+      "id": 49444232,
+      "author": "jnord",
+      "descendants": 9,
+      "kids": "[49445136,49445086,49445106]",
+      "score": 32,
+      "time": 1787720947,
+      "title": "Harvest (IBM 7950): Supercomputer for cryptanalysis at the NSA in the Cold War",
+      "type": "story",
+      "url": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
+      "og_image": "https://spectrum.ieee.org/media-library/image.jpg?id=67651870&width=1200&height=600&coordinates=0%2C250%2C0%2C250",
+      "groq_label": "The IBM 7950 HARVEST supercomputer was custom-built for Cold War NSA cryptanalysis with an early 40 GB automated tape cartridge library.",
+      "groq_discussion": "This article addresses the history of Cold War cryptanalysis and early NSA supercomputing. Hacker News commenters generally appreciated the detailed historical context and technical specs and believed the project could provide unique insights into early high-performance computing. However, they also expressed concerns about clickbait title framing and questioned what happened to IBM's engineering dominance. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49443523,
       "author": "gdad",
@@ -432,21 +447,6 @@
       "og_image": "images/49432319.png",
       "groq_label": "Don't Wordle reverses the classic game mechanics by forcing players to follow all given clues while actively trying to avoid guessing the target word.",
       "groq_discussion": "Discussion type: – Short:\n\nThis product addresses the lack of challenging variations for fans of daily word puzzles. Hacker News commenters generally appreciated its increased difficulty and believed the project could make standard Wordle feel much easier by comparison. However, they also expressed concerns about its steep learning curve and questioned its appeal for casual players. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49432317,
-      "author": "garo-pro",
-      "descendants": 82,
-      "kids": "[49435021,49433980,49434580,49435225,49433649,49433863,49433880,49434554,49435652,49436530,49435505,49433661,49436226,49435659,49433769,49434136,49435266,49433707,49434955,49433994,49432421,49435491,49433895,49435180,49433796,49433701,49434411]",
-      "score": 191,
-      "time": 1787658583,
-      "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
-      "type": "story",
-      "url": "https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next",
-      "og_image": "https://cdn.modelscope.cn/social-thumbnails/models/Qwen/Qwen3.8-Flash-Next.png",
-      "groq_label": "Qwen 3.8-Flash-Next's 125B parameter model with 16B active (a6B) leverages MoE to run locally on consumer hardware like a 128GB Strix Halo or GB10 device at usable speeds.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this Qwen 3.8-Flash-Next release with positive reactions. Many commenters appreciated the model's potential for local AI use, especially for those with high-memory systems like the Strix Halo or Mac Studio, noting that it could make such hardware more practical. Others highlighted its efficiency and the benefits of MoE architecture for usability. Nevertheless, recurring criticisms focused on compatibility issues with platforms like OpenRouter, where Qwen models have been unreliable, and concerns about the lack of smaller model variants. As a whole, commenters viewed the project as an interesting contribution to local AI while acknowledging that it still has room for improvement, particularly in accessibility and broader hardware support.",
       "groq_explain": null
     }
   ]
