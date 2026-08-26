@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-26T00:55:37.734Z"
+    "lastUpdated": "2026-08-26T04:34:19.021Z"
   },
   "stories": [
+    {
+      "id": 49443523,
+      "author": "gdad",
+      "descendants": 3,
+      "kids": "[49444129,49444053,49443549]",
+      "score": 9,
+      "time": 1787711725,
+      "title": "Agentic Context Management: Memory and Cost as Architecture Problems",
+      "type": "story",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "og_image": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "groq_label": "AI agents fail from context inflation rather than poor reasoning, which structured compaction and predictive fetching fix by keeping token costs linear while preserving recall.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis paper presents a research project on Agentic Context Management, focusing on solving the problem of memory and cost challenges in LLM-based agents. Hacker News commenters generally appreciated the clarity of the paper's explanation of \"context problems\" in LLMs and saw promise in the proposed solutions, such as compaction with validation and predictive fetching. However, they also expressed concerns about the practical implementation of these ideas. Overall, the discussion was cautiously optimistic, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": "AI agents often fail not because they can't reason, but because they can't manage their growing memory and costs. Current systems treat this as a storage problem, but it's really about actively controlling what's kept in mind—deciding what to remember, when to forget, and how to structure it efficiently. This is called Agentic Context Management (ACM), and it's crucial because naive approaches waste money and lose important details. A working system, Maximem Synap, shows it can cut costs while keeping accuracy high. The bigger picture is managing context not just for one user, but across entire organizations."
+    },
+    {
+      "id": 49442589,
+      "author": "rguiscard",
+      "descendants": 7,
+      "kids": "[49444156,49443918,49443317,49443183,49443023,49444010]",
+      "score": 53,
+      "time": 1787703649,
+      "title": "Queryable Executables",
+      "type": "story",
+      "url": "https://fzakaria.com/2026/08/24/actually-queryable-executables",
+      "og_image": "https://fzakaria.com/assets/images/sqlite_is_life.png",
+      "groq_label": "A single file can contain both executable code and its runtime state, updated transactionally.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of managing application state and dependencies by collapsing them into a single executable file, eliminating the need for separate directories like /var/, /tmp/, or /home/. The Hacker News discussion was generally mixed, with many commenters appreciating the creativity and technical ambition behind the idea. At the same time, several commenters raised concerns about the practicality of storing writable runtime data within a read-only binary, arguing that it could lead to messy or unreliable systems. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around state management and deployment—that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49441666,
       "author": "zdw",
@@ -417,36 +447,6 @@
       "og_image": "https://cdn.modelscope.cn/social-thumbnails/models/Qwen/Qwen3.8-Flash-Next.png",
       "groq_label": "Qwen 3.8-Flash-Next's 125B parameter model with 16B active (a6B) leverages MoE to run locally on consumer hardware like a 128GB Strix Halo or GB10 device at usable speeds.",
       "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this Qwen 3.8-Flash-Next release with positive reactions. Many commenters appreciated the model's potential for local AI use, especially for those with high-memory systems like the Strix Halo or Mac Studio, noting that it could make such hardware more practical. Others highlighted its efficiency and the benefits of MoE architecture for usability. Nevertheless, recurring criticisms focused on compatibility issues with platforms like OpenRouter, where Qwen models have been unreliable, and concerns about the lack of smaller model variants. As a whole, commenters viewed the project as an interesting contribution to local AI while acknowledging that it still has room for improvement, particularly in accessibility and broader hardware support.",
-      "groq_explain": null
-    },
-    {
-      "id": 49432227,
-      "author": "Bluestein",
-      "descendants": 9,
-      "kids": "[49432924,49432848,49432810,49432874,49432687]",
-      "score": 11,
-      "time": 1787658000,
-      "title": "HelloAssembly The smallest possible complete Windows application",
-      "type": "story",
-      "url": "https://github.com/PlummersSoftwareLLC/HelloAssembly",
-      "og_image": "https://opengraph.githubassets.com/a493a1417d9358b37d0470bccac8fe31feb6a5233854f86ed05b43fce5e2beb3/PlummersSoftwareLLC/HelloAssembly",
-      "groq_label": "Dave Plummer's \"HelloAssembly\" bypasses the C Runtime Library (CRT) to directly invoke Windows API functions like WriteFile, demonstrating how minimal Windows executables can be written in pure assembly.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project addresses creating the smallest possible executable for a complete Windows application. Hacker News commenters generally appreciated bypassing the C runtime to interact directly with the Windows API and believed the project could demonstrate low-level assembly programming concepts. However, they also expressed concerns about its heavy reliance on system DLLs to perform major tasks and questioned the background of the author. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49432201,
-      "author": "conbrian",
-      "descendants": 108,
-      "kids": "[49432605,49432456,49432507,49432928,49432957,49432863,49432460,49432793,49432638,49432941,49432750,49432736,49432447,49432800,49432819,49432422,49432697,49432464,49432754]",
-      "score": 82,
-      "time": 1787657844,
-      "title": "Credit Card Rewards Became a $9.2B Wealth Transfer",
-      "type": "story",
-      "url": "https://www.library.hbs.edu/working-knowledge/how-credit-card-rewards-became-multibillion-dollar-wealth-transfer",
-      "og_image": "https://cloudinary.hbs.edu/hbsit/image/fetch/q_auto/f_webp/https%3A%2F%2Fwww.hbs.edu%2Fctfassets%2Fpublic%2Fimages%2F1LugQvDzX01KToTslxDIzT%2FEgan_Who%20Pays_2026.png",
-      "groq_label": "High US merchant interchange fees enable credit card rewards that transfer billions from cash and interest payers to wealthy consumers.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of explaining how credit card rewards create a wealth transfer from low-income or cash-paying consumers to high-income cardholders. The Hacker News discussion was generally mixed, with many commenters appreciating the analysis of systemic financial inequities and the discussion's approach to comparing US interchange fees with capped rates in the EU and Australia. At the same time, several commenters raised concerns about oversimplified framing, arguing that credit card rewards exist primarily to lower price sensitivity and boost merchant sales rather than deliberately redistribute wealth. Overall, the discussion suggests that the community sees promise in examining credit card industry practices but believes there are important nuanced economic realities that still need to be addressed.",
       "groq_explain": null
     }
   ]
