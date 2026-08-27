@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-27T06:41:42.992Z"
+    "lastUpdated": "2026-08-27T11:04:12.667Z"
   },
   "stories": [
+    {
+      "id": 49461862,
+      "author": "theanonymousone",
+      "descendants": 1,
+      "kids": "[49462794]",
+      "score": 7,
+      "time": 1787821590,
+      "title": "Qwen3.8-Flash-Next Intelligence, Performance and Price Analysis",
+      "type": "story",
+      "url": "https://artificialanalysis.ai/models/qwen3-8-flash-next",
+      "og_image": "https://artificialanalysis.ai/en/models/qwen3-8-flash-next/opengraph-image?77a51caf7e80ee92",
+      "groq_label": "Qwen3.8-Flash-Next evaluates the trade-offs between intelligence benchmarks, processing speed, and cost per token.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis blog post addresses analyzing AI model intelligence, performance, and pricing. Hacker News commenters generally appreciated the attempt to evaluate new AI models and believed the project could inform cost and performance trade-offs. However, they also expressed concerns about the lack of basic introductory context and questioned why the post assumed deep domain familiarity. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49460032,
       "author": "jcbhmr",
@@ -437,21 +452,6 @@
       "groq_label": "Taylor Farms' reliance on prison labor at $1.50-$4.75 per hour highlights modern forced labor practices in U.S. agriculture.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article examines the risks associated with Taylor Farms' massive scale in food production and distribution. The Hacker News discussion was generally mixed, with many commenters appreciating the efficiency and consistency of large-scale food production but raising concerns about food safety, worker conditions, and ethical labor practices. At the same time, several commenters argued that smaller producers may not necessarily offer better outcomes in terms of safety or quality control. Overall, the discussion suggests that the community sees both the benefits and drawbacks of large-scale food production, believing there is a need for a balanced approach that addresses these concerns.",
       "groq_explain": null
-    },
-    {
-      "id": 49449576,
-      "author": "motownphilly",
-      "descendants": 132,
-      "kids": "[49450712,49451939,49456823,49450220,49452182,49450894,49450080,49455808,49450277,49455057,49450348,49451157,49453881,49450859,49450541,49454170,49450293,49449700,49450158,49453299,49452632,49450410,49455177,49451143,49449833,49450709,49453513,49455005,49451888,49453885,49454011,49450630,49450196,49450685,49452087]",
-      "score": 266,
-      "time": 1787753499,
-      "title": "Twitter Viewer – View Twitter Without Account",
-      "type": "story",
-      "url": "https://twitterwebviewer.com/",
-      "og_image": "https://unavatar.io/x/elonmusk",
-      "groq_label": "Twitter Viewer scrapes public Twitter profiles without authentication, bypassing login walls that now plague major social platforms.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of accessing Twitter content without requiring a user account. The Hacker News discussion was generally mixed, with many commenters appreciating the need for such a tool due to increasing restrictions on social media platforms. At the same time, several commenters raised concerns about the project's sustainability, noting that services like this often face legal threats (e.g., cease and desist notices) and may rely on workarounds that could be blocked. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly legal and technical—that still need to be addressed.",
-      "groq_explain": "It's a free tool to browse public Twitter posts and profiles without needing an account. Useful if you want to check content anonymously or quickly without signing up."
     }
   ]
 }
