@@ -98,10 +98,6 @@ function escapeHtml(s = "") {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-function getDomain(url) {
-  try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
-}
-
 // Clip after escaping so length is guaranteed; strips a dangling partial entity.
 function safeClip(text, max) {
   let t = escapeHtml((text || "").trim());
@@ -111,18 +107,28 @@ function safeClip(text, max) {
 }
 
 function buildMeta(s) {
-  const domain = getDomain(s.url);
-  return (
-    `▲ ${s.score ?? 0} · 💬 ${s.descendants ?? 0} · ${escapeHtml(s.author ?? "?")}` +
-    (domain ? ` · ${domain}` : "")
-  );
+  return `▲ ${s.score ?? 0} · 💬 ${s.descendants ?? 0} · ${escapeHtml(s.author ?? "?")}`;
+}
+
+// Link to the article itself. Visible text is just "link"; the full URL is
+// hidden in the href so the caption stays clean.
+function articleLink(s) {
+  if (!s.url || typeof s.url !== "string") return null;
+  try {
+    const u = new URL(s.url);
+    if (!/^https?:$/.test(u.protocol)) return null;
+    return `<b>🌐</b> <a href="${escapeHtml(u.href)}">link</a>`;
+  } catch {
+    return null;
+  }
 }
 
 // One post per story: title, label, discussion recap and TL;DR all in the
 // caption so the content visibly belongs to the post. Sections are shed in
 // reverse priority (TL;DR → discussion → label → title) to fit the limit.
 function buildCaption(s) {
-  const footer = [buildMeta(s), `🟠 ${hnItem(s.id)}`].join("\n");
+  const linkLine = articleLink(s);
+  const footer = [buildMeta(s), linkLine, `🟠 ${hnItem(s.id)}`].filter(Boolean).join("\n");
 
   const titleOf = (max) => `<b>${safeClip(s.title, max)}</b>`;
   const labelOf = (max) => {
@@ -161,7 +167,8 @@ function buildTextMessage(s) {
   if (label) parts.push(`💡 ${label}`);
   if (d && d !== "No comments.") parts.push(`💬 <b>Hacker News discussion</b>\n${d}`);
   if (e) parts.push(`📖 <b>TL;DR</b>\n${e}`);
-  if (s.url) parts.push(`🔗 ${s.url}`);
+  const linkLine = articleLink(s);
+  if (linkLine) parts.push(linkLine);
   parts.push(buildMeta(s), `🟠 ${hnItem(s.id)}`);
   return clipMessage(parts.join("\n\n"));
 }
