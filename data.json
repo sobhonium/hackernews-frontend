@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-29T10:44:35.467Z"
+    "lastUpdated": "2026-08-29T16:06:37.973Z"
   },
   "stories": [
+    {
+      "id": 49490138,
+      "author": "uecker",
+      "descendants": 4,
+      "kids": "[49490945,49490798,49490756,49490867]",
+      "score": 21,
+      "time": 1788013233,
+      "title": "Indirect Calling of Nested Functions on GCC Without Executable Stack",
+      "type": "story",
+      "url": "https://uecker.codeberg.page/2026-08-29.html",
+      "og_image": "https://uecker.codeberg.page/banner.png",
+      "groq_label": "GCC can invoke nested functions through indirect calls without requiring an executable stack.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis blog post addresses calling nested functions in GCC without relying on an executable stack. Hacker News commenters generally appreciated the clever low-level technique and believed the project could provide an interesting workaround for security restrictions around self-modifying code. However, they also expressed concerns about assembly syntax readability and questioned why function pointers would require executable stack memory in the first place. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49489982,
+      "author": "pluc",
+      "descendants": 161,
+      "kids": "[49490252,49490709,49490979,49490290,49490793,49490382,49490801,49490279,49490340,49490575,49490646,49490238,49490926,49490503,49490291,49490261,49490362,49490526,49490433,49490415,49490221,49490364,49490442]",
+      "score": 219,
+      "time": 1788012130,
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "type": "story",
+      "url": "https://lwn.net/Articles/1091231/",
+      "og_image": "https://static.lwn.net/images/logo/barepenguin-70.webp",
+      "groq_label": "Debian permits generative AI in software contributions on the condition that submitters remain fully accountable for code quality and legal compliance.",
+      "groq_discussion": "Discussion type: Balanced\n\nThis article aims to solve the problem of governing generative AI usage in open source contributions. The Hacker News discussion was generally positive, with many commenters appreciating developer accountability and common-sense rules and the project's approach to responsible AI integration. At the same time, several commenters raised concerns about policy enforcement and code comprehension, arguing that developer laziness could lead to unexamined AI-generated code entering production. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "Debian is allowing its developers to use generative AI tools to help write code, packaging, and documentation. This matters because it gives volunteers a way to work faster and save time, while establishing that developers remain fully responsible for testing and verifying that any AI-assisted code meets the project's standards for quality, safety, and legal compliance."
+    },
     {
       "id": 49487341,
       "author": "ingve",
@@ -182,6 +212,21 @@
       "groq_label": "Graphical user interfaces can match terminal applications in full keyboard navigation, making keyboard efficiency a matter of developer effort rather than UI format.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article/project advocates for fully keyboard-driven GUIs to improve accessibility and efficiency. The Hacker News discussion was generally positive, with many commenters appreciating the emphasis on accessibility and power user efficiency. At the same time, several commenters raised concerns about discoverability and the learning curve for non-technical users. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges—particularly around usability—that still need to be addressed.",
       "groq_explain": "TL;DR: GUIs should be fully keyboard-driven because it makes them more accessible and efficient, just like TUIs, and developers should prioritize this to improve user experience."
+    },
+    {
+      "id": 49479546,
+      "author": "wonger_",
+      "descendants": 4,
+      "kids": "[49490604,49490473]",
+      "score": 30,
+      "time": 1787929155,
+      "title": "Creating the Aetheryte Radio",
+      "type": "story",
+      "url": "https://haz.ee/posts/aetheryte-radio.html",
+      "og_image": "images/49479546.png",
+      "groq_label": "The Aetheryte Radio project was built using vanilla JavaScript instead of modern web frameworks.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project aims to create the Aetheryte Radio. Hacker News commenters generally appreciated the project and believed it could be an interesting and innovative concept. However, they also expressed minimal concerns and questioned minor details. Overall, the discussion was positive, with commenters recognizing both the project's potential and its creative approach.",
+      "groq_explain": null
     },
     {
       "id": 49479122,
@@ -406,50 +451,6 @@
       "og_image": "https://blog.luanti.org/static/blog/2026_dmca/cover.webp",
       "groq_label": "Open-source game Luanti was removed from Google Play after automated copyright enforcement firm Tracer AI filed a baseless DMCA notice.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis DMCA takedown incident involving the removal of Luanti from Google Play due to an AI-generated copyright notice highlights the growing issue of automated and potentially baseless copyright claims. The Hacker News discussion was generally critical, with many commenters questioning the legitimacy of the claims and the practices of the company behind them, Tracer AI. At the same time, several commenters raised concerns about the broader implications of DMCA abuse, arguing that the lack of consequences for false claims enables systemic misuse. Overall, the discussion suggests that the community sees this as a serious problem that undermines trust in copyright enforcement, but also recognizes the need for systemic changes to address the issue.",
-      "groq_explain": null
-    },
-    {
-      "id": 49474060,
-      "author": "davidchl",
-      "kids": "[]",
-      "score": 1,
-      "time": 1787888115,
-      "title": "GoGoGrandparent (YC S16) is hiring back end engineers",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-backend-engineer",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/4e0e521a2c000fa03eb76e02a08f3584d09ad0c1.png?1668571783",
-      "groq_label": "GoGoGrandparent converts on-demand apps into a phone concierge service for seniors and operates profitably without taking venture capital.",
-      "groq_discussion": "No comments.",
-      "groq_explain": "GoGoGrandparent is a profitable company hiring senior backend engineers to build technology that helps older adults live independently. Instead of forcing seniors to navigate complex smartphone apps, the service lets them order rides, meals, groceries, and medications through a simple phone call. It matters because it bridges the digital divide for an aging population, giving seniors easy access to modern on-demand services so they can stay in their homes longer."
-    },
-    {
-      "id": 49473868,
-      "author": "signa11",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 7,
-      "time": 1787886162,
-      "title": "Bootstrappable Builds: How and Why",
-      "type": "story",
-      "url": "https://lwn.net/Articles/1088279/",
-      "og_image": "https://static.lwn.net/images/logo/barepenguin-70.webp",
-      "groq_label": "Bootstrappable builds ensure software can be rebuilt from source using only itself, eliminating reliance on pre-built binaries.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49473522,
-      "author": "jbegley",
-      "descendants": 45,
-      "kids": "[49473716,49473677,49474054,49474043,49473755,49474131,49473757,49473903,49473880,49473976,49473794,49473844,49473744,49473749,49473814,49474093]",
-      "score": 111,
-      "time": 1787882618,
-      "title": "Judge Rules Trump Administration’s Blacklisting of Anthropic Was Illegal",
-      "type": "story",
-      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
-      "og_image": "https://static01.nyt.com/images/2026/08/27/multimedia/27biz-anthropic-lawsuit-mwbp/27biz-anthropic-lawsuit-mwbp-facebookJumbo.jpg",
-      "groq_label": "The Trump administration's blacklisting of Anthropic was ruled illegal, highlighting potential systemic issues in legal recourse against government actions.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis ruling addresses the problem of government overreach and potential misuse of regulatory power. The Hacker News discussion was generally mixed, with many commenters appreciating the legal victory for Anthropic and the reinforcement of accountability for the Trump administration. At the same time, several commenters raised concerns about the broader implications of the ruling, arguing that the legal system’s slowness and inconsistency undermine its effectiveness. Overall, the discussion suggests that the community sees the ruling as a step in the right direction but believes there are important systemic challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
