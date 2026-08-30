@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-29T22:15:29.391Z"
+    "lastUpdated": "2026-08-30T03:00:27.046Z"
   },
   "stories": [
+    {
+      "id": 49494856,
+      "author": "sashk",
+      "descendants": 17,
+      "kids": "[49494983,49494950,49495230,49495163,49494952,49495164,49494961,49495041,49495168,49495016]",
+      "score": 32,
+      "time": 1788053492,
+      "title": "FreeCORE TrueNAS Core – Continued",
+      "type": "story",
+      "url": "https://freecore.org/",
+      "og_image": "https://freecore.org/og.png",
+      "groq_label": "FreeCORE maintains TrueNAS CORE 13.3 as an independently updated FreeBSD-based fork after iXsystems shifted development focus exclusively to the Debian-based TrueNAS SCALE.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of continued community-driven development and accessibility of TrueNAS CORE, a FreeBSD-based NAS solution that iXsystems has seemingly deprioritized in favor of their Linux-based TrueNAS SCALE. The Hacker News discussion was generally mixed, with many commenters appreciating the preservation of the FreeBSD-based TrueNAS CORE through FreeCORE and recognizing its value for users who prefer or rely on FreeBSD. At the same time, several commenters raised concerns about the long-term viability and trustworthiness of community-driven forks, arguing that the lack of official support and unclear governance could pose significant risks. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around sustainability and assurance of continued development—that still need to be addressed.",
+      "groq_explain": "FreeCORE keeps TrueNAS CORE 13.3 alive as its own independently maintained system based on FreeBSD. It offers a stable 15.0-U1 version that can upgrade directly from 13.3, with ongoing updates planned. The project provides installation guides, ISO downloads, source code, and ways to report bugs or get support. It matters because it ensures continued development and support for users who want to keep using or upgrading TrueNAS CORE without relying solely on iXsystems."
+    },
+    {
+      "id": 49494520,
+      "author": "davidmckenna",
+      "descendants": 29,
+      "kids": "[49495123,49494788,49494703,49495110,49494861,49494764,49494938,49494901,49494971,49495215,49494779,49494958,49494796,49495149]",
+      "score": 82,
+      "time": 1788049300,
+      "title": "Bug Blindness",
+      "type": "story",
+      "url": "https://danluu.com/bug-blind/",
+      "og_image": "https://danluu.com/images/everything-is-broken/rust_guide.webp",
+      "groq_label": "Developers miss bugs that share their mental model of the system, while users quietly alter their workflows to adapt to software defects.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the concept of \"bug blindness,\" where developers or users may overlook issues in software due to misaligned mental models or habitual use. The Hacker News discussion was generally mixed, with many commenters appreciating the exploration of how users interact with software in unexpected ways and the challenges of identifying bugs. At the same time, several commenters raised concerns about the ambiguity of what constitutes a \"bug,\" arguing that some examples, like search results, are more about system design or user expectations than actual bugs. Overall, the discussion suggests that the community sees value in the idea of bug blindness but believes there are important nuances and challenges in defining and addressing it.",
+      "groq_explain": null
+    },
+    {
+      "id": 49494182,
+      "author": "DeepLogin",
+      "descendants": 46,
+      "kids": "[49494444,49495269,49494655,49494491,49494561,49494664,49494263]",
+      "score": 140,
+      "time": 1788045437,
+      "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "type": "story",
+      "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+      "og_image": "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/08/TT_FLOCK-MONEY-TEXAS_03-.jpg?quality=100&w=1200&h=630&ssl=1",
+      "groq_label": "A $1 car insurance fee hike in Texas was repurposed to fund Flock cameras instead of combating catalytic converter theft.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the investigative angle and considered it an important expose on how funds are allocated, highlighting the irony of a theft prevention fee being used for surveillance. Others criticized the lack of transparency and questioned the effectiveness of Flock cameras in actually reducing catalytic converter theft. Recurring criticisms focused on the misuse of public funds and the potential for overreach in surveillance. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it raises serious concerns about government spending and priorities.",
+      "groq_explain": null
+    },
     {
       "id": 49493563,
       "author": "TeaVMFan",
@@ -151,6 +196,21 @@
       "og_image": "https://substackcdn.com/image/fetch/$s_!mpv7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7e34287-d1ea-4437-960e-c80e70dd341e_1600x844.jpeg",
       "groq_label": "AI accelerates dysfunction when culture is already broken, but amplifies productivity when culture is strong.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article argues that good workplace culture is the biggest productivity hack, not AI. The Hacker News discussion was generally mixed, with many commenters appreciating the emphasis on culture and the negative impact of AI on productivity. At the same time, several commenters raised concerns about the feasibility of improving culture in toxic workplaces and the lack of actionable advice. Overall, the discussion suggests that the community sees some truth in the article but believes there are important challenges in addressing workplace culture that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49490870,
+      "author": "JumpCrisscross",
+      "descendants": 67,
+      "kids": "[49494359,49491399,49491360,49491743,49495011,49492846,49495142,49495175,49491473,49491897,49494048,49492195,49491449,49491390,49492111,49494517,49494103,49493769]",
+      "score": 138,
+      "time": 1788018482,
+      "title": "Nancy Grace Roman Space Telescope",
+      "type": "story",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/",
+      "og_image": "https://assets.science.nasa.gov/content/dam/science/missions/rst/spacecraft-illustrations/Roman_BeautyPass2026-med.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+      "groq_label": "The Nancy Grace Roman Space Telescope will stream 1.4TB of raw compressed astronomical data daily, fully open and unembargoed, enabling immediate public access for discovery or creative projects.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated the Nancy Grace Roman Space Telescope's open data policy and its wide-field imaging capabilities, considering it a significant advancement over existing telescopes like Hubble. Others highlighted the telescope's potential for groundbreaking discoveries and its role in complementing other observatories like Rubin and JWST. Nevertheless, recurring criticisms focused on the project's single-launch design, with some questioning NASA's decision not to build backup copies to mitigate launch failure risks. As a whole, commenters viewed the project as an exciting contribution to space exploration while acknowledging that it still has room for improvement.",
       "groq_explain": null
     },
     {
@@ -391,66 +451,6 @@
       "og_image": "images/49479546.png",
       "groq_label": "The Aetheryte Radio project was built using vanilla JavaScript instead of modern web frameworks.",
       "groq_discussion": "Discussion type: – Short\n\nThis project aims to create the Aetheryte Radio. Hacker News commenters generally appreciated the project and believed it could be an interesting and innovative concept. However, they also expressed minimal concerns and questioned minor details. Overall, the discussion was positive, with commenters recognizing both the project's potential and its creative approach.",
-      "groq_explain": null
-    },
-    {
-      "id": 49479122,
-      "author": "subvol",
-      "descendants": 23,
-      "kids": "[49479649,49479880,49480101,49480112,49480147,49479886,49479769,49479825,49479714,49479874,49480071,49479919,49480108,49480189]",
-      "score": 88,
-      "time": 1787927584,
-      "title": "Autistici/Inventati's main .org domain goes dark after US terrorism designation",
-      "type": "story",
-      "url": "https://mastodon.bida.im/@cavallette/117172989300228024",
-      "og_image": "images/49479122.png",
-      "groq_label": "The US government designated Italian activist hosting collective Autistici/Inventati as a terrorist entity, causing its main domain to go dark.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses the disruption of privacy-focused digital infrastructure following US government sanctions against Autistici/Inventati. Hacker News commenters generally appreciated its privacy-focused encrypted communications and open-source infrastructure and believed the project could provide vital secure tools for non-profit organizations and grassroots collectives. However, they also expressed concerns about its vulnerability to domain seizures and geopolitical pressure and questioned the neutrality and trustworthiness of ICANN and domain governance. Overall, the discussion was strongly critical of the US government's actions, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49478401,
-      "author": "lode",
-      "descendants": 17,
-      "kids": "[49479272,49480165,49479807,49480219,49480301,49479223]",
-      "score": 51,
-      "time": 1787924788,
-      "title": "OpenStreetMap State of the Map 2026",
-      "type": "story",
-      "url": "https://2026.stateofthemap.org/",
-      "og_image": "https://2026.stateofthemap.org/img/logo/sotm_2026.svg",
-      "groq_label": "OpenStreetMap's Garmin converter renders untagged Japanese points of interest as English transliterations of Chinese pronunciations.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article addresses the announcement of the OpenStreetMap State of the Map 2026 conference. Hacker News commenters generally appreciated the community's collaborative mapping efforts and believed the project could foster open geographical data sharing. However, they also expressed concerns about community attitudes toward commercial involvement and questioned technical localization quirks and naming compliance. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49478340,
-      "author": "smartmic",
-      "descendants": 71,
-      "kids": "[49480193,49479940,49480199,49478722,49480136,49479220,49479006,49479109,49480155,49479417,49479167,49480168,49478730,49479217,49479400,49479069,49479026,49478778,49478733]",
-      "score": 205,
-      "time": 1787924560,
-      "title": "Get your Windows license refund",
-      "type": "story",
-      "url": "https://en.refund4freedom.org/",
-      "og_image": "https://en.refund4freedom.org/img/Asset-1.png",
-      "groq_label": "Some PC manufacturers issue partial refunds to buyers who refuse the license agreements for pre-installed Windows operating systems and software.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of reclaiming money for unwanted preinstalled Windows operating system licenses. The Hacker News discussion was generally mixed, with many commenters appreciating the clear breakdown of manufacturer refund options and the project's approach to helping consumers decline bundled software. At the same time, several commenters raised concerns about regional limitations and difficult refund processes, arguing that it is usually more practical to buy computers without an operating system preinstalled. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49478178,
-      "author": "rmsaksida",
-      "descendants": 121,
-      "kids": "[49483181,49480627,49484694,49484736,49481617,49484687,49481186,49483984,49480414,49484236,49484948,49480392,49481100,49483822,49480601,49481124,49483146,49480939,49481140,49483753,49483329,49485525,49481748,49483580,49484769,49483704,49484130,49484054,49484174,49480580,49485293,49485288,49480717,49483641,49482104,49483781,49483903,49483007]",
-      "score": 491,
-      "time": 1787923736,
-      "title": "Htmx 4.0",
-      "type": "story",
-      "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-      "og_image": "https://four.htmx.org/img/og-image.png",
-      "groq_label": "HTMX 4.0 introduces an `hx-alpine-compat` plugin to resolve conflicts between HTMX and Alpine.js, while also enabling end-to-end UI testing by examining HTML directly.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this project with positive reactions. Many commenters appreciated htmx for its simplicity and approachability, describing it as a refreshing alternative to unnecessary frontend complexity. Commenters frequently praised its organic growth and its role in revitalizing server-side rendering approaches. Others highlighted its compatibility with tools like Alpine.js and its utility in agent-driven development for fast, cheap UI testing. Nevertheless, recurring criticisms focused on its mixing of presentation and business logic concerns, which some .NET/Angular developers found counterproductive. As a whole, commenters viewed the project as an interesting contribution to the frontend landscape while acknowledging that it may not suit all architectural preferences.",
       "groq_explain": null
     }
   ]
