@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-30T19:02:08.627Z"
+    "lastUpdated": "2026-08-30T22:20:47.255Z"
   },
   "stories": [
+    {
+      "id": 49502611,
+      "author": "peter_d_sherman",
+      "descendants": 2,
+      "kids": "[49503259,49503227,49503314]",
+      "score": 24,
+      "time": 1788122813,
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "type": "story",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "og_image": "https://sander.ai/images/verin.jpg",
+      "groq_label": "CDLMs use a diffusion process to refine language generation, unlike traditional autoregressive models.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis research on Continuous Diffusion Language Models (CDLMs) addresses the problem of improving language model training and generation. Hacker News commenters generally appreciated the innovative approach and believed the project could advance the field of AI language models. However, they also expressed concerns about the practical implications and questioned the necessity of the proposed method. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49502214,
+      "author": "pwg",
+      "descendants": 8,
+      "kids": "[49502275,49503332,49503177]",
+      "score": 40,
+      "time": 1788120025,
+      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
+      "type": "story",
+      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
+      "og_image": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_ux8g5eIe89uiXA08MHC3EMMVqSTNHc6f94mim6Ham-XI5M_Nke_AqNKeIyuqWmxGPDLQuJjncj8Clav9F06CBudwsJO8XyZ-xj6Ol4aLg7rYlP_81m9A0cGjFhlz11IH3M01Y=w1200-h630-p-k-no-nu",
+      "groq_label": "In 1980, Spacelab computers used magnetic core memory, a technology later replaced by semiconductors, which employed N-modular redundancy for fault tolerance in space computing.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses the core memory module from a 1980 Spacelab computer. Hacker News commenters generally appreciated the historical and technical aspects of the project and believed it highlighted the ingenuity of past computing systems. However, they also expressed concerns about the practicality and relevance of such technology today. Overall, the discussion was positive, with commenters recognizing both the project's educational value and its limitations in modern contexts.",
+      "groq_explain": null
+    },
+    {
+      "id": 49501611,
+      "author": "SillyUsername",
+      "descendants": 25,
+      "kids": "[49501612,49503389,49502140,49501887]",
+      "score": 49,
+      "time": 1788115748,
+      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
+      "type": "story",
+      "url": "https://github.com/KodeMunkie/sm750hdmifb",
+      "og_image": "https://opengraph.githubassets.com/513d2048e06a362c61d41e315623301f49f846f18ac2393e10a8241697c34de1/KodeMunkie/sm750hdmifb",
+      "groq_label": "A modern Linux driver for the SM750 GPU enables ultrawide resolutions, higher refresh rates, and better performance than the original, despite the HDMI-only variant being cheap and obscure.",
+      "groq_discussion": "Discussion type: – Short\n\nThis open-source SM750 (Silicon Motion GPU) HDMI Driver project addresses the lack of modern Linux support for HDMI variants of this server GPU. Hacker News commenters generally appreciated the developer's initiative and believed the project could enable cheaper, smaller display GPUs for X11 setups. However, they also expressed concerns about the driver's unusual hardware combination (HDMI with 16MB VRAM) and questioned whether it would be upstreamed. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49501147,
       "author": "ajayvk",
@@ -405,51 +450,6 @@
       "og_image": "https://coldtake.dev/diagrams/strategic-tactical-split.svg",
       "groq_label": "LLMs perform better on existing projects due to reliance on established structure and conventions.",
       "groq_discussion": "Discussion type: – Short\n\nThis project aims to explore the use of domain-driven design in agent-based systems. Hacker News commenters generally appreciated the concept of integrating domain-driven principles with agent-based architectures, believing it could improve the maintainability and scalability of complex systems. However, they also expressed concerns about the practical challenges of applying such principles in real-world scenarios, particularly in greenfield projects where established structures are absent. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49492488,
-      "author": "el1s7",
-      "descendants": 0,
-      "kids": "[]",
-      "score": 14,
-      "time": 1788030951,
-      "title": "A safe MySQL upgrade that wasn't so safe",
-      "type": "story",
-      "url": "https://blog.elis.cc/articles/a-safe-mysql-upgrade-that-wasnt-so-safe/",
-      "og_image": "images/49492488.png",
-      "groq_label": "A MySQL upgrade from 5.7 to 8.0 caused silent data corruption due to a change in how the database handles binary log transactions.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49492368,
-      "author": "matt_d",
-      "descendants": 1,
-      "kids": "[49493568]",
-      "score": 19,
-      "time": 1788030069,
-      "title": "Functional State Machines in Rust: Typestate and Newtype Patterns",
-      "type": "story",
-      "url": "https://dl.acm.org/doi/10.1145/3830438.3830958",
-      "og_image": "images/49492368.png",
-      "groq_label": "Typestate and newtype patterns in Rust enable compile-time enforcement of state transitions in functional state machines.",
-      "groq_discussion": "Discussion type: – Short\n\nThis research paper explores the problem of implementing state machines in Rust using typestate and newtype patterns. Hacker News commenters generally appreciated the paper's clear explanation of functional state machines and believed the project could help Rust developers write safer, more maintainable state machines. However, they also expressed concerns about the complexity of the patterns for beginners and questioned the practical overhead in real-world applications. Overall, the discussion was cautiously positive, with commenters recognizing both the paper's educational value and its potential limitations for production use.",
-      "groq_explain": null
-    },
-    {
-      "id": 49492219,
-      "author": "firefax",
-      "descendants": 26,
-      "kids": "[49492669,49493387,49492691,49493469,49492918,49492270,49492220,49492688,49493097,49493329,49492648]",
-      "score": 211,
-      "time": 1788029077,
-      "title": "DHS is using obscure law to snoop on journalists, non-profits, unions",
-      "type": "story",
-      "url": "https://www.theguardian.com/us-news/2026/aug/29/trump-dhs-1509-summons-records-journalists-nonprofits",
-      "og_image": "https://i.guim.co.uk/img/media/7328625af2e84fcd3e32fe0cf1bd7a8acec89714/395_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b21979455a9749b58eaeb6f3b8622df7",
-      "groq_label": "The DHS strategically withdraws 1509 summonses before judicial review to avoid legal challenges, exploiting companies' compliance without consequences.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the article about DHS using obscure law to snoop on journalists and non-profits with cautious optimism. Many praised its revelations about government overreach and saw value in exposing these practices. However, the discussion also surfaced recurring concerns regarding the ineffectiveness of legal challenges and the role of compliant companies in enabling surveillance. Despite these criticisms, the general sentiment suggests that the community considers the report a promising exposé that could become more compelling as further details emerge.",
       "groq_explain": null
     }
   ]
