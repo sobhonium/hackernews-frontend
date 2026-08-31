@@ -1,8 +1,66 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-31T18:41:48.765Z"
+    "lastUpdated": "2026-08-31T23:37:20.331Z"
   },
   "stories": [
+    {
+      "id": 49515662,
+      "author": "aryonoco",
+      "descendants": 1,
+      "kids": "[49515956]",
+      "score": 11,
+      "time": 1788215542,
+      "title": "Develop Cross-Platform CLI and GUI Tools with Tcl/Tk",
+      "type": "story",
+      "url": "https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide",
+      "og_image": "https://cgicoffee.com/blog/content/images/2026/tcl-tk-article/indiana-jones-tcl-tk-hero-title.jpg",
+      "groq_label": "Hex Fiend embeds a Tcl interpreter to render its template-based hex views.",
+      "groq_discussion": "Discussion type: – Short\n\nThis [article/project/blog post/research/product] addresses the use of Tcl/Tk for developing cross-platform CLI and GUI tools. Hacker News commenters generally appreciated the versatility of Tcl/Tk and believed the project could simplify tool development across platforms. However, they also expressed concerns about its modern relevance and questioned its adoption in newer projects. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49514878,
+      "author": "twapi",
+      "descendants": 238,
+      "kids": "[49515752,49515183,49515101,49515116,49515329,49515164,49515088,49515029,49515809,49515127,49515712,49515414,49515413,49515279,49515844,49515435,49515121,49515160,49515070,49515148,49515504,49515161,49515753,49515832,49515800,49515908,49515728,49515756,49515112,49515747,49515179,49515560,49515345,49515061,49515109,49515804,49515173]",
+      "score": 330,
+      "time": 1788210658,
+      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
+      "type": "story",
+      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+      "og_image": "https://webiterate.dev/wp-content/uploads/chrome-web-store-ublock-origin.png",
+      "groq_label": "Google has removed Manifest V2 extensions from the Chrome Web Store, disabling the original uBlock Origin and pushing users toward Firefox.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this news about Google removing MV2 extensions from the Chrome Web Store with mixed reactions. Many commenters appreciated alternatives like Firefox and praised its compatibility with uBlock Origin, considering it a necessary move to avoid Google's control over the web. Others highlighted the importance of supporting open-source browsers and independent projects like Librewolf, Floorp, or Zen to preserve an open web. Nevertheless, recurring criticisms focused on Google's dominance in the browser market and its impact on user choice and web safety. As a whole, commenters viewed the situation as a call to action, encouraging users to switch to Firefox or its forks while acknowledging the challenges of breaking free from Google's ecosystem.",
+      "groq_explain": null
+    },
+    {
+      "id": 49514781,
+      "author": "dkobran",
+      "kids": "[]",
+      "score": 1,
+      "time": 1788210009,
+      "title": "Autonomous (YC F25) is hiring engineers",
+      "type": "job",
+      "og_image": "images/49514781.png",
+      "groq_label": "Autonomous, a Y Combinator-backed startup from the Fall 2025 batch, is actively recruiting engineers.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49512975,
+      "author": "keithcarolus",
+      "descendants": 28,
+      "kids": "[49513916,49513872,49515166,49514597,49514165,49513242,49513733,49514662,49514750,49326572,49333686]",
+      "score": 172,
+      "time": 1788200493,
+      "title": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=3YtygAx_C6A",
+      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
+      "groq_label": "A custom JavaScript engine uses raycasting on an HTML Canvas to render a walkable 3D cyberpunk city made entirely of ASCII text without 3D models or shaders.",
+      "groq_discussion": "Discussion type: – Short\n\nThis HTML project aims to solve the problem of creating a walkable ASCII cyberpunk city in a single file. Hacker News commenters generally appreciated the technical achievement and the nostalgic aesthetic, noting that the browser provides a better environment for fixed-width character art than the terminal. Many praised the project's ambition and potential for development. However, some users reported rendering inconsistencies when trying it themselves, questioning the reliability of the implementation. Overall, the discussion was positive, with commenters recognizing both the project's creativity and its current limitations.",
+      "groq_explain": null
+    },
     {
       "id": 49512895,
       "author": "adchurch",
@@ -198,6 +256,21 @@
       "groq_explain": null
     },
     {
+      "id": 49508506,
+      "author": "jcurbo",
+      "descendants": 127,
+      "kids": "[49516111,49513067,49515897,49509011,49508647,49515113,49515007,49514444,49508576,49508917,49509090,49512897,49509443,49514252,49508641,49508592,49509537,49508575,49508589,49508833,49510273]",
+      "score": 221,
+      "time": 1788176748,
+      "title": "I think the military commissary's freezers were hacked",
+      "type": "story",
+      "url": "https://signalandsilence.substack.com/p/i-think-someone-hacked-the-commissary",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!3uKC!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a6cccd5-5043-47d2-a2b2-d39c0b076f56_6451x4301.jpeg",
+      "groq_label": "Military commissaries across multiple states experienced near-simultaneous refrigeration failures, suggesting a coordinated cyberattack on critical infrastructure.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the possibility that military commissary freezers were hacked, leading to widespread food spoilage. The Hacker News discussion was mixed, with many commenters appreciating the investigative angle and the potential security implications of such an incident. At the same time, several commenters raised concerns about the plausibility of a cyberattack, arguing that the issue was more likely due to misconfiguration or mechanical failure. Overall, the discussion suggests that the community sees potential in the story but believes there are important questions about the nature of the incident that still need to be addressed.",
+      "groq_explain": "Military commissaries across multiple U.S. bases experienced simultaneous refrigeration failures, spoiling or removing frozen and refrigerated food. The Pentagon acknowledges a \"possible refrigeration disruption,\" but the cause—whether aging equipment or a cyberattack—remains unclear. The pattern of failures suggests something unusual is happening, raising concerns about potential sabotage or a coordinated issue affecting military food supply chains."
+    },
+    {
       "id": 49507822,
       "author": "metrofun",
       "descendants": 0,
@@ -333,6 +406,21 @@
       "groq_explain": null
     },
     {
+      "id": 49503521,
+      "author": "matthewsinclair",
+      "descendants": 19,
+      "kids": "[49515979,49515615,49515290,49515584,49514873,49514644,49515248,49514347]",
+      "score": 146,
+      "time": 1788129421,
+      "title": "Terence Tao explains 6 essential mathematical concepts [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
+      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
+      "groq_label": "Terence Tao condenses six fundamental mathematical fields—Numbers, Algebra, Geometry, Probability, Analysis, and Dynamics—into a single accessible framework.",
+      "groq_discussion": "Discussion type: – Short\n\nThis video by Terence Tao aims to explain 6 essential mathematical concepts. Hacker News commenters generally appreciated the clarity and depth of Tao's explanations, noting that he conveys complex ideas without condescension. Many found the video inspiring and motivating, with some expressing newfound confidence in their ability to understand advanced math. However, a few commenters suggested additional concepts that could have been included, such as logic, type theory, or a deeper focus on mathematical reasoning itself. Overall, the discussion was positive, with commenters recognizing both the video's educational value and its limitations in covering all foundational aspects of mathematics.",
+      "groq_explain": null
+    },
+    {
       "id": 49502611,
       "author": "peter_d_sherman",
       "descendants": 2,
@@ -360,95 +448,6 @@
       "og_image": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_ux8g5eIe89uiXA08MHC3EMMVqSTNHc6f94mim6Ham-XI5M_Nke_AqNKeIyuqWmxGPDLQuJjncj8Clav9F06CBudwsJO8XyZ-xj6Ol4aLg7rYlP_81m9A0cGjFhlz11IH3M01Y=w1200-h630-p-k-no-nu",
       "groq_label": "In 1980, Spacelab computers used magnetic core memory, a technology later replaced by semiconductors, which employed N-modular redundancy for fault tolerance in space computing.",
       "groq_discussion": "Discussion type: – Short:\n\nThis article discusses the core memory module from a 1980 Spacelab computer. Hacker News commenters generally appreciated the historical and technical aspects of the project and believed it highlighted the ingenuity of past computing systems. However, they also expressed concerns about the practicality and relevance of such technology today. Overall, the discussion was positive, with commenters recognizing both the project's educational value and its limitations in modern contexts.",
-      "groq_explain": null
-    },
-    {
-      "id": 49501611,
-      "author": "SillyUsername",
-      "descendants": 25,
-      "kids": "[49501612,49503389,49502140,49501887]",
-      "score": 49,
-      "time": 1788115748,
-      "title": "Why open source rocks – a new SM750 (Silicon Motion GPU) HDMI Driver",
-      "type": "story",
-      "url": "https://github.com/KodeMunkie/sm750hdmifb",
-      "og_image": "https://opengraph.githubassets.com/513d2048e06a362c61d41e315623301f49f846f18ac2393e10a8241697c34de1/KodeMunkie/sm750hdmifb",
-      "groq_label": "A modern Linux driver for the SM750 GPU enables ultrawide resolutions, higher refresh rates, and better performance than the original, despite the HDMI-only variant being cheap and obscure.",
-      "groq_discussion": "Discussion type: – Short\n\nThis open-source SM750 (Silicon Motion GPU) HDMI Driver project addresses the lack of modern Linux support for HDMI variants of this server GPU. Hacker News commenters generally appreciated the developer's initiative and believed the project could enable cheaper, smaller display GPUs for X11 setups. However, they also expressed concerns about the driver's unusual hardware combination (HDMI with 16MB VRAM) and questioned whether it would be upstreamed. Overall, the discussion was cautiously positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49501147,
-      "author": "ajayvk",
-      "descendants": 3,
-      "kids": "[49501681,49501182,49501493]",
-      "score": 9,
-      "time": 1788113106,
-      "title": "Running SQLite Apps on Docker and Kubernetes with Litestream",
-      "type": "story",
-      "url": "https://openrun.dev/blog/litestream/",
-      "og_image": "https://openrun.dev/openrun_small.png",
-      "groq_label": "OpenRun integrates Litestream for automatic SQLite replication and restore, eliminating per-app Litestream setup while keeping app images unchanged.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article/project focuses on running SQLite apps on Docker and Kubernetes with Litestream. Hacker News commenters generally appreciated the lightweight approach and believed the project could simplify database management in containerized environments. However, they also expressed concerns about reliability and questioned the suitability for production workloads. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": "SQLite apps can be easily run on Docker, Podman, or Kubernetes with automatic backups and restores using Litestream, all managed by OpenRun. This simplifies database operations for developers by handling replication and recovery in the platform, so apps don’t need changes or extra setup. It’s useful for small web apps and internal tools where SQLite’s simplicity and performance are ideal."
-    },
-    {
-      "id": 49500504,
-      "author": "vinnyglennon",
-      "descendants": 8,
-      "kids": "[49513004,49500770,49501848,49500869,49504555]",
-      "score": 17,
-      "time": 1788109532,
-      "title": "Cheap GPS jammers are filling the world with navigation dead zones",
-      "type": "story",
-      "url": "https://www.wsj.com/tech/gps-jammers-dead-zones-e76f3261",
-      "og_image": "images/49500504.png",
-      "groq_label": "Widespread use of cheap GPS jammers is creating navigation dead zones, highlighting the risk of decommissioning legacy ground-based radio backups.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights the growing problem of cheap GPS jammers causing navigation dead zones worldwide. The Hacker News discussion was generally critical, with many commenters appreciating the explanation of the risks posed by GPS dependency and the decommissioning of traditional navigation aids like VORs. At the same time, several commenters raised concerns about the lack of viable alternatives, arguing that the reliance on GPS without sufficient backups is a major flaw in modern aviation infrastructure. Overall, the discussion suggests that the community sees the issue as serious but believes there are no easy solutions to address it.",
-      "groq_explain": null
-    },
-    {
-      "id": 49500471,
-      "author": "j-cheong",
-      "kids": "[]",
-      "score": 1,
-      "time": 1788109316,
-      "title": "Artie (YC S23) Is Hiring Technical AES",
-      "type": "job",
-      "url": "https://www.artie.com/careers?ashby_jid=e87b84d2-78b3-41a3-937a-47e83643cdf1",
-      "og_image": "https://www.artie.com/opengraph-image.png",
-      "groq_label": "Artie, a Y Combinator Summer 2023 startup, is hiring Technical AES, indicating a focus on cryptographic expertise in their technical team.",
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49499891,
-      "author": "rzk",
-      "descendants": 22,
-      "kids": "[49500659,49500270,49500378,49501195,49500998,49500634]",
-      "score": 52,
-      "time": 1788105797,
-      "title": "Coordination Headwind: How Organizations Are Like Slime Molds",
-      "type": "story",
-      "url": "https://komoroske.com/slime-mold/",
-      "og_image": "images/49499891.png",
-      "groq_label": "Slime mold coordination models fail in corporations where goals and timelines are set by distant executives before teams even begin projects.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article attempts to draw parallels between organizational coordination and slime molds. Hacker News commenters generally appreciated the concept but criticized the presentation, noting it felt overly simplistic and forced users to click through minimal slides. However, they also expressed concerns about the practicality of decentralized decision-making in modern corporations, where goals are often set by remote executives with rigid financial expectations. Overall, the discussion was mixed, with commenters recognizing the idea's potential while questioning its real-world applicability and execution.",
-      "groq_explain": null
-    },
-    {
-      "id": 49499867,
-      "author": "metrofun",
-      "descendants": 37,
-      "kids": "[49500373,49500031,49500813,49501524,49499973,49501414,49500183,49501491,49499963,49500997,49500308,49500493]",
-      "score": 139,
-      "time": 1788105670,
-      "title": "Haiku R1/beta6 has been released",
-      "type": "story",
-      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
-      "og_image": "https://www.haiku-os.org/images/haiku_logo_white.svg",
-      "groq_label": "Haiku R1/beta6 adds ports for Firefox and the Go runtime to the telemetry-free desktop operating system.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Haiku R1/beta6 release aims to improve the open-source operating system. The Hacker News discussion was generally positive, with many commenters appreciating Haiku's unique visual design and aesthetic appeal. At the same time, several commenters raised concerns about regressions and boot issues, arguing that the system's usability remains a challenge. Overall, the discussion suggests that the community sees promise in the project but believes there are important stability and practical challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
