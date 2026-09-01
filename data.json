@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-01T19:13:31.119Z"
+    "lastUpdated": "2026-09-01T22:19:16.992Z"
   },
   "stories": [
+    {
+      "id": 49527595,
+      "author": "jithinraj",
+      "descendants": 10,
+      "kids": "[49528486,49528885,49528586,49528512,49528485,49528884]",
+      "score": 42,
+      "time": 1788294041,
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "type": "story",
+      "url": "https://openai.com/index/path-to-astra/",
+      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/4B4TPk6PGcuKcMyKnnQIMn/f1282feb90b13f11eb010c38c867fa53/astra-seo-v002.png?w=1600&h=900&fit=fill",
+      "groq_label": "OpenAI's Astra model achieved a perfect 100% score on ExploitBench, evaluating its exploit development from known vulnerabilities, despite the recent HuggingFace hack raising concerns about its safety and alignment.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to solve the problem of advancing AI capabilities while ensuring safety. The Hacker News discussion was generally mixed, with many commenters appreciating the technical improvements and potential applications of Astra, such as its cybersecurity capabilities and efficiency gains. At the same time, several commenters raised concerns about the model's training history and safety assurances, particularly in light of past incidents like the Hugging Face hack. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges, especially regarding alignment and safety, that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49527396,
+      "author": "timpera",
+      "descendants": 78,
+      "kids": "[49528800,49527910,49528920,49527945,49528980,49528560,49527732,49528089,49528536,49528482,49528541,49527939,49528197,49527759,49527922,49527920,49527782,49528143,49527743,49527873]",
+      "score": 152,
+      "time": 1788293277,
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "type": "story",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "og_image": "https://static.simonwillison.net/static/2026/codex-primay-runtime.webp",
+      "groq_label": "OpenAI's Codex app bundles a full LibreOffice installation to read and convert document formats locally.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of enabling AI tools like ChatGPT/Codex to seamlessly interact with and manipulate office documents (e.g., DOCX, XLSX, PPTX). The Hacker News discussion was mixed, with many commenters appreciating the practical need for such functionality and the convenience of bundled dependencies for handling legacy or complex file formats. At the same time, several commenters raised concerns about the approach, arguing that bundling an entire suite like LibreOffice is unnecessarily heavy, raises licensing questions (e.g., MPL 2.0 compliance), and could pose security or performance risks. Overall, the discussion suggests that the community sees promise in the project’s goal but believes the implementation—particularly the bundling strategy—introduces significant drawbacks that need addressing.",
+      "groq_explain": null
+    },
+    {
+      "id": 49527232,
+      "author": "jwise0",
+      "descendants": 20,
+      "kids": "[49528389,49528520,49528642,49528021,49527593,49527694,49527519,49528880]",
+      "score": 53,
+      "time": 1788292547,
+      "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
+      "type": "story",
+      "url": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
+      "og_image": "https://tomverbeure.github.io/assets/tds7104/tds7104_in_car.jpg",
+      "groq_label": "Legacy high-end oscilloscopes provide cheap gigahertz bandwidth when restored, but aging capacitors and failing acquisition ASICs pose high risks of hardware destruction.",
+      "groq_discussion": "Discussion type: – Short\n\nThis project involves refurbishing a Tektronix TDS7104 oscilloscope. Hacker News commenters generally appreciated the practicality and cost-effectiveness of refurbishing high-end lab equipment for a fraction of its original price. Many highlighted the appeal of repurposing older, powerful hardware for modern use cases, such as running AI models. However, they also expressed concerns about the long-term reliability of aging components like acquisition ASICs and capacitors, with some warning of potential failures. Overall, the discussion was cautiously positive, recognizing the project's potential while acknowledging the risks associated with refurbishing older equipment.",
+      "groq_explain": null
+    },
+    {
+      "id": 49526069,
+      "author": "jatins",
+      "descendants": 239,
+      "kids": "[49527097,49527651,49528585,49527493,49527546,49527078,49527968,49528958,49528409,49527178,49528876,49527245,49527345,49527714,49527192,49528051,49528058,49528018,49527203,49528477,49528158,49528381,49528907,49527788,49528863,49528841,49528698,49527736,49527587,49527597,49527797,49527870,49527252,49527712,49527625,49527765,49527707,49527503,49527406,49528250,49527043,49527513,49527781,49527698,49528118,49527132,49527362,49527558,49527680,49527609,49527400,49527561,49527517,49527105,49527631,49527617,49528688,49528306,49527447,49527143,49527249,49527341,49527349,49527459]",
+      "score": 217,
+      "time": 1788287715,
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "type": "story",
+      "url": "https://danluu.com/zitron/",
+      "og_image": "images/49526069.png",
+      "groq_label": "Prominent AI skeptic Ed Zitron predicted tech giants like Meta were dying companies turning to AI out of desperation, even as Meta's actual revenue and profits surged.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article examines the accuracy of Ed Zitron's AI skeptic predictions. The Hacker News discussion was generally mixed, with many commenters appreciating Zitron's thoroughness and the project's approach to critical analysis. At the same time, several commenters raised concerns about his consistency and the political alignment of his skepticism, arguing that it may hinder his ability to objectively evaluate AI progress. Overall, the discussion suggests that the community sees value in Zitron's perspective but believes there are important challenges in his methodology that still need to be addressed.",
+      "groq_explain": "The core idea is that Ed Zitron’s predictions about AI’s impact and major tech companies failing have been off the mark. His claims that companies like Meta and Google are dying because they don’t know how to grow, and that AI is a desperate, misguided push, haven’t held up—Meta’s revenue and profits have actually grown significantly since his predictions. The takeaway is that skepticism about AI’s progress and its role in tech growth has often been wrong, and the companies he called failing are still thriving."
+    },
     {
       "id": 49525420,
       "author": "erdems",
@@ -387,66 +447,6 @@
       "og_image": "https://datacolada.org/wp-content/uploads/Study-2-Data-Screenshot.png",
       "groq_label": "Dan Ariely's influential research on procrastination has been found to contain fraudulent data, raising serious questions about the integrity of behavioral science studies.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights evidence of fraud in an influential study about procrastination. The Hacker News discussion was generally critical, with many commenters expressing concerns about the reliability of peer review and the prevalence of academic fraud. At the same time, several commenters appreciated the role of investigative efforts like Data Coda in uncovering such issues. Overall, the discussion suggests that the community sees a systemic problem in academic research, particularly in fields like psychology and social sciences, where replication and rigorous verification are often lacking. The main criticism revolves around the ease with which fraudulent studies can go unchecked and the need for stronger safeguards, such as incentivizing replication studies or leveraging tools like LLMs for faster anomaly detection.",
-      "groq_explain": null
-    },
-    {
-      "id": 49516059,
-      "author": "ghuntley",
-      "descendants": 18,
-      "kids": "[49519171,49519390,49519239,49513605,49514884,49519145,49513603,49472781,49473822,49475389,49515972,49514118]",
-      "score": 50,
-      "time": 1788218768,
-      "title": "Tmp.0ut Volume 5",
-      "type": "story",
-      "url": "https://tmpout.sh/5/",
-      "og_image": "images/49516059.png",
-      "groq_label": "The underground hacker ezine Tmp.0ut released its fifth issue, featuring 1990s-style ASCII formatting and an interview with Unix pioneer Doug McIlroy.",
-      "groq_discussion": "According to the Hacker News discussion, the overall opinion of this project is overwhelmingly positive and nostalgic. Commenters frequently praised its retro ezine aesthetic and high-quality content, describing the project as authentic and refreshing and highlighting its potential to remind developers of the original art and craft of computing. However, the discussion also included recurring concerns about usability and formatting, with many questioning poor mobile readability and minor textual errors. The overall consensus is that the idea is compelling, although its long-term success depends on improving readability across modern devices while preserving its classic feel.",
-      "groq_explain": null
-    },
-    {
-      "id": 49515830,
-      "author": "Bluestein",
-      "descendants": 42,
-      "kids": "[49516495,49516167,49517491,49517449,49516866,49517317,49516553,49516532,49516187,49516630,49516232,49516695,49517115,49516567,49516954,49516203,49516160,49516635]",
-      "score": 136,
-      "time": 1788216825,
-      "title": "Run macOS Software on Linux",
-      "type": "story",
-      "url": "https://www.darlinghq.org/",
-      "og_image": "images/49515830.png",
-      "groq_label": "Darling uses Apple's open-source Darwin code and GNUstep to emulate macOS apps on Linux, with experimental GUI support but limited to simple applications.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of running macOS software on Linux. The Hacker News discussion was generally mixed, with many commenters appreciating the technical effort and potential of projects like Darling. At the same time, several commenters raised concerns about the project's limitations, arguing that it only runs software compatible with open-source Darwin and lacks support for GUI apps and modern macOS frameworks. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49515662,
-      "author": "aryonoco",
-      "descendants": 1,
-      "kids": "[49515956]",
-      "score": 11,
-      "time": 1788215542,
-      "title": "Develop Cross-Platform CLI and GUI Tools with Tcl/Tk",
-      "type": "story",
-      "url": "https://cgicoffee.com/blog/2026/04/tcl-tk-develop-cross-platform-cli-gui-tools-tutorial-guide",
-      "og_image": "https://cgicoffee.com/blog/content/images/2026/tcl-tk-article/indiana-jones-tcl-tk-hero-title.jpg",
-      "groq_label": "Hex Fiend embeds a Tcl interpreter to render its template-based hex views.",
-      "groq_discussion": "Discussion type: – Short\n\nThis [article/project/blog post/research/product] addresses the use of Tcl/Tk for developing cross-platform CLI and GUI tools. Hacker News commenters generally appreciated the versatility of Tcl/Tk and believed the project could simplify tool development across platforms. However, they also expressed concerns about its modern relevance and questioned its adoption in newer projects. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49514878,
-      "author": "twapi",
-      "descendants": 238,
-      "kids": "[49515752,49515183,49515101,49515116,49515329,49515164,49515088,49515029,49515809,49515127,49515712,49515414,49515413,49515279,49515844,49515435,49515121,49515160,49515070,49515148,49515504,49515161,49515753,49515832,49515800,49515908,49515728,49515756,49515112,49515747,49515179,49515560,49515345,49515061,49515109,49515804,49515173]",
-      "score": 330,
-      "time": 1788210658,
-      "title": "Google Has Removed MV2 Extensions from the Chrome Web Store, Including UBO",
-      "type": "story",
-      "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
-      "og_image": "https://webiterate.dev/wp-content/uploads/chrome-web-store-ublock-origin.png",
-      "groq_label": "Google has removed Manifest V2 extensions from the Chrome Web Store, disabling the original uBlock Origin and pushing users toward Firefox.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this news about Google removing MV2 extensions from the Chrome Web Store with mixed reactions. Many commenters appreciated alternatives like Firefox and praised its compatibility with uBlock Origin, considering it a necessary move to avoid Google's control over the web. Others highlighted the importance of supporting open-source browsers and independent projects like Librewolf, Floorp, or Zen to preserve an open web. Nevertheless, recurring criticisms focused on Google's dominance in the browser market and its impact on user choice and web safety. As a whole, commenters viewed the situation as a call to action, encouraging users to switch to Firefox or its forks while acknowledging the challenges of breaking free from Google's ecosystem.",
       "groq_explain": null
     }
   ]
