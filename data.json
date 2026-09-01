@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-08-31T23:37:20.331Z"
+    "lastUpdated": "2026-09-01T03:03:26.469Z"
   },
   "stories": [
+    {
+      "id": 49517377,
+      "author": "1659447091",
+      "descendants": 7,
+      "kids": "[49517461,49517424,49517454,49517467]",
+      "score": 29,
+      "time": 1788230413,
+      "title": "Ex-Crips leader found guilty in 1996 murder of rapper Tupac Shakur",
+      "type": "story",
+      "url": "https://www.bbc.com/news/articles/c24j5192j7jo",
+      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/7b4e/live/2eecbe10-a334-11f1-84e6-5f05e8e26a23.png",
+      "groq_label": "A former Crips leader was convicted of murdering Tupac Shakur after years of openly admitting his involvement in interviews, books, and podcasts.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article addresses the conviction of an ex-Crips leader for the 1996 murder of rapper Tupac Shakur. Hacker News commenters generally appreciated the resolution of a decades-old case and believed the legal outcome could bring closure. However, they also expressed concerns about the reliability of witness testimony and questioned the broader implications for unresolved crimes in the music industry. Overall, the discussion was mixed, with commenters recognizing both the significance of the verdict and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49516699,
+      "author": "fagnerbrack",
+      "descendants": 11,
+      "kids": "[49517482,49517412,49517049,49516838]",
+      "score": 21,
+      "time": 1788224468,
+      "title": "2004 RuneScape fit a multiplayer RPG into 56k dial-up",
+      "type": "story",
+      "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+      "og_image": "https://jkm.dev/images/blog/runescape-networking/varrock-fountain.png",
+      "groq_label": "RuneScape's client precomputes paths locally and sends waypoint deltas to reduce bandwidth, despite the destination being known.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article analyzes how 2004 RuneScape managed to fit a multiplayer RPG into 56k dial-up. Hacker News commenters generally appreciated the technical ingenuity behind the client-server communication, particularly the way the client precomputes paths and sends waypoints to reduce bandwidth usage. However, they also expressed some surprise that RuneScape gained such traction in 2004, the same year World of Warcraft launched, and questioned why the article didn't link to the Lost City codebase it references. Overall, the discussion was positive, with commenters recognizing both the project's clever design and its historical context.",
+      "groq_explain": null
+    },
+    {
+      "id": 49515830,
+      "author": "Bluestein",
+      "descendants": 42,
+      "kids": "[49516495,49516167,49517491,49517449,49516866,49517317,49516553,49516532,49516187,49516630,49516232,49516695,49517115,49516567,49516954,49516203,49516160,49516635]",
+      "score": 136,
+      "time": 1788216825,
+      "title": "Run macOS Software on Linux",
+      "type": "story",
+      "url": "https://www.darlinghq.org/",
+      "og_image": "images/49515830.png",
+      "groq_label": "Darling uses Apple's open-source Darwin code and GNUstep to emulate macOS apps on Linux, with experimental GUI support but limited to simple applications.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of running macOS software on Linux. The Hacker News discussion was generally mixed, with many commenters appreciating the technical effort and potential of projects like Darling. At the same time, several commenters raised concerns about the project's limitations, arguing that it only runs software compatible with open-source Darwin and lacks support for GUI apps and modern macOS frameworks. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49515662,
       "author": "aryonoco",
@@ -403,51 +448,6 @@
       "og_image": "https://unsung.aresluna.org/_media/i-just-chose-words-carefully/ogimage.jpg",
       "groq_label": "Writers, software developers, and scriptwriters alter vocabulary and phrasing specifically to satisfy visual layout constraints like line breaks and margin alignment.",
       "groq_discussion": "Discussion type: – Short\n\nThis article/project/blog post discusses the concept of carefully choosing words to fit specific constraints, whether in writing, UI design, or text justification. Hacker News commenters generally appreciated the idea of disrupting habitual writing patterns to encourage more original choices. However, they also expressed concerns about the practical challenges of such precision, noting issues like truncated text in accessibility modes, localization difficulties, and the odd appearance of justified text. Overall, the discussion was mixed, with commenters recognizing both the project's potential for improving writing discipline and its limitations in real-world applications.",
-      "groq_explain": null
-    },
-    {
-      "id": 49503521,
-      "author": "matthewsinclair",
-      "descendants": 19,
-      "kids": "[49515979,49515615,49515290,49515584,49514873,49514644,49515248,49514347]",
-      "score": 146,
-      "time": 1788129421,
-      "title": "Terence Tao explains 6 essential mathematical concepts [video]",
-      "type": "story",
-      "url": "https://www.youtube.com/watch?v=OOMx2BHHWtE",
-      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
-      "groq_label": "Terence Tao condenses six fundamental mathematical fields—Numbers, Algebra, Geometry, Probability, Analysis, and Dynamics—into a single accessible framework.",
-      "groq_discussion": "Discussion type: – Short\n\nThis video by Terence Tao aims to explain 6 essential mathematical concepts. Hacker News commenters generally appreciated the clarity and depth of Tao's explanations, noting that he conveys complex ideas without condescension. Many found the video inspiring and motivating, with some expressing newfound confidence in their ability to understand advanced math. However, a few commenters suggested additional concepts that could have been included, such as logic, type theory, or a deeper focus on mathematical reasoning itself. Overall, the discussion was positive, with commenters recognizing both the video's educational value and its limitations in covering all foundational aspects of mathematics.",
-      "groq_explain": null
-    },
-    {
-      "id": 49502611,
-      "author": "peter_d_sherman",
-      "descendants": 2,
-      "kids": "[49503259,49503227,49503314]",
-      "score": 24,
-      "time": 1788122813,
-      "title": "Continuous Diffusion Language Models (CDLM's)",
-      "type": "story",
-      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
-      "og_image": "https://sander.ai/images/verin.jpg",
-      "groq_label": "CDLMs use a diffusion process to refine language generation, unlike traditional autoregressive models.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis research on Continuous Diffusion Language Models (CDLMs) addresses the problem of improving language model training and generation. Hacker News commenters generally appreciated the innovative approach and believed the project could advance the field of AI language models. However, they also expressed concerns about the practical implications and questioned the necessity of the proposed method. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49502214,
-      "author": "pwg",
-      "descendants": 8,
-      "kids": "[49502275,49503332,49503177]",
-      "score": 40,
-      "time": 1788120025,
-      "title": "Cores in space: The core memory module from a 1980 Spacelab computer",
-      "type": "story",
-      "url": "https://www.righto.com/2026/08/spacelab-core-memory.html",
-      "og_image": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_ux8g5eIe89uiXA08MHC3EMMVqSTNHc6f94mim6Ham-XI5M_Nke_AqNKeIyuqWmxGPDLQuJjncj8Clav9F06CBudwsJO8XyZ-xj6Ol4aLg7rYlP_81m9A0cGjFhlz11IH3M01Y=w1200-h630-p-k-no-nu",
-      "groq_label": "In 1980, Spacelab computers used magnetic core memory, a technology later replaced by semiconductors, which employed N-modular redundancy for fault tolerance in space computing.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis article discusses the core memory module from a 1980 Spacelab computer. Hacker News commenters generally appreciated the historical and technical aspects of the project and believed it highlighted the ingenuity of past computing systems. However, they also expressed concerns about the practicality and relevance of such technology today. Overall, the discussion was positive, with commenters recognizing both the project's educational value and its limitations in modern contexts.",
       "groq_explain": null
     }
   ]
