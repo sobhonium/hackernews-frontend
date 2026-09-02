@@ -1,8 +1,68 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-01T22:19:16.992Z"
+    "lastUpdated": "2026-09-02T02:25:28.412Z"
   },
   "stories": [
+    {
+      "id": 49529898,
+      "author": "philipkiely",
+      "descendants": 7,
+      "kids": "[49530498,49530191,49530416,49530461,49530493,49530673,49530878,49530312]",
+      "score": 45,
+      "time": 1788306485,
+      "title": "The efficient frontier of LLM inference",
+      "type": "story",
+      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+      "og_image": "https://www.datocms-assets.com/104802/1788302073-efficient-frontier-image3.png?auto=compress%2Cformat&fit=crop&h=630&q=75&w=1200",
+      "groq_label": "The inference efficiency frontier is shaped by latency, throughput, and quality, with most improvements coming from architectural design rather than incremental tweaks.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the concept of the efficient frontier of LLM inference, aiming to address the problem of optimizing latency and throughput in large language model deployments. The Hacker News discussion was generally mixed, with many commenters appreciating the concise recap of recent inference techniques and the emphasis on efficiency. At the same time, several commenters raised concerns about the omission of quality/intelligence as a third dimension in the efficiency frontier, arguing that this oversight limits the practical applicability of the framework. Overall, the discussion suggests that the community sees value in the article's approach but believes there are important dimensions and limitations that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49529132,
+      "author": "raybb",
+      "descendants": 30,
+      "kids": "[49529874,49530249,49530555,49530223,49530209,49530282,49530301,49530174,49530259,49530725]",
+      "score": 74,
+      "time": 1788301852,
+      "title": "My local model setup on an M4 Pro Mac Mini",
+      "type": "story",
+      "url": "https://lws.io/blog/my-local-model-setup/",
+      "og_image": "https://lws.io/open-graph/blog/my-local-model-setup.png",
+      "groq_label": "Apple Silicon unified memory enables low-RAM execution of quantized local models, but prefill latency and token generation speeds lag behind dedicated Nvidia hardware.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis local model setup on an M4 Pro Mac Mini aims to solve the problem of running AI models locally for development and experimentation. The Hacker News discussion was generally mixed, with many commenters appreciating the convenience of local setups for smaller models and development purposes. At the same time, several commenters raised concerns about performance limitations, particularly prefill latency and token generation speeds. Overall, the discussion suggests that the community sees promise in local model setups for certain use cases but believes there are important performance challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49528895,
+      "author": "masteranza",
+      "descendants": 21,
+      "kids": "[49530880,49530241,49530734,49529224,49529735,49529368,49529990,49530136,49530154,49529414]",
+      "score": 60,
+      "time": 1788300417,
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "type": "story",
+      "url": "https://masteranza.github.io/weedout/",
+      "og_image": "https://masteranza.github.io/weedout/screenshot.png",
+      "groq_label": "Browser extensions can be monetized through various models like one-time purchases, subscriptions, or donations.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Safari extension aims to solve the problem of filtering out AI-labeled YouTube videos. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of reducing AI-generated content clutter and highlighting the frustration with AI voiceovers. At the same time, several commenters raised concerns about the extension's limited scope (Safari-only) and the reliability of AI detection labels. The main criticism focused on the extension's narrow browser support and the broader issue of inaccurate AI labeling. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—like cross-platform compatibility and label accuracy—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49527748,
+      "author": "speckx",
+      "descendants": 309,
+      "kids": "[49529474,49529570,49529020,49529825,49530021,49530929,49529293,49529216,49528314,49530959,49529481,49530789,49529532,49530481,49530842,49529954,49530781,49530841,49530470,49529659,49530901,49530900,49530129,49530913,49529006,49530806,49530218,49529236,49530415,49530541,49530711,49529317,49530507,49530686,49530144,49529540,49529519,49529914,49530251,49529999,49529601,49530324,49529891,49530419,49529911,49529177,49530245,49530684,49529871,49529543,49530147,49529611,49527918,49530514,49529915,49530133,49529932,49528998,49530184,49530345,49529278]",
+      "score": 581,
+      "time": 1788294651,
+      "title": "Hang on to Your Firefox",
+      "type": "story",
+      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
+      "og_image": "https://www.newsonaut.com/images/dishwater.png",
+      "groq_label": "Firefox remains the last independent browser engine preventing a complete Chromium monopoly despite user frustration over Mozilla's ad integrations and telemetry.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of browser engine centralization and Chrome dominance. The Hacker News discussion was generally mixed, with many commenters appreciating its independent non-Chromium engine and superior ad-blocking capabilities and the project's approach to preserving browser diversity and open web standards. At the same time, several commenters raised concerns about Mozilla's anti-consumer choices and performance gaps, arguing that user data collection, personalized ads, and unwanted anti-features alienate loyal users. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "TL;DR: Firefox is the last major browser not controlled by Google or Apple, keeping the web competitive and diverse. People criticize it for being on X (Twitter), but it’s struggling to survive and needs support to prevent a Chrome-dominated internet."
+    },
     {
       "id": 49527595,
       "author": "jithinraj",
@@ -387,66 +447,6 @@
       "og_image": "https://fastpotify.rocks/screenshot.png",
       "groq_label": "Fastpotify uses Rust and the egui library to render a Spotify player with Winamp skin support while Spotify moves to restrict the underlying librespot library.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis project, Fastpotify, aims to solve the problem of creating a lightweight, customizable music player with unique features like Winamp skin support. The Hacker News discussion was generally mixed, with many commenters appreciating the innovative approach and the use of the egui Rust GUI library, which impressed them with its performance and versatility. At the same time, several commenters raised concerns about the project's documentation and marketing language, arguing that the phrasing on the homepage and in the docs felt awkward and overly intense. Overall, the discussion suggests that the community sees promise in the project but believes there are important refinements needed, particularly in clarity and presentation.",
-      "groq_explain": null
-    },
-    {
-      "id": 49517377,
-      "author": "1659447091",
-      "descendants": 7,
-      "kids": "[49517461,49517424,49517454,49517467]",
-      "score": 29,
-      "time": 1788230413,
-      "title": "Ex-Crips leader found guilty in 1996 murder of rapper Tupac Shakur",
-      "type": "story",
-      "url": "https://www.bbc.com/news/articles/c24j5192j7jo",
-      "og_image": "https://ichef.bbci.co.uk/news/1024/branded_news/7b4e/live/2eecbe10-a334-11f1-84e6-5f05e8e26a23.png",
-      "groq_label": "A former Crips leader was convicted of murdering Tupac Shakur after years of openly admitting his involvement in interviews, books, and podcasts.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article addresses the conviction of an ex-Crips leader for the 1996 murder of rapper Tupac Shakur. Hacker News commenters generally appreciated the resolution of a decades-old case and believed the legal outcome could bring closure. However, they also expressed concerns about the reliability of witness testimony and questioned the broader implications for unresolved crimes in the music industry. Overall, the discussion was mixed, with commenters recognizing both the significance of the verdict and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49517297,
-      "author": "jombib",
-      "descendants": 8,
-      "kids": "[49519427,49519316,49518012,49517298,49518436]",
-      "score": 57,
-      "time": 1788229763,
-      "title": "RotaryCell: Making an unmodified rotary phone work over LTE with an ESP32-S3",
-      "type": "story",
-      "url": "https://github.com/fregacmols/RotaryCell",
-      "og_image": "https://repository-images.githubusercontent.com/1292562815/8373e8e4-31fe-4594-9a1f-ecd82f1f2e1f",
-      "groq_label": "An ESP32-S3 microcontroller bridges unmodified vintage rotary phones to modern LTE cellular networks.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project addresses enabling unmodified rotary phones to function over modern LTE networks using an ESP32-S3 microcontroller. Hacker News commenters generally appreciated the open work-in-progress documentation and believed the project could provide a working starting point for others to build their own hardware while reviving vintage technology. However, they also expressed concerns about everyday practical usability and discussed alternative hardware approaches such as using SLIC modules. Overall, the discussion was positive, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49516699,
-      "author": "fagnerbrack",
-      "descendants": 11,
-      "kids": "[49517482,49517412,49517049,49516838]",
-      "score": 21,
-      "time": 1788224468,
-      "title": "2004 RuneScape fit a multiplayer RPG into 56k dial-up",
-      "type": "story",
-      "url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
-      "og_image": "https://jkm.dev/images/blog/runescape-networking/varrock-fountain.png",
-      "groq_label": "RuneScape's client precomputes paths locally and sends waypoint deltas to reduce bandwidth, despite the destination being known.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article analyzes how 2004 RuneScape managed to fit a multiplayer RPG into 56k dial-up. Hacker News commenters generally appreciated the technical ingenuity behind the client-server communication, particularly the way the client precomputes paths and sends waypoints to reduce bandwidth usage. However, they also expressed some surprise that RuneScape gained such traction in 2004, the same year World of Warcraft launched, and questioned why the article didn't link to the Lost City codebase it references. Overall, the discussion was positive, with commenters recognizing both the project's clever design and its historical context.",
-      "groq_explain": null
-    },
-    {
-      "id": 49516199,
-      "author": "Anon84",
-      "descendants": 158,
-      "kids": "[49519058,49516503,49519659,49519440,49516591,49519380,49519497,49517829,49516827,49517998,49516377,49516403,49517860,49519297,49516999,49519359,49518190,49518288,49516451,49517326,49518263,49518491,49516625,49516614,49516369]",
-      "score": 232,
-      "time": 1788219956,
-      "title": "Evidence of Fraud in an Influential Study About Procrastination",
-      "type": "story",
-      "url": "https://datacolada.org/138",
-      "og_image": "https://datacolada.org/wp-content/uploads/Study-2-Data-Screenshot.png",
-      "groq_label": "Dan Ariely's influential research on procrastination has been found to contain fraudulent data, raising serious questions about the integrity of behavioral science studies.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article highlights evidence of fraud in an influential study about procrastination. The Hacker News discussion was generally critical, with many commenters expressing concerns about the reliability of peer review and the prevalence of academic fraud. At the same time, several commenters appreciated the role of investigative efforts like Data Coda in uncovering such issues. Overall, the discussion suggests that the community sees a systemic problem in academic research, particularly in fields like psychology and social sciences, where replication and rigorous verification are often lacking. The main criticism revolves around the ease with which fraudulent studies can go unchecked and the need for stronger safeguards, such as incentivizing replication studies or leveraging tools like LLMs for faster anomaly detection.",
       "groq_explain": null
     }
   ]
