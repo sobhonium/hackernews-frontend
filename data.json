@@ -1,8 +1,67 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-03T19:10:15.785Z"
+    "lastUpdated": "2026-09-03T22:11:30.168Z"
   },
   "stories": [
+    {
+      "id": 49557206,
+      "author": "screm",
+      "descendants": 1,
+      "kids": "[49557233]",
+      "score": 18,
+      "time": 1788470434,
+      "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "type": "story",
+      "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "og_image": "https://armature.tech/assets/blog/coding-agents-tool-choice-3.png",
+      "groq_label": "Coding agents like Claude Code, Codex, and Cursor overwhelmingly favored Neon as the database solution in 17k test runs across diverse personas and codebases.",
+      "groq_discussion": "Discussion type: – Short\n\nThis study analyzes how coding agents like Claude, Codex, and Cursor choose tools by measuring 17,000 runs in real-world-like environments. Hacker News commenters generally appreciated the depth and scale of the research, noting its potential to reveal insights into AI tool adoption. However, some expressed skepticism about the methodology and the generalizability of the findings, questioning whether the results would hold across different contexts. Overall, the discussion was mixed, with commenters recognizing the study's value while highlighting its limitations.",
+      "groq_explain": "The study analyzed 17,000 coding agent sessions to see which tools (like databases, APIs, etc.) three popular AI coding assistants—Claude, Codex, and Cursor—chose when given tasks. It found these agents often recommend the same tools (e.g., Neon for databases) across different users and scenarios, raising questions about their reliability and bias. This matters because coding agents are increasingly making tool selections for developers, and vendors depend on being picked by these agents to survive. The research provides insights into how agents make these choices and ranks tools by popularity in various categories."
+    },
+    {
+      "id": 49556922,
+      "author": "mayop100",
+      "kids": "[]",
+      "score": 1,
+      "time": 1788469270,
+      "title": "Tasklet (YC P26) Is Hiring a Customer Success Engineer",
+      "type": "job",
+      "url": "https://tasklet.ai/careers/customer-success-engineer",
+      "og_image": "https://tasklet.ai/og-image.png",
+      "groq_label": "Tasklet, a Y Combinator company, is hiring a Customer Success Engineer for their P26 product.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
+      "id": 49555691,
+      "author": "vignesh_warar",
+      "descendants": 60,
+      "kids": "[49556562,49557382,49556035,49556435,49556732,49556740,49557564,49555753,49556250]",
+      "score": 115,
+      "time": 1788464700,
+      "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "type": "story",
+      "url": "https://arcprize.org/blog/astra",
+      "og_image": "https://arcprize.org/media/images/blog/astra-action-efficiency.png",
+      "groq_label": "Astra's performance on ARC-AGI-3 shows a cost per task ($12.78) far below human participant costs ($12.78 vs ~$12.78 per game), raising questions about benchmark saturation and the true measure of intelligence.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis research aims to solve the problem of measuring AI capabilities through the ARC-AGI-3 benchmark. The Hacker News discussion was generally mixed, with many commenters appreciating the technical achievements and the project's approach to benchmarking AI performance. At the same time, several commenters raised concerns about the relevance of the benchmark, arguing that solving puzzle games does not necessarily define intelligence. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges regarding the meaningfulness of the benchmark and its practical applications.",
+      "groq_explain": null
+    },
+    {
+      "id": 49554643,
+      "author": "kibae",
+      "descendants": 689,
+      "kids": "[49555558,49556467,49556365,49557797,49556612,49554741,49557075,49556882,49555976,49557301,49555783,49556487,49556631,49555621,49555652,49556802,49556555,49555716,49556753,49556325,49557467,49556138,49554623,49556005,49555767,49556689,49555574,49555960,49554723,49555743,49555696,49556309,49556266,49556059,49555880,49557137,49555705,49555205,49556865,49556114,49557310,49556957,49556382,49555535,49557403,49555526,49557283,49556532,49556413,49555585,49555909,49556394,49557548,49557356,49557464,49556364,49557756,49556517,49555784,49556701,49557132,49556592,49554712,49555679,49556134,49557047,49555720,49556512,49556086,49554943,49555728,49556279,49556491,49557479,49556291,49556859,49557618,49556699,49556317,49555563,49556233,49556400,49555879,49556453,49554882,49556839,49555874,49556124,49556476,49556632,49555907,49556247,49554726,49556790,49557153,49556410,49556648,49556219,49555578,49556379,49556213,49556076,49555908,49555597,49556769,49556665,49556010,49554695,49555625,49557111,49556175,49557612,49556630,49554871,49554833,49554826,49554727,49554709,49555544,49556589,49555622,49556280,49556463,49554718,49556484,49554676,49556201,49556423,49557562,49554807,49555494,49556421,49556047,49555548,49554690,49555872]",
+      "score": 962,
+      "time": 1788460865,
+      "title": "GPT-6 Astra",
+      "type": "story",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&h=900&fit=fill",
+      "groq_label": "OpenAI released GPT-6 Astra, which reaches a 99.9% score on the ARC-AGI-3 benchmark using a new responses API harness.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis release of GPT-6 Astra aims to solve the problem of advancing AI capabilities toward more general intelligence and better user interaction. The Hacker News discussion was generally mixed, with many commenters appreciating the model's impressive ARC-AGI-3 score of 99.9% and its improved user prompting features, which allow for more collaborative and less assumptive interactions. At the same time, several commenters raised concerns about the modest improvements in other benchmarks and the potential overfitting of the model to existing benchmarks. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges, particularly around the transparency of benchmarking methods and the model's real-world applicability, that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49554520,
       "author": "altertable",
@@ -315,6 +374,21 @@
       "groq_explain": null
     },
     {
+      "id": 49544618,
+      "author": "thread_id",
+      "descendants": 23,
+      "kids": "[49556424,49555676,49556255,49556600,49555502,49557240,49555900,49555435]",
+      "score": 73,
+      "time": 1788396547,
+      "title": "GPS glitched across the US by as much as 33 feet",
+      "type": "story",
+      "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
+      "og_image": "https://www.sciencealert.com/images/2026/08/aurora-from-space.jpg",
+      "groq_label": "GPS accuracy glitches of up to 33 feet in the US were linked to massive solar eruptions in November 2025, disrupting the magnetosphere.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses a significant GPS glitch in the US where positioning errors reached up to 33 feet. The Hacker News discussion was generally mixed, with many commenters appreciating the potential real-world consequences of such errors, particularly for electronic monitoring systems. At the same time, several commenters raised concerns about the scope and cause of the issue, arguing that the article lacked clarity on whether other satellite positioning systems were affected or if the problem stemmed from a misconfiguration. Overall, the discussion suggests that the community sees the topic as important but believes the reporting could have been more thorough in addressing key technical and contextual details.",
+      "groq_explain": null
+    },
+    {
       "id": 49543530,
       "author": "lloydarmbrust",
       "descendants": 32,
@@ -371,81 +445,6 @@
       "og_image": "https://scontent.xx.fbcdn.net/v/t39.2365-6/741888780_1335161144859187_4416712401061192452_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=035RilvDqSsQ7kNvwHdeMiB&_nc_oc=AdrB_xyP9e6jgLDAiLl7hFr0w9fpB2lABcS01D93448px8FMignXQGH1TR3wBqn_xI8&_nc_zt=14&_nc_ht=scontent.xx&_nc_gid=ZdQ8D4IAs4uFFOk8IKwwAg&_nc_ss=7b289&oh=00_AQIxWLWmUk8fsCOTofhS2SFDUMcrIArvjPPeo43BjSBrVA&oe=6A9E5E91",
       "groq_label": "Meta's Muse Spark 1.3 offers a twentyfold API discount to users who allow their data to be used for model training.",
       "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the Muse Spark 1.3 release with cautious optimism. Many praised its cost-effectiveness and competitive performance, highlighting strengths such as its low pricing for \"contributor\" users ($0.10–$0.20 per million tokens) and its improved output quality over previous versions. Commenters also appreciated Meta’s transparent pricing model, which explicitly acknowledges data usage for training. However, the discussion surfaced recurring concerns regarding Meta’s data practices, including skepticism about user control over training participation and the ethical implications of training on user data. Despite these criticisms, the general sentiment suggests that the community considers the project a promising, budget-friendly alternative to higher-cost models, with potential to drive further price reductions in the AI market.",
-      "groq_explain": null
-    },
-    {
-      "id": 49540397,
-      "author": "speckx",
-      "descendants": 4,
-      "kids": "[49540825,49540868,49540844,49540772]",
-      "score": 21,
-      "time": 1788373849,
-      "title": "Firefox's AI Switch Is Off. Telemetry Isn't",
-      "type": "story",
-      "url": "https://marius.blog/firefox-155-ai-kill-switch-retest/",
-      "og_image": "https://marius.blog/wp-content/uploads/2026/09/001-firefox-155-safe-paws.webp",
-      "groq_label": "Mozilla's AI kill switch doesn't disable telemetry, which continues collecting user data despite user preferences.",
-      "groq_discussion": "Discussion type: – Short\n\nThis article discusses Firefox's AI feature toggle and its relationship with telemetry. Hacker News commenters generally appreciated the transparency about the AI toggle not affecting telemetry, but expressed concerns about telemetry in free software and Mozilla's funding model. Overall, the discussion was critical, with commenters questioning the necessity of telemetry and Mozilla's spending priorities.",
-      "groq_explain": null
-    },
-    {
-      "id": 49540297,
-      "author": "stagas",
-      "descendants": 26,
-      "kids": "[49540893,49540924,49540606,49540843,49540708,49540710,49540641,49540507,49540486,49540445,49540586]",
-      "score": 14,
-      "time": 1788373381,
-      "title": "Why do so many tools have JSON config files?",
-      "type": "story",
-      "url": "https://textlog.cc/post/895",
-      "og_image": "https://textlog.cc/post/895/og.png?v=8",
-      "groq_label": "JSON dominates tool configuration because its core data structures map universally to native objects across almost every programming language.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion revolves around the prevalence of JSON configuration files in tools. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity and universality of JSON as a serialization format, noting its ease of use in programming languages like JavaScript. At the same time, several commenters raised concerns about JSON's limitations, arguing that it lacks support for comments and is not the most human-friendly format for configuration. Overall, the discussion suggests that the community sees both the practical advantages and the drawbacks of JSON config files, with some advocating for alternatives like TOML or even plain English configurations.",
-      "groq_explain": "JSON config files are popular because they're simple, widely supported, and easy for both humans and machines to read and write. They matter because they standardize how tools and applications are configured, making it easier to share, modify, and automate settings across different systems."
-    },
-    {
-      "id": 49539872,
-      "author": "speckx",
-      "descendants": 77,
-      "kids": "[49540940,49540632,49540122,49540912,49540249,49540289,49540422,49540222,49540266,49540725,49540870,49540582,49540270,49539991,49540136,49540241,49540302,49540074,49540305,49540492,49540020,49540560,49540202,49540398,49540240,49540101,49540237,49540675,49540652,49540100,49540578,49540250,49540083,49540402,49540118,49540199,49540374,49540235,49540269,49540400]",
-      "score": 97,
-      "time": 1788371489,
-      "title": "I Don't Have a Smartphone",
-      "type": "story",
-      "url": "https://ploum.net/2026-09-02-i_dont_have_a_smartphone.html",
-      "og_image": "https://ploum.net/files/brokenphone.jpg",
-      "groq_label": "QR codes and app dependencies now force purchases of everyday items, creating exclusion for those without smartphones.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the author's perspective on the growing requirement for smartphone apps in everyday transactions and highlighted the inconvenience for those without smartphones. Others emphasized the importance of maintaining accessibility for all users, particularly those with disabilities or older adults who may not be comfortable with technology. Nevertheless, recurring criticisms focused on the practical necessity of smartphones in modern life, with some arguing that the burden lies with businesses rather than consumers. As a whole, commenters viewed the article as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49539556,
-      "author": "surprisetalk",
-      "descendants": 12,
-      "kids": "[49554981,49554980,49554466,49554192]",
-      "score": 66,
-      "time": 1788370255,
-      "title": "Static Allocation, Constant Work",
-      "type": "story",
-      "url": "https://matklad.github.io/2026/09/02/static-allocation-constant-work.html",
-      "og_image": "https://avatars.githubusercontent.com/u/1711539?v=4",
-      "groq_label": "Static allocation's reserved values simplify error handling by eliminating the need for separate error checks, treating them as valid states.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis approach to static allocation and constant work aims to solve the problem of memory management inefficiencies in complex software systems. The Hacker News discussion was generally mixed, with many commenters appreciating the simplicity and correctness of static allocation, particularly in embedded systems where it is already a de facto standard. At the same time, several commenters raised concerns about the practicality of applying such strict constraints in larger, dynamic systems, arguing that teams often struggle with fragmented and inefficient subsystems. Overall, the discussion suggests that the community sees promise in the idea but believes there are important challenges—particularly around scalability and cognitive load—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49539389,
-      "author": "judah",
-      "descendants": 57,
-      "kids": "[49539919,49539616,49540780,49540512,49539777,49539966,49539749,49539933,49539683,49540633,49540141,49540244,49540713,49539923,49540824,49540383]",
-      "score": 88,
-      "time": 1788369519,
-      "title": "Paint.net 5.2 alpha now runs on Linux",
-      "type": "story",
-      "url": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
-      "og_image": "images/49539389.png",
-      "groq_label": "Paint.net achieves Linux compatibility through WINE by using a custom, clean-room reverse-engineered rewrite of Direct2D.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of running the Paint.net graphics editor on Linux. The Hacker News discussion was generally mixed, with many commenters appreciating expanded platform options and the project's approach to Direct2D implementation for WINE compatibility. At the same time, several commenters raised concerns about stability issues and non-native execution, arguing that running through WINE rather than natively, alongside its closed-source licensing, limits its viability on Linux. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
