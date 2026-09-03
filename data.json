@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-03T02:33:30.174Z"
+    "lastUpdated": "2026-09-03T08:34:41.109Z"
   },
   "stories": [
+    {
+      "id": 49546800,
+      "author": "DamonHD",
+      "descendants": 2,
+      "kids": "[49547365,49547338,49546846,49547360]",
+      "score": 9,
+      "time": 1788419053,
+      "title": "Three schoolgirls in Kinsale pulled up a pea plant covered in warts (2016)",
+      "type": "story",
+      "url": "https://scienceblog.com/b-three-schoolgirls-in-kinsale-pulled-up-a-pea-plant-covered-in-warts-and-instead-of-binning-it-spent-three-years-testing-13000-seeds-in-a-spare-bedroom-the-bacteria-living-in-those-warts-made-barley/",
+      "og_image": "https://scienceblog.com/wp-content/uploads/2026/08/pea-plant-roots-nodules.png",
+      "groq_label": "A pea plant covered in nitrogen-fixing nodules resembling warts was discovered in Kinsale, Ireland, in 2016.",
+      "groq_discussion": "Discussion type: – Short\n\nThis article highlights an unusual discovery of a wart-covered pea plant in Kinsale, Ireland. Hacker News commenters generally appreciated the quirky nature of the story and found it intriguing. However, they also expressed curiosity about the scientific implications, particularly regarding nitrogen fixation in crops. Overall, the discussion was positive, with commenters recognizing both the oddity of the finding and its potential agricultural significance.",
+      "groq_explain": null
+    },
+    {
+      "id": 49546753,
+      "author": "komape",
+      "descendants": 1,
+      "kids": "[49547250]",
+      "score": 56,
+      "time": 1788418748,
+      "title": "Pre-Release of Polars 2.0",
+      "type": "story",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "og_image": "https://pola.rs/polars_2.0.0-rc1.png",
+      "groq_label": "Polars 2.0 bumps its major version to remove legacy design constraints and update default settings rather than introduce major new features.",
+      "groq_discussion": "Discussion type: – Short\n\nThis pre-release of Polars 2.0 aims to solve the problem of technical debt and outdated defaults in the project. Hacker News commenters generally appreciated the project's commitment to semantic versioning and removing legacy design choices. However, they also expressed concerns about the potential disruption of changing defaults. Overall, the discussion was positive, with commenters recognizing both the project's potential and its careful approach to major version changes.",
+      "groq_explain": null
+    },
     {
       "id": 49543530,
       "author": "lloydarmbrust",
@@ -408,48 +438,18 @@
       "groq_explain": null
     },
     {
-      "id": 49529898,
-      "author": "philipkiely",
-      "descendants": 7,
-      "kids": "[49530498,49530191,49530416,49530461,49530493,49530673,49530878,49530312]",
-      "score": 45,
-      "time": 1788306485,
-      "title": "The efficient frontier of LLM inference",
+      "id": 49530169,
+      "author": "mavdol04",
+      "descendants": 14,
+      "kids": "[49547090,49547341,49546734,49547283,49546778,49546843,49547220,49546674,49546681,49530432]",
+      "score": 27,
+      "time": 1788308406,
+      "title": "LLMs and Self-Referentiality",
       "type": "story",
-      "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
-      "og_image": "https://www.datocms-assets.com/104802/1788302073-efficient-frontier-image3.png?auto=compress%2Cformat&fit=crop&h=630&q=75&w=1200",
-      "groq_label": "The inference efficiency frontier is shaped by latency, throughput, and quality, with most improvements coming from architectural design rather than incremental tweaks.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the concept of the efficient frontier of LLM inference, aiming to address the problem of optimizing latency and throughput in large language model deployments. The Hacker News discussion was generally mixed, with many commenters appreciating the concise recap of recent inference techniques and the emphasis on efficiency. At the same time, several commenters raised concerns about the omission of quality/intelligence as a third dimension in the efficiency frontier, arguing that this oversight limits the practical applicability of the framework. Overall, the discussion suggests that the community sees value in the article's approach but believes there are important dimensions and limitations that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49529621,
-      "author": "tatersolid",
-      "descendants": 71,
-      "kids": "[49531504,49531773,49532042,49533276,49531169,49532314,49532969,49531746,49531202,49531173,49532453,49531628,49532897,49532749,49531308,49531846,49531956]",
-      "score": 184,
-      "time": 1788304663,
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "type": "story",
-      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "og_image": "https://krebsonsecurity.com/wp-content/uploads/2026/09/nexus-phegseth.png",
-      "groq_label": "A single compromised identity verification service retained 153 million+ driver's licenses, many linked to sensitive services like marijuana dispensaries, exposing a systemic failure in data minimization and security practices.",
-      "groq_discussion": "Discussion type: – News Style\n\nHacker News commenters reacted to the FBI’s probe into a service selling 153M+ driver’s licenses with cautious optimism. Many praised the scrutiny of data retention practices and saw value in holding companies accountable for lax security standards. However, the discussion also surfaced recurring concerns regarding systemic vulnerabilities in identity verification systems, including the ease of forging credentials and the lack of legal consequences for companies that hoard sensitive data. Despite these criticisms, the general sentiment suggests that the community considers the investigation a necessary step, though long-term change will depend on stronger regulations and enforcement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49529132,
-      "author": "raybb",
-      "descendants": 30,
-      "kids": "[49529874,49530249,49530555,49530223,49530209,49530282,49530301,49530174,49530259,49530725]",
-      "score": 74,
-      "time": 1788301852,
-      "title": "My local model setup on an M4 Pro Mac Mini",
-      "type": "story",
-      "url": "https://lws.io/blog/my-local-model-setup/",
-      "og_image": "https://lws.io/open-graph/blog/my-local-model-setup.png",
-      "groq_label": "Apple Silicon unified memory enables low-RAM execution of quantized local models, but prefill latency and token generation speeds lag behind dedicated Nvidia hardware.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis local model setup on an M4 Pro Mac Mini aims to solve the problem of running AI models locally for development and experimentation. The Hacker News discussion was generally mixed, with many commenters appreciating the convenience of local setups for smaller models and development purposes. At the same time, several commenters raised concerns about performance limitations, particularly prefill latency and token generation speeds. Overall, the discussion suggests that the community sees promise in local model setups for certain use cases but believes there are important performance challenges that still need to be addressed.",
+      "url": "https://scottaaronson.blog/?p=10046",
+      "og_image": "https://s0.wp.com/_si/?t=eyJpbWciOiJodHRwczpcL1wvc2NvdHRhYXJvbnNvbi5ibG9nXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8xMFwvY3JvcHBlZC1KYWNrZXQuZ2lmIiwidHh0IjoiU2h0ZXRsLU9wdGltaXplZCIsInRlbXBsYXRlIjoiZWRnZSIsImZvbnQiOiIiLCJibG9nX2lkIjoxMjk1MjA1ODB9.siOtN7gHw4tefA_rZickBw4GfI6tPxGgOQ1AXr2ZoOQMQ",
+      "groq_label": "LLMs lack true self-reference, treating their training data as a static snapshot rather than an evolving model.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis discussion about LLMs and self-referentiality examines the limitations of current models in achieving true self-reference. The Hacker News discussion was generally critical, with many commenters appreciating the depth of the analysis but questioning the practical implications of self-referentiality in LLMs. At the same time, several commenters raised concerns about the feasibility of implementing such concepts, arguing that current models lack the necessary recursive learning capabilities. Overall, the discussion suggests that the community sees the topic as intellectually stimulating but believes there are significant technical and conceptual challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
