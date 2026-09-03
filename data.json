@@ -1,8 +1,67 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-02T19:11:59.531Z"
+    "lastUpdated": "2026-09-03T02:33:30.174Z"
   },
   "stories": [
+    {
+      "id": 49543530,
+      "author": "lloydarmbrust",
+      "descendants": 32,
+      "kids": "[49545069,49544249,49543849,49544867,49543752,49544815,49543810,49544778,49544503,49544354,49543742,49543581]",
+      "score": 28,
+      "time": 1788388564,
+      "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
+      "type": "story",
+      "og_image": "images/49543530.png",
+      "groq_label": "GLP-1 compounding pharmacies operate in a legal gray area, relying on FDA discretion rather than clear approval for personalized formulations.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of personalized peptide and GLP-1 treatments. The Hacker News discussion was generally mixed, with many commenters appreciating the integrated approach and potential for personalized healthcare. At the same time, several commenters raised concerns about legal risks, regulatory challenges, and competition in the GLP-1 space. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around FDA scrutiny and compounding laws—that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49543191,
+      "author": "ddp26",
+      "descendants": 12,
+      "kids": "[49545242,49544288,49545024,49544667,49544053,49544619,49545275]",
+      "score": 43,
+      "time": 1788386550,
+      "title": "Reasons robotics is hard",
+      "type": "story",
+      "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!Oq1t!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0980aeb-8522-4f72-a7a3-c93bce52315d_1024x772.png",
+      "groq_label": "Humanoid robots struggle with tasks like climbing stairs or handling delicate objects due to the complexity of human-like dexterity and sensor limitations.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses the inherent challenges of robotics. The Hacker News discussion was generally mixed, with many commenters appreciating the complexity of the problem and the project's approach to explaining it. At the same time, several commenters raised concerns about the limitations of current robotics technology, arguing that the field faces significant technical and economic barriers. Overall, the discussion suggests that the community sees the article as informative but believes there are important challenges that still need to be addressed.",
+      "groq_explain": "Robotics is hard because creating robots that can perform physical tasks as well as humans is far more complex than AI for knowledge work. While AI has made big strides in digital tasks, real-world robotics faces huge challenges like dexterity, adaptability, and reliability. Most robot demos are staged or edited, hiding the many failures and limitations. Without a breakthrough, robots won’t replace human labor anytime soon."
+    },
+    {
+      "id": 49541458,
+      "author": "surreal_",
+      "descendants": 53,
+      "kids": "[49542571,49544985,49542295,49542730,49542193,49542322,49544983,49543293,49543087,49542952,49542543,49544868,49542335,49545115,49544303,49543762,49543276,49542442,49541459,49543411]",
+      "score": 147,
+      "time": 1788378541,
+      "title": "Fable 5.1 World Modeling",
+      "type": "story",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "og_image": "https://opengraph.githubassets.com/5222e130d3e0cad4f80a7e996dbcf3f19c4eb04b80e48b81c86cfd17db1a976f/PhiloLabs/fable51-worlds",
+      "groq_label": "Fable 5.1 generates first-person perspective world frames as a specialized image model, not quite video but more than static images.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis Fable 5.1 World Modeling project aims to solve the problem of generating realistic 3D environments for games and simulations. The Hacker News discussion was generally mixed, with many commenters appreciating the visual quality and potential of the demo. At the same time, several commenters raised concerns about practical usability, noting issues like messy topology, difficult texturing, and lack of optimization for game-ready assets. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49541256,
+      "author": "bvaldivielso",
+      "descendants": 273,
+      "kids": "[49541357,49541610,49541666,49541688,49543189,49542912,49541569,49541501,49541506,49541978,49544560,49542368,49545217,49543985,49541410,49545047,49544110,49541601,49543546,49542116,49544550,49543009,49542817,49541952,49544112,49544043,49545032,49541446,49541540,49541825,49542796,49541502,49541703,49542956,49543428,49542699,49541627,49541350,49542356,49541931,49544631,49541556,49543123,49542711,49541522]",
+      "score": 410,
+      "time": 1788377704,
+      "title": "Muse Spark 1.3",
+      "type": "story",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "og_image": "https://scontent.xx.fbcdn.net/v/t39.2365-6/741888780_1335161144859187_4416712401061192452_n.png?_nc_cat=108&ccb=1-7&_nc_sid=aa6a2f&_nc_ohc=035RilvDqSsQ7kNvwHdeMiB&_nc_oc=AdrB_xyP9e6jgLDAiLl7hFr0w9fpB2lABcS01D93448px8FMignXQGH1TR3wBqn_xI8&_nc_zt=14&_nc_ht=scontent.xx&_nc_gid=ZdQ8D4IAs4uFFOk8IKwwAg&_nc_ss=7b289&oh=00_AQIxWLWmUk8fsCOTofhS2SFDUMcrIArvjPPeo43BjSBrVA&oe=6A9E5E91",
+      "groq_label": "Meta's Muse Spark 1.3 offers a twentyfold API discount to users who allow their data to be used for model training.",
+      "groq_discussion": "Discussion type: – News Style:\n\nHacker News commenters reacted to the Muse Spark 1.3 release with cautious optimism. Many praised its cost-effectiveness and competitive performance, highlighting strengths such as its low pricing for \"contributor\" users ($0.10–$0.20 per million tokens) and its improved output quality over previous versions. Commenters also appreciated Meta’s transparent pricing model, which explicitly acknowledges data usage for training. However, the discussion surfaced recurring concerns regarding Meta’s data practices, including skepticism about user control over training participation and the ethical implications of training on user data. Despite these criticisms, the general sentiment suggests that the community considers the project a promising, budget-friendly alternative to higher-cost models, with potential to drive further price reductions in the AI market.",
+      "groq_explain": null
+    },
     {
       "id": 49540397,
       "author": "speckx",
@@ -91,6 +150,21 @@
       "og_image": "https://lh3.googleusercontent.com/3LmvDVwFoemhJExm-WrA00dHQJB27CHrOxEDg4GM8PuSD_CpLHbbrFMdVdVXRrC3nbRDOM5Hvtvokj088n7J0p7bWgyxh1rpOY-yvAmuWLA-VsFotA=w1200-h630-n-nu-rw",
       "groq_label": "Gemini 3.8 Flash matches Opus 5's intelligence score while being a smaller, faster model released in rapid succession after 3.7 Flash.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis release of Google's Gemini 3.8 Flash aims to solve the problem of providing a fast, high-performance AI model that competes with leading models like Opus 5. The Hacker News discussion was generally mixed, with many commenters appreciating the model's strong benchmark performance and speed. At the same time, several commenters raised concerns about its reliability, particularly in coding tasks and stability of Google's infrastructure. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49537131,
+      "author": "donohoe",
+      "descendants": 190,
+      "kids": "[49543693,49543135,49544074,49545113,49541307,49542541,49544310,49544228,49543198,49543602,49543722,49543941,49542263,49542944,49543877,49542027,49544921,49541441,49541370,49542828,49541332]",
+      "score": 278,
+      "time": 1788360376,
+      "title": "Google avoids a breakup of its ad tech business",
+      "type": "story",
+      "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html",
+      "og_image": "https://static01.nyt.com/images/2025/12/29/multimedia/00biz-google-hfo-phtj/00biz-google-hfo-phtj-facebookJumbo.jpg",
+      "groq_label": "Google’s ad tech revenue, despite generating $30 billion annually, accounts for less than 1% of Alphabet’s profit due to high operational costs and low margins.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses Google's avoidance of a breakup of its ad tech business. The Hacker News discussion was generally critical, with many commenters appreciating the need for stronger antitrust enforcement and questioning the effectiveness of current regulatory measures. At the same time, several commenters raised concerns about the structural and political challenges hindering meaningful enforcement. Overall, the discussion suggests that the community sees a need for reform in antitrust regulation but believes there are significant obstacles to achieving it.",
       "groq_explain": null
     },
     {
@@ -376,81 +450,6 @@
       "og_image": "https://lws.io/open-graph/blog/my-local-model-setup.png",
       "groq_label": "Apple Silicon unified memory enables low-RAM execution of quantized local models, but prefill latency and token generation speeds lag behind dedicated Nvidia hardware.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis local model setup on an M4 Pro Mac Mini aims to solve the problem of running AI models locally for development and experimentation. The Hacker News discussion was generally mixed, with many commenters appreciating the convenience of local setups for smaller models and development purposes. At the same time, several commenters raised concerns about performance limitations, particularly prefill latency and token generation speeds. Overall, the discussion suggests that the community sees promise in local model setups for certain use cases but believes there are important performance challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49528895,
-      "author": "masteranza",
-      "descendants": 21,
-      "kids": "[49530880,49530241,49530734,49529224,49529735,49529368,49529990,49530136,49530154,49529414]",
-      "score": 60,
-      "time": 1788300417,
-      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
-      "type": "story",
-      "url": "https://masteranza.github.io/weedout/",
-      "og_image": "https://masteranza.github.io/weedout/screenshot.png",
-      "groq_label": "Browser extensions can be monetized through various models like one-time purchases, subscriptions, or donations.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis Safari extension aims to solve the problem of filtering out AI-labeled YouTube videos. The Hacker News discussion was generally mixed, with many commenters appreciating the idea of reducing AI-generated content clutter and highlighting the frustration with AI voiceovers. At the same time, several commenters raised concerns about the extension's limited scope (Safari-only) and the reliability of AI detection labels. The main criticism focused on the extension's narrow browser support and the broader issue of inaccurate AI labeling. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—like cross-platform compatibility and label accuracy—that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49527748,
-      "author": "speckx",
-      "descendants": 309,
-      "kids": "[49529474,49529570,49529020,49529825,49530021,49530929,49529293,49529216,49528314,49530959,49529481,49530789,49529532,49530481,49530842,49529954,49530781,49530841,49530470,49529659,49530901,49530900,49530129,49530913,49529006,49530806,49530218,49529236,49530415,49530541,49530711,49529317,49530507,49530686,49530144,49529540,49529519,49529914,49530251,49529999,49529601,49530324,49529891,49530419,49529911,49529177,49530245,49530684,49529871,49529543,49530147,49529611,49527918,49530514,49529915,49530133,49529932,49528998,49530184,49530345,49529278]",
-      "score": 581,
-      "time": 1788294651,
-      "title": "Hang on to Your Firefox",
-      "type": "story",
-      "url": "https://www.newsonaut.com/articles/hang-on-to-your-firefox",
-      "og_image": "https://www.newsonaut.com/images/dishwater.png",
-      "groq_label": "Firefox remains the last independent browser engine preventing a complete Chromium monopoly despite user frustration over Mozilla's ad integrations and telemetry.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of browser engine centralization and Chrome dominance. The Hacker News discussion was generally mixed, with many commenters appreciating its independent non-Chromium engine and superior ad-blocking capabilities and the project's approach to preserving browser diversity and open web standards. At the same time, several commenters raised concerns about Mozilla's anti-consumer choices and performance gaps, arguing that user data collection, personalized ads, and unwanted anti-features alienate loyal users. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": "TL;DR: Firefox is the last major browser not controlled by Google or Apple, keeping the web competitive and diverse. People criticize it for being on X (Twitter), but it’s struggling to survive and needs support to prevent a Chrome-dominated internet."
-    },
-    {
-      "id": 49527595,
-      "author": "jithinraj",
-      "descendants": 10,
-      "kids": "[49528486,49528885,49528586,49528512,49528485,49528884]",
-      "score": 42,
-      "time": 1788294041,
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "type": "story",
-      "url": "https://openai.com/index/path-to-astra/",
-      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/4B4TPk6PGcuKcMyKnnQIMn/f1282feb90b13f11eb010c38c867fa53/astra-seo-v002.png?w=1600&h=900&fit=fill",
-      "groq_label": "OpenAI's Astra model achieved a perfect 100% score on ExploitBench, evaluating its exploit development from known vulnerabilities, despite the recent HuggingFace hack raising concerns about its safety and alignment.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis [article/project/blog post/research/product] aims to solve the problem of advancing AI capabilities while ensuring safety. The Hacker News discussion was generally mixed, with many commenters appreciating the technical improvements and potential applications of Astra, such as its cybersecurity capabilities and efficiency gains. At the same time, several commenters raised concerns about the model's training history and safety assurances, particularly in light of past incidents like the Hugging Face hack. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges, especially regarding alignment and safety, that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49527396,
-      "author": "timpera",
-      "descendants": 78,
-      "kids": "[49528800,49527910,49528920,49527945,49528980,49528560,49527732,49528089,49528536,49528482,49528541,49527939,49528197,49527759,49527922,49527920,49527782,49528143,49527743,49527873]",
-      "score": 152,
-      "time": 1788293277,
-      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
-      "type": "story",
-      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "og_image": "https://static.simonwillison.net/static/2026/codex-primay-runtime.webp",
-      "groq_label": "OpenAI's Codex app bundles a full LibreOffice installation to read and convert document formats locally.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of enabling AI tools like ChatGPT/Codex to seamlessly interact with and manipulate office documents (e.g., DOCX, XLSX, PPTX). The Hacker News discussion was mixed, with many commenters appreciating the practical need for such functionality and the convenience of bundled dependencies for handling legacy or complex file formats. At the same time, several commenters raised concerns about the approach, arguing that bundling an entire suite like LibreOffice is unnecessarily heavy, raises licensing questions (e.g., MPL 2.0 compliance), and could pose security or performance risks. Overall, the discussion suggests that the community sees promise in the project’s goal but believes the implementation—particularly the bundling strategy—introduces significant drawbacks that need addressing.",
-      "groq_explain": null
-    },
-    {
-      "id": 49527232,
-      "author": "jwise0",
-      "descendants": 20,
-      "kids": "[49528389,49528520,49528642,49528021,49527593,49527694,49527519,49528880]",
-      "score": 53,
-      "time": 1788292547,
-      "title": "Refurbishing a Tektronix TDS7104 Oscilloscope",
-      "type": "story",
-      "url": "https://tomverbeure.github.io/2026/08/23/Tektronix-TDS7104-Refurbishing.html",
-      "og_image": "https://tomverbeure.github.io/assets/tds7104/tds7104_in_car.jpg",
-      "groq_label": "Legacy high-end oscilloscopes provide cheap gigahertz bandwidth when restored, but aging capacitors and failing acquisition ASICs pose high risks of hardware destruction.",
-      "groq_discussion": "Discussion type: – Short\n\nThis project involves refurbishing a Tektronix TDS7104 oscilloscope. Hacker News commenters generally appreciated the practicality and cost-effectiveness of refurbishing high-end lab equipment for a fraction of its original price. Many highlighted the appeal of repurposing older, powerful hardware for modern use cases, such as running AI models. However, they also expressed concerns about the long-term reliability of aging components like acquisition ASICs and capacitors, with some warning of potential failures. Overall, the discussion was cautiously positive, recognizing the project's potential while acknowledging the risks associated with refurbishing older equipment.",
       "groq_explain": null
     }
   ]
