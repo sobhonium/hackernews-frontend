@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-04T02:30:25.401Z"
+    "lastUpdated": "2026-09-04T08:38:09.149Z"
   },
   "stories": [
+    {
+      "id": 49561320,
+      "author": "beardyw",
+      "descendants": 17,
+      "kids": "[49561445,49561888,49561577,49561585,49561636,49561578]",
+      "score": 65,
+      "time": 1788504471,
+      "title": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "type": "story",
+      "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "og_image": "https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png",
+      "groq_label": "ID verification company IDScan.net exposed a live dark web feed of over 153 million driver's license scans collected from customer businesses.",
+      "groq_discussion": "Discussion type: Basic\n\nThis article aims to solve the problem of widespread security and privacy vulnerabilities in third-party identity verification systems. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as bringing attention to critical security failures, pointing readers to superior coverage from Krebs on Security, and sparking productive debate around government-mediated digital wallets. Many appreciated exposing systemic third-party data collection, noting that it highlights the severe risks of third-party identity verification, while others believed it could be particularly useful for discussions around online age-verification mandates. However, the discussion also revealed several criticisms. Commenters expressed concerns about government agencies like the DMV selling user data, the forced adoption of online identity checks, and poor submission headline phrasing, with some questioning the wisdom of trusting third-party vendors with sensitive identity data and others pointing out the inevitability of data leaks when collecting personal information at scale. Overall, the Hacker News community considered the project a sobering and critical warning, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
+      "groq_explain": "A major identity verification company was breached, putting over 153 million scanned driver's licenses from rental car companies, stores, and websites up for sale on the dark web. This matters because it proves that mandatory age and identity verification systems are huge security risks that inevitably end up leaking sensitive personal data to criminals."
+    },
+    {
+      "id": 49559522,
+      "author": "andsoitis",
+      "descendants": 11,
+      "kids": "[49559999,49560300,49560457,49561574,49560440]",
+      "score": 74,
+      "time": 1788486323,
+      "title": "Project Xanadu: Even More Hindsight (2025)",
+      "type": "story",
+      "url": "https://gwern.net/xanadu",
+      "og_image": "https://gwern.net/static/img/logo/logo-whitebg-large-border.png",
+      "groq_label": "Project Xanadu struggled to progress because 1980s hardware constraints required a full week to compile its Smalltalk-to-C++ codebase.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis blog post addresses the historic challenge of creating a universal hypertext and document-linking network. Hacker News commenters generally appreciated the visionary concepts of transclusion and side-by-side document comparison and believed the project could offer enduring insights for modern version control and document editing tools. However, they also expressed concerns about its unworkable design choices and questioned whether modern technology could have ever saved it from its practical flaws. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": "Project Xanadu was an ambitious 1970s vision for interconnected digital media that ultimately failed to become a practical, useful system. Looking back at its development reveals that severe hardware limitations of the era, like code taking a full week to compile, forced developers to spend years fighting technical bottlenecks instead of refining the design for real users. It shows how even the most visionary software ideas can collapse when technical constraints prevent quick testing and iteration."
+    },
     {
       "id": 49559182,
       "author": "backlit4034",
@@ -416,35 +446,6 @@
       "og_image": "https://www.kedglobal.com/data/ked/image/2026/07/21/ked202607210032.jpg",
       "groq_label": "Shin Jinseo's 120-point ELO lead over the next strongest player is the largest margin in Go history, dwarfing even Magnus Carlsen's peak dominance in chess.",
       "groq_discussion": "Discussion type: – Balanced:\n\nThis Go grandmaster matchup between Shin Jinseo and AI KataGo aims to solve the problem of determining the relative strength of human Go players versus advanced AI. The Hacker News discussion was generally mixed, with many commenters appreciating the technical depth of the match and the human player's strategic adaptation. At the same time, several commenters raised concerns about the limitations of such comparisons, arguing that the fascination with human vs. AI tournaments is overblown. Overall, the discussion suggests that the community sees value in the match as a demonstration of human ingenuity but believes there are important philosophical and practical challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49544618,
-      "author": "thread_id",
-      "descendants": 23,
-      "kids": "[49556424,49555676,49556255,49556600,49555502,49557240,49555900,49555435]",
-      "score": 73,
-      "time": 1788396547,
-      "title": "GPS glitched across the US by as much as 33 feet",
-      "type": "story",
-      "url": "https://www.sciencealert.com/gps-glitched-across-the-us-by-as-much-as-33-feet-scientists-have-never-seen-this-before",
-      "og_image": "https://www.sciencealert.com/images/2026/08/aurora-from-space.jpg",
-      "groq_label": "GPS accuracy glitches of up to 33 feet in the US were linked to massive solar eruptions in November 2025, disrupting the magnetosphere.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article discusses a significant GPS glitch in the US where positioning errors reached up to 33 feet. The Hacker News discussion was generally mixed, with many commenters appreciating the potential real-world consequences of such errors, particularly for electronic monitoring systems. At the same time, several commenters raised concerns about the scope and cause of the issue, arguing that the article lacked clarity on whether other satellite positioning systems were affected or if the problem stemmed from a misconfiguration. Overall, the discussion suggests that the community sees the topic as important but believes the reporting could have been more thorough in addressing key technical and contextual details.",
-      "groq_explain": null
-    },
-    {
-      "id": 49543530,
-      "author": "lloydarmbrust",
-      "descendants": 32,
-      "kids": "[49545069,49544249,49543849,49544867,49543752,49544815,49543810,49544778,49544503,49544354,49543742,49543581]",
-      "score": 28,
-      "time": 1788388564,
-      "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
-      "type": "story",
-      "og_image": "images/49543530.png",
-      "groq_label": "GLP-1 compounding pharmacies operate in a legal gray area, relying on FDA discretion rather than clear approval for personalized formulations.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of personalized peptide and GLP-1 treatments. The Hacker News discussion was generally mixed, with many commenters appreciating the integrated approach and potential for personalized healthcare. At the same time, several commenters raised concerns about legal risks, regulatory challenges, and competition in the GLP-1 space. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges—particularly around FDA scrutiny and compounding laws—that still need to be addressed.",
       "groq_explain": null
     }
   ]
