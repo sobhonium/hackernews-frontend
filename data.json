@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-07T17:06:41.653Z"
+    "lastUpdated": "2026-09-07T22:31:43.792Z"
   },
   "stories": [
+    {
+      "id": 49603011,
+      "author": "alex-moon",
+      "descendants": 5,
+      "kids": "[49603680,49603665,49603634,49603539]",
+      "score": 15,
+      "time": 1788815352,
+      "title": "The smallest edge AI device for local LLMs",
+      "type": "story",
+      "url": "https://tiiny.ai/",
+      "og_image": "https://tiiny.ai/cdn/shop/files/Tiiny-_logo_1.svg?height=20&v=1764658310",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49602716,
+      "author": "apophatic",
+      "descendants": 6,
+      "kids": "[49603402,49603573,49603166,49603669]",
+      "score": 22,
+      "time": 1788813272,
+      "title": "Macbeth and His Problems",
+      "type": "story",
+      "url": "https://porticoquarterly.com/essay/macbeth-and-his-problems/",
+      "og_image": "https://porticoquarterly.com/wp-content/uploads/2026/06/Macbeth_2015-1200x630.jpg",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49601655,
+      "author": "rustywasm",
+      "descendants": 57,
+      "kids": "[49602635,49603204,49603631,49602764,49601856,49602680,49601939,49601871,49602979,49601836,49603406,49602358,49601698,49602834,49601889,49602857,49603453,49603498,49602017,49601656,49601881,49601769]",
+      "score": 148,
+      "time": 1788807126,
+      "title": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "type": "story",
+      "url": "https://lax-skyline.parcelscope.net/",
+      "og_image": "images/49601655.png",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
     {
       "id": 49600233,
       "author": "spwa4",
@@ -258,6 +303,21 @@
       "groq_explain": null
     },
     {
+      "id": 49592375,
+      "author": "treve",
+      "descendants": 661,
+      "kids": "[49602110,49596487,49596923,49601031,49599185,49596708,49599428,49598614,49599971,49596087,49603559,49592806,49596716,49595958,49596717,49598324,49597186,49596127,49599438,49603062,49600885,49602453,49596380,49593432,49603558,49593290,49599505,49597447,49596546,49597904,49602775,49596122,49598125,49601154,49596468,49597917,49597153,49602801,49598102,49598993,49601914,49596602,49592945,49602387,49596406,49595651,49599537,49601416,49592963,49599217,49601101,49601035,49603073,49597394,49601040,49599587,49596532,49596344,49596469,49597440,49602114,49600117,49599141,49598320,49597654,49596361,49599075,49596276,49593439,49599420,49595770,49597576,49598449,49597681,49600330,49593461,49602085,49596308,49597749,49597255,49600047,49598084,49596637,49599768,49597037,49603093,49597921,49596006,49599582,49593184,49598388,49602278,49597679,49598990,49596673,49597068,49599762,49598195,49599676,49596028,49600531,49600872,49596304,49595968,49600150,49596851,49596823,49596723,49600160,49597117,49596219,49598028,49597591,49598355,49597598,49596742,49600154,49602738,49594587,49600877,49596392,49592753,49598196,49595985,49596622,49598849,49598832,49599323,49593516,49596905,49596547,49596136,49598487,49600029,49601391,49597262]",
+      "score": 381,
+      "time": 1788740524,
+      "title": "216M Spy TVs – The LG Smart TV Problem [video]",
+      "type": "story",
+      "url": "https://www.youtube.com/watch?v=6IFVTcM28KA",
+      "og_image": "https://www.gstatic.com/marketing-cms/assets/images/7d/a4/65aa9b874bf5ab985c623335e053/about-hero.webp",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
       "id": 49592210,
       "author": "hardlint",
       "descendants": 1,
@@ -389,65 +449,6 @@
       "og_image": "images/49589914.png",
       "groq_label": "Developers manage AI agent skills by using symlinked git repositories, custom plugin marketplaces, and having agents distill their own session learnings.",
       "groq_discussion": "Discussion type: – Basic:\n\nThis Ask HN post aims to solve the problem of managing and organizing skill files for AI coding agents across tools and environments. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as leveraging specialized toolsets like Vercel Skills, distributing skills via git-backed plugin marketplaces, and using progressive disclosure to keep prompt contexts clean. Many appreciated automated knowledge distillation, noting that it enables agents to learn and package new skills directly from successful debugging sessions, while others believed it could be particularly useful for niche domain tasks and multi-agent developer workflows. However, the discussion also revealed several criticisms. Commenters expressed concerns about setup complexity, configuration bloat, and prompt preloading limits, with some questioning the necessity of skill files over built-in LLM capabilities and others pointing out that simple README or agents.md files are often sufficient. Overall, the Hacker News community considered the project a promising approach, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49589190,
-      "author": "scott_s",
-      "descendants": 5,
-      "kids": "[49600419,49589252,49600063]",
-      "score": 10,
-      "time": 1788718253,
-      "title": "The Dataflow Model Revisited",
-      "type": "story",
-      "url": "https://www.vldb.org/pvldb/volumes/19/paper/The%20Dataflow%20Model%20Revisited",
-      "og_image": "https://www.vldb.org/pvldb/imgs/PVLDB_Logo.svg",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49588988,
-      "author": "zImPatrick",
-      "descendants": 251,
-      "kids": "[49589220,49589666,49589201,49592859,49589353,49589348,49592087,49590006,49589270,49590410,49591820,49589569,49589533,49589609,49590525,49589341,49589269,49590818,49589625,49589422,49589233,49590923,49590201,49590158,49589991,49590481,49589731,49589687]",
-      "score": 482,
-      "time": 1788716987,
-      "title": "Nitter and XCancel resume service after legal advice",
-      "type": "story",
-      "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "og_image": "https://opengraph.githubassets.com/92962a83efd8bc2e3e8432afc9522dcfe42750f8345dee563ecb199ee76f3aed/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49588466,
-      "author": "ckuo9",
-      "kids": "[]",
-      "score": 1,
-      "time": 1788714028,
-      "title": "Opalite Health (YC W26) Is Hiring – Founding GTM",
-      "type": "job",
-      "url": "https://www.ycombinator.com/companies/opalite-health/jobs/bNedVAD-founding-gtm",
-      "og_image": "https://bookface-images.s3.amazonaws.com/logos/40c1d054a6155cc15b4dc8a4e88338f6b29847ac.png?1768325221",
-      "groq_label": null,
-      "groq_discussion": "No comments.",
-      "groq_explain": null
-    },
-    {
-      "id": 49588214,
-      "author": "lukaspetersson",
-      "descendants": 14,
-      "kids": "[49588891,49589027,49589002,49588858,49588849,49588930,49588811,49588853,49588750,49589050]",
-      "score": 29,
-      "time": 1788712675,
-      "title": "We monitor internal coding agents for misalignment",
-      "type": "story",
-      "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment/",
-      "og_image": "https://images.ctfassets.net/kftzwdyauwt9/6QiOsDAtMDSQDtyJdqygZ3/e00d303b22fcbefb76ebb13ed003f6b9/OAI_Monitoring_internal_deployments_for_loss_of_control_risks_SEO_16x9.png?w=1600&h=900&fit=fill",
-      "groq_label": null,
-      "groq_discussion": null,
       "groq_explain": null
     }
   ]
