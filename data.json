@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-09T22:12:31.986Z"
+    "lastUpdated": "2026-09-10T02:35:09.107Z"
   },
   "stories": [
+    {
+      "id": 49637385,
+      "author": "dmitrybrant",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 3,
+      "time": 1789005480,
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "type": "story",
+      "url": "https://rivendell.dmitrybrant.com/relativity/",
+      "og_image": "images/49637385.png",
+      "groq_label": "An interactive simulation sets the speed of light to 5 km/h to visually demonstrate relativistic effects like time dilation, Terrell rotation, and Doppler shifts at walking speeds.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
     {
       "id": 49634650,
       "author": "doener",
@@ -30,6 +45,21 @@
       "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-amazon-refused-to-give-pregnant-workers-bathroom-breaks-and-chairs/",
       "og_image": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/amazon-warehouse-1152x648-1788978717.jpg",
       "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49633534,
+      "author": "samyok",
+      "descendants": 6,
+      "kids": "[49637014,49637431,49636472,49637354,49636916]",
+      "score": 45,
+      "time": 1788984968,
+      "title": "Factoring RSA 260",
+      "type": "story",
+      "url": "https://cognition.com/blog/factoring-rsa-260",
+      "og_image": "https://cognition.com/opengraph-image.jpg",
+      "groq_label": "The 260-digit challenge number RSA-260 was factored by using the AI agent Devin to orchestrate a distributed computing swarm.",
       "groq_discussion": null,
       "groq_explain": null
     },
@@ -304,6 +334,21 @@
       "groq_explain": null
     },
     {
+      "id": 49623398,
+      "author": "thomasahle",
+      "descendants": 2,
+      "kids": "[49637634,49637627,49637543,49623604]",
+      "score": 18,
+      "time": 1788944038,
+      "title": "Show HN: Compute polynomials twice as fast",
+      "type": "story",
+      "url": "https://thomasahle.com/fast-polynomials/",
+      "og_image": "images/49623398.png",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
       "id": 49622561,
       "author": "theanonymousone",
       "descendants": 5,
@@ -405,51 +450,6 @@
       "url": "https://current.fas.harvard.edu/stories/harvard-study-predicts-most-suicide-attempts-week-advance",
       "og_image": "https://current.fas.harvard.edu/sites/default/files/styles/fas_fp_1200x630/public/2026-09/040523_Nock_Lab_009%20(photo%20by%20Kris%20Snibbe%2C%20Harvard%20University)_square.jpg?h=780563bb&itok=W44uUK0G",
       "groq_label": "Self-reported smartphone surveys given to high-risk patients predicted suicide attempts a week in advance and triggered real-time intervention alerts.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49619464,
-      "author": "bpierre",
-      "descendants": 2,
-      "kids": "[49619932,49619908]",
-      "score": 13,
-      "time": 1788916490,
-      "title": "27.5KB language-agnostic WebGPU syntax highlighter",
-      "type": "story",
-      "url": "https://gpu-lexer.vercel.app/",
-      "og_image": "images/49619464.png",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49619227,
-      "author": "yurivish",
-      "descendants": 693,
-      "kids": "[49623132,49621707,49619710,49620470,49619484,49622842,49621445,49619633,49622728,49622644,49619357,49623031,49619440,49621035,49621934,49621815,49622180,49619581,49622414,49621266,49620941,49621143,49622494,49619725,49619559,49621656,49619386,49621954,49620888,49622204,49621808,49621823,49623000,49619381,49621988,49621422,49620367,49619556,49623085,49620558,49621982,49621508,49622326,49619660,49619388,49619625,49619933,49622978,49622572,49621737,49622199,49622537,49619536,49619649,49619843,49619480,49620026,49619623,49621487,49619651,49619515,49622865,49619531,49619986,49621037,49621311,49621662,49620716,49621654,49620109,49619340,49619452,49619439,49621358,49622004,49622493,49621070,49620832,49620302,49621101,49619564,49621218,49619600,49621118,49621196,49620521,49620085,49619455,49621076,49621290,49622025,49620828,49622334,49622557,49621686,49619431,49621830,49619368,49620728,49620853,49619376,49619534,49619592,49619350,49619389,49619378,49622907,49619361,49620969]",
-      "score": 540,
-      "time": 1788914440,
-      "title": "I resigned from Anthropic today",
-      "type": "story",
-      "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
-      "og_image": "https://pbs.twimg.com/profile_images/2097232673865601024/d6H8UbQJ_400x400.jpg",
-      "groq_label": "An Anthropic employee's resignation over safety concerns sparked debate on whether autonomous AI agent harnesses pose existential risks comparable to nuclear weapons.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49617581,
-      "author": "paimapi",
-      "descendants": 50,
-      "kids": "[49618722,49618279,49618016,49617925,49618636,49618488,49619681,49619347,49618789,49619070,49618433,49618550,49618725,49619880,49618579,49619580,49617897,49619995,49619458,49618353,49618260,49618131]",
-      "score": 102,
-      "time": 1788904058,
-      "title": "Large language models develop novel social biases through adaptive exploration",
-      "type": "story",
-      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3Dpc7fqaOcAH",
-      "og_image": "images/49617581.png",
-      "groq_label": null,
       "groq_discussion": null,
       "groq_explain": null
     }
