@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-11T02:29:40.158Z"
+    "lastUpdated": "2026-09-11T08:32:14.376Z"
   },
   "stories": [
+    {
+      "id": 49654229,
+      "author": "manojbajaj95",
+      "descendants": 185,
+      "kids": "[49654888,49654629,49654391,49654535,49655184,49654562,49654406,49654859,49654306,49655192,49654479,49654443,49654701,49654671,49655075,49655086,49654928,49655122,49654415,49654322,49654668,49655071,49654917,49655018,49654921,49654723,49654939,49654710,49654945,49655005,49654356,49654548,49654895,49655124,49654773,49654396,49654291,49654698,49654432,49654342,49655077,49654503,49654551,49654369,49654404,49654485,49654614,49654468,49654471,49654393,49654638]",
+      "score": 279,
+      "time": 1789107786,
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "type": "story",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "og_image": "https://lucumr.pocoo.org/social/2026-09-07-astra-why-social.png",
+      "groq_label": "Reinforcement learning rewards AI coding agents for long-horizon task completion without penalizing poor code quality, leading to unmaintainable software that stalls progress and wastes compute.",
+      "groq_discussion": "This blog post aims to solve the problem of evaluating the real-world performance and code quality of autonomous AI coding agents like Astra. The Hacker News discussion was generally critical, with many commenters appreciating the underlying vision of AI-assisted engineering and the project's approach to executing complex development workflows. At the same time, several commenters raised concerns about severe code quality degradation and excessive token consumption, arguing that current agents produce unmaintainable code and administrative churn rather than functional software. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49653882,
+      "author": "rzk",
+      "descendants": 14,
+      "kids": "[49654717,49654949,49654685,49654526,49654583,49654565,49654969]",
+      "score": 31,
+      "time": 1789104418,
+      "title": "We Replaced MMAP with Io_uring in Our Rust Query Engine. It Got Slower",
+      "type": "story",
+      "url": "https://www.conviva.ai/resource/we-replaced-mmap-with-io_uring-in-our-rust-query-engine-it-got-slower/",
+      "og_image": "https://www.conviva.ai/wp-content/uploads/2026/09/NVMe-Streams-Power-Shared-Cache-copy.webp",
+      "groq_label": "Replacing mmap with io_uring degrades query performance unless the application manages its own userspace page cache and scheduler.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post aims to solve the problem of query engine I/O performance by replacing mmap with io_uring. The Hacker News discussion was generally critical, with many commenters appreciating the exploration of high-performance I/O and the project's approach to testing io_uring against traditional memory mapping. At the same time, several commenters raised concerns about the clickbait structure and AI-generated tone of the article, arguing that swapping mmap for io_uring requires a complete architectural redesign around custom page caching and userspace scheduling rather than a naive replacement. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
+      "id": 49653699,
+      "author": "quysala12",
+      "descendants": 27,
+      "kids": "[49655183,49654820,49654700,49655106,49654484,49653736,49654558,49653973,49654061,49653965,49654515]",
+      "score": 41,
+      "time": 1789102340,
+      "title": "The Gemini app is now available for Windows",
+      "type": "story",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/",
+      "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_Desktop_Thumbnail_2096x1182.width-1300.png",
+      "groq_label": "Google launched a desktop Gemini app for Windows, but saving chat history requires allowing user data to be used for model training.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis product aims to solve the problem of accessing Google Gemini directly through a dedicated desktop application on Windows. The Hacker News discussion was generally mixed, with many commenters appreciating improved performance compared to web browsers and the project's approach to providing a convenient AI assistant. At the same time, several commenters raised concerns about privacy policies requiring data sharing for model training, arguing that forcing data collection makes the app unusable for privacy-conscious users. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
     {
       "id": 49652237,
       "author": "rguiscard",
@@ -61,6 +106,21 @@
       "og_image": "https://cdn11.bigcommerce.com/s-pywjnxrcr2/products/1725/images/2187/thelio-mira-26-frontRR__11359.1772653265.1280.1280__76157.1780080100.1280.1280__57602.1788206893.386.513.jpg?c=1",
       "groq_label": null,
       "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49651221,
+      "author": "nasutton12",
+      "descendants": 19,
+      "kids": "[49655079,49654734,49654302,49654956,49654159,49654490,49654104,49653950,49654595,49653955]",
+      "score": 81,
+      "time": 1789080841,
+      "title": "Nine coding harnesses vs. your laptop",
+      "type": "story",
+      "url": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
+      "og_image": "https://app.notion.com/images/meta/default.png",
+      "groq_label": "Coding agent harness overhead often dictates local model performance more than the model itself, ranging from tiny native binaries to frameworks that add twenty minutes of latency to simple commands.",
+      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the benchmarking of various coding agent harnesses and considered it useful because it helps clarify performance and resource demands on local hardware. Others highlighted the comparison of token efficiency and local execution speed as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on implementation and presentation details, particularly website scrolling glitches, confusing statistical explanations, and AI-generated documentation in referenced tools. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
       "groq_explain": null
     },
     {
@@ -390,66 +450,6 @@
       "og_image": "https://consumerrights.wiki/images/logo/new_fixed_logo.png",
       "groq_label": null,
       "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49640646,
-      "author": "soheilpro",
-      "descendants": 113,
-      "kids": "[49641429,49641591,49642241,49643468,49642264,49641205,49644052,49642371,49643693,49641045,49643046,49642625,49641137,49641693,49642572,49641336,49641144,49642957,49643814,49642562,49642826]",
-      "score": 236,
-      "time": 1789031054,
-      "title": "What algorithm did Windows XP use to choose your initial user picture?",
-      "type": "story",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683",
-      "og_image": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2019/02/ShowCover.jpg",
-      "groq_label": "Windows XP picked initial user pictures using a single-pass random selection algorithm capped at 100 files to avoid allocating memory or reading the directory twice.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49639408,
-      "author": "pred_",
-      "descendants": 398,
-      "kids": "[49648436,49645695,49641828,49639648,49645337,49640833,49648206,49640539,49645902,49638501,49647096,49648358,49641023,49639297,49639258,49639168,49643786,49640026,49648517,49643745,49638506,49639206,49645746,49648466,49646366,49639483,49643369,49643513,49646460,49648351,49639650,49643503,49639759,49643993,49647321,49639724,49647920,49643846,49644809,49643604,49640507,49639409,49644113,49640691,49646681,49641716,49644056,49641310,49646947,49638760,49646017,49646711,49643838,49639676,49643813,49640243,49643516,49641447,49640070,49641209,49645267,49643254,49644631,49646989,49640776,49643911,49639693,49643736,49641963,49638753,49643119,49640426,49647229,49639439,49639036,49645602,49645975,49643951,49643274,49640504,49639539,49643198,49646110,49643582,49639388,49638525,49643602,49639526,49646257,49643842,49643793]",
-      "score": 270,
-      "time": 1789022983,
-      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
-      "type": "story",
-      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
-      "og_image": "https://media.mathstodon.xyz/site_uploads/files/000/000/002/@1x/c2d0c9932cd25b26.png",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49639090,
-      "author": "Liwink",
-      "descendants": 58,
-      "kids": "[49639644,49639887,49639317,49640302,49640328,49639918,49639348,49639879,49639927,49639631,49640236,49639627,49639504,49640324,49639848,49639894,49640181,49640176,49639886,49639919,49639420,49640071,49639352,49639495,49640252]",
-      "score": 205,
-      "time": 1789020665,
-      "title": "DeepSeek v4.1 Flash",
-      "type": "story",
-      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
-      "og_image": "https://pbs.twimg.com/media/HR1UyHiaAAAtpqw.jpg",
-      "groq_label": "DeepSeek v4.1 Flash expanded to 552B parameters while cutting API prices and introducing new architectural improvements.",
-      "groq_discussion": "Discussion type: –  Basic:\n\nThis product aims to solve the problem of efficient, high-performance artificial intelligence language modeling. Based on the Hacker News discussion, commenters generally viewed the project positively and highlighted strengths such as detailed technical documentation, rapid architectural innovation, and lower API pricing. Many appreciated less restrictive instruction following, noting that it reduces unnecessary refusals when given harmless edge-case prompts, while others believed it could be particularly useful for security research and local development. However, the discussion also revealed several criticisms. Commenters expressed concerns about the significantly increased parameter size, difficulty running the model on local hardware, and language compliance issues where English prompts yield Chinese responses, with some questioning whether a 552B parameter model can still be classified as a flash model and others pointing out high VRAM requirements for quantization and local execution. Overall, the Hacker News community considered the project highly impressive, recognizing its potential while emphasizing that addressing these concerns would improve its usefulness and adoption.",
-      "groq_explain": null
-    },
-    {
-      "id": 49638280,
-      "author": "yurivish",
-      "descendants": 87,
-      "kids": "[49640329,49639080,49639295,49639338,49639850,49639269,49639405,49640009,49639909,49639473,49639237,49639328,49639118,49639298,49639446,49639057]",
-      "score": 142,
-      "time": 1789013078,
-      "title": "All grown-ups were once children, but only few of them remember it",
-      "type": "story",
-      "url": "https://mathstodon.xyz/@tao/117244102901892965",
-      "og_image": "https://media.mathstodon.xyz/site_uploads/files/000/000/002/@1x/c2d0c9932cd25b26.png",
-      "groq_label": "Prioritizing goal-driven efficiency over open-ended exploration undermines human intellectual pursuits from childhood learning to mathematics.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis blog post aims to solve the problem of adults losing their sense of childlike curiosity, playfulness, and intrinsic joy in learning. The Hacker News discussion was generally positive, with many commenters appreciating the value of open exploration, curiosity, and process over pure outcome and the project's approach to encouraging a shift in mindset toward play and human experience. At the same time, several commenters raised concerns about systemic pressures favoring efficiency and superficial metrics, arguing that focusing strictly on efficiency and nominal goals, such as through the misuse of AI tools, undermines true human learning and meaningful experiences. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
       "groq_explain": null
     }
   ]
