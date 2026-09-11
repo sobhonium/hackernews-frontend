@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-11T19:02:21.879Z"
+    "lastUpdated": "2026-09-11T22:12:04.587Z"
   },
   "stories": [
+    {
+      "id": 49663373,
+      "author": "microtonal",
+      "descendants": 73,
+      "kids": "[49665250,49665334,49664408,49664587,49664369,49665255,49664158,49664387,49665077,49664702,49665588,49664492,49665187,49664469]",
+      "score": 138,
+      "time": 1789152636,
+      "title": "GrapheneOS' rewritten Messages app is released",
+      "type": "story",
+      "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13",
+      "og_image": "https://opengraph.githubassets.com/8f0c4809e2c11bfed73cfc4c4e8d4260b6cea167ccc47bfdcf0c2ebd6b69acf2/GrapheneOS/Messaging/releases/tag/13",
+      "groq_label": "GrapheneOS released an AI-assisted rewrite of its Messages app, drawing criticism over UI regressions, lack of RCS support, and ongoing lock-in to Google Pixel hardware.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
     {
       "id": 49663054,
       "author": "stmw",
@@ -15,6 +30,21 @@
       "url": "https://www.cia.gov/stories/story/cia-releases-presidents-daily-briefs-in-commemoration-of-the-25th-anniversary-of-9-11/seventy-one-declassified-presidents-daily-brief-products/",
       "og_image": "images/49663054.png",
       "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49662990,
+      "author": "nickabe",
+      "descendants": 57,
+      "kids": "[49666015,49665213,49665512,49665169,49665117,49665835,49665204,49665278,49665532,49665757,49665327,49665663,49665037,49665330,49666052,49665790]",
+      "score": 120,
+      "time": 1789151095,
+      "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "type": "story",
+      "url": "https://dayzlegame.com/blog/google-ads-bot-farm/",
+      "og_image": "https://dayzlegame.com/og.png",
+      "groq_label": "Google app ad campaigns often yield majority bot downloads from data centers, forcing advertisers to manually exclude IP ranges or optimize for in-app events.",
       "groq_discussion": null,
       "groq_explain": null
     },
@@ -120,6 +150,21 @@
       "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
       "og_image": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&ts=1789152658",
       "groq_label": "AI solving open math problems undermines problem-solving as a metric for human conceptual understanding and academic credit.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49662020,
+      "author": "geneticdrifts",
+      "descendants": 51,
+      "kids": "[49665126,49665691,49664395,49664422,49664582,49665717,49664948,49664460]",
+      "score": 73,
+      "time": 1789147523,
+      "title": "Mind-altering drugs played key role in rise of Andean civilization",
+      "type": "story",
+      "url": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization",
+      "og_image": "images/49662020.png",
+      "groq_label": null,
       "groq_discussion": null,
       "groq_explain": null
     },
@@ -403,51 +448,6 @@
       "url": "https://map-yue2.github.io/",
       "og_image": "https://map-yue2.github.io/static/brand/yue-mark.svg",
       "groq_label": "Musicians debate whether AI music generation will devalue human composition or merely serve as background audio and a tool to finish old drafts.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49651372,
-      "author": "jonifico",
-      "descendants": 26,
-      "kids": "[49652335,49652242,49652518,49651999,49652549,49652572,49652130,49652236,49652588,49652358]",
-      "score": 35,
-      "time": 1789081806,
-      "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
-      "type": "story",
-      "url": "https://system76.com/workstations/thelio-mira-ai",
-      "og_image": "https://cdn11.bigcommerce.com/s-pywjnxrcr2/products/1725/images/2187/thelio-mira-26-frontRR__11359.1772653265.1280.1280__76157.1780080100.1280.1280__57602.1788206893.386.513.jpg?c=1",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49651221,
-      "author": "nasutton12",
-      "descendants": 19,
-      "kids": "[49655079,49654734,49654302,49654956,49654159,49654490,49654104,49653950,49654595,49653955]",
-      "score": 81,
-      "time": 1789080841,
-      "title": "Nine coding harnesses vs. your laptop",
-      "type": "story",
-      "url": "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74",
-      "og_image": "https://app.notion.com/images/meta/default.png",
-      "groq_label": "Coding agent harness overhead often dictates local model performance more than the model itself, ranging from tiny native binaries to frameworks that add twenty minutes of latency to simple commands.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated the benchmarking of various coding agent harnesses and considered it useful because it helps clarify performance and resource demands on local hardware. Others highlighted the comparison of token efficiency and local execution speed as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on implementation and presentation details, particularly website scrolling glitches, confusing statistical explanations, and AI-generated documentation in referenced tools. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49651046,
-      "author": "zdw",
-      "descendants": 1,
-      "kids": "[49660401]",
-      "score": 8,
-      "time": 1789079625,
-      "title": "Copying login keychains between Macs fails on Secure Enclave Macs with Tahoe",
-      "type": "story",
-      "url": "https://derflounder.wordpress.com/2026/09/08/manually-copying-login-keychain-files-from-one-mac-to-another-no-longer-works-on-secure-enclave-equipped-macs-running-macos-tahoe/",
-      "og_image": "https://derflounder.wordpress.com/wp-content/uploads/2026/09/screenshot-2026-09-08-at-5.47.51pm.png",
-      "groq_label": "macOS Tahoe ties login keychain decryption to the source Mac's Secure Enclave, preventing copied keychains from being unlocked on other Macs even with the correct password.",
       "groq_discussion": null,
       "groq_explain": null
     }
