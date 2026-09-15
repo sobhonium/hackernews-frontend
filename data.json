@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-15T22:41:06.736Z"
+    "lastUpdated": "2026-09-15T23:28:24.461Z"
   },
   "stories": [
     {
@@ -79,6 +79,21 @@
       "groq_explain": null
     },
     {
+      "id": 49717280,
+      "author": "natolambert",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 17,
+      "time": 1789499258,
+      "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+      "type": "story",
+      "url": "https://mnoukhov.github.io/posts/ngu/",
+      "og_image": "https://mnoukhov.github.io/images/ngu/aime_per_example_solve_rate.svg?v=titleless",
+      "groq_label": "Continuous reinforcement learning drives LLMs to eventually master tasks that were previously unsolvable, leveraging persistent training to overcome hard problems.",
+      "groq_discussion": "No comments.",
+      "groq_explain": null
+    },
+    {
       "id": 49716953,
       "author": "matt_kirkland",
       "descendants": 79,
@@ -136,6 +151,21 @@
       "og_image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___keyword__blog-social.width-1300.png",
       "groq_label": null,
       "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49715927,
+      "author": "jaykru",
+      "descendants": 20,
+      "kids": "[49720191,49720210,49720161,49719884,49719881,49720231,49720100,49719887,49715928]",
+      "score": 62,
+      "time": 1789493832,
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "type": "story",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "og_image": "https://dank.systems/public/clj_alien_rainbow.webp",
+      "groq_label": "LLM chess performance collapses without explicit legality cues, and even when given legal move lists models still request illegal moves, exposing poor task generalization and reasoning limits.",
+      "groq_discussion": "This blog post aims to solve the problem of evaluating the long‑term potential of large language models (LLMs) by examining their performance on tasks like Navier‑Stokes and chess. The Hacker News discussion was generally mixed, with many commenters appreciating the nuanced, tempered take that avoided outright denialism while highlighting realistic limitations. Commenters praised the insight that LLMs still struggle with robust task generalization, legal move identification in chess, accurate time‑keeping, and long‑horizon planning, and they noted the potential value of LLM‑plus‑human expert workflows and the models’ relative strength in pure mathematics. At the same time, several commenters raised concerns about the models’ tendency to propose illegal moves, the infeasibility of scaling human review, token‑driven business models that encourage “fluffy” output, and fundamental memory and scalability issues that hinder broad automation. Overall, the discussion suggests that the community sees promise in niche applications of LLMs but remains skeptical about their ability to serve as general‑purpose autonomous agents, emphasizing that significant challenges must be addressed for wider adoption.",
       "groq_explain": null
     },
     {
@@ -418,36 +448,6 @@
       "type": "story",
       "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
       "og_image": "https://dbtcharts.com/assets/social/background_hu_b580101c226cb278.png",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49704008,
-      "author": "neom",
-      "descendants": 129,
-      "kids": "[49704237,49704938,49704316,49704925,49704170,49704240,49705075,49704825,49704926,49704939,49704989,49704407,49704950,49704334,49704362,49704242,49704466,49704492,49704214,49704317,49704399,49704842,49704859,49704408,49704370,49704178,49704628,49704297,49704236,49704146,49704175,49704258,49704335,49704137]",
-      "score": 133,
-      "time": 1789419922,
-      "title": "Amazon vs. Perplexity – U.S. Court of Appeals for the Ninth Circuit",
-      "type": "story",
-      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
-      "og_image": "https://justatic.com/v/20260818140901/shared/images/social-media/law.jpg",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49703003,
-      "author": "theanonymousone",
-      "descendants": 93,
-      "kids": "[49703554,49703387,49703469,49703312,49705301,49704458,49703917,49703725,49704281,49703885,49703609,49703353,49703683,49703925,49703322,49703889,49703111,49703547,49703409,49703830,49705280,49703827,49703408,49703416]",
-      "score": 74,
-      "time": 1789415780,
-      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
-      "type": "story",
-      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
-      "og_image": "https://framerusercontent.com/images/gPrTReKBwM5bVRyIqVcgBE4kEAk.png",
       "groq_label": null,
       "groq_discussion": null,
       "groq_explain": null
