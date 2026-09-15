@@ -1,8 +1,52 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-15T02:55:25.253Z"
+    "lastUpdated": "2026-09-15T09:10:46.498Z"
   },
   "stories": [
+    {
+      "id": 49708774,
+      "author": "maxpr",
+      "kids": "[]",
+      "score": 1,
+      "time": 1789455630,
+      "title": "Lingo.dev (YC F24) is hiring a senior content engineer (Remote, worldwide)",
+      "type": "job",
+      "url": "https://lingo.dev/en/careers/ff88132a-cb79-4d35-a6a0-a6230de7a013",
+      "og_image": "https://lingo.dev/og.png?title=Senior+Content+Engineer",
+      "groq_label": "Lingo.dev's content engineering role requires using custom code and Claude pipelines to automate high-volume technical publishing while banning superlatives and targeting AI search visibility.",
+      "groq_discussion": "No comments.",
+      "groq_explain": "Lingo.dev, an AI-powered translation startup, is hiring a remote senior content engineer to handle all of their technical writing, marketing, and SEO. It shows how startups are reshaping content roles, looking for people who can write for developers while using code and AI tools to automate and scale an entire media operation on their own."
+    },
+    {
+      "id": 49708431,
+      "author": "networked",
+      "descendants": 15,
+      "kids": "[49709723,49709719,49709712,49709582,49709716,49709664,49709601,49709620,49709561,49709446,49709660]",
+      "score": 65,
+      "time": 1789452984,
+      "title": "I can't stop thinking about Papua New Guinea",
+      "type": "story",
+      "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua",
+      "og_image": "https://substackcdn.com/image/fetch/$s_!o2BG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cf2320c-0d17-4c36-bf55-4372c97e32e4_3099x3069.jpeg",
+      "groq_label": "Papua New Guinea presents extreme physical and technological isolation, where Mount Hagen hosts the world's highest-latency internet servers and urban violence includes arrow attacks.",
+      "groq_discussion": "Discussion type: – Short:\n\nThis blog post addresses the unique cultural, historical, and living conditions of Papua New Guinea. Hacker News commenters generally appreciated the shared personal anecdotes and documentary recommendations and believed the project could provide valuable perspective on extreme global differences in standards of living. However, they also expressed concerns about safety risks and harsh living conditions and questioned the travel logistics and safety of visiting the region. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
+      "groq_explain": null
+    },
+    {
+      "id": 49707627,
+      "author": "sippingabonedry",
+      "descendants": 55,
+      "kids": "[49708250,49708141,49709234,49708089,49708234,49708341,49708175,49709198,49708143,49708327,49709137,49708972,49709469,49708428,49708488,49708132,49709295,49708758,49708658]",
+      "score": 160,
+      "time": 1789445723,
+      "title": "Linux from Scratch",
+      "type": "story",
+      "url": "https://www.linuxfromscratch.org/",
+      "og_image": "https://www.linuxfromscratch.org/images/linux-from-scratch.png",
+      "groq_label": "Users debate whether Linux from Scratch provides true system understanding or mere recipe-following, with cross-compiler toolchain setup remaining its most fragile step.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
     {
       "id": 49706656,
       "author": "rlindsey123",
@@ -378,6 +422,21 @@
       "groq_explain": null
     },
     {
+      "id": 49693690,
+      "author": "boxesnlines",
+      "descendants": 40,
+      "kids": "[49708686,49708605,49708416,49709095,49693691,49708751,49708753,49709484]",
+      "score": 34,
+      "time": 1789374930,
+      "title": "When code is a maze, smart developers make maps (2025)",
+      "type": "story",
+      "url": "https://medium.com/@simonsmartiom/when-code-is-a-maze-smart-developers-make-maps-fbc452a48c1b",
+      "og_image": "https://miro.medium.com/v2/resize:fit:1200/1*z8R0tLOquXcsVxiQml5cqA.png",
+      "groq_label": "Developers debate whether code clarity requires comment-based maps or is better achieved through self-documenting architecture, clear naming, and search tools.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of navigating complex and poorly structured codebases. The Hacker News discussion was generally critical, with many commenters appreciating the focus on code maintainability and the project's approach to improving developer navigation. At the same time, several commenters raised concerns about relying heavily on inline comments, arguing that good architecture, clear naming conventions, and proper search tools are far better solutions than extensive commenting. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
+      "groq_explain": null
+    },
+    {
       "id": 49693613,
       "author": "SamuraiLion",
       "descendants": 0,
@@ -391,66 +450,6 @@
       "groq_label": "An RP2350 microcontroller can emulate a full 386 PC with 8MB PSRAM and HDMI output capable of booting Windows 95 and Linux.",
       "groq_discussion": "No comments.",
       "groq_explain": "You can now turn an inexpensive Raspberry Pi Pico 2 microcontroller into a fully working retro 386 PC. By loading this software onto compatible hardware, you can run classic operating systems like MS-DOS, Windows 95, and old-school Linux directly from an SD card, complete with monitor output, sound, and keyboard support. It makes retro computing accessible, cheap, and tiny without needing original, fragile vintage hardware."
-    },
-    {
-      "id": 49693610,
-      "author": "NKosmatos",
-      "descendants": 1,
-      "kids": "[49694050]",
-      "score": 6,
-      "time": 1789374347,
-      "title": "EuroBirdPortal – Live bird movements across Europe",
-      "type": "story",
-      "url": "https://www.eurobirdportal.org/ebp/en/",
-      "og_image": "http://eurobirdportal.org/img/preview-2.png",
-      "groq_label": "EuroBirdPortal maps real-time and seasonal bird migrations across Europe using aggregated observation data.",
-      "groq_discussion": "Discussion type: – Short:\n\nThis project addresses the challenge of tracking and visualizing live bird movements across Europe. Hacker News commenters generally appreciated the compelling concept of visualizing migration patterns and believed the project could be an engaging resource for birdwatchers and researchers. However, they also expressed concerns about unintuitive navigation and questioned how to switch between different bird species on the site. Overall, the discussion was mixed, with commenters recognizing both the project's potential and its limitations.",
-      "groq_explain": null
-    },
-    {
-      "id": 49693226,
-      "author": "zenpe",
-      "descendants": 8,
-      "kids": "[49694117,49693732,49693730,49693788,49693840]",
-      "score": 9,
-      "time": 1789371300,
-      "title": "Show HN: 1080p is 920px tall – 1k real browser viewports",
-      "type": "story",
-      "url": "https://screensize.net/reports/viewport-stats",
-      "og_image": "https://screensize.net/og.png",
-      "groq_label": "Browser chrome consumes vertical screen space on 1080p displays, leaving only about 920 pixels of usable viewport height.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis project aims to solve the problem of understanding real-world browser viewport dimensions. The Hacker News discussion was generally mixed, with many commenters appreciating the validation of usable viewport heights and the project's approach to measuring browser chrome impact. At the same time, several commenters raised concerns about presentation quality and data granularity, arguing that the project appears to be low-effort AI-generated content and lacks cumulative size distribution metrics. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49692765,
-      "author": "bryanrasmussen",
-      "descendants": 19,
-      "kids": "[49693785,49693319,49693247,49693436,49692865]",
-      "score": 26,
-      "time": 1789367646,
-      "title": "Of Gods and Languages: On \"When God Spoke Greek\" (2013)",
-      "type": "story",
-      "url": "https://lareviewofbooks.org/article/of-gods-and-languages-on-when-god-spoke-greek/",
-      "og_image": "https://cdn.lareviewofbooks.org/unsafe/fit-in/331x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2F201311when-god-spoke-greek-the-septuagint-and-the-making-of-the-christian-bible_6575_5001.jpg",
-      "groq_label": "Early Christian canon and Eastern Orthodox traditions rely on Greek Septuagint translations rather than Hebrew texts, despite the original Septuagint containing only the Torah.",
-      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of understanding the historical and linguistic evolution of sacred scripture, specifically the role of the Greek Septuagint in biblical history. The Hacker News discussion was generally mixed, with many commenters appreciating the historical perspective on ancient texts and the project's approach to distinguishing between modern Bibles and ancient scripture. At the same time, several commenters raised concerns about historical inaccuracies and Western bias, arguing that the Septuagint originally included only the Torah and that the theological visions of the Hebrew and Greek versions are more aligned than the article suggests. Overall, the discussion suggests that the community sees promise in the project but believes there are important challenges that still need to be addressed.",
-      "groq_explain": null
-    },
-    {
-      "id": 49691152,
-      "author": "negura",
-      "descendants": 25,
-      "kids": "[49694129,49693685,49693049,49693223,49692772,49691420]",
-      "score": 56,
-      "time": 1789352744,
-      "title": "OEMpocalypse: Unprivileged Android app to root on Samsung, Xiaomi, others",
-      "type": "story",
-      "url": "https://calif.io/research/oempocalypse",
-      "og_image": "https://calif.io/og/oempocalypse.jpg",
-      "groq_label": "Exploiting page use-after-free bugs in OEM-specific drivers allows an unprivileged app to gain root across Samsung, Xiaomi, and Oppo devices while bypassing kernel hardening.",
-      "groq_discussion": "Discussion type: Short:\n\nThis blog post addresses privilege escalation vulnerabilities allowing unprivileged Android apps to gain root access on OEM devices. Hacker News commenters generally appreciated the technical exposure of OEM driver flaws and believed the research could motivate vendors to improve device security. However, they also expressed concerns about closed proprietary drivers and questioned the overall security and safety of rooting modern devices. Overall, the discussion was critical of Android OEM security, with commenters recognizing both the research's value and the concerning security implications for the platform.",
-      "groq_explain": "Security researchers found a way for a basic, unprivileged Android app to gain full root control over millions of Samsung, Xiaomi, Oppo, and OnePlus phones. Instead of attacking core Android code, the technique targets flaws in the custom software added by the phone manufacturers themselves. This makes the hack work consistently across a massive range of devices while easily bypassing standard security protections."
     }
   ]
 }
