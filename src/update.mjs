@@ -12,9 +12,9 @@ import {
   DISCUSSION_SYSTEM,
   EXPLAIN_SYSTEM,
 } from "./prompt.js";
-import { notifyTelegram } from "./telegram.mjs";
+import { notifyTelegram, markQueuePosted } from "./telegram.mjs";
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+const groq = process.env.GROQ_API_KEY ? new Groq({ apiKey: process.env.GROQ_API_KEY }) : null;
 const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY) : null;
 const mistral = process.env.MISTRAL_API_KEY ? new Mistral({ apiKey: process.env.MISTRAL_API_KEY }) : null;
 const DB_PATH = "HN_data.db";
@@ -202,26 +202,44 @@ async function fetchComments(kids) {
   return items.filter((c) => c && !c.deleted).map((c) => stripHtml(c.text || ""));
 }
 
-// ── Multi-provider LLM call (falls through on failure) ──
+// ── Multi-provider LLM call ──
+// Try Groq first, then the next provider, and so on. Once a provider fails,
+// later calls in this run skip it and start at the first one that still works.
+const LLM_PROVIDERS = [
+  { name: "Groq",       ready: () => !!groq,                         call: tryGroq },
+  { name: "Gemini",     ready: () => !!genAI,                        call: tryGemini },
+  { name: "Mistral",    ready: () => !!mistral,                      call: tryMistral },
+  { name: "OpenRouter", ready: () => !!process.env.OPENROUTER_API_KEY, call: tryOpenRouter },
+];
+let llmProviderIndex = 0;
+
 async function llmCall(system, user) {
-  for (const [name, fn] of [
-    ["Groq",       () => tryGroq(system, user)],
-    ["Gemini",     () => tryGemini(system, user)],
-    ["Mistral",    () => tryMistral(system, user)],
-    ["OpenRouter", () => tryOpenRouter(system, user)],
-  ]) {
-    const result = await fn();
-    if (result !== null) return result;
-    console.warn(`  ${name} failed, trying next provider...`);
+  for (let i = llmProviderIndex; i < LLM_PROVIDERS.length; i++) {
+    const provider = LLM_PROVIDERS[i];
+    if (!provider.ready()) {
+      llmProviderIndex = Math.max(llmProviderIndex, i + 1);
+      continue;
+    }
+    const result = await provider.call(system, user);
+    if (result?.trim()) {
+      if (i !== llmProviderIndex) {
+        console.log(`  ${provider.name} succeeded — using it until it fails.`);
+      }
+      llmProviderIndex = i;
+      return result;
+    }
+    console.warn(`  ${provider.name} failed, trying next provider...`);
+    llmProviderIndex = i + 1;
   }
   console.error("  All LLM providers failed.");
   return null;
 }
 
 async function tryGroq(system, user) {
+  if (!groq) return null;
   try {
     const completion = await groq.chat.completions.create({
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-120b",
       messages: [
         { role: "system", content: system },
         { role: "user", content: user },
@@ -350,6 +368,7 @@ async function main() {
   const existingIds = new Set(queue.map(s => s.id));
   const newStories = [];
   console.log(`Loaded ${queue.length} existing stories.`);
+  markQueuePosted(queue);
 
   console.log("Fetching story IDs...");
   const ids = await fetch(
