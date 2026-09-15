@@ -12,6 +12,8 @@ const TG_API = "https://api.telegram.org";
 const CAPTION_LIMIT = 1024;
 const MESSAGE_LIMIT = 4096;
 const REQUEST_TIMEOUT_MS = 20000;
+const POSTED_PATH = "telegram-posted.json";
+const POSTED_LIMIT = 8000;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const hnItem = (id) => `https://news.ycombinator.com/item?id=${id}`;
@@ -282,7 +284,59 @@ async function postStory(token, chatId, s) {
   });
 }
 
-export async function notifyTelegram(stories) {
+function normalizeUrl(url) {
+  if (!url || typeof url !== "string") return "";
+  try {
+    const u = new URL(url.trim());
+    u.hash = "";
+    u.hostname = u.hostname.replace(/^www\./i, "").toLowerCase();
+    if (u.pathname.length > 1) u.pathname = u.pathname.replace(/\/+$/, "");
+    return u.href;
+  } catch {
+    return url.trim();
+  }
+}
+
+function loadPosted() {
+  try {
+    const raw = JSON.parse(fs.readFileSync(POSTED_PATH, "utf-8"));
+    return {
+      ids: new Set((raw.ids || []).map(Number).filter(Boolean)),
+      urls: new Set((raw.urls || []).filter(Boolean).map(normalizeUrl)),
+    };
+  } catch {
+    return { ids: new Set(), urls: new Set() };
+  }
+}
+
+function savePosted(posted) {
+  const ids = [...posted.ids].filter(Boolean).slice(-POSTED_LIMIT);
+  const urls = [...posted.urls].filter(Boolean).slice(-POSTED_LIMIT);
+  fs.writeFileSync(POSTED_PATH, JSON.stringify({ ids, urls }, null, 2) + "\n");
+}
+
+function alreadyPosted(posted, s) {
+  if (s?.id && posted.ids.has(Number(s.id))) return "id";
+  const url = normalizeUrl(s?.url);
+  if (url && posted.urls.has(url)) return "url";
+  return null;
+}
+
+function rememberPosted(posted, s) {
+  if (s?.id) posted.ids.add(Number(s.id));
+  const url = normalizeUrl(s?.url);
+  if (url) posted.urls.add(url);
+}
+
+export function markQueuePosted(stories) {
+  if (!stories?.length) return;
+  const posted = loadPosted();
+  const before = posted.ids.size + posted.urls.size;
+  for (const s of stories) rememberPosted(posted, s);
+  if (posted.ids.size + posted.urls.size !== before) savePosted(posted);
+}
+
+export async function notifyTelegram(stories, { force = false } = {}) {
   const token = process.env.TELEGRAM_BOT_TOKEN;
   const chatId = process.env.TELEGRAM_CHAT_ID;
   if (!token || !chatId) {
@@ -293,14 +347,34 @@ export async function notifyTelegram(stories) {
     console.log("Telegram: no new stories to post.");
     return;
   }
-  console.log(`Posting ${stories.length} new story(ies) to Telegram...`);
+
+  const posted = loadPosted();
+  const fresh = [];
   for (const s of stories) {
+    const reason = force ? null : alreadyPosted(posted, s);
+    if (reason) {
+      console.log(`  ↷ Skip Telegram (already posted ${reason}): ${s.title || s.id}`);
+      continue;
+    }
+    fresh.push(s);
+  }
+  if (!fresh.length) {
+    console.log("Telegram: all candidate stories were already posted.");
+    return;
+  }
+
+  console.log(`Posting ${fresh.length} new story(ies) to Telegram...`);
+  let dirty = false;
+  for (const s of fresh) {
     try {
       await postStory(token, chatId, s);
+      rememberPosted(posted, s);
+      dirty = true;
       console.log(`  ✓ Posted to Telegram: ${s.title}`);
     } catch (err) {
       console.error(`  ✗ Telegram post failed for [${s.id}]: ${err.message}`);
     }
     await sleep(500);
   }
+  if (dirty) savePosted(posted);
 }

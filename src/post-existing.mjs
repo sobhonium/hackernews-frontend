@@ -4,4 +4,4 @@ import { notifyTelegram } from "./telegram.mjs";
 
 const data = JSON.parse(fs.readFileSync("data.json", "utf-8"));
 const stories = data.stories || data;
-await notifyTelegram(stories);
+await notifyTelegram(stories, { force: true });
