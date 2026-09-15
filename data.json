@@ -1,8 +1,38 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-14T22:57:40.638Z"
+    "lastUpdated": "2026-09-15T02:55:25.253Z"
   },
   "stories": [
+    {
+      "id": 49706656,
+      "author": "rlindsey123",
+      "descendants": 17,
+      "kids": "[49707013,49707058,49707075,49707097,49707059,49706971,49707091,49706973,49706996,49707004,49707081,49707043,49706975,49706999]",
+      "score": 26,
+      "time": 1789436263,
+      "title": "Show HN: Sunk Cost – How long until a local LLM rig pays for itself?",
+      "type": "story",
+      "url": "https://sunkcost.ai/",
+      "og_image": "https://sunkcost.ai/og/default.png?v=aa76b29d84",
+      "groq_label": "Local LLM hardware rarely breaks even against subsidized cloud APIs, making privacy and model autonomy the primary motives for local setups rather than cost savings.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49705442,
+      "author": "fretlessjazz",
+      "descendants": 5,
+      "kids": "[49707101,49706287,49706295,49706098]",
+      "score": 42,
+      "time": 1789426896,
+      "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
+      "type": "story",
+      "url": "https://github.com/JamesRyanATX/fcbnerd",
+      "og_image": "https://opengraph.githubassets.com/539aa8928f1b672e83d48132323bb5fbce83c5d6e748adf653cac3a2bb471b0a/JamesRyanATX/fcbnerd",
+      "groq_label": "A MIDI foot pedalboard can be mapped to execute system macros and software shortcuts on macOS.",
+      "groq_discussion": null,
+      "groq_explain": null
+    },
     {
       "id": 49704246,
       "author": "thingsilearned",
@@ -44,6 +74,36 @@
       "type": "story",
       "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
       "og_image": "https://framerusercontent.com/images/gPrTReKBwM5bVRyIqVcgBE4kEAk.png",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49701004,
+      "author": "throw0101d",
+      "descendants": 475,
+      "kids": "[49701276,49701451,49701199,49706014,49701826,49706230,49706348,49701627,49701234,49703005,49705942,49701210,49701555,49702598,49701393,49706784,49706970,49705957,49701525,49706316,49701521,49702487,49701260,49701162,49701697,49701323,49705745,49704268,49706302,49701794,49704857,49702698,49705995,49706884,49706617,49706706,49702335,49705352,49701342,49701832,49705221,49701420,49704967,49706827,49701181,49701220,49702426,49701474,49702100,49706324,49706028,49701453,49701452,49704176,49703196,49706386,49702383,49706423,49701630,49705729,49701209,49702820,49706485,49702413,49704980,49703007,49705899,49701443,49702659,49702314,49701752,49702749,49701343,49701961,49701300,49701545,49703400,49701197,49703932,49706352,49701332,49706082,49701339,49701213,49705984,49706176,49704471,49701214,49702065,49701430,49707071,49703184,49703442,49701367,49701526,49703072,49701383]",
+      "score": 415,
+      "time": 1789408229,
+      "title": "iOS 27, iPadOS 27, and macOS 27",
+      "type": "story",
+      "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+      "og_image": "https://www.apple.com/newsroom/images/2026/09/major-updates-for-apples-software-platforms-are-now-available/tile/Apple-OS-availability-hero-lp.jpg.og.jpg?202609141711",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
+      "id": 49700661,
+      "author": "bsimpson",
+      "descendants": 404,
+      "kids": "[49701133,49705150,49701030,49703845,49701070,49703234,49701117,49705287,49703307,49701010,49706763,49704892,49701244,49706818,49701919,49706676,49700994,49704520,49703232,49701189,49703350,49701044,49701307,49705961,49702677,49702150,49703565,49703085,49701976,49705081,49702638,49700880,49702839,49702843,49705010,49701229,49703685,49703064,49702759,49701882,49702496,49703570,49701955,49703696,49705903,49703489,49702522,49702299,49701766,49700997,49702145,49701388,49703900,49701041,49701237,49702933]",
+      "score": 530,
+      "time": 1789406875,
+      "title": "Steam Frame starts at $1059",
+      "type": "story",
+      "url": "https://store.steampowered.com/hardware/steamframe",
+      "og_image": "https://clan.fastly.steamstatic.com/images/45479024/41ac1feaa13a1396844a31be91beb068eb2e509f.jpg",
       "groq_label": null,
       "groq_discussion": null,
       "groq_explain": null
@@ -243,6 +303,21 @@
       "groq_explain": null
     },
     {
+      "id": 49697477,
+      "author": "nathannaveen",
+      "descendants": 12,
+      "kids": "[49705469,49705421,49706732,49706048]",
+      "score": 42,
+      "time": 1789396163,
+      "title": "Dropping eBPF CPU Cost by About 90% with Memoization (Not AI Gen)",
+      "type": "story",
+      "url": "https://nathannaveen.dev/posts/dropping-ebpf-cpu-cost-by-90/",
+      "og_image": "https://nathannaveen.dev/img/BMBlogDiagram.jpeg",
+      "groq_label": null,
+      "groq_discussion": null,
+      "groq_explain": null
+    },
+    {
       "id": 49697094,
       "author": "rbanffy",
       "descendants": 21,
@@ -376,81 +451,6 @@
       "groq_label": "Exploiting page use-after-free bugs in OEM-specific drivers allows an unprivileged app to gain root across Samsung, Xiaomi, and Oppo devices while bypassing kernel hardening.",
       "groq_discussion": "Discussion type: Short:\n\nThis blog post addresses privilege escalation vulnerabilities allowing unprivileged Android apps to gain root access on OEM devices. Hacker News commenters generally appreciated the technical exposure of OEM driver flaws and believed the research could motivate vendors to improve device security. However, they also expressed concerns about closed proprietary drivers and questioned the overall security and safety of rooting modern devices. Overall, the discussion was critical of Android OEM security, with commenters recognizing both the research's value and the concerning security implications for the platform.",
       "groq_explain": "Security researchers found a way for a basic, unprivileged Android app to gain full root control over millions of Samsung, Xiaomi, Oppo, and OnePlus phones. Instead of attacking core Android code, the technique targets flaws in the custom software added by the phone manufacturers themselves. This makes the hack work consistently across a massive range of devices while easily bypassing standard security protections."
-    },
-    {
-      "id": 49690943,
-      "author": "antoineleclair",
-      "descendants": 6,
-      "kids": "[49690965,49691156,49691292,49691082]",
-      "score": 22,
-      "time": 1789351121,
-      "title": "Show HN: Is It Greg?",
-      "type": "story",
-      "url": "https://github.com/antoineleclair/is-it-greg",
-      "og_image": "https://opengraph.githubassets.com/67360b730e9bdfebea1bb3e2c9552b6592a565b5a7637cd0efd471d3f6d84063/antoineleclair/is-it-greg",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49690554,
-      "author": "contact9879",
-      "descendants": 213,
-      "kids": "[49692494,49693599,49690741,49693227,49690834,49692311,49691256,49693727,49692685,49692252,49693705,49690980,49693314,49694006,49691354,49693499,49690698,49690856,49690859,49690751,49693642,49693896,49690789,49693175,49690819,49692283,49694008,49693419,49692570,49691022]",
-      "score": 157,
-      "time": 1789347757,
-      "title": "The case against JPEG XL",
-      "type": "story",
-      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
-      "og_image": "https://giannirosato.com/static/img/caustics-hdr.avif",
-      "groq_label": "JPEG XL enables byte-exact, lossless re-compression of existing JPEGs at smaller file sizes, but its complex feature set trades web delivery efficiency for archival versatility.",
-      "groq_discussion": "Discussion type: – Community Perspective:\n\nThe Hacker News community generally responded to this article with mixed reactions. Many commenters appreciated JPEG XL's versatility and considered it useful because it enables lossless re-encoding of existing JPEG files for free storage savings. Others highlighted its suitability for personal archives and high-resolution image pipelines as one of the project's most valuable aspects. Nevertheless, recurring criticisms focused on performance and decoder limits, particularly high CPU and memory consumption during complex decoding tasks. As a whole, commenters viewed the project as an interesting contribution while acknowledging that it still has room for improvement.",
-      "groq_explain": null
-    },
-    {
-      "id": 49690529,
-      "author": "theahura",
-      "descendants": 18,
-      "kids": "[49691320,49691297,49690861,49690722]",
-      "score": 12,
-      "time": 1789347609,
-      "title": "AI is not a normal technology",
-      "type": "story",
-      "url": "https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!di04!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F217c5c85-2c6b-4c4e-b4ba-8cb9e92cd4ad_1194x815.png",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49690260,
-      "author": "simonpure",
-      "descendants": 1,
-      "kids": "[49690877]",
-      "score": 29,
-      "time": 1789345371,
-      "title": "Open-Source AI and Open Models Reading List",
-      "type": "story",
-      "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
-      "og_image": "https://substackcdn.com/image/fetch/$s_!pdpS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53e3cead-b3c3-4fba-8503-c5a599d5fb01_3182x1790.png",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49690174,
-      "author": "herbertl",
-      "descendants": 4,
-      "kids": "[49691216]",
-      "score": 29,
-      "time": 1789344681,
-      "title": "Apple's Dimensional Drawings",
-      "type": "story",
-      "url": "https://developer.apple.com/accessories/dimensional-drawings/",
-      "og_image": "https://developer.apple.com/news/images/og/accessories-og.jpg",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
     }
   ]
 }
