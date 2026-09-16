@@ -1,8 +1,53 @@
 {
   "_meta": {
-    "lastUpdated": "2026-09-15T23:28:24.461Z"
+    "lastUpdated": "2026-09-16T02:41:50.910Z"
   },
   "stories": [
+    {
+      "id": 49721435,
+      "author": "djfergus",
+      "descendants": 2,
+      "kids": "[49721518,49721495]",
+      "score": 11,
+      "time": 1789525518,
+      "title": "Cloudflare: Stay discoverable in search while disallowing AI training",
+      "type": "story",
+      "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+      "og_image": "https://blog.cloudflare.com/_emdash/api/media/file/01M2JFGHWHDDM5TY9NKS0TY8B3.01M2JFGJS6SBSH4SX8FC56CVPD.png",
+      "groq_label": "Cloudflare proposes robots.txt extensions that block AI model training while preserving normal search engine indexing.",
+      "groq_discussion": "According to the Hacker News discussion, the overall opinion of this product is skeptical. Commenters frequently noted that while the service aims to let sites stay discoverable in search while blocking AI training, many saw it as a reactionary move that comes after AI‑driven search has already taken hold. The discussion highlighted recurring concerns that the solution is “a bit too late” and that Cloudflare itself has helped create the very problem it now seeks to solve, raising doubts about its effectiveness and timing. The overall consensus is that the idea is interesting in principle, but its impact is questionable given the current state of AI‑powered search and Cloudflare’s role in enabling that ecosystem.",
+      "groq_explain": null
+    },
+    {
+      "id": 49720164,
+      "author": "marklit",
+      "descendants": 15,
+      "kids": "[49721396,49720973,49720570,49720393,49720435,49720857,49720754,49720491,49720595]",
+      "score": 39,
+      "time": 1789514240,
+      "title": "Saving Jet Fuel",
+      "type": "story",
+      "url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+      "og_image": "https://tech.marksblogg.com/theme/images/flight_planning/qgis-bin_F2xRAWeaTm.jpg",
+      "groq_label": "The discussion highlights practical challenges of applying theoretical flight‑path optimization to real‑world IFR procedures, fuel waste, and operational constraints.",
+      "groq_discussion": "Discussion type: – Balanced:\n\nThis article aims to solve the problem of excessive jet fuel consumption by using algorithmic flight‑path optimization. The Hacker News discussion was generally mixed, with many commenters appreciating the novel approach, the impressive reported fuel‑saving potential (up to 25 % less fuel and a 45‑minute reduction in flight time), and the open‑source implementation built on scikit‑decide. At the same time, several commenters raised concerns about the practicality of the method, arguing that the “optimal” paths shown are unrealistic because they ignore IFR waypoint constraints, air‑traffic control procedures, and the coarse grid used in the simulation. Others pointed out that human and regulatory processes in airline operations make it difficult to adopt such discretionary climb‑and‑descend strategies, and that the author seemed unfamiliar with real‑world navigation and oceanic routing requirements. Overall, the discussion suggests that the community sees promise in the idea and its potential environmental benefit, but believes that significant technical, operational, and institutional challenges must be addressed before it could be adopted in practice.",
+      "groq_explain": null
+    },
+    {
+      "id": 49719938,
+      "author": "zdw",
+      "descendants": 9,
+      "kids": "[49721165,49721194,49721424,49721436,49720920]",
+      "score": 42,
+      "time": 1789512655,
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "type": "story",
+      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "og_image": "https://nand2mario.github.io/posts/2026/zsst-voodoo/teapot.png",
+      "groq_label": "An FPGA implementation of a 3dfx Voodoo Graphics chip combined with a 486 CPU runs classic 1990s games such as Tomb Raider on a Xilinx KV260 board.",
+      "groq_discussion": "This project aims to recreate Voodoo graphics and a late‑1990s gaming PC on an FPGA. The Hacker News discussion was generally mixed, with many commenters appreciating the nostalgic appeal and the technical ambition of bringing classic PC hardware to modern FPGA platforms. They praised strengths such as the potential to run classic games like *Quake* and *Tomb Raider*, the flexibility of an FPGA implementation, and the fun of building a period‑accurate system for hobbyist use.\n\nAt the same time, several commenters raised concerns about practical limitations. Some questioned whether the FPGA‑based “486” would support the additional Pentium instructions required by certain titles, others noted fragility issues like HDMI output failure when hot‑plugged, and there was a clear demand for more example videos to demonstrate the system’s capabilities. Additional uncertainty surrounded video output options, such as whether 31 kHz VGA (required for true period‑accurate displays) would be supported.\n\nOverall, the discussion suggests that the community sees promise in the project’s retro‑computing goals but believes that addressing compatibility, documentation, and robust video output would be essential for broader adoption.",
+      "groq_explain": "A developer combined a 486‑compatible CPU core with a SystemVerilog recreation of the 3dfx Voodoo SST‑1 graphics chip on a Xilinx KV260 FPGA, building a fully functional DOS PC that can run early‑90s 3D games like Tomb Raider with their original hardware‑accelerated rendering. It matters because it shows how modern reconfigurable hardware can faithfully reproduce legacy graphics hardware, preserving the authentic experience of classic games while demonstrating the power and flexibility of FPGA‑based retro‑computing platforms."
+    },
     {
       "id": 49718928,
       "author": "summarity",
@@ -403,51 +448,6 @@
       "type": "story",
       "url": "https://joecmarshall.com/posts/vibecoding-is-the-new-internet-dating/",
       "og_image": "https://joecmarshall.com/images/bughunting-cover.jpg",
-      "groq_label": null,
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49706656,
-      "author": "rlindsey123",
-      "descendants": 17,
-      "kids": "[49707013,49707058,49707075,49707097,49707059,49706971,49707091,49706973,49706996,49707004,49707081,49707043,49706975,49706999]",
-      "score": 26,
-      "time": 1789436263,
-      "title": "Show HN: Sunk Cost – How long until a local LLM rig pays for itself?",
-      "type": "story",
-      "url": "https://sunkcost.ai/",
-      "og_image": "https://sunkcost.ai/og/default.png?v=aa76b29d84",
-      "groq_label": "Local LLM hardware rarely breaks even against subsidized cloud APIs, making privacy and model autonomy the primary motives for local setups rather than cost savings.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49705442,
-      "author": "fretlessjazz",
-      "descendants": 5,
-      "kids": "[49707101,49706287,49706295,49706098]",
-      "score": 42,
-      "time": 1789426896,
-      "title": "Show HN: Macros with a Behringer FCB1010 MIDI Pedalboard in macOS",
-      "type": "story",
-      "url": "https://github.com/JamesRyanATX/fcbnerd",
-      "og_image": "https://opengraph.githubassets.com/539aa8928f1b672e83d48132323bb5fbce83c5d6e748adf653cac3a2bb471b0a/JamesRyanATX/fcbnerd",
-      "groq_label": "A MIDI foot pedalboard can be mapped to execute system macros and software shortcuts on macOS.",
-      "groq_discussion": null,
-      "groq_explain": null
-    },
-    {
-      "id": 49704246,
-      "author": "thingsilearned",
-      "descendants": 5,
-      "kids": "[49704247,49704708,49704465,49704876]",
-      "score": 22,
-      "time": 1789420974,
-      "title": "Charts built for Chat",
-      "type": "story",
-      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
-      "og_image": "https://dbtcharts.com/assets/social/background_hu_b580101c226cb278.png",
       "groq_label": null,
       "groq_discussion": null,
       "groq_explain": null

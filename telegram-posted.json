@@ -32,7 +32,12 @@
     49703003,
     49715927,
     49717280,
-    49679949
+    49679949,
+    49721435,
+    49719938,
+    49680916,
+    49720164,
+    49692510
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -67,6 +72,11 @@
     "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
     "https://dank.systems/posts/2026-09-15-ai-bear.html",
     "https://mnoukhov.github.io/posts/ngu",
-    "https://theconsensus.dev/p/2026/09/06/data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html"
+    "https://theconsensus.dev/p/2026/09/06/data-races-and-the-limits-of-threadsanitizer-in-c-and-go.html",
+    "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+    "https://nand2mario.github.io/posts/2026/zsst-voodoo",
+    "https://colino.net/wordpress/archives/2026/09/11/sierra-digital-cameras-on-the-apple-ii",
+    "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+    "https://gruhn.me/blog/2026-09-14"
   ]
 }
