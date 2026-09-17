@@ -65,7 +65,21 @@
     49674451,
     49733726,
     49735410,
-    49677916
+    49677916,
+    49715813,
+    49742353,
+    49737849,
+    49742437,
+    49737787,
+    49742233,
+    49718773,
+    49742021,
+    49740105,
+    49735930,
+    49685835,
+    49737922,
+    49738766,
+    49719751
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -132,6 +146,20 @@
     "https://gegell.github.io/posts/factorio-rng",
     "https://harnesstax.github.io/",
     "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
-    "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving"
+    "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving",
+    "https://global.fujitsu/en-global/pr/news/2026/09/14-02",
+    "https://about.gitlab.com/blog/rate-limit-change-2026",
+    "https://servo.org/blog/2026/09/15/one-year-of-sponsorship",
+    "https://minimallysufficient.com/posts/llm-classification-is-feature-extraction",
+    "https://events.ccc.de/en/2026/09/12/40c3-model-citizens",
+    "https://asiaai.fyi/openai-misalignment-framework-global-governance",
+    "https://jakeasmith.com/blog/http-build-url",
+    "https://economist.com/science-and-technology/2026/09/16/artificial-intelligence-now-beats-some-of-the-best-human-forecasters",
+    "https://mysetup.ai/",
+    "https://ryan.science/blog/keys-not-included",
+    "https://damtp.cam.ac.uk/events/strings02/dirac/speach.html",
+    "https://z.ai/blog/glm-built-its-inference-infrastructure",
+    "https://manticoresearch.com/blog/auto-chunking",
+    "https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife"
   ]
 }
