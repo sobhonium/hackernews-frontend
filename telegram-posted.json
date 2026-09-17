@@ -50,7 +50,22 @@
     49725356,
     49710903,
     49725541,
-    49727627
+    49727627,
+    49724881,
+    49731285,
+    49732270,
+    49732931,
+    49732513,
+    49729000,
+    49719596,
+    49700153,
+    49734264,
+    49734929,
+    49711424,
+    49674451,
+    49733726,
+    49735410,
+    49677916
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -102,6 +117,21 @@
     "https://tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip",
     "https://ohhelloana.blog/tell-the-speakers",
     "https://ycombinator.com/companies/kyber/jobs/eturrAR-forward-deployed-engineer",
-    "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand"
+    "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand",
+    "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+    "https://rohanbansal.com/qorl",
+    "https://mimo.xiaomi.com/rl",
+    "https://arxiv.org/abs/2609.16338",
+    "https://filipovski.net/2026/09/16/backups-arent-simple.html",
+    "https://will-keleher.com/posts/small-programming-tricks-matter",
+    "https://johnjwang.com/post/2026/09/15/engineering-behind-us-strategic-petroleum-reserve",
+    "https://amazon.science/blog/developing-provably-correct-rust-code-with-verus",
+    "https://openspec.dev/",
+    "https://gcaptain.com/the-return-of-sail-power-cargo-ships-are-turning-back-to-the-wind",
+    "https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-11",
+    "https://gegell.github.io/posts/factorio-rng",
+    "https://harnesstax.github.io/",
+    "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+    "https://untranslatedjp.substack.com/p/japans-book-scene-is-quietly-moving"
   ]
 }
