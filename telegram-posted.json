@@ -93,7 +93,22 @@
     49746117,
     49742355,
     49723544,
-    49743483
+    49743483,
+    49753878,
+    49755024,
+    49754785,
+    49755160,
+    49746406,
+    49753179,
+    49754823,
+    49752041,
+    49721507,
+    49753211,
+    49750152,
+    49752614,
+    49753131,
+    49754064,
+    49755337
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -188,6 +203,21 @@
     "https://bbc.com/news/articles/cmzezj5e18xxo",
     "https://crowdsec.net/blog/crowdsec-statement-source-code-exposure",
     "https://playtaurus.com/blog/i-put-nam-a2-lite-inside-an-irig-hd-x",
-    "https://arxiv.org/abs/2609.18842"
+    "https://arxiv.org/abs/2609.18842",
+    "https://arxiv.org/abs/2609.20804",
+    "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture",
+    "https://try.cloudflare.com/",
+    "https://science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+    "https://sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops",
+    "https://blog.liampwll.com/posts/bend_vibe_coding",
+    "https://beanshell.github.io/home.html",
+    "https://openjev.com/",
+    "https://gods.art/articles/equation_shadows",
+    "https://hawksley.dev/blog/i-dont-like-passkeys",
+    "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+    "https://nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
+    "https://ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
+    "https://nats.aero/news/nats-publishes-preliminary-report-on-technical-incident-of-8-september",
+    "https://blog.nseldeib.com/p/build-faster-feedback-loops-using"
   ]
 }
