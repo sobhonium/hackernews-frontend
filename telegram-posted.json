@@ -108,7 +108,20 @@
     49752614,
     49753131,
     49754064,
-    49755337
+    49755337,
+    49758736,
+    49758580,
+    49747070,
+    49744036,
+    49758419,
+    49762099,
+    49757050,
+    49748553,
+    49744704,
+    49758615,
+    49761432,
+    49760187,
+    49731413
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -218,6 +231,19 @@
     "https://nytimes.com/2026/09/18/business/warren-buffett-berkshire-chairman.html",
     "https://ycombinator.com/companies/cekura-ai/jobs/AiWwUxI-forward-deployed-engineer-us",
     "https://nats.aero/news/nats-publishes-preliminary-report-on-technical-incident-of-8-september",
-    "https://blog.nseldeib.com/p/build-faster-feedback-loops-using"
+    "https://blog.nseldeib.com/p/build-faster-feedback-loops-using",
+    "https://grapheneos.social/@GrapheneOS/117282080803799576",
+    "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math",
+    "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
+    "https://simonklee.dk/farnese-letter",
+    "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+    "https://liveworld.info/",
+    "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection",
+    "https://cactuscompute.com/needle",
+    "https://nationalgeographic.com/animals/article/meet-the-first-new-cat-species-discovered-in-100-years",
+    "https://arxiv.org/abs/2510.03215",
+    "https://spectrum.ieee.org/llms-for-chip-design",
+    "https://code.claude.com/docs/en/changelog",
+    "https://blog.ndepend.com/understanding-cyclomatic-complexity"
   ]
 }
