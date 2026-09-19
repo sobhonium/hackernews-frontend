@@ -121,7 +121,21 @@
     49758615,
     49761432,
     49760187,
-    49731413
+    49731413,
+    49766637,
+    49765348,
+    49766676,
+    49764791,
+    49766611,
+    49763697,
+    49720143,
+    49734467,
+    49756121,
+    49763296,
+    49763987,
+    49763928,
+    49766821,
+    49766911
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -244,6 +258,20 @@
     "https://arxiv.org/abs/2510.03215",
     "https://spectrum.ieee.org/llms-for-chip-design",
     "https://code.claude.com/docs/en/changelog",
-    "https://blog.ndepend.com/understanding-cyclomatic-complexity"
+    "https://blog.ndepend.com/understanding-cyclomatic-complexity",
+    "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust",
+    "https://laya.convaiinnovations.com/",
+    "https://github.com/mindbox77/zxdesk",
+    "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+    "https://planetscale.com/blog/introducing-tin",
+    "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+    "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+    "https://medium.com/@TmlrOrg/asking-authors-about-their-own-papers-3d2e04e5dee0",
+    "https://quantamagazine.org/black-holes-or-black-hole-stars-astronomers-spar-over-webb-telescopes-little-red-dots-20260914",
+    "https://onionfutures.com/",
+    "https://prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+    "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it",
+    "https://theconversation.com/learning-another-language-may-be-one-of-the-best-ways-to-keep-your-brain-healthy-as-you-age-291951",
+    "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q"
   ]
 }
