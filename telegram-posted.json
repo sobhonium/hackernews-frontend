@@ -199,7 +199,18 @@
     49769561,
     49791997,
     49771389,
-    49795122
+    49795122,
+    49802871,
+    49801324,
+    49801939,
+    49801329,
+    49802160,
+    49797323,
+    49802161,
+    49802030,
+    49780622,
+    49773597,
+    49801218
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -400,6 +411,17 @@
     "https://gabrieloc.com/2026/09/15/perspective.html",
     "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
     "https://polyhedra.net/en",
-    "https://wondermark.com/socrates-vs-writing"
+    "https://wondermark.com/socrates-vs-writing",
+    "https://mouse.dev/blog/muse-runtime-export",
+    "https://cryptocellar.org/bgac/the-mvueh-break.html",
+    "https://techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+    "https://droprun.sh/",
+    "https://github.com/Amal-David/awesome-jev",
+    "https://nathan.rs/posts/gzip-lm",
+    "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch",
+    "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+    "https://daniel.lawrence.lu/blog/2026-09-20-muni-heritage-weekend",
+    "https://jefftk.com/p/teleoperated-humans",
+    "https://data.ornn.com/publications/the-economics-of-open-weight-inference"
   ]
 }
