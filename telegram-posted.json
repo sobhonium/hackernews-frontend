@@ -210,7 +210,20 @@
     49802030,
     49780622,
     49773597,
-    49801218
+    49801218,
+    49805509,
+    49803892,
+    49805278,
+    49781862,
+    49808023,
+    49796379,
+    49806335,
+    49804316,
+    49803959,
+    49806430,
+    49808816,
+    49758709,
+    49796260
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -422,6 +435,19 @@
     "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
     "https://daniel.lawrence.lu/blog/2026-09-20-muni-heritage-weekend",
     "https://jefftk.com/p/teleoperated-humans",
-    "https://data.ornn.com/publications/the-economics-of-open-weight-inference"
+    "https://data.ornn.com/publications/the-economics-of-open-weight-inference",
+    "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "https://anthropic.com/claude-opus-5-5",
+    "https://404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees",
+    "https://github.com/xCuri0/ReBarUEFI",
+    "https://foxscript.org/",
+    "https://kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+    "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design",
+    "https://artificialanalysis.ai/models/claude-opus-5-5",
+    "https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp",
+    "https://bloomberg.com/graphics/2026-iran-school-attack",
+    "https://interconnects.ai/p/the-current-balance-of-power-in-open",
+    "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years",
+    "https://evalapply.org/posts/side-step-secretary-problem-hiring/index.html"
   ]
 }
