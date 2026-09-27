@@ -312,7 +312,21 @@
     49853175,
     49854161,
     49826087,
-    49856149
+    49856149,
+    49844657,
+    49842764,
+    49859112,
+    49856988,
+    49858513,
+    49839567,
+    49857656,
+    49832768,
+    49857729,
+    49839438,
+    49858676,
+    49852905,
+    49860074,
+    49858424
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -626,6 +640,20 @@
     "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
     "https://safenotsafe.dev/",
     "https://tuckerosman.com/projects/16gb-ipod-nano",
-    "https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior"
+    "https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+    "https://astralcodexten.com/p/does-georgism-work-five-years-later",
+    "https://github.com/InfinityLoop1308/PipePipe",
+    "https://arxiv.org/abs/2609.22978",
+    "https://antonz.org/go-concurrency-distilled",
+    "https://github.com/reladraw/reladraw",
+    "https://dashbit.co/blog/evolving-ai-era",
+    "https://privatemode.ai/blog/system-one-from-glm-flash",
+    "https://movingimagearchive.com/",
+    "https://tangled.org/yanndegat.tngl.sh/drawgent",
+    "https://quantamagazine.org/biology-might-not-be-quantum-but-its-math-is-quantumlike-20260923",
+    "https://righto.com/2026/09/8087-tangent-cordic.html",
+    "https://fu-berlin.de/en/presse/informationen/fup/2026/fup_26_116-enceladus-cassini-mikroben-science-postberg/index.html",
+    "https://lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station",
+    "https://saturdayeveningpost.com/2026/09/from-holy-water-to-frozen-meals-the-evolution-of-vending-machines"
   ]
 }
