@@ -381,7 +381,22 @@
     49884625,
     49883760,
     49858193,
-    49879697
+    49879697,
+    49896586,
+    49896604,
+    49892245,
+    49896050,
+    49890226,
+    49892175,
+    49891290,
+    49878093,
+    49883635,
+    49891295,
+    49894351,
+    49890051,
+    49880411,
+    49869441,
+    49893653
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -764,6 +779,21 @@
     "https://github.com/Low-Zi-Hong/ESP32s3-LLM-Cluster",
     "https://worldlabs.ai/blog/amd-announcement",
     "https://jamiesimon.io/blog/how-to-win-a-beer-with-high-dimensional-statistics",
-    "https://thisamericanlife.org/897/transcript"
+    "https://thisamericanlife.org/897/transcript",
+    "https://openai.com/index/introducing-gpt-6-1-sol",
+    "https://openai.com/index/introducing-dots",
+    "https://spectrum.ieee.org/delhi-electricity-loss",
+    "https://eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+    "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+    "https://withouthotair.com/",
+    "https://github.com/PostHog/jeeves",
+    "https://bookofjoe2.blogspot.com/2026/09/walking-men.html",
+    "https://nytimes.com/2026/09/28/science/virus-molluscum-human-gene.html",
+    "https://derekthompson.org/p/the-death-of-the-american-host",
+    "https://frostyard.github.io/nsl",
+    "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+    "https://jagi.studio/posts/phyllotaxis",
+    "https://bumbershootsoft.wordpress.com/2026/09/26/digital-audio-on-the-zx-spectrums-1-bit-beeper",
+    "https://theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674"
   ]
 }
