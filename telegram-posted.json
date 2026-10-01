@@ -436,7 +436,21 @@
     49913350,
     49912444,
     49897600,
-    49912792
+    49912792,
+    49923692,
+    49923466,
+    49920160,
+    49922515,
+    49920896,
+    49922569,
+    49921923,
+    49922736,
+    49922568,
+    49922594,
+    49924179,
+    49919910,
+    49923056,
+    49922674
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -874,6 +888,18 @@
     "https://mattkeeter.com/projects/halfspace",
     "https://netlify.com/blog/edge-functions-firecracker-microvms",
     "https://nytimes.com/2026/09/21/science/space/what-a-massive-new-crater-means-for-future-moon-bases.html",
-    "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards"
+    "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards",
+    "https://blog.cloudflare.com/clef-decision-models",
+    "https://turbopuffer.com/blog/rip-vector-database",
+    "https://github.com/streetcomplete/StreetComplete/issues/5421",
+    "https://con.racket-lang.org/",
+    "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+    "https://blog.cloudflare.com/cloudflare-k2-streams",
+    "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+    "https://polyedergarten.de/e_index.htm",
+    "https://blog.gitbutler.com/git-3-sha-256",
+    "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+    "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
+    "https://rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers"
   ]
 }
