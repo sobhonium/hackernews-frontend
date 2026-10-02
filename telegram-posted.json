@@ -450,7 +450,17 @@
     49924179,
     49919910,
     49923056,
-    49922674
+    49922674,
+    49926069,
+    49928121,
+    49926536,
+    49925969,
+    49926917,
+    49927212,
+    49929113,
+    49926773,
+    49926512,
+    49924618
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -900,6 +910,16 @@
     "https://blog.gitbutler.com/git-3-sha-256",
     "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
     "https://techrights.org/n/2026/10/01/Red_Hat_Being_Phased_Out_of_Existence_Like_Many_Other_Companies.shtml",
-    "https://rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers"
+    "https://rtl-sdr.com/various-projects-independently-find-hidden-sdr-capabilities-in-esp32-microcontrollers",
+    "https://earendil.com/posts/pi-1-0",
+    "https://lwn.net/Articles/1097401",
+    "https://svelte.dev/blog/sveltekit-3-is-here",
+    "https://earendil.com/posts/pi-durable",
+    "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+    "https://cssbed.com/",
+    "https://singapore-samizdat.com/p/how-singapores-government-run-dating-service-firstdate-works",
+    "https://github.com/Vibra-Ingenn/Janus",
+    "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy",
+    "https://stoppels.ch/goalposts"
   ]
 }
