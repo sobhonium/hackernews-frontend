@@ -536,7 +536,22 @@
     49958569,
     49957068,
     49916550,
-    49957117
+    49957117,
+    49969183,
+    49971230,
+    49970871,
+    49972419,
+    49971921,
+    49945588,
+    49971719,
+    49970667,
+    49972730,
+    49971846,
+    49973839,
+    49963171,
+    49973598,
+    49972211,
+    49944049
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1071,6 +1086,21 @@
     "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
     "https://1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage",
     "https://pvk.ca/Blog/2012/02/19/fixed-points-and-strike-mandates",
-    "https://youtube.com/watch?v=eZ8WWZzoaR0"
+    "https://youtube.com/watch?v=eZ8WWZzoaR0",
+    "https://reflection.ai/blog/introducing-beam",
+    "https://flattensf.com/",
+    "https://qlabs.sh/research/dust",
+    "https://edworkingpapers.com/ai26-1551",
+    "https://debugbear.com/blog/example-dot-com-redesign-history",
+    "https://blog.citp.princeton.edu/2026/08/03/an-algorithmic-failure-beneath-the-secret-ballot",
+    "https://dbushell.com/2026/10/03/deno-to-node",
+    "https://vals.ai/blogs/room-temperature-magnetic-semiconductors",
+    "https://github.com/eolix/photosuite/issues/77",
+    "https://niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
+    "https://jross.me/open-source-as-we-know-it-is-dead",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api",
+    "https://vivienhenz.com/common-lisp",
+    "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
+    "https://cses.fi/book/book.pdf"
   ]
 }
