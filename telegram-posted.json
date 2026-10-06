@@ -551,7 +551,22 @@
     49963171,
     49973598,
     49972211,
-    49944049
+    49944049,
+    49977979,
+    49980715,
+    49976265,
+    49977177,
+    49979845,
+    49978563,
+    49977072,
+    49967427,
+    49977588,
+    49975619,
+    49981197,
+    49977819,
+    49978595,
+    49977437,
+    49976823
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1101,6 +1116,21 @@
     "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api",
     "https://vivienhenz.com/common-lisp",
     "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
-    "https://cses.fi/book/book.pdf"
+    "https://cses.fi/book/book.pdf",
+    "https://mistral.ai/news/mistral-large-4",
+    "https://github.com/FeSens/openTPU",
+    "https://nobelprize.org/prizes/physics/2026",
+    "https://pola.rs/posts/release-polars-2",
+    "https://worrydream.com/EarlyHistoryOfSmalltalk",
+    "https://mihai.dinculescu.dev/posts/tapo-speaks-tpap",
+    "https://helgilibrary.com/companies/jetbrains",
+    "https://matklad.github.io/2026/10/05/benchmark-milliseconds.html",
+    "https://techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire",
+    "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore",
+    "https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+    "https://ebsco.com/research-starters/power-and-energy/mathematics-geothermal-energy",
+    "https://peterszentkiralyi.eu/darkplug",
+    "https://arxiv.org/abs/2610.06783",
+    "https://phys.org/news/2026-10-nature-capacity-species-lost-vastly.html"
   ]
 }
