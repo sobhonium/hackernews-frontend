@@ -632,7 +632,16 @@
     50011928,
     49992994,
     50013931,
-    49985548
+    49985548,
+    50019911,
+    50020014,
+    50018088,
+    50018817,
+    50018420,
+    50021540,
+    49983582,
+    50016489,
+    50018239
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1261,6 +1270,15 @@
     "https://biohub.org/news/virtual-biology-initiative-expansion",
     "https://frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1697900/full",
     "https://naturalsystems.io/eth68",
-    "https://svg-spark.vercel.app/"
+    "https://svg-spark.vercel.app/",
+    "https://deno.com/blog/cloudflare",
+    "https://oxide.computer/blog/our-445m-series-d",
+    "https://iminafleeting.com/",
+    "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+    "https://nobelprize.org/prizes/peace/2026/press-release",
+    "https://euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
+    "https://linum.ai/field-notes/pyramid-jit",
+    "https://github.com/microsoft/mxc",
+    "https://github.com/alex0ptr/once"
   ]
 }
