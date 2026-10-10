@@ -654,7 +654,19 @@
     50003545,
     50027590,
     50028062,
-    50027694
+    50027694,
+    50033407,
+    50034081,
+    50031614,
+    50024242,
+    50016956,
+    50029123,
+    50032758,
+    50031269,
+    50033721,
+    49986919,
+    50034008,
+    49998801
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1305,6 +1317,18 @@
     "https://oss.lsantos.dev/proton-drive-linux-fs",
     "https://atarimuseum.nl/atari-falcon",
     "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived",
-    "https://primeintellect.ai/blog/prime-agent-rust"
+    "https://primeintellect.ai/blog/prime-agent-rust",
+    "https://community.bitwarden.com/t/published-version-update-in-app-stores/102750",
+    "https://thomas-huehn.com/knuth-reward-check",
+    "https://github.com/rociiu/talorys",
+    "https://ndstudio.gov/posts/say-hello-to-rampart",
+    "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents",
+    "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover",
+    "https://conversableeconomist.com/2026/09/28/i-would-like-the-value-of-my-home-to-rise-while-my-property-taxes-fall",
+    "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach",
+    "https://chronicles.popvax.com/p/popvax-goes-clinical",
+    "https://phys.org/news/2026-10-chernobyl-particles-reveal-unexpectedly-stable.html",
+    "https://ft.com/content/e26574cf-94cc-40d9-921e-5c7417fc5dbd",
+    "https://tonym.us/wsl2-vs-wsl3-benchmarks.html"
   ]
 }
