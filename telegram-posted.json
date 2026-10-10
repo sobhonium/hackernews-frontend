@@ -641,7 +641,20 @@
     50021540,
     49983582,
     50016489,
-    50018239
+    50018239,
+    50028275,
+    50022292,
+    50024499,
+    50021410,
+    50023450,
+    50027853,
+    50019056,
+    49997481,
+    50026555,
+    50003545,
+    50027590,
+    50028062,
+    50027694
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1279,6 +1292,19 @@
     "https://euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
     "https://linum.ai/field-notes/pyramid-jit",
     "https://github.com/microsoft/mxc",
-    "https://github.com/alex0ptr/once"
+    "https://github.com/alex0ptr/once",
+    "https://rea.tools/",
+    "https://minesweeper.mikelacher.com/",
+    "https://carrierexplode.com/",
+    "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data",
+    "https://typesafe.ai/blog/series-ai",
+    "https://lwn.net/Articles/1055211",
+    "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
+    "https://usenix.org/conference/usenixsecurity24/presentation/zhang-qibo",
+    "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+    "https://oss.lsantos.dev/proton-drive-linux-fs",
+    "https://atarimuseum.nl/atari-falcon",
+    "https://phenomenalworld.org/analysis/has-the-autonomous-trucking-revolution-arrived",
+    "https://primeintellect.ai/blog/prime-agent-rust"
   ]
 }
