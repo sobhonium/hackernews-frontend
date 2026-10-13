@@ -730,7 +730,22 @@
     50063717,
     50047664,
     50063427,
-    50065713
+    50065713,
+    50073879,
+    50071017,
+    50074289,
+    50074869,
+    50072913,
+    50069499,
+    50073221,
+    50073633,
+    50074969,
+    50070302,
+    50069971,
+    50071310,
+    50061659,
+    50070593,
+    50073471
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1456,6 +1471,20 @@
     "https://github.com/prabanta-dev/janas",
     "https://app.getsupers.com/auto-research",
     "https://yyhh.org/blog/2026/10/ai-is-a-tool",
-    "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time"
+    "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time",
+    "https://deepmind.google/models/gemini",
+    "https://apple.com/apple-homeview",
+    "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+    "https://developers.googleblog.com/gemini-4-argon-for-robotics",
+    "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development",
+    "https://github.com/rust-lang/rust/issues/164250",
+    "https://sammystraus.com/",
+    "https://anthropic.com/engineering/redesigning-source-control",
+    "https://ycombinator.com/companies/coris/jobs/h0nDly8-backend-engineer-ai-native-risk-infrastructure-integrations",
+    "https://firefox.com/en-US/enterprise",
+    "https://eg2.haku.sh/",
+    "https://apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k",
+    "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+    "https://machinelearning.apple.com/research/distributed-gpu-cloud"
   ]
 }
