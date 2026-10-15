@@ -783,7 +783,20 @@
     50091788,
     50093612,
     50067325,
-    50092470
+    50092470,
+    50104654,
+    50103338,
+    50103630,
+    50102923,
+    50104726,
+    50105344,
+    50102247,
+    50101813,
+    50104310,
+    50103164,
+    50070625,
+    50103263,
+    50058531
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1560,6 +1573,19 @@
     "https://catchabird.com/",
     "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
     "https://nytpu.com/gemlog/2026-03-18",
-    "https://petal.live/"
+    "https://petal.live/",
+    "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+    "https://github.com/fyzugx/DEsk",
+    "https://derekthompson.org/p/i-know-why-the-mathematicians-weep",
+    "https://libreboot.org/news/libreboot2610.html",
+    "https://fortran-lang.org/news/2026/09-15-Fortran-birthday",
+    "https://snoutcover.com/one-year",
+    "https://unfenced.land/",
+    "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware",
+    "https://signalscorps.com/blog/prompt-injection-in-http-headers",
+    "https://cppstories.com/2026/cpp26_contracts",
+    "https://blog.dfb.sh/blog/eap770-root-for-two-zeros",
+    "https://github.com/konieczkow/gridsnap",
+    "https://retroist.com/p/the-haunted-toys-r-us"
   ]
 }
