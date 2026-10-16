@@ -796,7 +796,20 @@
     50103164,
     50070625,
     50103263,
-    50058531
+    50058531,
+    50107379,
+    50112330,
+    50105647,
+    50111852,
+    50109715,
+    50068203,
+    50112657,
+    50108872,
+    50106023,
+    50109375,
+    50111742,
+    50105648,
+    50112739
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1586,6 +1599,19 @@
     "https://cppstories.com/2026/cpp26_contracts",
     "https://blog.dfb.sh/blog/eap770-root-for-two-zeros",
     "https://github.com/konieczkow/gridsnap",
-    "https://retroist.com/p/the-haunted-toys-r-us"
+    "https://retroist.com/p/the-haunted-toys-r-us",
+    "https://research.meta.ai/blog/muse-spark-open",
+    "https://ipinfo.io/blog/rpki-protects-70-internet-routes",
+    "https://already-clean.goodfire.com/",
+    "https://niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say",
+    "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host",
+    "https://pcmag.com/news/apple-routed-a-graphite-pipe-through-the-iphone-duos-hinge",
+    "https://tesla.com/roadster",
+    "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+    "https://zachlandes.com/trolley-problem",
+    "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+    "https://github.com/johnrash/bebox",
+    "https://krea.ai/krea-3",
+    "https://github.com/Saffsanity/sill"
   ]
 }
