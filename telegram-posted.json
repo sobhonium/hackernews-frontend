@@ -836,7 +836,18 @@
     50121939,
     50122736,
     50120224,
-    50125545
+    50125545,
+    50129121,
+    50131256,
+    50131213,
+    50119315,
+    50106747,
+    50121506,
+    50127979,
+    50129045,
+    50104783,
+    50103255,
+    50103588
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1666,6 +1677,17 @@
     "https://anthropic.com/research/designing-efficient-quantum-circuits",
     "https://sandordargo.com/blog/2026/09/30/cpp26-debugging",
     "https://jakearchibald.com/2026/jpeg-xl-vs-avif",
-    "https://theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850"
+    "https://theatlantic.com/science/2026/10/giant-african-snails-florida-invasion/688850",
+    "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+    "https://pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time",
+    "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+    "https://frozenfractal.com/blog/2026/10/12/around-the-world-34-a-pretty-sky",
+    "https://paperinstruments.com/ultramarine",
+    "https://newyorker.com/magazine/2026/10/19/the-first-candid",
+    "https://llmspeed.dev/",
+    "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "https://docs.openrewrite.org/reference/latest-versions-of-every-openrewrite-module",
+    "https://lf-lang.org/",
+    "https://cr.yp.to/papers/cryptoint-20250424.pdf"
   ]
 }
