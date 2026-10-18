@@ -859,7 +859,21 @@
     50114758,
     50090927,
     50097257,
-    50127586
+    50127586,
+    50141076,
+    50139692,
+    50138531,
+    50140001,
+    50141681,
+    50140769,
+    50139067,
+    50137620,
+    50093081,
+    50141429,
+    50137950,
+    50124730,
+    50122671,
+    50114061
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1712,6 +1726,20 @@
     "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels",
     "https://thunk.blog/posts/types-of-types-haskell-kind-system",
     "https://github.com/vacuula/vacuula",
-    "https://github.com/valimised/ivxv"
+    "https://github.com/valimised/ivxv",
+    "https://github.com/VikOlliver/RepRapMicron/wiki",
+    "https://niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes",
+    "https://api-docs.deepseek.com/guides/search",
+    "https://github.com/0x23/MicroManipulatorStepper",
+    "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science",
+    "https://legendofhyrule.com/",
+    "https://t3.at/blog/2026-10-17-parser-combinators",
+    "https://readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything",
+    "https://en.wikipedia.org/wiki/Hatching_(heraldry)",
+    "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+    "https://sphinx-six-theta.vercel.app/",
+    "https://teal-language.org/",
+    "https://regexmarblerun.com/",
+    "https://simonwillison.net/2026/Oct/15/chirp-pong"
   ]
 }
