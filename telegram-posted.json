@@ -847,7 +847,19 @@
     50129045,
     50104783,
     50103255,
-    50103588
+    50103588,
+    50136881,
+    50126253,
+    50126312,
+    50100994,
+    50132193,
+    50100366,
+    50136536,
+    50132870,
+    50114758,
+    50090927,
+    50097257,
+    50127586
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1688,6 +1700,18 @@
     "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
     "https://docs.openrewrite.org/reference/latest-versions-of-every-openrewrite-module",
     "https://lf-lang.org/",
-    "https://cr.yp.to/papers/cryptoint-20250424.pdf"
+    "https://cr.yp.to/papers/cryptoint-20250424.pdf",
+    "https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day",
+    "https://nature.com/articles/d41586-026-03266-x",
+    "https://smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679",
+    "https://furifont.antfu.me/",
+    "https://pele.run/",
+    "https://github.com/antirez/c64-hw-simulator",
+    "https://tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends",
+    "https://numismaticnews.net/gold-now-top-u-s-export",
+    "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels",
+    "https://thunk.blog/posts/types-of-types-haskell-kind-system",
+    "https://github.com/vacuula/vacuula",
+    "https://github.com/valimised/ivxv"
   ]
 }
