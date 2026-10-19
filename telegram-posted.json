@@ -887,7 +887,22 @@
     50135762,
     50123123,
     50122058,
-    50146624
+    50146624,
+    50152307,
+    50154540,
+    50134472,
+    50150434,
+    50155245,
+    50136126,
+    50155172,
+    50154624,
+    50150927,
+    50129102,
+    50153630,
+    50151376,
+    50154029,
+    50150809,
+    50151980
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1768,6 +1783,20 @@
     "https://blog.picheta.me/post/killswitch-lang",
     "https://unsung.aresluna.org/traditional-but-puzzling",
     "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs",
-    "https://csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base"
+    "https://csis.org/analysis/how-quickly-can-dod-rebuild-and-recast-munitions-industrial-base",
+    "https://marc.info/?l=openbsd-ports&m=179236125692175",
+    "https://minimax.io/blog/minimax-m31f",
+    "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+    "https://mistral.ai/news/timestral",
+    "https://inceptionlabs.ai/blog/introducing-mercury-3",
+    "https://youtube.com/watch?v=cNm4zyUtWj0",
+    "https://evidence.dev/jobs",
+    "https://github.com/kksimp/Mac.apk",
+    "https://spectrum.ieee.org/alternatives-to-animal-testing",
+    "https://cs.uaf.edu/2015/spring/cs463/lecture/03_23_AES.html",
+    "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+    "https://wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+    "https://community.letsencrypt.org/t/lets-encrypt-is-adding-two-additional-remote-perspectives-for-domain-validation/252166",
+    "https://3anddoneapp.com/try"
   ]
 }
