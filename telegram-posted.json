@@ -940,7 +940,21 @@
     50170917,
     50173891,
     50108717,
-    50168357
+    50168357,
+    50180873,
+    50182987,
+    50181136,
+    50181114,
+    50181175,
+    50182526,
+    50177916,
+    50180836,
+    50181137,
+    50176908,
+    50181326,
+    50180752,
+    50180444,
+    50179455
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1872,6 +1886,20 @@
     "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia",
     "https://thebeliever.net/the-other-epidemic",
     "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
-    "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery"
+    "https://e360.yale.edu/digest/deepwater-horizon-deep-sea-recovery",
+    "https://github.com/php/php-src/releases/tag/php-8.2.35",
+    "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+    "https://duckdb.org/2026/10/21/announcing-duckdb-200",
+    "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+    "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+    "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds",
+    "https://wiz.io/blog/php2shell-php-rce",
+    "https://techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck",
+    "https://alterauth.com/",
+    "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+    "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+    "https://coached.com/essays/most-advice-is-right-for-the-person-giving-it",
+    "https://9mothers.com/careers"
   ]
 }
