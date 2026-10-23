@@ -981,7 +981,18 @@
     50194522,
     50144727,
     50173944,
-    50154147
+    50154147,
+    50202681,
+    50202217,
+    50198675,
+    50194833,
+    50197313,
+    50197404,
+    50202671,
+    50162431,
+    50173516,
+    50203161,
+    50202762
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -1954,6 +1965,17 @@
     "https://lastmuseum.com/",
     "https://github.com/rhargreaves/vmmouse-nt3",
     "https://engelsbergideas.com/notebook/the-unknown-painter-behind-manhattans-gilded-age-interiors",
-    "https://yle.fi/t/18-332106/fi"
+    "https://yle.fi/t/18-332106/fi",
+    "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+    "https://anthropic.com/research/formal-verification",
+    "https://github.com/NVIDIA/OpenShell",
+    "https://techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html",
+    "https://modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+    "https://taler.net/en/news/2026-13.html",
+    "https://economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+    "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-now",
+    "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855472",
+    "https://cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+    "https://jank-lang.org/"
   ]
 }
