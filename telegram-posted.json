@@ -1017,7 +1017,17 @@
     50176544,
     50214373,
     50214218,
-    50217683
+    50217683,
+    50192975,
+    50218430,
+    50221676,
+    50219666,
+    50217495,
+    50219177,
+    50186450,
+    50181106,
+    50194536,
+    50218195
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2025,6 +2035,16 @@
     "https://martinfinkel.com/blog/gaussian-blur-c-vs-csharp",
     "https://corgi.computer/",
     "https://theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-    "https://sciencedaily.com/releases/2026/10/261018084421.htm"
+    "https://sciencedaily.com/releases/2026/10/261018084421.htm",
+    "https://infoq.com/news/2026/10/tornadovm-7-gpu",
+    "https://github.com/obsproject/obs-studio/releases/tag/33.0.0",
+    "https://nypost.com/2026/10/24/business/google-illegally-tore-down-250k-trees-for-finland-data-center-infuriating-locals-report",
+    "https://southampton.ac.uk/~doug/quantum_physics/index.html",
+    "https://grapheneos.social/@GrapheneOS/117492375462459244",
+    "https://aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+    "https://scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month",
+    "https://1000awesomethings.com/2026/10/08/576-appreciating-the-beauty-of-all-your-bodys-scars-and-scratches-4",
+    "https://larstofus.com/2025/11/16/how-to-run-a-city-builder-on-12-5-mhz",
+    "https://rtfeldman.com/fp-vs-c"
   ]
 }
