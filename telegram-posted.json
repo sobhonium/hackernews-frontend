@@ -1094,7 +1094,22 @@
     50231041,
     50252008,
     50247928,
-    50226808
+    50226808,
+    50261319,
+    50258538,
+    50257419,
+    50257326,
+    50259604,
+    50245014,
+    50261352,
+    50261583,
+    50258868,
+    50261647,
+    50259343,
+    50232604,
+    50261784,
+    50261819,
+    50232101
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2179,6 +2194,21 @@
     "https://t3x.org/lisp64k/index.html",
     "https://gregoryalexander.com/blog/2026/10/23/is-php-quietly-running-on-your-coldfusion-server-how-to-check-and-remove-it",
     "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
-    "https://latimes.com/archives/la-xpm-1998-aug-10-mn-11870-story.html"
+    "https://latimes.com/archives/la-xpm-1998-aug-10-mn-11870-story.html",
+    "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+    "https://apple.com/imac",
+    "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c",
+    "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+    "https://wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans",
+    "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram",
+    "https://apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6",
+    "https://cloudsleuth.io/blog/php2shell-litellm-gitlab-find-what-you-run",
+    "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
+    "https://cfsg.axiommath.ai/",
+    "https://wiz.io/blog/php2shell-exploitation-so-far",
+    "https://gizmodo.com/microsoft-mcdonalds-verizon-and-others-tell-crypto-platform-not-to-tokenize-their-stocks-2000830368",
+    "https://wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there",
+    "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+    "https://atgreen.github.io/repl-yell/posts/openldk-java-in-common-lisp"
   ]
 }
