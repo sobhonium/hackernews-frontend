@@ -1161,7 +1161,19 @@
     50287775,
     50291116,
     50287599,
-    50287448
+    50287448,
+    50296470,
+    50255343,
+    50296486,
+    50270651,
+    50298436,
+    50273104,
+    50299182,
+    50295450,
+    50298964,
+    50249598,
+    50297089,
+    50269668
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2312,6 +2324,18 @@
     "https://github.com/theconsensuslabs/noalloc",
     "https://iptrust.co/blog/if-ipv4-were-land",
     "https://mastodon.sdf.org/@netbsd/117518160563539748",
-    "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html"
+    "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html",
+    "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+    "https://cuis.st/",
+    "https://labs.ycombinator.com/projects/games/index.html",
+    "https://github.com/da-luce/astroterm",
+    "https://github.com/herdrdev/herdr-app",
+    "https://youtube.com/watch?v=kL9BTbIGxLg",
+    "https://penligent.ai/hackinglabs/cve-2026-98432",
+    "https://github.com/SheepSeb/tinyworldformer",
+    "https://github.com/picocss/pico/discussions/754",
+    "https://davidpriver.com/Iterating-backwards-in-C.html",
+    "https://journal.animationstudies.org/article/id/66",
+    "https://paradedb.com/blog/opening-a-closed-tin-part-2"
   ]
 }
