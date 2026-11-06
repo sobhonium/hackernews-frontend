@@ -1338,7 +1338,19 @@
     50377976,
     50380979,
     50368208,
-    50382594
+    50382594,
+    50385272,
+    50384233,
+    50387738,
+    50386338,
+    50387796,
+    50387546,
+    50383057,
+    50387406,
+    50378643,
+    50386789,
+    50385870,
+    50383739
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2659,6 +2671,18 @@
     "https://openssh.org/releasenotes.html",
     "https://axiommath.ai/research/the-stacks-project-formalized",
     "https://linum.ai/field-notes/pjit-21k",
-    "https://horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf"
+    "https://horace.org/blog/wp-content/uploads/2012/05/How-to-Lie-With-Statistics-1954-Huff.pdf",
+    "https://github.com/anthropics/claude-code/issues/107757",
+    "https://cve.org/CVERecord?id=CVE-2026-83844",
+    "https://github.com/dsx-ai-factory/nvke",
+    "https://thinkingmachines.ai/news/inkling-2-small",
+    "https://pwn.college/",
+    "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier",
+    "https://naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai",
+    "https://techlaws.pages.dev/tesla-and-spacex-lose-over-420b-in-combined-market-cap-in-the-two-days",
+    "https://firenook.dev/",
+    "https://github.com/matthewmrichter/mooftcp",
+    "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+    "https://salon.com/2026/11/05/goodbye-from-salon"
   ]
 }
