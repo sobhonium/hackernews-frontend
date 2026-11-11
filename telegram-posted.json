@@ -1469,7 +1469,15 @@
     50382401,
     50441338,
     50441518,
-    50436640
+    50436640,
+    50447074,
+    50448921,
+    50445401,
+    50449275,
+    50446246,
+    50406224,
+    50448340,
+    50449080
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2917,6 +2925,14 @@
     "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys",
     "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
     "https://tinyvalencia.com/",
-    "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider"
+    "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider",
+    "https://vulncheck.com/blog/anthropic-glasswing-november-update",
+    "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
+    "https://theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america",
+    "https://science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
+    "https://teorth.github.io/tao-web/six-math-essentials.html",
+    "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses",
+    "https://tis-100.wincon.dev/",
+    "https://blue-continuum.com/hooked-on-tuna"
   ]
 }
