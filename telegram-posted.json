@@ -1492,7 +1492,18 @@
     50436788,
     50455332,
     50453763,
-    50451903
+    50451903,
+    50459745,
+    50462177,
+    50459703,
+    50458900,
+    50459485,
+    50456791,
+    50428619,
+    50463103,
+    50458208,
+    50460154,
+    50457618
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2963,6 +2974,17 @@
     "https://tiki.li/blog/about_blqsort",
     "https://cabird.com/talks/shipping-faster",
     "https://massimo-nocentini.github.io/pharo-vm/world.html",
-    "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100"
+    "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100",
+    "https://mcmillen.dev/sigbovik",
+    "https://wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+    "https://wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+    "https://hugovk.dev/blog/2026/lock-github-actions",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+    "https://quantamagazine.org/did-life-begin-in-an-rna-world-20261109",
+    "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026",
+    "https://commandlinesystems.com/magic.txt",
+    "https://github.com/tylertms/Stela",
+    "https://graphics.cs.utah.edu/teapot"
   ]
 }
