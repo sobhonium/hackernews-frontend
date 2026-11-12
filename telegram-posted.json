@@ -1503,7 +1503,22 @@
     50463103,
     50458208,
     50460154,
-    50457618
+    50457618,
+    50467087,
+    50471793,
+    50471431,
+    50471668,
+    50471731,
+    50467618,
+    50472260,
+    50468888,
+    50470488,
+    50467460,
+    50458849,
+    50468944,
+    50471650,
+    50472490,
+    50465352
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -2985,6 +3000,20 @@
     "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026",
     "https://commandlinesystems.com/magic.txt",
     "https://github.com/tylertms/Stela",
-    "https://graphics.cs.utah.edu/teapot"
+    "https://graphics.cs.utah.edu/teapot",
+    "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+    "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+    "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows",
+    "https://moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+    "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+    "https://github.com/hyperionaidev/smolmaxxing",
+    "https://github.com/simpsoka/zigzag",
+    "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
+    "https://makepad.github.io/relax",
+    "https://github.com/chocoford/ExcalidrawZ",
+    "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+    "https://smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857",
+    "https://pron.github.io/posts/correctness-and-complexity"
   ]
 }
