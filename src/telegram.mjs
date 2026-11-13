@@ -96,90 +96,73 @@ export async function tgCall(token, method, fields, file, attempt = 0) {
 }
 
 // ── Message formatting ──
-function escapeHtml(s = "") {
-  return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-}
-
-// Clip after escaping so length is guaranteed; strips a dangling partial entity.
-function safeClip(text, max) {
-  let t = escapeHtml((text || "").trim());
-  if (t.length > max) t = t.slice(0, Math.max(0, max - 1));
-  t = t.replace(/&[a-z]*$/i, "").trimEnd();
-  return t.length < (text || "").trim().length ? t + " …" : t;
+function clipPlain(text, max) {
+  const t = (text || "").trim();
+  if (t.length <= max) return t;
+  return t.slice(0, Math.max(0, max - 1)).trimEnd() + "…";
 }
 
 function buildMeta(s) {
-  return `▲ ${s.score ?? 0} · 💬 ${s.descendants ?? 0} · ${escapeHtml(s.author ?? "?")}`;
+  return `Score: ${s.score ?? 0} · ${s.author ?? "?"}`;
 }
 
-// Link to the article itself. Visible text is just "link"; the full URL is
-// hidden in the href so the caption stays clean.
 function articleLink(s) {
   if (!s.url || typeof s.url !== "string") return null;
   try {
     const u = new URL(s.url);
     if (!/^https?:$/.test(u.protocol)) return null;
-    return `<b>🌐</b> <a href="${escapeHtml(u.href)}">link</a>`;
+    return u.href;
   } catch {
     return null;
   }
 }
 
-// One post per story: title, label, discussion recap and TL;DR all in the
-// caption so the content visibly belongs to the post. Sections are shed in
-// reverse priority (TL;DR → discussion → label → title) to fit the limit.
-function buildCaption(s) {
+// Returns { first, continuation } (at most one continuation message) with plain text, no formatting.
+function buildStoryMessages(s, { captionMode }) {
   const linkLine = articleLink(s);
-  const footer = [buildMeta(s), linkLine, `🟠 ${hnItem(s.id)}`].filter(Boolean).join("\n");
+  const footer = [buildMeta(s), linkLine].filter(Boolean).join("\n");
+  const title = clipPlain(s.title || "", 200);
+  const label = (s.groq_label || "").trim();
+  const summary = (s.groq_explain || "").trim();
+  const limit = captionMode ? CAPTION_LIMIT : MESSAGE_LIMIT;
 
-  const titleOf = (max) => `<b>${safeClip(s.title, max)}</b>`;
-  const labelOf = (max) => {
-    const l = safeClip(s.groq_label, max);
-    return l ? `💡 ${l}` : null;
-  };
-  const discOf = (max) => {
-    const d = safeClip(s.groq_discussion, max);
-    return d && d !== "No comments." ? `💬 <b>Hacker News discussion</b>\n${d}` : null;
-  };
-  const explOf = (max) => {
-    const e = safeClip(s.groq_explain, max);
-    return e ? `📖 <b>TL;DR</b>\n${e}` : null;
-  };
+  const headerParts = [title];
+  if (label) headerParts.push(clipPlain(label, 300));
+  const header = headerParts.join("\n\n");
 
-  const attempts = [
-    [titleOf(130), labelOf(170), discOf(380), explOf(150)],
-    [titleOf(130), labelOf(170), discOf(280), null],
-    [titleOf(120), labelOf(140), discOf(180), null],
-    [titleOf(100), null, discOf(110), null],
-    [titleOf(80), null, null, null],
-  ];
-  for (const sections of attempts) {
-    const cap = [...sections.filter(Boolean), footer].join("\n\n");
-    if (cap.length <= CAPTION_LIMIT) return cap;
+  const baseWithFooter = (body) => [header, body, footer].filter(Boolean).join("\n\n");
+
+  let firstBody = "";
+  let rest = "";
+  if (summary) {
+    const prefix = "Summary:\n";
+    const room = limit - baseWithFooter(prefix).length;
+    if (room > 40) {
+      if (summary.length <= room) {
+        firstBody = prefix + summary;
+      } else {
+        const cut = Math.max(0, room - 1);
+        let split = summary.lastIndexOf("\n\n", cut);
+        if (split < Math.floor(cut * 0.5)) split = summary.lastIndexOf("\n", cut);
+        if (split < Math.floor(cut * 0.5)) split = summary.lastIndexOf(" ", cut);
+        if (split < Math.floor(cut * 0.5)) split = cut;
+        firstBody = prefix + summary.slice(0, split).trimEnd() + "…";
+        rest = summary.slice(split).trimStart();
+      }
+    } else {
+      rest = summary;
+    }
   }
-  return clipMessage(`${titleOf(80)}\n\n${footer}`);
-}
 
-// Text-only fallback (no usable image): roomier budgets under the 4096 limit.
-function buildTextMessage(s) {
-  const d = safeClip(s.groq_discussion, 1800);
-  const e = safeClip(s.groq_explain, 1100);
-  const parts = [`<b>${safeClip(s.title, 160)}</b>`];
-  const label = safeClip(s.groq_label, 300);
-  if (label) parts.push(`💡 ${label}`);
-  if (d && d !== "No comments.") parts.push(`💬 <b>Hacker News discussion</b>\n${d}`);
-  if (e) parts.push(`📖 <b>TL;DR</b>\n${e}`);
-  const linkLine = articleLink(s);
-  if (linkLine) parts.push(linkLine);
-  parts.push(buildMeta(s), `🟠 ${hnItem(s.id)}`);
-  return clipMessage(parts.join("\n\n"));
-}
+  let first = baseWithFooter(firstBody);
+  if (first.length > limit) first = clipPlain(first, limit);
 
-function clipMessage(text) {
-  if (text.length <= MESSAGE_LIMIT) return text;
-  let t = text.slice(0, MESSAGE_LIMIT - 1);
-  t = t.replace(/&[a-z]*$/i, "").replace(/<[^>]*$/, "").trimEnd();
-  return t + " …";
+  let continuation = "";
+  if (rest) {
+    continuation = clipPlain(rest, MESSAGE_LIMIT);
+  }
+
+  return { first, continuation };
 }
 
 // ── Posting ──
@@ -256,9 +239,15 @@ async function postStory(token, chatId, s) {
 
   if (image?.kind === "url") {
     try {
+      const { first, continuation } = buildStoryMessages(s, { captionMode: true });
       await tgCall(token, "sendPhoto", {
-        chat_id: chatId, photo: image.value, caption: buildCaption(s), parse_mode: "HTML",
+        chat_id: chatId, photo: image.value, caption: first,
       });
+      if (continuation) {
+        await tgCall(token, "sendMessage", {
+          chat_id: chatId, text: continuation, disable_web_page_preview: true,
+        });
+      }
       return;
     } catch (err) {
       console.warn(`  ⚠ Photo URL rejected (${String(err.message).slice(0, 90)}) — downloading and re-uploading instead...`);
@@ -268,20 +257,31 @@ async function postStory(token, chatId, s) {
 
   if (image?.kind === "buffer") {
     try {
+      const { first, continuation } = buildStoryMessages(s, { captionMode: true });
       await tgCall(token, "sendPhoto",
-        { chat_id: chatId, caption: buildCaption(s), parse_mode: "HTML" },
+        { chat_id: chatId, caption: first },
         { field: "photo", data: image.data, mime: image.mime, name: image.name });
+      if (continuation) {
+        await tgCall(token, "sendMessage", {
+          chat_id: chatId, text: continuation, disable_web_page_preview: true,
+        });
+      }
       return;
     } catch {}
   }
 
-  // No usable image at all — text message with everything.
+  // No usable image at all — text message(s) with everything.
+  const { first, continuation } = buildStoryMessages(s, { captionMode: false });
   await tgCall(token, "sendMessage", {
     chat_id: chatId,
-    text: buildTextMessage(s),
-    parse_mode: "HTML",
+    text: first,
     disable_web_page_preview: false,
   });
+  if (continuation) {
+    await tgCall(token, "sendMessage", {
+      chat_id: chatId, text: continuation, disable_web_page_preview: true,
+    });
+  }
 }
 
 function normalizeUrl(url) {

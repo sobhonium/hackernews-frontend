@@ -1,11 +1,11 @@
-# HackerNews Frontend
+# HackerNews Reader
 
-A self-updating HackerNews reader that pre-commits LLM-powered summaries, discussions, and explanations for each story. Runs entirely on static files — no live API calls from the browser.
+A self-updating reader that fetches top Hacker News stories, reads the linked page/article content, and pre-generates LLM summaries. Runs entirely on static files — no live API calls from the browser.
 
 ## How it works
 
-1. A GitHub Action runs `update.mjs` on a schedule (every 10 minutes).
-2. It fetches the latest stories from the HN API, extracts article text, pulls top comments, and generates three LLM fields per story via a multi-provider fallback chain (Groq → Gemini → Mistral → OpenRouter).
+1. A GitHub Action runs `src/update.mjs` on a schedule (every 10 minutes).
+2. It fetches the latest stories from the HN API, extracts the linked page/article text, and generates a short label plus a summary via a multi-provider fallback chain (Groq → Gemini → Mistral → OpenRouter).
 3. Images are sourced from page metadata (OG tags), direct page scans, or AI generation (pollinations.ai) as a last resort.
 4. Stories accumulate in a rolling queue of the 30 most recent. Older entries are pruned automatically.
 5. The generated `data.json` and `images/` are committed back to the repo.
@@ -16,10 +16,10 @@ A self-updating HackerNews reader that pre-commits LLM-powered summaries, discus
 - Magazine-style masonry layout with CSS columns
 - Dark theme with geometric background and per-card accent colors
 - Featured hero card with gradient overlay
-- Inline expand for Discussion and Explain per story
+- Inline expand for the page/content summary
 - AI-generated images when no page image is found
 - Slack notifications on new data
-- Telegram channel posts: each story goes out as a single post with its image, label, discussion recap, and TL;DR in the caption
+- Telegram channel posts: each story goes out as a single post with its image, short label, and summary
 
 ## Setup
 
@@ -78,11 +78,10 @@ The workflow runs automatically every 10 minutes. Trigger manually from Actions 
 
 ## LLM providers
 
-The pipeline tries providers in order. Each story generates three fields:
+The pipeline tries providers in order. Each story generates:
 
-- **Label** — A one-line summary of what makes the story interesting
-- **Discussion** — What commenters are actually saying
-- **Explain** — A plain-language explanation of the post's core idea
+- **Label** — A one-line summary of the page/article
+- **Summary** — A clear summary of the page/article content
 
 ## License
 
