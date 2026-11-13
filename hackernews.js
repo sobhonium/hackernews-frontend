@@ -1,5 +1,4 @@
 const $ = (id) => document.getElementById(id)
-const HN_DISCUSSION = (id) => `https://news.ycombinator.com/item?id=${id}`
 
 function getDomain(url) {
   try { return new URL(url).hostname.replace(/^www\./, "") } catch { return "" }
@@ -18,14 +17,6 @@ const PALETTES = [
   ["#5a636c", "#8e96a0"],
 ]
 function gradient(n) { return PALETTES[n % PALETTES.length] }
-
-function commentBadge(count, href) {
-  const a = document.createElement("a")
-  a.href = href; a.target = "_blank"; a.rel = "noopener noreferrer"
-  a.className = "comment-badge"
-  a.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><span>${count}</span>`
-  return a
-}
 
 function darkenColor(hex, factor) {
   const r = parseInt(hex.slice(1,3), 16)
@@ -168,8 +159,7 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   }
   if (countEl) countEl.textContent = `top ${stories.length}`
 
-  const discussIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`
-  const explainIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>`
+  const summaryIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>`
 
   function buildInlineWrap() {
     const wrap = document.createElement("div")
@@ -194,7 +184,6 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   const featured = stories[0]
   if (featured) {
     const domain = getDomain(featured.url)
-    const discussionUrl = HN_DISCUSSION(featured.id)
     const cardId = `story-${featured.id}`
 
     const card = document.createElement("div")
@@ -210,9 +199,6 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
     imgLink.className = "featured-image-link"
     imgLink.appendChild(buildImageEl(featured.og_image, domain, true))
     card.appendChild(imgLink)
-
-    const badge = commentBadge(featured.descendants ?? 0, discussionUrl)
-    card.appendChild(badge)
 
     const overlayEl = document.createElement("div")
     overlayEl.className = "featured-overlay"
@@ -234,20 +220,17 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
     const meta = document.createElement("div")
     meta.className = "featured-meta"
-    meta.innerHTML =
-      `▲ ${featured.score ?? 0}  ·  ${featured.author ?? "?"}  ·  ${featured.descendants ?? 0} comments` +
-      (domain ? `  ·  ${domain}` : "")
+    meta.textContent = `▲ ${featured.score ?? 0}  ·  ${featured.author ?? "?"}` + (domain ? `  ·  ${domain}` : "")
     overlayEl.appendChild(meta)
 
     const summaryEl = document.createElement("div")
     summaryEl.className = "summary-box featured-summary"
-    summaryEl.innerHTML = featured.groq_label || "No summary."
+    summaryEl.textContent = featured.groq_label || "No summary."
     overlayEl.appendChild(summaryEl)
 
     const toggles = document.createElement("div")
     toggles.className = "toggles-row"
-    toggles.appendChild(makeExpandBtn("Discussion", discussIcon, "Discussion", featured.groq_discussion, cardId))
-    toggles.appendChild(makeExpandBtn("Explain", explainIcon, "Explain", featured.groq_explain, cardId))
+    toggles.appendChild(makeExpandBtn("Summary", summaryIcon, "Summary", featured.groq_explain, cardId))
     overlayEl.appendChild(toggles)
 
     overlayEl.appendChild(buildInlineWrap())
@@ -259,7 +242,6 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
   // ── Grid ──
   stories.slice(1).forEach((story, i) => {
     const domain = getDomain(story.url)
-    const discussionUrl = HN_DISCUSSION(story.id)
     const cardId = `story-${story.id}`
 
     const card = document.createElement("div")
@@ -285,9 +267,6 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
     imgLink.appendChild(imgWrap)
     card.appendChild(imgLink)
 
-    const badge = commentBadge(story.descendants ?? 0, discussionUrl)
-    card.appendChild(badge)
-
     const body = document.createElement("div")
     body.className = "story-card-body"
 
@@ -303,9 +282,7 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
     const meta = document.createElement("div")
     meta.className = "story-card-meta"
-    meta.innerHTML =
-      `▲ ${story.score ?? 0}  ·  ${story.author ?? "?"}  ·  ${story.descendants ?? 0} comments` +
-      (domain ? `  ·  ${domain}` : "")
+    meta.textContent = `▲ ${story.score ?? 0}  ·  ${story.author ?? "?"}` + (domain ? `  ·  ${domain}` : "")
     body.appendChild(meta)
 
     const summaryEl = document.createElement("div")
@@ -315,8 +292,7 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
     const toggles = document.createElement("div")
     toggles.className = "toggles-row"
-    toggles.appendChild(makeExpandBtn("Discussion", discussIcon, "Discussion", story.groq_discussion, cardId))
-    toggles.appendChild(makeExpandBtn("Explain", explainIcon, "Explain", story.groq_explain, cardId))
+    toggles.appendChild(makeExpandBtn("Summary", summaryIcon, "Summary", story.groq_explain, cardId))
     body.appendChild(toggles)
 
     body.appendChild(buildInlineWrap())

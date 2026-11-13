@@ -9,8 +9,7 @@ import { Mistral } from "@mistralai/mistralai";
 import fs from "fs";
 import {
   LABEL_SYSTEM,
-  DISCUSSION_SYSTEM,
-  EXPLAIN_SYSTEM,
+  SUMMARY_SYSTEM,
 } from "./prompt.js";
 import { notifyTelegram, markQueuePosted } from "./telegram.mjs";
 
@@ -21,7 +20,6 @@ const DB_PATH = "HN_data.db";
 const JSON_PATH = "data.json";
 const MAX_STORIES = 30;
 const FETCH_N = 15;
-const MAX_COMMENTS = 20;
 
 // ── SQLite helpers (callback → promise) ──
 function dbRun(db, sql, params = []) {
@@ -49,19 +47,8 @@ function dbAll(db, sql, params = []) {
 }
 
 // ── Helpers ──
-const _dom = new JSDOM("", { virtualConsole: vconsole });
-function stripHtml(html) {
-  const d = _dom.window.document.createElement("div");
-  d.innerHTML = html;
-  return d.textContent.replace(/\s+/g, " ").trim();
-}
-
 function getDomain(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
-}
-
-function formatComments(texts) {
-  return texts.map((t) => `— ${t.slice(0, 500)}`).join("\n");
 }
 
 // ── Fetch image from page (deep scan, direct fetch) ──
@@ -171,35 +158,28 @@ async function generateImage(id, title, articleText) {
 
 // ── Fetch article text ──
 async function fetchArticleText(url) {
-  const proxies = [
+  // Try direct fetch first (Node has no CORS restrictions), then fall back to proxies.
+  const attempts = [
+    (u) => u,
     (u) => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,
     (u) => `https://corsproxy.io/?url=${encodeURIComponent(u)}`,
     (u) => `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(u)}`,
   ];
-  for (const buildUrl of proxies) {
+  for (const buildUrl of attempts) {
     try {
-      const res = await fetch(buildUrl(url), { signal: AbortSignal.timeout(10000) });
+      const res = await fetch(buildUrl(url), {
+        signal: AbortSignal.timeout(10000),
+        headers: { "User-Agent": "Mozilla/5.0 (compatible; HNReader/1.0)" },
+      });
       if (!res.ok) continue;
       const html = await res.text();
-    const dom = new JSDOM(html, { url, virtualConsole: vconsole });
+      const dom = new JSDOM(html, { url, virtualConsole: vconsole });
       const article = new Readability(dom.window.document).parse();
       const text = article?.textContent?.replace(/\s+/g, " ").trim().slice(0, 8000);
       if (text && text.length > 100) return text;
     } catch {}
   }
   return "";
-}
-
-// ── Fetch HN comments ──
-async function fetchComments(kids) {
-  if (!kids?.length) return [];
-  const items = await Promise.all(
-    kids.slice(0, MAX_COMMENTS).map((id) =>
-      fetch(`https://hacker-news.firebaseio.com/v0/item/${id}.json`)
-        .then((r) => r.json()).catch(() => null)
-    )
-  );
-  return items.filter((c) => c && !c.deleted).map((c) => stripHtml(c.text || ""));
 }
 
 // ── Multi-provider LLM call ──
@@ -311,31 +291,20 @@ async function tryOpenRouter(system, user) {
   }
 }
 
-async function generateLabel(title, articleText, commentTexts) {
-  const a = articleText ? `Article:\n${articleText.slice(0, 3000)}\n\n` : "";
-  const c = commentTexts.length ? `Comments:\n${formatComments(commentTexts).slice(0, 3000)}` : "";
+async function generateLabel(title, articleText) {
+  const a = articleText ? `Page content:\n${articleText.slice(0, 3000)}` : "Page content: (could not extract readable content)";
   return await llmCall(
     LABEL_SYSTEM,
-    `Title: ${title}\n\n${a}${c}`
+    `Title: ${title}\n\n${a}`
   );
 }
 
-async function generateDiscussion(title, commentTexts) {
-  if (!commentTexts.length) return "No comments.";
+async function generateSummary(title, url, articleText) {
+  const a = articleText ? `Page content:\n${articleText.slice(0, 6000)}` : "Page content: (could not extract readable content from the page)";
   return await llmCall(
-    DISCUSSION_SYSTEM,
-    `Title: ${title}\n\nComments:\n${formatComments(commentTexts).slice(0, 3000)}`
+    SUMMARY_SYSTEM,
+    `Title: ${title}\nURL: ${url || "(none)"}\n\n${a}`
   );
-}
-
-async function generateExplain(title, articleText, commentTexts) {
-  if (articleText && articleText.length > 100) {
-    return await llmCall(
-      EXPLAIN_SYSTEM,
-      `Title: ${title}\n\nArticle:\n${articleText.slice(0, 3000)}`
-    );
-  }
-  return null;
 }
 
 // ── Main ──
@@ -393,29 +362,21 @@ async function main() {
 
     let ogImage = null;
     let articleText = "";
-    let commentTexts = [];
-    let label, discussion, explain;
+    let label, summary;
 
-    // Fetch OG image
-    console.log(`  Fetching OG image...`);
-    ogImage = story.url ? await fetchOgImage(story.url) : null;
-
-    // Fetch article text + comments in parallel
-    console.log(`  Fetching article + comments...`);
-    [articleText, commentTexts] = await Promise.all([
+    // Fetch OG image and article text in parallel
+    console.log(`  Fetching page image + content...`);
+    [ogImage, articleText] = await Promise.all([
+      story.url ? fetchOgImage(story.url) : Promise.resolve(null),
       story.url ? fetchArticleText(story.url) : Promise.resolve(""),
-      fetchComments(story.kids),
     ]);
 
-    // Generate LLM fields
+    // Generate summary fields from page content
     console.log(`  Generating label...`);
-    label = await generateLabel(story.title, articleText, commentTexts);
+    label = await generateLabel(story.title, articleText);
 
-    console.log(`  Generating discussion...`);
-    discussion = await generateDiscussion(story.title, commentTexts);
-
-    console.log(`  Generating explain...`);
-    explain = await generateExplain(story.title, articleText, commentTexts);
+    console.log(`  Generating summary...`);
+    summary = await generateSummary(story.title, story.url, articleText);
 
     // Generate AI image if no OG image found
     let finalImage = ogImage;
@@ -429,7 +390,7 @@ async function main() {
       }
     }
 
-    // Upsert
+    // Upsert (groq_discussion kept as null for compatibility; groq_explain stores the page summary)
     await dbRun(db,
       `INSERT OR REPLACE INTO HN_topstories
         (id, author, descendants, kids, score, time, title, type, url, og_image, groq_label, groq_discussion, groq_explain)
@@ -438,7 +399,7 @@ async function main() {
         story.id, story.by, story.descendants,
         JSON.stringify(story.kids || []), story.score, story.time,
         story.title, story.type, story.url, finalImage,
-        label, discussion, explain,
+        label, null, summary,
       ]
     );
 
@@ -447,7 +408,7 @@ async function main() {
       id: story.id, author: story.by, descendants: story.descendants,
       kids: JSON.stringify(story.kids || []), score: story.score, time: story.time,
       title: story.title, type: story.type, url: story.url, og_image: finalImage,
-      groq_label: label, groq_discussion: discussion, groq_explain: explain,
+      groq_label: label, groq_discussion: null, groq_explain: summary,
     };
     queue.push(entry);
     newStories.push(entry);
