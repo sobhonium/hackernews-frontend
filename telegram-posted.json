@@ -1518,7 +1518,15 @@
     50468944,
     50471650,
     50472490,
-    50465352
+    50465352,
+    50477714,
+    50472038,
+    50475713,
+    50474361,
+    50477231,
+    50473190,
+    50474311,
+    50471761
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3014,6 +3022,14 @@
     "https://github.com/chocoford/ExcalidrawZ",
     "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
     "https://smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857",
-    "https://pron.github.io/posts/correctness-and-complexity"
+    "https://pron.github.io/posts/correctness-and-complexity",
+    "https://folklore.org/Switcher.html",
+    "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0",
+    "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "https://developer.apple.com/foundation-models-framework",
+    "https://wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
+    "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12",
+    "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+    "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460"
   ]
 }
