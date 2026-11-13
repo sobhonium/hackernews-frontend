@@ -1,8 +1,23 @@
 {
   "_meta": {
-    "lastUpdated": "2026-11-13T22:07:32.154Z"
+    "lastUpdated": "2026-11-13T22:25:13.875Z"
   },
   "stories": [
+    {
+      "id": 50490593,
+      "author": "mmaunder",
+      "descendants": 0,
+      "kids": "[]",
+      "score": 8,
+      "time": 1794607464,
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "type": "story",
+      "url": "https://orcasairband.com/",
+      "og_image": "images/50490593.png",
+      "groq_label": "Live airband transmission from KORS is broadcasting on all frequencies, leading to a ground stop in Victoria, CA.",
+      "groq_discussion": null,
+      "groq_explain": "The page you tried to view does not contain readable text, so the exact wording of the article cannot be reproduced.  However, the title gives enough clues to outline what the page is likely about.\n\n**What it appears to be**\n\n- The title mentions a “Live airband on all frequencies from KORS.” In aviation, an “airband” usually refers to the collection of VHF radio frequencies used by aircraft and air traffic control (e.g., 118 MHz – 137 MHz). A “live airband” service streams the actual audio from those frequencies in real time.\n- “KORS” is probably the call sign of a radio station, a broadcast facility, or a specific aviation communications source that is providing the feed. It could be a local airport radio service, a community broadcaster that rebroadcasts aviation traffic, or a dedicated web‑stream.\n- The second part of the title, “Victoria, CA also ground stopped,” signals an operational notice: a ground stop has been issued for Victoria, California. A ground stop is an ATC directive that halts departures (and sometimes arrivals) at a particular airport or region, usually due to weather, staffing, security, or other safety concerns.\n\n**Likely main points**\n\n1. **Live streaming of all aviation VHF frequencies** – The site probably offers a web player or download link that lets listeners hear everything that is being transmitted on the airband in the KORS coverage area. This would include ATC clearances, traffic advisories, weather updates, and pilot‑to‑pilot communications.\n\n2. **Real‑time operational alerts** – By highlighting that “Victoria, CA also ground stopped,” the page is informing pilots, airline operators, and aviation enthusiasts that a ground stop is in effect for the Victoria airport (or a nearby facility). It may also provide the reason for the stop, expected duration, or instructions for affected flights.\n\n3. **Comprehensive coverage** – The phrase “on all frequencies” suggests that the stream does not limit itself to a single channel (such as the tower frequency) but aggregates multiple frequencies—tower, ground, approach, departure, and possibly en‑route channels—so users can hear a full picture of the local air traffic environment.\n\n**Why it matters**\n\n- **Safety and situational awareness** – Real‑time listening to ATC communications helps pilots and flight crews stay aware of traffic and any rapidly changing conditions, especially when a ground stop is issued.\n- **Operational planning** – Airlines, dispatchers, and pilots can use the information to adjust flight plans, re‑route aircraft, or hold crews until the ground stop is lifted.\n- **Aviation enthusiasts and hobbyists** – Many people enjoy monitoring live airband feeds to follow aircraft movements, learn ATC procedures, or simply listen to the dynamic environment of a busy airport.\n- **Transparency** – Providing an open feed of all frequencies can serve as a public‑service resource, giving the community insight into how local air traffic is being managed, especially during disruptions like a ground stop.\n\n**What can be inferred about the website**\n\nBecause the page could not be parsed, the site likely consists mainly of a streaming player, a brief status banner, and perhaps a few explanatory notes about how to use the feed. It may also list additional notices (e.g., weather advisories, NOTAMs) alongside the live audio. The focus is functional rather than editorial: delivering raw, unfiltered aviation communications to anyone with an internet connection.\n\nIn short, the page appears to be a live audio stream of all aviation VHF frequencies provided by KORS, accompanied by an urgent notice that a ground stop has been placed on operations at Victoria, California. This information is valuable for pilots, airline operators, and aviation hobbyists who need up‑to‑date traffic and operational data."
+    },
     {
       "id": 50489652,
       "author": "defly",
