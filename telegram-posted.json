@@ -1526,7 +1526,22 @@
     50477231,
     50473190,
     50474311,
-    50471761
+    50471761,
+    50474959,
+    50487185,
+    50482379,
+    50484235,
+    50487228,
+    50486748,
+    50487861,
+    50484007,
+    50486480,
+    50486482,
+    50483959,
+    50483611,
+    50487762,
+    50485295,
+    50476257
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3030,6 +3045,21 @@
     "https://wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
     "https://reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12",
     "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-    "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460"
+    "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460",
+    "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud",
+    "https://haddyalchaer.com/jepa",
+    "https://science.org/doi/10.1126/science.132.3436.1291",
+    "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+    "https://isometricsf.com/",
+    "https://theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+    "https://github.com/me-farza/lightreason/tree/main",
+    "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
+    "https://github.com/bitsinfra/gnomon",
+    "https://twitter.com/LibreOffice/status/2121205272479998268",
+    "https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets",
+    "https://mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming",
+    "https://alphaxiv.org/abs/2611.weight-space-misfolding",
+    "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+    "https://cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia"
   ]
 }
