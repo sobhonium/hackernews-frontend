@@ -47,68 +47,69 @@ function buildImageEl(url, domain, isFeatured) {
   return d
 }
 
+function escapeHtmlText(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+}
+
 function formatContent(text) {
   if (!text) return "<p class='inline-empty'>No content available.</p>"
-  const lines = text.split("\n").filter(Boolean)
-  const hasBullets = lines.some(l => /^[—\-•]\s/.test(l.trim()))
-  if (hasBullets) {
-    const items = lines.map(l => {
-      const clean = l.replace(/^[—\-•]\s*/, "")
-      return `<li>${clean}</li>`
-    }).join("")
-    return `<ul class="inline-list">${items}</ul>`
+  const cleaned = String(text)
+    .replace(/\r\n/g, "\n")
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .replace(/__(.+?)__/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/(^|[\s(])\*([^\n*]+)\*(?=[\s).,!?:;]|$)/g, "$1$2")
+    .replace(/(^|[\s(])_([^\n_]+)_(?=[\s).,!?:;]|$)/g, "$1$2")
+    .replace(/^[ \t]*[—\-•*]+\s+/gm, "")
+    .replace(/^[ \t]*\d+[.)]\s+/gm, "")
+    .replace(/^[ \t]*#{1,6}\s+/gm, "")
+    .trim()
+  if (!cleaned) return "<p class='inline-empty'>No content available.</p>"
+  const paragraphs = cleaned.split(/\n{2,}/).map(p => p.trim()).filter(Boolean)
+  if (paragraphs.length > 1) {
+    return paragraphs.map(p => `<p class="inline-text">${escapeHtmlText(p).replace(/\n/g, "<br>")}</p>`).join("")
   }
-  return `<p class="inline-text">${text}</p>`
+  return `<p class="inline-text">${escapeHtmlText(cleaned).replace(/\n/g, "<br>")}</p>`
 }
 
-// ── Expand / Collapse ──
-let expandedId = null
-let expandedType = null
-
-function collapseExpand() {
-  if (!expandedId) return
-  const el = document.querySelector(`[data-expand-id="${expandedId}"]`)
-  if (el) {
-    el.classList.remove("story-card--expanded")
-    const c = el.querySelector(".story-card-inline-content")
-    if (c) c.hidden = true
-    const badge = el.querySelector(".story-card-expanded-badge")
-    if (badge) badge.hidden = true
-  }
-  expandedId = null
-  expandedType = null
+// ── Summary Modal ──
+function openSummaryModal(story) {
+  const modal = document.getElementById("summary-modal")
+  if (!modal) return
+  const domain = getDomain(story.url)
+  const meta = `▲ ${story.score ?? 0}  ·  ${story.author ?? "?"}` + (domain ? `  ·  ${domain}` : "")
+  document.getElementById("summary-modal-title").textContent = story.title || ""
+  document.getElementById("summary-modal-meta").textContent = meta
+  document.getElementById("summary-modal-label").textContent = story.groq_label || ""
+  document.getElementById("summary-modal-content").innerHTML = formatContent(story.groq_explain)
+  modal.hidden = false
+  modal.setAttribute("aria-hidden", "false")
+  document.body.style.overflow = "hidden"
 }
 
-function toggleExpand(cardId, type, content) {
-  if (expandedId === cardId && expandedType === type) {
-    collapseExpand()
-    return
-  }
-  collapseExpand()
-  const el = document.querySelector(`[data-expand-id="${cardId}"]`)
-  if (!el) return
-  expandedId = cardId
-  expandedType = type
-  el.classList.add("story-card--expanded")
-  const c = el.querySelector(".story-card-inline-content")
-  if (c) {
-    c.innerHTML = formatContent(content)
-    c.hidden = false
-  }
-  const badge = el.querySelector(".story-card-expanded-badge")
-  if (badge) {
-    badge.textContent = type
-    badge.className = "story-card-expanded-badge story-card-expanded-badge--" + type.toLowerCase()
-    badge.hidden = false
-  }
-  el.scrollIntoView({ behavior: "smooth", block: "center" })
+function closeSummaryModal() {
+  const modal = document.getElementById("summary-modal")
+  if (!modal || modal.hidden) return
+  modal.hidden = true
+  modal.setAttribute("aria-hidden", "true")
+  document.body.style.overflow = ""
 }
 
-function makeExpandBtn(label, iconSvg, type, content, cardId) {
+document.addEventListener("click", (e) => {
+  if (e.target.closest("[data-close-modal]")) closeSummaryModal()
+})
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeSummaryModal()
+})
+
+function makeSummaryBtn(story, iconSvg) {
   const btn = document.createElement("button")
   btn.className = "toggle-btn expand-btn"
-  btn.innerHTML = iconSvg + " " + label
-  btn.addEventListener("click", () => toggleExpand(cardId, type, content))
+  btn.innerHTML = iconSvg + " Summary"
+  btn.addEventListener("click", () => openSummaryModal(story))
   const wrap = document.createElement("div")
   wrap.className = "toggle-wrap"
   wrap.appendChild(btn)
@@ -161,24 +162,7 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
   const summaryIcon = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>`
 
-  function buildInlineWrap() {
-    const wrap = document.createElement("div")
-    wrap.className = "story-card-inline-wrap"
-    const badge = document.createElement("span")
-    badge.className = "story-card-expanded-badge"
-    badge.hidden = true
-    wrap.appendChild(badge)
-    const content = document.createElement("div")
-    content.className = "story-card-inline-content"
-    content.hidden = true
-    wrap.appendChild(content)
-    const closeBtn = document.createElement("button")
-    closeBtn.className = "story-card-inline-close"
-    closeBtn.textContent = "Collapse"
-    closeBtn.addEventListener("click", collapseExpand)
-    wrap.appendChild(closeBtn)
-    return wrap
-  }
+  // inline summary panel removed; summaries open in modal
 
   // ── Featured ──
   const featured = stories[0]
@@ -230,10 +214,8 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
     const toggles = document.createElement("div")
     toggles.className = "toggles-row"
-    toggles.appendChild(makeExpandBtn("Summary", summaryIcon, "Summary", featured.groq_explain, cardId))
+    toggles.appendChild(makeSummaryBtn(featured, summaryIcon))
     overlayEl.appendChild(toggles)
-
-    overlayEl.appendChild(buildInlineWrap())
     card.appendChild(overlayEl)
     featuredSection.appendChild(card)
     featuredSection.hidden = false
@@ -292,10 +274,8 @@ function makeExpandBtn(label, iconSvg, type, content, cardId) {
 
     const toggles = document.createElement("div")
     toggles.className = "toggles-row"
-    toggles.appendChild(makeExpandBtn("Summary", summaryIcon, "Summary", story.groq_explain, cardId))
+    toggles.appendChild(makeSummaryBtn(story, summaryIcon))
     body.appendChild(toggles)
-
-    body.appendChild(buildInlineWrap())
     card.appendChild(body)
     grid.appendChild(card)
   })
