@@ -96,8 +96,22 @@ export async function tgCall(token, method, fields, file, attempt = 0) {
 }
 
 // ── Message formatting ──
+function sanitizePlain(text) {
+  return String(text || "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\*\*(.+?)\*\*/g, "$1")
+    .replace(/__(.+?)__/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/(^|[\s(])\*([^\n*]+)\*(?=[\s).,!?:;]|$)/g, "$1$2")
+    .replace(/(^|[\s(])_([^\n_]+)_(?=[\s).,!?:;]|$)/g, "$1$2")
+    .replace(/^[ \t]*[—\-•*]+\s+/gm, "")
+    .replace(/^[ \t]*\d+[.)]\s+/gm, "")
+    .replace(/^[ \t]*#{1,6}\s+/gm, "")
+    .trim();
+}
+
 function clipPlain(text, max) {
-  const t = (text || "").trim();
+  const t = sanitizePlain(text);
   if (t.length <= max) return t;
   return t.slice(0, Math.max(0, max - 1)).trimEnd() + "…";
 }
@@ -122,8 +136,8 @@ function buildStoryMessages(s, { captionMode }) {
   const linkLine = articleLink(s);
   const footer = [buildMeta(s), linkLine].filter(Boolean).join("\n");
   const title = clipPlain(s.title || "", 200);
-  const label = (s.groq_label || "").trim();
-  const summary = (s.groq_explain || "").trim();
+  const label = sanitizePlain(s.groq_label || "");
+  const summary = sanitizePlain(s.groq_explain || "");
   const limit = captionMode ? CAPTION_LIMIT : MESSAGE_LIMIT;
 
   const headerParts = [title];

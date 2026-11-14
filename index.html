@@ -42,6 +42,18 @@
         <p>Curated from <a href="https://news.ycombinator.com" target="_blank">Hacker News</a></p>
     </footer>
 
+    <div id="summary-modal" class="summary-modal" hidden aria-hidden="true">
+        <div class="summary-modal-backdrop" data-close-modal></div>
+        <div class="summary-modal-card" role="dialog" aria-modal="true" aria-labelledby="summary-modal-title">
+            <button class="summary-modal-close" type="button" aria-label="Close" data-close-modal>&times;</button>
+            <div class="summary-modal-tag">Summary</div>
+            <h2 id="summary-modal-title" class="summary-modal-title"></h2>
+            <div id="summary-modal-meta" class="summary-modal-meta"></div>
+            <div id="summary-modal-label" class="summary-modal-label"></div>
+            <div id="summary-modal-content" class="summary-modal-content"></div>
+        </div>
+    </div>
+
     <script src="hackernews.js"></script>
 </body>
 </html>
