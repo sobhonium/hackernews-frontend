@@ -1631,7 +1631,22 @@
     50525575,
     50522643,
     50515035,
-    50497621
+    50497621,
+    50535230,
+    50535238,
+    50535885,
+    50537156,
+    50536813,
+    50535992,
+    50536387,
+    50532191,
+    50537290,
+    50536468,
+    50535208,
+    50536031,
+    50534429,
+    50532385,
+    50497872
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3239,6 +3254,20 @@
     "https://twitter.com/id_aa_carmack/status/2122478083319992513",
     "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
     "https://danluu.com/astra-testing",
-    "https://alperenkeles.com/posts/formal-verification-is-not-verifiable"
+    "https://alperenkeles.com/posts/formal-verification-is-not-verifiable",
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://developer.apple.com/system-status",
+    "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash",
+    "https://github.com/jquery/jquery/releases/tag/4.1.0",
+    "https://sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+    "https://phrack.org/issues/73/introduction_md",
+    "https://solidjs.com/blog/solid-2-0-the-long-hold",
+    "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+    "https://browser.engineering/",
+    "https://starsling.dev/",
+    "https://read.corematter.com/p/section-232-us-machine-tools",
+    "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people",
+    "https://alloyhtml.com/example.html",
+    "https://aboard.com/lets-have-a-mouse-party"
   ]
 }
