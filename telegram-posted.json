@@ -1620,7 +1620,18 @@
     50520518,
     50443844,
     50517321,
-    50520866
+    50520866,
+    50522980,
+    50524736,
+    50523601,
+    50524767,
+    50523459,
+    50510969,
+    50526152,
+    50525575,
+    50522643,
+    50515035,
+    50497621
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3217,6 +3228,17 @@
     "https://copyrightlately.com/michael-mann-heat-copyright-termination",
     "https://nytimes.com/2026/11/08/world/canada/roadside-attractions-giant-dinosaur.html",
     "https://theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-    "https://breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level"
+    "https://breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level",
+    "https://cs.cmu.edu/learn",
+    "https://xusheng.dev/posts/windows-coding-agent-telemetry",
+    "https://bugmenot.com/",
+    "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely",
+    "https://opencode.ai/product/browse",
+    "https://retrocomputing.stackexchange.com/questions/11765",
+    "https://blog.antonio.cx/running-agents-with-lend",
+    "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+    "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+    "https://danluu.com/astra-testing",
+    "https://alperenkeles.com/posts/formal-verification-is-not-verifiable"
   ]
 }
