@@ -1656,7 +1656,22 @@
     50539747,
     50532849,
     50541538,
-    50541790
+    50541790,
+    50547374,
+    50548021,
+    50550415,
+    50550062,
+    50547620,
+    50545958,
+    50547777,
+    50549493,
+    50550096,
+    50548004,
+    50547980,
+    50548161,
+    50548660,
+    50546914,
+    50549188
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3288,6 +3303,19 @@
     "https://wiki.archiveteam.org/index.php/Apple_Discussions",
     "https://cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
     "https://ycombinator.com/companies/gogograndparent/jobs/05woouL-front-end-javascript-typescript-engineer",
-    "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long"
+    "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+    "https://wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "https://microsoft.ai/news/microsoft-ignite-2026",
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+    "https://underwood.network/http/scots.html",
+    "https://inside-db.com/",
+    "https://techstackups.com/articles/quad9-leaves-france-dns-blocking",
+    "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+    "https://openai.com/index/advancing-chip-design-with-our-models",
+    "https://jimmyhmiller.com/magic-of-partial-evaluation",
+    "https://cve.org/CVERecord?id=CVE-2026-99312",
+    "https://exitpath-ruddy.vercel.app/",
+    "https://rshekhar.com/voyager",
+    "https://cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026"
   ]
 }
