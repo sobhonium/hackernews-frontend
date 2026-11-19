@@ -1671,7 +1671,16 @@
     50548161,
     50548660,
     50546914,
-    50549188
+    50549188,
+    50552424,
+    50554374,
+    50554038,
+    50554935,
+    50553225,
+    50551046,
+    50525260,
+    50542441,
+    50530088
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3316,6 +3325,15 @@
     "https://cve.org/CVERecord?id=CVE-2026-99312",
     "https://exitpath-ruddy.vercel.app/",
     "https://rshekhar.com/voyager",
-    "https://cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026"
+    "https://cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+    "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model",
+    "https://ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string",
+    "https://ut2004.dev/",
+    "https://slowchronicle.com/posts/llm-assisted-reverse-engineering",
+    "https://radixark.com/blog/daisyrose-27b",
+    "https://kusha.me/blog/stop_myq_homebridge_819lmb_rebooting",
+    "https://ruralindiaonline.org/article/mosquitoes-are-ladakh-s-latest-tourists",
+    "https://cameraindex.co.uk/"
   ]
 }
