@@ -1703,7 +1703,22 @@
     50568861,
     50528119,
     50538977,
-    50567374
+    50567374,
+    50579568,
+    50574968,
+    50577265,
+    50578358,
+    50576855,
+    50579331,
+    50576232,
+    50579297,
+    50572355,
+    50572503,
+    50572348,
+    50578233,
+    50577613,
+    50526023,
+    50578117
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3380,6 +3395,20 @@
     "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
     "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024",
     "https://notesbylex.com/weight-space-programming-1990s",
-    "https://regexr.com/"
+    "https://regexr.com/",
+    "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh",
+    "https://alpo.ge/remark.pdf",
+    "https://arxiv.org/abs/2611.21885",
+    "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis",
+    "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again",
+    "https://manidoraisamy.com/developer-to-architect.html",
+    "https://github.com/tristanbuckmaster/navier-stokes",
+    "https://ankitg.me/blog/vibecoding-inference-chip",
+    "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+    "https://architectlabs.com/blog/frostbite",
+    "https://signal.org/blog/protecting-your-privacy",
+    "https://github.com/XITRIX/ppsspp-nx2/blob/master/SWITCH2-GAMESHARE.md",
+    "https://kobi.music/research/dettato",
+    "https://certuvia.com/blog/postgres-19"
   ]
 }
