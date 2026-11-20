@@ -1695,7 +1695,15 @@
     50547048,
     50564366,
     50558533,
-    50556287
+    50556287,
+    50568130,
+    50569226,
+    50569985,
+    50569516,
+    50568861,
+    50528119,
+    50538977,
+    50567374
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3364,6 +3372,14 @@
     "https://youtube.com/watch?v=-TLCGUpoD6c",
     "https://youtube.com/watch?v=lwfewYL7X0o",
     "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff",
-    "https://verialabs.com/ruby2shell"
+    "https://verialabs.com/ruby2shell",
+    "https://git-aarvin.github.io/mei",
+    "https://github.com/openssl/openssl/pull/33652",
+    "https://gimp.org/news/2026/11/16/gimp-ui-tests",
+    "https://snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat",
+    "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
+    "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024",
+    "https://notesbylex.com/weight-space-programming-1990s",
+    "https://regexr.com/"
   ]
 }
