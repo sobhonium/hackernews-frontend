@@ -1718,7 +1718,14 @@
     50578233,
     50577613,
     50526023,
-    50578117
+    50578117,
+    50581260,
+    50583274,
+    50585376,
+    50534387,
+    50583768,
+    50581110,
+    50581177
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3409,6 +3416,13 @@
     "https://signal.org/blog/protecting-your-privacy",
     "https://github.com/XITRIX/ppsspp-nx2/blob/master/SWITCH2-GAMESHARE.md",
     "https://kobi.music/research/dettato",
-    "https://certuvia.com/blog/postgres-19"
+    "https://certuvia.com/blog/postgres-19",
+    "https://thinkingmachines.ai/news/inkling-2-mini",
+    "https://ninlive.com/",
+    "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain",
+    "https://valkey.io/blog/from-skiplist-to-b+tree",
+    "https://esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+    "https://masteringemacs.org/article/announcing-dreamcoder",
+    "https://signoregalilei.com/2026/11/20/and-yet-it-moves"
   ]
 }
