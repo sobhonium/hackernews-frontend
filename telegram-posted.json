@@ -1828,7 +1828,21 @@
     50638070,
     50634658,
     50637874,
-    50627079
+    50627079,
+    50644817,
+    50646108,
+    50643129,
+    50589784,
+    50644980,
+    50646662,
+    50645074,
+    50601280,
+    50641171,
+    50642086,
+    50642939,
+    50608175,
+    50624446,
+    50635783
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3627,6 +3641,20 @@
     "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
     "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
     "https://scottaaronson.blog/?p=10362",
-    "https://dominicroye.github.io/shapes-of-rivers"
+    "https://dominicroye.github.io/shapes-of-rivers",
+    "https://1password.com/blog/update-on-nov-2026-security-incident",
+    "https://scottaaronson.blog/?p=10379",
+    "https://vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+    "https://zydra.sh/articles/ssh-is-a-gui-framework",
+    "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+    "https://danprice.ai/blog/opus-symphony",
+    "https://spectator.com/article/britains-ghost-stations-are-fascinating",
+    "https://bjin.github.io/go-codegolf-benchmark",
+    "https://github.com/xoxorwr/pw-loudness-eq",
+    "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+    "https://s.conao3.com/blog/2026/e4f733",
+    "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation",
+    "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+    "https://engram.com/blog/lora-size"
   ]
 }
