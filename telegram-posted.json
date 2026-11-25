@@ -1814,7 +1814,21 @@
     50632883,
     50627783,
     50610820,
-    50633159
+    50633159,
+    50637220,
+    50638032,
+    50637686,
+    50638647,
+    50638503,
+    50637056,
+    50638220,
+    50637890,
+    50638320,
+    50637888,
+    50638070,
+    50634658,
+    50637874,
+    50627079
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3599,6 +3613,20 @@
     "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you",
     "https://twitter.com/raul_bs3/status/2125213756238291075",
     "https://core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
-    "https://grafana.com/grafana/download"
+    "https://grafana.com/grafana/download",
+    "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+    "https://buttons.joshwcomeau.com/",
+    "https://lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+    "https://github.com/samcorcos/legatum/issues/147",
+    "https://gpu-demo-gallery.pages.dev/",
+    "https://greydanus.github.io/2026/11/12/pengpt",
+    "https://marginalia.nu/log/a_141_marginalia_update",
+    "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+    "https://comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
+    "https://citrons.xyz/journal/2025-07-23",
+    "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "https://scottaaronson.blog/?p=10362",
+    "https://dominicroye.github.io/shapes-of-rivers"
   ]
 }
