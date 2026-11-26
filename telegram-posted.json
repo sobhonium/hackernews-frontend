@@ -1842,7 +1842,18 @@
     50642939,
     50608175,
     50624446,
-    50635783
+    50635783,
+    50648050,
+    50626466,
+    50650892,
+    50649864,
+    50651719,
+    50649834,
+    50598636,
+    50647181,
+    50651117,
+    50637448,
+    50648365
   ],
   "urls": [
     "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
@@ -3655,6 +3666,16 @@
     "https://s.conao3.com/blog/2026/e4f733",
     "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation",
     "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
-    "https://engram.com/blog/lora-size"
+    "https://engram.com/blog/lora-size",
+    "https://github.com/lsernau/grh-lean",
+    "https://friedgil.com/vpvnp",
+    "https://progrium.github.io/minipg",
+    "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix",
+    "https://aresluna.org/ui-style-guides",
+    "https://gwern.net/doc/fiction/science-fiction/1953-dahl-thegreatautomaticgrammatizator.pdf",
+    "https://openwall.com/lists/oss-security/2026/11/25/9",
+    "https://twitter.com/thsottiaux/status/2125784147889393806",
+    "https://blog.coredump.cx/p/how-did-pinwheel-calculators-work",
+    "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
   ]
 }
